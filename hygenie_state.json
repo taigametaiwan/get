@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "luongson",
-  "updated_at": "2026-07-23T00:15:33.201307+07:00",
+  "updated_at": "2026-07-23T00:32:53.828507+07:00",
   "matches": {
     "271fb65c8c25": {
       "url": "https://laservision.io/truc-tiep/mashal-muborak-vs-nasaf-qarshi-vao-luc-2200-22-07-2026/?blv=359",
@@ -49,9 +49,9 @@
       "url": "https://laservision.io/truc-tiep/omonia-nicosia-fc-vs-fc-kairat-almaty-vao-luc-0000-23-07-2026/?blv=135",
       "match_name": "OMONIA NICOSIA FC vs FC KAIRAT ALMATY",
       "kickoff_iso": "2026-07-23T00:00:00+07:00",
-      "minutes_to_kickoff": -12,
-      "last_scan_at": "2026-07-23T00:15:33.200865+07:00",
-      "next_scan_at": "2026-07-23T00:20:33.200865+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-23T00:32:53.828218+07:00",
+      "next_scan_at": "2026-07-23T00:37:53.828218+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -91,9 +91,9 @@
       "url": "https://laservision.io/truc-tiep/cadiz-vs-leicester-city-vao-luc-0000-23-07-2026/?blv=368",
       "match_name": "CADIZ vs LEICESTER CITY",
       "kickoff_iso": "2026-07-23T00:00:00+07:00",
-      "minutes_to_kickoff": -12,
-      "last_scan_at": "2026-07-23T00:15:33.200865+07:00",
-      "next_scan_at": "2026-07-23T00:20:33.200865+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-23T00:32:53.828218+07:00",
+      "next_scan_at": "2026-07-23T00:37:53.828218+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -105,9 +105,9 @@
       "url": "https://laservision.io/truc-tiep/tottenham-hotspur-vs-mk-dons-vao-luc-2300-22-07-2026/?blv=218",
       "match_name": "TOTTENHAM HOTSPUR vs MK DONS",
       "kickoff_iso": "2026-07-22T23:00:00+07:00",
-      "minutes_to_kickoff": -72,
-      "last_scan_at": "2026-07-23T00:15:33.200865+07:00",
-      "next_scan_at": "2026-07-23T00:20:33.200865+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-23T00:32:53.828218+07:00",
+      "next_scan_at": "2026-07-23T00:37:53.828218+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -119,9 +119,9 @@
       "url": "https://laservision.io/truc-tiep/napoli-vs-arezzo-vao-luc-2300-22-07-2026/?blv=300",
       "match_name": "NAPOLI vs AREZZO",
       "kickoff_iso": "2026-07-22T23:00:00+07:00",
-      "minutes_to_kickoff": -72,
-      "last_scan_at": "2026-07-23T00:15:33.200865+07:00",
-      "next_scan_at": "2026-07-23T00:20:33.200865+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-23T00:32:53.828218+07:00",
+      "next_scan_at": "2026-07-23T00:37:53.828218+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -133,21 +133,23 @@
       "url": "https://laservision.io/truc-tiep/lillestrom-vs-viking-vao-luc-0000-23-07-2026/?blv=292",
       "match_name": "LILLESTROM vs VIKING",
       "kickoff_iso": "2026-07-23T00:00:00+07:00",
-      "minutes_to_kickoff": -12,
-      "last_scan_at": "2026-07-23T00:15:33.200865+07:00",
-      "next_scan_at": "2026-07-23T00:20:33.200865+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-23T00:32:53.828218+07:00",
+      "next_scan_at": "2026-07-23T00:37:53.828218+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+      ],
       "scan_decision": "browser-fallback"
     },
     "ee872e6299fd": {
       "url": "https://laservision.io/truc-tiep/bodo-glimt-vs-ham-kam-vao-luc-0000-23-07-2026/?blv=269",
       "match_name": "BODO GLIMT vs HAM-KAM",
       "kickoff_iso": "2026-07-23T00:00:00+07:00",
-      "minutes_to_kickoff": -12,
-      "last_scan_at": "2026-07-23T00:15:33.200865+07:00",
-      "next_scan_at": "2026-07-23T00:20:33.200865+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-23T00:32:53.828218+07:00",
+      "next_scan_at": "2026-07-23T00:37:53.828218+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -159,9 +161,9 @@
       "url": "https://laservision.io/truc-tiep/istanbul-basaksehir-vs-inter-turku-vao-luc-0045-23-07-2026/?blv=383",
       "match_name": "ISTANBUL BASAKSEHIR vs INTER TURKU",
       "kickoff_iso": "2026-07-23T00:45:00+07:00",
-      "minutes_to_kickoff": 30,
-      "last_scan_at": "2026-07-23T00:15:33.200865+07:00",
-      "next_scan_at": "2026-07-23T00:20:33.200865+07:00",
+      "minutes_to_kickoff": 14,
+      "last_scan_at": "2026-07-23T00:32:53.828218+07:00",
+      "next_scan_at": "2026-07-23T00:37:53.828218+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -171,15 +173,17 @@
     },
     "95c9c9a0dfb2": {
       "url": "https://laservision.io/truc-tiep/fc-vardar-skopje-vs-riga-fc-vao-luc-0100-23-07-2026/?blv=315",
-      "match_name": "Trực tiếp trận đấu FC Vardar Skopje vs Riga FC",
+      "match_name": "FC VARDAR SKOPJE vs RIGA FC",
       "kickoff_iso": "2026-07-23T01:00:00+07:00",
-      "minutes_to_kickoff": 48,
-      "last_scan_at": "2026-07-23T00:15:33.200865+07:00",
-      "next_scan_at": "2026-07-23T00:35:33.200865+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-23T00:32:53.828218+07:00",
+      "next_scan_at": "2026-07-23T00:37:53.828218+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "b15432e084c6": {
       "url": "https://laservision.io/truc-tiep/spartak-trnava-vs-cska-1948-sofia-vao-luc-0130-23-07-2026/?blv=372",
@@ -197,9 +201,9 @@
       "url": "https://laservision.io/truc-tiep/fc-neftci-baku-vs-dinamo-minsk-vao-luc-2300-22-07-2026/?blv=328",
       "match_name": "FC NEFTCI BAKU vs DINAMO MINSK",
       "kickoff_iso": "2026-07-22T23:00:00+07:00",
-      "minutes_to_kickoff": -72,
-      "last_scan_at": "2026-07-23T00:15:33.200865+07:00",
-      "next_scan_at": "2026-07-23T00:20:33.200865+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-23T00:32:53.828218+07:00",
+      "next_scan_at": "2026-07-23T00:37:53.828218+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -235,15 +239,27 @@
       "url": "https://laservision.io/truc-tiep/levski-sofia-vs-cs-universitatea-craiova-vao-luc-0030-23-07-2026/?blv=374",
       "match_name": "LEVSKI SOFIA vs CS UNIVERSITATEA CRAIOVA",
       "kickoff_iso": "2026-07-23T00:30:00+07:00",
-      "minutes_to_kickoff": 18,
-      "last_scan_at": "2026-07-23T00:15:33.200865+07:00",
-      "next_scan_at": "2026-07-23T00:20:33.200865+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-07-23T00:32:53.828218+07:00",
+      "next_scan_at": "2026-07-23T00:37:53.828218+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "0ddc8122b628": {
+      "url": "https://laservision.io/truc-tiep/independiente-del-valle-vs-tecnico-universitario-vao-luc-0430-23-07-2026/?blv=380",
+      "match_name": "Trực tiếp trận đấu Independiente del Valle vs Tecnico Universitario",
+      "kickoff_iso": "2026-07-23T04:30:00+07:00",
+      "minutes_to_kickoff": 239,
+      "last_scan_at": "2026-07-23T00:32:53.828218+07:00",
+      "next_scan_at": "2026-07-23T01:17:53.828218+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }

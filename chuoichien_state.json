@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-23T00:12:36.510643+07:00",
+  "updated_at": "2026-07-23T00:31:31.025049+07:00",
   "matches": {
     "1516068": {
       "url": "https://live04.chuoichientv.me/live/1516068/mashal-vs-nasaf",
@@ -21,13 +21,14 @@
       "url": "https://live04.chuoichientv.me/live/1560777/tottenham-vs-milton-keynes-dons",
       "match_name": "Tottenham vs Milton Keynes Dons - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-07-22T23:00:00+07:00",
-      "minutes_to_kickoff": -72,
-      "last_scan_at": "2026-07-23T00:12:36.510600+07:00",
-      "next_scan_at": "2026-07-23T00:17:36.510600+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-23T00:31:31.025002+07:00",
+      "next_scan_at": "2026-07-23T00:36:31.025002+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
+        "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
+        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     }
