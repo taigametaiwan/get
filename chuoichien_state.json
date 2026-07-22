@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-23T02:01:40.140157+07:00",
+  "updated_at": "2026-07-23T02:31:34.589734+07:00",
   "matches": {
     "1516068": {
       "url": "https://live04.chuoichientv.me/live/1516068/mashal-vs-nasaf",
@@ -50,9 +50,9 @@
       "url": "https://live04.chuoichientv.me/live/1591933/egnatia-rrogozhin-vs-celje",
       "match_name": "Egnatia Rrogozhinë vs Celje - UEFA Champions League",
       "kickoff_iso": "2026-07-23T02:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-07-23T02:01:40.140054+07:00",
-      "next_scan_at": "2026-07-23T02:06:40.140054+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-23T02:31:34.589670+07:00",
+      "next_scan_at": "2026-07-23T02:36:34.589670+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -112,6 +112,18 @@
         "https://gckc0525.edgemaxcdn.org/live/chuoigia.flv"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "1490331": {
+      "url": "https://live04.chuoichientv.me/live/1490331/inter-miami-vs-chicago-fire",
+      "match_name": "inter miami vs chicago fire",
+      "kickoff_iso": "2026-07-23T06:30:00+07:00",
+      "minutes_to_kickoff": 239,
+      "last_scan_at": "2026-07-23T02:31:34.589670+07:00",
+      "next_scan_at": "2026-07-23T03:16:34.589670+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
