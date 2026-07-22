@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "luongson",
-  "updated_at": "2026-07-23T01:34:14.796360+07:00",
+  "updated_at": "2026-07-23T02:02:28.310933+07:00",
   "matches": {
     "271fb65c8c25": {
       "url": "https://laservision.io/truc-tiep/mashal-muborak-vs-nasaf-qarshi-vao-luc-2200-22-07-2026/?blv=359",
@@ -159,9 +159,9 @@
       "url": "https://laservision.io/truc-tiep/istanbul-basaksehir-vs-inter-turku-vao-luc-0045-23-07-2026/?blv=383",
       "match_name": "ISTANBUL BASAKSEHIR vs INTER TURKU",
       "kickoff_iso": "2026-07-23T00:45:00+07:00",
-      "minutes_to_kickoff": -46,
-      "last_scan_at": "2026-07-23T01:34:14.795789+07:00",
-      "next_scan_at": "2026-07-23T01:39:14.795789+07:00",
+      "minutes_to_kickoff": -76,
+      "last_scan_at": "2026-07-23T02:02:28.310641+07:00",
+      "next_scan_at": "2026-07-23T02:07:28.310641+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -173,9 +173,9 @@
       "url": "https://laservision.io/truc-tiep/fc-vardar-skopje-vs-riga-fc-vao-luc-0100-23-07-2026/?blv=315",
       "match_name": "FC VARDAR SKOPJE vs RIGA FC",
       "kickoff_iso": "2026-07-23T01:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-07-23T01:34:14.795789+07:00",
-      "next_scan_at": "2026-07-23T01:39:14.795789+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-07-23T02:02:28.310641+07:00",
+      "next_scan_at": "2026-07-23T02:07:28.310641+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -187,9 +187,9 @@
       "url": "https://laservision.io/truc-tiep/spartak-trnava-vs-cska-1948-sofia-vao-luc-0130-23-07-2026/?blv=372",
       "match_name": "SPARTAK TRNAVA vs CSKA 1948 SOFIA",
       "kickoff_iso": "2026-07-23T01:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-07-23T01:34:14.795789+07:00",
-      "next_scan_at": "2026-07-23T01:39:14.795789+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-23T02:02:28.310641+07:00",
+      "next_scan_at": "2026-07-23T02:07:28.310641+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -215,33 +215,37 @@
       "url": "https://laservision.io/truc-tiep/egnatia-vs-nk-publikum-celje-vao-luc-0200-23-07-2026/?blv=377",
       "match_name": "EGNATIA vs NK PUBLIKUM CELJE",
       "kickoff_iso": "2026-07-23T02:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-07-23T01:34:14.795789+07:00",
-      "next_scan_at": "2026-07-23T01:44:14.795789+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-07-23T02:02:28.310641+07:00",
+      "next_scan_at": "2026-07-23T02:07:28.310641+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1b82779b5a71": {
       "url": "https://laservision.io/truc-tiep/fk-zeleznicar-pancevo-vs-sporting-braga-vao-luc-0200-23-07-2026/?blv=359",
       "match_name": "FK ZELEZNICAR PANCEVO vs SPORTING BRAGA",
       "kickoff_iso": "2026-07-23T02:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-07-23T01:34:14.795789+07:00",
-      "next_scan_at": "2026-07-23T01:44:14.795789+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-07-23T02:02:28.310641+07:00",
+      "next_scan_at": "2026-07-23T02:07:28.310641+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+      ],
       "scan_decision": "browser-fallback"
     },
     "797113c3065c": {
       "url": "https://laservision.io/truc-tiep/levski-sofia-vs-cs-universitatea-craiova-vao-luc-0030-23-07-2026/?blv=374",
       "match_name": "LEVSKI SOFIA vs CS UNIVERSITATEA CRAIOVA",
       "kickoff_iso": "2026-07-23T00:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-23T01:34:14.795789+07:00",
-      "next_scan_at": "2026-07-23T01:39:14.795789+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-23T02:02:28.310641+07:00",
+      "next_scan_at": "2026-07-23T02:07:28.310641+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
