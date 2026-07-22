@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-23T00:31:31.025049+07:00",
+  "updated_at": "2026-07-23T01:01:48.532616+07:00",
   "matches": {
     "1516068": {
       "url": "https://live04.chuoichientv.me/live/1516068/mashal-vs-nasaf",
@@ -29,6 +29,86 @@
       "verified_urls": [
         "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
         "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1591935": {
+      "url": "https://live04.chuoichientv.me/live/1591935/levski-sofia-vs-universitatea-craiova",
+      "match_name": "Levski Sofia vs Universitatea Craiova - UEFA Champions League",
+      "kickoff_iso": "2026-07-23T00:30:00+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-23T01:01:48.532495+07:00",
+      "next_scan_at": "2026-07-23T01:06:48.532495+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoibo.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoibo/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1591933": {
+      "url": "https://live04.chuoichientv.me/live/1591933/egnatia-rrogozhin-vs-celje",
+      "match_name": "egnatia rrogozhin vs celje",
+      "kickoff_iso": "2026-07-23T02:00:00+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-07-23T01:01:48.532495+07:00",
+      "next_scan_at": "2026-07-23T01:21:48.532495+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1519417": {
+      "url": "https://live04.chuoichientv.me/live/1519417/independiente-del-valle-vs-tecnico-universitario",
+      "match_name": "independiente del valle vs tecnico universitario",
+      "kickoff_iso": "2026-07-23T04:30:00+07:00",
+      "minutes_to_kickoff": 209,
+      "last_scan_at": "2026-07-23T01:01:48.532495+07:00",
+      "next_scan_at": "2026-07-23T01:46:48.532495+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1547775": {
+      "url": "https://live04.chuoichientv.me/live/1547775/independiente-medellin-vs-vasco-da-gama",
+      "match_name": "independiente medellin vs vasco da gama",
+      "kickoff_iso": "2026-07-23T05:00:00+07:00",
+      "minutes_to_kickoff": 239,
+      "last_scan_at": "2026-07-23T01:01:48.532495+07:00",
+      "next_scan_at": "2026-07-23T01:46:48.532495+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1591936": {
+      "url": "https://live04.chuoichientv.me/live/1591936/omonia-nicosia-vs-kairat-almaty",
+      "match_name": "Omonia Nicosia vs Kairat Almaty - UEFA Champions League",
+      "kickoff_iso": "2026-07-23T00:00:00+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-07-23T01:01:48.532495+07:00",
+      "next_scan_at": "2026-07-23T01:06:48.532495+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1494611": {
+      "url": "https://live04.chuoichientv.me/live/1494611/bodoglimt-vs-ham-kam",
+      "match_name": "Bodo/Glimt vs Ham-Kam - Eliteserien",
+      "kickoff_iso": "2026-07-23T00:00:00+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-07-23T01:01:48.532495+07:00",
+      "next_scan_at": "2026-07-23T01:06:48.532495+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoigia.flv"
       ],
       "scan_decision": "browser-fallback"
     }
