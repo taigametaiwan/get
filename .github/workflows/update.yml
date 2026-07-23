@@ -1,4 +1,4 @@
-name: Quet 6 nguon v4.4.28 - Fast registry all sources
+name: Quet 6 nguon v4.4.29 - Bao toan stream verified tuoi
 
 on:
   workflow_dispatch:
@@ -272,6 +272,40 @@ jobs:
                   if delta is None and reason not in {"unknown-time-live", "unknown-time-derived-probe", ""}:
                       failures.append(f"{debug_name}: lý do giờ không hợp lệ {reason}: {row.get('url')}")
 
+          if report.get("fresh_preservation_ok") is not True:
+              failures.append("Merger báo fresh_preservation_ok=false: có stream đầu vào biến mất không có quyết định")
+
+          for source_row in report.get("sources", []):
+              if not source_row.get("included"):
+                  continue
+              fresh_streams = int(source_row.get("fresh_stream_blocks") or 0)
+              decided = (
+                  int(source_row.get("fresh_selected") or 0)
+                  + int(source_row.get("fresh_selected_from_other_source") or 0)
+                  + int(source_row.get("fresh_explicitly_dropped") or 0)
+                  + int(source_row.get("unresolved") or 0)
+              )
+              if fresh_streams != decided:
+                  failures.append(
+                      f"Đối soát nguồn {source_row.get('label')} không cân: "
+                      f"fresh_stream_blocks={fresh_streams}, decided={decided}"
+                  )
+              if source_row.get("fresh") and int(source_row.get("fresh_verified_blocks") or 0) != fresh_streams:
+                  failures.append(
+                      f"Nguồn {source_row.get('label')} có stream M3U tươi chưa được phân loại verified: "
+                      f"fresh={fresh_streams}, verified={source_row.get('fresh_verified_blocks')}"
+                  )
+              if int(source_row.get("unresolved") or 0) != 0 or source_row.get("integrity_ok") is not True:
+                  failures.append(
+                      f"Nguồn {source_row.get('label')} có stream mất không rõ lý do: "
+                      f"unresolved={source_row.get('unresolved')} | reason={source_row.get('integrity_reason')}"
+                  )
+              if int(source_row.get("metadata_link_fallbacks") or 0) > 0:
+                  warnings.append(
+                      f"Nguồn {source_row.get('label')} đã cứu "
+                      f"{source_row.get('metadata_link_fallbacks')} stream tươi do debug lệch M3U"
+                  )
+
           expected_groups = {"chuoichien": "Chuối Chiên", "luongson": "Lương Sơn", "gavang": "Gà Vàng", "xoilac": "Xôi Lạc", "colatv": "ColaTV", "phaohoa": "Pháo Hoa TV"}
           for channel in report.get("channels", []):
               url = channel.get("url", "")
@@ -404,7 +438,7 @@ jobs:
 
           print(
               f"Audit OK: {len(urls)} stream chung; nguon={report.get('sources')} | "
-              f"gavang_metadata={report.get('gavang_metadata')} | gavang_logo={report.get('gavang_logo')} | metadata_refs={report.get('metadata_reference_count')} | warnings={len(warnings)}"
+              f"preservation_ok={report.get('fresh_preservation_ok')} | gavang_metadata={report.get('gavang_metadata')} | gavang_logo={report.get('gavang_logo')} | metadata_refs={report.get('metadata_reference_count')} | warnings={len(warnings)}"
           )
           PY_AUDIT
 
@@ -488,5 +522,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update live streams v4.4.28 (fast registry all sources)"
+          git commit -m "Update live streams v4.4.29 (fast registry all sources)"
           git push origin "HEAD:${GITHUB_REF_NAME}"
