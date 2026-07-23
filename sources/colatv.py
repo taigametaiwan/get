@@ -1262,7 +1262,7 @@ async def validate_stream_candidates(
             observed_fallback.append(entry)
             delta = int(match.get("minutes_to_kickoff") or 0)
             print(
-                f"   🕒 Giữ link chờ phát: trận bắt đầu sau {delta} phút | "
+                f"   🕒 Giữ link pending: trận bắt đầu sau {delta} phút | "
                 f"{probe.get('detail') or state} | {entry['url']}",
                 flush=True,
             )
@@ -2866,7 +2866,7 @@ async def fetch_stream(
                 delta = match.get("minutes_to_kickoff")
                 state = match.get("timing_state")
                 suffix = (
-                    f"còn {delta} phút; cho phép giữ link chờ phát"
+                    f"còn {delta} phút; cho phép giữ link pending"
                     if state == "upcoming-window"
                     else f"lệch {delta:+d} phút so với lúc quét"
                 )
@@ -3484,8 +3484,6 @@ def write_outputs(results: list[dict[str, Any]]) -> tuple[int, int]:
             kind = stream_kind(stream_url, stream_info.get("content_type", ""))
             if kind:
                 suffix = f"{quality} {kind.upper()}" if quality else kind.upper()
-                if stream_info.get("playability") == "upcoming-pending":
-                    suffix = f"CHỜ PHÁT {suffix}"
                 display_name += f" [{suffix}]"
 
             channel_id = channel_id_for(result, stream_url, index)
@@ -3611,7 +3609,7 @@ async def main() -> None:
         f"xác minh phát thật={'BẬT' if VERIFY_STREAMS else 'TẮT'} | "
         f"tối đa {MAX_VERIFY_CANDIDATES} ứng viên/{MAX_OUTPUT_STREAMS_PER_MATCH} mức chất lượng đầu ra | "
         f"lọc trận -{SCAN_PAST_MINUTES}/+{SCAN_FUTURE_MINUTES} phút | "
-        f"giữ link chờ phát trong {UPCOMING_KEEP_HOURS} giờ tới | "
+        f"giữ link pending trong {UPCOMING_KEEP_HOURS} giờ tới | "
         f"fallback chung chưa xác minh={'BẬT' if (ALLOW_UNVERIFIED_BROWSER_FALLBACK or KEEP_PREVIOUS_UNVERIFIED) else 'TẮT'} | "
         f"HTTP-first={'BẬT' if HYBRID_HTTP_FIRST else 'TẮT'} | delta={'BẬT' if DELTA_SCAN_ENABLED else 'TẮT'} | "
         f"miền dự phòng={','.join(HOME_URLS)}"

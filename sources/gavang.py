@@ -1380,7 +1380,7 @@ async def validate_stream_candidates(
             observed_fallback.append(entry)
             delta = int(match.get("minutes_to_kickoff") or 0)
             print(
-                f"   🕒 Giữ link chờ phát: trận bắt đầu sau {delta} phút | "
+                f"   🕒 Giữ link pending: trận bắt đầu sau {delta} phút | "
                 f"{probe.get('detail') or state} | {entry['url']}",
                 flush=True,
             )
@@ -1792,7 +1792,7 @@ def derived_pending_reason(match: dict[str, Any]) -> str:
     if reason == "unknown-time-live":
         return "explicit-live-no-time"
     if KEEP_UNKNOWN_TIME_PENDING and reason == "unknown-time-derived-probe":
-        # URL vẫn đang được trang chủ hiện tại quảng bá, nên giữ dạng CHỜ PHÁT.
+        # URL vẫn đang được trang chủ hiện tại quảng bá, nên giữ dạng pending.
         # Khi URL biến mất khỏi trang chủ ở lần chạy sau, playlist tạm cũng biến mất.
         return "current-home-stream-key-no-time"
     return ""
@@ -3528,7 +3528,7 @@ async def enrich_verified_match_metadata(
 ) -> None:
     """Mở trang trận ở chế độ chỉ lấy metadata, không chạy player.
 
-    Áp dụng cho cả FLV đã xác minh và FLV CHỜ PHÁT. Route filter chặn media nên
+    Áp dụng cho cả FLV đã xác minh và FLV pending. Route filter chặn media nên
     bước này chỉ đọc tên đội, lịch, BLV và logo đúng fixture; không tải luồng video.
     """
     page: Page | None = None
@@ -3831,13 +3831,13 @@ async def fetch_stream(
             if derived_pending:
                 match["_derived_pending_streams"] = derived_pending
                 print(
-                    "   🟠 Giữ FLV dựng ở trạng thái CHỜ PHÁT | "
+                    "   🟠 Giữ FLV dựng ở trạng thái pending | "
                     f"lý do={derived_pending[0].get('pending_reason')} | "
                     f"{derived_pending[0].get('url')}",
                     flush=True,
                 )
                 print(
-                    "   🧾 CHỜ PHÁT vẫn mở trang metadata nhẹ để lấy tên/giờ/BLV/logo; "
+                    "   🧾 Pending vẫn mở trang metadata nhẹ để lấy tên/giờ/BLV/logo; "
                     "không mở player.",
                     flush=True,
                 )
@@ -3857,7 +3857,7 @@ async def fetch_stream(
                 if derived_pending:
                     print(
                         "   ⏭️ URL thiếu giờ nhưng còn trên trang chủ; "
-                        "ghi CHỜ PHÁT và dừng probe nhanh, không mở player.",
+                        "ghi trạng thái pending và dừng probe nhanh, không mở player.",
                         flush=True,
                     )
                 else:
@@ -3910,7 +3910,7 @@ async def fetch_stream(
             match["streams"] = list(match["_derived_pending_streams"])
             match["stream_urls"] = [item["url"] for item in match["streams"]]
             print(
-                f"   ⏭️ Trận còn {delta} phút; giữ FLV CHỜ PHÁT và bỏ qua Chromium, "
+                f"   ⏭️ Trận còn {delta} phút; giữ FLV pending và bỏ qua Chromium, "
                 "sẽ probe lại theo lịch delta.",
                 flush=True,
             )
@@ -4040,7 +4040,7 @@ async def fetch_stream(
                 delta = match.get("minutes_to_kickoff")
                 state = match.get("timing_state")
                 suffix = (
-                    f"còn {delta} phút; cho phép giữ link chờ phát"
+                    f"còn {delta} phút; cho phép giữ link pending"
                     if state == "upcoming-window"
                     else f"lệch {delta:+d} phút so với lúc quét"
                 )
@@ -4924,8 +4924,6 @@ def write_outputs(results: list[dict[str, Any]]) -> tuple[int, int]:
             else:
                 schedule_label = ""
             raw_display_base = f"[{schedule_label}] {display_name_core}" if schedule_label else display_name_core
-            if is_pending:
-                raw_display_base = f"[CHỜ PHÁT] {raw_display_base}"
             stream_display_base = escape_m3u_text(raw_display_base)
             display_name = stream_display_base
             quality = normalize_quality_hint(stream_info.get("quality", ""))
@@ -5013,7 +5011,7 @@ def write_outputs(results: list[dict[str, Any]]) -> tuple[int, int]:
         print(
             "📡 Trạng thái: "
             f"verified={playability_counts.get('verified', 0)} | "
-            f"chờ phát={playability_counts.get('upcoming-pending', 0)} | "
+            f"pending={playability_counts.get('upcoming-pending', 0)} | "
             f"khác={sum(value for key, value in playability_counts.items() if key not in {'verified', 'upcoming-pending'})}"
         )
         group_summary = " | ".join(
@@ -5068,11 +5066,11 @@ async def main() -> None:
         f"xác minh phát thật={'BẬT' if VERIFY_STREAMS else 'TẮT'} | "
         f"tối đa {MAX_VERIFY_CANDIDATES} ứng viên/{MAX_OUTPUT_STREAMS_PER_MATCH} mức chất lượng đầu ra | "
         f"lọc trận -{SCAN_PAST_MINUTES}/+{SCAN_FUTURE_MINUTES} phút | "
-        f"giữ link chờ phát trong {UPCOMING_KEEP_HOURS} giờ tới | "
+        f"giữ link pending trong {UPCOMING_KEEP_HOURS} giờ tới | "
         f"fallback chung chưa xác minh={'BẬT' if (ALLOW_UNVERIFIED_BROWSER_FALLBACK or KEEP_PREVIOUS_UNVERIFIED) else 'TẮT'} | "
         f"HTTP-first={'BẬT' if HYBRID_HTTP_FIRST else 'TẮT'} | "
         f"probe mọi stream_key thiếu giờ={'BẬT' if PROBE_UNKNOWN_STREAM_KEYS else 'TẮT'} | "
-        f"giữ FLV dựng chờ phát={'BẬT' if KEEP_DERIVED_PENDING else 'TẮT'} | "
+        f"giữ FLV dựng pending={'BẬT' if KEEP_DERIVED_PENDING else 'TẮT'} | "
         f"delta={'BẬT' if DELTA_SCAN_ENABLED else 'TẮT'} | "
         f"miền dự phòng={','.join(HOME_URLS)}"
     )

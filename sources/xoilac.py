@@ -17,7 +17,7 @@ from zoneinfo import ZoneInfo
 
 from playwright.async_api import Browser, BrowserContext, Page, Request, Response, async_playwright
 
-VERSION = "4.4.11-XOILAC-MULTISOURCE-ADAPTER"
+VERSION = "4.4.16-XOILAC-UNLIMITED-LIVE-PRIORITY-403-RETRY"
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_START_URL = "https://xoilacz.io/"
 DEFAULT_HOME_URLS = ("https://xoilacz.io/", "https://malaysiandigest.com/", "https://altenergystocks.com/")
@@ -63,6 +63,11 @@ PLAY_SELECTORS = (
     "[class*='play'][role='button']",
     "video",
 )
+LIVE_HINT_RE = re.compile(
+    r"(?:\bLIVE\b|ĐANG\s*(?:DIỄN\s*RA|ĐÁ|PHÁT)|HIỆP\s*[12]|(?:^|\s)\d{1,3}\s*[\'’](?:\s|$))",
+    re.I,
+)
+
 GENERIC_SOURCE_LABELS = {
     "",
     "trực tiếp",
@@ -278,15 +283,19 @@ def classify_stream(entry: "StreamCapture") -> None:
     if entry.has_secret and expiry_ok:
         if status == 403:
             entry.classification = "signed_runner_blocked"
-            entry.publishable = True
+            entry.publishable = False
             entry.classification_reason = (
-                "URL có wsSecret còn hạn nhưng GitHub runner bị HTTP 403; vẫn giữ trong M3U chính "
-                "để client mạng ngoài GitHub thử phát."
+                "URL có wsSecret còn hạn nhưng cả Chromium/probe nhận HTTP 403; "
+                "chỉ lưu candidate để audit, không coi là link đang phát."
             )
-        elif status_ok or status is None:
+        elif status_ok and (entry.probe_ok or entry.verified):
             entry.classification = "signed"
             entry.publishable = True
-            entry.classification_reason = "URL có wsSecret còn hạn."
+            entry.classification_reason = "URL có wsSecret còn hạn và đã xác minh HTTP/media."
+        elif status is None:
+            entry.classification = "signed_unconfirmed"
+            entry.publishable = False
+            entry.classification_reason = "Đã thấy URL có wsSecret nhưng chưa nhận response xác minh."
         else:
             entry.classification = "signed_http_error"
             entry.publishable = False
@@ -308,6 +317,38 @@ def classify_stream(entry: "StreamCapture") -> None:
     entry.classification = "unverified"
     entry.publishable = False
     entry.classification_reason = entry.verify_reason or f"HTTP {status} chưa xác minh."
+
+
+def evaluate_token_attempt(
+    entries: Iterable["StreamCapture"],
+    player_urls: Iterable[str],
+    min_token_seconds: int,
+) -> tuple[bool, str, int]:
+    """Trả về (dừng_lặp, lý_do, số_candidate_403).
+
+    Token còn hạn nhưng HTTP 403 không đủ điều kiện dừng; scanner phải xin lại token/phiên.
+    """
+    rows = list(entries)
+    fresh = [
+        entry
+        for entry in rows
+        if entry.has_secret
+        and (entry.expiry.get("seconds_left") is None or entry.expiry.get("seconds_left", 0) > min_token_seconds)
+    ]
+    usable = [
+        entry
+        for entry in fresh
+        if entry.status in {200, 206} and bool(entry.verified or entry.probe_ok)
+    ]
+    blocked = [entry for entry in fresh if entry.status == 403]
+    type7 = any(parse_player_identity([player_url])[0] == "7" for player_url in player_urls)
+    if usable:
+        return True, "signed-verified", len(blocked)
+    if rows and not type7 and any(entry.publishable for entry in rows):
+        return True, "non-type7-publishable", len(blocked)
+    if blocked:
+        return False, "signed-403-refresh", len(blocked)
+    return False, "no-verified-token", 0
 
 
 @dataclass
@@ -730,22 +771,114 @@ async def extract_match_page_data(page: Page, match_url: str, title: str = "") -
     }
 
 
-async def collect_match_links(page: Page) -> list[str]:
+async def collect_match_candidates(page: Page) -> list[dict[str, Any]]:
+    """Lấy URL trận kèm tín hiệu LIVE cục bộ từ đúng card, không quét text toàn trang."""
     try:
         values = await page.locator("a[href*='/truc-tiep/']").evaluate_all(
-            "nodes => nodes.map(node => node.href).filter(Boolean)"
+            r"""
+            nodes => nodes.map(node => {
+              const card = node.closest(
+                "article,li,[class*='match'],[class*='fixture'],[class*='event'],[class*='item'],[data-status],[data-live]"
+              ) || node.parentElement || node;
+              const text = (card.innerText || card.textContent || node.innerText || '')
+                .replace(/\s+/g, ' ').trim().slice(0, 600);
+              return {
+                url: node.href || '',
+                text,
+                class_name: `${node.className || ''} ${card.className || ''}`,
+                status: `${node.getAttribute('data-status') || ''} ${card.getAttribute?.('data-status') || ''}`,
+                live: `${node.getAttribute('data-live') || ''} ${card.getAttribute?.('data-live') || ''}`
+              };
+            }).filter(row => row.url)
+            """
         )
     except Exception:
         values = []
-    unique: list[str] = []
-    for value in values:
-        value = clean_text(value)
+
+    unique: dict[str, dict[str, Any]] = {}
+    for raw in values:
+        value = clean_text((raw or {}).get("url"))
         if not value or not MATCH_URL_RE.search(urlparse(value).path):
             continue
         canonical = canonical_match_url(value)
-        if canonical not in unique:
-            unique.append(canonical)
-    return unique
+        combined = clean_text(
+            " ".join(
+                str((raw or {}).get(key) or "")
+                for key in ("text", "class_name", "status", "live")
+            )
+        )
+        live_hint = bool(
+            LIVE_HINT_RE.search(combined)
+            or re.search(r"(?:^|[\s_-])live(?:[\s_-]|$)", combined, re.I)
+            or clean_text((raw or {}).get("live")).lower() in {"1", "true", "yes", "on"}
+        )
+        candidate = {
+            "url": canonical,
+            "live_hint": live_hint,
+            "card_text": clean_text((raw or {}).get("text")),
+        }
+        previous = unique.get(canonical)
+        if previous is None or (live_hint and not previous.get("live_hint")) or len(candidate["card_text"]) > len(previous.get("card_text", "")):
+            unique[canonical] = candidate
+    return list(unique.values())
+
+
+async def collect_match_links(page: Page) -> list[str]:
+    """API tương thích cũ; discovery mới dùng collect_match_candidates."""
+    return [row["url"] for row in await collect_match_candidates(page)]
+
+
+def rank_scan_candidates(
+    candidates: list[dict[str, Any]],
+    *,
+    past_minutes: int,
+    future_minutes: int,
+    max_matches: int,
+    now: datetime | None = None,
+    upcoming_near_minutes: int = 45,
+) -> tuple[list[str], dict[str, int]]:
+    """Ưu tiên LIVE -> đã bắt đầu -> sắp đá gần -> sắp đá xa -> thiếu giờ.
+
+    Tránh cách cũ dùng abs(delta), vốn có thể chọn trận chưa đá và bỏ trận đang live.
+    """
+    now = now or datetime.now(VN_TZ)
+    buckets: dict[str, list[tuple[float, str]]] = {
+        "live": [],
+        "started": [],
+        "upcoming_near": [],
+        "upcoming_far": [],
+        "unknown": [],
+    }
+    seen: set[str] = set()
+    for row in candidates:
+        url = canonical_match_url(clean_text(row.get("url")))
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        live_hint = bool(row.get("live_hint"))
+        match_dt = parse_match_datetime(url)
+        if match_dt is None:
+            buckets["live" if live_hint else "unknown"].append((0.0, url))
+            continue
+        delta_minutes = (match_dt - now).total_seconds() / 60
+        if not (-past_minutes <= delta_minutes <= future_minutes):
+            continue
+        if live_hint:
+            buckets["live"].append((abs(delta_minutes), url))
+        elif delta_minutes <= 0:
+            buckets["started"].append((abs(delta_minutes), url))
+        elif delta_minutes <= upcoming_near_minutes:
+            buckets["upcoming_near"].append((delta_minutes, url))
+        else:
+            buckets["upcoming_far"].append((delta_minutes, url))
+
+    for rows in buckets.values():
+        rows.sort(key=lambda item: (item[0], item[1]))
+    ordered: list[str] = []
+    for key in ("live", "started", "upcoming_near", "upcoming_far", "unknown"):
+        ordered.extend(url for _, url in buckets[key] if url not in ordered)
+    counts = {key: len(value) for key, value in buckets.items()}
+    return (ordered if max_matches <= 0 else ordered[:max_matches]), counts
 
 
 def filter_scan_window(
@@ -755,22 +888,13 @@ def filter_scan_window(
     future_minutes: int,
     max_matches: int,
 ) -> list[str]:
-    now = datetime.now(VN_TZ)
-    timed: list[tuple[float, str]] = []
-    unknown: list[str] = []
-    for url in urls:
-        match_dt = parse_match_datetime(url)
-        if match_dt is None:
-            unknown.append(url)
-            continue
-        delta_minutes = (match_dt - now).total_seconds() / 60
-        if -past_minutes <= delta_minutes <= future_minutes:
-            timed.append((abs(delta_minutes), url))
-    timed.sort(key=lambda item: item[0])
-    selected = [url for _, url in timed]
-    if len(selected) < max_matches:
-        selected.extend(url for url in unknown if url not in selected)
-    return selected[:max_matches]
+    selected, _counts = rank_scan_candidates(
+        [{"url": url, "live_hint": False} for url in urls],
+        past_minutes=past_minutes,
+        future_minutes=future_minutes,
+        max_matches=max_matches,
+    )
+    return selected
 
 
 async def discover_targets(
@@ -801,16 +925,23 @@ async def discover_targets(
         if MATCH_URL_RE.search(page.url):
             return [canonical_match_url(page.url)], discovery
 
-        links = await collect_match_links(page)
+        candidates = await collect_match_candidates(page)
+        links = [row["url"] for row in candidates]
         discovery["all_match_links"] = links
-        selected = filter_scan_window(
-            links,
+        discovery["match_candidates"] = candidates
+        selected, priority_counts = rank_scan_candidates(
+            candidates,
             past_minutes=args.past_minutes,
             future_minutes=args.future_minutes,
             max_matches=args.max_matches,
         )
+        discovery["priority_counts"] = priority_counts
+        limit_text = "không giới hạn" if args.max_matches <= 0 else str(args.max_matches)
         print(
-            f"✅ Trang chủ có {len(links)} trận duy nhất; chọn {len(selected)} trận gần giờ để quét.",
+            f"✅ Trang chủ có {len(links)} trận duy nhất; chọn {len(selected)}/{limit_text} trận theo ưu tiên "
+            f"LIVE={priority_counts['live']} | đã bắt đầu={priority_counts['started']} | "
+            f"sắp đá <=45p={priority_counts['upcoming_near']} | sắp đá xa={priority_counts['upcoming_far']} | "
+            f"thiếu giờ={priority_counts['unknown']}.",
             flush=True,
         )
         return selected, discovery
@@ -930,17 +1061,22 @@ async def capture_source(
                 if previous is None or (entry.status == 200 and previous.status != 200):
                     all_entries[url] = entry
 
-            signed_fresh = [
-                entry
-                for entry in all_entries.values()
-                if entry.has_secret
-                and (entry.expiry.get("seconds_left") is None or entry.expiry.get("seconds_left", 0) > args.min_token_seconds)
-            ]
-            type7 = any(parse_player_identity([player_url])[0] == "7" for player_url in all_player_urls)
-            if signed_fresh or (all_entries and not type7):
+            stop_attempts, attempt_reason, blocked_count = evaluate_token_attempt(
+                all_entries.values(),
+                all_player_urls,
+                args.min_token_seconds,
+            )
+            if stop_attempts:
                 break
             if attempt < args.token_refresh_attempts:
-                print("      🔄 Chưa có token type/7 còn hạn; tải lại nguồn để xin wsSecret mới.", flush=True)
+                if attempt_reason == "signed-403-refresh":
+                    print(
+                        f"      🔄 Có {blocked_count} token type/7 còn hạn nhưng HTTP 403; "
+                        "tải lại player để xin token/phiên mới.",
+                        flush=True,
+                    )
+                else:
+                    print("      🔄 Chưa có token type/7 xác minh được; tải lại nguồn để xin wsSecret mới.", flush=True)
         except Exception as exc:
             errors.append(f"source scan {type(exc).__name__}: {exc}")
         finally:
@@ -982,10 +1118,10 @@ def annotate_multisource_playability(stream: dict[str, Any]) -> None:
     if stream.get("publishable") and verified:
         stream["playability"] = "verified"
         stream["observed_active"] = True
-    elif stream.get("publishable") and classification in {"signed", "signed_runner_blocked"}:
-        # URL có wsSecret còn hạn và đã được player trình duyệt phát sinh; runner có thể bị 403 riêng theo IP.
-        stream["playability"] = "browser-observed"
-        stream["observed_active"] = True
+    elif classification == "signed_runner_blocked":
+        stream["playability"] = "candidate-403"
+        stream["candidate_status"] = "candidate-403"
+        stream["observed_active"] = False
     else:
         stream["playability"] = "rejected"
         stream["observed_active"] = False
@@ -1272,6 +1408,9 @@ def write_outputs(results: list[dict[str, Any]]) -> tuple[int, int]:
         "runner_blocked_signed": sum(
             1 for _, stream in all_rows if stream.get("classification") == "signed_runner_blocked"
         ),
+        "candidate_403": sum(
+            1 for _, stream in all_rows if stream.get("classification") == "signed_runner_blocked"
+        ),
         "placeholders_rejected": sum(
             1 for _, stream in all_rows if stream.get("placeholder_suspected")
         ),
@@ -1335,7 +1474,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--verify-timeout", type=int, default=int(os.getenv("XOILAC_VERIFY_TIMEOUT", "8")))
     parser.add_argument("--no-verify", dest="verify", action="store_false")
     parser.set_defaults(verify=read_env_bool("XOILAC_VERIFY_STREAMS", True))
-    parser.add_argument("--max-matches", type=int, default=int(os.getenv("XOILAC_MAX_MATCHES", "5")))
+    parser.add_argument("--max-matches", type=int, default=int(os.getenv("XOILAC_MAX_MATCHES", "0")))
     parser.add_argument("--max-sources-per-match", type=int, default=int(os.getenv("XOILAC_MAX_SOURCES_PER_MATCH", "4")))
     parser.add_argument("--token-refresh-attempts", type=int, default=int(os.getenv("XOILAC_TOKEN_REFRESH_ATTEMPTS", "2")))
     parser.add_argument("--min-token-seconds", type=int, default=int(os.getenv("XOILAC_MIN_TOKEN_SECONDS", "600")))
@@ -1387,7 +1526,7 @@ async def async_main() -> int:
     args.after_first_wait = max(0, min(args.after_first_wait, 30))
     args.navigation_timeout = max(10, min(args.navigation_timeout, 120))
     args.verify_timeout = max(3, min(args.verify_timeout, 30))
-    args.max_matches = max(1, min(args.max_matches, 30))
+    args.max_matches = max(0, args.max_matches)
     args.max_sources_per_match = max(1, min(args.max_sources_per_match, 8))
     args.token_refresh_attempts = max(1, min(args.token_refresh_attempts, 3))
     args.min_token_seconds = max(60, min(args.min_token_seconds, 7200))
@@ -1431,7 +1570,7 @@ async def async_main() -> int:
                 canonical = canonical_match_url(target)
                 if canonical not in unique_targets:
                     unique_targets.append(canonical)
-            targets = unique_targets[: args.max_matches]
+            targets = unique_targets if args.max_matches <= 0 else unique_targets[: args.max_matches]
 
             if not targets:
                 print("❌ Không tìm thấy URL trận để quét.", flush=True)
@@ -1469,7 +1608,19 @@ async def async_main() -> int:
                 flush=True,
             )
             if links:
-                print(f"\n🎉 Xuất {links} link ưu tiên từ {matches} trận.", flush=True)
+                print(f"\n🎉 Xuất {links} link đã đủ điều kiện từ {matches} trận.", flush=True)
+                if summary.get("candidate_403"):
+                    print(
+                        f"⚠️ Có thêm {summary['candidate_403']} signed candidate HTTP 403 chỉ lưu debug/rejected, "
+                        "không đưa vào M3U chính.",
+                        flush=True,
+                    )
+            elif summary.get("candidate_403"):
+                print(
+                    f"\n⚠️ Bắt được {summary['candidate_403']} signed candidate nhưng 0 link được xác minh phát; "
+                    "không đưa candidate 403 vào M3U chính.",
+                    flush=True,
+                )
             else:
                 print("\n⚠️ Không có link đủ điều kiện vào M3U chính; xem all_candidates/rejected.", flush=True)
             for path in (
@@ -1483,7 +1634,8 @@ async def async_main() -> int:
             ):
                 if path.exists():
                     print(f"📄 {path.name}: {path}", flush=True)
-            return 0 if links else 1
+            # Không có link verified không phải lỗi tiến trình; playlist rỗng + debug vẫn là kết quả hợp lệ.
+            return 0
         finally:
             if owns_browser:
                 await context.close()

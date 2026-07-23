@@ -6,7 +6,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 import main as orchestrator
-from sources import chuoichien, colatv, gavang, luongson, xoilac
+from sources import chuoichien, colatv, gavang, luongson, phaohoa, xoilac
 
 
 class OutputLayoutTests(unittest.TestCase):
@@ -17,6 +17,7 @@ class OutputLayoutTests(unittest.TestCase):
             "gavang": ("gavang_live.m3u", "gavang_live_pipe.m3u", "gavang_live_vlc.m3u"),
             "xoilac": ("xoilac_live.m3u", "xoilac_live_pipe.m3u", "xoilac_live_vlc.m3u"),
             "colatv": ("colatv_live.m3u", "colatv_live_pipe.m3u", "colatv_live_vlc.m3u"),
+            "phaohoa": ("phaohoa_live.m3u", "phaohoa_live_pipe.m3u", "phaohoa_live_vlc.m3u"),
         }
         for key, (universal, pipe, vlc) in expected.items():
             config = orchestrator.SOURCES[key]
@@ -61,7 +62,7 @@ class OutputLayoutTests(unittest.TestCase):
             self.assertEqual(config.universal.read_text(encoding="utf-8"), "#EXTM3U\n")
 
     def test_source_writers_create_configured_temporary_files(self) -> None:
-        modules = (chuoichien, luongson, gavang, xoilac, colatv)
+        modules = (chuoichien, luongson, gavang, xoilac, colatv, phaohoa)
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             for module in modules:
@@ -78,6 +79,34 @@ class OutputLayoutTests(unittest.TestCase):
                         module.write_outputs([])
                     for path in (universal, pipe_path, vlc_path):
                         self.assertEqual(path.read_text(encoding="utf-8"), "#EXTM3U\n")
+
+    def test_chuoichien_pending_output_does_not_show_waiting_label(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            match_url = "https://live04.chuoichientv.me/live/123/demo"
+            stream_url = "https://cdn.example.test/live/demo.m3u8"
+            with patch.object(chuoichien, "OUTPUT_M3U", root / "chuoichien_live.m3u"), \
+                 patch.object(chuoichien, "OUTPUT_PIPE_M3U", root / "chuoichien_live_pipe.m3u"), \
+                 patch.object(chuoichien, "OUTPUT_VLC_M3U", root / "chuoichien_live_vlc.m3u"), \
+                 patch.object(chuoichien, "OUTPUT_DEBUG", root / "chuoichien_debug.json"):
+                chuoichien.write_outputs([{
+                    "url": match_url,
+                    "match_name": "Đội A vs Đội B",
+                    "time": "20:00",
+                    "date": "23/07",
+                    "sport_group": "Bóng đá",
+                    "streams": [{
+                        "url": stream_url,
+                        "referer": match_url,
+                        "origin": "https://live04.chuoichientv.me",
+                        "user_agent": chuoichien.UA,
+                        "playability": "upcoming-pending",
+                        "content_type": "application/vnd.apple.mpegurl",
+                    }],
+                }])
+            text = (root / "chuoichien_live.m3u").read_text(encoding="utf-8")
+        self.assertIn("[20:00 23/07] Đội A vs Đội B [M3U8]", text)
+        self.assertNotIn("CHỜ PHÁT", text)
 
     def test_git_history_lookup_uses_repository_relative_playlist_path(self) -> None:
         calls = []

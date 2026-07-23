@@ -70,12 +70,14 @@ class ColaTVAdapterTests(unittest.TestCase):
                         "referer": MATCH_URL,
                         "origin": "https://colatv77.live",
                         "user_agent": colatv.UA,
-                        "playability": "verified",
+                        "playability": "upcoming-pending",
                         "content_type": "application/vnd.apple.mpegurl",
                     }],
                 }])
             self.assertEqual((matches, links), (1, 1))
             text = (root / "colatv_live.m3u").read_text(encoding="utf-8")
+            self.assertNotIn("CHỜ PHÁT", text)
+            self.assertIn("[21:00 22/07] Bologna FC 1909 vs Heidenheimer [M3U8]", text)
             self.assertIn(STREAM_URL, text)
             self.assertIn(f"#EXTVLCOPT:http-referrer={MATCH_URL}", text)
             self.assertIn("#EXTVLCOPT:http-origin=https://colatv77.live", text)

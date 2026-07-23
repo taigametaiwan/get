@@ -3,8 +3,10 @@ from __future__ import annotations
 import json
 import tempfile
 import unittest
+from datetime import datetime
 from pathlib import Path
 from unittest.mock import patch
+from zoneinfo import ZoneInfo
 
 from sources import xoilac
 
@@ -50,19 +52,27 @@ class XoilacAdapterTests(unittest.TestCase):
         self.assertFalse(entry.publishable)
         self.assertEqual(entry.classification, "placeholder_or_ad")
 
-    def test_signed_runner_403_is_kept_for_client(self) -> None:
+    def test_signed_runner_403_is_candidate_only_and_retried(self) -> None:
         entry = xoilac.StreamCapture(
             url="https://live.example/channel.flv?wsSecret=abc&wsABSTime=1893456000",
             player_type="7",
             status=403,
         )
         xoilac.classify_stream(entry)
-        self.assertTrue(entry.publishable)
+        self.assertFalse(entry.publishable)
         self.assertEqual(entry.classification, "signed_runner_blocked")
         row = entry.as_dict()
         xoilac.annotate_multisource_playability(row)
-        self.assertEqual(row["playability"], "browser-observed")
-        self.assertTrue(row["observed_active"])
+        self.assertEqual(row["playability"], "candidate-403")
+        self.assertFalse(row["observed_active"])
+        stop, reason, blocked = xoilac.evaluate_token_attempt(
+            [entry],
+            ["https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel43/off-tvc"],
+            600,
+        )
+        self.assertFalse(stop)
+        self.assertEqual(reason, "signed-403-refresh")
+        self.assertEqual(blocked, 1)
 
     def test_hex_signed_expiry_is_supported(self) -> None:
         parsed = xoilac.parse_signed_expiry(
@@ -83,6 +93,76 @@ class XoilacAdapterTests(unittest.TestCase):
         self.assertFalse(row["publishable"])
         self.assertEqual(row["classification"], "expired")
         self.assertEqual(row["playability"], "rejected")
+
+    def test_default_max_matches_is_unlimited(self) -> None:
+        with patch.dict("os.environ", {}, clear=False), patch("sys.argv", ["xoilac.py"]):
+            args = xoilac.parse_args()
+        self.assertEqual(args.max_matches, 0)
+
+
+    def test_zero_max_matches_keeps_all_ranked_candidates(self) -> None:
+        now = datetime(2026, 7, 23, 1, 30, tzinfo=xoilac.VN_TZ)
+        candidates = [
+            {"url": f"https://example.test/truc-tiep/team-{i}-vs-team-b-luc-{(i%24):02d}00-ngay-23-07-2026/", "live_hint": False}
+            for i in range(25)
+        ]
+        selected, _counts = xoilac.rank_scan_candidates(
+            candidates, past_minutes=1500, future_minutes=1500, max_matches=0, now=now
+        )
+        self.assertEqual(len(selected), 25)
+
+    def test_live_and_started_matches_are_ranked_before_upcoming(self) -> None:
+        tz = ZoneInfo("Asia/Ho_Chi_Minh")
+        now = datetime(2026, 7, 23, 2, 0, tzinfo=tz)
+        candidates = [
+            {"url": "https://xoilacz.io/truc-tiep/upcoming-vs-one-luc-0210-ngay-23-07-2026/", "live_hint": False},
+            {"url": "https://xoilacz.io/truc-tiep/started-vs-one-luc-0100-ngay-23-07-2026/", "live_hint": False},
+            {"url": "https://xoilacz.io/truc-tiep/live-vs-one-luc-0030-ngay-23-07-2026/", "live_hint": True},
+            {"url": "https://xoilacz.io/truc-tiep/far-vs-one-luc-0400-ngay-23-07-2026/", "live_hint": False},
+        ]
+        selected, counts = xoilac.rank_scan_candidates(
+            candidates, past_minutes=150, future_minutes=240, max_matches=20, now=now
+        )
+        self.assertIn("live-vs-one", selected[0])
+        self.assertIn("started-vs-one", selected[1])
+        self.assertIn("upcoming-vs-one", selected[2])
+        self.assertEqual(counts["live"], 1)
+        self.assertEqual(counts["started"], 1)
+
+    def test_candidate_403_is_not_written_to_main_playlist(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            outputs = [root / name for name in (
+                "xoilac_live.m3u", "xoilac_live_pipe.m3u", "xoilac_live_vlc.m3u", "xoilac_debug.json"
+            )]
+            result = {
+                "source": "xoilac",
+                "input_url": "https://xoilacz.io/truc-tiep/a-vs-b-luc-2030-ngay-22-07-2026/",
+                "final_url": "https://xoilacz.io/truc-tiep/a-vs-b-luc-2030-ngay-22-07-2026/",
+                "match_name": "A vs B",
+                "streams": [{
+                    "url": "https://live.example/a.flv?wsSecret=x&wsABSTime=1893456000",
+                    "kind": "flv",
+                    "status": 403,
+                    "verified": False,
+                    "probe_ok": False,
+                    "has_secret": True,
+                    "publishable": False,
+                    "classification": "signed_runner_blocked",
+                    "placeholder_suspected": False,
+                }],
+                "sources": [],
+            }
+            with patch.object(xoilac, "OUTPUT_M3U", outputs[0]), \
+                 patch.object(xoilac, "OUTPUT_PIPE_M3U", outputs[1]), \
+                 patch.object(xoilac, "OUTPUT_VLC_M3U", outputs[2]), \
+                 patch.object(xoilac, "OUTPUT_DEBUG", outputs[3]), \
+                 patch.dict("os.environ", {"XOILAC_WRITE_AUDIT_M3U": "0"}, clear=False):
+                matches, links = xoilac.write_outputs([result])
+            self.assertEqual((matches, links), (0, 0))
+            self.assertEqual(outputs[0].read_text(encoding="utf-8"), "#EXTM3U\n")
+            payload = json.loads(outputs[3].read_text(encoding="utf-8"))
+            self.assertEqual(payload["summary"]["candidate_403"], 1)
 
     def test_write_outputs_matches_multisource_schema_and_keeps_headers(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -118,14 +198,14 @@ class XoilacAdapterTests(unittest.TestCase):
                             "user_agent": xoilac.UA,
                             "commentator": "Một",
                             "source_index": 0,
-                            "status": 403,
-                            "verified": False,
-                            "probe_ok": False,
+                            "status": 200,
+                            "verified": True,
+                            "probe_ok": True,
                             "has_secret": True,
                             "publishable": True,
-                            "classification": "signed_runner_blocked",
+                            "classification": "signed",
                             "placeholder_suspected": False,
-                            "playability": "browser-observed",
+                            "playability": "verified",
                             "observed_active": True,
                         }
                     ],
@@ -146,7 +226,7 @@ class XoilacAdapterTests(unittest.TestCase):
             self.assertNotIn('|User-Agent=', text)
             payload = json.loads(output_debug.read_text(encoding="utf-8"))
             stream = payload["results"][0]["streams"][0]
-            self.assertEqual(stream["playability"], "browser-observed")
+            self.assertEqual(stream["playability"], "verified")
 
 
 if __name__ == "__main__":

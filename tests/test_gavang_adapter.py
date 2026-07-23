@@ -439,7 +439,7 @@ class GavangFastPathTests(unittest.IsolatedAsyncioTestCase):
         )
         self.assertEqual(pending, [])
 
-    def test_pending_playlist_is_labeled_waiting(self):
+    def test_pending_playlist_uses_schedule_without_waiting_label(self):
         result = {
             "url": QUEENSLAND_URL,
             "match_name": "Queensland Lions SC VS Perth Glory",
@@ -464,7 +464,7 @@ class GavangFastPathTests(unittest.IsolatedAsyncioTestCase):
                  patch.object(gavang, "OUTPUT_DEBUG", debug):
                 gavang.write_outputs([result])
             text = paths[0].read_text(encoding="utf-8")
-        self.assertIn("[CHỜ PHÁT] [16:30 21/07] Queensland Lions SC VS Perth Glory [FLV]", text)
+        self.assertIn("[16:30 21/07] Queensland Lions SC VS Perth Glory [FLV]", text)
         self.assertIn("queensland-perth-ausffa.flv", text)
 
 
@@ -547,7 +547,7 @@ class GavangFastPathTests(unittest.IsolatedAsyncioTestCase):
                  patch.object(gavang, "OUTPUT_DEBUG", debug):
                 gavang.write_outputs([result])
             text = paths[0].read_text(encoding="utf-8")
-        self.assertIn("[CHỜ PHÁT] [CHƯA CÓ GIỜ 22/07] Queensland Lions SC VS Perth Glory [FLV]", text)
+        self.assertIn("[CHƯA CÓ GIỜ 22/07] Queensland Lions SC VS Perth Glory [FLV]", text)
 
     def test_detail_title_date_is_moved_to_date_metadata(self):
         match = {
