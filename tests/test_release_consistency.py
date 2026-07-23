@@ -1,32 +1,43 @@
 from __future__ import annotations
 
 import json
-import re
 import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+PACKAGE_VERSION = "4.4.22"
+BUILD_TAG = "4.4.22-OPTIONAL-MANIFEST-CONSISTENCY-GUARD"
 
 
 class ReleaseConsistencyTests(unittest.TestCase):
     def read(self, relative: str) -> str:
         return (ROOT / relative).read_text(encoding="utf-8")
 
-    def test_release_manifest_and_core_versions_match(self) -> None:
-        manifest = json.loads(self.read("RELEASE_MANIFEST.json"))
-        self.assertEqual(manifest["package_version"], "4.4.21")
-        self.assertIn('VERSION = "4.4.21-RELEASE-CONSISTENCY-GUARD"', self.read("main.py"))
-        self.assertIn('VERSION = "4.4.21-RELEASE-CONSISTENCY-GUARD"', self.read("merger.py"))
+    def test_core_versions_match_release_without_manifest_dependency(self) -> None:
+        self.assertIn(f'VERSION = "{BUILD_TAG}"', self.read("main.py"))
+        self.assertIn(f'VERSION = "{BUILD_TAG}"', self.read("merger.py"))
+
+    def test_release_manifest_matches_when_present(self) -> None:
+        manifest_path = ROOT / "RELEASE_MANIFEST.json"
+        if not manifest_path.is_file():
+            # Manifest chỉ là tài liệu phát hành. Thiếu manifest không được làm dừng crawler.
+            return
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        self.assertEqual(manifest["package_version"], PACKAGE_VERSION)
+        self.assertEqual(manifest["build_tag"], BUILD_TAG)
+        self.assertEqual(manifest["components"]["main.py"], BUILD_TAG)
+        self.assertEqual(manifest["components"]["merger.py"], BUILD_TAG)
 
     def test_workflow_has_current_identity_and_non_cancelling_concurrency(self) -> None:
         workflow = self.read(".github/workflows/update.yml")
-        self.assertTrue(workflow.startswith("name: Quet 6 nguon v4.4.21"))
-        self.assertIn('git commit -m "Update live streams v4.4.21', workflow)
+        self.assertTrue(workflow.startswith("name: Quet 6 nguon v4.4.22"))
+        self.assertIn('git commit -m "Update live streams v4.4.22', workflow)
         self.assertIn('cron: "*/30 * * * *"', workflow)
         self.assertIn("cancel-in-progress: false", workflow)
         self.assertNotIn("PHAOHOA_PLACEHOLDER_USE_MATCH_PAGE", workflow)
         self.assertNotIn("XOILAC_MAX_MATCHES", workflow)
         self.assertNotIn("v4.4.18", workflow)
+        self.assertEqual(workflow.count('XOILAC_NAVIGATION_TIMEOUT: "35"'), 1)
 
     def test_xoilac_is_unlimited_and_403_candidates_are_not_publishable(self) -> None:
         source = self.read("sources/xoilac.py")
