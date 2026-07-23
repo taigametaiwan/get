@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 from merger import SourceFiles, cleanup_intermediate_playlists, merge_sources
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "4.4.20-PHAOHOA-SAFE-PLACEHOLDER-MULTISOURCE"
+VERSION = "4.4.21-RELEASE-CONSISTENCY-GUARD"
 
 
 @dataclass(slots=True)
