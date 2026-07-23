@@ -1,4 +1,4 @@
-name: Quet 6 nguon v4.4.21 - Dong bo release va placeholder an toan
+name: Quet 6 nguon v4.4.22 - Manifest tuy chon, chong tron source
 
 on:
   workflow_dispatch:
@@ -41,6 +41,9 @@ jobs:
         run: |
           set -euo pipefail
           python -m py_compile main.py merger.py sources/hybrid_support.py sources/chuoichien.py sources/luongson.py sources/gavang.py sources/xoilac.py sources/colatv.py sources/phaohoa.py
+          if [[ ! -f RELEASE_MANIFEST.json ]]; then
+            echo "::warning::Khong co RELEASE_MANIFEST.json; bo qua tai lieu manifest va tiep tuc kiem tra truc tiep source."
+          fi
           python -m unittest discover -s tests -v
 
       - name: 5. Quet sau nguon va hien log realtime
@@ -428,5 +431,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update live streams v4.4.21 (6 sources, safe Phao Hoa placeholders)"
+          git commit -m "Update live streams v4.4.22 (6 sources, optional release manifest)"
           git push origin "HEAD:${GITHUB_REF_NAME}"
