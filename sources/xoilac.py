@@ -19,7 +19,12 @@ from zoneinfo import ZoneInfo
 
 from playwright.async_api import Browser, BrowserContext, Page, Request, Response, async_playwright
 
-VERSION = "4.4.27-XOILAC-FAST-LIVE2-REGISTRY"
+try:
+    from .fast_registry_support import identity_is_specific
+except ImportError:
+    from fast_registry_support import identity_is_specific
+
+VERSION = "4.4.28-XOILAC-FAST-REGISTRY-GUARD"
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_START_URL = "https://xoilacz.io/"
 DEFAULT_HOME_URLS = ("https://xoilacz.io/", "https://dedaluswine.com/", "https://malaysiandigest.com/", "https://altenergystocks.com/")
@@ -46,6 +51,8 @@ FAST_UA = (
 )
 FAST_REFERER = os.getenv("XOILAC_FAST_REFERER", "https://xlz.livepingscorex.com/").strip()
 _REGISTRY_LOCK = threading.RLock()
+_FAST_DISABLED_HOSTS: set[str] = set()
+_FAST_HOST_LOCK = threading.RLock()
 
 MEDIA_URL_RE = re.compile(r"\.(?:m3u8|flv|mpd)(?:[?#]|$)", re.I)
 MATCH_URL_RE = re.compile(r"/truc-tiep/", re.I)
@@ -121,8 +128,7 @@ FAST_CHANNEL_TEMPLATES = tuple(
     part.strip()
     for part in os.getenv(
         "XOILAC_FAST_CHANNEL_TEMPLATES",
-        "https://live2.streambylivepulse.com/live/{channel}.flv,"
-        "https://live2.pro2cdnlive.com/live/{channel}.flv",
+        "https://live2.streambylivepulse.com/live/{channel}.flv",
     ).split(",")
     if part.strip() and "{channel}" in part
 )
@@ -148,8 +154,12 @@ def save_channel_registry(payload: dict[str, Any]) -> None:
         temp.replace(REGISTRY_PATH)
 
 
+def registry_commentator_allowed(commentator: str) -> bool:
+    return identity_is_specific(commentator, extra_generic=("Xoilac", "Xôi Lạc", "Xoilac TV"))
+
+
 def lookup_registry_channel(commentator: str) -> str:
-    if not FAST_REGISTRY_ENABLED:
+    if not FAST_REGISTRY_ENABLED or not registry_commentator_allowed(commentator):
         return ""
     key = normalize_registry_key(commentator)
     row = (load_channel_registry().get("commentators") or {}).get(key, {})
@@ -158,11 +168,13 @@ def lookup_registry_channel(commentator: str) -> str:
 
 
 def learn_registry_channel(commentator: str, channel: str, source: str = "player") -> None:
-    if not FAST_REGISTRY_ENABLED or not re.fullmatch(r"channel\d+", clean_text(channel), re.I):
+    if (
+        not FAST_REGISTRY_ENABLED
+        or not registry_commentator_allowed(commentator)
+        or not re.fullmatch(r"channel\d+", clean_text(channel), re.I)
+    ):
         return
     key = normalize_registry_key(commentator)
-    if not key:
-        return
     with _REGISTRY_LOCK:
         payload = load_channel_registry()
         payload.setdefault("schema_version", 1)
@@ -186,7 +198,30 @@ def build_fast_channel_urls(channel: str) -> list[str]:
     normalized = clean_text(channel).lower()
     if not re.fullmatch(r"channel\d+", normalized):
         return []
-    return [template.format(channel=normalized) for template in FAST_CHANNEL_TEMPLATES]
+    urls: list[str] = []
+    with _FAST_HOST_LOCK:
+        disabled = set(_FAST_DISABLED_HOSTS)
+    for template in FAST_CHANNEL_TEMPLATES:
+        url = template.format(channel=normalized)
+        host = (urlparse(url).hostname or "").lower()
+        if host and host in disabled:
+            continue
+        urls.append(url)
+    return urls
+
+
+def disable_fast_host_for_run(url: str, reason: str) -> None:
+    lowered = clean_text(reason).lower()
+    if not any(marker in lowered for marker in ("name or service not known", "temporary failure in name resolution", "nodename nor servname")):
+        return
+    host = (urlparse(url).hostname or "").lower()
+    if not host:
+        return
+    with _FAST_HOST_LOCK:
+        if host in _FAST_DISABLED_HOSTS:
+            return
+        _FAST_DISABLED_HOSTS.add(host)
+    print(f"      🧯 Fast registry circuit breaker: tắt host {host} trong lượt này do lỗi DNS.", flush=True)
 
 
 def clean_text(value: Any) -> str:
@@ -757,6 +792,8 @@ async def probe_fast_registry_channel(
         entry.status = 200 if ok else int(status_match.group(1)) if status_match else None
         if ok:
             entry.content_type = "video/x-flv"
+        else:
+            disable_fast_host_for_run(entry.url, reason)
         classify_stream(entry)
         print(
             f"      {'✅' if ok else '❌'} Fast registry {channel}: {reason} | {entry.url}",

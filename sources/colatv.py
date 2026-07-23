@@ -21,6 +21,11 @@ from zoneinfo import ZoneInfo
 from playwright.async_api import BrowserContext, Page, Route, async_playwright
 
 try:
+    from .fast_registry_support import identity_is_specific
+except ImportError:
+    from fast_registry_support import identity_is_specific
+
+try:
     from .hybrid_support import (
         extract_explicit_references,
         load_state as load_delta_state,
@@ -56,7 +61,7 @@ OUTPUT_HOME_DEBUG_HTML = "colatv_home_debug.html"
 OUTPUT_HOME_DEBUG_PNG = "colatv_home_debug.png"
 REGISTRY_PATH = Path(os.getenv("COLATV_CHANNEL_REGISTRY_PATH", str(PROJECT_ROOT / "colatv_channel_registry.json")))
 _REGISTRY_LOCK = threading.RLock()
-SCANNER_VERSION = "4.4.27-COLATV-FAST-BLV-REGISTRY"
+SCANNER_VERSION = "4.4.28-COLATV-FAST-REGISTRY-GUARD"
 
 
 def read_env_bool(name: str, default: bool = True) -> bool:
@@ -339,8 +344,12 @@ def save_channel_registry(payload: dict[str, Any]) -> None:
         temp.replace(REGISTRY_PATH)
 
 
+def registry_blv_allowed(blv: str) -> bool:
+    return identity_is_specific(blv, extra_generic=("Cola", "ColaTV", "Cola TV"))
+
+
 def lookup_stream_id(blv: str) -> str:
-    if not FAST_REGISTRY_ENABLED:
+    if not FAST_REGISTRY_ENABLED or not registry_blv_allowed(blv):
         return ""
     row = (load_channel_registry().get("commentators") or {}).get(registry_key(blv), {})
     value = clean_text(row.get("stream_id") if isinstance(row, dict) else row)
@@ -348,7 +357,11 @@ def lookup_stream_id(blv: str) -> str:
 
 
 def learn_stream_id(blv: str, stream_id: str, source: str = "observed") -> None:
-    if not FAST_REGISTRY_ENABLED or not re.fullmatch(r"\d{8}", clean_text(stream_id)):
+    if (
+        not FAST_REGISTRY_ENABLED
+        or not registry_blv_allowed(blv)
+        or not re.fullmatch(r"\d{8}", clean_text(stream_id))
+    ):
         return
     key = registry_key(blv)
     if not key:

@@ -20,6 +20,11 @@ from zoneinfo import ZoneInfo
 from playwright.async_api import BrowserContext, Page, Route, async_playwright
 
 try:
+    from .fast_registry_support import get_row, identity_is_specific, set_row, url_is_usable_by_expiry
+except ImportError:
+    from fast_registry_support import get_row, identity_is_specific, set_row, url_is_usable_by_expiry
+
+try:
     from .hybrid_support import (
         extract_explicit_references,
         load_state as load_delta_state,
@@ -54,7 +59,7 @@ LEGACY_GIT_PLAYLIST_PATH = "luongson/hygenie_live.m3u"
 OUTPUT_DEBUG = "hygenie_debug.json"
 OUTPUT_HOME_DEBUG_HTML = "hygenie_home_debug.html"
 OUTPUT_HOME_DEBUG_PNG = "hygenie_home_debug.png"
-SCANNER_VERSION = "4.4.11-LUONGSON-DOMAIN-STREAM-FAILOVER"
+SCANNER_VERSION = "4.4.28-LUONGSON-FAST-SIGNED-REGISTRY"
 
 
 def read_env_bool(name: str, default: bool = True) -> bool:
@@ -135,6 +140,9 @@ MATCH_VARIANT_FALLBACKS = read_env_int(
 STATE_PATH = Path(os.getenv("HYGENIE_STATE_PATH", "hygenie_state.json"))
 HEADLESS = True
 PROBE_CACHE: dict[tuple[str, str, str, str], dict[str, Any]] = {}
+FAST_REGISTRY_ENABLED = read_env_bool("HYGENIE_FAST_REGISTRY_ENABLED", True)
+FAST_REGISTRY_FUTURE_MINUTES = read_env_int("HYGENIE_FAST_REGISTRY_FUTURE_MINUTES", 15, minimum=0, maximum=90)
+FAST_REGISTRY_PATH = Path(os.getenv("HYGENIE_CHANNEL_REGISTRY_PATH", str(Path(__file__).resolve().parents[1] / "luongson_channel_registry.json")))
 
 # Dùng đúng User-Agent đã được kiểm chứng phát được bằng VLC.
 UA = (
@@ -335,6 +343,46 @@ def extract_blv_from_url(value: str) -> str:
             if name:
                 return name
     return ""
+
+
+def fast_registry_identity_allowed(value: str) -> bool:
+    return identity_is_specific(value, extra_generic=("Lương Sơn", "Luong Son", "Lương Sơn TV"))
+
+
+def fast_registry_allowed(match: dict[str, Any]) -> bool:
+    delta = match.get("minutes_to_kickoff")
+    return FAST_REGISTRY_ENABLED and isinstance(delta, int) and -SCAN_PAST_MINUTES <= delta <= FAST_REGISTRY_FUTURE_MINUTES
+
+
+def lookup_fast_registry_urls(blv: str) -> list[str]:
+    if not FAST_REGISTRY_ENABLED or not fast_registry_identity_allowed(blv):
+        return []
+    row = get_row(FAST_REGISTRY_PATH, blv)
+    urls = row.get("urls") or []
+    if isinstance(urls, str):
+        urls = [urls]
+    now_epoch = int(time.time())
+    result: list[str] = []
+    for value in urls if isinstance(urls, list) else []:
+        url = clean_text(value)
+        if url.startswith(("http://", "https://")) and not is_stream_expired(url, now_epoch=now_epoch, safety_seconds=60):
+            result.append(url)
+    return result[:4]
+
+
+def learn_fast_registry_urls(blv: str, entries: list[dict[str, Any]], source: str) -> None:
+    if not fast_registry_identity_allowed(blv):
+        return
+    urls: list[str] = []
+    for entry in entries:
+        if entry.get("playability") != "verified":
+            continue
+        url = clean_text(entry.get("url"))
+        host = (urlparse(url).hostname or "").lower()
+        if "cdnfaster" in host and not is_stream_expired(url):
+            urls.append(url)
+    if urls:
+        set_row(FAST_REGISTRY_PATH, blv, {"urls": list(dict.fromkeys(urls))[:4]}, source)
 
 
 def normalize_quality_hint(value: str) -> str:
@@ -2361,6 +2409,19 @@ async def fetch_stream(
                 if len(entry["sources"]) == 1:
                     print(f"   🎯 [{source}] {normalized}")
 
+        if fast_registry_allowed(match):
+            fast_urls = lookup_fast_registry_urls(match.get("blv", ""))
+            if fast_urls:
+                print(f"   ⚡ Fast registry Lương Sơn: {match.get('blv')} → {len(fast_urls)} URL signed còn hạn", flush=True)
+                for candidate_url in fast_urls:
+                    capture_url(
+                        candidate_url,
+                        "fast-registry",
+                        headers={"referer": match.get("url", ""), "user-agent": UA},
+                        frame_url=match.get("url", ""),
+                    )
+                match["fast_registry_attempted"] = True
+
         http_reference_count = await discover_http_candidates(context, match, capture_url)
         if http_reference_count:
             print(
@@ -2384,6 +2445,7 @@ async def fetch_stream(
                 match["rejected_streams"] = early_rejected
                 match["streams"] = early_streams
                 match["stream_urls"] = [item["url"] for item in early_streams]
+                learn_fast_registry_urls(match.get("blv", ""), early_streams, source="verified-http-fast-path")
                 print(
                     f"   🚀 Dừng sớm HTTP-first: verified={verified_count}, "
                     f"đầu ra={len(early_streams)}; không mở Chromium.",
@@ -2671,6 +2733,7 @@ async def fetch_stream(
             context, stream_map, match
         )
         match["stream_urls"] = [item["url"] for item in match["streams"]]
+        learn_fast_registry_urls(match.get("blv", ""), match["streams"], source="verified-stream")
 
         if match["streams"]:
             verified_count = sum(

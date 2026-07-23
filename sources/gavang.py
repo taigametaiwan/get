@@ -20,6 +20,11 @@ from zoneinfo import ZoneInfo
 from playwright.async_api import BrowserContext, Page, Route, async_playwright
 
 try:
+    from .fast_registry_support import get_row, set_row
+except ImportError:
+    from fast_registry_support import get_row, set_row
+
+try:
     from .hybrid_support import (
         extract_explicit_references,
         load_state as load_delta_state,
@@ -46,6 +51,7 @@ DEFAULT_HOME_URLS = (
 TARGET_URL = DEFAULT_HOME_URLS[0]
 PLAYER_ORIGIN_FALLBACK = "https://smorf.io"
 GAVANG_STREAM_BASE = "https://flv.lauthaitv.cc/live/"
+GAVANG_HLS_STREAM_BASE = "https://hls.lauthaitv.cc/live/"
 DEFAULT_GAVANG_SOURCE_LOGO_URL = "https://smorf.io/favicon.ico"
 GAVANG_SOURCE_LOGO_URL = os.getenv(
     "GAVANG_SOURCE_LOGO_URL", DEFAULT_GAVANG_SOURCE_LOGO_URL
@@ -58,7 +64,7 @@ LEGACY_GIT_PLAYLIST_PATH = "gavang/gavang_live.m3u"
 OUTPUT_DEBUG = "gavang_debug.json"
 OUTPUT_HOME_DEBUG_HTML = "gavang_home_debug.html"
 OUTPUT_HOME_DEBUG_PNG = "gavang_home_debug.png"
-SCANNER_VERSION = "4.4.12-GAVANG-EXACT-FIXTURE-SCHEDULE-METADATA"
+SCANNER_VERSION = "4.4.28-GAVANG-FAST-STREAMKEY-REGISTRY"
 
 
 def read_env_bool(name: str, default: bool = True) -> bool:
@@ -138,6 +144,8 @@ DELTA_NEAR_MINUTES = read_env_int("GAVANG_DELTA_NEAR_MINUTES", 45, minimum=5, ma
 STATE_PATH = Path(os.getenv("GAVANG_STATE_PATH", "gavang_state.json"))
 HEADLESS = True
 PROBE_CACHE: dict[tuple[str, str, str, str, str], dict[str, Any]] = {}
+FAST_REGISTRY_ENABLED = read_env_bool("GAVANG_FAST_REGISTRY_ENABLED", True)
+FAST_REGISTRY_PATH = Path(os.getenv("GAVANG_STREAM_REGISTRY_PATH", str(PROJECT_ROOT / "gavang_stream_registry.json")))
 
 # Dùng đúng User-Agent đã được kiểm chứng phát được bằng VLC.
 UA = (
@@ -1755,21 +1763,57 @@ def dedupe_home_links(links: list[dict[str, Any]]) -> tuple[list[dict[str, Any]]
 
 
 def derived_gavang_stream_candidates(match_url: str) -> list[dict[str, str]]:
-    """Dựng ứng viên FLV theo mẫu client-side quan sát được của Gà Vàng.
+    """Fast path theo stream_key riêng của đúng fixture: HLS trước, FLV sau.
 
-    URL dựng ra vẫn phải qua probe chữ ký FLV trước khi được ghi playlist.
+    Registry chỉ lưu các biến thể URL đã từng verified cho chính stream_key; không ánh xạ
+    theo BLV nên không thể gán nhầm channel của trận trước sang trận sau.
     """
     key = extract_gavang_stream_key(match_url)
     if not key:
         return []
     origin = origin_from_url(match_url) or PLAYER_ORIGIN_FALLBACK
-    return [{
-        "url": urljoin(GAVANG_STREAM_BASE, key + ".flv"),
-        "referer": match_url,
-        "origin": origin,
-        "quality": "",
-        "source": "derived/s8_live_stream_key",
-    }]
+    urls: list[str] = []
+    if FAST_REGISTRY_ENABLED:
+        row = get_row(FAST_REGISTRY_PATH, key)
+        stored = row.get("urls") or []
+        if isinstance(stored, str):
+            stored = [stored]
+        for value in stored if isinstance(stored, list) else []:
+            url = clean_text(str(value))
+            if url.startswith(("http://", "https://")):
+                urls.append(url)
+    urls.extend([
+        urljoin(GAVANG_HLS_STREAM_BASE, key + "/index.m3u8"),
+        urljoin(GAVANG_STREAM_BASE, key + ".flv"),
+    ])
+    result: list[dict[str, str]] = []
+    for url in dict.fromkeys(urls):
+        result.append({
+            "url": url,
+            "referer": match_url,
+            "origin": origin,
+            "quality": "",
+            "source": "derived/s8_live_stream_key",
+        })
+    return result
+
+
+def learn_gavang_stream_registry(match_url: str, entries: list[dict[str, Any]], source: str = "verified-stream") -> None:
+    if not FAST_REGISTRY_ENABLED:
+        return
+    key = extract_gavang_stream_key(match_url)
+    if not key:
+        return
+    urls: list[str] = []
+    for entry in entries:
+        if entry.get("playability") != "verified":
+            continue
+        url = clean_text(str(entry.get("url") or ""))
+        host = (urlparse(url).hostname or "").lower()
+        if "lauthaitv.cc" in host and extract_gavang_stream_key(url) == key:
+            urls.append(url)
+    if urls:
+        set_row(FAST_REGISTRY_PATH, key, {"urls": list(dict.fromkeys(urls))[:4]}, source)
 
 
 def derived_pending_reason(match: dict[str, Any]) -> str:
@@ -3801,7 +3845,7 @@ async def fetch_stream(
             )
         if derived_candidates:
             print(
-                f"   ⚡ Dựng {len(derived_candidates)} FLV từ s8_live_stream_key; "
+                f"   ⚡ Fast registry dựng {len(derived_candidates)} HLS/FLV từ s8_live_stream_key; "
                 "probe ngay trước khi tải trang/player.",
                 flush=True,
             )
@@ -3823,6 +3867,7 @@ async def fetch_stream(
                     flush=True,
                 )
                 await enrich_verified_match_metadata(context, match)
+                learn_gavang_stream_registry(match.get("url", ""), match["streams"])
                 return match
 
             derived_pending = build_derived_pending_streams(
@@ -4211,6 +4256,7 @@ async def fetch_stream(
                 )
             ]
         match["stream_urls"] = [item["url"] for item in match["streams"]]
+        learn_gavang_stream_registry(match.get("url", ""), match["streams"])
 
         if match["streams"]:
             verified_count = sum(

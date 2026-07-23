@@ -62,14 +62,19 @@ class GavangAdapterTests(unittest.TestCase):
 
     def test_derived_flv_candidate_has_required_headers(self):
         rows = gavang.derived_gavang_stream_candidates(MATCH_URL)
-        self.assertEqual(len(rows), 1)
+        self.assertEqual(len(rows), 2)
         self.assertEqual(
             rows[0]["url"],
+            "https://hls.lauthaitv.cc/live/marielhamn-lahti-finveik/index.m3u8",
+        )
+        self.assertEqual(
+            rows[1]["url"],
             "https://flv.lauthaitv.cc/live/marielhamn-lahti-finveik.flv",
         )
-        self.assertEqual(rows[0]["referer"], MATCH_URL)
-        self.assertEqual(rows[0]["origin"], "https://smorf.io")
-        self.assertEqual(rows[0]["source"], "derived/s8_live_stream_key")
+        for row in rows:
+            self.assertEqual(row["referer"], MATCH_URL)
+            self.assertEqual(row["origin"], "https://smorf.io")
+            self.assertEqual(row["source"], "derived/s8_live_stream_key")
 
     def test_unknown_time_stream_key_is_kept_for_direct_probe(self):
         rows = [{

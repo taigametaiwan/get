@@ -5,8 +5,8 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PACKAGE_VERSION = "4.4.27"
-BUILD_TAG = "4.4.27-FAST-REGISTRY-PILOT"
+PACKAGE_VERSION = "4.4.28"
+BUILD_TAG = "4.4.28-FAST-REGISTRY-ALL-SOURCES"
 
 
 class ReleaseConsistencyTests(unittest.TestCase):
@@ -30,8 +30,8 @@ class ReleaseConsistencyTests(unittest.TestCase):
 
     def test_workflow_has_current_identity_and_non_cancelling_concurrency(self) -> None:
         workflow = self.read(".github/workflows/update.yml")
-        self.assertTrue(workflow.startswith("name: Quet 6 nguon v4.4.27"))
-        self.assertIn('git commit -m "Update live streams v4.4.27', workflow)
+        self.assertTrue(workflow.startswith("name: Quet 6 nguon v4.4.28"))
+        self.assertIn('git commit -m "Update live streams v4.4.28', workflow)
         self.assertIn('cron: "*/30 * * * *"', workflow)
         self.assertIn("cancel-in-progress: false", workflow)
         self.assertNotIn("PHAOHOA_PLACEHOLDER_USE_MATCH_PAGE", workflow)
@@ -44,7 +44,7 @@ class ReleaseConsistencyTests(unittest.TestCase):
 
     def test_xoilac_is_unlimited_and_403_candidates_are_not_publishable(self) -> None:
         source = self.read("sources/xoilac.py")
-        self.assertIn('VERSION = "4.4.27-XOILAC-FAST-LIVE2-REGISTRY"', source)
+        self.assertIn('VERSION = "4.4.28-XOILAC-FAST-REGISTRY-GUARD"', source)
         self.assertIn(
             'parser.add_argument("--max-matches", type=int, default=int(os.getenv("XOILAC_MAX_MATCHES", "0")))',
             source,
@@ -85,20 +85,31 @@ class ReleaseConsistencyTests(unittest.TestCase):
 
     def test_phaohoa_uses_only_safe_loopback_placeholder(self) -> None:
         source = self.read("sources/phaohoa.py")
-        self.assertIn('SCANNER_VERSION = "4.4.20-PHAOHOA-SAFE-PLACEHOLDER-MULTISOURCE"', source)
+        self.assertIn('SCANNER_VERSION = "4.4.28-PHAOHOA-FAST-SIGNED-REGISTRY"', source)
         self.assertIn("PLACEHOLDER_USE_MATCH_PAGE = False", source)
         self.assertIn('"http://127.0.0.1:9/__phaohoa_metadata__"', source)
 
     def test_fast_registry_files_and_workflow_are_present(self) -> None:
-        self.assertTrue((ROOT / "xoilac_channel_registry.json").is_file())
-        self.assertTrue((ROOT / "colatv_channel_registry.json").is_file())
+        registry_files = (
+            "xoilac_channel_registry.json",
+            "colatv_channel_registry.json",
+            "chuoichien_channel_registry.json",
+            "luongson_channel_registry.json",
+            "gavang_stream_registry.json",
+            "phaohoa_channel_registry.json",
+        )
+        for relative in registry_files:
+            self.assertTrue((ROOT / relative).is_file(), relative)
         workflow = self.read(".github/workflows/update.yml")
-        self.assertIn('XOILAC_FAST_REGISTRY_ENABLED: "1"', workflow)
-        self.assertIn('COLATV_FAST_REGISTRY_ENABLED: "1"', workflow)
+        for prefix in ("XOILAC", "COLATV", "SOCOLIVE", "HYGENIE", "GAVANG", "PHAOHOA"):
+            self.assertIn(f'{prefix}_FAST_REGISTRY_ENABLED: "1"', workflow)
+        for relative in registry_files:
+            self.assertIn(relative, workflow)
         self.assertIn('XOILAC_FAST_REGISTRY_FUTURE_MINUTES: "15"', workflow)
         self.assertIn('COLATV_FAST_REGISTRY_FUTURE_MINUTES: "15"', workflow)
-        self.assertIn("xoilac_channel_registry.json", workflow)
-        self.assertIn("colatv_channel_registry.json", workflow)
+        self.assertIn('SOCOLIVE_FAST_REGISTRY_FUTURE_MINUTES: "15"', workflow)
+        self.assertIn('HYGENIE_FAST_REGISTRY_FUTURE_MINUTES: "15"', workflow)
+        self.assertIn('PHAOHOA_FAST_REGISTRY_FUTURE_MINUTES: "15"', workflow)
 
     def test_all_six_source_files_exist(self) -> None:
         for relative in (

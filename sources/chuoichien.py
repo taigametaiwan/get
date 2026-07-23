@@ -20,6 +20,11 @@ from zoneinfo import ZoneInfo
 from playwright.async_api import BrowserContext, Page, Route, async_playwright
 
 try:
+    from .fast_registry_support import get_row, identity_is_specific, set_row
+except ImportError:
+    from fast_registry_support import get_row, identity_is_specific, set_row
+
+try:
     from .hybrid_support import (
         extract_explicit_references,
         load_state as load_delta_state,
@@ -54,7 +59,7 @@ LEGACY_GIT_PLAYLIST_PATH = "chuoichien/chuoichien_live.m3u"
 OUTPUT_DEBUG = "chuoichien_debug.json"
 OUTPUT_HOME_DEBUG_HTML = "chuoichien_home_debug.html"
 OUTPUT_HOME_DEBUG_PNG = "chuoichien_home_debug.png"
-SCANNER_VERSION = "4.4.8-CHUOICHIEN-SOURCE-GROUP"
+SCANNER_VERSION = "4.4.28-CHUOICHIEN-FAST-BLV-REGISTRY"
 
 
 def read_env_bool(name: str, default: bool = True) -> bool:
@@ -131,6 +136,17 @@ DELTA_NEAR_MINUTES = read_env_int("SOCOLIVE_DELTA_NEAR_MINUTES", 45, minimum=5, 
 STATE_PATH = Path(os.getenv("SOCOLIVE_STATE_PATH", "chuoichien_state.json"))
 HEADLESS = True
 PROBE_CACHE: dict[tuple[str, str, str, str], dict[str, Any]] = {}
+FAST_REGISTRY_ENABLED = read_env_bool("SOCOLIVE_FAST_REGISTRY_ENABLED", True)
+FAST_REGISTRY_FUTURE_MINUTES = read_env_int("SOCOLIVE_FAST_REGISTRY_FUTURE_MINUTES", 15, minimum=0, maximum=90)
+FAST_REGISTRY_PATH = Path(os.getenv("SOCOLIVE_CHANNEL_REGISTRY_PATH", str(PROJECT_ROOT / "chuoichien_channel_registry.json")))
+FAST_REGISTRY_REFERER = os.getenv("SOCOLIVE_FAST_REGISTRY_REFERER", "https://live.chuoichien.tv/").strip()
+FAST_REGISTRY_TEMPLATES = tuple(
+    item.strip() for item in os.getenv(
+        "SOCOLIVE_FAST_REGISTRY_TEMPLATES",
+        "https://gckc0525.edgemaxcdn.org/live/{slug}/playlist.m3u8,"
+        "https://gckc0525.edgemaxcdn.org/live/{slug}.flv",
+    ).split(",") if item.strip() and "{slug}" in item
+)
 
 # Dùng đúng User-Agent đã được kiểm chứng phát được bằng VLC.
 UA = (
@@ -319,6 +335,51 @@ def extract_blv_from_url(value: str) -> str:
             if name:
                 return name
     return ""
+
+
+def fast_registry_identity_allowed(value: str) -> bool:
+    return identity_is_specific(value, extra_generic=("Chuối Chiên", "Chuoi Chien", "Live"))
+
+
+def fast_registry_allowed(match: dict[str, Any]) -> bool:
+    delta = match.get("minutes_to_kickoff")
+    return FAST_REGISTRY_ENABLED and isinstance(delta, int) and -SCAN_PAST_MINUTES <= delta <= FAST_REGISTRY_FUTURE_MINUTES
+
+
+def extract_fast_slug(value: str) -> str:
+    try:
+        query = parse_qs(urlparse(decode_url_repeatedly(value)).query)
+    except Exception:
+        query = {}
+    raw = clean_text((query.get("blv") or query.get("commentator") or [""])[0]).lower()
+    raw = re.sub(r"[^a-z0-9_-]+", "", raw)
+    return raw if re.fullmatch(r"[a-z0-9][a-z0-9_-]{1,50}", raw) else ""
+
+
+def lookup_fast_slug(blv: str) -> str:
+    if not FAST_REGISTRY_ENABLED or not fast_registry_identity_allowed(blv):
+        return ""
+    slug = clean_text(get_row(FAST_REGISTRY_PATH, blv).get("slug")).lower()
+    return slug if re.fullmatch(r"[a-z0-9][a-z0-9_-]{1,50}", slug) else ""
+
+
+def learn_fast_slug(blv: str, slug: str, source: str) -> None:
+    normalized = clean_text(slug).lower()
+    if not fast_registry_identity_allowed(blv) or not re.fullmatch(r"[a-z0-9][a-z0-9_-]{1,50}", normalized):
+        return
+    set_row(FAST_REGISTRY_PATH, blv, {"slug": normalized}, source)
+
+
+def build_fast_registry_urls(slug: str) -> list[str]:
+    normalized = clean_text(slug).lower()
+    if not re.fullmatch(r"[a-z0-9][a-z0-9_-]{1,50}", normalized):
+        return []
+    return [template.format(slug=normalized) for template in FAST_REGISTRY_TEMPLATES]
+
+
+def extract_fast_slug_from_stream(url: str) -> str:
+    match = re.search(r"/live/([a-z0-9_-]+)(?:/playlist\.m3u8|\.flv)(?:[?#]|$)", url, re.I)
+    return match.group(1).lower() if match else ""
 
 
 def normalize_quality_hint(value: str) -> str:
@@ -2680,6 +2741,20 @@ async def fetch_stream(
                 if len(entry["sources"]) == 1:
                     print(f"   🎯 [{source}] {normalized}")
 
+        fast_slug = extract_fast_slug(match.get("url", "")) or lookup_fast_slug(match.get("blv", ""))
+        if fast_registry_allowed(match) and fast_slug:
+            if match.get("blv"):
+                learn_fast_slug(match.get("blv", ""), fast_slug, source="home-card/query")
+            print(f"   ⚡ Fast registry Chuối Chiên: {match.get('blv') or fast_slug} → {fast_slug}", flush=True)
+            for candidate_url in build_fast_registry_urls(fast_slug):
+                capture_url(
+                    candidate_url,
+                    "fast-registry",
+                    headers={"referer": FAST_REGISTRY_REFERER, "user-agent": UA},
+                    frame_url=FAST_REGISTRY_REFERER,
+                )
+            match["fast_registry_attempted"] = bool(stream_map)
+
         http_reference_count = await discover_http_candidates(context, match, capture_url)
         if http_reference_count:
             print(
@@ -2703,6 +2778,12 @@ async def fetch_stream(
                 match["rejected_streams"] = early_rejected
                 match["streams"] = early_streams
                 match["stream_urls"] = [item["url"] for item in early_streams]
+                for registry_entry in early_streams:
+                    if registry_entry.get("playability") != "verified":
+                        continue
+                    learned_slug = extract_fast_slug_from_stream(str(registry_entry.get("url") or ""))
+                    if learned_slug:
+                        learn_fast_slug(match.get("blv", ""), learned_slug, source="verified-http-fast-path")
                 print(
                     f"   🚀 Dừng sớm HTTP-first: verified={verified_count}, "
                     f"đầu ra={len(early_streams)}; không mở Chromium.",
@@ -3011,6 +3092,12 @@ async def fetch_stream(
             context, stream_map, match
         )
         match["stream_urls"] = [item["url"] for item in match["streams"]]
+        for registry_entry in match["streams"]:
+            if registry_entry.get("playability") != "verified":
+                continue
+            learned_slug = extract_fast_slug_from_stream(str(registry_entry.get("url") or ""))
+            if learned_slug:
+                learn_fast_slug(match.get("blv", ""), learned_slug, source="verified-stream")
 
         if match["streams"]:
             verified_count = sum(

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "commentators": {
+    "PHI HO": {
+      "urls": [
+        "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f",
+        "https://flv.cdnfaster-a.live/live/PHIHO.flv?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+      ],
+      "source": "seed-from-user-provided-reference-m3u",
+      "updated_at": "2026-07-23T00:00:00+07:00"
+    },
+    "LAO HAC": {
+      "urls": [
+        "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491",
+        "https://flv.cdnfaster-a.live/live/LAOHAC.flv?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+      ],
+      "source": "seed-from-user-provided-reference-m3u",
+      "updated_at": "2026-07-23T00:00:00+07:00"
+    },
+    "KAKA": {
+      "urls": [
+        "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6",
+        "https://flv.cdnfaster-a.live/live/KAKA.flv?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+      ],
+      "source": "seed-from-user-provided-reference-m3u",
+      "updated_at": "2026-07-23T00:00:00+07:00"
+    },
+    "TAO THAO": {
+      "urls": [
+        "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9",
+        "https://flv.cdnfaster-a.live/live/TAOTHAO.flv?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+      ],
+      "source": "seed-from-user-provided-reference-m3u",
+      "updated_at": "2026-07-23T00:00:00+07:00"
+    }
+  }
+}

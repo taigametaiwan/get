@@ -191,7 +191,8 @@ class BrowserFallbackPolicyTests(unittest.IsolatedAsyncioTestCase):
             {"url": "https://cdn.example/live/angao/playlist.m3u8", "playability": "verified", "quality": "HD"},
         ]
         with patch.object(chuoichien, "discover_http_candidates", new=fake_discover), \
-             patch.object(chuoichien, "finalize_stream_map", new=AsyncMock(return_value=(verified, []))):
+             patch.object(chuoichien, "finalize_stream_map", new=AsyncMock(return_value=(verified, []))), \
+             patch.object(chuoichien, "learn_fast_slug"):
             result = await chuoichien.fetch_stream(_NoPageContext(), match, __import__("asyncio").Semaphore(1))
         self.assertEqual(result.get("scan_decision"), "http-first-complete")
         self.assertEqual(len(result.get("streams") or []), 2)
