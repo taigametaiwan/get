@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-23T11:01:34.761381+07:00",
+  "updated_at": "2026-07-23T11:31:29.283062+07:00",
   "matches": {
     "1516068": {
       "url": "https://live04.chuoichientv.me/live/1516068/mashal-vs-nasaf",
@@ -148,11 +148,11 @@
     },
     "1490342": {
       "url": "https://live04.chuoichientv.me/live/1490342/los-angeles-fc-vs-real-salt-lake",
-      "match_name": "los angeles fc vs real salt lake",
+      "match_name": "Los Angeles FC vs Real Salt Lake - Major League Soccer",
       "kickoff_iso": "2026-07-23T09:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-23T11:01:34.761311+07:00",
-      "next_scan_at": "2026-07-23T11:06:34.761311+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-07-23T11:31:29.282992+07:00",
+      "next_scan_at": "2026-07-23T11:36:29.282992+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -180,6 +180,18 @@
       "minutes_to_kickoff": 239,
       "last_scan_at": "2026-07-23T11:01:34.761311+07:00",
       "next_scan_at": "2026-07-23T11:46:34.761311+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "991281": {
+      "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
+      "match_name": "vit nam vs thailand",
+      "kickoff_iso": "2026-07-23T15:30:00+07:00",
+      "minutes_to_kickoff": 239,
+      "last_scan_at": "2026-07-23T11:31:29.282992+07:00",
+      "next_scan_at": "2026-07-23T12:16:29.282992+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
