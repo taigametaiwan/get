@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-23T23:07:40.605189+07:00",
+  "updated_at": "2026-07-23T23:46:36.513450+07:00",
   "matches": {
     "b749f7505746": {
       "url": "https://phaohoa1.live/truc-tiep/my-w-vs-trung-quoc-w",
@@ -61,9 +61,9 @@
       "url": "https://phaohoa1.live/truc-tiep/fk-liepaja-vs-austria-vienna-23-07-2026-776592",
       "match_name": "Fk Liepaja vs Austria Vienna",
       "kickoff_iso": "2026-07-23T22:00:00+07:00",
-      "minutes_to_kickoff": -67,
-      "last_scan_at": "2026-07-23T23:07:40.604987+07:00",
-      "next_scan_at": "2026-07-23T23:12:40.604987+07:00",
+      "minutes_to_kickoff": -105,
+      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
+      "next_scan_at": "2026-07-23T23:51:36.513071+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -75,9 +75,9 @@
       "url": "https://phaohoa1.live/truc-tiep/hjk-vs-coleraine-23-07-2026-770542",
       "match_name": "HJK vs Coleraine",
       "kickoff_iso": "2026-07-23T23:00:00+07:00",
-      "minutes_to_kickoff": -7,
-      "last_scan_at": "2026-07-23T23:07:40.604987+07:00",
-      "next_scan_at": "2026-07-23T23:12:40.604987+07:00",
+      "minutes_to_kickoff": -45,
+      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
+      "next_scan_at": "2026-07-23T23:51:36.513071+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -89,9 +89,9 @@
       "url": "https://phaohoa1.live/truc-tiep/qarabag-vs-cska-sofia-23-07-2026-778923",
       "match_name": "Qarabag vs CSKA Sofia",
       "kickoff_iso": "2026-07-23T23:00:00+07:00",
-      "minutes_to_kickoff": -7,
-      "last_scan_at": "2026-07-23T23:07:40.604987+07:00",
-      "next_scan_at": "2026-07-23T23:12:40.604987+07:00",
+      "minutes_to_kickoff": -45,
+      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
+      "next_scan_at": "2026-07-23T23:51:36.513071+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -103,21 +103,23 @@
       "url": "https://phaohoa1.live/truc-tiep/hammarby-vs-anderlecht-24-07-2026-770776",
       "match_name": "Hammarby vs Anderlecht",
       "kickoff_iso": "2026-07-24T00:00:00+07:00",
-      "minutes_to_kickoff": 53,
-      "last_scan_at": "2026-07-23T23:07:40.604987+07:00",
-      "next_scan_at": "2026-07-23T23:27:40.604987+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 14,
+      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
+      "next_scan_at": "2026-07-23T23:51:36.513071+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     },
     "778921": {
       "url": "https://phaohoa1.live/truc-tiep/dyn-kyiv-vs-paok-24-07-2026-778921",
       "match_name": "Dyn. Kyiv vs PAOK",
       "kickoff_iso": "2026-07-24T00:00:00+07:00",
-      "minutes_to_kickoff": 53,
-      "last_scan_at": "2026-07-23T23:07:40.604987+07:00",
-      "next_scan_at": "2026-07-23T23:27:40.604987+07:00",
+      "minutes_to_kickoff": 14,
+      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
+      "next_scan_at": "2026-07-23T23:51:36.513071+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -125,39 +127,39 @@
     },
     "770775": {
       "url": "https://phaohoa1.live/truc-tiep/besiktas-vs-midtjylland-24-07-2026-770775",
-      "match_name": "24-07 UEFA Europa League Besiktas VS Midtjylland KaKa",
+      "match_name": "Besiktas vs Midtjylland",
       "kickoff_iso": "2026-07-24T01:00:00+07:00",
-      "minutes_to_kickoff": 113,
-      "last_scan_at": "2026-07-23T23:07:40.604987+07:00",
-      "next_scan_at": "2026-07-23T23:27:40.604987+07:00",
+      "minutes_to_kickoff": 74,
+      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
+      "next_scan_at": "2026-07-24T00:06:36.513071+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "778935": {
       "url": "https://phaohoa1.live/truc-tiep/vojvodina-vs-ajax-24-07-2026-778935",
       "match_name": "24-07 UEFA Conference League Vojvodina VS Ajax Pháo Thủ",
       "kickoff_iso": "2026-07-24T01:00:00+07:00",
-      "minutes_to_kickoff": 113,
-      "last_scan_at": "2026-07-23T23:07:40.604987+07:00",
-      "next_scan_at": "2026-07-23T23:27:40.604987+07:00",
+      "minutes_to_kickoff": 74,
+      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
+      "next_scan_at": "2026-07-24T00:06:36.513071+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "770777": {
       "url": "https://phaohoa1.live/truc-tiep/st-gallen-vs-benfica-24-07-2026-770777",
-      "match_name": "24-07 UEFA Europa League St. Gallen VS Benfica Kevin",
+      "match_name": "St. Gallen vs Benfica",
       "kickoff_iso": "2026-07-24T01:00:00+07:00",
-      "minutes_to_kickoff": 113,
-      "last_scan_at": "2026-07-23T23:07:40.604987+07:00",
-      "next_scan_at": "2026-07-23T23:27:40.604987+07:00",
+      "minutes_to_kickoff": 74,
+      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
+      "next_scan_at": "2026-07-24T00:06:36.513071+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
