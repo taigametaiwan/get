@@ -560,6 +560,127 @@ class MergerTests(unittest.TestCase):
         self.assertTrue(any(row.get("url") == placeholder_url for row in report["dropped"]))
 
 
+
+    def test_chuoichien_stream_urls_schema_keeps_both_verified_matches(self) -> None:
+        rows = [
+            {
+                "id": "cc-1",
+                "name": "[22:00 23/07] Alashkert vs CFR Cluj - UEFA Europa Conference League [BLV Chuối Chao] [FHD FLV]",
+                "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
+            },
+            {
+                "id": "cc-2",
+                "name": "[23:00 23/07] Qarabag vs CSKA Sofia - UEFA Europa League [BLV Chuối To] [FHD FLV]",
+                "url": "https://gckc0525.edgemaxcdn.org/live/chuoito.flv",
+            },
+        ]
+        debug = [
+            {
+                "match_name": "Alashkert vs CFR Cluj - UEFA Europa Conference League",
+                "date": "23/07", "time": "22:00", "blv": "Chuối Chao",
+                "playability": "verified", "quality": "FHD",
+                "stream_urls": [rows[0]["url"]],
+            },
+            {
+                "match_name": "Qarabag vs CSKA Sofia - UEFA Europa League",
+                "date": "23/07", "time": "23:00", "blv": "Chuối To",
+                "playability": "verified", "quality": "FHD",
+                "stream_urls": [rows[1]["url"]],
+            },
+        ]
+        report = merge_sources(
+            self.root,
+            [self.make_source("chuoichien", "Chuối Chiên", rows, debug)],
+            now=datetime(2026, 7, 23, 23, 41, tzinfo=TZ),
+            preserve_on_empty=False,
+        )
+        self.assertEqual(report["selected_count"], 2)
+        urls = {row["url"] for row in report["channels"]}
+        self.assertEqual(urls, {rows[0]["url"], rows[1]["url"]})
+        self.assertTrue(report["fresh_preservation_ok"])
+        source = report["sources"][0]
+        self.assertEqual(source["fresh_verified_blocks"], 2)
+        self.assertEqual(source["fresh_selected"], 2)
+        self.assertEqual(source["unresolved"], 0)
+
+    def test_fresh_playlist_block_survives_missing_debug_stream_index(self) -> None:
+        rows = [
+            {
+                "id": "cc-1",
+                "name": "[22:00 23/07] Alashkert vs CFR Cluj - UEFA Europa Conference League [BLV Chuối Chao] [FHD FLV]",
+                "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
+            },
+            {
+                "id": "cc-2",
+                "name": "[23:00 23/07] Qarabag vs CSKA Sofia - UEFA Europa League [BLV Chuối To] [FHD FLV]",
+                "url": "https://gckc0525.edgemaxcdn.org/live/chuoito.flv",
+            },
+        ]
+        # Mô phỏng artifact thực tế: debug vẫn có card nhưng một stream không được index.
+        debug = [
+            {
+                "match_name": "Alashkert vs CFR Cluj - UEFA Europa Conference League",
+                "date": "23/07", "time": "22:00", "blv": "Chuối Chao",
+                "streams": [{"url": rows[0]["url"], "playability": "verified", "quality": "FHD", "http_status": 200}],
+            },
+            {
+                "match_name": "Qarabag vs CSKA Sofia - UEFA Europa League",
+                "date": "23/07", "time": "23:00", "blv": "Chuối To",
+                "streams": [],
+            },
+        ]
+        report = merge_sources(
+            self.root,
+            [self.make_source("chuoichien", "Chuối Chiên", rows, debug)],
+            now=datetime(2026, 7, 23, 23, 41, tzinfo=TZ),
+            preserve_on_empty=False,
+        )
+        self.assertEqual(report["selected_count"], 2)
+        qarabag = next(row for row in report["channels"] if row["url"] == rows[1]["url"])
+        self.assertTrue(qarabag["verified_by_source_playlist"])
+        self.assertTrue(qarabag["metadata_link_fallback"])
+        self.assertEqual(qarabag["metadata_link_reason"], "missing-debug-stream-index")
+        source = report["sources"][0]
+        self.assertEqual(source["metadata_link_fallbacks"], 1)
+        self.assertEqual(source["fresh_selected"], 2)
+        self.assertTrue(source["integrity_ok"])
+
+    def test_fresh_same_url_suppresses_recovered_last_good(self) -> None:
+        url = "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
+        kickoff = datetime(2026, 7, 23, 22, 0, tzinfo=TZ)
+        (self.root / "all_live.m3u").write_text(
+            "#EXTM3U\n"
+            '#EXTINF:-1 tvg-id="old" tvg-name="Old" group-title="Chuối Chiên",Old [FHD FLV]\n'
+            f"{url}\n",
+            encoding="utf-8",
+        )
+        (self.root / "all_live_debug.json").write_text(json.dumps({
+            "generated_at": datetime(2026, 7, 23, 23, 0, tzinfo=TZ).isoformat(),
+            "channels": [{
+                "source": "chuoichien", "url": url, "playability": "verified",
+                "quality": "FHD", "kickoff_iso": kickoff.isoformat(), "match_key": "old|",
+            }],
+        }, ensure_ascii=False), encoding="utf-8")
+        rows = [{
+            "id": "fresh", "name": "[22:00 23/07] Alashkert vs CFR Cluj [BLV Chuối Chao] [FHD FLV]", "url": url,
+        }]
+        debug = [{
+            "match_name": "Alashkert vs CFR Cluj", "date": "23/07", "time": "22:00", "blv": "Chuối Chao",
+            "streams": [{"url": url, "playability": "verified", "quality": "FHD", "http_status": 200}],
+        }]
+        with patch.object(merger, "_probe_previous_block", return_value=(True, "HTTP 200; flv=True")):
+            report = merge_sources(
+                self.root,
+                [self.make_source("chuoichien", "Chuối Chiên", rows, debug)],
+                now=datetime(2026, 7, 23, 23, 41, tzinfo=TZ),
+                preserve_on_empty=False,
+            )
+        self.assertEqual(report["selected_count"], 1)
+        self.assertEqual(report["last_good_recovered_count"], 0)
+        self.assertEqual(report["last_good_suppressed_by_fresh_count"], 1)
+        self.assertFalse(report["channels"][0]["recovered_last_good"])
+        self.assertTrue(any(row.get("reason") == "fresh-source-replaces-last-good" for row in report["last_good_audit"]))
+
     def test_previous_verified_stream_is_recovered_only_after_successful_reprobe(self) -> None:
         url = "https://cdn.example/live/a.flv"
         kickoff = self.now - timedelta(minutes=15)

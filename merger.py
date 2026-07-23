@@ -16,7 +16,7 @@ from typing import Any, Iterable
 from urllib.parse import parse_qs, unquote, urljoin, urlparse
 from zoneinfo import ZoneInfo
 
-VERSION = "4.4.28-FAST-REGISTRY-ALL-SOURCES"
+VERSION = "4.4.29-FRESH-VERIFIED-PRESERVATION"
 TZ_VIETNAM = ZoneInfo("Asia/Ho_Chi_Minh")
 ALLOWED_GROUPS = {"Bóng đá", "Bóng rổ", "Bóng chuyền", "Tennis", "Esports", "Khác"}
 SOURCE_ORDER = {"chuoichien": 0, "luongson": 1, "gavang": 2, "xoilac": 3, "colatv": 4, "phaohoa": 5}
@@ -738,6 +738,65 @@ def extract_blv(row: dict[str, Any], display_name: str) -> str:
     return normalize_ascii(match.group(1)) if match else ""
 
 
+def _iter_debug_streams(row: dict[str, Any]) -> Iterable[dict[str, Any]]:
+    """Đọc được cả schema mới ``streams`` và schema dự phòng ``stream_urls``."""
+    seen: set[str] = set()
+    raw_streams = row.get("streams") or []
+    if isinstance(raw_streams, (str, dict)):
+        raw_streams = [raw_streams]
+    for value in raw_streams:
+        stream = dict(value) if isinstance(value, dict) else {"url": value}
+        url = canonical_stream_url(stream.get("url", ""))
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        stream["url"] = url
+        yield stream
+
+    raw_urls = row.get("stream_urls") or []
+    if isinstance(raw_urls, (str, dict)):
+        raw_urls = [raw_urls]
+    for value in raw_urls:
+        stream = dict(value) if isinstance(value, dict) else {"url": value}
+        url = canonical_stream_url(stream.get("url", ""))
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        stream["url"] = url
+        stream.setdefault("playability", row.get("playability"))
+        stream.setdefault("quality", row.get("quality"))
+        stream["debug_schema_fallback"] = "stream_urls"
+        yield stream
+
+
+def _playlist_fallback_metadata(block: M3UBlock, now: datetime, reason: str) -> dict[str, Any]:
+    """Khôi phục metadata tối thiểu từ chính block M3U tươi đã do scanner xuất."""
+    display = clean_text(block.display_name)
+    blv_match = re.search(r"\[BLV\s+([^\]]+)\]", display, flags=re.I)
+    blv = clean_text(blv_match.group(1)) if blv_match else ""
+    kickoff_match = re.match(r"^\[(?P<time>[0-2]?\d:[0-5]\d)\s+(?P<date>\d{1,2}[/-]\d{1,2}(?:[/-]\d{2,4})?)\]", display)
+    row: dict[str, Any] = {
+        "match_name": re.sub(r"^(?:\[[^\]]+\]\s*)+", "", display),
+        "blv": blv,
+        "playability": "verified",
+        "verified": True,
+        "verified_by_source_playlist": True,
+        "metadata_link_fallback": True,
+        "metadata_link_reason": reason,
+        "source_playlist_url": block.canonical_url,
+    }
+    row["match_name"] = re.sub(r"\s*\[BLV\s+[^\]]+\]", "", row["match_name"], flags=re.I)
+    row["match_name"] = re.sub(r"\s*\[(?:4K|FHD|HD|SD)?\s*(?:M3U8|FLV)\]\s*$", "", row["match_name"], flags=re.I)
+    if kickoff_match:
+        row["time"] = kickoff_match.group("time")
+        row["date"] = kickoff_match.group("date")
+    kickoff = resolve_kickoff(row, now)
+    if kickoff:
+        row["_kickoff"] = kickoff
+        row["kickoff_iso"] = kickoff.isoformat()
+    return row
+
+
 def build_debug_index(debug_path: Path, now: datetime) -> tuple[dict[str, dict[str, Any]], list[dict[str, Any]]]:
     if not debug_path.exists():
         return {}, []
@@ -751,14 +810,16 @@ def build_debug_index(debug_path: Path, now: datetime) -> tuple[dict[str, dict[s
         if not isinstance(row, dict):
             continue
         kickoff = resolve_kickoff(row, now)
-        for stream in row.get("streams") or []:
-            if not isinstance(stream, dict):
-                continue
+        for stream in _iter_debug_streams(row):
             url = canonical_stream_url(stream.get("url", ""))
             if not url:
                 continue
             merged = dict(row)
             merged.update(stream)
+            probe = merged.get("probe")
+            if isinstance(probe, dict):
+                merged.setdefault("http_status", probe.get("status"))
+                merged.setdefault("content_type", probe.get("content_type"))
             merged["_kickoff"] = kickoff
             current = index.get(url)
             if current is None or PLAYABILITY_RANK.get(clean_text(merged.get("playability")), 0) > PLAYABILITY_RANK.get(clean_text(current.get("playability")), 0):
@@ -786,6 +847,25 @@ def enrich_blocks(source: SourceFiles, blocks: list[M3UBlock], now: datetime) ->
         meta = dict(debug_index.get(block.canonical_url, {}))
         if placeholder and not meta:
             meta = dict(phaohoa_page_index.get(phaohoa_declared_page_url(block), {}))
+        if (
+            not placeholder
+            and source.returncode == 0
+            and source.fresh
+            and rows
+            and stream_kind(block.canonical_url) in {"m3u8", "flv"}
+        ):
+            if not meta:
+                meta = _playlist_fallback_metadata(block, now, "missing-debug-stream-index")
+            elif not clean_text(meta.get("playability")):
+                fallback = _playlist_fallback_metadata(block, now, "debug-stream-missing-playability")
+                fallback.update(meta)
+                fallback["playability"] = "verified"
+                fallback["verified"] = True
+                fallback["verified_by_source_playlist"] = True
+                fallback["metadata_link_fallback"] = True
+                fallback["metadata_link_reason"] = "debug-stream-missing-playability"
+                meta = fallback
+        meta["fresh_source_playlist"] = bool(source.fresh and source.returncode == 0)
         block.metadata = meta
         block.playability = "metadata-only" if placeholder else clean_text(meta.get("playability"))
         block.kickoff = meta.get("_kickoff") if isinstance(meta.get("_kickoff"), datetime) else None
@@ -895,8 +975,27 @@ def choose_candidates(blocks: Iterable[M3UBlock], now: datetime, max_per_match: 
             dropped.append({"url": block.canonical_url, "reason": "not-verified-or-not-upcoming", "source": block.source_key})
             continue
         previous = best_by_url.get(block.canonical_url)
-        if previous is None or block.score > previous.score:
+        if previous is None:
             best_by_url[block.canonical_url] = block
+        elif block.score > previous.score:
+            dropped.append({
+                "url": previous.canonical_url,
+                "reason": "duplicate-url-lower-score",
+                "source": previous.source_key,
+                "selected_source": block.source_key,
+                "selected_score": block.score,
+                "dropped_score": previous.score,
+            })
+            best_by_url[block.canonical_url] = block
+        else:
+            dropped.append({
+                "url": block.canonical_url,
+                "reason": "duplicate-url-lower-score",
+                "source": block.source_key,
+                "selected_source": previous.source_key,
+                "selected_score": previous.score,
+                "dropped_score": block.score,
+            })
 
     grouped: dict[str, list[M3UBlock]] = {}
     for block in best_by_url.values():
@@ -942,6 +1041,72 @@ def choose_candidates(blocks: Iterable[M3UBlock], now: datetime, max_per_match: 
     )
     return selected, dropped
 
+
+
+def _fresh_input_decisions(
+    fresh_blocks: list[M3UBlock],
+    selected: list[M3UBlock],
+    dropped: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]]]:
+    selected_by_url = {item.canonical_url: item for item in selected}
+    dropped_by_identity: dict[tuple[str, str], list[dict[str, Any]]] = {}
+    for row in dropped:
+        key = (clean_text(row.get("source")), canonical_stream_url(row.get("url", "")))
+        dropped_by_identity.setdefault(key, []).append(row)
+
+    decisions: list[dict[str, Any]] = []
+    per_source: dict[str, dict[str, Any]] = {}
+    for block in fresh_blocks:
+        if is_metadata_placeholder(block):
+            continue
+        stat = per_source.setdefault(block.source_key, {
+            "fresh_stream_blocks": 0,
+            "fresh_verified_blocks": 0,
+            "fresh_selected": 0,
+            "fresh_explicitly_dropped": 0,
+            "fresh_selected_from_other_source": 0,
+            "metadata_link_fallbacks": 0,
+            "unresolved": 0,
+            "integrity_ok": True,
+        })
+        stat["fresh_stream_blocks"] += 1
+        if block.playability in {"verified", "browser-observed"}:
+            stat["fresh_verified_blocks"] += 1
+        if block.metadata.get("metadata_link_fallback"):
+            stat["metadata_link_fallbacks"] += 1
+
+        selected_item = selected_by_url.get(block.canonical_url)
+        dropped_rows = dropped_by_identity.get((block.source_key, block.canonical_url), [])
+        if selected_item and selected_item.source_key == block.source_key:
+            decision = "selected-fresh"
+            reason = "selected"
+            stat["fresh_selected"] += 1
+        elif selected_item:
+            decision = "selected-from-other-source"
+            reason = "duplicate-url"
+            stat["fresh_selected_from_other_source"] += 1
+        elif dropped_rows:
+            decision = "dropped-explicitly"
+            reason = clean_text(dropped_rows[0].get("reason")) or "unknown-drop"
+            stat["fresh_explicitly_dropped"] += 1
+        else:
+            decision = "unresolved"
+            reason = "no-selected-or-drop-record"
+            stat["unresolved"] += 1
+            stat["integrity_ok"] = False
+        decisions.append({
+            "source": block.source_key,
+            "url": block.canonical_url,
+            "display_name": block.display_name,
+            "match_key": block.match_key,
+            "quality": block.quality,
+            "playability": block.playability,
+            "metadata_link_fallback": bool(block.metadata.get("metadata_link_fallback")),
+            "metadata_link_reason": block.metadata.get("metadata_link_reason"),
+            "decision": decision,
+            "reason": reason,
+        })
+    return decisions, per_source
 
 def _block_map(path: Path, source: SourceFiles) -> dict[str, M3UBlock]:
     return {block.canonical_url: block for block in parse_m3u(path, source.key, source.label)}
@@ -1185,6 +1350,7 @@ def merge_sources(
 
     previous_last_good, last_good_audit = recover_previous_last_good(root, now)
     all_blocks: list[M3UBlock] = []
+    fresh_input_blocks: list[M3UBlock] = []
     metadata_references: list[M3UBlock] = []
     universal_maps: dict[str, dict[str, M3UBlock]] = {}
     source_stats: list[dict[str, Any]] = []
@@ -1207,6 +1373,7 @@ def merge_sources(
         universal_maps[source.key] = {item.canonical_url: item for item in combined_blocks}
         if source.returncode == 0 and debug_rows > 0:
             all_blocks.extend(combined_blocks)
+            fresh_input_blocks.extend(blocks)
         source_stats.append({
             "key": source.key,
             "label": source.label,
@@ -1219,10 +1386,44 @@ def merge_sources(
             "included": source.returncode == 0 and debug_rows > 0,
         })
 
-    all_blocks.extend(previous_last_good)
+    fresh_urls = {block.canonical_url for block in fresh_input_blocks if block.canonical_url}
+    previous_kept: list[M3UBlock] = []
+    previous_suppressed = 0
+    for block in previous_last_good:
+        if block.canonical_url in fresh_urls:
+            previous_suppressed += 1
+            last_good_audit.append({
+                "url": block.canonical_url,
+                "kept": False,
+                "reason": "fresh-source-replaces-last-good",
+                "source": block.source_key,
+            })
+            continue
+        previous_kept.append(block)
+    all_blocks.extend(previous_kept)
     gavang_metadata_stats = enrich_gavang_metadata_from_other_sources(all_blocks, metadata_references)
     gavang_logo_stats = enrich_gavang_logos_from_other_sources(all_blocks, metadata_references)
     selected, dropped = choose_candidates(all_blocks, now, max_per_match, upcoming_hours)
+    input_decisions, preservation_by_source = _fresh_input_decisions(fresh_input_blocks, selected, dropped)
+    for row in source_stats:
+        row.update(preservation_by_source.get(row["key"], {
+            "fresh_stream_blocks": 0,
+            "fresh_verified_blocks": 0,
+            "fresh_selected": 0,
+            "fresh_explicitly_dropped": 0,
+            "fresh_selected_from_other_source": 0,
+            "metadata_link_fallbacks": 0,
+            "unresolved": 0,
+            "integrity_ok": True,
+        }))
+        if (
+            row.get("included")
+            and row.get("fresh")
+            and verified_only_enabled()
+            and int(row.get("fresh_verified_blocks") or 0) != int(row.get("fresh_stream_blocks") or 0)
+        ):
+            row["integrity_ok"] = False
+            row["integrity_reason"] = "fresh-playlist-has-unclassified-stream"
     outputs = {
         "playlist": root / "all_live.m3u",
         "debug": root / "all_live_debug.json",
@@ -1269,6 +1470,9 @@ def merge_sources(
             "away_logo": item.attributes.get("phaohoa-away-logo") or item.metadata.get("away_logo"),
             "blv": item.attributes.get("phaohoa-blv") or item.metadata.get("blv"),
             "recovered_last_good": bool(item.metadata.get("recovered_last_good")),
+            "verified_by_source_playlist": bool(item.metadata.get("verified_by_source_playlist")),
+            "metadata_link_fallback": bool(item.metadata.get("metadata_link_fallback")),
+            "metadata_link_reason": item.metadata.get("metadata_link_reason"),
             "last_good_probe": item.metadata.get("last_good_probe"),
             "prior_generated_at": item.metadata.get("prior_generated_at"),
         })
@@ -1290,13 +1494,16 @@ def merge_sources(
         "sources": source_stats,
         "input_candidates": len(all_blocks),
         "metadata_reference_count": len(metadata_references),
-        "last_good_recovered_count": len(previous_last_good),
+        "last_good_recovered_count": len(previous_kept),
+        "last_good_suppressed_by_fresh_count": previous_suppressed,
         "last_good_audit": last_good_audit,
         "selected_count": len(selected),
         "dropped_count": len(dropped),
         "gavang_metadata": gavang_metadata_stats,
         "gavang_logo": gavang_logo_stats,
         "channels": channels,
+        "fresh_input_decisions": input_decisions,
+        "fresh_preservation_ok": all(row.get("integrity_ok", True) for row in source_stats),
         "dropped": dropped,
         "outputs_written": bool(selected),
     }

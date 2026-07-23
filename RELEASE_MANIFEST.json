@@ -1,10 +1,10 @@
 {
-  "package_version": "4.4.28",
-  "build_tag": "4.4.28-FAST-REGISTRY-ALL-SOURCES",
-  "workflow_name": "Quet 6 nguon v4.4.28 - Fast registry all sources",
+  "package_version": "4.4.29",
+  "build_tag": "4.4.29-FRESH-VERIFIED-PRESERVATION",
+  "workflow_name": "Quet 6 nguon v4.4.29 - Bao toan stream verified tuoi",
   "components": {
-    "main.py": "4.4.28-FAST-REGISTRY-ALL-SOURCES",
-    "merger.py": "4.4.28-FAST-REGISTRY-ALL-SOURCES",
+    "main.py": "4.4.29-FRESH-VERIFIED-PRESERVATION",
+    "merger.py": "4.4.29-FRESH-VERIFIED-PRESERVATION",
     "sources/chuoichien.py": "4.4.28-CHUOICHIEN-FAST-BLV-REGISTRY",
     "sources/luongson.py": "4.4.28-LUONGSON-FAST-SIGNED-REGISTRY",
     "sources/gavang.py": "4.4.28-GAVANG-FAST-STREAMKEY-REGISTRY",
@@ -31,7 +31,13 @@
     "gavang_stream_key_hls_flv_fast_path": true,
     "phaohoa_signed_url_registry_with_expiry_check": true,
     "workflow_cancel_in_progress": false,
-    "schedule": "*/30 * * * *"
+    "schedule": "*/30 * * * *",
+    "fresh_source_playlist_is_authoritative_after_scanner_success": true,
+    "debug_stream_urls_schema_fallback": true,
+    "missing_debug_stream_index_fallback": true,
+    "fresh_stream_replaces_same_url_last_good": true,
+    "per_fresh_url_final_decision_audit": true,
+    "workflow_fails_on_unresolved_fresh_stream": true
   },
-  "note": "Fast Registry mở rộng cho cả 6 nguồn. Chuối Chiên dùng BLV/slug; Lương Sơn và Pháo Hoa lưu URL signed còn hạn; Gà Vàng dựng HLS+FLV từ stream_key; Xôi Lạc bỏ mapping nhãn chung và bỏ template pro2 lỗi DNS mặc định; ColaTV chặn học nhãn chung. Tất cả ứng viên vẫn phải probe xác minh trước khi vào all_live.m3u."
+  "note": "v4.4.29 sửa lỗi stream đã được scanner xác minh và ghi vào M3U nguồn nhưng có thể mất ở merger khi URL không liên kết được với debug. Merger đọc cả streams/stream_urls, khôi phục metadata tối thiểu từ M3U tươi, ưu tiên stream tươi hơn last-known-good và đối soát selected/dropped cho từng URL."
 }

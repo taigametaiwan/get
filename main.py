@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 from merger import SourceFiles, cleanup_intermediate_playlists, merge_sources
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "4.4.28-FAST-REGISTRY-ALL-SOURCES"
+VERSION = "4.4.29-FRESH-VERIFIED-PRESERVATION"
 
 
 @dataclass(slots=True)
@@ -290,15 +290,36 @@ def main() -> int:
 
     if report["selected_count"]:
         recovered = int(report.get("last_good_recovered_count") or 0)
+        suppressed = int(report.get("last_good_suppressed_by_fresh_count") or 0)
         print(
             f"✅ Gộp xong verified-only: đầu vào={report['input_candidates']} | "
             f"giữ={report['selected_count']} stream phát được | "
-            f"khôi phục last-known-good còn sống={recovered} | loại={report['dropped_count']}",
+            f"khôi phục last-known-good còn sống={recovered} | "
+            f"last-good bị stream tươi thay={suppressed} | loại={report['dropped_count']}",
             flush=True,
         )
         print(f"📺 Playlist chung: {(ROOT / 'all_live.m3u').resolve()}", flush=True)
     else:
         print("⚠️ Không có stream đã xác minh hoặc last-known-good còn sống; ghi playlist rỗng an toàn.", flush=True)
+
+    for source_row in report.get("sources", []):
+        if not source_row.get("included"):
+            continue
+        print(
+            f"🧾 Bảo toàn {source_row.get('label')}: "
+            f"M3U stream={source_row.get('fresh_stream_blocks', 0)} | "
+            f"verified={source_row.get('fresh_verified_blocks', 0)} | "
+            f"giữ tươi={source_row.get('fresh_selected', 0)} | "
+            f"nguồn khác giữ cùng URL={source_row.get('fresh_selected_from_other_source', 0)} | "
+            f"loại có lý do={source_row.get('fresh_explicitly_dropped', 0)} | "
+            f"cứu lệch debug={source_row.get('metadata_link_fallbacks', 0)} | "
+            f"không rõ quyết định={source_row.get('unresolved', 0)}",
+            flush=True,
+        )
+
+    preservation_ok = report.get("fresh_preservation_ok", True) is not False
+    if not preservation_ok:
+        print("❌ AUDIT BẢO TOÀN THẤT BẠI: có stream đầu vào biến mất mà không có quyết định selected/dropped.", flush=True)
 
     removed = cleanup_intermediate_playlists(ROOT)
     if removed:
@@ -307,6 +328,8 @@ def main() -> int:
     success_sources = sum(1 for code, _fresh, _elapsed in statuses.values() if code == 0)
     if success_sources == 0 and not args.merge_only:
         return 1
+    if not preservation_ok:
+        return 3
     return 0
 
 

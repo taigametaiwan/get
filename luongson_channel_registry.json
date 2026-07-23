@@ -3,17 +3,19 @@
   "commentators": {
     "PHI HO": {
       "urls": [
-        "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+        "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f",
+        "https://flv.cdnfaster-a.live/live/PHIHO.flv?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
       ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:42:22.167720+07:00"
+      "source": "seed-from-user-provided-reference-m3u",
+      "updated_at": "2026-07-23T00:00:00+07:00"
     },
     "LAO HAC": {
       "urls": [
-        "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+        "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491",
+        "https://flv.cdnfaster-a.live/live/LAOHAC.flv?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
       ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:43:00.892606+07:00"
+      "source": "seed-from-user-provided-reference-m3u",
+      "updated_at": "2026-07-23T00:00:00+07:00"
     },
     "KAKA": {
       "urls": [
@@ -25,101 +27,11 @@
     },
     "TAO THAO": {
       "urls": [
-        "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+        "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9",
+        "https://flv.cdnfaster-a.live/live/TAOTHAO.flv?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
       ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:43:45.389846+07:00"
-    },
-    "LY UNG": {
-      "urls": [
-        "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-      ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:41:11.507261+07:00"
-    },
-    "HEINEKEN": {
-      "urls": [
-        "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-      ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:41:11.620147+07:00"
-    },
-    "LEO": {
-      "urls": [
-        "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-      ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:41:11.829363+07:00"
-    },
-    "VUONG LUAN": {
-      "urls": [
-        "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-      ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:41:41.867035+07:00"
-    },
-    "NGUOI THEP": {
-      "urls": [
-        "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-      ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:41:43.285861+07:00"
-    },
-    "VO TONG": {
-      "urls": [
-        "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-      ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:41:47.110984+07:00"
-    },
-    "FERNANDO": {
-      "urls": [
-        "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-      ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:42:16.491571+07:00"
-    },
-    "YEN THANH": {
-      "urls": [
-        "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-      ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:42:16.547262+07:00"
-    },
-    "MA SIEU": {
-      "urls": [
-        "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-      ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:42:47.873020+07:00"
-    },
-    "TAY MON KHANH": {
-      "urls": [
-        "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-      ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:42:48.859117+07:00"
-    },
-    "LY QUY": {
-      "urls": [
-        "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-      ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:43:13.534746+07:00"
-    },
-    "LIO": {
-      "urls": [
-        "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-      ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:43:13.997430+07:00"
-    },
-    "TON LAP": {
-      "urls": [
-        "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-      ],
-      "source": "verified-stream",
-      "updated_at": "2026-07-23T23:43:31.293919+07:00"
+      "source": "seed-from-user-provided-reference-m3u",
+      "updated_at": "2026-07-23T00:00:00+07:00"
     }
   }
 }
