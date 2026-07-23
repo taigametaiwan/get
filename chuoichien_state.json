@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-23T08:01:50.120982+07:00",
+  "updated_at": "2026-07-23T08:31:39.459621+07:00",
   "matches": {
     "1516068": {
       "url": "https://live04.chuoichientv.me/live/1516068/mashal-vs-nasaf",
@@ -123,13 +123,14 @@
       "url": "https://live04.chuoichientv.me/live/1490331/inter-miami-vs-chicago-fire",
       "match_name": "Inter Miami vs Chicago Fire - Major League Soccer",
       "kickoff_iso": "2026-07-23T06:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-23T08:01:50.120290+07:00",
-      "next_scan_at": "2026-07-23T08:06:50.120290+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-07-23T08:31:39.459527+07:00",
+      "next_scan_at": "2026-07-23T08:36:39.459527+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -149,9 +150,9 @@
       "url": "https://live04.chuoichientv.me/live/1490342/los-angeles-fc-vs-real-salt-lake",
       "match_name": "los angeles fc vs real salt lake",
       "kickoff_iso": "2026-07-23T09:30:00+07:00",
-      "minutes_to_kickoff": 133,
-      "last_scan_at": "2026-07-23T07:17:41.178708+07:00",
-      "next_scan_at": "2026-07-23T08:02:41.178708+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-07-23T08:31:39.459527+07:00",
+      "next_scan_at": "2026-07-23T08:51:39.459527+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -161,9 +162,9 @@
       "url": "https://live04.chuoichientv.me/live/1492298/sao-paulo-vs-atletico-paranaense",
       "match_name": "Sao Paulo vs Atletico Paranaense - VĐQG Brazil",
       "kickoff_iso": "2026-07-23T07:30:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-07-23T08:01:50.120290+07:00",
-      "next_scan_at": "2026-07-23T08:06:50.120290+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-07-23T08:31:39.459527+07:00",
+      "next_scan_at": "2026-07-23T08:36:39.459527+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
