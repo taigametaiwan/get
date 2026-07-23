@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "luongson",
-  "updated_at": "2026-07-23T17:02:04.858753+07:00",
+  "updated_at": "2026-07-23T17:32:02.559260+07:00",
   "matches": {
     "271fb65c8c25": {
       "url": "https://laservision.io/truc-tiep/mashal-muborak-vs-nasaf-qarshi-vao-luc-2200-22-07-2026/?blv=359",
@@ -691,9 +691,9 @@
       "url": "https://bobertoken.io/truc-tiep/hellenic-ac-vs-palmerston-vao-luc-1600-23-07-2026/?blv=383",
       "match_name": "HELLENIC AC vs PALMERSTON",
       "kickoff_iso": "2026-07-23T16:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-23T17:02:04.858331+07:00",
-      "next_scan_at": "2026-07-23T17:07:04.858331+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-23T17:32:02.558933+07:00",
+      "next_scan_at": "2026-07-23T17:37:02.558933+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -705,9 +705,9 @@
       "url": "https://bobertoken.io/truc-tiep/tensung-fc-vs-paro-fc-vao-luc-1700-23-07-2026/?blv=253",
       "match_name": "TENSUNG FC vs PARO FC",
       "kickoff_iso": "2026-07-23T17:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-07-23T17:02:04.858331+07:00",
-      "next_scan_at": "2026-07-23T17:07:04.858331+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-23T17:32:02.558933+07:00",
+      "next_scan_at": "2026-07-23T17:37:02.558933+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -731,35 +731,39 @@
     },
     "16f414a28c7d": {
       "url": "https://bobertoken.io/truc-tiep/viettel-fc-u21-vs-hoang-anh-gia-lai-u21-vao-luc-1800-23-07-2026/?blv=218",
-      "match_name": "Trực tiếp trận đấu Viettel FC U21 vs Hoang Anh Gia Lai U21",
+      "match_name": "VIETTEL FC U21 vs HOANG ANH GIA LAI U21",
       "kickoff_iso": "2026-07-23T18:00:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-07-23T17:02:04.858331+07:00",
-      "next_scan_at": "2026-07-23T17:22:04.858331+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-23T17:32:02.558933+07:00",
+      "next_scan_at": "2026-07-23T17:37:02.558933+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "4c86fd50bbb2": {
       "url": "https://bobertoken.io/truc-tiep/garuda-fc-vs-darwin-hearts-vao-luc-1800-23-07-2026/?blv=292",
-      "match_name": "Trực tiếp trận đấu Garuda FC vs Darwin Hearts",
+      "match_name": "GARUDA FC vs DARWIN HEARTS",
       "kickoff_iso": "2026-07-23T18:00:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-07-23T17:02:04.858331+07:00",
-      "next_scan_at": "2026-07-23T17:22:04.858331+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-23T17:32:02.558933+07:00",
+      "next_scan_at": "2026-07-23T17:37:02.558933+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "01d67f94e93e": {
       "url": "https://bobertoken.io/truc-tiep/akademiya-ontustik-vs-astana-b-vao-luc-1900-23-07-2026/?blv=269",
       "match_name": "Trực tiếp trận đấu Akademiya Ontustik vs Astana B",
       "kickoff_iso": "2026-07-23T19:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-07-23T17:02:04.858331+07:00",
-      "next_scan_at": "2026-07-23T17:22:04.858331+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-07-23T17:32:02.558933+07:00",
+      "next_scan_at": "2026-07-23T17:52:02.558933+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -832,6 +836,30 @@
       "minutes_to_kickoff": 179,
       "last_scan_at": "2026-07-23T17:02:04.858331+07:00",
       "next_scan_at": "2026-07-23T17:47:04.858331+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "86e9c69f4db6": {
+      "url": "https://bobertoken.io/truc-tiep/malisheva-vs-hibernian-vao-luc-2130-23-07-2026/?blv=218",
+      "match_name": "Trực tiếp trận đấu Malisheva vs Hibernian",
+      "kickoff_iso": "2026-07-23T21:30:00+07:00",
+      "minutes_to_kickoff": 239,
+      "last_scan_at": "2026-07-23T17:32:02.558933+07:00",
+      "next_scan_at": "2026-07-23T18:17:02.558933+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "4641bb42cfa9": {
+      "url": "https://bobertoken.io/truc-tiep/fk-gazalkent-vs-metallurg-bekobod-vao-luc-2130-23-07-2026/?blv=383",
+      "match_name": "Trực tiếp trận đấu FK Gazalkent vs Metallurg Bekobod",
+      "kickoff_iso": "2026-07-23T21:30:00+07:00",
+      "minutes_to_kickoff": 239,
+      "last_scan_at": "2026-07-23T17:32:02.558933+07:00",
+      "next_scan_at": "2026-07-23T18:17:02.558933+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
