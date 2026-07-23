@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 from merger import SourceFiles, cleanup_intermediate_playlists, merge_sources
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "4.4.13-COLATV-HLS-INTEGRATION"
+VERSION = "4.4.20-PHAOHOA-SAFE-PLACEHOLDER-MULTISOURCE"
 
 
 @dataclass(slots=True)
@@ -81,6 +81,16 @@ SOURCES = {
         debug=ROOT / "colatv_debug.json",
         host_markers=("colatv77.live",),
     ),
+    "phaohoa": SourceConfig(
+        key="phaohoa",
+        label="Pháo Hoa TV",
+        script=ROOT / "sources" / "phaohoa.py",
+        universal=ROOT / "phaohoa_live.m3u",
+        pipe=ROOT / "phaohoa_live_pipe.m3u",
+        vlc=ROOT / "phaohoa_live_vlc.m3u",
+        debug=ROOT / "phaohoa_debug.json",
+        host_markers=("phaohoa1.live",),
+    ),
 }
 
 
@@ -106,9 +116,9 @@ def ensure_source_playlists(config: SourceConfig, force_empty: bool = False) -> 
             path.write_text("#EXTM3U\n", encoding="utf-8")
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Quét Chuối Chiên + Lương Sơn + Gà Vàng + Xôi Lạc + ColaTV trong một lần chạy")
+    parser = argparse.ArgumentParser(description="Quét Chuối Chiên + Lương Sơn + Gà Vàng + Xôi Lạc + ColaTV + Pháo Hoa TV trong một lần chạy")
     parser.add_argument("urls", nargs="*", help="URL trận để test riêng; tự định tuyến theo tên miền")
-    parser.add_argument("--source", choices=("all", "chuoichien", "luongson", "gavang", "xoilac", "colatv"), default="all")
+    parser.add_argument("--source", choices=("all", "chuoichien", "luongson", "gavang", "xoilac", "colatv", "phaohoa"), default="all")
     parser.add_argument("--merge-only", action="store_true", help="Không quét web, chỉ gộp các kết quả hiện có")
     return parser.parse_args()
 
@@ -206,7 +216,7 @@ def main() -> int:
     print(f"🥷 KHỞI ĐỘNG MULTI-SOURCE SCANNER {VERSION}", flush=True)
     parallel_enabled = os.getenv("MULTI_RUN_SOURCES_PARALLEL", "1").strip().lower() not in {"0", "false", "no", "off"}
     mode = "song song có giới hạn" if parallel_enabled else "tuần tự"
-    print(f"ℹ️ Một lần chạy quét Chuối Chiên + Lương Sơn + Gà Vàng + Xôi Lạc + ColaTV theo chế độ {mode}, rồi gộp thành all_live.m3u.", flush=True)
+    print(f"ℹ️ Một lần chạy quét Chuối Chiên + Lương Sơn + Gà Vàng + Xôi Lạc + ColaTV + Pháo Hoa TV theo chế độ {mode}, rồi gộp thành all_live.m3u.", flush=True)
 
     try:
         routed = route_urls(args.urls)
@@ -215,7 +225,7 @@ def main() -> int:
         return 2
 
     if args.source == "all":
-        selected_keys = [key for key in ("chuoichien", "luongson", "gavang", "xoilac", "colatv") if not args.urls or routed[key]]
+        selected_keys = [key for key in ("chuoichien", "luongson", "gavang", "xoilac", "colatv", "phaohoa") if not args.urls or routed[key]]
     else:
         selected_keys = [args.source]
         if args.urls and not routed[args.source]:
@@ -232,7 +242,7 @@ def main() -> int:
             requested_workers = int(raw_workers)
         except ValueError:
             requested_workers = 3
-        max_workers = max(1, min(requested_workers, len(selected_keys), 5))
+        max_workers = max(1, min(requested_workers, len(selected_keys), 6))
         print(
             f"⚡ Chạy song song tối đa {max_workers}/{len(selected_keys)} nguồn; "
             "giới hạn số Chromium để tránh quá tải runner.",
@@ -279,9 +289,15 @@ def main() -> int:
     report = merge_sources(ROOT, merge_inputs, preserve_on_empty=True)
 
     if report["selected_count"]:
+        metadata_only_count = sum(
+            1 for channel in report.get("channels", [])
+            if channel.get("entry_mode") == "metadata-only"
+        )
+        media_count = report["selected_count"] - metadata_only_count
         print(
             f"✅ Gộp xong: đầu vào={report['input_candidates']} | "
-            f"giữ={report['selected_count']} | loại={report['dropped_count']}",
+            f"giữ={report['selected_count']} (media={media_count}, lịch Pháo Hoa={metadata_only_count}) | "
+            f"loại={report['dropped_count']}",
             flush=True,
         )
         print(f"📺 Playlist chung: {(ROOT / 'all_live.m3u').resolve()}", flush=True)

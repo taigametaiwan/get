@@ -12,14 +12,15 @@ from typing import Any, Iterable
 from urllib.parse import unquote, urljoin, urlparse
 from zoneinfo import ZoneInfo
 
-VERSION = "4.4.13-COLATV-HLS-INTEGRATION"
+VERSION = "4.4.20-PHAOHOA-SAFE-PLACEHOLDER-MULTISOURCE"
 TZ_VIETNAM = ZoneInfo("Asia/Ho_Chi_Minh")
 ALLOWED_GROUPS = {"Bóng đá", "Bóng rổ", "Bóng chuyền", "Tennis", "Esports", "Khác"}
-SOURCE_ORDER = {"chuoichien": 0, "luongson": 1, "gavang": 2, "xoilac": 3, "colatv": 4}
+SOURCE_ORDER = {"chuoichien": 0, "luongson": 1, "gavang": 2, "xoilac": 3, "colatv": 4, "phaohoa": 5}
 PLAYABILITY_RANK = {
     "verified": 4,
     "browser-observed": 3,
     "upcoming-pending": 2,
+    "metadata-only": 1,
 }
 QUALITY_RANK = {"4K": 5, "FHD": 4, "HD": 3, "SD": 2, "UNKNOWN": 1}
 
@@ -122,6 +123,41 @@ def parse_m3u(path: Path, source_key: str, source_label: str) -> list[M3UBlock]:
             extinf = ""
     return blocks
 
+
+
+
+PHAOHOA_METADATA_HOSTS = {"phaohoa1.live", "www.phaohoa1.live"}
+PHAOHOA_PLACEHOLDER_HOSTS = {"127.0.0.1", "localhost"}
+PHAOHOA_PLACEHOLDER_PATH_PREFIX = "/__phaohoa_metadata__/"
+
+
+def phaohoa_declared_page_url(block: M3UBlock) -> str:
+    return canonical_stream_url(block.attributes.get("phaohoa-page-url", ""))
+
+
+def is_valid_phaohoa_page_url(value: str) -> bool:
+    parsed = urlparse(canonical_stream_url(value))
+    if (parsed.hostname or "").lower() not in PHAOHOA_METADATA_HOSTS:
+        return False
+    return bool(re.search(r"/(?:truc-tiep|live|room)/", parsed.path, re.I))
+
+
+def is_phaohoa_metadata_placeholder(block: M3UBlock) -> bool:
+    """Chỉ cho phép placeholder loopback .m3u8 của Pháo Hoa làm mục lịch."""
+    if block.source_key != "phaohoa":
+        return False
+    if clean_text(block.attributes.get("phaohoa-entry")).lower() != "metadata-only":
+        return False
+    parsed = urlparse(block.canonical_url)
+    if (parsed.hostname or "").lower() not in PHAOHOA_PLACEHOLDER_HOSTS:
+        return False
+    if parsed.port not in {None, 9}:
+        return False
+    if not parsed.path.startswith(PHAOHOA_PLACEHOLDER_PATH_PREFIX):
+        return False
+    if not parsed.path.lower().endswith(".m3u8"):
+        return False
+    return is_valid_phaohoa_page_url(phaohoa_declared_page_url(block))
 
 def _parse_datetime_value(value: Any) -> datetime | None:
     text = clean_text(value)
@@ -339,8 +375,6 @@ def _apply_block_display_metadata(
     display_base = f"[{schedule_label}] {match_name}" if schedule_label else match_name
     if own_blv and own_blv.lower() not in display_base.lower():
         display_base += f" [BLV {own_blv}]"
-    if is_pending:
-        display_base = f"[CHỜ PHÁT] {display_base}"
     suffix_match = re.search(
         r"(\s*\[(?:CHỜ PHÁT\s+)?(?:(?:4K|FHD|HD|SD)\s+)?(?:M3U8|FLV)\])\s*$",
         block.display_name,
@@ -476,7 +510,7 @@ def enrich_gavang_metadata_from_other_sources(
             )
             block.metadata["stream_key_tokens"] = key_tokens
             # Chuẩn hóa tên hiển thị kể cả khi chưa làm giàu được metadata:
-            # CHỜ PHÁT luôn ở đầu và lịch thiếu được ghi rõ, không giả vờ là lịch hoàn chỉnh.
+            # Lịch thiếu vẫn được ghi rõ; trạng thái pending chỉ giữ trong debug, không chèn vào tên kênh.
             _apply_block_display_metadata(
                 block,
                 match_name=current_name,
@@ -608,13 +642,29 @@ def build_debug_index(debug_path: Path, now: datetime) -> tuple[dict[str, dict[s
 
 def enrich_blocks(source: SourceFiles, blocks: list[M3UBlock], now: datetime) -> tuple[list[M3UBlock], int]:
     debug_index, rows = build_debug_index(source.debug, now)
+    phaohoa_page_index: dict[str, dict[str, Any]] = {}
+    if source.key == "phaohoa":
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            page_url = canonical_stream_url(row.get("playlist_page_url") or row.get("url") or "")
+            if not page_url:
+                continue
+            merged = dict(row)
+            merged["_kickoff"] = resolve_kickoff(row, now)
+            merged.setdefault("playability", "metadata-only")
+            phaohoa_page_index[page_url] = merged
+
     for block in blocks:
+        placeholder = is_phaohoa_metadata_placeholder(block)
         meta = dict(debug_index.get(block.canonical_url, {}))
+        if placeholder and not meta:
+            meta = dict(phaohoa_page_index.get(phaohoa_declared_page_url(block), {}))
         block.metadata = meta
-        block.playability = clean_text(meta.get("playability"))
+        block.playability = "metadata-only" if placeholder else clean_text(meta.get("playability"))
         block.kickoff = meta.get("_kickoff") if isinstance(meta.get("_kickoff"), datetime) else None
-        block.quality = normalize_quality(meta.get("quality"), block.display_name, block.canonical_url)
-        block.kind = stream_kind(block.canonical_url)
+        block.quality = "UNKNOWN" if placeholder else normalize_quality(meta.get("quality"), block.display_name, block.canonical_url)
+        block.kind = "placeholder-m3u8" if placeholder else stream_kind(block.canonical_url)
         match_name = clean_text(meta.get("match_name") or meta.get("raw_title") or block.display_name)
         blv = extract_blv(meta, block.display_name)
         block.match_key = f"{normalize_match_name(match_name)}|{blv}"
@@ -633,6 +683,8 @@ def enrich_blocks(source: SourceFiles, blocks: list[M3UBlock], now: datetime) ->
 
 
 def is_candidate_allowed(block: M3UBlock, now: datetime, upcoming_hours: int) -> bool:
+    if block.playability == "metadata-only":
+        return is_phaohoa_metadata_placeholder(block) and bool(block.metadata.get("listed_in_playlist", True))
     if block.playability == "verified":
         return True
     if block.playability == "browser-observed" and block.metadata.get("observed_active"):
@@ -662,7 +714,8 @@ def choose_candidates(blocks: Iterable[M3UBlock], now: datetime, max_per_match: 
     best_by_url: dict[str, M3UBlock] = {}
     dropped: list[dict[str, Any]] = []
     for block in blocks:
-        if not block.canonical_url or block.kind not in {"m3u8", "flv"}:
+        placeholder = is_phaohoa_metadata_placeholder(block)
+        if not block.canonical_url or (block.kind not in {"m3u8", "flv"} and not placeholder):
             dropped.append({"url": block.canonical_url, "reason": "not-stream", "source": block.source_key})
             continue
         if not is_candidate_allowed(block, now, upcoming_hours):
@@ -678,6 +731,17 @@ def choose_candidates(blocks: Iterable[M3UBlock], now: datetime, max_per_match: 
 
     selected: list[M3UBlock] = []
     for match_key, items in grouped.items():
+        real_items = [item for item in items if not is_phaohoa_metadata_placeholder(item)]
+        if real_items:
+            for item in items:
+                if is_phaohoa_metadata_placeholder(item):
+                    dropped.append({
+                        "url": item.canonical_url,
+                        "reason": "stream-replaces-metadata-only",
+                        "source": item.source_key,
+                        "match_key": match_key,
+                    })
+            items = real_items
         items.sort(key=lambda item: (-item.score, item.source_key, item.canonical_url))
         qualities: set[str] = set()
         chosen: list[M3UBlock] = []
@@ -752,7 +816,7 @@ def cleanup_intermediate_playlists(root: Path) -> list[str]:
             path.unlink()
         except FileNotFoundError:
             pass
-    for folder_name in ("chuoichien", "luongson", "gavang", "xoilac", "colatv"):
+    for folder_name in ("chuoichien", "luongson", "gavang", "xoilac", "colatv", "phaohoa"):
         folder = root / folder_name
         try:
             folder.rmdir()
@@ -840,6 +904,11 @@ def merge_sources(
             "logo_source": item.metadata.get("logo_source"),
             "logo_enriched_from": item.metadata.get("logo_enriched_from"),
             "logo_is_fallback": item.metadata.get("logo_is_fallback"),
+            "entry_mode": "metadata-only" if is_phaohoa_metadata_placeholder(item) else "stream",
+            "page_url": item.attributes.get("phaohoa-page-url") or item.metadata.get("url"),
+            "home_logo": item.attributes.get("phaohoa-home-logo") or item.metadata.get("home_logo"),
+            "away_logo": item.attributes.get("phaohoa-away-logo") or item.metadata.get("away_logo"),
+            "blv": item.attributes.get("phaohoa-blv") or item.metadata.get("blv"),
         })
 
     report = {
@@ -849,6 +918,7 @@ def merge_sources(
             "max_streams_per_match_blv": max_per_match,
             "upcoming_keep_hours": upcoming_hours,
             "requires_verified_or_observed_or_gavang_pending": True,
+            "allows_phaohoa_metadata_only": True,
             "pending_past_minutes": max(0, min(int(os.getenv("MULTI_PENDING_PAST_MINUTES", "150")), 1440)),
             "keep_gavang_unknown_pending": os.getenv("MULTI_KEEP_GAVANG_UNKNOWN_PENDING", "1").strip().lower() not in {"0", "false", "no", "off"},
         },

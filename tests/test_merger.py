@@ -115,7 +115,7 @@ class MergerTests(unittest.TestCase):
         content = (self.root / "all_live.m3u").read_text(encoding="utf-8")
         self.assertEqual(report["selected_count"], 1)
         self.assertIn(url, content)
-        self.assertIn("[CHỜ PHÁT] [CHƯA CÓ LỊCH] Queensland VS Perth [FLV]", content)
+        self.assertIn("[CHƯA CÓ LỊCH] Queensland VS Perth [FLV]", content)
 
 
     def test_gavang_uses_metadata_only_debug_row_from_other_source(self) -> None:
@@ -146,7 +146,7 @@ class MergerTests(unittest.TestCase):
             preserve_on_empty=False,
         )
         text = (self.root / "all_live.m3u").read_text(encoding="utf-8")
-        self.assertIn("[CHỜ PHÁT] [07:30 23/07] FC Cincinnati VS Vancouver Whitecaps [FLV]", text)
+        self.assertIn("[07:30 23/07] FC Cincinnati VS Vancouver Whitecaps [FLV]", text)
         self.assertIn('tvg-logo="https://cdn.example/cincinnati.png"', text)
         channel = next(row for row in report["channels"] if row["source"] == "gavang")
         self.assertEqual(channel["metadata_audit"], "enriched-soft")
@@ -169,7 +169,7 @@ class MergerTests(unittest.TestCase):
             now=datetime(2026, 7, 22, 12, 0, tzinfo=TZ), preserve_on_empty=False,
         )
         text = (self.root / "all_live.m3u").read_text(encoding="utf-8")
-        self.assertIn("[CHỜ PHÁT] [CHƯA CÓ GIỜ 22/07] Maitland VS Fremantle [FLV]", text)
+        self.assertIn("[CHƯA CÓ GIỜ 22/07] Maitland VS Fremantle [FLV]", text)
 
     def test_gavang_pending_started_within_150_minutes_is_kept(self) -> None:
         url = "https://flv.lauthaitv.cc/live/a-b-league.flv"
@@ -228,7 +228,7 @@ class MergerTests(unittest.TestCase):
             preserve_on_empty=False,
         )
         content = (self.root / "all_live.m3u").read_text(encoding="utf-8")
-        self.assertIn("[CHỜ PHÁT]", content)
+        self.assertNotIn("CHỜ PHÁT", content)
         self.assertIn(kickoff.strftime("%H:%M %d/%m"), content)
         self.assertEqual(report["gavang_metadata"]["enriched"], 1)
 
@@ -372,6 +372,45 @@ class MergerTests(unittest.TestCase):
         self.assertIn('tvg-logo="https://cdn.example/queensland.png"', gavang_block.extinf)
         self.assertEqual(stats["team_logo"], 1)
 
+    def test_phaohoa_headers_survive_merge(self) -> None:
+        source = self.make_source(
+            "phaohoa",
+            "Pháo Hoa TV",
+            [{
+                "id": "phaohoa-1",
+                "name": "[21:30 23/07] Malisheva vs Hibernian [M3U8]",
+                "url": "https://cdn.example.test/phaohoa/index.m3u8",
+                "group": "Bóng đá",
+            }],
+            [{
+                "url": "https://phaohoa1.live/truc-tiep/malisheva-vs-hibernian-23-07-2026-776573",
+                "match_name": "Malisheva vs Hibernian",
+                "time": "21:30",
+                "date": "23/07",
+                "streams": [{
+                    "url": "https://cdn.example.test/phaohoa/index.m3u8",
+                    "playability": "verified",
+                    "referer": "https://phaohoa1.live/truc-tiep/malisheva-vs-hibernian-23-07-2026-776573",
+                    "origin": "https://phaohoa1.live",
+                }],
+            }],
+        )
+        # Replace the generic helper directives with the source-specific headers.
+        source.universal.write_text(
+            '#EXTM3U\n'
+            '#EXTINF:-1 tvg-id="phaohoa-1" tvg-name="Malisheva vs Hibernian" group-title="Bóng đá",Malisheva vs Hibernian [M3U8]\n'
+            '#EXTVLCOPT:http-referrer=https://phaohoa1.live/truc-tiep/malisheva-vs-hibernian-23-07-2026-776573\n'
+            '#EXTVLCOPT:http-origin=https://phaohoa1.live\n'
+            '#EXTHTTP:{"User-Agent":"UA","Referer":"https://phaohoa1.live/truc-tiep/malisheva-vs-hibernian-23-07-2026-776573","Origin":"https://phaohoa1.live"}\n'
+            'https://cdn.example.test/phaohoa/index.m3u8\n',
+            encoding="utf-8",
+        )
+        report = merge_sources(self.root, [source], now=self.now, preserve_on_empty=False)
+        content = (self.root / "all_live.m3u").read_text(encoding="utf-8")
+        self.assertIn('group-title="Pháo Hoa TV"', content)
+        self.assertIn('#EXTVLCOPT:http-origin=https://phaohoa1.live', content)
+        self.assertEqual(report["channels"][0]["source"], "phaohoa")
+
     def test_colatv_headers_survive_merge(self) -> None:
         url = "https://live05.meung.app/live/75915087.m3u8"
         source = self.make_source(
@@ -447,6 +486,85 @@ class MergerTests(unittest.TestCase):
         self.assertIn(url, text)
         self.assertEqual(report["channels"][0]["classification"], "signed")
         self.assertTrue(report["channels"][0]["has_secret"])
+
+
+    def test_phaohoa_metadata_only_placeholder_is_kept(self) -> None:
+        page_url = "https://phaohoa1.live/truc-tiep/viet-nam-vs-thai-lan"
+        placeholder_url = "http://127.0.0.1:9/__phaohoa_metadata__/viet-nam-vs-thai-lan.m3u8"
+        universal = self.root / "phaohoa.m3u"
+        universal.write_text(
+            "#EXTM3U\n"
+            '#EXTINF:-1 tvg-id="phaohoa-test-1" tvg-name="[15:30 20/07] Việt Nam VS Thái Lan [BLV Chim Nhỏ]" '
+            'group-title="Bóng chuyền" phaohoa-entry="metadata-only" '
+            f'phaohoa-page-url="{page_url}" phaohoa-home-logo="https://cdn.example/vn.png" '
+            'phaohoa-away-logo="https://cdn.example/th.png" phaohoa-blv="Chim Nhỏ" '
+            'tvg-logo="https://cdn.example/vn.png",[15:30 20/07] Việt Nam VS Thái Lan [BLV Chim Nhỏ]\n'
+            f"{placeholder_url}\n",
+            encoding="utf-8",
+        )
+        debug = self.root / "phaohoa.json"
+        debug.write_text(json.dumps([{
+            "url": page_url,
+            "match_name": "Việt Nam VS Thái Lan",
+            "time": "15:30",
+            "date": "20/07",
+            "blv": "Chim Nhỏ",
+            "home_logo": "https://cdn.example/vn.png",
+            "away_logo": "https://cdn.example/th.png",
+            "playlist_mode": "metadata-only",
+            "listed_in_playlist": True,
+            "scan_attempted": False,
+            "streams": [],
+        }], ensure_ascii=False), encoding="utf-8")
+        source = SourceFiles(
+            "phaohoa", "Pháo Hoa TV", universal,
+            self.root / "phaohoa_pipe.m3u", self.root / "phaohoa_vlc.m3u", debug,
+        )
+        report = merge_sources(self.root, [source], now=self.now, preserve_on_empty=False)
+        self.assertEqual(report["selected_count"], 1)
+        channel = report["channels"][0]
+        self.assertEqual(channel["playability"], "metadata-only")
+        self.assertEqual(channel["entry_mode"], "metadata-only")
+        self.assertEqual(channel["kind"], "placeholder-m3u8")
+        self.assertEqual(channel["home_logo"], "https://cdn.example/vn.png")
+        self.assertEqual(channel["away_logo"], "https://cdn.example/th.png")
+        content = (self.root / "all_live.m3u").read_text(encoding="utf-8")
+        self.assertIn(f"\n{placeholder_url}\n", content)
+        self.assertNotIn(f"\n{page_url}\n", content)
+        self.assertIn('group-title="Pháo Hoa TV"', content)
+
+    def test_phaohoa_real_stream_replaces_metadata_only_page(self) -> None:
+        page_url = "https://phaohoa1.live/truc-tiep/viet-nam-vs-thai-lan"
+        placeholder_url = "http://127.0.0.1:9/__phaohoa_metadata__/viet-nam-vs-thai-lan.m3u8"
+        stream_url = "https://cdn.example/live/vn-th.m3u8"
+        universal = self.root / "phaohoa.m3u"
+        universal.write_text(
+            "#EXTM3U\n"
+            '#EXTINF:-1 tvg-id="phaohoa-test-1" tvg-name="[15:30 20/07] Việt Nam VS Thái Lan [BLV Chim Nhỏ]" group-title="Bóng chuyền" '
+            f'phaohoa-entry="metadata-only" phaohoa-page-url="{page_url}",[15:30 20/07] Việt Nam VS Thái Lan [BLV Chim Nhỏ]\n{placeholder_url}\n'
+            '#EXTINF:-1 tvg-id="phaohoa-test-1" tvg-name="[15:30 20/07] Việt Nam VS Thái Lan [BLV Chim Nhỏ]" group-title="Bóng chuyền" '
+            f'phaohoa-entry="stream" phaohoa-page-url="{page_url}",[15:30 20/07] Việt Nam VS Thái Lan [BLV Chim Nhỏ] [M3U8]\n{stream_url}\n',
+            encoding="utf-8",
+        )
+        debug = self.root / "phaohoa.json"
+        debug.write_text(json.dumps([{
+            "url": page_url, "match_name": "Việt Nam VS Thái Lan",
+            "time": "15:30", "date": "20/07", "blv": "Chim Nhỏ",
+            "playlist_mode": "stream", "listed_in_playlist": True,
+            "streams": [{"url": stream_url, "playability": "verified", "http_status": 200}],
+        }], ensure_ascii=False), encoding="utf-8")
+        source = SourceFiles(
+            "phaohoa", "Pháo Hoa TV", universal,
+            self.root / "phaohoa_pipe.m3u", self.root / "phaohoa_vlc.m3u", debug,
+        )
+        report = merge_sources(self.root, [source], now=self.now, preserve_on_empty=False)
+        self.assertEqual(report["selected_count"], 1)
+        self.assertEqual(report["channels"][0]["url"], stream_url)
+        content = (self.root / "all_live.m3u").read_text(encoding="utf-8")
+        self.assertIn(stream_url, content)
+        self.assertNotIn(f"\n{placeholder_url}\n", content)
+        self.assertNotIn(f"\n{page_url}\n", content)
+        self.assertTrue(any(row.get("reason") == "stream-replaces-metadata-only" for row in report["dropped"]))
 
 
 if __name__ == "__main__":
