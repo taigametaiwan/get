@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "luongson",
-  "updated_at": "2026-07-23T06:33:14.591224+07:00",
+  "updated_at": "2026-07-23T07:03:50.497195+07:00",
   "matches": {
     "271fb65c8c25": {
       "url": "https://laservision.io/truc-tiep/mashal-muborak-vs-nasaf-qarshi-vao-luc-2200-22-07-2026/?blv=359",
@@ -281,9 +281,9 @@
       "url": "https://laservision.io/truc-tiep/coritiba-pr-vs-palmeiras-vao-luc-0530-23-07-2026/?blv=253",
       "match_name": "CORITIBA PR vs PALMEIRAS",
       "kickoff_iso": "2026-07-23T05:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-23T06:33:14.590820+07:00",
-      "next_scan_at": "2026-07-23T06:38:14.590820+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-23T07:03:50.496749+07:00",
+      "next_scan_at": "2026-07-23T07:08:50.496749+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -349,47 +349,51 @@
     },
     "91048f3caddb": {
       "url": "https://laservision.io/truc-tiep/chapecoense-sc-vs-flamengo-vao-luc-0730-23-07-2026/?blv=328",
-      "match_name": "Trực tiếp trận đấu Chapecoense SC vs Flamengo",
+      "match_name": "CHAPECOENSE SC vs FLAMENGO",
       "kickoff_iso": "2026-07-23T07:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-07-23T06:33:14.590820+07:00",
-      "next_scan_at": "2026-07-23T06:53:14.590820+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-23T07:03:50.496749+07:00",
+      "next_scan_at": "2026-07-23T07:08:50.496749+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "f1819c513ef7": {
       "url": "https://laservision.io/truc-tiep/nashville-sc-vs-cf-montreal-vao-luc-0730-23-07-2026/?blv=269",
-      "match_name": "Trực tiếp trận đấu Nashville SC vs CF Montreal",
+      "match_name": "NASHVILLE SC vs CF MONTREAL",
       "kickoff_iso": "2026-07-23T07:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-07-23T06:33:14.590820+07:00",
-      "next_scan_at": "2026-07-23T06:53:14.590820+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-23T07:03:50.496749+07:00",
+      "next_scan_at": "2026-07-23T07:08:50.496749+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "067a77065563": {
       "url": "https://laservision.io/truc-tiep/sporting-kansas-city-vs-minnesota-united-fc-vao-luc-0730-23-07-2026/?blv=374",
-      "match_name": "Trực tiếp trận đấu Sporting Kansas City vs Minnesota United FC",
+      "match_name": "SPORTING KANSAS CITY vs MINNESOTA UNITED FC",
       "kickoff_iso": "2026-07-23T07:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-07-23T06:33:14.590820+07:00",
-      "next_scan_at": "2026-07-23T06:53:14.590820+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-23T07:03:50.496749+07:00",
+      "next_scan_at": "2026-07-23T07:13:50.496749+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "5c12a1d0a649": {
       "url": "https://laservision.io/truc-tiep/colorado-rapids-vs-san-diego-fc-vao-luc-0830-23-07-2026/?blv=253",
       "match_name": "Trực tiếp trận đấu Colorado Rapids vs San Diego FC",
       "kickoff_iso": "2026-07-23T08:30:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-07-23T06:33:14.590820+07:00",
-      "next_scan_at": "2026-07-23T06:53:14.590820+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-07-23T07:03:50.496749+07:00",
+      "next_scan_at": "2026-07-23T07:23:50.496749+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -399,9 +403,9 @@
       "url": "https://laservision.io/truc-tiep/dallas-wings-w-vs-portland-fire-w-vao-luc-0900-23-07-2026/?blv=320",
       "match_name": "Trực tiếp trận đấu Dallas Wings W vs Portland Fire W",
       "kickoff_iso": "2026-07-23T09:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-07-23T06:04:01.017078+07:00",
-      "next_scan_at": "2026-07-23T06:49:01.017078+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-07-23T07:03:50.496749+07:00",
+      "next_scan_at": "2026-07-23T07:23:50.496749+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -454,6 +458,62 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
+    },
+    "8c9ef622137c": {
+      "url": "https://laservision.io/truc-tiep/new-england-revolution-vs-toronto-fc-vao-luc-0640-23-07-2026/?blv=320",
+      "match_name": "NEW ENGLAND REVOLUTION vs TORONTO FC",
+      "kickoff_iso": "2026-07-23T06:40:00+07:00",
+      "minutes_to_kickoff": -21,
+      "last_scan_at": "2026-07-23T07:03:50.496749+07:00",
+      "next_scan_at": "2026-07-23T07:08:50.496749+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "7153cf5aa1df": {
+      "url": "https://laservision.io/truc-tiep/inter-miami-cf-vs-chicago-fire-vao-luc-0640-23-07-2026/?blv=135",
+      "match_name": "INTER MIAMI CF vs CHICAGO FIRE",
+      "kickoff_iso": "2026-07-23T06:40:00+07:00",
+      "minutes_to_kickoff": -21,
+      "last_scan_at": "2026-07-23T07:03:50.496749+07:00",
+      "next_scan_at": "2026-07-23T07:08:50.496749+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "3c13abcf2584": {
+      "url": "https://laservision.io/truc-tiep/fc-cincinnati-vs-vancouver-whitecaps-vao-luc-0640-23-07-2026/?blv=218",
+      "match_name": "FC CINCINNATI vs VANCOUVER WHITECAPS",
+      "kickoff_iso": "2026-07-23T06:40:00+07:00",
+      "minutes_to_kickoff": -21,
+      "last_scan_at": "2026-07-23T07:03:50.496749+07:00",
+      "next_scan_at": "2026-07-23T07:08:50.496749+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "4474805c94c2": {
+      "url": "https://laservision.io/truc-tiep/philadelphia-union-vs-new-york-red-bulls-vao-luc-0640-23-07-2026/?blv=298",
+      "match_name": "PHILADELPHIA UNION vs NEW YORK RED BULLS",
+      "kickoff_iso": "2026-07-23T06:40:00+07:00",
+      "minutes_to_kickoff": -21,
+      "last_scan_at": "2026-07-23T07:03:50.496749+07:00",
+      "next_scan_at": "2026-07-23T07:08:50.496749+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+      ],
+      "scan_decision": "browser-fallback"
     }
   }
 }

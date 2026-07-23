@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-23T06:31:39.814980+07:00",
+  "updated_at": "2026-07-23T07:01:40.933611+07:00",
   "matches": {
     "1516068": {
       "url": "https://live04.chuoichientv.me/live/1516068/mashal-vs-nasaf",
@@ -123,9 +123,9 @@
       "url": "https://live04.chuoichientv.me/live/1490331/inter-miami-vs-chicago-fire",
       "match_name": "Inter Miami vs Chicago Fire - Major League Soccer",
       "kickoff_iso": "2026-07-23T06:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-07-23T06:31:39.814880+07:00",
-      "next_scan_at": "2026-07-23T06:36:39.814880+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-23T07:01:40.933529+07:00",
+      "next_scan_at": "2026-07-23T07:06:40.933529+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -136,15 +136,15 @@
     },
     "1547779": {
       "url": "https://live04.chuoichientv.me/live/1547779/sporting-cristal-vs-rb-bragantino",
-      "match_name": "sporting cristal vs rb bragantino",
+      "match_name": "Sporting Cristal vs RB Bragantino - CONMEBOL Sudamericana",
       "kickoff_iso": "2026-07-23T07:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-07-23T06:31:39.814880+07:00",
-      "next_scan_at": "2026-07-23T06:51:39.814880+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-23T07:01:40.933529+07:00",
+      "next_scan_at": "2026-07-23T07:11:40.933529+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1490342": {
       "url": "https://live04.chuoichientv.me/live/1490342/los-angeles-fc-vs-real-salt-lake",
@@ -157,6 +157,18 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
+    },
+    "1492298": {
+      "url": "https://live04.chuoichientv.me/live/1492298/sao-paulo-vs-atletico-paranaense",
+      "match_name": "Sao Paulo vs Atletico Paranaense - VĐQG Brazil",
+      "kickoff_iso": "2026-07-23T07:30:00+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-23T07:01:40.933529+07:00",
+      "next_scan_at": "2026-07-23T07:11:40.933529+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
     }
   }
 }
