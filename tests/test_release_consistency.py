@@ -5,8 +5,8 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PACKAGE_VERSION = "4.4.22"
-BUILD_TAG = "4.4.22-OPTIONAL-MANIFEST-CONSISTENCY-GUARD"
+PACKAGE_VERSION = "4.4.24"
+BUILD_TAG = "4.4.24-XOILAC-3-CONCURRENT-150-180-FULL-CATALOG"
 
 
 class ReleaseConsistencyTests(unittest.TestCase):
@@ -30,18 +30,21 @@ class ReleaseConsistencyTests(unittest.TestCase):
 
     def test_workflow_has_current_identity_and_non_cancelling_concurrency(self) -> None:
         workflow = self.read(".github/workflows/update.yml")
-        self.assertTrue(workflow.startswith("name: Quet 6 nguon v4.4.22"))
-        self.assertIn('git commit -m "Update live streams v4.4.22', workflow)
+        self.assertTrue(workflow.startswith("name: Quet 6 nguon v4.4.24"))
+        self.assertIn('git commit -m "Update live streams v4.4.24', workflow)
         self.assertIn('cron: "*/30 * * * *"', workflow)
         self.assertIn("cancel-in-progress: false", workflow)
         self.assertNotIn("PHAOHOA_PLACEHOLDER_USE_MATCH_PAGE", workflow)
         self.assertNotIn("XOILAC_MAX_MATCHES", workflow)
+        self.assertIn('XOILAC_SCAN_PAST_MINUTES: "150"', workflow)
+        self.assertIn('XOILAC_SCAN_FUTURE_MINUTES: "180"', workflow)
+        self.assertIn('XOILAC_MATCH_CONCURRENCY: "3"', workflow)
         self.assertNotIn("v4.4.18", workflow)
         self.assertEqual(workflow.count('XOILAC_NAVIGATION_TIMEOUT: "35"'), 1)
 
     def test_xoilac_is_unlimited_and_403_candidates_are_not_publishable(self) -> None:
         source = self.read("sources/xoilac.py")
-        self.assertIn('VERSION = "4.4.16-XOILAC-UNLIMITED-LIVE-PRIORITY-403-RETRY"', source)
+        self.assertIn('VERSION = "4.4.24-XOILAC-3-WORKERS-150-180-FULL-CATALOG"', source)
         self.assertIn(
             'parser.add_argument("--max-matches", type=int, default=int(os.getenv("XOILAC_MAX_MATCHES", "0")))',
             source,
@@ -49,6 +52,11 @@ class ReleaseConsistencyTests(unittest.TestCase):
         self.assertIn('entry.classification = "signed_runner_blocked"', source)
         block = source[source.index('entry.classification = "signed_runner_blocked"'):]
         self.assertIn("entry.publishable = False", block[:600])
+        self.assertIn('os.getenv("XOILAC_SCAN_FUTURE_MINUTES", "180")', source)
+        self.assertIn('os.getenv("XOILAC_MATCH_CONCURRENCY", "3")', source)
+        self.assertIn('target_page.on("request", request_callback)', source)
+        self.assertNotIn('context.on("request", collector.on_request)', source)
+        self.assertIn("scan_targets_concurrently", source)
 
     def test_phaohoa_uses_only_safe_loopback_placeholder(self) -> None:
         source = self.read("sources/phaohoa.py")

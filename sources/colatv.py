@@ -3591,6 +3591,30 @@ async def progress_heartbeat(tasks: list[asyncio.Task[Any]], total: int) -> None
         return
 
 
+def append_home_catalog_rows(results: list[dict[str, Any]], catalog_links: list[dict[str, Any]]) -> None:
+    """Giữ mọi card trang chủ trong debug để merger tạo mục lịch an toàn."""
+    seen = {clean_text(row.get("url")) for row in results if isinstance(row, dict)}
+    for item in catalog_links:
+        url = clean_text(item.get("url"))
+        if not url or url in seen:
+            continue
+        match_name, time_value, blv = derive_match_info(
+            url, clean_text(item.get("raw_title")), clean_text(item.get("raw_time"))
+        )
+        row = dict(item)
+        row.update({
+            "url": url, "match_name": match_name,
+            "time": clean_text(item.get("time")) or time_value,
+            "date": clean_text(item.get("date")),
+            "blv": clean_text(item.get("blv")) or blv,
+            "streams": [], "catalog_only": True,
+            "listed_in_playlist": True, "playability": "metadata-only",
+            "source": "colatv",
+        })
+        results.append(row)
+        seen.add(url)
+
+
 async def main() -> None:
     for stream in (sys.stdout, sys.stderr):
         try:
@@ -3665,6 +3689,7 @@ async def main() -> None:
             },
         )
 
+        catalog_links: list[dict[str, Any]] = []
         if direct_urls:
             links = []
             for url in direct_urls:
@@ -3679,9 +3704,11 @@ async def main() -> None:
                     "sport_hint": "",
                     "sport_group": classify_sport(match_name, url),
                 })
+            catalog_links = [dict(item) for item in links]
             print(f"✅ Chế độ test trực tiếp: {len(links)} URL.")
         else:
             links = await collect_home_links_with_failover(context)
+            catalog_links = [dict(item) for item in links]
             links, window_stats = filter_links_by_scan_window(links)
             print_scan_window_summary(window_stats)
             if DELTA_SCAN_ENABLED:
@@ -3745,6 +3772,12 @@ async def main() -> None:
         finally:
             heartbeat.cancel()
             await asyncio.gather(heartbeat, return_exceptions=True)
+
+        for row in results:
+            if isinstance(row, dict):
+                row["listed_in_playlist"] = True
+        append_home_catalog_rows(results, catalog_links)
+        print(f"📋 Danh mục trang chủ: {len(catalog_links)} card | debug/M3U lịch: {len(results)} trận.", flush=True)
 
         pending_without_media = [
             row for row in results

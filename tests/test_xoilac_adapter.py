@@ -1,10 +1,12 @@
 from __future__ import annotations
 
+import asyncio
 import json
 import tempfile
 import unittest
 from datetime import datetime
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 from zoneinfo import ZoneInfo
 
@@ -95,9 +97,12 @@ class XoilacAdapterTests(unittest.TestCase):
         self.assertEqual(row["playability"], "rejected")
 
     def test_default_max_matches_is_unlimited(self) -> None:
-        with patch.dict("os.environ", {}, clear=False), patch("sys.argv", ["xoilac.py"]):
+        with patch.dict("os.environ", {}, clear=True), patch("sys.argv", ["xoilac.py"]):
             args = xoilac.parse_args()
         self.assertEqual(args.max_matches, 0)
+        self.assertEqual(args.past_minutes, 150)
+        self.assertEqual(args.future_minutes, 180)
+        self.assertEqual(args.match_concurrency, 3)
 
 
     def test_zero_max_matches_keeps_all_ranked_candidates(self) -> None:
@@ -128,6 +133,23 @@ class XoilacAdapterTests(unittest.TestCase):
         self.assertIn("upcoming-vs-one", selected[2])
         self.assertEqual(counts["live"], 1)
         self.assertEqual(counts["started"], 1)
+
+    def test_scan_window_keeps_minus_150_and_plus_180_boundaries(self) -> None:
+        now = datetime(2026, 7, 23, 12, 0, tzinfo=xoilac.VN_TZ)
+        candidates = [
+            {"url": "https://xoilacz.io/truc-tiep/past-in-vs-rival-luc-0930-ngay-23-07-2026/", "live_hint": False},
+            {"url": "https://xoilacz.io/truc-tiep/past-out-vs-rival-luc-0929-ngay-23-07-2026/", "live_hint": False},
+            {"url": "https://xoilacz.io/truc-tiep/future-in-vs-rival-luc-1500-ngay-23-07-2026/", "live_hint": False},
+            {"url": "https://xoilacz.io/truc-tiep/future-out-vs-rival-luc-1501-ngay-23-07-2026/", "live_hint": False},
+        ]
+        selected, _counts = xoilac.rank_scan_candidates(
+            candidates, past_minutes=150, future_minutes=180, max_matches=0, now=now
+        )
+        joined = "\n".join(selected)
+        self.assertIn("past-in-vs-rival", joined)
+        self.assertIn("future-in-vs-rival", joined)
+        self.assertNotIn("past-out-vs-rival", joined)
+        self.assertNotIn("future-out-vs-rival", joined)
 
     def test_candidate_403_is_not_written_to_main_playlist(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -227,6 +249,51 @@ class XoilacAdapterTests(unittest.TestCase):
             payload = json.loads(output_debug.read_text(encoding="utf-8"))
             stream = payload["results"][0]["streams"][0]
             self.assertEqual(stream["playability"], "verified")
+
+
+class XoilacConcurrencyTests(unittest.IsolatedAsyncioTestCase):
+    async def test_three_workers_limit_peak_and_preserve_result_order(self) -> None:
+        args = SimpleNamespace(match_concurrency=3)
+        targets = [f"https://example.test/truc-tiep/match-{index}/" for index in range(8)]
+        active = 0
+        peak = 0
+        lock = asyncio.Lock()
+
+        async def fake_scan(_context, target, _args, index, total):
+            nonlocal active, peak
+            async with lock:
+                active += 1
+                peak = max(peak, active)
+            await asyncio.sleep(0.01 * (9 - index))
+            async with lock:
+                active -= 1
+            return {"target": target, "index": index, "total": total}
+
+        with patch.object(xoilac, "scan_match", side_effect=fake_scan):
+            rows = await xoilac.scan_targets_concurrently(object(), targets, args)
+
+        self.assertEqual(peak, 3)
+        self.assertEqual([row["target"] for row in rows], targets)
+        self.assertEqual([row["index"] for row in rows], list(range(1, 9)))
+
+    async def test_one_worker_fallback_is_supported(self) -> None:
+        args = SimpleNamespace(match_concurrency=1)
+        targets = ["a", "b", "c"]
+        active = 0
+        peak = 0
+
+        async def fake_scan(_context, target, _args, index, total):
+            nonlocal active, peak
+            active += 1
+            peak = max(peak, active)
+            await asyncio.sleep(0)
+            active -= 1
+            return {"target": target, "index": index, "total": total}
+
+        with patch.object(xoilac, "scan_match", side_effect=fake_scan):
+            rows = await xoilac.scan_targets_concurrently(object(), targets, args)
+        self.assertEqual(peak, 1)
+        self.assertEqual([row["target"] for row in rows], targets)
 
 
 if __name__ == "__main__":

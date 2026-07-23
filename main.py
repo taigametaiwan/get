@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 from merger import SourceFiles, cleanup_intermediate_playlists, merge_sources
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "4.4.22-OPTIONAL-MANIFEST-CONSISTENCY-GUARD"
+VERSION = "4.4.24-XOILAC-3-CONCURRENT-150-180-FULL-CATALOG"
 
 
 @dataclass(slots=True)
@@ -296,7 +296,7 @@ def main() -> int:
         media_count = report["selected_count"] - metadata_only_count
         print(
             f"✅ Gộp xong: đầu vào={report['input_candidates']} | "
-            f"giữ={report['selected_count']} (media={media_count}, lịch Pháo Hoa={metadata_only_count}) | "
+            f"giữ={report['selected_count']} (media={media_count}, mục lịch={metadata_only_count}) | "
             f"loại={report['dropped_count']}",
             flush=True,
         )

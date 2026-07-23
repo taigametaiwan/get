@@ -17,7 +17,7 @@ from zoneinfo import ZoneInfo
 
 from playwright.async_api import Browser, BrowserContext, Page, Request, Response, async_playwright
 
-VERSION = "4.4.16-XOILAC-UNLIMITED-LIVE-PRIORITY-403-RETRY"
+VERSION = "4.4.24-XOILAC-3-WORKERS-150-180-FULL-CATALOG"
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_START_URL = "https://xoilacz.io/"
 DEFAULT_HOME_URLS = ("https://xoilacz.io/", "https://malaysiandigest.com/", "https://altenergystocks.com/")
@@ -978,10 +978,18 @@ async def capture_source(
             commentator=commentator,
             source_index=source_index,
         )
-        context.on("request", collector.on_request)
-        context.on("response", collector.on_response)
         page = await context.new_page()
         direct_player_pages: list[Page] = []
+        bound_pages: list[tuple[Page, Any, Any]] = []
+
+        def bind_collector(target_page: Page) -> None:
+            request_callback = collector.on_request
+            response_callback = collector.on_response
+            target_page.on("request", request_callback)
+            target_page.on("response", response_callback)
+            bound_pages.append((target_page, request_callback, response_callback))
+
+        bind_collector(page)
         attempt_url = add_cache_buster(source_url, attempt)
         print(
             f"   🎙️ Nguồn {source_index + 1}: {commentator} | lần {attempt}/{args.token_refresh_attempts}",
@@ -1022,6 +1030,7 @@ async def capture_source(
                     print(f"      🔁 Fallback mở trực tiếp player: {player_url}", flush=True)
                     player_page = await context.new_page()
                     direct_player_pages.append(player_page)
+                    bind_collector(player_page)
                     try:
                         await player_page.goto(
                             player_url,
@@ -1080,11 +1089,12 @@ async def capture_source(
         except Exception as exc:
             errors.append(f"source scan {type(exc).__name__}: {exc}")
         finally:
-            try:
-                context.remove_listener("request", collector.on_request)
-                context.remove_listener("response", collector.on_response)
-            except Exception:
-                pass
+            for bound_page, request_callback, response_callback in bound_pages:
+                try:
+                    bound_page.remove_listener("request", request_callback)
+                    bound_page.remove_listener("response", response_callback)
+                except Exception:
+                    pass
             await collector.flush()
             for player_page in direct_player_pages:
                 try:
@@ -1245,6 +1255,31 @@ async def scan_match(
         "errors": errors,
         "elapsed_seconds": round(time.monotonic() - started, 2),
     }
+
+
+async def scan_targets_concurrently(
+    context: BrowserContext,
+    targets: list[str],
+    args: argparse.Namespace,
+) -> list[dict[str, Any]]:
+    """Quét nhiều trận song song nhưng giữ nguyên thứ tự kết quả theo danh sách ưu tiên.
+
+    CaptureCollector chỉ nghe sự kiện trên Page của chính trận đó. Vì vậy ba task dùng
+    chung BrowserContext không bắt nhầm request media của nhau như cơ chế listener context cũ.
+    """
+    total = len(targets)
+    if not targets:
+        return []
+    concurrency = max(1, min(int(getattr(args, "match_concurrency", 3) or 1), 6))
+    semaphore = asyncio.Semaphore(concurrency)
+    ordered: list[dict[str, Any] | None] = [None] * total
+
+    async def run_one(position: int, target: str) -> None:
+        async with semaphore:
+            ordered[position] = await scan_match(context, target, args, position + 1, total)
+
+    await asyncio.gather(*(run_one(index, target) for index, target in enumerate(targets)))
+    return [row for row in ordered if isinstance(row, dict)]
 
 
 def m3u_attr(value: Any) -> str:
@@ -1479,7 +1514,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--token-refresh-attempts", type=int, default=int(os.getenv("XOILAC_TOKEN_REFRESH_ATTEMPTS", "2")))
     parser.add_argument("--min-token-seconds", type=int, default=int(os.getenv("XOILAC_MIN_TOKEN_SECONDS", "600")))
     parser.add_argument("--past-minutes", type=int, default=int(os.getenv("XOILAC_SCAN_PAST_MINUTES", "150")))
-    parser.add_argument("--future-minutes", type=int, default=int(os.getenv("XOILAC_SCAN_FUTURE_MINUTES", "240")))
+    parser.add_argument("--future-minutes", type=int, default=int(os.getenv("XOILAC_SCAN_FUTURE_MINUTES", "180")))
+    parser.add_argument(
+        "--match-concurrency",
+        type=int,
+        default=int(os.getenv("XOILAC_MATCH_CONCURRENCY", "3")),
+        help="Số trận Xôi Lạc quét đồng thời. Listener được cách ly theo Page để không bắt chéo stream.",
+    )
     return parser.parse_args()
 
 
@@ -1530,6 +1571,7 @@ async def async_main() -> int:
     args.max_sources_per_match = max(1, min(args.max_sources_per_match, 8))
     args.token_refresh_attempts = max(1, min(args.token_refresh_attempts, 3))
     args.min_token_seconds = max(60, min(args.min_token_seconds, 7200))
+    args.match_concurrency = max(1, min(args.match_concurrency, 6))
 
     print(f"🥷 KHỞI ĐỘNG XÔI LẠC STREAM SCANNER - {VERSION}", flush=True)
     print(
@@ -1581,13 +1623,56 @@ async def async_main() -> int:
                 f"🚀 Quét {len(targets)} trận; tối đa {args.max_sources_per_match} BLV/kênh mỗi trận.",
                 flush=True,
             )
-            results: list[dict[str, Any]] = []
-            for index, target in enumerate(targets, start=1):
-                results.append(await scan_match(context, target, args, index, len(targets)))
+            print(
+                f"⚡ Xôi Lạc quét song song tối đa {args.match_concurrency} trận; "
+                "listener media được gắn riêng từng Page để tránh bắt chéo luồng.",
+                flush=True,
+            )
+            results = await scan_targets_concurrently(context, targets, args)
 
             if discovery_rows:
                 for result in results:
                     result.setdefault("discovery", discovery_rows)
+
+            for row in results:
+                if isinstance(row, dict):
+                    row["listed_in_playlist"] = True
+            # Giữ mọi card trang chủ trong debug để merger tạo mục lịch an toàn.
+            catalog_urls: list[str] = []
+            for discovery in discovery_rows:
+                for value in discovery.get("all_match_links") or []:
+                    canonical = canonical_match_url(value)
+                    if canonical and canonical not in catalog_urls:
+                        catalog_urls.append(canonical)
+            seen_result_urls = {canonical_match_url(str(row.get("final_url") or row.get("input_url") or "")) for row in results}
+            for catalog_url in catalog_urls:
+                if catalog_url in seen_result_urls:
+                    continue
+                meta = derive_match_metadata(catalog_url)
+                results.append({
+                    "input_url": catalog_url,
+                    "final_url": catalog_url,
+                    "title": "",
+                    "match_name": meta.get("name", ""),
+                    "home_name": meta.get("home_name", ""),
+                    "away_name": meta.get("away_name", ""),
+                    "time": meta.get("time", ""),
+                    "date": meta.get("date", ""),
+                    "league": "",
+                    "home_logo": "",
+                    "away_logo": "",
+                    "logo_candidates": [],
+                    "source_links": [],
+                    "sources": [],
+                    "streams": [],
+                    "catalog_only": True,
+                    "listed_in_playlist": True,
+                    "playability": "metadata-only",
+                    "discovery": discovery_rows,
+                    "errors": [],
+                    "elapsed_seconds": 0,
+                })
+            print(f"📋 Danh mục Xôi Lạc: {len(catalog_urls)} card | đã dò player={len(targets)}.", flush=True)
 
             matches, links = write_outputs(results)
             summary = json.loads(OUTPUT_DEBUG.read_text(encoding="utf-8"))["summary"]

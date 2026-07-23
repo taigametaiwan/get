@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import re
 import unicodedata
@@ -12,7 +13,7 @@ from typing import Any, Iterable
 from urllib.parse import unquote, urljoin, urlparse
 from zoneinfo import ZoneInfo
 
-VERSION = "4.4.22-OPTIONAL-MANIFEST-CONSISTENCY-GUARD"
+VERSION = "4.4.24-XOILAC-3-CONCURRENT-150-180-FULL-CATALOG"
 TZ_VIETNAM = ZoneInfo("Asia/Ho_Chi_Minh")
 ALLOWED_GROUPS = {"Bóng đá", "Bóng rổ", "Bóng chuyền", "Tennis", "Esports", "Khác"}
 SOURCE_ORDER = {"chuoichien": 0, "luongson": 1, "gavang": 2, "xoilac": 3, "colatv": 4, "phaohoa": 5}
@@ -158,6 +159,88 @@ def is_phaohoa_metadata_placeholder(block: M3UBlock) -> bool:
     if not parsed.path.lower().endswith(".m3u8"):
         return False
     return is_valid_phaohoa_page_url(phaohoa_declared_page_url(block))
+
+MULTISOURCE_PLACEHOLDER_PATH_PREFIX = "/__multisource_metadata__/"
+
+def metadata_placeholder_page_url(block: M3UBlock) -> str:
+    return canonical_stream_url(
+        block.attributes.get("catalog-page-url")
+        or block.attributes.get("phaohoa-page-url")
+        or block.metadata.get("url")
+        or block.metadata.get("final_url")
+        or ""
+    )
+
+def is_metadata_placeholder(block: M3UBlock) -> bool:
+    if is_phaohoa_metadata_placeholder(block):
+        return True
+    if clean_text(block.attributes.get("catalog-entry")).lower() != "metadata-only":
+        return False
+    parsed = urlparse(block.canonical_url)
+    if (parsed.hostname or "").lower() not in PHAOHOA_PLACEHOLDER_HOSTS or parsed.port not in {None, 9}:
+        return False
+    expected = f"{MULTISOURCE_PLACEHOLDER_PATH_PREFIX}{block.source_key}/"
+    return parsed.path.startswith(expected) and parsed.path.lower().endswith(".m3u8")
+
+def _m3u_attr(value: Any) -> str:
+    return clean_text(value).replace("&", "&amp;").replace('"', "'")
+
+def _catalog_display_name(row: dict[str, Any], kickoff: datetime | None) -> str:
+    name = _metadata_name(row) or "Trận chưa rõ tên"
+    name = re.sub(r"^(?:\[[^\]]+\]\s*)+", "", name).strip()
+    blv = extract_blv(row, name)
+    if kickoff:
+        prefix = kickoff.strftime("[%H:%M %d/%m]")
+    else:
+        date_text = clean_text(row.get("date"))
+        time_text = clean_text(row.get("time"))
+        if time_text and date_text:
+            prefix = f"[{time_text} {date_text}]"
+        elif date_text:
+            prefix = f"[CHƯA CÓ GIỜ {date_text}]"
+        elif time_text:
+            prefix = f"[{time_text} CHƯA RÕ NGÀY]"
+        else:
+            prefix = "[CHƯA CÓ LỊCH]"
+    suffix = f" [BLV {blv}]" if blv else ""
+    return f"{prefix} {name}{suffix}".strip()
+
+def build_catalog_placeholder(source: SourceFiles, row: dict[str, Any], index: int, now: datetime) -> M3UBlock | None:
+    name = _metadata_name(row)
+    if not re.search(r"\bvs\b", name, re.I):
+        return None
+    kickoff = resolve_kickoff(row, now)
+    page_url = canonical_stream_url(row.get("url") or row.get("final_url") or row.get("input_url") or "")
+    stable = clean_text(row.get("match_id") or row.get("id") or page_url or f"{source.key}-{index}")
+    digest = hashlib.sha1(stable.encode("utf-8", errors="ignore")).hexdigest()[:16]
+    url = f"http://127.0.0.1:9{MULTISOURCE_PLACEHOLDER_PATH_PREFIX}{source.key}/{digest}.m3u8"
+    display = _catalog_display_name(row, kickoff)
+    logo = _first_valid_logo_from_row(row)
+    attrs = {
+        "tvg-id": f"{source.key}-catalog-{digest}",
+        "tvg-name": display,
+        "group-title": source.label,
+        "catalog-entry": "metadata-only",
+        "catalog-source": source.key,
+        "catalog-page-url": page_url,
+    }
+    if logo:
+        attrs["tvg-logo"] = logo
+    attr_text = " ".join(f'{key}="{_m3u_attr(value)}"' for key, value in attrs.items())
+    extinf = f"#EXTINF:-1 {attr_text},{display}"
+    meta = dict(row)
+    meta.setdefault("listed_in_playlist", True)
+    meta.setdefault("playability", "metadata-only")
+    if kickoff:
+        meta["kickoff_iso"] = kickoff.isoformat()
+    blv = extract_blv(meta, display)
+    return M3UBlock(
+        source_key=source.key, source_label=source.label, extinf=extinf,
+        lines=[extinf, url], url_line=url, canonical_url=url, attributes=attrs,
+        display_name=display, metadata=meta, score=PLAYABILITY_RANK["metadata-only"] * 100 + (5 if source.fresh else 0),
+        match_key=f"{normalize_match_name(name)}|{blv}", quality="UNKNOWN",
+        kind="placeholder-m3u8", playability="metadata-only", kickoff=kickoff,
+    )
 
 def _parse_datetime_value(value: Any) -> datetime | None:
     text = clean_text(value)
@@ -656,7 +739,7 @@ def enrich_blocks(source: SourceFiles, blocks: list[M3UBlock], now: datetime) ->
             phaohoa_page_index[page_url] = merged
 
     for block in blocks:
-        placeholder = is_phaohoa_metadata_placeholder(block)
+        placeholder = is_metadata_placeholder(block)
         meta = dict(debug_index.get(block.canonical_url, {}))
         if placeholder and not meta:
             meta = dict(phaohoa_page_index.get(phaohoa_declared_page_url(block), {}))
@@ -684,7 +767,7 @@ def enrich_blocks(source: SourceFiles, blocks: list[M3UBlock], now: datetime) ->
 
 def is_candidate_allowed(block: M3UBlock, now: datetime, upcoming_hours: int) -> bool:
     if block.playability == "metadata-only":
-        return is_phaohoa_metadata_placeholder(block) and bool(block.metadata.get("listed_in_playlist", True))
+        return is_metadata_placeholder(block) and bool(block.metadata.get("listed_in_playlist", True))
     if block.playability == "verified":
         return True
     if block.playability == "browser-observed" and block.metadata.get("observed_active"):
@@ -714,7 +797,7 @@ def choose_candidates(blocks: Iterable[M3UBlock], now: datetime, max_per_match: 
     best_by_url: dict[str, M3UBlock] = {}
     dropped: list[dict[str, Any]] = []
     for block in blocks:
-        placeholder = is_phaohoa_metadata_placeholder(block)
+        placeholder = is_metadata_placeholder(block)
         if not block.canonical_url or (block.kind not in {"m3u8", "flv"} and not placeholder):
             dropped.append({"url": block.canonical_url, "reason": "not-stream", "source": block.source_key})
             continue
@@ -731,10 +814,10 @@ def choose_candidates(blocks: Iterable[M3UBlock], now: datetime, max_per_match: 
 
     selected: list[M3UBlock] = []
     for match_key, items in grouped.items():
-        real_items = [item for item in items if not is_phaohoa_metadata_placeholder(item)]
+        real_items = [item for item in items if not is_metadata_placeholder(item)]
         if real_items:
             for item in items:
-                if is_phaohoa_metadata_placeholder(item):
+                if is_metadata_placeholder(item):
                     dropped.append({
                         "url": item.canonical_url,
                         "reason": "stream-replaces-metadata-only",
@@ -848,9 +931,20 @@ def merge_sources(
         blocks, debug_rows = enrich_blocks(source, blocks, now)
         source_references = load_debug_metadata_references(source, now)
         metadata_references.extend(source_references)
-        universal_maps[source.key] = {item.canonical_url: item for item in blocks}
+        # Mọi card có trong debug/catalog đều được giữ bằng placeholder loopback an toàn.
+        # Nếu cùng trận đã có stream thật, choose_candidates sẽ tự bỏ placeholder.
+        catalog_placeholders: list[M3UBlock] = []
+        if source.key != "phaohoa":
+            for ref_index, ref in enumerate(source_references):
+                if not bool(ref.metadata.get("listed_in_playlist") or ref.metadata.get("catalog_only")):
+                    continue
+                placeholder = build_catalog_placeholder(source, ref.metadata, ref_index, now)
+                if placeholder:
+                    catalog_placeholders.append(placeholder)
+        combined_blocks = list(blocks) + catalog_placeholders
+        universal_maps[source.key] = {item.canonical_url: item for item in combined_blocks}
         if source.returncode == 0 and debug_rows > 0:
-            all_blocks.extend(blocks)
+            all_blocks.extend(combined_blocks)
         source_stats.append({
             "key": source.key,
             "label": source.label,
@@ -858,6 +952,7 @@ def merge_sources(
             "fresh": source.fresh,
             "debug_rows": debug_rows,
             "playlist_blocks": len(blocks),
+            "catalog_placeholders": len(catalog_placeholders) if source.key != "phaohoa" else 0,
             "metadata_references": len(source_references),
             "included": source.returncode == 0 and debug_rows > 0,
         })
@@ -904,8 +999,8 @@ def merge_sources(
             "logo_source": item.metadata.get("logo_source"),
             "logo_enriched_from": item.metadata.get("logo_enriched_from"),
             "logo_is_fallback": item.metadata.get("logo_is_fallback"),
-            "entry_mode": "metadata-only" if is_phaohoa_metadata_placeholder(item) else "stream",
-            "page_url": item.attributes.get("phaohoa-page-url") or item.metadata.get("url"),
+            "entry_mode": "metadata-only" if is_metadata_placeholder(item) else "stream",
+            "page_url": item.attributes.get("catalog-page-url") or item.attributes.get("phaohoa-page-url") or item.metadata.get("url"),
             "home_logo": item.attributes.get("phaohoa-home-logo") or item.metadata.get("home_logo"),
             "away_logo": item.attributes.get("phaohoa-away-logo") or item.metadata.get("away_logo"),
             "blv": item.attributes.get("phaohoa-blv") or item.metadata.get("blv"),
@@ -919,6 +1014,7 @@ def merge_sources(
             "upcoming_keep_hours": upcoming_hours,
             "requires_verified_or_observed_or_gavang_pending": True,
             "allows_phaohoa_metadata_only": True,
+            "allows_all_source_catalog_metadata_only": True,
             "pending_past_minutes": max(0, min(int(os.getenv("MULTI_PENDING_PAST_MINUTES", "150")), 1440)),
             "keep_gavang_unknown_pending": os.getenv("MULTI_KEEP_GAVANG_UNKNOWN_PENDING", "1").strip().lower() not in {"0", "false", "no", "off"},
         },

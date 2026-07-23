@@ -1,25 +1,29 @@
 {
-  "package_version": "4.4.22",
-  "build_tag": "4.4.22-OPTIONAL-MANIFEST-CONSISTENCY-GUARD",
-  "workflow_name": "Quet 6 nguon v4.4.22 - Manifest tuy chon, chong tron source",
+  "package_version": "4.4.24",
+  "build_tag": "4.4.24-XOILAC-3-CONCURRENT-150-180-FULL-CATALOG",
+  "workflow_name": "Quet 6 nguon v4.4.24 - Xoi Lac 3 luong -150 +180",
   "components": {
-    "main.py": "4.4.22-OPTIONAL-MANIFEST-CONSISTENCY-GUARD",
-    "merger.py": "4.4.22-OPTIONAL-MANIFEST-CONSISTENCY-GUARD",
+    "main.py": "4.4.24-XOILAC-3-CONCURRENT-150-180-FULL-CATALOG",
+    "merger.py": "4.4.24-XOILAC-3-CONCURRENT-150-180-FULL-CATALOG",
     "sources/chuoichien.py": "4.4.8-CHUOICHIEN-SOURCE-GROUP",
     "sources/luongson.py": "4.4.11-LUONGSON-DOMAIN-STREAM-FAILOVER",
     "sources/gavang.py": "4.4.12-GAVANG-EXACT-FIXTURE-SCHEDULE-METADATA",
-    "sources/xoilac.py": "4.4.16-XOILAC-UNLIMITED-LIVE-PRIORITY-403-RETRY",
+    "sources/xoilac.py": "4.4.24-XOILAC-3-WORKERS-150-180-FULL-CATALOG",
     "sources/colatv.py": "4.4.13-COLATV-HLS-CAPTURE-SOURCE-GROUP",
     "sources/phaohoa.py": "4.4.20-PHAOHOA-SAFE-PLACEHOLDER-MULTISOURCE"
   },
   "critical_policies": {
+    "all_homepage_cards_in_all_live_m3u": true,
+    "safe_internal_placeholder_for_missing_stream": true,
     "xoilac_max_matches_default": 0,
+    "xoilac_scan_past_minutes": 150,
+    "xoilac_scan_future_minutes": 180,
+    "xoilac_match_concurrency": 3,
+    "xoilac_page_scoped_media_listeners": true,
     "xoilac_403_in_main_playlist": false,
-    "phaohoa_metadata_placeholder": "http://127.0.0.1:9/__phaohoa_metadata__/<id>.m3u8",
-    "phaohoa_match_page_as_stream": false,
     "workflow_cancel_in_progress": false,
     "schedule": "*/30 * * * *",
     "release_manifest_required_for_runtime": false
   },
-  "note": "Component versions record the last release that changed each adapter. RELEASE_MANIFEST.json is informational and optional at runtime; consistency tests validate source files directly."
+  "note": "Mọi card trang chủ vẫn được giữ trong all_live.m3u. Chỉ phạm vi mở player của Xôi Lạc đổi thành -150/+180 phút và quét tối đa 3 trận đồng thời."
 }
