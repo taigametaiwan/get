@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-23T10:31:27.675259+07:00",
+  "updated_at": "2026-07-23T11:01:34.761381+07:00",
   "matches": {
     "1516068": {
       "url": "https://live04.chuoichientv.me/live/1516068/mashal-vs-nasaf",
@@ -148,15 +148,16 @@
     },
     "1490342": {
       "url": "https://live04.chuoichientv.me/live/1490342/los-angeles-fc-vs-real-salt-lake",
-      "match_name": "Los Angeles FC vs Real Salt Lake - Major League Soccer",
+      "match_name": "los angeles fc vs real salt lake",
       "kickoff_iso": "2026-07-23T09:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-23T10:31:27.675210+07:00",
-      "next_scan_at": "2026-07-23T10:36:27.675210+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-23T11:01:34.761311+07:00",
+      "next_scan_at": "2026-07-23T11:06:34.761311+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
+        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -171,6 +172,18 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "209781": {
+      "url": "https://live04.chuoichientv.me/live/209781/turkey-w-vs-canada-w",
+      "match_name": "turkey w vs canada w",
+      "kickoff_iso": "2026-07-23T15:00:00+07:00",
+      "minutes_to_kickoff": 239,
+      "last_scan_at": "2026-07-23T11:01:34.761311+07:00",
+      "next_scan_at": "2026-07-23T11:46:34.761311+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
