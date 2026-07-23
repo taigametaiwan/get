@@ -1,4 +1,4 @@
-name: Quet 6 nguon v4.4.22 - Manifest tuy chon, chong tron source
+name: Quet 6 nguon v4.4.24 - Xoi Lac 3 luong -150 +180
 
 on:
   workflow_dispatch:
@@ -147,7 +147,8 @@ jobs:
           XOILAC_TOKEN_REFRESH_ATTEMPTS: "2"
           XOILAC_MIN_TOKEN_SECONDS: "600"
           XOILAC_SCAN_PAST_MINUTES: "150"
-          XOILAC_SCAN_FUTURE_MINUTES: "240"
+          XOILAC_SCAN_FUTURE_MINUTES: "180"
+          XOILAC_MATCH_CONCURRENCY: "3"
           XOILAC_WRITE_AUDIT_M3U: "0"
 
           COLATV_HOME_URLS: "https://colatv77.live/"
@@ -260,9 +261,7 @@ jobs:
               expected_group = expected_groups.get(channel.get("source"))
               if channel.get("group") != expected_group:
                   failures.append(f"Sai nhóm nguồn: {channel.get('source')} -> {channel.get('group')} (cần {expected_group})")
-              allowed_playability = {"verified", "browser-observed", "upcoming-pending"}
-              if channel.get("source") == "phaohoa":
-                  allowed_playability.add("metadata-only")
+              allowed_playability = {"verified", "browser-observed", "upcoming-pending", "metadata-only"}
               if channel.get("playability") not in allowed_playability:
                   failures.append(f"Trang thai khong hop le: {url}")
               key = (channel.get("match_key"), channel.get("quality"))
@@ -289,6 +288,26 @@ jobs:
                           f"Gà Vàng metadata chưa đủ chắc chắn nhưng stream vẫn giữ: "
                           f"{url} | {channel.get('metadata_warning') or 'không có đối chiếu phù hợp'}"
                       )
+
+
+              if channel.get("playability") == "metadata-only" and channel.get("source") != "phaohoa":
+                  from urllib.parse import urlparse
+                  parsed = urlparse(url)
+                  page_url = str(channel.get("page_url") or "")
+                  display_name = str(channel.get("display_name") or "")
+                  expected_prefix = f"/__multisource_metadata__/{channel.get('source')}/"
+                  if channel.get("entry_mode") != "metadata-only":
+                      failures.append(f"Metadata-only thiếu entry_mode: {url}")
+                  if (parsed.hostname or "").lower() not in {"127.0.0.1", "localhost"} or parsed.port not in {None, 9}:
+                      failures.append(f"Metadata-only không phải loopback an toàn: {url}")
+                  if not parsed.path.startswith(expected_prefix) or not parsed.path.lower().endswith(".m3u8"):
+                      failures.append(f"Metadata-only sai đường dẫn nguồn: {url}")
+                  if channel.get("kind") != "placeholder-m3u8":
+                      failures.append(f"Metadata-only sai kind: {channel.get('kind')} | {url}")
+                  if not re.search(r"\bvs\b", display_name, re.I):
+                      failures.append(f"Metadata-only thiếu đúng tên hai đội: {display_name} | {url}")
+                  if not page_url.startswith(("http://", "https://")):
+                      warnings.append(f"Metadata-only chưa giữ được URL trang trận: {display_name} | {url}")
 
               if channel.get("source") == "phaohoa" and channel.get("playability") == "metadata-only":
                   from urllib.parse import urlparse
@@ -431,5 +450,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update live streams v4.4.22 (6 sources, optional release manifest)"
+          git commit -m "Update live streams v4.4.24 (Xoi Lac 3 concurrent, -150/+180, full catalog)"
           git push origin "HEAD:${GITHUB_REF_NAME}"
