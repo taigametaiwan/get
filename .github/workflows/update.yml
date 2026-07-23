@@ -1,4 +1,4 @@
-name: Quet 6 nguon v4.4.24 - Xoi Lac 3 luong -150 +180
+name: Quet 6 nguon v4.4.27 - Fast registry pilot Xoi Lac ColaTV
 
 on:
   workflow_dispatch:
@@ -55,19 +55,24 @@ jobs:
           MULTI_MAX_STREAMS_PER_MATCH: "2"
           MULTI_UPCOMING_KEEP_HOURS: "4"
           MULTI_PENDING_PAST_MINUTES: "150"
-          MULTI_KEEP_GAVANG_UNKNOWN_PENDING: "1"
+          MULTI_KEEP_GAVANG_UNKNOWN_PENDING: "0"
+          MULTI_VERIFIED_ONLY: "1"
+          MULTI_LAST_GOOD_ENABLED: "1"
+          MULTI_LAST_GOOD_TIMEOUT_SECONDS: "5"
+          MULTI_LAST_GOOD_MAX_CANDIDATES: "40"
+          MULTI_LAST_GOOD_WORKERS: "6"
 
           SOCOLIVE_HOME_URLS: "https://live04.chuoichientv.me/,https://live03.chuoichientv.me/"
           SOCOLIVE_MATCH_CONCURRENCY: "3"
           SOCOLIVE_HOME_WAIT_MS: "5000"
           SOCOLIVE_ROOM_WAIT_SECONDS: "20"
           SOCOLIVE_SCAN_PAST_MINUTES: "150"
-          SOCOLIVE_SCAN_FUTURE_MINUTES: "240"
+          SOCOLIVE_SCAN_FUTURE_MINUTES: "180"
           SOCOLIVE_HYBRID_HTTP_FIRST: "1"
           SOCOLIVE_HTTP_DISCOVERY_TIMEOUT_SECONDS: "8"
           SOCOLIVE_HTTP_DISCOVERY_MAX_FOLLOWS: "4"
           SOCOLIVE_DELTA_SCAN_ENABLED: "1"
-          SOCOLIVE_DELTA_NEAR_MINUTES: "45"
+          SOCOLIVE_DELTA_NEAR_MINUTES: "90"
           SOCOLIVE_STATE_PATH: "chuoichien_state.json"
           SOCOLIVE_SCAN_UNKNOWN_LIVE: "1"
           SOCOLIVE_FULL_SCAN: "1"
@@ -76,7 +81,7 @@ jobs:
           SOCOLIVE_MAX_VERIFY_CANDIDATES: "4"
           SOCOLIVE_MAX_OUTPUT_STREAMS_PER_MATCH: "2"
           SOCOLIVE_UPCOMING_KEEP_HOURS: "4"
-          SOCOLIVE_UPCOMING_FAR_THRESHOLD_MINUTES: "45"
+          SOCOLIVE_UPCOMING_FAR_THRESHOLD_MINUTES: "90"
           SOCOLIVE_UPCOMING_FAR_WAIT_SECONDS: "7"
           SOCOLIVE_UPCOMING_NEAR_WAIT_SECONDS: "12"
           SOCOLIVE_KEEP_PREVIOUS_UNVERIFIED: "0"
@@ -87,12 +92,12 @@ jobs:
           HYGENIE_HOME_WAIT_MS: "6000"
           HYGENIE_ROOM_WAIT_SECONDS: "20"
           HYGENIE_SCAN_PAST_MINUTES: "150"
-          HYGENIE_SCAN_FUTURE_MINUTES: "240"
+          HYGENIE_SCAN_FUTURE_MINUTES: "180"
           HYGENIE_HYBRID_HTTP_FIRST: "1"
           HYGENIE_HTTP_DISCOVERY_TIMEOUT_SECONDS: "8"
           HYGENIE_HTTP_DISCOVERY_MAX_FOLLOWS: "4"
           HYGENIE_DELTA_SCAN_ENABLED: "1"
-          HYGENIE_DELTA_NEAR_MINUTES: "45"
+          HYGENIE_DELTA_NEAR_MINUTES: "90"
           HYGENIE_DOMAIN_STREAM_FAILOVER: "1"
           HYGENIE_DOMAIN_FAILOVER_NEAR_MINUTES: "45"
           HYGENIE_MATCH_VARIANT_FALLBACKS: "2"
@@ -103,7 +108,7 @@ jobs:
           HYGENIE_VERIFY_TIMEOUT_SECONDS: "6"
           HYGENIE_MAX_VERIFY_CANDIDATES: "4"
           HYGENIE_MAX_OUTPUT_STREAMS_PER_MATCH: "2"
-          HYGENIE_UPCOMING_FAR_THRESHOLD_MINUTES: "45"
+          HYGENIE_UPCOMING_FAR_THRESHOLD_MINUTES: "90"
           HYGENIE_UPCOMING_FAR_WAIT_SECONDS: "7"
           HYGENIE_UPCOMING_NEAR_WAIT_SECONDS: "12"
 
@@ -113,30 +118,30 @@ jobs:
           GAVANG_HOME_WAIT_MS: "6000"
           GAVANG_ROOM_WAIT_SECONDS: "16"
           GAVANG_SCAN_PAST_MINUTES: "150"
-          GAVANG_SCAN_FUTURE_MINUTES: "240"
+          GAVANG_SCAN_FUTURE_MINUTES: "180"
           GAVANG_HYBRID_HTTP_FIRST: "1"
           GAVANG_HTTP_DISCOVERY_TIMEOUT_SECONDS: "8"
           GAVANG_HTTP_DISCOVERY_MAX_FOLLOWS: "3"
           GAVANG_DELTA_SCAN_ENABLED: "1"
-          GAVANG_DELTA_NEAR_MINUTES: "45"
+          GAVANG_DELTA_NEAR_MINUTES: "90"
           GAVANG_STATE_PATH: "gavang_state.json"
           GAVANG_SCAN_UNKNOWN_LIVE: "1"
           GAVANG_PROBE_UNKNOWN_STREAM_KEYS: "1"
-          GAVANG_KEEP_DERIVED_PENDING: "1"
-          GAVANG_KEEP_UNKNOWN_TIME_PENDING: "1"
+          GAVANG_KEEP_DERIVED_PENDING: "0"
+          GAVANG_KEEP_UNKNOWN_TIME_PENDING: "0"
           GAVANG_FULL_SCAN: "1"
           GAVANG_VERIFY_STREAMS: "1"
           GAVANG_VERIFY_TIMEOUT_SECONDS: "7"
           GAVANG_MAX_VERIFY_CANDIDATES: "4"
           GAVANG_MAX_OUTPUT_STREAMS_PER_MATCH: "2"
           GAVANG_UPCOMING_KEEP_HOURS: "4"
-          GAVANG_UPCOMING_FAR_THRESHOLD_MINUTES: "45"
+          GAVANG_UPCOMING_FAR_THRESHOLD_MINUTES: "90"
           GAVANG_UPCOMING_FAR_WAIT_SECONDS: "6"
           GAVANG_UPCOMING_NEAR_WAIT_SECONDS: "10"
           GAVANG_KEEP_PREVIOUS_UNVERIFIED: "0"
           GAVANG_ALLOW_UNVERIFIED_BROWSER_FALLBACK: "0"
 
-          XOILAC_HOME_URLS: "https://xoilacz.io/,https://malaysiandigest.com/,https://altenergystocks.com/"
+          XOILAC_HOME_URLS: "https://xoilacz.io/,https://dedaluswine.com/,https://malaysiandigest.com/,https://altenergystocks.com/"
           XOILAC_SOURCE_WAIT_SECONDS: "12"
           XOILAC_HOME_WAIT_SECONDS: "5"
           XOILAC_AFTER_FIRST_WAIT: "2"
@@ -150,18 +155,21 @@ jobs:
           XOILAC_SCAN_FUTURE_MINUTES: "180"
           XOILAC_MATCH_CONCURRENCY: "3"
           XOILAC_WRITE_AUDIT_M3U: "0"
+          XOILAC_FAST_REGISTRY_ENABLED: "1"
+          XOILAC_CHANNEL_REGISTRY_PATH: "xoilac_channel_registry.json"
+          XOILAC_FAST_REGISTRY_FUTURE_MINUTES: "15"
 
           COLATV_HOME_URLS: "https://colatv77.live/"
           COLATV_MATCH_CONCURRENCY: "3"
           COLATV_HOME_WAIT_MS: "6000"
           COLATV_ROOM_WAIT_SECONDS: "20"
           COLATV_SCAN_PAST_MINUTES: "150"
-          COLATV_SCAN_FUTURE_MINUTES: "240"
+          COLATV_SCAN_FUTURE_MINUTES: "180"
           COLATV_HYBRID_HTTP_FIRST: "1"
           COLATV_HTTP_DISCOVERY_TIMEOUT_SECONDS: "8"
           COLATV_HTTP_DISCOVERY_MAX_FOLLOWS: "4"
           COLATV_DELTA_SCAN_ENABLED: "1"
-          COLATV_DELTA_NEAR_MINUTES: "45"
+          COLATV_DELTA_NEAR_MINUTES: "90"
           COLATV_STATE_PATH: "colatv_state.json"
           COLATV_SCAN_UNKNOWN_LIVE: "1"
           COLATV_FULL_SCAN: "1"
@@ -170,22 +178,25 @@ jobs:
           COLATV_MAX_VERIFY_CANDIDATES: "5"
           COLATV_MAX_OUTPUT_STREAMS_PER_MATCH: "2"
           COLATV_UPCOMING_KEEP_HOURS: "4"
-          COLATV_UPCOMING_FAR_THRESHOLD_MINUTES: "45"
+          COLATV_UPCOMING_FAR_THRESHOLD_MINUTES: "90"
           COLATV_UPCOMING_FAR_WAIT_SECONDS: "7"
           COLATV_UPCOMING_NEAR_WAIT_SECONDS: "12"
           COLATV_KEEP_PREVIOUS_UNVERIFIED: "0"
           COLATV_ALLOW_UNVERIFIED_BROWSER_FALLBACK: "0"
+          COLATV_FAST_REGISTRY_ENABLED: "1"
+          COLATV_CHANNEL_REGISTRY_PATH: "colatv_channel_registry.json"
+          COLATV_FAST_REGISTRY_FUTURE_MINUTES: "15"
           PHAOHOA_HOME_URLS: "https://phaohoa1.live/"
           PHAOHOA_MATCH_CONCURRENCY: "3"
           PHAOHOA_HOME_WAIT_MS: "6000"
           PHAOHOA_ROOM_WAIT_SECONDS: "20"
           PHAOHOA_SCAN_PAST_MINUTES: "150"
-          PHAOHOA_SCAN_FUTURE_MINUTES: "240"
+          PHAOHOA_SCAN_FUTURE_MINUTES: "180"
           PHAOHOA_HYBRID_HTTP_FIRST: "1"
           PHAOHOA_HTTP_DISCOVERY_TIMEOUT_SECONDS: "8"
           PHAOHOA_HTTP_DISCOVERY_MAX_FOLLOWS: "4"
           PHAOHOA_DELTA_SCAN_ENABLED: "1"
-          PHAOHOA_DELTA_NEAR_MINUTES: "45"
+          PHAOHOA_DELTA_NEAR_MINUTES: "90"
           PHAOHOA_STATE_PATH: "phaohoa_state.json"
           PHAOHOA_SCAN_UNKNOWN_LIVE: "1"
           PHAOHOA_FULL_SCAN: "1"
@@ -194,7 +205,7 @@ jobs:
           PHAOHOA_MAX_VERIFY_CANDIDATES: "5"
           PHAOHOA_MAX_OUTPUT_STREAMS_PER_MATCH: "2"
           PHAOHOA_UPCOMING_KEEP_HOURS: "4"
-          PHAOHOA_UPCOMING_FAR_THRESHOLD_MINUTES: "45"
+          PHAOHOA_UPCOMING_FAR_THRESHOLD_MINUTES: "90"
           PHAOHOA_UPCOMING_FAR_WAIT_SECONDS: "7"
           PHAOHOA_UPCOMING_NEAR_WAIT_SECONDS: "12"
           PHAOHOA_KEEP_PREVIOUS_UNVERIFIED: "0"
@@ -234,7 +245,7 @@ jobs:
           urls = []
           per_match_quality = Counter()
 
-          # Scanner phải lọc TRƯỚC khi mở trang trận: -150 phút đến +240 phút.
+          # Scanner/player và playlist metadata-only phải nằm trong cửa sổ -150/+180 phút.
           for debug_name in ("chuoichien_debug.json", "hygenie_debug.json", "gavang_debug.json", "xoilac_debug.json", "colatv_debug.json", "phaohoa_debug.json"):
               debug_path = Path(debug_name)
               if not debug_path.exists():
@@ -245,12 +256,8 @@ jobs:
                   delta = row.get("minutes_to_kickoff")
                   reason = row.get("scan_window_reason", "")
                   scan_attempted = bool(row.get("scan_attempted"))
-                  if isinstance(delta, int) and not (-150 <= delta <= 240):
-                      if debug_name == "phaohoa_debug.json" and not scan_attempted:
-                          # Pháo Hoa được phép giữ toàn bộ card lịch trong M3U; chỉ player scan mới phải theo cửa sổ.
-                          pass
-                      else:
-                          failures.append(f"{debug_name}: quét ngoài cửa sổ {delta} phút: {row.get('url')}")
+                  if isinstance(delta, int) and scan_attempted and not (-150 <= delta <= 180):
+                      failures.append(f"{debug_name}: quét ngoài cửa sổ {delta} phút: {row.get('url')}")
                   if delta is None and reason not in {"unknown-time-live", "unknown-time-derived-probe", ""}:
                       failures.append(f"{debug_name}: lý do giờ không hợp lệ {reason}: {row.get('url')}")
 
@@ -261,9 +268,16 @@ jobs:
               expected_group = expected_groups.get(channel.get("source"))
               if channel.get("group") != expected_group:
                   failures.append(f"Sai nhóm nguồn: {channel.get('source')} -> {channel.get('group')} (cần {expected_group})")
-              allowed_playability = {"verified", "browser-observed", "upcoming-pending", "metadata-only"}
+              delta_channel = channel.get("minutes_to_kickoff")
+              if isinstance(delta_channel, (int, float)) and not (-150 <= float(delta_channel) <= 180):
+                  failures.append(f"Kênh ngoài cửa sổ -150/+180 vẫn lọt playlist: {delta_channel} phút | {channel.get('display_name')} | {url}")
+              allowed_playability = {"verified", "browser-observed"}
               if channel.get("playability") not in allowed_playability:
                   failures.append(f"Trang thai khong hop le: {url}")
+              if channel.get("entry_mode") != "stream":
+                  failures.append(f"Playlist verified-only không được có metadata/placeholder: {url}")
+              if url.startswith(("http://127.0.0.1:", "http://localhost:")):
+                  failures.append(f"Playlist verified-only lọt placeholder loopback: {url}")
               key = (channel.get("match_key"), channel.get("quality"))
               per_match_quality[key] += 1
               if channel.get("source") == "gavang":
@@ -341,8 +355,9 @@ jobs:
                   signed = bool(channel.get("has_secret"))
                   if classification in {"placeholder_or_ad", "dead", "expired", "unverified"}:
                       failures.append(f"Xôi Lạc lọt stream bị loại vào playlist: {classification} | {url}")
-                  if "live2.streambylivepulse.com" in url.lower() and not signed:
-                      failures.append(f"Xôi Lạc lọt player quảng cáo live2 không wsSecret: {url}")
+                  if "live2." in url.lower() and not signed:
+                      if classification != "verified_unsigned" or channel.get("playability") != "verified":
+                          failures.append(f"Xôi Lạc live2 unsigned chưa verified vẫn lọt playlist: {classification} | {url}")
                   expiry = channel.get("expiry") or {}
                   seconds_left = expiry.get("seconds_left") if isinstance(expiry, dict) else None
                   if signed and isinstance(seconds_left, int) and seconds_left <= 60:
@@ -407,6 +422,8 @@ jobs:
             gavang_state.json
             colatv_state.json
             phaohoa_state.json
+            xoilac_channel_registry.json
+            colatv_channel_registry.json
           if-no-files-found: ignore
           retention-days: 3
 
@@ -444,11 +461,13 @@ jobs:
           [[ -f gavang_state.json ]] && files_to_add+=(gavang_state.json)
           [[ -f colatv_state.json ]] && files_to_add+=(colatv_state.json)
           [[ -f phaohoa_state.json ]] && files_to_add+=(phaohoa_state.json)
+          [[ -f xoilac_channel_registry.json ]] && files_to_add+=(xoilac_channel_registry.json)
+          [[ -f colatv_channel_registry.json ]] && files_to_add+=(colatv_channel_registry.json)
           git add -- "${files_to_add[@]}"
           if git diff --cached --quiet; then
             echo "Playlist khong thay doi; khong can commit."
             exit 0
           fi
 
-          git commit -m "Update live streams v4.4.24 (Xoi Lac 3 concurrent, -150/+180, full catalog)"
+          git commit -m "Update live streams v4.4.27 (fast registry pilot for Xoi Lac and ColaTV)"
           git push origin "HEAD:${GITHUB_REF_NAME}"
