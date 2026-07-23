@@ -5,6 +5,8 @@ import asyncio
 import json
 import os
 import re
+import ssl
+import threading
 import time
 import urllib.error
 import urllib.request
@@ -17,10 +19,10 @@ from zoneinfo import ZoneInfo
 
 from playwright.async_api import Browser, BrowserContext, Page, Request, Response, async_playwright
 
-VERSION = "4.4.24-XOILAC-3-WORKERS-150-180-FULL-CATALOG"
+VERSION = "4.4.27-XOILAC-FAST-LIVE2-REGISTRY"
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_START_URL = "https://xoilacz.io/"
-DEFAULT_HOME_URLS = ("https://xoilacz.io/", "https://malaysiandigest.com/", "https://altenergystocks.com/")
+DEFAULT_HOME_URLS = ("https://xoilacz.io/", "https://dedaluswine.com/", "https://malaysiandigest.com/", "https://altenergystocks.com/")
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 
 OUTPUT_M3U = ROOT / "xoilac_live.m3u"
@@ -30,12 +32,20 @@ OUTPUT_VERIFIED_M3U = ROOT / "xoilac_runner_verified.m3u"
 OUTPUT_ALL_M3U = ROOT / "xoilac_all_candidates.m3u"
 OUTPUT_REJECTED_M3U = ROOT / "xoilac_rejected.m3u"
 OUTPUT_DEBUG = ROOT / "xoilac_debug.json"
+REGISTRY_PATH = Path(os.getenv("XOILAC_CHANNEL_REGISTRY_PATH", str(ROOT / "xoilac_channel_registry.json")))
 
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/150.0.0.0 Safari/537.36"
 )
+FAST_UA = (
+    "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/144.0.0.0 Mobile Safari/537.36"
+)
+FAST_REFERER = os.getenv("XOILAC_FAST_REFERER", "https://xlz.livepingscorex.com/").strip()
+_REGISTRY_LOCK = threading.RLock()
 
 MEDIA_URL_RE = re.compile(r"\.(?:m3u8|flv|mpd)(?:[?#]|$)", re.I)
 MATCH_URL_RE = re.compile(r"/truc-tiep/", re.I)
@@ -105,6 +115,78 @@ def read_env_urls(name: str, defaults: tuple[str, ...]) -> tuple[str, ...]:
 
 
 HOME_URLS = read_env_urls("XOILAC_HOME_URLS", DEFAULT_HOME_URLS)
+FAST_REGISTRY_ENABLED = read_env_bool("XOILAC_FAST_REGISTRY_ENABLED", True)
+FAST_REGISTRY_FUTURE_MINUTES = int(os.getenv("XOILAC_FAST_REGISTRY_FUTURE_MINUTES", "15"))
+FAST_CHANNEL_TEMPLATES = tuple(
+    part.strip()
+    for part in os.getenv(
+        "XOILAC_FAST_CHANNEL_TEMPLATES",
+        "https://live2.streambylivepulse.com/live/{channel}.flv,"
+        "https://live2.pro2cdnlive.com/live/{channel}.flv",
+    ).split(",")
+    if part.strip() and "{channel}" in part
+)
+
+
+def normalize_registry_key(value: str) -> str:
+    return re.sub(r"[^A-Z0-9]+", " ", clean_text(value).upper()).strip()
+
+
+def load_channel_registry() -> dict[str, Any]:
+    try:
+        payload = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
+        return payload if isinstance(payload, dict) else {}
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
+        return {}
+
+
+def save_channel_registry(payload: dict[str, Any]) -> None:
+    with _REGISTRY_LOCK:
+        REGISTRY_PATH.parent.mkdir(parents=True, exist_ok=True)
+        temp = REGISTRY_PATH.with_suffix(REGISTRY_PATH.suffix + ".tmp")
+        temp.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        temp.replace(REGISTRY_PATH)
+
+
+def lookup_registry_channel(commentator: str) -> str:
+    if not FAST_REGISTRY_ENABLED:
+        return ""
+    key = normalize_registry_key(commentator)
+    row = (load_channel_registry().get("commentators") or {}).get(key, {})
+    channel = clean_text(row.get("channel") if isinstance(row, dict) else row)
+    return channel if re.fullmatch(r"channel\d+", channel, re.I) else ""
+
+
+def learn_registry_channel(commentator: str, channel: str, source: str = "player") -> None:
+    if not FAST_REGISTRY_ENABLED or not re.fullmatch(r"channel\d+", clean_text(channel), re.I):
+        return
+    key = normalize_registry_key(commentator)
+    if not key:
+        return
+    with _REGISTRY_LOCK:
+        payload = load_channel_registry()
+        payload.setdefault("schema_version", 1)
+        rows = payload.setdefault("commentators", {})
+        current = rows.get(key) if isinstance(rows.get(key), dict) else {}
+        if clean_text(current.get("channel")) == clean_text(channel):
+            return
+        rows[key] = {
+            "channel": clean_text(channel).lower(),
+            "source": source,
+            "updated_at": datetime.now(VN_TZ).isoformat(),
+        }
+        save_channel_registry(payload)
+
+
+def fast_registry_allowed(minutes_to_kickoff: Any) -> bool:
+    return isinstance(minutes_to_kickoff, int) and -150 <= minutes_to_kickoff <= FAST_REGISTRY_FUTURE_MINUTES
+
+
+def build_fast_channel_urls(channel: str) -> list[str]:
+    normalized = clean_text(channel).lower()
+    if not re.fullmatch(r"channel\d+", normalized):
+        return []
+    return [template.format(channel=normalized) for template in FAST_CHANNEL_TEMPLATES]
 
 
 def clean_text(value: Any) -> str:
@@ -257,21 +339,14 @@ def classify_stream(entry: "StreamCapture") -> None:
     status = entry.status
     status_ok = status in {200, 206}
 
-    entry.placeholder_suspected = bool(
-        not entry.has_secret
-        and (
-            entry.player_type == "8"
-            or hostname.lower().startswith("live2.")
-            or "live2.streambylivepulse.com" in hostname.lower()
-        )
-    )
+    # Chỉ type/8 bị xem là player quảng cáo theo tín hiệu cấu trúc.
+    # Tuyến live2 unsigned phải được probe nội dung; không được loại chỉ vì hostname.
+    entry.placeholder_suspected = bool(not entry.has_secret and entry.player_type == "8")
 
     if entry.placeholder_suspected:
         entry.classification = "placeholder_or_ad"
         entry.publishable = False
-        entry.classification_reason = (
-            "Player type/8 hoặc live2 không có wsSecret; mẫu này trong log thực tế phát banner/quảng cáo."
-        )
+        entry.classification_reason = "Player type/8 được nhận diện là tuyến quảng cáo/placeholder."
         return
 
     if status in {404, 410}:
@@ -413,7 +488,7 @@ class StreamCapture:
         if not self.first_seen_at:
             self.first_seen_at = datetime.now(VN_TZ).isoformat()
         self.expiry = parse_signed_expiry(self.url)
-        if self.status == 200 and is_media_candidate(self.url, self.content_type):
+        if self.status in {200, 206} and is_media_candidate(self.url, self.content_type):
             self.verified = True
             self.verify_reason = f"browser HTTP {self.status}; content-type={self.content_type or 'unknown'}"
         classify_stream(self)
@@ -580,9 +655,21 @@ def probe_stream_sync(entry: StreamCapture, timeout: int = 10) -> tuple[bool, st
     if entry.origin:
         headers["Origin"] = entry.origin
 
+    headers.setdefault("Range", "bytes=0-255")
     request = urllib.request.Request(entry.url, headers=headers, method="GET")
+
+    def open_request(allow_insecure: bool = False):
+        context = ssl._create_unverified_context() if allow_insecure else ssl.create_default_context()
+        return urllib.request.urlopen(request, timeout=timeout, context=context)
+
     try:
-        with urllib.request.urlopen(request, timeout=timeout) as response:
+        try:
+            response_cm = open_request(False)
+        except urllib.error.URLError as exc:
+            if "CERTIFICATE_VERIFY_FAILED" not in str(exc):
+                raise
+            response_cm = open_request(True)
+        with response_cm as response:
             status = int(getattr(response, "status", response.getcode()) or 0)
             content_type = response.headers.get("Content-Type", "")
             reader = getattr(response, "read1", None)
@@ -599,13 +686,13 @@ def probe_stream_sync(entry: StreamCapture, timeout: int = 10) -> tuple[bool, st
                 return False, f"HTTP {status}; đọc body lỗi {type(exc).__name__}: {exc}"
             kind = media_kind(entry.url, content_type)
             if kind == "flv":
-                ok = status == 200 and data.startswith(b"FLV")
+                ok = status in {200, 206} and data.startswith(b"FLV")
                 return ok, f"HTTP {status}; FLV header={'đúng' if data.startswith(b'FLV') else 'sai'}"
             if kind == "m3u8":
-                ok = status == 200 and b"#EXTM3U" in data.upper()
+                ok = status in {200, 206} and b"#EXTM3U" in data.upper()
                 return ok, f"HTTP {status}; M3U8 header={'đúng' if ok else 'chưa thấy'}"
             if kind == "mpd":
-                ok = status == 200 and b"<MPD" in data.upper()
+                ok = status in {200, 206} and b"<MPD" in data.upper()
                 return ok, f"HTTP {status}; MPD header={'đúng' if ok else 'chưa thấy'}"
             return status == 200, f"HTTP {status}; content-type={content_type}"
     except urllib.error.HTTPError as exc:
@@ -616,12 +703,68 @@ def probe_stream_sync(entry: StreamCapture, timeout: int = 10) -> tuple[bool, st
 
 async def verify_streams(entries: Iterable[StreamCapture], timeout: int) -> None:
     for entry in entries:
+        # Response media 200/206 đã được Chromium thật sự nhận trong đúng page/context.
+        # Không probe lại bằng urllib vì probe thứ hai có thể mất cookie/phiên, gặp lỗi SSL giả hoặc làm chậm.
+        if entry.status in {200, 206} and entry.verified and is_media_candidate(entry.url, entry.content_type):
+            entry.probe_ok = True
+            entry.verify_reason = (
+                f"browser-context HTTP {entry.status}; content-type={entry.content_type or 'unknown'}; "
+                "skip urllib reprobe"
+            )
+            classify_stream(entry)
+            print(f"      ✅ Browser verified {entry.kind}: {entry.verify_reason}", flush=True)
+            continue
         ok, reason = await asyncio.to_thread(probe_stream_sync, entry, timeout)
         entry.probe_ok = ok
         entry.verified = entry.verified or ok
         entry.verify_reason = reason
         classify_stream(entry)
         print(f"      {'✅' if ok else '❌'} Probe {entry.kind}: {reason}", flush=True)
+
+
+async def probe_fast_registry_channel(
+    channel: str,
+    *,
+    source_url: str,
+    commentator: str,
+    source_index: int,
+    timeout: int,
+) -> list[StreamCapture]:
+    entries: list[StreamCapture] = []
+    for url in build_fast_channel_urls(channel):
+        entry = StreamCapture(
+            url=url,
+            kind=media_kind(url),
+            referer=FAST_REFERER,
+            origin="",
+            user_agent=FAST_UA,
+            source_url=source_url,
+            commentator=commentator,
+            source_index=source_index,
+            player_type="7",
+            player_channel=channel,
+            sources=["fast-registry"],
+            first_seen_at=datetime.now(VN_TZ).isoformat(),
+        )
+        entries.append(entry)
+
+    async def verify_one(entry: StreamCapture) -> None:
+        ok, reason = await asyncio.to_thread(probe_stream_sync, entry, timeout)
+        entry.probe_ok = ok
+        entry.verified = ok
+        entry.verify_reason = reason
+        status_match = re.search(r"HTTP(?:Error)?\s+(\d{3})", reason)
+        entry.status = 200 if ok else int(status_match.group(1)) if status_match else None
+        if ok:
+            entry.content_type = "video/x-flv"
+        classify_stream(entry)
+        print(
+            f"      {'✅' if ok else '❌'} Fast registry {channel}: {reason} | {entry.url}",
+            flush=True,
+        )
+
+    await asyncio.gather(*(verify_one(entry) for entry in entries))
+    return entries
 
 
 async def click_play_controls(page: Page) -> int:
@@ -972,6 +1115,31 @@ async def capture_source(
     all_player_urls: list[str] = []
     started = time.monotonic()
 
+    minutes_to_kickoff = source.get("_minutes_to_kickoff")
+    registry_channel = lookup_registry_channel(commentator) if fast_registry_allowed(minutes_to_kickoff) else ""
+    if registry_channel:
+        print(f"      ⚡ Fast registry: {commentator} → {registry_channel}", flush=True)
+        fast_entries = await probe_fast_registry_channel(
+            registry_channel,
+            source_url=source_url,
+            commentator=commentator,
+            source_index=source_index,
+            timeout=args.verify_timeout,
+        )
+        for entry in fast_entries:
+            all_entries[entry.url] = entry
+        if any(entry.publishable for entry in fast_entries):
+            return {
+                "source_url": source_url,
+                "source_index": source_index,
+                "commentator": commentator,
+                "player_urls": [],
+                "streams": [entry.as_dict() for entry in fast_entries],
+                "errors": errors,
+                "fast_registry_hit": True,
+                "elapsed_seconds": round(time.monotonic() - started, 2),
+            }
+
     for attempt in range(1, args.token_refresh_attempts + 1):
         collector = CaptureCollector(
             source_url=source_url,
@@ -1055,6 +1223,19 @@ async def capture_source(
             await page.wait_for_timeout(args.after_first_wait * 1000 if collector.streams else 300)
             await collector.flush()
             player_type, player_channel = parse_player_identity(collector.player_urls)
+            if player_channel:
+                learn_registry_channel(commentator, player_channel, source="observed-player")
+                if fast_registry_allowed(minutes_to_kickoff):
+                    for fast_entry in await probe_fast_registry_channel(
+                        player_channel,
+                        source_url=source_url,
+                        commentator=commentator,
+                        source_index=source_index,
+                        timeout=args.verify_timeout,
+                    ):
+                        current = collector.streams.get(fast_entry.url)
+                        if current is None or (fast_entry.publishable and not current.publishable):
+                            collector.streams[fast_entry.url] = fast_entry
             for entry in collector.streams.values():
                 entry.player_type = entry.player_type or player_type
                 entry.player_channel = entry.player_channel or player_channel
@@ -1070,6 +1251,8 @@ async def capture_source(
                 if previous is None or (entry.status == 200 and previous.status != 200):
                     all_entries[url] = entry
 
+            if any(entry.publishable for entry in all_entries.values()):
+                break
             stop_attempts, attempt_reason, blocked_count = evaluate_token_attempt(
                 all_entries.values(),
                 all_player_urls,
@@ -1116,6 +1299,7 @@ async def capture_source(
         "player_urls": all_player_urls,
         "streams": [entry.as_dict() for entry in entries],
         "errors": errors,
+        "fast_registry_hit": False,
         "elapsed_seconds": round(time.monotonic() - started, 2),
     }
 
@@ -1201,10 +1385,13 @@ async def scan_match(
         except Exception:
             pass
 
+    timing = scan_window_metadata(final_url)
     source_links = list(metadata.get("source_links") or [])[: args.max_sources_per_match]
     source_results: list[dict[str, Any]] = []
     for source in source_links:
-        source_results.append(await capture_source(context, source, args))
+        source_with_timing = dict(source)
+        source_with_timing["_minutes_to_kickoff"] = timing.get("minutes_to_kickoff")
+        source_results.append(await capture_source(context, source_with_timing, args))
 
     streams: list[dict[str, Any]] = []
     seen_stream_keys: set[tuple[str, int, str]] = set()
@@ -1232,7 +1419,6 @@ async def scan_match(
         flush=True,
     )
 
-    timing = scan_window_metadata(final_url)
     return {
         "source": "xoilac",
         "url": final_url,
@@ -1460,6 +1646,13 @@ def write_outputs(results: list[dict[str, Any]]) -> tuple[int, int]:
             for source in result.get("sources", [])
             if clean_text(source.get("commentator"))
         ),
+        "fast_registry_hits": sum(
+            1 for result in results for source in result.get("sources", []) if source.get("fast_registry_hit")
+        ),
+        "verified_unsigned_live2": sum(
+            1 for _, stream in all_rows
+            if stream.get("classification") == "verified_unsigned" and "live2." in clean_text(stream.get("url")).lower()
+        ),
     }
 
     OUTPUT_DEBUG.write_text(
@@ -1489,12 +1682,25 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
             "Nguồn Xôi Lạc/XoilacZ/MalaysianDigest: lấy logo đội, tên BLV, quét từng /link/N, "
-            "ưu tiên URL FLV có wsSecret và loại player quảng cáo type/8 khỏi M3U chính."
+            "ưu tiên fast registry channelN→live2, sau đó fallback URL signed; chỉ loại player type/8 và media probe lỗi."
         )
     )
     parser.add_argument("urls", nargs="*", help="URL trang trận hoặc trang chủ")
     parser.add_argument("--headed", action="store_true", help="Hiện cửa sổ Chromium")
     parser.add_argument("--cdp", default=os.getenv("XOILAC_CDP_URL", ""), help="Kết nối Chrome thật qua CDP")
+    parser.add_argument(
+        "--user-data-dir",
+        default=os.getenv("XOILAC_USER_DATA_DIR", ""),
+        help=(
+            "Thư mục profile Chrome/Chromium riêng cho Xôi Lạc. Dùng persistent context để giữ cookie/localStorage; "
+            "không trỏ vào profile Chrome cá nhân đang sử dụng."
+        ),
+    )
+    parser.add_argument(
+        "--browser-channel",
+        default=os.getenv("XOILAC_BROWSER_CHANNEL", ""),
+        help="Kênh trình duyệt Playwright, ví dụ chrome. Bỏ trống để dùng Chromium mặc định.",
+    )
     parser.add_argument(
         "--wait",
         "--source-wait",
@@ -1524,40 +1730,65 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-async def launch_or_connect(playwright: Any, args: argparse.Namespace) -> tuple[Browser, BrowserContext, bool]:
+async def launch_or_connect(
+    playwright: Any, args: argparse.Namespace
+) -> tuple[Browser | None, BrowserContext, str]:
     if args.cdp:
         print(f"🔌 Kết nối Chrome thật qua CDP: {args.cdp}", flush=True)
         browser = await playwright.chromium.connect_over_cdp(args.cdp)
         if not browser.contexts:
             raise RuntimeError("Chrome CDP không có BrowserContext.")
-        return browser, browser.contexts[0], False
+        return browser, browser.contexts[0], "external"
 
-    launch_options: dict[str, Any] = {
-        "headless": not args.headed,
-        "args": [
-            "--disable-blink-features=AutomationControlled",
-            "--autoplay-policy=no-user-gesture-required",
-            "--mute-audio",
-            "--disable-dev-shm-usage",
-            "--no-sandbox",
-        ],
-    }
+    launch_args = [
+        "--disable-blink-features=AutomationControlled",
+        "--autoplay-policy=no-user-gesture-required",
+        "--mute-audio",
+        "--disable-dev-shm-usage",
+        "--no-sandbox",
+    ]
     executable = os.getenv("PLAYWRIGHT_CHROMIUM_EXECUTABLE", "").strip()
+    browser_channel = clean_text(getattr(args, "browser_channel", ""))
+    common_options: dict[str, Any] = {
+        "headless": not args.headed,
+        "args": launch_args,
+    }
     if executable and Path(executable).is_file():
-        launch_options["executable_path"] = executable
+        common_options["executable_path"] = executable
         print(f"ℹ️ Dùng Chromium/Chrome hệ thống: {executable}", flush=True)
+    elif browser_channel:
+        common_options["channel"] = browser_channel
+        print(f"ℹ️ Dùng browser channel Playwright: {browser_channel}", flush=True)
 
-    browser = await playwright.chromium.launch(**launch_options)
-    context = await browser.new_context(
-        viewport={"width": 1366, "height": 768},
-        user_agent=UA,
-        locale="vi-VN",
-        timezone_id="Asia/Ho_Chi_Minh",
-        ignore_https_errors=True,
-        service_workers="block",
-        extra_http_headers={"Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7"},
-    )
-    return browser, context, True
+    context_options: dict[str, Any] = {
+        "viewport": {"width": 1366, "height": 768},
+        "user_agent": UA,
+        "locale": "vi-VN",
+        "timezone_id": "Asia/Ho_Chi_Minh",
+        "ignore_https_errors": True,
+        "service_workers": "block",
+        "extra_http_headers": {"Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7"},
+    }
+
+    user_data_dir = clean_text(args.user_data_dir)
+    if user_data_dir:
+        profile_path = Path(user_data_dir).expanduser().resolve()
+        profile_path.mkdir(parents=True, exist_ok=True)
+        print(
+            f"🧩 Dùng persistent Chrome profile riêng: {profile_path} | "
+            "cookie/localStorage sẽ được giữ giữa các lượt trên cùng máy.",
+            flush=True,
+        )
+        context = await playwright.chromium.launch_persistent_context(
+            str(profile_path),
+            **common_options,
+            **context_options,
+        )
+        return context.browser, context, "persistent"
+
+    browser = await playwright.chromium.launch(**common_options)
+    context = await browser.new_context(**context_options)
+    return browser, context, "owned"
 
 
 async def async_main() -> int:
@@ -1575,13 +1806,13 @@ async def async_main() -> int:
 
     print(f"🥷 KHỞI ĐỘNG XÔI LẠC STREAM SCANNER - {VERSION}", flush=True)
     print(
-        "ℹ️ Quét từng link BLV; M3U chính loại type/8-live2 không wsSecret, "
-        "nhưng vẫn lưu toàn bộ candidate/rejected để audit.",
+        "ℹ️ M3U chính verified-only; thử fast registry channelN→live2 unsigned trước, "
+        "Chromium/signed URL là fallback; type/8 và probe lỗi chỉ lưu audit.",
         flush=True,
     )
 
     async with async_playwright() as playwright:
-        browser, context, owns_browser = await launch_or_connect(playwright, args)
+        browser, context, close_mode = await launch_or_connect(playwright, args)
         discovery_rows: list[dict[str, Any]] = []
         try:
             supplied = [value.strip() for value in args.urls if value.strip()]
@@ -1637,7 +1868,7 @@ async def async_main() -> int:
             for row in results:
                 if isinstance(row, dict):
                     row["listed_in_playlist"] = True
-            # Giữ mọi card trang chủ trong debug để merger tạo mục lịch an toàn.
+            # Giữ mọi card trang chủ trong debug/state; merger verified-only chỉ xuất stream đã xác minh.
             catalog_urls: list[str] = []
             for discovery in discovery_rows:
                 for value in discovery.get("all_match_links") or []:
@@ -1722,9 +1953,13 @@ async def async_main() -> int:
             # Không có link verified không phải lỗi tiến trình; playlist rỗng + debug vẫn là kết quả hợp lệ.
             return 0
         finally:
-            if owns_browser:
+            if close_mode == "owned":
                 await context.close()
-                await browser.close()
+                if browser is not None:
+                    await browser.close()
+            elif close_mode == "persistent":
+                # Đóng context sẽ tự flush dữ liệu profile và đóng browser persistent.
+                await context.close()
 
 
 def main() -> int:

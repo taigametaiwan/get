@@ -5,15 +5,18 @@ import hashlib
 import os
 import re
 import unicodedata
+import urllib.error
+import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from difflib import SequenceMatcher
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Iterable
-from urllib.parse import unquote, urljoin, urlparse
+from urllib.parse import parse_qs, unquote, urljoin, urlparse
 from zoneinfo import ZoneInfo
 
-VERSION = "4.4.24-XOILAC-3-CONCURRENT-150-180-FULL-CATALOG"
+VERSION = "4.4.27-FAST-REGISTRY-PILOT"
 TZ_VIETNAM = ZoneInfo("Asia/Ho_Chi_Minh")
 ALLOWED_GROUPS = {"Bóng đá", "Bóng rổ", "Bóng chuyền", "Tennis", "Esports", "Khác"}
 SOURCE_ORDER = {"chuoichien": 0, "luongson": 1, "gavang": 2, "xoilac": 3, "colatv": 4, "phaohoa": 5}
@@ -24,6 +27,37 @@ PLAYABILITY_RANK = {
     "metadata-only": 1,
 }
 QUALITY_RANK = {"4K": 5, "FHD": 4, "HD": 3, "SD": 2, "UNKNOWN": 1}
+
+SOURCE_WINDOW_ENV = {
+    "chuoichien": ("SOCOLIVE_SCAN_PAST_MINUTES", "SOCOLIVE_SCAN_FUTURE_MINUTES"),
+    "luongson": ("HYGENIE_SCAN_PAST_MINUTES", "HYGENIE_SCAN_FUTURE_MINUTES"),
+    "gavang": ("GAVANG_SCAN_PAST_MINUTES", "GAVANG_SCAN_FUTURE_MINUTES"),
+    "xoilac": ("XOILAC_SCAN_PAST_MINUTES", "XOILAC_SCAN_FUTURE_MINUTES"),
+    "colatv": ("COLATV_SCAN_PAST_MINUTES", "COLATV_SCAN_FUTURE_MINUTES"),
+    "phaohoa": ("PHAOHOA_SCAN_PAST_MINUTES", "PHAOHOA_SCAN_FUTURE_MINUTES"),
+}
+
+
+
+def read_env_bool(name: str, default: bool = False) -> bool:
+    raw = os.getenv(name)
+    if raw is None:
+        return default
+    return raw.strip().lower() not in {"0", "false", "no", "off", ""}
+
+
+def verified_only_enabled() -> bool:
+    return read_env_bool("MULTI_VERIFIED_ONLY", True)
+
+def read_window_minutes(name: str, default: int) -> int:
+    try:
+        return max(0, min(int(os.getenv(name, str(default))), 1440))
+    except (TypeError, ValueError):
+        return default
+
+def source_scan_window(source_key: str) -> tuple[int, int]:
+    past_env, future_env = SOURCE_WINDOW_ENV.get(source_key, ("MULTI_PENDING_PAST_MINUTES", "MULTI_SCAN_FUTURE_MINUTES"))
+    return read_window_minutes(past_env, 150), read_window_minutes(future_env, 180)
 
 
 @dataclass(slots=True)
@@ -267,14 +301,23 @@ def resolve_kickoff(row: dict[str, Any], now: datetime) -> datetime | None:
     hour, minute = map(int, time_match.groups())
     date_candidates: list[datetime] = []
     if date_text:
-        for fmt in ("%d/%m/%Y", "%d-%m-%Y", "%Y-%m-%d", "%d/%m", "%d-%m"):
+        # Không dùng strptime với định dạng chỉ có ngày/tháng vì Python 3.15 sẽ siết
+        # hành vi năm mặc định và hiện đã phát cảnh báo DeprecationWarning.
+        short_date = re.fullmatch(r"(\d{1,2})[/-](\d{1,2})", date_text)
+        if short_date:
+            day, month = map(int, short_date.groups())
             try:
-                parsed = datetime.strptime(date_text, fmt)
-                year = parsed.year if "%Y" in fmt else now.year
-                date_candidates.append(datetime(year, parsed.month, parsed.day, hour, minute, tzinfo=TZ_VIETNAM))
-                break
+                date_candidates.append(datetime(now.year, month, day, hour, minute, tzinfo=TZ_VIETNAM))
             except ValueError:
-                continue
+                pass
+        else:
+            for fmt in ("%d/%m/%Y", "%d-%m-%Y", "%Y-%m-%d"):
+                try:
+                    parsed = datetime.strptime(date_text, fmt)
+                    date_candidates.append(datetime(parsed.year, parsed.month, parsed.day, hour, minute, tzinfo=TZ_VIETNAM))
+                    break
+                except ValueError:
+                    continue
     if not date_candidates:
         for day_offset in (-1, 0, 1):
             day = (now + timedelta(days=day_offset)).date()
@@ -765,19 +808,68 @@ def enrich_blocks(source: SourceFiles, blocks: list[M3UBlock], now: datetime) ->
     return blocks, len(rows)
 
 
-def is_candidate_allowed(block: M3UBlock, now: datetime, upcoming_hours: int) -> bool:
-    if block.playability == "metadata-only":
-        return is_metadata_placeholder(block) and bool(block.metadata.get("listed_in_playlist", True))
+def source_window_delta(block: M3UBlock, now: datetime) -> float | None:
+    raw_delta = block.metadata.get("minutes_to_kickoff")
+    if isinstance(raw_delta, (int, float)):
+        return float(raw_delta)
+    if isinstance(raw_delta, str):
+        try:
+            return float(raw_delta)
+        except ValueError:
+            pass
+    if block.kickoff:
+        return (block.kickoff - now).total_seconds() / 60
+    return None
+
+def block_within_source_window(block: M3UBlock, now: datetime, *, require_known_time: bool = False) -> bool:
+    """Chỉ giữ kênh có lịch nếu nằm trong cửa sổ -past/+future của chính nguồn đó."""
+    minutes = source_window_delta(block, now)
+    if minutes is None:
+        return not require_known_time
+    past, future = source_scan_window(block.source_key)
+    return -past <= minutes <= future
+
+def metadata_placeholder_within_source_window(block: M3UBlock, now: datetime) -> bool:
+    """Chỉ giữ mục lịch metadata-only nếu trận nằm trong cửa sổ của chính nguồn đó."""
+    return block_within_source_window(block, now, require_known_time=True)
+
+def _status_ok_for_verified(block: M3UBlock) -> bool:
+    status = block.metadata.get("http_status")
+    if status is None:
+        status = block.metadata.get("status")
+    if status in {401, 403, 404, 410, 429, "401", "403", "404", "410", "429"}:
+        return False
+    # Adapter đã gắn playability=verified sau probe riêng của nguồn; thiếu status trong debug
+    # không được biến một stream verified thành pending/rỗng ở tầng merger.
     if block.playability == "verified":
         return True
-    if block.playability == "browser-observed" and block.metadata.get("observed_active"):
+    if status in {200, 206, "200", "206"}:
         return True
-    if block.playability in {"browser-observed", "upcoming-pending"} and block.kickoff:
-        minutes = (block.kickoff - now).total_seconds() / 60
-        pending_past_minutes = max(0, min(int(os.getenv("MULTI_PENDING_PAST_MINUTES", "150")), 1440))
-        if block.playability == "upcoming-pending":
-            return -pending_past_minutes <= minutes <= upcoming_hours * 60
-        return 0 <= minutes <= upcoming_hours * 60
+    return bool(block.metadata.get("verified") or block.metadata.get("probe_ok") or block.metadata.get("observed_active"))
+
+
+def is_candidate_allowed(block: M3UBlock, now: datetime, upcoming_hours: int) -> bool:
+    verified_only = verified_only_enabled()
+    if block.playability == "metadata-only":
+        if verified_only:
+            return False
+        return (
+            is_metadata_placeholder(block)
+            and bool(block.metadata.get("listed_in_playlist", True))
+            and metadata_placeholder_within_source_window(block, now)
+        )
+    if block.playability == "verified":
+        return _status_ok_for_verified(block) and block_within_source_window(block, now)
+    if block.playability == "browser-observed":
+        return (
+            bool(block.metadata.get("observed_active"))
+            and _status_ok_for_verified(block)
+            and block_within_source_window(block, now)
+        )
+    if verified_only:
+        return False
+    if block.playability == "upcoming-pending" and block.kickoff:
+        return block_within_source_window(block, now, require_known_time=True)
     if (
         block.source_key == "gavang"
         and block.playability == "upcoming-pending"
@@ -787,8 +879,6 @@ def is_candidate_allowed(block: M3UBlock, now: datetime, upcoming_hours: int) ->
         and clean_text(block.metadata.get("scan_window_reason"))
         in {"unknown-time-live", "unknown-time-derived-probe"}
     ):
-        # Không có kickoff nhưng URL vừa xuất hiện trên trang chủ Gà Vàng ở chính run này.
-        # Khi fixture biến mất ở run sau, playlist nguồn mới sẽ không còn block này.
         return True
     return False
 
@@ -879,6 +969,178 @@ def _render_source_grouped_lines(block: M3UBlock) -> list[str]:
     return rendered
 
 
+SOURCE_LABEL_TO_KEY = {
+    "Chuối Chiên": "chuoichien",
+    "Lương Sơn": "luongson",
+    "Gà Vàng": "gavang",
+    "Xôi Lạc": "xoilac",
+    "ColaTV": "colatv",
+    "Pháo Hoa TV": "phaohoa",
+}
+SOURCE_KEY_TO_LABEL = {value: key for key, value in SOURCE_LABEL_TO_KEY.items()}
+
+
+def _previous_debug_payload(path: Path) -> tuple[dict[str, dict[str, Any]], datetime | None]:
+    if not path.exists():
+        return {}, None
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}, None
+    generated = _parse_datetime_value(payload.get("generated_at")) if isinstance(payload, dict) else None
+    index: dict[str, dict[str, Any]] = {}
+    if isinstance(payload, dict):
+        for row in payload.get("channels", []):
+            if not isinstance(row, dict):
+                continue
+            url = canonical_stream_url(row.get("url", ""))
+            if url:
+                index[url] = dict(row)
+    return index, generated
+
+
+def _parse_previous_playlist(root: Path, now: datetime) -> list[M3UBlock]:
+    playlist = root / "all_live.m3u"
+    if not playlist.exists():
+        return []
+    debug_index, generated_at = _previous_debug_payload(root / "all_live_debug.json")
+    raw = parse_m3u(playlist, "previous", "Previous")
+    output: list[M3UBlock] = []
+    for block in raw:
+        if is_metadata_placeholder(block) or stream_kind(block.canonical_url) not in {"m3u8", "flv"}:
+            continue
+        meta = dict(debug_index.get(block.canonical_url, {}))
+        source_key = clean_text(meta.get("source")) or SOURCE_LABEL_TO_KEY.get(clean_text(block.attributes.get("group-title")), "")
+        if source_key not in SOURCE_ORDER:
+            continue
+        prior_playability = clean_text(meta.get("playability"))
+        if prior_playability not in {"verified", "browser-observed"}:
+            continue
+        block.source_key = source_key
+        block.source_label = SOURCE_KEY_TO_LABEL[source_key]
+        block.metadata = meta
+        block.metadata["prior_generated_at"] = generated_at.isoformat() if generated_at else ""
+        block.playability = "verified"
+        block.kind = stream_kind(block.canonical_url)
+        block.quality = normalize_quality(meta.get("quality"), block.display_name, block.canonical_url)
+        block.kickoff = _parse_datetime_value(meta.get("kickoff_iso"))
+        block.match_key = clean_text(meta.get("match_key")) or f"{normalize_match_name(block.display_name)}|{extract_blv(meta, block.display_name)}"
+        block.score = PLAYABILITY_RANK["verified"] * 100 + QUALITY_RANK.get(block.quality, 1) * 10 - 25
+        output.append(block)
+    return output
+
+
+def _signed_url_not_expired(url: str, min_seconds: int = 60) -> bool:
+    query = parse_qs(urlparse(url).query)
+    raw = (query.get("wsABSTime") or query.get("expires") or query.get("expire") or [""])[0]
+    if not raw:
+        return True
+    try:
+        value = int(raw, 16 if re.search(r"[a-f]", str(raw), re.I) else 10)
+    except (TypeError, ValueError):
+        return True
+    return value - int(datetime.now(tz=TZ_VIETNAM).timestamp()) > min_seconds
+
+
+def _headers_from_block(block: M3UBlock) -> dict[str, str]:
+    headers = {"User-Agent": "Mozilla/5.0", "Accept": "*/*", "Cache-Control": "no-cache"}
+    for line in block.lines:
+        stripped = line.strip()
+        if stripped.lower().startswith("#extvlcopt:http-referrer="):
+            headers["Referer"] = stripped.split("=", 1)[1]
+        elif stripped.lower().startswith("#extvlcopt:http-user-agent="):
+            headers["User-Agent"] = stripped.split("=", 1)[1]
+    raw = clean_text(block.url_line)
+    if "|" in raw:
+        _url, pipe = raw.split("|", 1)
+        for part in pipe.split("&"):
+            if "=" not in part:
+                continue
+            key, value = part.split("=", 1)
+            key = unquote(key).strip()
+            value = unquote(value).strip()
+            if key and value:
+                headers[key] = value
+    page_url = clean_text(block.metadata.get("page_url"))
+    if page_url and "Referer" not in headers:
+        headers["Referer"] = page_url
+    return headers
+
+
+def _probe_previous_block(block: M3UBlock, timeout: int) -> tuple[bool, str]:
+    if not _signed_url_not_expired(block.canonical_url):
+        return False, "signed-expired"
+    headers = _headers_from_block(block)
+    headers.setdefault("Range", "bytes=0-4095")
+    request = urllib.request.Request(block.canonical_url, headers=headers, method="GET")
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            status = int(getattr(response, "status", response.getcode()) or 0)
+            content_type = clean_text(response.headers.get("Content-Type", "")).lower()
+            try:
+                data = response.read(4096)
+            except (TimeoutError, OSError) as exc:
+                if status in {200, 206} and block.kind == "flv" and "flv" in content_type:
+                    return True, f"HTTP {status}; streaming body ({type(exc).__name__})"
+                return False, f"HTTP {status}; read {type(exc).__name__}"
+            if block.kind == "flv":
+                return status in {200, 206} and data.startswith(b"FLV"), f"HTTP {status}; flv={data.startswith(b'FLV')}"
+            if block.kind == "m3u8":
+                ok = status in {200, 206} and b"#EXTM3U" in data.upper()
+                return ok, f"HTTP {status}; m3u8={ok}"
+            return False, "unsupported-kind"
+    except urllib.error.HTTPError as exc:
+        return False, f"HTTP {exc.code}"
+    except Exception as exc:
+        return False, f"{type(exc).__name__}: {exc}"
+
+
+def recover_previous_last_good(root: Path, now: datetime) -> tuple[list[M3UBlock], list[dict[str, Any]]]:
+    if not read_env_bool("MULTI_LAST_GOOD_ENABLED", True):
+        return [], []
+    candidates = _parse_previous_playlist(root, now)
+    max_candidates = max(0, min(int(os.getenv("MULTI_LAST_GOOD_MAX_CANDIDATES", "40")), 200))
+    timeout = max(2, min(int(os.getenv("MULTI_LAST_GOOD_TIMEOUT_SECONDS", "5")), 20))
+    workers = max(1, min(int(os.getenv("MULTI_LAST_GOOD_WORKERS", "6")), 12))
+    unknown_ttl = max(1, min(int(os.getenv("MULTI_LAST_GOOD_UNKNOWN_TTL_MINUTES", "90")), 720))
+    filtered: list[M3UBlock] = []
+    audit: list[dict[str, Any]] = []
+    for block in candidates:
+        if block.kickoff:
+            if not block_within_source_window(block, now, require_known_time=True):
+                audit.append({"url": block.canonical_url, "kept": False, "reason": "outside-source-window"})
+                continue
+        else:
+            generated = _parse_datetime_value(block.metadata.get("prior_generated_at"))
+            if not generated or (now - generated).total_seconds() > unknown_ttl * 60:
+                audit.append({"url": block.canonical_url, "kept": False, "reason": "unknown-time-stale"})
+                continue
+        filtered.append(block)
+        if len(filtered) >= max_candidates:
+            break
+    recovered: list[M3UBlock] = []
+    if not filtered:
+        return recovered, audit
+    with ThreadPoolExecutor(max_workers=workers, thread_name_prefix="last-good") as executor:
+        futures = {executor.submit(_probe_previous_block, block, timeout): block for block in filtered}
+        for future in as_completed(futures):
+            block = futures[future]
+            try:
+                ok, reason = future.result()
+            except Exception as exc:
+                ok, reason = False, f"{type(exc).__name__}: {exc}"
+            audit.append({"url": block.canonical_url, "kept": ok, "reason": reason, "source": block.source_key})
+            if not ok:
+                continue
+            block.metadata["recovered_last_good"] = True
+            block.metadata["last_good_probe"] = reason
+            block.metadata["playability"] = "verified"
+            block.metadata["http_status"] = 200
+            block.playability = "verified"
+            recovered.append(block)
+    return recovered, audit
+
+
 def _write_variant(path: Path, selected: list[M3UBlock], maps: dict[str, dict[str, M3UBlock]], fallback_maps: dict[str, dict[str, M3UBlock]]) -> None:
     lines = ["#EXTM3U"]
     for item in selected:
@@ -921,6 +1183,7 @@ def merge_sources(
     max_per_match = max_per_match or max(1, min(int(os.getenv("MULTI_MAX_STREAMS_PER_MATCH", "2")), 6))
     upcoming_hours = upcoming_hours or max(1, min(int(os.getenv("MULTI_UPCOMING_KEEP_HOURS", "4")), 24))
 
+    previous_last_good, last_good_audit = recover_previous_last_good(root, now)
     all_blocks: list[M3UBlock] = []
     metadata_references: list[M3UBlock] = []
     universal_maps: dict[str, dict[str, M3UBlock]] = {}
@@ -931,10 +1194,9 @@ def merge_sources(
         blocks, debug_rows = enrich_blocks(source, blocks, now)
         source_references = load_debug_metadata_references(source, now)
         metadata_references.extend(source_references)
-        # Mọi card có trong debug/catalog đều được giữ bằng placeholder loopback an toàn.
-        # Nếu cùng trận đã có stream thật, choose_candidates sẽ tự bỏ placeholder.
+        # v4.4.26: card vẫn được lưu đầy đủ trong debug/state nhưng all_live.m3u chỉ nhận stream phát được.
         catalog_placeholders: list[M3UBlock] = []
-        if source.key != "phaohoa":
+        if not verified_only_enabled() and source.key != "phaohoa":
             for ref_index, ref in enumerate(source_references):
                 if not bool(ref.metadata.get("listed_in_playlist") or ref.metadata.get("catalog_only")):
                     continue
@@ -957,6 +1219,7 @@ def merge_sources(
             "included": source.returncode == 0 and debug_rows > 0,
         })
 
+    all_blocks.extend(previous_last_good)
     gavang_metadata_stats = enrich_gavang_metadata_from_other_sources(all_blocks, metadata_references)
     gavang_logo_stats = enrich_gavang_logos_from_other_sources(all_blocks, metadata_references)
     selected, dropped = choose_candidates(all_blocks, now, max_per_match, upcoming_hours)
@@ -991,6 +1254,7 @@ def merge_sources(
             "pending_reason": item.metadata.get("pending_reason"),
             "score": item.score,
             "kickoff_iso": item.kickoff.isoformat() if item.kickoff else None,
+            "minutes_to_kickoff": round((item.kickoff - now).total_seconds() / 60, 2) if item.kickoff else item.metadata.get("minutes_to_kickoff"),
             "metadata_audit": item.metadata.get("metadata_audit"),
             "metadata_enriched_from": item.metadata.get("metadata_enriched_from"),
             "metadata_warning": item.metadata.get("metadata_warning"),
@@ -1004,6 +1268,9 @@ def merge_sources(
             "home_logo": item.attributes.get("phaohoa-home-logo") or item.metadata.get("home_logo"),
             "away_logo": item.attributes.get("phaohoa-away-logo") or item.metadata.get("away_logo"),
             "blv": item.attributes.get("phaohoa-blv") or item.metadata.get("blv"),
+            "recovered_last_good": bool(item.metadata.get("recovered_last_good")),
+            "last_good_probe": item.metadata.get("last_good_probe"),
+            "prior_generated_at": item.metadata.get("prior_generated_at"),
         })
 
     report = {
@@ -1012,15 +1279,19 @@ def merge_sources(
         "policy": {
             "max_streams_per_match_blv": max_per_match,
             "upcoming_keep_hours": upcoming_hours,
-            "requires_verified_or_observed_or_gavang_pending": True,
-            "allows_phaohoa_metadata_only": True,
-            "allows_all_source_catalog_metadata_only": True,
+            "verified_only": verified_only_enabled(),
+            "requires_verified_or_observed": True,
+            "allows_pending": not verified_only_enabled(),
+            "allows_metadata_only": not verified_only_enabled(),
+            "last_good_enabled": read_env_bool("MULTI_LAST_GOOD_ENABLED", True),
             "pending_past_minutes": max(0, min(int(os.getenv("MULTI_PENDING_PAST_MINUTES", "150")), 1440)),
             "keep_gavang_unknown_pending": os.getenv("MULTI_KEEP_GAVANG_UNKNOWN_PENDING", "1").strip().lower() not in {"0", "false", "no", "off"},
         },
         "sources": source_stats,
         "input_candidates": len(all_blocks),
         "metadata_reference_count": len(metadata_references),
+        "last_good_recovered_count": len(previous_last_good),
+        "last_good_audit": last_good_audit,
         "selected_count": len(selected),
         "dropped_count": len(dropped),
         "gavang_metadata": gavang_metadata_stats,

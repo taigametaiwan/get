@@ -1,20 +1,20 @@
 {
-  "package_version": "4.4.24",
-  "build_tag": "4.4.24-XOILAC-3-CONCURRENT-150-180-FULL-CATALOG",
-  "workflow_name": "Quet 6 nguon v4.4.24 - Xoi Lac 3 luong -150 +180",
+  "package_version": "4.4.27",
+  "build_tag": "4.4.27-FAST-REGISTRY-PILOT",
+  "workflow_name": "Quet 6 nguon v4.4.27 - Fast registry pilot Xoi Lac ColaTV",
   "components": {
-    "main.py": "4.4.24-XOILAC-3-CONCURRENT-150-180-FULL-CATALOG",
-    "merger.py": "4.4.24-XOILAC-3-CONCURRENT-150-180-FULL-CATALOG",
+    "main.py": "4.4.27-FAST-REGISTRY-PILOT",
+    "merger.py": "4.4.27-FAST-REGISTRY-PILOT",
     "sources/chuoichien.py": "4.4.8-CHUOICHIEN-SOURCE-GROUP",
     "sources/luongson.py": "4.4.11-LUONGSON-DOMAIN-STREAM-FAILOVER",
     "sources/gavang.py": "4.4.12-GAVANG-EXACT-FIXTURE-SCHEDULE-METADATA",
-    "sources/xoilac.py": "4.4.24-XOILAC-3-WORKERS-150-180-FULL-CATALOG",
-    "sources/colatv.py": "4.4.13-COLATV-HLS-CAPTURE-SOURCE-GROUP",
+    "sources/xoilac.py": "4.4.27-XOILAC-FAST-LIVE2-REGISTRY",
+    "sources/colatv.py": "4.4.27-COLATV-FAST-BLV-REGISTRY",
     "sources/phaohoa.py": "4.4.20-PHAOHOA-SAFE-PLACEHOLDER-MULTISOURCE"
   },
   "critical_policies": {
-    "all_homepage_cards_in_all_live_m3u": true,
-    "safe_internal_placeholder_for_missing_stream": true,
+    "all_homepage_cards_in_all_live_m3u": false,
+    "safe_internal_placeholder_for_missing_stream": false,
     "xoilac_max_matches_default": 0,
     "xoilac_scan_past_minutes": 150,
     "xoilac_scan_future_minutes": 180,
@@ -23,7 +23,23 @@
     "xoilac_403_in_main_playlist": false,
     "workflow_cancel_in_progress": false,
     "schedule": "*/30 * * * *",
-    "release_manifest_required_for_runtime": false
+    "release_manifest_required_for_runtime": false,
+    "all_live_verified_only": true,
+    "metadata_cards_debug_only": true,
+    "last_known_good_reprobe": true,
+    "xoilac_persistent_profile_opt_in": true,
+    "all_homepage_cards_kept_in_debug_state": true,
+    "verified_or_browser_observed_only": true,
+    "previous_last_good_requires_reprobe": true,
+    "xoilac_browser_context_200_206_is_verified": true,
+    "xoilac_real_chrome_channel_opt_in": true,
+    "xoilac_fast_live2_unsigned_probe": true,
+    "xoilac_fast_registry_fallback_to_browser": true,
+    "colatv_blv_stream_id_registry": true,
+    "colatv_registry_self_learning": true,
+    "fast_registry_never_bypasses_verification": true,
+    "fast_registry_future_minutes": 15,
+    "fast_registry_prevents_future_channel_misassignment": true
   },
-  "note": "Mọi card trang chủ vẫn được giữ trong all_live.m3u. Chỉ phạm vi mở player của Xôi Lạc đổi thành -150/+180 phút và quét tối đa 3 trận đồng thời."
+  "note": "Pilot Fast Registry cho Xôi Lạc và ColaTV: dựng URL CDN từ channel/BLV registry, probe nhanh trước, Chromium vẫn fallback. all_live.m3u vẫn verified-only; seed registry lấy từ file M3U tham chiếu do người dùng cung cấp và có thể tự học khi scanner bắt URL mới. Fast registry chỉ chạy từ -150 đến +15 phút quanh giờ bắt đầu để tránh gán channel đang phát cho trận tương lai dùng cùng BLV."
 }

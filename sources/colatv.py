@@ -6,6 +6,7 @@ import os
 import re
 import subprocess
 import sys
+import threading
 import urllib.error
 import urllib.request
 import time
@@ -53,7 +54,9 @@ LEGACY_GIT_PLAYLIST_PATH = "colatv/colatv_live.m3u"
 OUTPUT_DEBUG = "colatv_debug.json"
 OUTPUT_HOME_DEBUG_HTML = "colatv_home_debug.html"
 OUTPUT_HOME_DEBUG_PNG = "colatv_home_debug.png"
-SCANNER_VERSION = "4.4.13-COLATV-HLS-CAPTURE-SOURCE-GROUP"
+REGISTRY_PATH = Path(os.getenv("COLATV_CHANNEL_REGISTRY_PATH", str(PROJECT_ROOT / "colatv_channel_registry.json")))
+_REGISTRY_LOCK = threading.RLock()
+SCANNER_VERSION = "4.4.27-COLATV-FAST-BLV-REGISTRY"
 
 
 def read_env_bool(name: str, default: bool = True) -> bool:
@@ -114,7 +117,7 @@ MAX_VERIFY_CANDIDATES = read_env_int("COLATV_MAX_VERIFY_CANDIDATES", 6, minimum=
 MAX_OUTPUT_STREAMS_PER_MATCH = read_env_int("COLATV_MAX_OUTPUT_STREAMS_PER_MATCH", 2, minimum=1, maximum=4)
 UPCOMING_KEEP_HOURS = read_env_int("COLATV_UPCOMING_KEEP_HOURS", 4, minimum=1, maximum=12)
 SCAN_PAST_MINUTES = read_env_int("COLATV_SCAN_PAST_MINUTES", 150, minimum=0, maximum=1440)
-SCAN_FUTURE_MINUTES = read_env_int("COLATV_SCAN_FUTURE_MINUTES", 240, minimum=0, maximum=1440)
+SCAN_FUTURE_MINUTES = read_env_int("COLATV_SCAN_FUTURE_MINUTES", 180, minimum=0, maximum=1440)
 SCAN_UNKNOWN_LIVE = read_env_bool("COLATV_SCAN_UNKNOWN_LIVE", True)
 UPCOMING_MIN_CANDIDATE_SCORE = read_env_int("COLATV_UPCOMING_MIN_CANDIDATE_SCORE", 150, minimum=80, maximum=300)
 ALLOW_UNVERIFIED_BROWSER_FALLBACK = read_env_bool("COLATV_ALLOW_UNVERIFIED_BROWSER_FALLBACK", False)
@@ -130,6 +133,16 @@ DELTA_NEAR_MINUTES = read_env_int("COLATV_DELTA_NEAR_MINUTES", 45, minimum=5, ma
 STATE_PATH = Path(os.getenv("COLATV_STATE_PATH", "colatv_state.json"))
 HEADLESS = True
 PROBE_CACHE: dict[tuple[str, str, str, str, str], dict[str, Any]] = {}
+FAST_REGISTRY_ENABLED = read_env_bool("COLATV_FAST_REGISTRY_ENABLED", True)
+FAST_REGISTRY_FUTURE_MINUTES = read_env_int("COLATV_FAST_REGISTRY_FUTURE_MINUTES", 15, minimum=0, maximum=90)
+FAST_REGISTRY_TEMPLATES = tuple(
+    part.strip() for part in os.getenv(
+        "COLATV_FAST_REGISTRY_TEMPLATES",
+        "https://live05.meung.app/live/{stream_id}.flv,"
+        "https://live05.meung.app/live/{stream_id}.m3u8,"
+        "https://live05.miekgo.app/live/{stream_id}.m3u8",
+    ).split(",") if part.strip() and "{stream_id}" in part
+)
 
 # Dùng đúng User-Agent đã được kiểm chứng phát được bằng VLC.
 UA = (
@@ -304,6 +317,83 @@ def normalize_blv_name(value: str) -> str:
         words = re.sub(r"[_\-.]+", " ", raw).split()
         return " ".join(word.capitalize() for word in words)
     return raw
+
+
+def registry_key(value: str) -> str:
+    return normalize_search_text(normalize_blv_name(value)).upper()
+
+
+def load_channel_registry() -> dict[str, Any]:
+    try:
+        payload = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
+        return payload if isinstance(payload, dict) else {}
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
+        return {}
+
+
+def save_channel_registry(payload: dict[str, Any]) -> None:
+    with _REGISTRY_LOCK:
+        REGISTRY_PATH.parent.mkdir(parents=True, exist_ok=True)
+        temp = REGISTRY_PATH.with_suffix(REGISTRY_PATH.suffix + ".tmp")
+        temp.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        temp.replace(REGISTRY_PATH)
+
+
+def lookup_stream_id(blv: str) -> str:
+    if not FAST_REGISTRY_ENABLED:
+        return ""
+    row = (load_channel_registry().get("commentators") or {}).get(registry_key(blv), {})
+    value = clean_text(row.get("stream_id") if isinstance(row, dict) else row)
+    return value if re.fullmatch(r"\d{8}", value) else ""
+
+
+def learn_stream_id(blv: str, stream_id: str, source: str = "observed") -> None:
+    if not FAST_REGISTRY_ENABLED or not re.fullmatch(r"\d{8}", clean_text(stream_id)):
+        return
+    key = registry_key(blv)
+    if not key:
+        return
+    with _REGISTRY_LOCK:
+        payload = load_channel_registry()
+        payload.setdefault("schema_version", 1)
+        rows = payload.setdefault("commentators", {})
+        current = rows.get(key) if isinstance(rows.get(key), dict) else {}
+        if clean_text(current.get("stream_id")) == clean_text(stream_id):
+            return
+        rows[key] = {
+            "stream_id": clean_text(stream_id),
+            "source": source,
+            "updated_at": datetime.now(ZoneInfo("Asia/Ho_Chi_Minh")).isoformat(),
+        }
+        save_channel_registry(payload)
+
+
+def fast_registry_allowed(match: dict[str, Any]) -> bool:
+    delta = match.get("minutes_to_kickoff")
+    return isinstance(delta, int) and -SCAN_PAST_MINUTES <= delta <= FAST_REGISTRY_FUTURE_MINUTES
+
+
+def registry_candidate_urls(blv: str) -> list[str]:
+    stream_id = lookup_stream_id(blv)
+    return [template.format(stream_id=stream_id) for template in FAST_REGISTRY_TEMPLATES] if stream_id else []
+
+
+def extract_registry_stream_id(url: str) -> str:
+    host = (urlparse(url).hostname or "").lower()
+    if not any(marker in host for marker in ("meung.app", "miekgo.app")):
+        return ""
+    match = re.search(r"/live/(\d{8})\.(?:flv|m3u8)(?:[?#]|$)", url, re.I)
+    return match.group(1) if match else ""
+
+
+def learn_registry_from_entries(blv: str, entries: list[dict[str, Any]], source: str) -> None:
+    if not blv:
+        return
+    for entry in entries:
+        stream_id = extract_registry_stream_id(str(entry.get("url") or ""))
+        if stream_id:
+            learn_stream_id(blv, stream_id, source=source)
+            return
 
 
 def extract_blv_from_url(value: str) -> str:
@@ -1186,11 +1276,14 @@ async def validate_stream_candidates(
 
     async def validate_one(entry: dict[str, Any]) -> dict[str, Any]:
         async with semaphore:
-            referer = normalize_playback_referer(
+            direct_registry = "fast-registry" in set(entry.get("sources") or [])
+            referer = "" if direct_registry else normalize_playback_referer(
                 entry.get("referer") or PLAYER_ORIGIN_FALLBACK + "/"
             )
             user_agent = clean_text(entry.get("user_agent") or UA)
-            origin = clean_text(entry.get("origin") or origin_from_url(referer) or PLAYER_ORIGIN_FALLBACK)
+            origin = "" if direct_registry else clean_text(
+                entry.get("origin") or origin_from_url(referer) or PLAYER_ORIGIN_FALLBACK
+            )
             cookie_header = ""
             try:
                 cookies = await context.cookies([entry["url"]])
@@ -2608,7 +2701,7 @@ async def fetch_stream(
         match["time"] = time_str
         match["date"] = extract_date(match.get("raw_time", "")) or extract_date(match.get("raw_title", ""))
         match["time_source"] = "home-card" if time_str else ""
-        match["blv"] = blv_from_link
+        match["blv"] = blv_from_link or normalize_blv_name(match.get("blv", ""))
         match["streams"] = []
         match["stream_urls"] = []
         match["errors"] = []
@@ -2699,6 +2792,33 @@ async def fetch_stream(
                 if len(entry["sources"]) == 1:
                     print(f"   🎯 [{source}] {normalized}")
 
+        registry_urls = registry_candidate_urls(match.get("blv", "")) if fast_registry_allowed(match) else []
+        if registry_urls:
+            print(
+                f"   ⚡ Fast registry Cola: BLV {match.get('blv')} → {len(registry_urls)} tuyến CDN",
+                flush=True,
+            )
+            for registry_url in registry_urls:
+                capture_url(
+                    registry_url,
+                    "fast-registry",
+                    headers={"user-agent": UA},
+                    frame_url=match.get("url", ""),
+                )
+            fast_streams, fast_rejected = await finalize_stream_map(
+                context, stream_map, match, log_prefix="Fast registry: "
+            )
+            if any(entry.get("playability") == "verified" for entry in fast_streams):
+                learn_registry_from_entries(match.get("blv", ""), fast_streams, "fast-registry-verified")
+                match["scan_decision"] = "fast-registry-complete"
+                match["fast_registry_hit"] = True
+                match["rejected_streams"] = fast_rejected
+                match["streams"] = fast_streams
+                match["stream_urls"] = [item["url"] for item in fast_streams]
+                return match
+            match["fast_registry_rejected"] = fast_rejected
+            stream_map.clear()
+
         http_reference_count = await discover_http_candidates(context, match, capture_url)
         if http_reference_count:
             print(
@@ -2718,6 +2838,7 @@ async def fetch_stream(
             enough = verified_count >= MAX_OUTPUT_STREAMS_PER_MATCH
             far_with_result = isinstance(delta, int) and delta > DELTA_NEAR_MINUTES and bool(early_streams)
             if enough or far_with_result:
+                learn_registry_from_entries(match.get("blv", ""), early_streams, "http-first-observed")
                 match["scan_decision"] = "http-first-complete"
                 match["rejected_streams"] = early_rejected
                 match["streams"] = early_streams
@@ -3030,6 +3151,7 @@ async def fetch_stream(
             context, stream_map, match
         )
         match["stream_urls"] = [item["url"] for item in match["streams"]]
+        learn_registry_from_entries(match.get("blv", ""), match["streams"], "scanner-observed")
 
         if match["streams"]:
             verified_count = sum(

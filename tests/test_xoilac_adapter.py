@@ -276,6 +276,22 @@ class XoilacConcurrencyTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual([row["target"] for row in rows], targets)
         self.assertEqual([row["index"] for row in rows], list(range(1, 9)))
 
+
+    async def test_browser_verified_206_skips_urllib_reprobe(self) -> None:
+        entry = xoilac.StreamCapture(
+            url="https://live.example/channel.flv?wsSecret=abc&wsABSTime=1893456000",
+            kind="flv",
+            status=206,
+            content_type="video/x-flv",
+            verified=True,
+        )
+        with patch.object(xoilac, "probe_stream_sync") as probe:
+            await xoilac.verify_streams([entry], timeout=5)
+        probe.assert_not_called()
+        self.assertTrue(entry.probe_ok)
+        self.assertTrue(entry.publishable)
+        self.assertEqual(entry.classification, "signed")
+
     async def test_one_worker_fallback_is_supported(self) -> None:
         args = SimpleNamespace(match_concurrency=1)
         targets = ["a", "b", "c"]

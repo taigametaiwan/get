@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 from merger import SourceFiles, cleanup_intermediate_playlists, merge_sources
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "4.4.24-XOILAC-3-CONCURRENT-150-180-FULL-CATALOG"
+VERSION = "4.4.27-FAST-REGISTRY-PILOT"
 
 
 @dataclass(slots=True)
@@ -69,7 +69,7 @@ SOURCES = {
         pipe=ROOT / "xoilac_live_pipe.m3u",
         vlc=ROOT / "xoilac_live_vlc.m3u",
         debug=ROOT / "xoilac_debug.json",
-        host_markers=("xoilacz.io", "malaysiandigest.com", "altenergystocks.com"),
+        host_markers=("xoilacz.io", "dedaluswine.com", "malaysiandigest.com", "altenergystocks.com"),
     ),
     "colatv": SourceConfig(
         key="colatv",
@@ -286,23 +286,19 @@ def main() -> int:
     print(f"\n{'=' * 72}", flush=True)
     print("🔀 GỘP PLAYLIST VÀ LỌC TRÙNG/CHẤT LƯỢNG", flush=True)
     print(f"{'=' * 72}", flush=True)
-    report = merge_sources(ROOT, merge_inputs, preserve_on_empty=True)
+    report = merge_sources(ROOT, merge_inputs, preserve_on_empty=False)
 
     if report["selected_count"]:
-        metadata_only_count = sum(
-            1 for channel in report.get("channels", [])
-            if channel.get("entry_mode") == "metadata-only"
-        )
-        media_count = report["selected_count"] - metadata_only_count
+        recovered = int(report.get("last_good_recovered_count") or 0)
         print(
-            f"✅ Gộp xong: đầu vào={report['input_candidates']} | "
-            f"giữ={report['selected_count']} (media={media_count}, mục lịch={metadata_only_count}) | "
-            f"loại={report['dropped_count']}",
+            f"✅ Gộp xong verified-only: đầu vào={report['input_candidates']} | "
+            f"giữ={report['selected_count']} stream phát được | "
+            f"khôi phục last-known-good còn sống={recovered} | loại={report['dropped_count']}",
             flush=True,
         )
         print(f"📺 Playlist chung: {(ROOT / 'all_live.m3u').resolve()}", flush=True)
     else:
-        print("⚠️ Không có stream đủ tin cậy từ các nguồn; giữ nguyên all_live.m3u cũ nếu có.", flush=True)
+        print("⚠️ Không có stream đã xác minh hoặc last-known-good còn sống; ghi playlist rỗng an toàn.", flush=True)
 
     removed = cleanup_intermediate_playlists(ROOT)
     if removed:
