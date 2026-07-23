@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "luongson",
-  "updated_at": "2026-07-23T08:32:45.566194+07:00",
+  "updated_at": "2026-07-23T09:03:36.448782+07:00",
   "matches": {
     "271fb65c8c25": {
       "url": "https://laservision.io/truc-tiep/mashal-muborak-vs-nasaf-qarshi-vao-luc-2200-22-07-2026/?blv=359",
@@ -349,14 +349,12 @@
       "url": "https://laservision.io/truc-tiep/chapecoense-sc-vs-flamengo-vao-luc-0730-23-07-2026/?blv=328",
       "match_name": "CHAPECOENSE SC vs FLAMENGO",
       "kickoff_iso": "2026-07-23T07:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-23T08:32:45.565762+07:00",
-      "next_scan_at": "2026-07-23T08:37:45.565762+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-23T09:03:36.448418+07:00",
+      "next_scan_at": "2026-07-23T09:08:36.448418+07:00",
       "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-      ],
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "f1819c513ef7": {
@@ -405,63 +403,61 @@
       "url": "https://laservision.io/truc-tiep/dallas-wings-w-vs-portland-fire-w-vao-luc-0900-23-07-2026/?blv=320",
       "match_name": "DALLAS WINGS W vs PORTLAND FIRE W",
       "kickoff_iso": "2026-07-23T09:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-07-23T08:32:45.565762+07:00",
-      "next_scan_at": "2026-07-23T08:37:45.565762+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-07-23T09:03:36.448418+07:00",
+      "next_scan_at": "2026-07-23T09:08:36.448418+07:00",
       "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-      ],
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "2cd056c2cbcf": {
       "url": "https://laservision.io/truc-tiep/los-angeles-galaxy-vs-st-louis-city-vao-luc-0930-23-07-2026/?blv=135",
-      "match_name": "Trực tiếp trận đấu Los Angeles Galaxy vs St. Louis City",
+      "match_name": "LOS ANGELES GALAXY vs ST. LOUIS CITY",
       "kickoff_iso": "2026-07-23T09:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-07-23T08:32:45.565762+07:00",
-      "next_scan_at": "2026-07-23T08:52:45.565762+07:00",
-      "has_stream": false,
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-23T09:03:36.448418+07:00",
+      "next_scan_at": "2026-07-23T09:13:36.448418+07:00",
+      "has_stream": true,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "24e7b55cb8a1": {
       "url": "https://laservision.io/truc-tiep/portland-timbers-vs-fc-dallas-vao-luc-0930-23-07-2026/?blv=298",
-      "match_name": "Trực tiếp trận đấu Portland Timbers vs FC Dallas",
+      "match_name": "PORTLAND TIMBERS vs FC DALLAS",
       "kickoff_iso": "2026-07-23T09:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-07-23T08:32:45.565762+07:00",
-      "next_scan_at": "2026-07-23T08:52:45.565762+07:00",
-      "has_stream": false,
+      "minutes_to_kickoff": 27,
+      "last_scan_at": "2026-07-23T09:03:36.448418+07:00",
+      "next_scan_at": "2026-07-23T09:13:36.448418+07:00",
+      "has_stream": true,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1eac84b9fd20": {
       "url": "https://laservision.io/truc-tiep/los-angeles-fc-vs-real-salt-lake-vao-luc-0930-23-07-2026/?blv=218",
-      "match_name": "Trực tiếp trận đấu Los Angeles FC vs Real Salt Lake",
+      "match_name": "LOS ANGELES FC vs REAL SALT LAKE",
       "kickoff_iso": "2026-07-23T09:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-07-23T08:32:45.565762+07:00",
-      "next_scan_at": "2026-07-23T08:52:45.565762+07:00",
-      "has_stream": false,
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-23T09:03:36.448418+07:00",
+      "next_scan_at": "2026-07-23T09:13:36.448418+07:00",
+      "has_stream": true,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "01ebaa030130": {
       "url": "https://laservision.io/truc-tiep/san-jose-earthquakes-vs-orlando-city-vao-luc-0930-23-07-2026/?blv=269",
-      "match_name": "Trực tiếp trận đấu San Jose Earthquakes vs Orlando City",
+      "match_name": "SAN JOSE EARTHQUAKES vs ORLANDO CITY",
       "kickoff_iso": "2026-07-23T09:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-07-23T08:32:45.565762+07:00",
-      "next_scan_at": "2026-07-23T08:52:45.565762+07:00",
-      "has_stream": false,
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-23T09:03:36.448418+07:00",
+      "next_scan_at": "2026-07-23T09:13:36.448418+07:00",
+      "has_stream": true,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "8c9ef622137c": {
       "url": "https://laservision.io/truc-tiep/new-england-revolution-vs-toronto-fc-vao-luc-0640-23-07-2026/?blv=320",
@@ -523,29 +519,49 @@
       "url": "https://laservision.io/truc-tiep/nashville-sc-vs-cf-montreal-vao-luc-0740-23-07-2026/?blv=269",
       "match_name": "NASHVILLE SC vs CF MONTREAL",
       "kickoff_iso": "2026-07-23T07:40:00+07:00",
-      "minutes_to_kickoff": -51,
-      "last_scan_at": "2026-07-23T08:32:45.565762+07:00",
-      "next_scan_at": "2026-07-23T08:37:45.565762+07:00",
+      "minutes_to_kickoff": -81,
+      "last_scan_at": "2026-07-23T09:03:36.448418+07:00",
+      "next_scan_at": "2026-07-23T09:08:36.448418+07:00",
       "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-      ],
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "2c60f67b93bc": {
       "url": "https://laservision.io/truc-tiep/sporting-kansas-city-vs-minnesota-united-fc-vao-luc-0740-23-07-2026/?blv=374",
       "match_name": "SPORTING KANSAS CITY vs MINNESOTA UNITED FC",
       "kickoff_iso": "2026-07-23T07:40:00+07:00",
-      "minutes_to_kickoff": -51,
-      "last_scan_at": "2026-07-23T08:32:45.565762+07:00",
-      "next_scan_at": "2026-07-23T08:37:45.565762+07:00",
+      "minutes_to_kickoff": -81,
+      "last_scan_at": "2026-07-23T09:03:36.448418+07:00",
+      "next_scan_at": "2026-07-23T09:08:36.448418+07:00",
       "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-      ],
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "36d0d1440a8f": {
+      "url": "https://laservision.io/truc-tiep/colorado-rapids-vs-san-diego-fc-vao-luc-0905-23-07-2026/?blv=253",
+      "match_name": "COLORADO RAPIDS vs SAN DIEGO FC",
+      "kickoff_iso": "2026-07-23T09:05:00+07:00",
+      "minutes_to_kickoff": 4,
+      "last_scan_at": "2026-07-23T09:03:36.448418+07:00",
+      "next_scan_at": "2026-07-23T09:08:36.448418+07:00",
+      "has_stream": true,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "c211d2ac5d63": {
+      "url": "https://laservision.io/truc-tiep/zhejiang-hangzhou-b-w-vs-zhanjiang-yuezhan-w-vao-luc-1300-23-07-2026/?blv=253",
+      "match_name": "Trực tiếp trận đấu Zhejiang Hangzhou B (W) vs Zhanjiang Yuezhan (W)",
+      "kickoff_iso": "2026-07-23T13:00:00+07:00",
+      "minutes_to_kickoff": 239,
+      "last_scan_at": "2026-07-23T09:03:36.448418+07:00",
+      "next_scan_at": "2026-07-23T09:48:36.448418+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
