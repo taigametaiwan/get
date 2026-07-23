@@ -1,4 +1,4 @@
-name: Quet 6 nguon v4.4.27 - Fast registry pilot Xoi Lac ColaTV
+name: Quet 6 nguon v4.4.28 - Fast registry all sources
 
 on:
   workflow_dispatch:
@@ -40,7 +40,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python -m py_compile main.py merger.py sources/hybrid_support.py sources/chuoichien.py sources/luongson.py sources/gavang.py sources/xoilac.py sources/colatv.py sources/phaohoa.py
+          python -m py_compile main.py merger.py sources/hybrid_support.py sources/fast_registry_support.py sources/chuoichien.py sources/luongson.py sources/gavang.py sources/xoilac.py sources/colatv.py sources/phaohoa.py
           if [[ ! -f RELEASE_MANIFEST.json ]]; then
             echo "::warning::Khong co RELEASE_MANIFEST.json; bo qua tai lieu manifest va tiep tuc kiem tra truc tiep source."
           fi
@@ -86,6 +86,9 @@ jobs:
           SOCOLIVE_UPCOMING_NEAR_WAIT_SECONDS: "12"
           SOCOLIVE_KEEP_PREVIOUS_UNVERIFIED: "0"
           SOCOLIVE_ALLOW_UNVERIFIED_BROWSER_FALLBACK: "0"
+          SOCOLIVE_FAST_REGISTRY_ENABLED: "1"
+          SOCOLIVE_CHANNEL_REGISTRY_PATH: "chuoichien_channel_registry.json"
+          SOCOLIVE_FAST_REGISTRY_FUTURE_MINUTES: "15"
 
           HYGENIE_HOME_URLS: "https://catbee.io/,https://hygenie.io/"
           HYGENIE_MATCH_CONCURRENCY: "3"
@@ -111,6 +114,9 @@ jobs:
           HYGENIE_UPCOMING_FAR_THRESHOLD_MINUTES: "90"
           HYGENIE_UPCOMING_FAR_WAIT_SECONDS: "7"
           HYGENIE_UPCOMING_NEAR_WAIT_SECONDS: "12"
+          HYGENIE_FAST_REGISTRY_ENABLED: "1"
+          HYGENIE_CHANNEL_REGISTRY_PATH: "luongson_channel_registry.json"
+          HYGENIE_FAST_REGISTRY_FUTURE_MINUTES: "15"
 
           GAVANG_HOME_URLS: "https://smorf.io/"
           GAVANG_SOURCE_LOGO_URL: "https://smorf.io/favicon.ico"
@@ -140,6 +146,8 @@ jobs:
           GAVANG_UPCOMING_NEAR_WAIT_SECONDS: "10"
           GAVANG_KEEP_PREVIOUS_UNVERIFIED: "0"
           GAVANG_ALLOW_UNVERIFIED_BROWSER_FALLBACK: "0"
+          GAVANG_FAST_REGISTRY_ENABLED: "1"
+          GAVANG_STREAM_REGISTRY_PATH: "gavang_stream_registry.json"
 
           XOILAC_HOME_URLS: "https://xoilacz.io/,https://dedaluswine.com/,https://malaysiandigest.com/,https://altenergystocks.com/"
           XOILAC_SOURCE_WAIT_SECONDS: "12"
@@ -210,6 +218,9 @@ jobs:
           PHAOHOA_UPCOMING_NEAR_WAIT_SECONDS: "12"
           PHAOHOA_KEEP_PREVIOUS_UNVERIFIED: "0"
           PHAOHOA_ALLOW_UNVERIFIED_BROWSER_FALLBACK: "0"
+          PHAOHOA_FAST_REGISTRY_ENABLED: "1"
+          PHAOHOA_CHANNEL_REGISTRY_PATH: "phaohoa_channel_registry.json"
+          PHAOHOA_FAST_REGISTRY_FUTURE_MINUTES: "15"
           PHAOHOA_LIST_ALL_DISCOVERED_MATCHES: "1"
         run: |
           set -o pipefail
@@ -424,6 +435,10 @@ jobs:
             phaohoa_state.json
             xoilac_channel_registry.json
             colatv_channel_registry.json
+            chuoichien_channel_registry.json
+            luongson_channel_registry.json
+            gavang_stream_registry.json
+            phaohoa_channel_registry.json
           if-no-files-found: ignore
           retention-days: 3
 
@@ -463,11 +478,15 @@ jobs:
           [[ -f phaohoa_state.json ]] && files_to_add+=(phaohoa_state.json)
           [[ -f xoilac_channel_registry.json ]] && files_to_add+=(xoilac_channel_registry.json)
           [[ -f colatv_channel_registry.json ]] && files_to_add+=(colatv_channel_registry.json)
+          [[ -f chuoichien_channel_registry.json ]] && files_to_add+=(chuoichien_channel_registry.json)
+          [[ -f luongson_channel_registry.json ]] && files_to_add+=(luongson_channel_registry.json)
+          [[ -f gavang_stream_registry.json ]] && files_to_add+=(gavang_stream_registry.json)
+          [[ -f phaohoa_channel_registry.json ]] && files_to_add+=(phaohoa_channel_registry.json)
           git add -- "${files_to_add[@]}"
           if git diff --cached --quiet; then
             echo "Playlist khong thay doi; khong can commit."
             exit 0
           fi
 
-          git commit -m "Update live streams v4.4.27 (fast registry pilot for Xoi Lac and ColaTV)"
+          git commit -m "Update live streams v4.4.28 (fast registry all sources)"
           git push origin "HEAD:${GITHUB_REF_NAME}"
