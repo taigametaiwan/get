@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-23T23:41:12.701819+07:00",
+  "updated_at": "2026-07-24T01:06:38.711673+07:00",
   "matches": {
     "1516068": {
       "url": "https://live04.chuoichientv.me/live/1516068/mashal-vs-nasaf",
@@ -294,27 +294,31 @@
     },
     "1556544": {
       "url": "https://live04.chuoichientv.me/live/1556544/hammarby-ff-vs-anderlecht",
-      "match_name": "hammarby ff vs anderlecht",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-23T23:41:12.701665+07:00",
-      "next_scan_at": "2026-07-23T23:51:12.701665+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Hammarby FF vs Anderlecht - UEFA Europa League",
+      "kickoff_iso": "2026-07-24T00:00:00+07:00",
+      "minutes_to_kickoff": -66,
+      "last_scan_at": "2026-07-24T01:06:38.711548+07:00",
+      "next_scan_at": "2026-07-24T01:11:38.711548+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1593522": {
       "url": "https://live04.chuoichientv.me/live/1593522/sheriff-tiraspol-vs-maccabi-tel-aviv",
-      "match_name": "sheriff tiraspol vs maccabi tel aviv",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-23T23:41:12.701665+07:00",
-      "next_scan_at": "2026-07-23T23:51:12.701665+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Sheriff Tiraspol vs Maccabi Tel Aviv - UEFA Europa League",
+      "kickoff_iso": "2026-07-24T00:00:00+07:00",
+      "minutes_to_kickoff": -66,
+      "last_scan_at": "2026-07-24T01:06:38.711548+07:00",
+      "next_scan_at": "2026-07-24T01:11:38.711548+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoitieu.flv"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1534800": {
       "url": "https://live04.chuoichientv.me/live/1534800/akademiya-ontustik-vs-astana-ii",
@@ -332,35 +336,39 @@
     },
     "1556543": {
       "url": "https://live04.chuoichientv.me/live/1556543/besiktas-vs-fc-midtjylland",
-      "match_name": "besiktas vs fc midtjylland",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-23T23:41:12.701665+07:00",
-      "next_scan_at": "2026-07-23T23:51:12.701665+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Besiktas vs FC Midtjylland - UEFA Europa League",
+      "kickoff_iso": "2026-07-24T01:00:00+07:00",
+      "minutes_to_kickoff": -6,
+      "last_scan_at": "2026-07-24T01:06:38.711548+07:00",
+      "next_scan_at": "2026-07-24T01:11:38.711548+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1556545": {
       "url": "https://live04.chuoichientv.me/live/1556545/fc-st-gallen-vs-benfica",
-      "match_name": "fc st gallen vs benfica",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-23T23:41:12.701665+07:00",
-      "next_scan_at": "2026-07-23T23:51:12.701665+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "FC ST. Gallen vs Benfica - UEFA Europa League",
+      "kickoff_iso": "2026-07-24T01:00:00+07:00",
+      "minutes_to_kickoff": -6,
+      "last_scan_at": "2026-07-24T01:06:38.711548+07:00",
+      "next_scan_at": "2026-07-24T01:11:38.711548+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1547774": {
       "url": "https://live04.chuoichientv.me/live/1547774/bolvar-vs-gremio",
       "match_name": "bolvar vs gremio",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-23T23:41:12.701665+07:00",
-      "next_scan_at": "2026-07-23T23:51:12.701665+07:00",
+      "last_scan_at": "2026-07-24T01:06:38.711548+07:00",
+      "next_scan_at": "2026-07-24T01:16:38.711548+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -371,8 +379,8 @@
       "match_name": "boca juniors vs ohiggins",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-23T23:41:12.701665+07:00",
-      "next_scan_at": "2026-07-23T23:51:12.701665+07:00",
+      "last_scan_at": "2026-07-24T01:06:38.711548+07:00",
+      "next_scan_at": "2026-07-24T01:16:38.711548+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -383,8 +391,8 @@
       "match_name": "santa fe vs caracas fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-23T23:41:12.701665+07:00",
-      "next_scan_at": "2026-07-23T23:51:12.701665+07:00",
+      "last_scan_at": "2026-07-24T01:06:38.711548+07:00",
+      "next_scan_at": "2026-07-24T01:16:38.711548+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

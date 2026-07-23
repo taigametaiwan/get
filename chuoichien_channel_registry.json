@@ -2,14 +2,14 @@
   "schema_version": 1,
   "commentators": {
     "TROC TRU": {
-      "slug": "troctruhd",
-      "source": "seed-from-user-provided-reference-m3u",
-      "updated_at": "2026-07-23T00:00:00+07:00"
+      "slug": "troctru",
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T01:06:38.710386+07:00"
     },
     "CHUOI CHAO": {
-      "slug": "chuoichaohd",
-      "source": "seed-from-user-provided-reference-m3u",
-      "updated_at": "2026-07-23T00:00:00+07:00"
+      "slug": "chuoichao",
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T01:06:04.116380+07:00"
     },
     "CHUOI TO": {
       "slug": "chuoitohd",
@@ -17,9 +17,9 @@
       "updated_at": "2026-07-23T00:00:00+07:00"
     },
     "A NGAO": {
-      "slug": "angaohd",
-      "source": "seed-from-user-provided-reference-m3u",
-      "updated_at": "2026-07-23T00:00:00+07:00"
+      "slug": "angao",
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T01:06:06.740758+07:00"
     },
     "CHUOI TIEU": {
       "slug": "chuoitieuhd",
@@ -30,6 +30,11 @@
       "slug": "chuoibohd",
       "source": "seed-from-reference-pattern",
       "updated_at": "2026-07-23T00:00:00+07:00"
+    },
+    "TRUC TIEP CHUOI TIEU TRAN DAU SHERIFF T": {
+      "slug": "chuoitieu",
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T01:06:06.947330+07:00"
     }
   }
 }

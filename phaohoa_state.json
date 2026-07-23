@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-23T23:46:36.513450+07:00",
+  "updated_at": "2026-07-24T01:10:50.960755+07:00",
   "matches": {
     "b749f7505746": {
       "url": "https://phaohoa1.live/truc-tiep/my-w-vs-trung-quoc-w",
@@ -103,9 +103,9 @@
       "url": "https://phaohoa1.live/truc-tiep/hammarby-vs-anderlecht-24-07-2026-770776",
       "match_name": "Hammarby vs Anderlecht",
       "kickoff_iso": "2026-07-24T00:00:00+07:00",
-      "minutes_to_kickoff": 14,
-      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
-      "next_scan_at": "2026-07-23T23:51:36.513071+07:00",
+      "minutes_to_kickoff": -70,
+      "last_scan_at": "2026-07-24T01:10:50.960511+07:00",
+      "next_scan_at": "2026-07-24T01:15:50.960511+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -117,48 +117,56 @@
       "url": "https://phaohoa1.live/truc-tiep/dyn-kyiv-vs-paok-24-07-2026-778921",
       "match_name": "Dyn. Kyiv vs PAOK",
       "kickoff_iso": "2026-07-24T00:00:00+07:00",
-      "minutes_to_kickoff": 14,
-      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
-      "next_scan_at": "2026-07-23T23:51:36.513071+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -70,
+      "last_scan_at": "2026-07-24T01:10:50.960511+07:00",
+      "next_scan_at": "2026-07-24T01:15:50.960511+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
+      ],
       "scan_decision": "browser-fallback"
     },
     "770775": {
       "url": "https://phaohoa1.live/truc-tiep/besiktas-vs-midtjylland-24-07-2026-770775",
       "match_name": "Besiktas vs Midtjylland",
       "kickoff_iso": "2026-07-24T01:00:00+07:00",
-      "minutes_to_kickoff": 74,
-      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
-      "next_scan_at": "2026-07-24T00:06:36.513071+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -10,
+      "last_scan_at": "2026-07-24T01:10:50.960511+07:00",
+      "next_scan_at": "2026-07-24T01:15:50.960511+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     },
     "778935": {
       "url": "https://phaohoa1.live/truc-tiep/vojvodina-vs-ajax-24-07-2026-778935",
-      "match_name": "24-07 UEFA Conference League Vojvodina VS Ajax Pháo Thủ",
+      "match_name": "Vojvodina vs Ajax",
       "kickoff_iso": "2026-07-24T01:00:00+07:00",
-      "minutes_to_kickoff": 74,
-      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
-      "next_scan_at": "2026-07-24T00:06:36.513071+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -10,
+      "last_scan_at": "2026-07-24T01:10:50.960511+07:00",
+      "next_scan_at": "2026-07-24T01:15:50.960511+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     },
     "770777": {
       "url": "https://phaohoa1.live/truc-tiep/st-gallen-vs-benfica-24-07-2026-770777",
       "match_name": "St. Gallen vs Benfica",
       "kickoff_iso": "2026-07-24T01:00:00+07:00",
-      "minutes_to_kickoff": 74,
-      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
-      "next_scan_at": "2026-07-24T00:06:36.513071+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -10,
+      "last_scan_at": "2026-07-24T01:10:50.960511+07:00",
+      "next_scan_at": "2026-07-24T01:15:50.960511+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
