@@ -1189,6 +1189,16 @@ def _parse_previous_playlist(root: Path, now: datetime) -> list[M3UBlock]:
         block.kind = stream_kind(block.canonical_url)
         block.quality = normalize_quality(meta.get("quality"), block.display_name, block.canonical_url)
         block.kickoff = _parse_datetime_value(meta.get("kickoff_iso"))
+        # Một số all_live_debug.json cũ không có kickoff_iso dù #EXTINF vẫn có
+        # [HH:MM DD/MM]. Nếu bỏ qua giờ này, last-known-good bị coi là "không rõ giờ"
+        # và có thể được khôi phục dù trận đã ra ngoài cửa sổ -past/+future.
+        if block.kickoff is None:
+            fallback = _playlist_fallback_metadata(block, now, "previous-playlist-kickoff-fallback")
+            fallback_kickoff = fallback.get("_kickoff")
+            if isinstance(fallback_kickoff, datetime):
+                block.kickoff = fallback_kickoff
+                block.metadata["kickoff_iso"] = fallback_kickoff.isoformat()
+                block.metadata["last_good_kickoff_fallback"] = True
         block.match_key = clean_text(meta.get("match_key")) or f"{normalize_match_name(block.display_name)}|{extract_blv(meta, block.display_name)}"
         block.score = PLAYABILITY_RANK["verified"] * 100 + QUALITY_RANK.get(block.quality, 1) * 10 - 25
         output.append(block)

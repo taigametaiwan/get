@@ -681,6 +681,38 @@ class MergerTests(unittest.TestCase):
         self.assertFalse(report["channels"][0]["recovered_last_good"])
         self.assertTrue(any(row.get("reason") == "fresh-source-replaces-last-good" for row in report["last_good_audit"]))
 
+    def test_previous_stream_without_kickoff_iso_uses_extinf_time_and_is_not_recovered_outside_window(self) -> None:
+        url = "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
+        (self.root / "all_live.m3u").write_text(
+            "#EXTM3U\n"
+            '#EXTINF:-1 tvg-id="old-cc" tvg-name="[22:00 23/07] Alashkert vs CFR Cluj [BLV Chuối Chao] [FHD FLV]" '
+            'group-title="Chuối Chiên",[22:00 23/07] Alashkert vs CFR Cluj [BLV Chuối Chao] [FHD FLV]\n'
+            f"{url}\n",
+            encoding="utf-8",
+        )
+        # Mô phỏng artifact thực tế gây lỗi: debug có stream verified nhưng thiếu kickoff_iso.
+        (self.root / "all_live_debug.json").write_text(
+            json.dumps({
+                "generated_at": datetime(2026, 7, 24, 0, 20, tzinfo=TZ).isoformat(),
+                "channels": [{
+                    "source": "chuoichien",
+                    "url": url,
+                    "playability": "verified",
+                    "quality": "FHD",
+                    "match_key": "alashkert vs cfr cluj|chuoi chao",
+                }],
+            }, ensure_ascii=False),
+            encoding="utf-8",
+        )
+        now = datetime(2026, 7, 24, 0, 53, 40, tzinfo=TZ)  # -173.67 phút
+        with patch.object(merger, "_probe_previous_block", return_value=(True, "HTTP 200; flv=True")) as probe:
+            report = merge_sources(self.root, [], now=now, preserve_on_empty=False)
+        probe.assert_not_called()
+        self.assertEqual(report["selected_count"], 0)
+        self.assertEqual(report["last_good_recovered_count"], 0)
+        self.assertTrue(any(row.get("reason") == "outside-source-window" for row in report["last_good_audit"]))
+        self.assertEqual((self.root / "all_live.m3u").read_text(encoding="utf-8"), "#EXTM3U\n")
+
     def test_previous_verified_stream_is_recovered_only_after_successful_reprobe(self) -> None:
         url = "https://cdn.example/live/a.flv"
         kickoff = self.now - timedelta(minutes=15)
