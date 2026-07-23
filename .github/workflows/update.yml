@@ -2,6 +2,8 @@ name: Quet 6 nguon v4.4.18 - Phao Hoa hien du lich
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write
