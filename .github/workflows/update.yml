@@ -2,9 +2,6 @@ name: Quet 6 nguon v4.4.29 - Bao toan stream verified tuoi
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "*/30 * * * *"
-
 permissions:
   contents: write
 
