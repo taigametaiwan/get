@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-23T16:01:34.864894+07:00",
+  "updated_at": "2026-07-23T16:31:41.257778+07:00",
   "matches": {
     "1516068": {
       "url": "https://live04.chuoichientv.me/live/1516068/mashal-vs-nasaf",
@@ -189,9 +189,9 @@
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
       "match_name": "Việt Nam vs Thailand - SEA V CUP 2026",
       "kickoff_iso": "2026-07-23T15:30:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-07-23T16:01:34.864796+07:00",
-      "next_scan_at": "2026-07-23T16:06:34.864796+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-07-23T16:31:41.257661+07:00",
+      "next_scan_at": "2026-07-23T16:36:41.257661+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -202,15 +202,17 @@
     },
     "1598631": {
       "url": "https://live04.chuoichientv.me/live/1598631/tensung-vs-paro",
-      "match_name": "tensung vs paro",
+      "match_name": "Tensung vs Paro - Premier League",
       "kickoff_iso": "2026-07-23T17:00:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-07-23T16:01:34.864796+07:00",
-      "next_scan_at": "2026-07-23T16:21:34.864796+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-23T16:31:41.257661+07:00",
+      "next_scan_at": "2026-07-23T16:36:41.257661+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "209782": {
       "url": "https://live04.chuoichientv.me/live/209782/usa-w-vs-china-w",
