@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-23T18:31:39.629640+07:00",
+  "updated_at": "2026-07-23T19:01:58.086100+07:00",
   "matches": {
     "1516068": {
       "url": "https://live04.chuoichientv.me/live/1516068/mashal-vs-nasaf",
@@ -215,14 +215,13 @@
       "url": "https://live04.chuoichientv.me/live/209782/usa-w-vs-china-w",
       "match_name": "USA W vs China W - Nations League Women",
       "kickoff_iso": "2026-07-23T18:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-07-23T18:31:39.629487+07:00",
-      "next_scan_at": "2026-07-23T18:36:39.629487+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-23T19:01:58.085934+07:00",
+      "next_scan_at": "2026-07-23T19:06:58.085934+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8"
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -241,58 +240,58 @@
     "1591944": {
       "url": "https://live04.chuoichientv.me/live/1591944/malisheva-vs-hibernian",
       "match_name": "malisheva vs hibernian",
-      "kickoff_iso": "2026-07-23T21:30:00+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-23T19:01:58.085934+07:00",
+      "next_scan_at": "2026-07-23T19:11:58.085934+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1516069": {
+      "url": "https://live04.chuoichientv.me/live/1516069/navbahor-vs-qizilqum",
+      "match_name": "navbahor vs qizilqum",
+      "kickoff_iso": "2026-07-23T22:00:00+07:00",
       "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-07-23T18:31:39.629487+07:00",
-      "next_scan_at": "2026-07-23T19:16:39.629487+07:00",
+      "last_scan_at": "2026-07-23T19:01:58.085934+07:00",
+      "next_scan_at": "2026-07-23T19:46:58.085934+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
     },
-    "1516069": {
-      "url": "https://live04.chuoichientv.me/live/1516069/navbahor-vs-qizilqum",
-      "match_name": "navbahor vs qizilqum",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-23T18:31:39.629487+07:00",
-      "next_scan_at": "2026-07-23T18:41:39.629487+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
-    },
     "1593475": {
       "url": "https://live04.chuoichientv.me/live/1593475/alashkert-vs-cfr-cluj",
       "match_name": "alashkert vs cfr cluj",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-23T18:31:39.629487+07:00",
-      "next_scan_at": "2026-07-23T18:41:39.629487+07:00",
+      "kickoff_iso": "2026-07-23T22:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-07-23T19:01:58.085934+07:00",
+      "next_scan_at": "2026-07-23T19:46:58.085934+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1593521": {
       "url": "https://live04.chuoichientv.me/live/1593521/qarabag-vs-cska-sofia",
       "match_name": "qarabag vs cska sofia",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-23T18:31:39.629487+07:00",
-      "next_scan_at": "2026-07-23T18:41:39.629487+07:00",
+      "kickoff_iso": "2026-07-23T23:00:00+07:00",
+      "minutes_to_kickoff": 239,
+      "last_scan_at": "2026-07-23T19:01:58.085934+07:00",
+      "next_scan_at": "2026-07-23T19:46:58.085934+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1556544": {
       "url": "https://live04.chuoichientv.me/live/1556544/hammarby-ff-vs-anderlecht",
       "match_name": "hammarby ff vs anderlecht",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-23T18:31:39.629487+07:00",
-      "next_scan_at": "2026-07-23T18:41:39.629487+07:00",
+      "last_scan_at": "2026-07-23T19:01:58.085934+07:00",
+      "next_scan_at": "2026-07-23T19:11:58.085934+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -303,8 +302,34 @@
       "match_name": "sheriff tiraspol vs maccabi tel aviv",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-23T18:31:39.629487+07:00",
-      "next_scan_at": "2026-07-23T18:41:39.629487+07:00",
+      "last_scan_at": "2026-07-23T19:01:58.085934+07:00",
+      "next_scan_at": "2026-07-23T19:11:58.085934+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1534800": {
+      "url": "https://live04.chuoichientv.me/live/1534800/akademiya-ontustik-vs-astana-ii",
+      "match_name": "Akademiya Ontustik vs Astana II - Hạng Nhất Kazakhstan",
+      "kickoff_iso": "2026-07-23T19:00:00+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-07-23T19:01:58.085934+07:00",
+      "next_scan_at": "2026-07-23T19:06:58.085934+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoigia.flv"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1556543": {
+      "url": "https://live04.chuoichientv.me/live/1556543/besiktas-vs-fc-midtjylland",
+      "match_name": "besiktas vs fc midtjylland",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-23T19:01:58.085934+07:00",
+      "next_scan_at": "2026-07-23T19:11:58.085934+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
