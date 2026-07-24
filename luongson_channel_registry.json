@@ -27,11 +27,10 @@
     },
     "TAO THAO": {
       "urls": [
-        "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9",
-        "https://flv.cdnfaster-a.live/live/TAOTHAO.flv?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+        "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
       ],
-      "source": "seed-from-user-provided-reference-m3u",
-      "updated_at": "2026-07-23T00:00:00+07:00"
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T16:33:31.137576+07:00"
     },
     "VO TONG": {
       "urls": [
@@ -53,6 +52,55 @@
       ],
       "source": "verified-stream",
       "updated_at": "2026-07-24T15:35:42.037883+07:00"
+    },
+    "LIO": {
+      "urls": [
+        "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+      ],
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T16:31:45.197036+07:00"
+    },
+    "TON LAP": {
+      "urls": [
+        "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+      ],
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T16:31:46.152285+07:00"
+    },
+    "LY QUY": {
+      "urls": [
+        "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+      ],
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T16:31:47.917589+07:00"
+    },
+    "LU BO": {
+      "urls": [
+        "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+      ],
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T16:32:49.111436+07:00"
+    },
+    "TAY MON KHANH": {
+      "urls": [
+        "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+      ],
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T16:32:59.337461+07:00"
+    },
+    "PELE": {
+      "urls": [
+        "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+      ],
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T16:33:01.324746+07:00"
+    },
+    "MA SIEU": {
+      "urls": [
+        "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+      ],
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T16:33:22.112066+07:00"
     }
   }
 }
