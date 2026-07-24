@@ -5,8 +5,8 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PACKAGE_VERSION = "4.4.29"
-BUILD_TAG = "4.4.29-FRESH-VERIFIED-PRESERVATION"
+PACKAGE_VERSION = "4.4.29-HOTFIX2"
+BUILD_TAG = "4.4.29-HOTFIX2-LASTGOOD-AUDIT"
 
 
 class ReleaseConsistencyTests(unittest.TestCase):
@@ -30,9 +30,11 @@ class ReleaseConsistencyTests(unittest.TestCase):
 
     def test_workflow_has_current_identity_and_non_cancelling_concurrency(self) -> None:
         workflow = self.read(".github/workflows/update.yml")
-        self.assertTrue(workflow.startswith("name: Quet 6 nguon v4.4.29"))
-        self.assertIn('git commit -m "Update live streams v4.4.29', workflow)
-        self.assertIn('cron: "*/30 * * * *"', workflow)
+        self.assertTrue(workflow.startswith("name: Quet 6 nguon v4.4.29 HOTFIX2"))
+        self.assertIn('git commit -m "Update live streams v4.4.29 HOTFIX2', workflow)
+        self.assertNotIn('cron:', workflow)
+        self.assertNotIn('schedule:', workflow)
+        self.assertIn('workflow_dispatch:', workflow)
         self.assertIn("cancel-in-progress: false", workflow)
         self.assertNotIn("PHAOHOA_PLACEHOLDER_USE_MATCH_PAGE", workflow)
         self.assertNotIn("XOILAC_MAX_MATCHES", workflow)
@@ -85,6 +87,9 @@ class ReleaseConsistencyTests(unittest.TestCase):
         self.assertIn('fresh_preservation_ok', merger)
         self.assertIn('fresh_preservation_ok', workflow)
         self.assertIn('metadata_link_fallback', merger)
+        self.assertIn('fresh-unverified-streams-explicitly-decided', merger)
+        self.assertIn('fresh-stream-without-final-decision', merger)
+        self.assertIn('filtered_before_probe', merger)
 
     def test_phaohoa_uses_only_safe_loopback_placeholder(self) -> None:
         source = self.read("sources/phaohoa.py")

@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 from merger import SourceFiles, cleanup_intermediate_playlists, merge_sources
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "4.4.29-FRESH-VERIFIED-PRESERVATION"
+VERSION = "4.4.29-HOTFIX2-LASTGOOD-AUDIT"
 
 
 @dataclass(slots=True)

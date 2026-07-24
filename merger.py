@@ -16,7 +16,7 @@ from typing import Any, Iterable
 from urllib.parse import parse_qs, unquote, urljoin, urlparse
 from zoneinfo import ZoneInfo
 
-VERSION = "4.4.29-FRESH-VERIFIED-PRESERVATION"
+VERSION = "4.4.29-HOTFIX2-LASTGOOD-AUDIT"
 TZ_VIETNAM = ZoneInfo("Asia/Ho_Chi_Minh")
 ALLOWED_GROUPS = {"Bóng đá", "Bóng rổ", "Bóng chuyền", "Tennis", "Esports", "Khác"}
 SOURCE_ORDER = {"chuoichien": 0, "luongson": 1, "gavang": 2, "xoilac": 3, "colatv": 4, "phaohoa": 5}
@@ -769,12 +769,36 @@ def _iter_debug_streams(row: dict[str, Any]) -> Iterable[dict[str, Any]]:
         yield stream
 
 
+def _display_kickoff_parts(display_name: str) -> tuple[str, str] | None:
+    """Đọc giờ/ngày ở đầu #EXTINF theo cả hai dạng phổ biến.
+
+    Hỗ trợ ``[HH:MM DD/MM[/YYYY]]`` và ``[DD/MM[/YYYY] HH:MM]``.
+    Không suy diễn từ phần khác của tên kênh để tránh lấy nhầm tỷ số hoặc năm giải.
+    """
+    display = clean_text(display_name)
+    patterns = (
+        re.compile(
+            r"^\[(?P<time>(?:[01]?\d|2[0-3]):[0-5]\d)\s+"
+            r"(?P<date>\d{1,2}[/-]\d{1,2}(?:[/-]\d{2,4})?)\]"
+        ),
+        re.compile(
+            r"^\[(?P<date>\d{1,2}[/-]\d{1,2}(?:[/-]\d{2,4})?)\s+"
+            r"(?P<time>(?:[01]?\d|2[0-3]):[0-5]\d)\]"
+        ),
+    )
+    for pattern in patterns:
+        match = pattern.match(display)
+        if match:
+            return match.group("time"), match.group("date")
+    return None
+
+
 def _playlist_fallback_metadata(block: M3UBlock, now: datetime, reason: str) -> dict[str, Any]:
-    """Khôi phục metadata tối thiểu từ chính block M3U tươi đã do scanner xuất."""
+    """Khôi phục metadata tối thiểu từ chính block M3U đã do scanner xuất."""
     display = clean_text(block.display_name)
     blv_match = re.search(r"\[BLV\s+([^\]]+)\]", display, flags=re.I)
     blv = clean_text(blv_match.group(1)) if blv_match else ""
-    kickoff_match = re.match(r"^\[(?P<time>[0-2]?\d:[0-5]\d)\s+(?P<date>\d{1,2}[/-]\d{1,2}(?:[/-]\d{2,4})?)\]", display)
+    kickoff_parts = _display_kickoff_parts(display)
     row: dict[str, Any] = {
         "match_name": re.sub(r"^(?:\[[^\]]+\]\s*)+", "", display),
         "blv": blv,
@@ -787,9 +811,8 @@ def _playlist_fallback_metadata(block: M3UBlock, now: datetime, reason: str) -> 
     }
     row["match_name"] = re.sub(r"\s*\[BLV\s+[^\]]+\]", "", row["match_name"], flags=re.I)
     row["match_name"] = re.sub(r"\s*\[(?:4K|FHD|HD|SD)?\s*(?:M3U8|FLV)\]\s*$", "", row["match_name"], flags=re.I)
-    if kickoff_match:
-        row["time"] = kickoff_match.group("time")
-        row["date"] = kickoff_match.group("date")
+    if kickoff_parts:
+        row["time"], row["date"] = kickoff_parts
     kickoff = resolve_kickoff(row, now)
     if kickoff:
         row["_kickoff"] = kickoff
@@ -889,6 +912,14 @@ def enrich_blocks(source: SourceFiles, blocks: list[M3UBlock], now: datetime) ->
 
 
 def source_window_delta(block: M3UBlock, now: datetime) -> float | None:
+    """Tính khoảng cách tới giờ đá tại thời điểm merge.
+
+    ``minutes_to_kickoff`` chỉ là ảnh chụp tương đối của lần quét trước. Với
+    last-known-good, giá trị này có thể cũ hàng giờ nên giờ tuyệt đối ``kickoff``
+    luôn phải được ưu tiên và tính lại theo ``now``.
+    """
+    if block.kickoff:
+        return (block.kickoff - now).total_seconds() / 60
     raw_delta = block.metadata.get("minutes_to_kickoff")
     if isinstance(raw_delta, (int, float)):
         return float(raw_delta)
@@ -897,8 +928,6 @@ def source_window_delta(block: M3UBlock, now: datetime) -> float | None:
             return float(raw_delta)
         except ValueError:
             pass
-    if block.kickoff:
-        return (block.kickoff - now).total_seconds() / 60
     return None
 
 def block_within_source_window(block: M3UBlock, now: datetime, *, require_known_time: bool = False) -> bool:
@@ -1185,6 +1214,11 @@ def _parse_previous_playlist(root: Path, now: datetime) -> list[M3UBlock]:
         block.source_label = SOURCE_KEY_TO_LABEL[source_key]
         block.metadata = meta
         block.metadata["prior_generated_at"] = generated_at.isoformat() if generated_at else ""
+        # Metadata tương đối của artifact cũ không còn đúng ở lượt hiện tại.
+        # Giữ bản sao phục vụ audit nhưng không cho nó tham gia quyết định cửa sổ.
+        for relative_key in ("minutes_to_kickoff", "timing", "started_recently"):
+            if relative_key in block.metadata:
+                block.metadata[f"prior_{relative_key}"] = block.metadata.pop(relative_key)
         block.playability = "verified"
         block.kind = stream_kind(block.canonical_url)
         block.quality = normalize_quality(meta.get("quality"), block.display_name, block.canonical_url)
@@ -1282,8 +1316,17 @@ def recover_previous_last_good(root: Path, now: datetime) -> tuple[list[M3UBlock
     audit: list[dict[str, Any]] = []
     for block in candidates:
         if block.kickoff:
+            current_delta = source_window_delta(block, now)
             if not block_within_source_window(block, now, require_known_time=True):
-                audit.append({"url": block.canonical_url, "kept": False, "reason": "outside-source-window"})
+                audit.append({
+                    "url": block.canonical_url,
+                    "kept": False,
+                    "reason": "outside-source-window",
+                    "source": block.source_key,
+                    "kickoff_iso": block.kickoff.isoformat(),
+                    "minutes_to_kickoff": round(current_delta, 2) if current_delta is not None else None,
+                    "filtered_before_probe": True,
+                })
                 continue
         else:
             generated = _parse_datetime_value(block.metadata.get("prior_generated_at"))
@@ -1426,14 +1469,16 @@ def merge_sources(
             "unresolved": 0,
             "integrity_ok": True,
         }))
-        if (
-            row.get("included")
-            and row.get("fresh")
-            and verified_only_enabled()
-            and int(row.get("fresh_verified_blocks") or 0) != int(row.get("fresh_stream_blocks") or 0)
-        ):
+        fresh_streams = int(row.get("fresh_stream_blocks") or 0)
+        fresh_verified = int(row.get("fresh_verified_blocks") or 0)
+        row["fresh_unverified_blocks"] = max(0, fresh_streams - fresh_verified)
+        # verified-only được phép loại stream pending/unverified nếu đã ghi rõ
+        # dropped-explicitly. Chỉ unresolved mới là mất kênh không giải thích được.
+        if int(row.get("unresolved") or 0) > 0:
             row["integrity_ok"] = False
-            row["integrity_reason"] = "fresh-playlist-has-unclassified-stream"
+            row["integrity_reason"] = "fresh-stream-without-final-decision"
+        elif row["fresh_unverified_blocks"] > 0:
+            row["integrity_warning"] = "fresh-unverified-streams-explicitly-decided"
     outputs = {
         "playlist": root / "all_live.m3u",
         "debug": root / "all_live_debug.json",

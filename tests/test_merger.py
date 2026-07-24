@@ -778,5 +778,104 @@ class MergerTests(unittest.TestCase):
 
 
 
+    def test_last_good_absolute_kickoff_overrides_stale_relative_minutes(self) -> None:
+        url = "https://live2.streambylivepulse.com/live/channel27.flv"
+        kickoff = datetime(2026, 7, 24, 0, 0, tzinfo=TZ)
+        now = datetime(2026, 7, 24, 7, 28, tzinfo=TZ)
+        (self.root / "all_live.m3u").write_text(
+            "#EXTM3U\n"
+            '#EXTINF:-1 group-title="Xôi Lạc",[00:00 24/07/2026] Universitatea Cluj vs Brann [BLV HD TAGE] [FLV]\n'
+            f"{url}\n",
+            encoding="utf-8",
+        )
+        (self.root / "all_live_debug.json").write_text(json.dumps({
+            "generated_at": datetime(2026, 7, 24, 0, 30, tzinfo=TZ).isoformat(),
+            "channels": [{
+                "source": "xoilac", "url": url, "playability": "verified",
+                "quality": "HD", "kickoff_iso": kickoff.isoformat(),
+                "minutes_to_kickoff": 60, "timing": "upcoming",
+            }],
+        }, ensure_ascii=False), encoding="utf-8")
+        with patch.object(merger, "_probe_previous_block", return_value=(True, "HTTP 200; flv=True")) as probe:
+            report = merge_sources(self.root, [], now=now, preserve_on_empty=False)
+        probe.assert_not_called()
+        self.assertEqual(report["last_good_recovered_count"], 0)
+        audit = next(row for row in report["last_good_audit"] if row.get("reason") == "outside-source-window")
+        self.assertAlmostEqual(audit["minutes_to_kickoff"], -448.0, places=1)
+        self.assertTrue(audit["filtered_before_probe"])
+
+    def test_date_first_extinf_is_parsed_before_last_good_probe(self) -> None:
+        url = "https://cdn.example/st-gallen.flv"
+        now = datetime(2026, 7, 24, 8, 28, tzinfo=TZ)
+        (self.root / "all_live.m3u").write_text(
+            "#EXTM3U\n"
+            '#EXTINF:-1 group-title="Lương Sơn",[24/07/2026 01:00] ST. GALLEN vs BENFICA [BLV LƯU BỊ] [FLV]\n'
+            f"{url}\n",
+            encoding="utf-8",
+        )
+        (self.root / "all_live_debug.json").write_text(json.dumps({
+            "generated_at": datetime(2026, 7, 24, 1, 20, tzinfo=TZ).isoformat(),
+            "channels": [{
+                "source": "luongson", "url": url, "playability": "verified",
+                "quality": "HD", "minutes_to_kickoff": 45,
+            }],
+        }, ensure_ascii=False), encoding="utf-8")
+        with patch.object(merger, "_probe_previous_block", return_value=(True, "HTTP 200; flv=True")) as probe:
+            report = merge_sources(self.root, [], now=now, preserve_on_empty=False)
+        probe.assert_not_called()
+        self.assertEqual(report["selected_count"], 0)
+        audit = next(row for row in report["last_good_audit"] if row.get("reason") == "outside-source-window")
+        self.assertEqual(audit["kickoff_iso"], datetime(2026, 7, 24, 1, 0, tzinfo=TZ).isoformat())
+        self.assertAlmostEqual(audit["minutes_to_kickoff"], -448.0, places=1)
+
+    def test_explicitly_dropped_unverified_fresh_stream_does_not_fail_preservation(self) -> None:
+        url = "https://live05.meung.app/live/pending.m3u8"
+        rows = [{
+            "id": "cola-pending",
+            "name": "[08:00 20/07] A vs B [M3U8]",
+            "url": url,
+            "group": "Bóng đá",
+        }]
+        debug = [{
+            "match_name": "A vs B", "date": "20/07/2026", "time": "08:00",
+            "streams": [{"url": url, "playability": "upcoming-pending", "quality": "HD"}],
+        }]
+        report = merge_sources(
+            self.root,
+            [self.make_source("colatv", "ColaTV", rows, debug)],
+            now=self.now,
+            preserve_on_empty=False,
+        )
+        source = report["sources"][0]
+        self.assertTrue(report["fresh_preservation_ok"])
+        self.assertTrue(source["integrity_ok"])
+        self.assertEqual(source["fresh_stream_blocks"], 1)
+        self.assertEqual(source["fresh_verified_blocks"], 0)
+        self.assertEqual(source["fresh_unverified_blocks"], 1)
+        self.assertEqual(source["fresh_explicitly_dropped"], 1)
+        self.assertEqual(source["unresolved"], 0)
+        self.assertEqual(source["integrity_warning"], "fresh-unverified-streams-explicitly-decided")
+        decision = report["fresh_input_decisions"][0]
+        self.assertEqual(decision["decision"], "dropped-explicitly")
+
+
+    def test_unresolved_fresh_stream_still_fails_integrity(self) -> None:
+        block = merger.M3UBlock(
+            source_key="colatv",
+            source_label="ColaTV",
+            extinf='#EXTINF:-1 group-title="Bóng đá",A vs B [M3U8]',
+            lines=['#EXTINF:-1 group-title="Bóng đá",A vs B [M3U8]', 'https://cdn.example/a.m3u8'],
+            url_line='https://cdn.example/a.m3u8',
+            canonical_url='https://cdn.example/a.m3u8',
+            attributes={"group-title": "Bóng đá"},
+            display_name='A vs B [M3U8]',
+            playability='verified',
+        )
+        decisions, stats = merger._fresh_input_decisions([block], [], [])
+        self.assertEqual(decisions[0]["decision"], "unresolved")
+        self.assertEqual(stats["colatv"]["unresolved"], 1)
+        self.assertFalse(stats["colatv"]["integrity_ok"])
+
+
 if __name__ == "__main__":
     unittest.main()
