@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-1548088-1" tvg-name="[19:00 24/07] Cambodia vs Singapore - AFF Championship [BLV trực tiếp: Chuối Chao, Chuối Nhỏ Trận đấ]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_c2b04cf4.png",[19:00 24/07] Cambodia vs Singapore - AFF Championship [BLV trực tiếp: Chuối Chao, Chuối Nhỏ Trận đấ] [FHD FLV]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://gckc0525.edgemaxcdn.org/live/chuoichao.flv
 #EXTINF:-1 tvg-id="chuoichien-1567780-1" tvg-name="[20:30 24/07] Timor-Leste vs Việt Nam - AFF Championship [BLV A Ngáo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132716_11742340.png",[20:30 24/07] Timor-Leste vs Việt Nam - AFF Championship [BLV A Ngáo] [FHD FLV]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -17,76 +11,48 @@ https://gckc0525.edgemaxcdn.org/live/angao.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8
-#EXTINF:-1 tvg-id="xoilac-ander-bublik-vs-tomas-martin-etcheverry-luc-1900-ngay-24-07-2026-s1-16" tvg-name="[19:00 24/07/2026] Alexander Bublik vs Tomas Martin Etcheverry [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4jwq2pf1vo3m0ve/image/small",[19:00 24/07/2026] Alexander Bublik vs Tomas Martin Etcheverry [BLV HD VIC] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel32.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-campuchia-vs-singapore-luc-1900-ngay-24-07-2026-s3-19" tvg-name="[19:00 24/07/2026] Campuchia vs Singapore [BLV FULL HD ASTRA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hekxqo9j/image/small",[19:00 24/07/2026] Campuchia vs Singapore [BLV FULL HD ASTRA] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel11.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-groningen-vs-volendam-luc-1900-ngay-24-07-2026-s1-14" tvg-name="[19:00 24/07/2026] Groningen vs Volendam [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7phe0xm2wd/image/small",[19:00 24/07/2026] Groningen vs Volendam [BLV HD FELIX] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel24.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-philippines-vs-indonesia-luc-1900-ngay-24-07-2026-s1-20" tvg-name="[19:00 24/07/2026] Philippines vs Indonesia [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/9dn1m1nhwpgqoep/image/small",[19:00 24/07/2026] Philippines vs Indonesia [BLV HD TYSON] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel33.flv
-#EXTINF:-1 tvg-id="xoilac-c-tiep-fk-aktobe-ii-vs-kairat-almaty-ii-luc-2000-ngay-24-07-2026-s1-21" tvg-name="[20:00 24/07/2026] Fk Aktobe Ii vs Kairat Almaty Ii [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnhxy0zm7vx/image/small",[20:00 24/07/2026] Fk Aktobe Ii vs Kairat Almaty Ii [BLV HD TONI] [FLV]
+#EXTINF:-1 tvg-id="xoilac-c-tiep-fk-aktobe-ii-vs-kairat-almaty-ii-luc-2000-ngay-24-07-2026-s1-8" tvg-name="[20:00 24/07/2026] Fk Aktobe Ii vs Kairat Almaty Ii [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnhxy0zm7vx/image/small",[20:00 24/07/2026] Fk Aktobe Ii vs Kairat Almaty Ii [BLV HD TONI] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel9.flv
-#EXTINF:-1 tvg-id="xoilac-ep-ho-chi-minh-wings-vs-da-nang-dragons-luc-1930-ngay-24-07-2026-s1-14" tvg-name="[19:30 24/07/2026] Ho Chi Minh Wings vs Da Nang Dragons [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/z8yomovtw11q0j6/image/small",[19:30 24/07/2026] Ho Chi Minh Wings vs Da Nang Dragons [BLV HD TOMMY] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel29.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-shakhter-vs-fk-arys-luc-2000-ngay-24-07-2026-s1-22" tvg-name="[20:00 24/07/2026] Shakhter vs Fk Arys [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkh3xxoqg8n/image/small",[20:00 24/07/2026] Shakhter vs Fk Arys [BLV HD LOGAN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-shakhter-vs-fk-arys-luc-2000-ngay-24-07-2026-s1-9" tvg-name="[20:00 24/07/2026] Shakhter vs Fk Arys [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkh3xxoqg8n/image/small",[20:00 24/07/2026] Shakhter vs Fk Arys [BLV HD LOGAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel23.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-timor-leste-vs-viet-nam-luc-2030-ngay-24-07-2026-s1-8" tvg-name="[20:30 24/07/2026] Timor Leste vs Viet Nam [BLV HD NICK] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/e4wyrn4hg6yq86p/image/small",[20:30 24/07/2026] Timor Leste vs Viet Nam [BLV HD NICK] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-timor-leste-vs-viet-nam-luc-2030-ngay-24-07-2026-s1-10" tvg-name="[20:30 24/07/2026] Timor Leste vs Viet Nam [BLV HD NICK] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/e4wyrn4hg6yq86p/image/small",[20:30 24/07/2026] Timor Leste vs Viet Nam [BLV HD NICK] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel5/off-tvc
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel5/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel5.flv?auth_key=3000001784901811-0-0-c1b0e5508890d348f3fc5a49ad863571
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-konoplev-u19-vs-fk-rostov-y-luc-1900-ngay-24-07-2026-s0-23" tvg-name="[19:00 24/07/2026] Konoplev U19 vs Fk Rostov Y [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jh3gl3qwzv/image/small",[19:00 24/07/2026] Konoplev U19 vs Fk Rostov Y [FLV]
+https://live3.procdnlive.com/livecdn/channel5.flv?auth_key=3000001784903796-0-0-f717ca36e110696efdc091e9df320de3
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-timor-leste-vs-viet-nam-luc-2030-ngay-24-07-2026-s4-13" tvg-name="[20:30 24/07/2026] Timor Leste vs Viet Nam [BLV MAX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/e4wyrn4hg6yq86p/image/small",[20:30 24/07/2026] Timor Leste vs Viet Nam [BLV MAX] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel6.flv
-#EXTINF:-1 tvg-id="xoilac-uc-tiep-fk-oleksandria-vs-nyva-ternopil-luc-2000-ngay-24-07-2026-s0-12" tvg-name="[20:00 24/07/2026] Fk Oleksandria vs Nyva Ternopil [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whkw0yryox/image/small",[20:00 24/07/2026] Fk Oleksandria vs Nyva Ternopil [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-afc-bournemouth-vs-st-pauli-luc-2100-ngay-24-07-2026-s1-1" tvg-name="[21:00 24/07/2026] Afc Bournemouth vs St Pauli [BLV HD JOHAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9dn1m1ghdlpmoep/image/small",[21:00 24/07/2026] Afc Bournemouth vs St Pauli [BLV HD JOHAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel12.flv
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-den-bosch-vs-lusail-city-fc-luc-2100-ngay-24-07-2026-s0-3" tvg-name="[21:00 24/07/2026] Den Bosch vs Lusail City Fc [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kdj2ryoh31eq1zp/image/small",[21:00 24/07/2026] Den Bosch vs Lusail City Fc [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel17.flv
 #EXTINF:-1 tvg-id="xoilac-c-tiep-nu-syria-u17-vs-nu-palestine-u17-luc-2100-ngay-24-07-2026-s0-6" tvg-name="[21:00 24/07/2026] Nu Syria U17 vs Nu Palestine U17 [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllhjw47qvy9/image/small",[21:00 24/07/2026] Nu Syria U17 vs Nu Palestine U17 [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
@@ -94,20 +60,13 @@ https://live2.streambylivepulse.com/live/channel12.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel30.flv
-#EXTINF:-1 tvg-id="xoilac-ruc-tiep-guangzhou-yuyan-vs-la-jeunesse-luc-1930-ngay-24-07-2026-s1-13" tvg-name="[19:30 24/07/2026] Guangzhou Yuyan vs La Jeunesse [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jh1p66qwzv/image/small",[19:30 24/07/2026] Guangzhou Yuyan vs La Jeunesse [BLV HD SILVA] [FLV]
+#EXTINF:-1 tvg-id="xoilac-ruc-tiep-guangzhou-yuyan-vs-la-jeunesse-luc-1930-ngay-24-07-2026-s1-14" tvg-name="[19:30 24/07/2026] Guangzhou Yuyan vs La Jeunesse [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jh1p66qwzv/image/small",[19:30 24/07/2026] Guangzhou Yuyan vs La Jeunesse [BLV HD SILVA] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel20.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-campuchia-vs-singapore-luc-1900-ngay-24-07-2026-s2-18" tvg-name="[19:00 24/07/2026] Campuchia vs Singapore [BLV KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hekxqo9j/image/small",[19:00 24/07/2026] Campuchia vs Singapore [BLV KEN] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel18.flv
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-sc-freiburg-vs-derby-county-luc-2100-ngay-24-07-2026-s1-7" tvg-name="[21:00 24/07/2026] Sc Freiburg vs Derby County [BLV HD TOM] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh924r1ge/image/small",[21:00 24/07/2026] Sc Freiburg vs Derby County [BLV HD TOM] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
@@ -115,34 +74,34 @@ https://live2.streambylivepulse.com/live/channel18.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel4.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-timor-leste-vs-viet-nam-luc-2030-ngay-24-07-2026-s3-10" tvg-name="[20:30 24/07/2026] Timor Leste vs Viet Nam [BLV HD FILIP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/e4wyrn4hg6yq86p/image/small",[20:30 24/07/2026] Timor Leste vs Viet Nam [BLV HD FILIP] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-timor-leste-vs-viet-nam-luc-2030-ngay-24-07-2026-s3-12" tvg-name="[20:30 24/07/2026] Timor Leste vs Viet Nam [BLV HD FILIP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/e4wyrn4hg6yq86p/image/small",[20:30 24/07/2026] Timor Leste vs Viet Nam [BLV HD FILIP] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel19.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-venezuela-vs-nu-ecuador-luc-2230-ngay-24-07-2026-s1-24" tvg-name="[22:30 24/07/2026] Nu Venezuela vs Nu Ecuador [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/8y39mpwh227qojx/image/small",[22:30 24/07/2026] Nu Venezuela vs Nu Ecuador [BLV HD TYSON] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-eyupspor-vs-istanbulspor-luc-2200-ngay-24-07-2026-s1-15" tvg-name="[22:00 24/07/2026] Eyupspor vs Istanbulspor [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nh093pmd7o/image/small",[22:00 24/07/2026] Eyupspor vs Istanbulspor [BLV HD POLO] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel10/off-tvc
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel10/off-tvc","Origin":"https://xlz.livepingscorex.com"}
+https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001784903811-0-0-9d2a6d0761b89366f657fcd5de9aa5a6
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-turan-vs-tobol-kostanai-b-luc-2200-ngay-24-07-2026-s1-16" tvg-name="[22:00 24/07/2026] Turan vs Tobol Kostanai B [BLV HD RAVEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghj0y5r6od/image/small",[22:00 24/07/2026] Turan vs Tobol Kostanai B [BLV HD RAVEN] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel21/off-tvc
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel21/off-tvc","Origin":"https://xlz.livepingscorex.com"}
+https://live3.procdnlive.com/livecdn/channel21.flv?auth_key=3000001784903820-0-0-759af452c19905485ee9d0594d317d81
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-venezuela-vs-nu-ecuador-luc-2230-ngay-24-07-2026-s1-17" tvg-name="[22:30 24/07/2026] Nu Venezuela vs Nu Ecuador [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/8y39mpwh227qojx/image/small",[22:30 24/07/2026] Nu Venezuela vs Nu Ecuador [BLV HD TYSON] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel33/off-tvc
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel33/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel33.flv?auth_key=3000001784901957-0-0-1a809c36b855cbd613985a62ef94ad3a
-#EXTINF:-1 tvg-id="colatv-ff0829a7d1ab-1" tvg-name="[19:00 24/07] Cambodia vs Singapore [BLV SAMURAIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80",[19:00 24/07] Cambodia vs Singapore [BLV SAMURAIĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/07808742.m3u8
-#EXTINF:-1 tvg-id="colatv-26d217bb4024-1" tvg-name="[20:30 24/07] Timor Leste vs Vietnam [BLV FANTAĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/96a83c96abbe6d0b40c72b279ebdf76e.png!w80",[20:30 24/07] Timor Leste vs Vietnam [BLV FANTAĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/16226575.m3u8
+https://live3.procdnlive.com/livecdn/channel33.flv?auth_key=3000001784903827-0-0-1ef116f07bada3d71f9c45f69e02d1db
 #EXTINF:-1 tvg-id="colatv-3f030653ccf7-1" tvg-name="[20:30 24/07] Timor Leste vs Vietnam [BLV C2Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/96a83c96abbe6d0b40c72b279ebdf76e.png!w80",[20:30 24/07] Timor Leste vs Vietnam [BLV C2Đang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -157,27 +116,34 @@ https://live05.meung.app/live/08552895.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/14830711.m3u8
-#EXTINF:-1 tvg-id="colatv-faafa6ca5de7-1" tvg-name="[21:30 24/07] Energetik Bgu vs Dinamo Minsk 2 [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV",[21:30 24/07] Energetik Bgu vs Dinamo Minsk 2 [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
+#EXTINF:-1 tvg-id="colatv-26d217bb4024-1" tvg-name="[20:30 24/07] Timor Leste vs Vietnam [BLV FANTAĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/96a83c96abbe6d0b40c72b279ebdf76e.png!w80",[20:30 24/07] Timor Leste vs Vietnam [BLV FANTAĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/16226575.m3u8
+#EXTINF:-1 tvg-id="colatv-1a09743d9b58-1" tvg-name="[21:30 24/07] Energetik-BGU Minsk vs Dinamo-2 Minsk [BLV MONSTERĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/a498155dccb9e11f012d3527b2475fe2.png!w80",[21:30 24/07] Energetik-BGU Minsk vs Dinamo-2 Minsk [BLV MONSTERĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/75915087.m3u8
+#EXTINF:-1 tvg-id="colatv-f58aab27b5da-1" tvg-name="[22:30 24/07] FC Ut Arad vs Otelul [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV",[22:30 24/07] FC Ut Arad vs Otelul [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://video.gvvsb.com/hls/output_v1.m3u8
-#EXTINF:-1 tvg-id="phaohoa-791555-1" tvg-name="[20:30 24/07] Timor Leste vs Vietnam [BLV Kevin Vừa xong https://www.tiktok.com/@b]" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/timor-leste-vs-vietnam-24-07-2026-791555" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_2rRVLbr.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_2rRVLbr.jpg" phaohoa-away-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_479.jpg" phaohoa-blv="Kevin Vừa xong https://www.tiktok.com/@b",[20:30 24/07] Timor Leste vs Vietnam [BLV Kevin Vừa xong https://www.tiktok.com/@b] [M3U8]
+#EXTINF:-1 tvg-id="phaohoa-791555-1" tvg-name="[20:30 24/07] Timor Leste vs Vietnam" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/timor-leste-vs-vietnam-24-07-2026-791555" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_2rRVLbr.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_2rRVLbr.jpg" phaohoa-away-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_479.jpg",[20:30 24/07] Timor Leste vs Vietnam [M3U8]
 #EXTVLCOPT:http-referrer=https://phaohoa1.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://phaohoa1.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://phaohoa1.live/","Origin":"https://phaohoa1.live"}
 https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2
-#EXTINF:-1 tvg-id="phaohoa-162046-1" tvg-name="[20:30 24/07] Timor Leste vs Vietnam" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/timor-leste-vs-vietnam-23-07-2026-162046" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_2rRVLbr.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_2rRVLbr.jpg" phaohoa-away-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_479.jpg",[20:30 24/07] Timor Leste vs Vietnam [M3U8]
-#EXTVLCOPT:http-referrer=https://phaohoa1.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://phaohoa1.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://phaohoa1.live/","Origin":"https://phaohoa1.live"}
-https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
 #EXTINF:-1 tvg-id="phaohoa-770417-1" tvg-name="[21:00 24/07] Bournemouth vs St Pauli" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/bournemouth-vs-st-pauli-24-07-2026-770417" tvg-logo="https://phaohoa1.live/media/tournaments/icons/tournament_355_Gr2A2JO.png" phaohoa-home-logo="https://phaohoa1.live/media/tournaments/icons/tournament_355_Gr2A2JO.png" phaohoa-away-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_3921.jpg",[21:00 24/07] Bournemouth vs St Pauli [M3U8]
 #EXTVLCOPT:http-referrer=https://phaohoa1.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
