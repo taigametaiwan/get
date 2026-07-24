@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-24T19:34:42.214355+07:00",
+  "updated_at": "2026-07-24T20:04:43.301214+07:00",
   "matches": {
     "b749f7505746": {
       "url": "https://phaohoa1.live/truc-tiep/my-w-vs-trung-quoc-w",
@@ -185,9 +185,9 @@
       "url": "https://phaohoa1.live/truc-tiep/cambodia-vs-singapore-24-07-2026-791554",
       "match_name": "Cambodia vs Singapore",
       "kickoff_iso": "2026-07-24T19:00:00+07:00",
-      "minutes_to_kickoff": -34,
-      "last_scan_at": "2026-07-24T19:34:42.214080+07:00",
-      "next_scan_at": "2026-07-24T19:39:42.214080+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-07-24T20:04:43.300961+07:00",
+      "next_scan_at": "2026-07-24T20:09:43.300961+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -211,9 +211,9 @@
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-philippines",
       "match_name": "Indonesia vs Philippines",
       "kickoff_iso": "2026-07-24T19:00:00+07:00",
-      "minutes_to_kickoff": -34,
-      "last_scan_at": "2026-07-24T19:34:42.214080+07:00",
-      "next_scan_at": "2026-07-24T19:39:42.214080+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-07-24T20:04:43.300961+07:00",
+      "next_scan_at": "2026-07-24T20:09:43.300961+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -225,9 +225,9 @@
       "url": "https://phaohoa1.live/truc-tiep/timor-leste-vs-vietnam-24-07-2026-791555",
       "match_name": "24-07 ASEAN Championship Timor-Leste VS Vietnam Dế Lửa",
       "kickoff_iso": "2026-07-24T20:30:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-07-24T19:34:42.214080+07:00",
-      "next_scan_at": "2026-07-24T19:54:42.214080+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-07-24T20:04:43.300961+07:00",
+      "next_scan_at": "2026-07-24T20:14:43.300961+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -235,27 +235,53 @@
     },
     "162046": {
       "url": "https://phaohoa1.live/truc-tiep/timor-leste-vs-vietnam-23-07-2026-162046",
-      "match_name": "24-07 ASEAN Championship Timor-Leste VS Vietnam Kevin",
+      "match_name": "Timor Leste vs Vietnam",
       "kickoff_iso": "2026-07-24T20:30:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-07-24T19:34:42.214080+07:00",
-      "next_scan_at": "2026-07-24T19:54:42.214080+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-07-24T20:04:43.300961+07:00",
+      "next_scan_at": "2026-07-24T20:09:43.300961+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
       "scan_decision": "browser-fallback"
     },
     "770417": {
       "url": "https://phaohoa1.live/truc-tiep/bournemouth-vs-st-pauli-24-07-2026-770417",
       "match_name": "24-07 Club Friendlies Bournemouth VS St. Pauli Pháo Thủ",
       "kickoff_iso": "2026-07-24T21:00:00+07:00",
-      "minutes_to_kickoff": 86,
-      "last_scan_at": "2026-07-24T19:34:42.214080+07:00",
-      "next_scan_at": "2026-07-24T19:54:42.214080+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-07-24T20:04:43.300961+07:00",
+      "next_scan_at": "2026-07-24T20:24:43.300961+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "758914": {
+      "url": "https://phaohoa1.live/truc-tiep/rosenborg-vs-manchester-utd-24-07-2026-758914",
+      "match_name": "24-07 Club Friendlies Rosenborg VS Manchester Utd Dế Lửa",
+      "kickoff_iso": "2026-07-24T23:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-07-24T20:04:43.300961+07:00",
+      "next_scan_at": "2026-07-24T20:49:43.300961+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "778969": {
+      "url": "https://phaohoa1.live/truc-tiep/vejle-vs-ab-copenhagen-24-07-2026-778969",
+      "match_name": "24-07 1. Division Vejle VS AB Copenhagen Văn Minh",
+      "kickoff_iso": "2026-07-24T23:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-07-24T20:04:43.300961+07:00",
+      "next_scan_at": "2026-07-24T20:49:43.300961+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
