@@ -74,10 +74,11 @@
     },
     "LU BO": {
       "urls": [
-        "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+        "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1",
+        "https://tvc.cdnfaster-a.live/playlist.m3u8"
       ],
       "source": "verified-stream",
-      "updated_at": "2026-07-24T16:32:49.111436+07:00"
+      "updated_at": "2026-07-24T17:34:40.307695+07:00"
     },
     "TAY MON KHANH": {
       "urls": [
@@ -106,6 +107,20 @@
       ],
       "source": "verified-stream",
       "updated_at": "2026-07-24T17:03:24.409415+07:00"
+    },
+    "YEN THANH": {
+      "urls": [
+        "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+      ],
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T17:33:52.789697+07:00"
+    },
+    "VUONG LUAN": {
+      "urls": [
+        "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+      ],
+      "source": "verified-stream",
+      "updated_at": "2026-07-24T17:34:09.853944+07:00"
     }
   }
 }

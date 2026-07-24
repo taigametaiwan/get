@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-24T17:06:15.218848+07:00",
+  "updated_at": "2026-07-24T17:35:29.655144+07:00",
   "matches": {
     "b749f7505746": {
       "url": "https://phaohoa1.live/truc-tiep/my-w-vs-trung-quoc-w",
@@ -185,13 +185,13 @@
       "url": "https://phaohoa1.live/truc-tiep/cambodia-vs-singapore-24-07-2026-791554",
       "match_name": "24-07 ASEAN Championship Cambodia VS Singapore Chim Nhỏ",
       "kickoff_iso": "2026-07-24T19:00:00+07:00",
-      "minutes_to_kickoff": 114,
-      "last_scan_at": "2026-07-24T17:06:15.218650+07:00",
-      "next_scan_at": "2026-07-24T17:26:15.218650+07:00",
+      "minutes_to_kickoff": 85,
+      "last_scan_at": "2026-07-24T17:35:29.654946+07:00",
+      "next_scan_at": "2026-07-24T17:55:29.654946+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "770876": {
       "url": "https://phaohoa1.live/truc-tiep/barcelona-vs-europa-24-07-2026-770876",
@@ -209,9 +209,33 @@
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-philippines",
       "match_name": "24-07 Sea V Cup Indonesia VS Philippines KaKa",
       "kickoff_iso": "2026-07-24T19:00:00+07:00",
-      "minutes_to_kickoff": 114,
-      "last_scan_at": "2026-07-24T17:06:15.218650+07:00",
-      "next_scan_at": "2026-07-24T17:26:15.218650+07:00",
+      "minutes_to_kickoff": 85,
+      "last_scan_at": "2026-07-24T17:35:29.654946+07:00",
+      "next_scan_at": "2026-07-24T17:55:29.654946+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "791555": {
+      "url": "https://phaohoa1.live/truc-tiep/timor-leste-vs-vietnam-24-07-2026-791555",
+      "match_name": "24-07 ASEAN Championship Timor-Leste VS Vietnam Dế Lửa",
+      "kickoff_iso": "2026-07-24T20:30:00+07:00",
+      "minutes_to_kickoff": 175,
+      "last_scan_at": "2026-07-24T17:35:29.654946+07:00",
+      "next_scan_at": "2026-07-24T18:20:29.654946+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "162046": {
+      "url": "https://phaohoa1.live/truc-tiep/timor-leste-vs-vietnam-23-07-2026-162046",
+      "match_name": "24-07 ASEAN Championship Timor-Leste VS Vietnam Kevin",
+      "kickoff_iso": "2026-07-24T20:30:00+07:00",
+      "minutes_to_kickoff": 175,
+      "last_scan_at": "2026-07-24T17:35:29.654946+07:00",
+      "next_scan_at": "2026-07-24T18:20:29.654946+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
