@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-24T20:04:43.301214+07:00",
+  "updated_at": "2026-07-24T20:34:57.919248+07:00",
   "matches": {
     "b749f7505746": {
       "url": "https://phaohoa1.live/truc-tiep/my-w-vs-trung-quoc-w",
@@ -185,9 +185,9 @@
       "url": "https://phaohoa1.live/truc-tiep/cambodia-vs-singapore-24-07-2026-791554",
       "match_name": "Cambodia vs Singapore",
       "kickoff_iso": "2026-07-24T19:00:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-07-24T20:04:43.300961+07:00",
-      "next_scan_at": "2026-07-24T20:09:43.300961+07:00",
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-07-24T20:34:57.918999+07:00",
+      "next_scan_at": "2026-07-24T20:39:57.918999+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -211,9 +211,9 @@
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-philippines",
       "match_name": "Indonesia vs Philippines",
       "kickoff_iso": "2026-07-24T19:00:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-07-24T20:04:43.300961+07:00",
-      "next_scan_at": "2026-07-24T20:09:43.300961+07:00",
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-07-24T20:34:57.918999+07:00",
+      "next_scan_at": "2026-07-24T20:39:57.918999+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -223,23 +223,25 @@
     },
     "791555": {
       "url": "https://phaohoa1.live/truc-tiep/timor-leste-vs-vietnam-24-07-2026-791555",
-      "match_name": "24-07 ASEAN Championship Timor-Leste VS Vietnam Dế Lửa",
+      "match_name": "Timor Leste vs Vietnam",
       "kickoff_iso": "2026-07-24T20:30:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-07-24T20:04:43.300961+07:00",
-      "next_scan_at": "2026-07-24T20:14:43.300961+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-07-24T20:34:57.918999+07:00",
+      "next_scan_at": "2026-07-24T20:39:57.918999+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
+      ],
       "scan_decision": "browser-fallback"
     },
     "162046": {
       "url": "https://phaohoa1.live/truc-tiep/timor-leste-vs-vietnam-23-07-2026-162046",
       "match_name": "Timor Leste vs Vietnam",
       "kickoff_iso": "2026-07-24T20:30:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-07-24T20:04:43.300961+07:00",
-      "next_scan_at": "2026-07-24T20:09:43.300961+07:00",
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-07-24T20:34:57.918999+07:00",
+      "next_scan_at": "2026-07-24T20:39:57.918999+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -251,9 +253,9 @@
       "url": "https://phaohoa1.live/truc-tiep/bournemouth-vs-st-pauli-24-07-2026-770417",
       "match_name": "24-07 Club Friendlies Bournemouth VS St. Pauli Pháo Thủ",
       "kickoff_iso": "2026-07-24T21:00:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-07-24T20:04:43.300961+07:00",
-      "next_scan_at": "2026-07-24T20:24:43.300961+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-07-24T20:34:57.918999+07:00",
+      "next_scan_at": "2026-07-24T20:44:57.918999+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
