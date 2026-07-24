@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-24T23:04:55.551683+07:00",
+  "updated_at": "2026-07-24T23:40:57.723798+07:00",
   "matches": {
     "b749f7505746": {
       "url": "https://phaohoa1.live/truc-tiep/my-w-vs-trung-quoc-w",
@@ -199,13 +199,13 @@
       "url": "https://phaohoa1.live/truc-tiep/barcelona-vs-europa-24-07-2026-770876",
       "match_name": "25-07 Club Friendlies Barcelona VS Europa Kevin",
       "kickoff_iso": "2026-07-25T01:00:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-07-24T23:04:55.551526+07:00",
-      "next_scan_at": "2026-07-24T23:24:55.551526+07:00",
+      "minutes_to_kickoff": 80,
+      "last_scan_at": "2026-07-24T23:40:57.723622+07:00",
+      "next_scan_at": "2026-07-25T00:00:57.723622+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "0605d4dbf8ea": {
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-philippines",
@@ -267,9 +267,9 @@
       "url": "https://phaohoa1.live/truc-tiep/rosenborg-vs-manchester-utd-24-07-2026-758914",
       "match_name": "Rosenborg vs Manchester Utd",
       "kickoff_iso": "2026-07-24T23:00:00+07:00",
-      "minutes_to_kickoff": -4,
-      "last_scan_at": "2026-07-24T23:04:55.551526+07:00",
-      "next_scan_at": "2026-07-24T23:09:55.551526+07:00",
+      "minutes_to_kickoff": -40,
+      "last_scan_at": "2026-07-24T23:40:57.723622+07:00",
+      "next_scan_at": "2026-07-24T23:45:57.723622+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -293,9 +293,9 @@
       "url": "https://phaohoa1.live/truc-tiep/vasteras-sk-vs-orgryte-25-07-2026-715560",
       "match_name": "Vasteras SK vs Orgryte",
       "kickoff_iso": "2026-07-25T00:00:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-07-24T23:04:55.551526+07:00",
-      "next_scan_at": "2026-07-24T23:14:55.551526+07:00",
+      "minutes_to_kickoff": 20,
+      "last_scan_at": "2026-07-24T23:40:57.723622+07:00",
+      "next_scan_at": "2026-07-24T23:45:57.723622+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -307,13 +307,13 @@
       "url": "https://phaohoa1.live/truc-tiep/galatasaray-vs-monza-25-07-2026-771667",
       "match_name": "25-07 Club Friendlies Galatasaray VS Monza Chim Nhỏ",
       "kickoff_iso": "2026-07-25T01:00:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-07-24T23:04:55.551526+07:00",
-      "next_scan_at": "2026-07-24T23:24:55.551526+07:00",
+      "minutes_to_kickoff": 79,
+      "last_scan_at": "2026-07-24T23:40:57.723622+07:00",
+      "next_scan_at": "2026-07-25T00:00:57.723622+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
