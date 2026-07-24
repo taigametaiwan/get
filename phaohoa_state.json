@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-24T18:35:24.960419+07:00",
+  "updated_at": "2026-07-24T19:05:01.113792+07:00",
   "matches": {
     "b749f7505746": {
       "url": "https://phaohoa1.live/truc-tiep/my-w-vs-trung-quoc-w",
@@ -183,14 +183,16 @@
     },
     "791554": {
       "url": "https://phaohoa1.live/truc-tiep/cambodia-vs-singapore-24-07-2026-791554",
-      "match_name": "24-07 ASEAN Championship Cambodia VS Singapore Chim Nhỏ",
+      "match_name": "Cambodia vs Singapore",
       "kickoff_iso": "2026-07-24T19:00:00+07:00",
-      "minutes_to_kickoff": 25,
-      "last_scan_at": "2026-07-24T18:35:24.959907+07:00",
-      "next_scan_at": "2026-07-24T18:45:24.959907+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-07-24T19:05:01.113598+07:00",
+      "next_scan_at": "2026-07-24T19:10:01.113598+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     },
     "770876": {
@@ -207,47 +209,49 @@
     },
     "0605d4dbf8ea": {
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-philippines",
-      "match_name": "24-07 Sea V Cup Indonesia VS Philippines KaKa",
+      "match_name": "Indonesia vs Philippines",
       "kickoff_iso": "2026-07-24T19:00:00+07:00",
-      "minutes_to_kickoff": 25,
-      "last_scan_at": "2026-07-24T18:35:24.959907+07:00",
-      "next_scan_at": "2026-07-24T18:45:24.959907+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-07-24T19:05:01.113598+07:00",
+      "next_scan_at": "2026-07-24T19:10:01.113598+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     },
     "791555": {
       "url": "https://phaohoa1.live/truc-tiep/timor-leste-vs-vietnam-24-07-2026-791555",
       "match_name": "24-07 ASEAN Championship Timor-Leste VS Vietnam Dế Lửa",
       "kickoff_iso": "2026-07-24T20:30:00+07:00",
-      "minutes_to_kickoff": 115,
-      "last_scan_at": "2026-07-24T18:35:24.959907+07:00",
-      "next_scan_at": "2026-07-24T18:55:24.959907+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-07-24T19:05:01.113598+07:00",
+      "next_scan_at": "2026-07-24T19:25:01.113598+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "162046": {
       "url": "https://phaohoa1.live/truc-tiep/timor-leste-vs-vietnam-23-07-2026-162046",
       "match_name": "24-07 ASEAN Championship Timor-Leste VS Vietnam Kevin",
       "kickoff_iso": "2026-07-24T20:30:00+07:00",
-      "minutes_to_kickoff": 115,
-      "last_scan_at": "2026-07-24T18:35:24.959907+07:00",
-      "next_scan_at": "2026-07-24T18:55:24.959907+07:00",
+      "minutes_to_kickoff": 85,
+      "last_scan_at": "2026-07-24T19:05:01.113598+07:00",
+      "next_scan_at": "2026-07-24T19:25:01.113598+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "770417": {
       "url": "https://phaohoa1.live/truc-tiep/bournemouth-vs-st-pauli-24-07-2026-770417",
       "match_name": "24-07 Club Friendlies Bournemouth VS St. Pauli Pháo Thủ",
       "kickoff_iso": "2026-07-24T21:00:00+07:00",
-      "minutes_to_kickoff": 175,
-      "last_scan_at": "2026-07-24T18:05:20.287280+07:00",
-      "next_scan_at": "2026-07-24T18:50:20.287280+07:00",
+      "minutes_to_kickoff": 116,
+      "last_scan_at": "2026-07-24T19:05:01.113598+07:00",
+      "next_scan_at": "2026-07-24T19:25:01.113598+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
