@@ -1,20 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-25T18:36:09.767529+07:00",
+  "updated_at": "2026-07-25T19:07:40.350656+07:00",
   "matches": {
-    "9d9e4f844e37": {
-      "url": "https://phaohoa1.live/truc-tiep/campuchia-vs-philippines",
-      "match_name": "Campuchia vs Philippines",
-      "kickoff_iso": "2026-07-23T19:00:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-07-23T20:34:13.753496+07:00",
-      "next_scan_at": "2026-07-23T20:39:13.753496+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "776592": {
       "url": "https://phaohoa1.live/truc-tiep/fk-liepaja-vs-austria-vienna-23-07-2026-776592",
       "match_name": "Fk Liepaja vs Austria Vienna",
@@ -319,9 +307,9 @@
       "url": "https://phaohoa1.live/truc-tiep/dusseldorf-vs-dortmund-25-07-2026-774339",
       "match_name": "Dusseldorf vs Dortmund",
       "kickoff_iso": "2026-07-25T18:00:00+07:00",
-      "minutes_to_kickoff": -35,
-      "last_scan_at": "2026-07-25T18:36:09.767127+07:00",
-      "next_scan_at": "2026-07-25T18:41:09.767127+07:00",
+      "minutes_to_kickoff": -66,
+      "last_scan_at": "2026-07-25T19:07:40.350316+07:00",
+      "next_scan_at": "2026-07-25T19:12:40.350316+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -347,9 +335,9 @@
       "url": "https://phaohoa1.live/truc-tiep/trung-quoc-w-vs-tho-nhi-ki-w",
       "match_name": "Trung Quốc (W) vs Thổ Nhĩ Kì (W)",
       "kickoff_iso": "2026-07-25T18:30:00+07:00",
-      "minutes_to_kickoff": -5,
-      "last_scan_at": "2026-07-25T18:36:09.767127+07:00",
-      "next_scan_at": "2026-07-25T18:41:09.767127+07:00",
+      "minutes_to_kickoff": -36,
+      "last_scan_at": "2026-07-25T19:07:40.350316+07:00",
+      "next_scan_at": "2026-07-25T19:12:40.350316+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -361,9 +349,9 @@
       "url": "https://phaohoa1.live/truc-tiep/laos-vs-thailand-25-07-2026-791557",
       "match_name": "25-07 ASEAN Championship Laos VS Thailand Dế Lửa",
       "kickoff_iso": "2026-07-25T20:00:00+07:00",
-      "minutes_to_kickoff": 85,
-      "last_scan_at": "2026-07-25T18:36:09.767127+07:00",
-      "next_scan_at": "2026-07-25T18:56:09.767127+07:00",
+      "minutes_to_kickoff": 53,
+      "last_scan_at": "2026-07-25T19:07:40.350316+07:00",
+      "next_scan_at": "2026-07-25T19:27:40.350316+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -373,9 +361,9 @@
       "url": "https://phaohoa1.live/truc-tiep/laos-vs-thailand-24-07-2026-104132",
       "match_name": "25-07 ASEAN Championship Laos VS Thailand Kevin",
       "kickoff_iso": "2026-07-25T20:00:00+07:00",
-      "minutes_to_kickoff": 84,
-      "last_scan_at": "2026-07-25T18:36:09.767127+07:00",
-      "next_scan_at": "2026-07-25T18:56:09.767127+07:00",
+      "minutes_to_kickoff": 53,
+      "last_scan_at": "2026-07-25T19:07:40.350316+07:00",
+      "next_scan_at": "2026-07-25T19:27:40.350316+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -385,13 +373,13 @@
       "url": "https://phaohoa1.live/truc-tiep/wehen-vs-bayern-munich-25-07-2026-761670",
       "match_name": "25-07 Club Friendlies Wehen VS Bayern Munich Pháo Thủ",
       "kickoff_iso": "2026-07-25T20:30:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-07-25T18:36:09.767127+07:00",
-      "next_scan_at": "2026-07-25T18:56:09.767127+07:00",
+      "minutes_to_kickoff": 83,
+      "last_scan_at": "2026-07-25T19:07:40.350316+07:00",
+      "next_scan_at": "2026-07-25T19:27:40.350316+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "767885": {
       "url": "https://phaohoa1.live/truc-tiep/celtic-vs-ac-milan-25-07-2026-767885",
@@ -407,14 +395,30 @@
     },
     "8d41092a4693": {
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-viet-nam",
-      "match_name": "25-07 Sea V Cup Indonesia VS Việt Nam Chim Nhỏ",
+      "match_name": "Indonesia vs Việt Nam",
       "kickoff_iso": "2026-07-25T19:00:00+07:00",
-      "minutes_to_kickoff": 25,
-      "last_scan_at": "2026-07-25T18:36:09.767127+07:00",
-      "next_scan_at": "2026-07-25T18:46:09.767127+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -7,
+      "last_scan_at": "2026-07-25T19:07:40.350316+07:00",
+      "next_scan_at": "2026-07-25T19:12:40.350316+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "821358": {
+      "url": "https://phaohoa1.live/truc-tiep/heidenheim-vs-hamburger-sv-25-07-2026-821358",
+      "match_name": "Heidenheim vs Hamburger Sv",
+      "kickoff_iso": "2026-07-25T18:30:00+07:00",
+      "minutes_to_kickoff": -36,
+      "last_scan_at": "2026-07-25T19:07:40.350316+07:00",
+      "next_scan_at": "2026-07-25T19:12:40.350316+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
