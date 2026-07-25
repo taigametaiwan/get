@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-25T13:05:33.660712+07:00",
+  "updated_at": "2026-07-25T13:40:21.014515+07:00",
   "matches": {
     "b749f7505746": {
       "url": "https://phaohoa1.live/truc-tiep/my-w-vs-trung-quoc-w",
@@ -333,15 +333,15 @@
     },
     "2c7dd973da5f": {
       "url": "https://phaohoa1.live/truc-tiep/brazil-w-vs-italy-w",
-      "match_name": "25-07 Nations League Brazil (W) VS Italy (W) KaKa",
+      "match_name": "Brazil (W) vs Italy (W)",
       "kickoff_iso": "2026-07-25T15:00:00+07:00",
-      "minutes_to_kickoff": 114,
-      "last_scan_at": "2026-07-25T13:05:33.660612+07:00",
-      "next_scan_at": "2026-07-25T13:25:33.660612+07:00",
+      "minutes_to_kickoff": 80,
+      "last_scan_at": "2026-07-25T13:40:21.014417+07:00",
+      "next_scan_at": "2026-07-25T14:00:21.014417+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
