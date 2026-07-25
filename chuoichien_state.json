@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-25T17:32:12.757499+07:00",
+  "updated_at": "2026-07-25T18:03:56.838819+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -505,9 +505,9 @@
       "url": "https://live04.chuoichientv.me/live/210899/china-w-vs-turkey-w",
       "match_name": "China W vs Turkey W - Nations League Women",
       "kickoff_iso": "2026-07-25T18:30:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-07-25T17:32:12.757349+07:00",
-      "next_scan_at": "2026-07-25T17:52:12.757349+07:00",
+      "minutes_to_kickoff": 27,
+      "last_scan_at": "2026-07-25T18:03:56.838630+07:00",
+      "next_scan_at": "2026-07-25T18:13:56.838630+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -517,9 +517,9 @@
       "url": "https://live04.chuoichientv.me/live/1523211/qingdao-jonoon-vs-tianjin-teda",
       "match_name": "Qingdao Jonoon vs Tianjin Teda - Ngoại Hạng Trung Quốc",
       "kickoff_iso": "2026-07-25T16:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-25T17:32:12.757349+07:00",
-      "next_scan_at": "2026-07-25T17:37:12.757349+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-07-25T18:03:56.838630+07:00",
+      "next_scan_at": "2026-07-25T18:08:56.838630+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -531,13 +531,14 @@
       "url": "https://live04.chuoichientv.me/live/1548089/myanmar-vs-malaysia",
       "match_name": "Myanmar vs Malaysia - AFF Championship",
       "kickoff_iso": "2026-07-25T17:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-07-25T17:32:12.757349+07:00",
-      "next_scan_at": "2026-07-25T17:37:12.757349+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-07-25T18:03:56.838630+07:00",
+      "next_scan_at": "2026-07-25T18:08:56.838630+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
+        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -571,9 +572,9 @@
       "url": "https://live04.chuoichientv.me/live/1523213/shanghai-sipg-vs-shanghai-shenhua",
       "match_name": "SHANGHAI SIPG vs Shanghai Shenhua - Ngoại Hạng Trung Quốc",
       "kickoff_iso": "2026-07-25T18:35:00+07:00",
-      "minutes_to_kickoff": 63,
-      "last_scan_at": "2026-07-25T17:32:12.757349+07:00",
-      "next_scan_at": "2026-07-25T17:52:12.757349+07:00",
+      "minutes_to_kickoff": 31,
+      "last_scan_at": "2026-07-25T18:03:56.838630+07:00",
+      "next_scan_at": "2026-07-25T18:13:56.838630+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -581,11 +582,11 @@
     },
     "1523214": {
       "url": "https://live04.chuoichientv.me/live/1523214/wuhan-three-towns-vs-chongqing-tongliang-long",
-      "match_name": "wuhan three towns vs chongqing tongliang long",
+      "match_name": "Wuhan Three Towns vs Chongqing Tongliang Long - Ngoại Hạng Trung Quốc",
       "kickoff_iso": "2026-07-25T19:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-07-25T17:32:12.757349+07:00",
-      "next_scan_at": "2026-07-25T17:52:12.757349+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-07-25T18:03:56.838630+07:00",
+      "next_scan_at": "2026-07-25T18:23:56.838630+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -594,26 +595,50 @@
     "1548090": {
       "url": "https://live04.chuoichientv.me/live/1548090/laos-vs-thailand",
       "match_name": "laos vs thailand",
+      "kickoff_iso": "2026-07-25T20:00:00+07:00",
+      "minutes_to_kickoff": 117,
+      "last_scan_at": "2026-07-25T18:03:56.838630+07:00",
+      "next_scan_at": "2026-07-25T18:23:56.838630+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1546722": {
+      "url": "https://live04.chuoichientv.me/live/1546722/sv-wehen-vs-bayern-mnchen",
+      "match_name": "sv wehen vs bayern mnchen",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-25T17:32:12.757349+07:00",
-      "next_scan_at": "2026-07-25T17:42:12.757349+07:00",
+      "last_scan_at": "2026-07-25T18:03:56.838630+07:00",
+      "next_scan_at": "2026-07-25T18:13:56.838630+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1546722": {
-      "url": "https://live04.chuoichientv.me/live/1546722/sv-wehen-vs-bayern-mnchen",
-      "match_name": "sv wehen vs bayern mnchen",
-      "kickoff_iso": "2026-07-25T20:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-07-25T17:32:12.757349+07:00",
-      "next_scan_at": "2026-07-25T18:17:12.757349+07:00",
+    "1561334": {
+      "url": "https://live04.chuoichientv.me/live/1561334/fakel-vs-makhachkala",
+      "match_name": "fakel vs makhachkala",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-25T18:03:56.838630+07:00",
+      "next_scan_at": "2026-07-25T18:13:56.838630+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
+    },
+    "1561338": {
+      "url": "https://live04.chuoichientv.me/live/1561338/spartak-moscow-vs-rodina-moskva",
+      "match_name": "spartak moscow vs rodina moskva",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-25T18:03:56.838630+07:00",
+      "next_scan_at": "2026-07-25T18:13:56.838630+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
