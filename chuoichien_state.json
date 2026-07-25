@@ -1,23 +1,8 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-25T09:01:57.574805+07:00",
+  "updated_at": "2026-07-25T09:31:38.007811+07:00",
   "matches": {
-    "1490342": {
-      "url": "https://live04.chuoichientv.me/live/1490342/los-angeles-fc-vs-real-salt-lake",
-      "match_name": "Los Angeles FC vs Real Salt Lake - Major League Soccer",
-      "kickoff_iso": "2026-07-23T09:30:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-07-23T11:31:29.282992+07:00",
-      "next_scan_at": "2026-07-23T11:36:29.282992+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "209781": {
       "url": "https://live04.chuoichientv.me/live/209781/turkey-w-vs-canada-w",
       "match_name": "turkey w vs canada w",
@@ -496,13 +481,14 @@
       "url": "https://live04.chuoichientv.me/live/1549686/deportivo-cali-vs-jaguares",
       "match_name": "Deportivo Cali vs Jaguares - VĐQG Colombia",
       "kickoff_iso": "2026-07-25T08:15:00+07:00",
-      "minutes_to_kickoff": -46,
-      "last_scan_at": "2026-07-25T09:01:57.574638+07:00",
-      "next_scan_at": "2026-07-25T09:06:57.574638+07:00",
+      "minutes_to_kickoff": -76,
+      "last_scan_at": "2026-07-25T09:31:38.007689+07:00",
+      "next_scan_at": "2026-07-25T09:36:38.007689+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -510,9 +496,9 @@
       "url": "https://live04.chuoichientv.me/live/1550906/club-tijuana-vs-leon",
       "match_name": "Club Tijuana vs Leon - VĐQG Mexico",
       "kickoff_iso": "2026-07-25T10:00:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-07-25T09:01:57.574638+07:00",
-      "next_scan_at": "2026-07-25T09:21:57.574638+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-25T09:31:38.007689+07:00",
+      "next_scan_at": "2026-07-25T09:41:38.007689+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -522,9 +508,9 @@
       "url": "https://live04.chuoichientv.me/live/1550907/atlante-fc-vs-club-america",
       "match_name": "Atlante FC vs Club America - VĐQG Mexico",
       "kickoff_iso": "2026-07-25T10:00:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-07-25T09:01:57.574638+07:00",
-      "next_scan_at": "2026-07-25T09:21:57.574638+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-25T09:31:38.007689+07:00",
+      "next_scan_at": "2026-07-25T09:41:38.007689+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -535,8 +521,8 @@
       "match_name": "brazil w vs italy w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-25T09:01:57.574638+07:00",
-      "next_scan_at": "2026-07-25T09:11:57.574638+07:00",
+      "last_scan_at": "2026-07-25T09:31:38.007689+07:00",
+      "next_scan_at": "2026-07-25T09:41:38.007689+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -547,8 +533,8 @@
       "match_name": "china w vs turkey w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-25T05:31:29.910938+07:00",
-      "next_scan_at": "2026-07-25T05:41:29.910938+07:00",
+      "last_scan_at": "2026-07-25T09:31:38.007689+07:00",
+      "next_scan_at": "2026-07-25T09:41:38.007689+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -559,8 +545,8 @@
       "match_name": "qingdao jonoon vs tianjin teda",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-25T09:01:57.574638+07:00",
-      "next_scan_at": "2026-07-25T09:11:57.574638+07:00",
+      "last_scan_at": "2026-07-25T09:31:38.007689+07:00",
+      "next_scan_at": "2026-07-25T09:41:38.007689+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -571,8 +557,8 @@
       "match_name": "myanmar vs malaysia",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-25T09:01:57.574638+07:00",
-      "next_scan_at": "2026-07-25T09:11:57.574638+07:00",
+      "last_scan_at": "2026-07-25T09:31:38.007689+07:00",
+      "next_scan_at": "2026-07-25T09:41:38.007689+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -583,8 +569,8 @@
       "match_name": "fortuna dsseldorf vs borussia dortmund",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-25T09:01:57.574638+07:00",
-      "next_scan_at": "2026-07-25T09:11:57.574638+07:00",
+      "last_scan_at": "2026-07-25T09:31:38.007689+07:00",
+      "next_scan_at": "2026-07-25T09:41:38.007689+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -603,6 +589,18 @@
         "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "1523213": {
+      "url": "https://live04.chuoichientv.me/live/1523213/shanghai-sipg-vs-shanghai-shenhua",
+      "match_name": "shanghai sipg vs shanghai shenhua",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-25T09:31:38.007689+07:00",
+      "next_scan_at": "2026-07-25T09:41:38.007689+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
