@@ -1,10 +1,16 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="hygenie-ee2fbbb2c393-292-1" tvg-name="[26/07/2026 03:00] NEWELLS OLD BOYS vs TALLERES CORDOBA [BLV LÝ ỨNG]" group-title="Lương Sơn" tvg-logo="https://cdn-img.cdnokvip.com/logos/247_16494091542.png",[26/07/2026 03:00] NEWELLS OLD BOYS vs TALLERES CORDOBA [BLV LÝ ỨNG] [M3U8]
-#EXTVLCOPT:http-referrer=https://faceswaponline.io/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="chuoichien-1589332-1" tvg-name="[05:00 26/07] Liverpool vs Sunderland - Premier League - Summer Series [BLV A Ngáo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125546_c0f632e4.png",[05:00 26/07] Liverpool vs Sunderland - Premier League - Summer Series [BLV A Ngáo] [FHD FLV]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://faceswaponline.io/","Origin":"https://faceswaponline.io"}
-https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/angao.flv
+#EXTINF:-1 tvg-id="chuoichien-1589332-2" tvg-name="[05:00 26/07] Liverpool vs Sunderland - Premier League - Summer Series [BLV A Ngáo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125546_c0f632e4.png",[05:00 26/07] Liverpool vs Sunderland - Premier League - Summer Series [BLV A Ngáo] (Luồng 2) [M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8
 #EXTINF:-1 tvg-id="hygenie-db0d9cfcbbf4-324-1" tvg-name="[26/07/2026 04:30] ATLETICO PARANAENSE vs INTERNACIONAL RS [BLV LÝ QUỲ]" group-title="Lương Sơn" tvg-logo="https://cdn-img.cdnokvip.com/logos/313_1gxhxt30w91z.png",[26/07/2026 04:30] ATLETICO PARANAENSE vs INTERNACIONAL RS [BLV LÝ QUỲ] [M3U8]
 #EXTVLCOPT:http-referrer=https://faceswaponline.io/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
@@ -23,7 +29,7 @@ https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2548/santos-chape-brasa/?s8_live_fixture_id=2548&s8_live_stream_key=santos-chape-brasa&s8_auto_sound=1","Origin":"https://profecta.io"}
 https://hls.lauthaitv.cc/live/santos-chape-brasa/index.m3u8
-#EXTINF:-1 tvg-id="gavang-2546-1" tvg-name="[CHƯA CÓ GIỜ 26/07] ARG Division 1 - Club Atlético Newell's Old Boys VS Talleres Cordoba [BLV NGƯỜI CÁO]" group-title="Gà Vàng" tvg-logo="https://img.gvapi.cc/football/team/845eed665066a19144dad9f96e550b50.png!w80",[CHƯA CÓ GIỜ 26/07] ARG Division 1 - Club Atlético Newell's Old Boys VS Talleres Cordoba [BLV NGƯỜI CÁO] [M3U8]
+#EXTINF:-1 tvg-id="gavang-2546-1" tvg-name="[CHƯA CÓ GIỜ 26/07] ARG Division 1 - Club Atlético Newell's Old Boys VS Talleres Cordoba [BLV NGƯỜI CÁO]" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-content/uploads/2026/04/logo-gavangtv.png",[CHƯA CÓ GIỜ 26/07] ARG Division 1 - Club Atlético Newell's Old Boys VS Talleres Cordoba [BLV NGƯỜI CÁO] [M3U8]
 #EXTVLCOPT:http-referrer=https://profecta.io/s8-live/2546/newell-telleres-argdiv1/?s8_live_fixture_id=2546&s8_live_stream_key=newell-telleres-argdiv1&s8_auto_sound=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
@@ -35,70 +41,69 @@ https://hls.lauthaitv.cc/live/newell-telleres-argdiv1/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2547/medellin-pasto-colprima/?s8_live_fixture_id=2547&s8_live_stream_key=medellin-pasto-colprima&s8_auto_sound=1","Origin":"https://profecta.io"}
 https://hls.lauthaitv.cc/live/medellin-pasto-colprima/index.m3u8
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-real-frontera-vs-urena-sc-luc-0230-ngay-26-07-2026-s0-5" tvg-name="[02:30 26/07/2026] Real Frontera vs Urena Sc [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1ghel1kmoep/image/small",[02:30 26/07/2026] Real Frontera vs Urena Sc [FLV]
+#EXTINF:-1 tvg-id="gavang-2549-1" tvg-name="Liv VS Sun" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-json/s8-image/706fafa3-d0a1-48a8-b005-1de8a8aae0a4",Liv VS Sun [M3U8]
+#EXTVLCOPT:http-referrer=https://profecta.io/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/","Origin":"https://profecta.io"}
+https://hls.lauthaitv.cc/live/liv-sun-premsumer/index.m3u8
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-ferroviaria-sp-vs-maranhao-luc-0300-ngay-26-07-2026-s0-5" tvg-name="[03:00 26/07/2026] Ferroviaria Sp vs Maranhao [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h84p3q86p/image/small",[03:00 26/07/2026] Ferroviaria Sp vs Maranhao [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel8.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-bucaramanga-vs-nu-llaneros-luc-0300-ngay-26-07-2026-s0-9" tvg-name="[03:00 26/07/2026] Nu Bucaramanga vs Nu Llaneros [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkhonekqg8n/image/small",[03:00 26/07/2026] Nu Bucaramanga vs Nu Llaneros [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel12.flv
+#EXTINF:-1 tvg-id="xoilac-iep-newell-old-boys-vs-talleres-cordoba-luc-0300-ngay-26-07-2026-s1-10" tvg-name="[03:00 26/07/2026] Newell Old Boys vs Talleres Cordoba [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kn54qllhyn2qvy9/image/small",[03:00 26/07/2026] Newell Old Boys vs Talleres Cordoba [BLV HD POLO] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel10/off-tvc
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel10.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-santa-cruz-pe-vs-figueirense-luc-0300-ngay-26-07-2026-s0-10" tvg-name="[03:00 26/07/2026] Santa Cruz Pe vs Figueirense [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohkyxyq1zp/image/small",[03:00 26/07/2026] Santa Cruz Pe vs Figueirense [FLV]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel10/off-tvc","Origin":"https://xlz.livepingscorex.com"}
+https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001785017034-0-0-3d91aa973d29a6c2f5d6af6502d42ebf
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-santa-cruz-pe-vs-figueirense-luc-0300-ngay-26-07-2026-s0-11" tvg-name="[03:00 26/07/2026] Santa Cruz Pe vs Figueirense [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohkyxyq1zp/image/small",[03:00 26/07/2026] Santa Cruz Pe vs Figueirense [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel13.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-ma-roc-u20-vs-sevilla-u19-luc-0345-ngay-26-07-2026-s0-6" tvg-name="[03:45 26/07/2026] Ma Roc U20 vs Sevilla U19 [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09hl4gerz84/image/small",[03:45 26/07/2026] Ma Roc U20 vs Sevilla U19 [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-ma-roc-u20-vs-sevilla-u19-luc-0345-ngay-26-07-2026-s0-3" tvg-name="[03:45 26/07/2026] Ma Roc U20 vs Sevilla U19 [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09hl4gerz84/image/small",[03:45 26/07/2026] Ma Roc U20 vs Sevilla U19 [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel15.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-cuba-u20-vs-el-salvador-u20-luc-0400-ngay-26-07-2026-s0-4" tvg-name="[04:00 26/07/2026] Cuba U20 vs El Salvador U20 [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8pknq86p/image/small",[04:00 26/07/2026] Cuba U20 vs El Salvador U20 [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel18.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-aurora-f-c-vs-guastatoya-luc-0400-ngay-26-07-2026-s0-3" tvg-name="[04:00 26/07/2026] Aurora F C vs Guastatoya [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh163yryk0/image/small",[04:00 26/07/2026] Aurora F C vs Guastatoya [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-aurora-f-c-vs-guastatoya-luc-0400-ngay-26-07-2026-s0-7" tvg-name="[04:00 26/07/2026] Aurora F C vs Guastatoya [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh163yryk0/image/small",[04:00 26/07/2026] Aurora F C vs Guastatoya [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel20.flv
-#EXTINF:-1 tvg-id="xoilac-c-tiep-nu-inter-palmira-vs-nu-orsomarso-luc-0400-ngay-26-07-2026-s0-5" tvg-name="[04:00 26/07/2026] Nu Inter Palmira vs Nu Orsomarso [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphn14kr8k0/image/small",[04:00 26/07/2026] Nu Inter Palmira vs Nu Orsomarso [FLV]
+#EXTINF:-1 tvg-id="xoilac-c-tiep-nu-inter-palmira-vs-nu-orsomarso-luc-0400-ngay-26-07-2026-s0-9" tvg-name="[04:00 26/07/2026] Nu Inter Palmira vs Nu Orsomarso [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphn14kr8k0/image/small",[04:00 26/07/2026] Nu Inter Palmira vs Nu Orsomarso [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel21.flv
-#EXTINF:-1 tvg-id="xoilac-c-tiep-team-weatherspoon-vs-team-cooper-luc-0730-ngay-26-07-2026-s0-11" tvg-name="[07:30 26/07/2026] Team Weatherspoon vs Team Cooper [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/4wyrn1tdv1jq86p/image/small",[07:30 26/07/2026] Team Weatherspoon vs Team Cooper [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-cuba-u20-vs-el-salvador-u20-luc-0400-ngay-26-07-2026-s0-8" tvg-name="[04:00 26/07/2026] Cuba U20 vs El Salvador U20 [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8pknq86p/image/small",[04:00 26/07/2026] Cuba U20 vs El Salvador U20 [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel18.flv
+#EXTINF:-1 tvg-id="xoilac-c-tiep-team-weatherspoon-vs-team-cooper-luc-0730-ngay-26-07-2026-s0-12" tvg-name="[07:30 26/07/2026] Team Weatherspoon vs Team Cooper [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/4wyrn1tdv1jq86p/image/small",[07:30 26/07/2026] Team Weatherspoon vs Team Cooper [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel1/off-tvc
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel1/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel1.flv?auth_key=3000001785015308-0-0-04fe0723f5e007479b2241fdde098b2a
-#EXTINF:-1 tvg-id="colatv-2c0965753db6-1" tvg-name="[03:00 26/07] Club Atlético Newell's Old Boys vs Talleres Cordoba [BLV BÍ ĐAOĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/845eed665066a19144dad9f96e550b50.png!w80",[03:00 26/07] Club Atlético Newell's Old Boys vs Talleres Cordoba [BLV BÍ ĐAOĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/99121525.m3u8
-#EXTINF:-1 tvg-id="colatv-dbaffaa78f63-1" tvg-name="[04:30 26/07] Athletico Paranaense - PR vs Internacional - RS [BLV SPRITEĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/1b54e9fdbe9c936023c55299da4165b7.png!w80",[04:30 26/07] Athletico Paranaense - PR vs Internacional - RS [BLV SPRITEĐang xem] [M3U8]
+https://live3.procdnlive.com/livecdn/channel1.flv?auth_key=3000001785017093-0-0-532a50e7a869834c37ddc71a3397abd0
+#EXTINF:-1 tvg-id="colatv-4a8f5e801aeb-1" tvg-name="[04:30 26/07] Athletico Paranaense - PR vs Internacional - RS [BLV SPRITEĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/1b54e9fdbe9c936023c55299da4165b7.png!w80",[04:30 26/07] Athletico Paranaense - PR vs Internacional - RS [BLV SPRITEĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
@@ -112,14 +117,35 @@ https://live05.meung.app/live/75748097.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/78905744.m3u8
-#EXTINF:-1 tvg-id="colatv-8eb144bef82f-1" tvg-name="[05:15 26/07] River Plate vs Barracas Central [BLV MONSTERĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/c7aa5e458bdcad0051f6786ff93c48ed.png!w80",[05:15 26/07] River Plate vs Barracas Central [BLV MONSTERĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-57b7ba9195b3-1" tvg-name="[05:00 26/07] Liverpool vs Sunderland [BLV 247Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/1cb3d08adac0e2dc1c4f10429d055bfe.png!w80",[05:00 26/07] Liverpool vs Sunderland [BLV 247Đang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/90865415.m3u8
+#EXTINF:-1 tvg-id="colatv-6985988595c4-1" tvg-name="[05:15 26/07] River Plate vs Barracas Central [BLV MONSTERĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/c7aa5e458bdcad0051f6786ff93c48ed.png!w80",[05:15 26/07] River Plate vs Barracas Central [BLV MONSTERĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/75915087.m3u8
+#EXTINF:-1 tvg-id="colatv-800de82dc97c-1" tvg-name="[05:30 26/07] New York Red Bulls vs Charlotte FC [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/8b8fe90668461b90ddc20516b0e6796d.png!w80",[05:30 26/07] New York Red Bulls vs Charlotte FC [BLV MOUNTAIN DEWĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/87547578.m3u8
+#EXTINF:-1 tvg-id="colatv-0ae29b6083e7-1" tvg-name="[06:07 26/07] Club Deportivo Guadalajara vs FC Juarez [BLV KHÔNG ĐỘĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/872867a492989e6a9a0785cfd0a40680.png!w80",[06:07 26/07] Club Deportivo Guadalajara vs FC Juarez [BLV KHÔNG ĐỘĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://video.gvvsb.com/hls/output_v1.m3u8
-#EXTINF:-1 tvg-id="phaohoa-580642ff77bf-1" tvg-name="[05:00 26/07] Liverpool vs Sunderland" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/liverpool-vs-sunderland" tvg-logo="https://phaohoa1.live/media/tournaments/icons/tournament_355_Gr2A2JO.png" phaohoa-home-logo="https://phaohoa1.live/media/tournaments/icons/tournament_355_Gr2A2JO.png" phaohoa-away-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_3111.jpg",[05:00 26/07] Liverpool vs Sunderland [FHD M3U8]
+#EXTINF:-1 tvg-id="phaohoa-580642ff77bf-1" tvg-name="[05:00 26/07] Liverpool vs Sunderland [BLV k tiếng đi ngủ là đẹp Em phi ngủ ngon nh]" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/liverpool-vs-sunderland" tvg-logo="https://phaohoa1.live/media/tournaments/icons/tournament_355_Gr2A2JO.png" phaohoa-home-logo="https://phaohoa1.live/media/tournaments/icons/tournament_355_Gr2A2JO.png" phaohoa-away-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_3111.jpg" phaohoa-blv="k tiếng đi ngủ là đẹp Em phi ngủ ngon nh",[05:00 26/07] Liverpool vs Sunderland [BLV k tiếng đi ngủ là đẹp Em phi ngủ ngon nh] [FHD M3U8]
 #EXTVLCOPT:http-referrer=https://phaohoa1.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://phaohoa1.live
