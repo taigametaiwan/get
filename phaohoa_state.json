@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-25T21:36:06.314762+07:00",
+  "updated_at": "2026-07-25T22:06:28.168349+07:00",
   "matches": {
-    "776592": {
-      "url": "https://phaohoa1.live/truc-tiep/fk-liepaja-vs-austria-vienna-23-07-2026-776592",
-      "match_name": "Fk Liepaja vs Austria Vienna",
-      "kickoff_iso": "2026-07-23T22:00:00+07:00",
-      "minutes_to_kickoff": -105,
-      "last_scan_at": "2026-07-23T23:46:36.513071+07:00",
-      "next_scan_at": "2026-07-23T23:51:36.513071+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "770542": {
       "url": "https://phaohoa1.live/truc-tiep/hjk-vs-coleraine-23-07-2026-770542",
       "match_name": "HJK vs Coleraine",
@@ -375,9 +361,9 @@
       "url": "https://phaohoa1.live/truc-tiep/wehen-vs-bayern-munich-25-07-2026-761670",
       "match_name": "Wehen vs Bayern Munich",
       "kickoff_iso": "2026-07-25T20:30:00+07:00",
-      "minutes_to_kickoff": -65,
-      "last_scan_at": "2026-07-25T21:36:06.314551+07:00",
-      "next_scan_at": "2026-07-25T21:41:06.314551+07:00",
+      "minutes_to_kickoff": -96,
+      "last_scan_at": "2026-07-25T22:06:28.168141+07:00",
+      "next_scan_at": "2026-07-25T22:11:28.168141+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -429,9 +415,9 @@
       "url": "https://phaohoa1.live/truc-tiep/kalmar-vs-mjallby-25-07-2026-715557",
       "match_name": "25-07 Allsvenskan Kalmar VS Mjallby Văn Minh",
       "kickoff_iso": "2026-07-25T22:30:00+07:00",
-      "minutes_to_kickoff": 54,
-      "last_scan_at": "2026-07-25T21:36:06.314551+07:00",
-      "next_scan_at": "2026-07-25T21:56:06.314551+07:00",
+      "minutes_to_kickoff": 24,
+      "last_scan_at": "2026-07-25T22:06:28.168141+07:00",
+      "next_scan_at": "2026-07-25T22:16:28.168141+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -441,13 +427,25 @@
       "url": "https://phaohoa1.live/truc-tiep/wolves-vs-real-sociedad-25-07-2026-767892",
       "match_name": "25-07 Club Friendlies Wolves VS Real Sociedad Dế Lửa",
       "kickoff_iso": "2026-07-25T23:00:00+07:00",
-      "minutes_to_kickoff": 84,
-      "last_scan_at": "2026-07-25T21:36:06.314551+07:00",
-      "next_scan_at": "2026-07-25T21:56:06.314551+07:00",
+      "minutes_to_kickoff": 54,
+      "last_scan_at": "2026-07-25T22:06:28.168141+07:00",
+      "next_scan_at": "2026-07-25T22:26:28.168141+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "766458": {
+      "url": "https://phaohoa1.live/truc-tiep/st-liege-vs-juventus-26-07-2026-766458",
+      "match_name": "26-07 Club Friendlies St. Liege VS Juventus Văn Minh",
+      "kickoff_iso": "2026-07-26T01:00:00+07:00",
+      "minutes_to_kickoff": 174,
+      "last_scan_at": "2026-07-25T22:06:28.168141+07:00",
+      "next_scan_at": "2026-07-25T22:51:28.168141+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
