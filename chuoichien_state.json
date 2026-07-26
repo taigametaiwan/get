@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-26T07:01:48.267725+07:00",
+  "updated_at": "2026-07-26T07:33:20.450475+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -26,34 +26,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1547773": {
-      "url": "https://live04.chuoichientv.me/live/1547773/boca-juniors-vs-ohiggins",
-      "match_name": "Boca Juniors vs O'Higgins - CONMEBOL Sudamericana",
-      "kickoff_iso": "2026-07-24T07:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-24T09:01:55.231063+07:00",
-      "next_scan_at": "2026-07-24T09:06:55.231063+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1547778": {
-      "url": "https://live04.chuoichientv.me/live/1547778/santa-fe-vs-caracas-fc",
-      "match_name": "Santa Fe vs Caracas FC - CONMEBOL Sudamericana",
-      "kickoff_iso": "2026-07-24T07:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-24T09:01:55.231063+07:00",
-      "next_scan_at": "2026-07-24T09:06:55.231063+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "991023": {
       "url": "https://live04.chuoichientv.me/live/991023/vit-nam-vs-myanmar",
@@ -536,9 +508,9 @@
       "url": "https://live04.chuoichientv.me/live/1550908/guadalajara-chivas-vs-fc-juarez",
       "match_name": "Guadalajara Chivas vs FC Juarez - VĐQG Mexico",
       "kickoff_iso": "2026-07-26T06:07:00+07:00",
-      "minutes_to_kickoff": -54,
-      "last_scan_at": "2026-07-26T07:01:48.267568+07:00",
-      "next_scan_at": "2026-07-26T07:06:48.267568+07:00",
+      "minutes_to_kickoff": -86,
+      "last_scan_at": "2026-07-26T07:33:20.450285+07:00",
+      "next_scan_at": "2026-07-26T07:38:20.450285+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -550,13 +522,14 @@
       "url": "https://live04.chuoichientv.me/live/1490347/cf-montreal-vs-inter-miami",
       "match_name": "CF Montreal vs Inter Miami - Major League Soccer",
       "kickoff_iso": "2026-07-26T06:30:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-07-26T07:01:48.267568+07:00",
-      "next_scan_at": "2026-07-26T07:06:48.267568+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-07-26T07:33:20.450285+07:00",
+      "next_scan_at": "2026-07-26T07:38:20.450285+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
+        "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
+        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -564,49 +537,51 @@
       "url": "https://live04.chuoichientv.me/live/1490354/minnesota-united-fc-vs-vancouver-whitecaps",
       "match_name": "Minnesota United FC vs Vancouver Whitecaps - Major League Soccer",
       "kickoff_iso": "2026-07-26T07:30:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-07-26T07:01:48.267568+07:00",
-      "next_scan_at": "2026-07-26T07:11:48.267568+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-07-26T07:33:20.450285+07:00",
+      "next_scan_at": "2026-07-26T07:38:20.450285+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1490358": {
       "url": "https://live04.chuoichientv.me/live/1490358/los-angeles-fc-vs-sporting-kansas-city",
       "match_name": "los angeles fc vs sporting kansas city",
+      "kickoff_iso": "2026-07-26T09:30:00+07:00",
+      "minutes_to_kickoff": 117,
+      "last_scan_at": "2026-07-26T07:33:20.450285+07:00",
+      "next_scan_at": "2026-07-26T07:53:20.450285+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1542342": {
+      "url": "https://live04.chuoichientv.me/live/1542342/auckland-vs-tottenham",
+      "match_name": "auckland vs tottenham",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-26T07:01:48.267568+07:00",
-      "next_scan_at": "2026-07-26T07:11:48.267568+07:00",
+      "last_scan_at": "2026-07-26T07:33:20.450285+07:00",
+      "next_scan_at": "2026-07-26T07:43:20.450285+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1542342": {
-      "url": "https://live04.chuoichientv.me/live/1542342/auckland-vs-tottenham",
-      "match_name": "auckland vs tottenham",
-      "kickoff_iso": "2026-07-26T10:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-07-26T07:01:48.267568+07:00",
-      "next_scan_at": "2026-07-26T07:46:48.267568+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
-    },
     "1550905": {
       "url": "https://live04.chuoichientv.me/live/1550905/tigres-uanl-vs-atletico-san-luis",
       "match_name": "tigres uanl vs atletico san luis",
-      "kickoff_iso": "2026-07-26T10:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-07-26T07:01:48.267568+07:00",
-      "next_scan_at": "2026-07-26T07:46:48.267568+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-26T07:33:20.450285+07:00",
+      "next_scan_at": "2026-07-26T07:43:20.450285+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1560871": {
       "url": "https://live04.chuoichientv.me/live/1560871/weston-bears-vs-melbourne-city",
@@ -625,8 +600,8 @@
       "match_name": "kingborough lions vs melbourne victory",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-26T07:01:48.267568+07:00",
-      "next_scan_at": "2026-07-26T07:11:48.267568+07:00",
+      "last_scan_at": "2026-07-26T07:33:20.450285+07:00",
+      "next_scan_at": "2026-07-26T07:43:20.450285+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -637,8 +612,8 @@
       "match_name": "china w vs italy w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-26T07:01:48.267568+07:00",
-      "next_scan_at": "2026-07-26T07:11:48.267568+07:00",
+      "last_scan_at": "2026-07-26T07:33:20.450285+07:00",
+      "next_scan_at": "2026-07-26T07:43:20.450285+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -649,8 +624,8 @@
       "match_name": "gwangju fc vs jeju united fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-26T07:01:48.267568+07:00",
-      "next_scan_at": "2026-07-26T07:11:48.267568+07:00",
+      "last_scan_at": "2026-07-26T07:33:20.450285+07:00",
+      "next_scan_at": "2026-07-26T07:43:20.450285+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
