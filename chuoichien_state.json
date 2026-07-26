@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-27T01:31:31.331026+07:00",
+  "updated_at": "2026-07-27T02:01:54.024107+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -617,47 +617,52 @@
     },
     "1493002": {
       "url": "https://live04.chuoichientv.me/live/1493002/atletico-tucuman-vs-independ-rivadavia",
-      "match_name": "atletico tucuman vs independ rivadavia",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-27T01:31:31.330755+07:00",
-      "next_scan_at": "2026-07-27T01:41:31.330755+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Atletico Tucuman vs Independ. Rivadavia - VĐQG Argentina",
+      "kickoff_iso": "2026-07-27T01:00:00+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-07-27T02:01:54.024020+07:00",
+      "next_scan_at": "2026-07-27T02:06:54.024020+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
+        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1492303": {
       "url": "https://live04.chuoichientv.me/live/1492303/cruzeiro-vs-botafogo",
-      "match_name": "cruzeiro vs botafogo",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-27T01:31:31.330755+07:00",
-      "next_scan_at": "2026-07-27T01:41:31.330755+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Cruzeiro vs Botafogo - VĐQG Brazil",
+      "kickoff_iso": "2026-07-27T02:00:00+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-07-27T02:01:54.024020+07:00",
+      "next_scan_at": "2026-07-27T02:06:54.024020+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1492305": {
       "url": "https://live04.chuoichientv.me/live/1492305/gremio-vs-fluminense",
       "match_name": "gremio vs fluminense",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-27T01:31:31.330755+07:00",
-      "next_scan_at": "2026-07-27T01:41:31.330755+07:00",
+      "kickoff_iso": "2026-07-27T04:30:00+07:00",
+      "minutes_to_kickoff": 149,
+      "last_scan_at": "2026-07-27T02:01:54.024020+07:00",
+      "next_scan_at": "2026-07-27T02:46:54.024020+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1492306": {
       "url": "https://live04.chuoichientv.me/live/1492306/palmeiras-vs-atletico-mg",
       "match_name": "palmeiras vs atletico mg",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-27T01:31:31.330755+07:00",
-      "next_scan_at": "2026-07-27T01:41:31.330755+07:00",
+      "last_scan_at": "2026-07-27T02:01:54.024020+07:00",
+      "next_scan_at": "2026-07-27T02:11:54.024020+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -668,8 +673,8 @@
       "match_name": "necaxa vs monterrey",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-27T01:31:31.330755+07:00",
-      "next_scan_at": "2026-07-27T01:41:31.330755+07:00",
+      "last_scan_at": "2026-07-27T02:01:54.024020+07:00",
+      "next_scan_at": "2026-07-27T02:11:54.024020+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -680,8 +685,8 @@
       "match_name": "pachuca vs club queretaro",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-27T01:31:31.330755+07:00",
-      "next_scan_at": "2026-07-27T01:41:31.330755+07:00",
+      "last_scan_at": "2026-07-27T02:01:54.024020+07:00",
+      "next_scan_at": "2026-07-27T02:11:54.024020+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
