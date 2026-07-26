@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-26T15:33:59.858455+07:00",
+  "updated_at": "2026-07-26T16:05:57.880931+07:00",
   "matches": {
     "791554": {
       "url": "https://phaohoa1.live/truc-tiep/cambodia-vs-singapore-24-07-2026-791554",
@@ -401,9 +401,9 @@
       "url": "https://phaohoa1.live/truc-tiep/trung-quoc-w-vs-italy-w",
       "match_name": "Trung Quốc (W) vs Italy (W)",
       "kickoff_iso": "2026-07-26T14:30:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-07-26T15:33:59.858314+07:00",
-      "next_scan_at": "2026-07-26T15:38:59.858314+07:00",
+      "minutes_to_kickoff": -95,
+      "last_scan_at": "2026-07-26T16:05:57.880743+07:00",
+      "next_scan_at": "2026-07-26T16:10:57.880743+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -415,13 +415,13 @@
       "url": "https://phaohoa1.live/truc-tiep/seoul-vs-ulsan-hd-26-07-2026-728352",
       "match_name": "26-07 K League 1 Seoul VS Ulsan HD Văn Minh",
       "kickoff_iso": "2026-07-26T17:30:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-07-26T15:33:59.858314+07:00",
-      "next_scan_at": "2026-07-26T15:53:59.858314+07:00",
+      "minutes_to_kickoff": 84,
+      "last_scan_at": "2026-07-26T16:05:57.880743+07:00",
+      "next_scan_at": "2026-07-26T16:25:57.880743+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "fe42a472fa00": {
       "url": "https://phaohoa1.live/truc-tiep/tho-nhi-ki-w-vs-brazil-w",
@@ -430,6 +430,30 @@
       "minutes_to_kickoff": 177,
       "last_scan_at": "2026-07-26T15:33:59.858314+07:00",
       "next_scan_at": "2026-07-26T16:18:59.858314+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "742927": {
+      "url": "https://phaohoa1.live/truc-tiep/chengdu-rongcheng-vs-beijing-guoan-26-07-2026-742927",
+      "match_name": "26-07 Chinese Super League Chengdu Rongcheng VS Beijing Guoan Pháo Thủ",
+      "kickoff_iso": "2026-07-26T18:35:00+07:00",
+      "minutes_to_kickoff": 150,
+      "last_scan_at": "2026-07-26T16:05:57.880743+07:00",
+      "next_scan_at": "2026-07-26T16:50:57.880743+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "e42ebdb7e388": {
+      "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-thai-lan",
+      "match_name": "26-07 Sea V Cup Việt Nam VS Thái Lan Chim Nhỏ",
+      "kickoff_iso": "2026-07-26T19:00:00+07:00",
+      "minutes_to_kickoff": 175,
+      "last_scan_at": "2026-07-26T16:05:57.880743+07:00",
+      "next_scan_at": "2026-07-26T16:50:57.880743+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
