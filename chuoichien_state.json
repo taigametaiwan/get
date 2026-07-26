@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-27T05:33:24.953143+07:00",
+  "updated_at": "2026-07-27T06:03:25.946549+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -617,9 +617,9 @@
       "url": "https://live04.chuoichientv.me/live/1492306/palmeiras-vs-atletico-mg",
       "match_name": "Palmeiras vs Atletico-MG - VĐQG Brazil",
       "kickoff_iso": "2026-07-27T05:30:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-07-27T05:33:24.953072+07:00",
-      "next_scan_at": "2026-07-27T05:38:24.953072+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-07-27T06:03:25.946455+07:00",
+      "next_scan_at": "2026-07-27T06:08:25.946455+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -632,9 +632,9 @@
       "url": "https://live04.chuoichientv.me/live/1550910/necaxa-vs-monterrey",
       "match_name": "Necaxa vs Monterrey - VĐQG Mexico",
       "kickoff_iso": "2026-07-27T06:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-07-27T05:33:24.953072+07:00",
-      "next_scan_at": "2026-07-27T05:43:24.953072+07:00",
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-07-27T06:03:25.946455+07:00",
+      "next_scan_at": "2026-07-27T06:08:25.946455+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -643,14 +643,14 @@
     "1550911": {
       "url": "https://live04.chuoichientv.me/live/1550911/pachuca-vs-club-queretaro",
       "match_name": "pachuca vs club queretaro",
-      "kickoff_iso": "2026-07-27T08:06:00+07:00",
-      "minutes_to_kickoff": 153,
-      "last_scan_at": "2026-07-27T05:33:24.953072+07:00",
-      "next_scan_at": "2026-07-27T06:18:24.953072+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-27T06:03:25.946455+07:00",
+      "next_scan_at": "2026-07-27T06:13:25.946455+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     }
   }
 }
