@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-26T12:34:55.594795+07:00",
+  "updated_at": "2026-07-26T13:03:34.251882+07:00",
   "matches": {
     "bb7f089c9945": {
       "url": "https://phaohoa1.live/truc-tiep/myanmar-vs-viet-nam",
@@ -411,15 +411,15 @@
     },
     "b9f813338ee7": {
       "url": "https://phaohoa1.live/truc-tiep/trung-quoc-w-vs-italy-w",
-      "match_name": "26-07 Nations League Trung Quốc (W) VS Italy (W) Dế Lửa",
+      "match_name": "Trung Quốc (W) vs Italy (W)",
       "kickoff_iso": "2026-07-26T14:30:00+07:00",
-      "minutes_to_kickoff": 115,
-      "last_scan_at": "2026-07-26T12:34:55.594689+07:00",
-      "next_scan_at": "2026-07-26T12:54:55.594689+07:00",
+      "minutes_to_kickoff": 87,
+      "last_scan_at": "2026-07-26T13:03:34.251793+07:00",
+      "next_scan_at": "2026-07-26T13:23:34.251793+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
