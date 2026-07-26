@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-26T17:36:18.377892+07:00",
+  "updated_at": "2026-07-26T18:36:24.851067+07:00",
   "matches": {
     "791554": {
       "url": "https://phaohoa1.live/truc-tiep/cambodia-vs-singapore-24-07-2026-791554",
@@ -415,9 +415,9 @@
       "url": "https://phaohoa1.live/truc-tiep/seoul-vs-ulsan-hd-26-07-2026-728352",
       "match_name": "Seoul vs Ulsan Hd",
       "kickoff_iso": "2026-07-26T17:30:00+07:00",
-      "minutes_to_kickoff": -5,
-      "last_scan_at": "2026-07-26T17:36:18.377670+07:00",
-      "next_scan_at": "2026-07-26T17:41:18.377670+07:00",
+      "minutes_to_kickoff": -65,
+      "last_scan_at": "2026-07-26T18:36:24.850733+07:00",
+      "next_scan_at": "2026-07-26T18:41:24.850733+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -429,37 +429,65 @@
       "url": "https://phaohoa1.live/truc-tiep/tho-nhi-ki-w-vs-brazil-w",
       "match_name": "Thổ Nhĩ Kì (W) vs Brazil (W)",
       "kickoff_iso": "2026-07-26T18:30:00+07:00",
-      "minutes_to_kickoff": 55,
-      "last_scan_at": "2026-07-26T17:36:18.377670+07:00",
-      "next_scan_at": "2026-07-26T17:56:18.377670+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -5,
+      "last_scan_at": "2026-07-26T18:36:24.850733+07:00",
+      "next_scan_at": "2026-07-26T18:41:24.850733+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     },
     "742927": {
       "url": "https://phaohoa1.live/truc-tiep/chengdu-rongcheng-vs-beijing-guoan-26-07-2026-742927",
-      "match_name": "26-07 Chinese Super League Chengdu Rongcheng VS Beijing Guoan Pháo Thủ",
+      "match_name": "Chengdu Rongcheng vs Beijing Guoan",
       "kickoff_iso": "2026-07-26T18:35:00+07:00",
-      "minutes_to_kickoff": 60,
-      "last_scan_at": "2026-07-26T17:36:18.377670+07:00",
-      "next_scan_at": "2026-07-26T17:56:18.377670+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 0,
+      "last_scan_at": "2026-07-26T18:36:24.850733+07:00",
+      "next_scan_at": "2026-07-26T18:41:24.850733+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     },
     "e42ebdb7e388": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-thai-lan",
       "match_name": "26-07 Sea V Cup Việt Nam VS Thái Lan Chim Nhỏ",
       "kickoff_iso": "2026-07-26T19:00:00+07:00",
-      "minutes_to_kickoff": 84,
-      "last_scan_at": "2026-07-26T17:36:18.377670+07:00",
-      "next_scan_at": "2026-07-26T17:56:18.377670+07:00",
+      "minutes_to_kickoff": 24,
+      "last_scan_at": "2026-07-26T18:36:24.850733+07:00",
+      "next_scan_at": "2026-07-26T18:46:24.850733+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "715558": {
+      "url": "https://phaohoa1.live/truc-tiep/malmo-ff-vs-elfsborg-26-07-2026-715558",
+      "match_name": "26-07 Allsvenskan Malmo FF VS Elfsborg Văn Minh",
+      "kickoff_iso": "2026-07-26T21:30:00+07:00",
+      "minutes_to_kickoff": 175,
+      "last_scan_at": "2026-07-26T18:36:24.850733+07:00",
+      "next_scan_at": "2026-07-26T19:21:24.850733+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "766199": {
+      "url": "https://phaohoa1.live/truc-tiep/karlsruher-sc-vs-inter-26-07-2026-766199",
+      "match_name": "26-07 Club Friendlies Karlsruher SC VS Inter Chim Nhỏ",
+      "kickoff_iso": "2026-07-26T21:30:00+07:00",
+      "minutes_to_kickoff": 175,
+      "last_scan_at": "2026-07-26T18:36:24.850733+07:00",
+      "next_scan_at": "2026-07-26T19:21:24.850733+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
