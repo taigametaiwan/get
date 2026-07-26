@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-26T19:32:49.966891+07:00",
+  "updated_at": "2026-07-26T20:02:23.466618+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -570,9 +570,9 @@
       "url": "https://live04.chuoichientv.me/live/1523215/yunnan-yukun-vs-sichuan-jiuniu",
       "match_name": "Yunnan Yukun vs Sichuan Jiuniu - Ngoại Hạng Trung Quốc",
       "kickoff_iso": "2026-07-26T18:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-26T19:32:49.966760+07:00",
-      "next_scan_at": "2026-07-26T19:37:49.966760+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-07-26T20:02:23.466456+07:00",
+      "next_scan_at": "2026-07-26T20:07:23.466456+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -584,23 +584,24 @@
       "url": "https://live04.chuoichientv.me/live/999276/turkey-w-vs-brazil-w",
       "match_name": "Turkey W vs Brazil W - Nations League Women",
       "kickoff_iso": "2026-07-26T18:30:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-07-26T19:32:49.966760+07:00",
-      "next_scan_at": "2026-07-26T19:37:49.966760+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-26T20:02:23.466456+07:00",
+      "next_scan_at": "2026-07-26T20:07:23.466456+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1523216": {
       "url": "https://live04.chuoichientv.me/live/1523216/chengdu-better-city-vs-beijing-guoan",
-      "match_name": "chengdu better city vs beijing guoan",
+      "match_name": "Chengdu Better City vs Beijing Guoan - Ngoại Hạng Trung Quốc",
       "kickoff_iso": "2026-07-26T18:35:00+07:00",
-      "minutes_to_kickoff": -57,
-      "last_scan_at": "2026-07-26T19:32:49.966760+07:00",
-      "next_scan_at": "2026-07-26T19:37:49.966760+07:00",
+      "minutes_to_kickoff": -86,
+      "last_scan_at": "2026-07-26T20:02:23.466456+07:00",
+      "next_scan_at": "2026-07-26T20:07:23.466456+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -610,11 +611,11 @@
     },
     "1523218": {
       "url": "https://live04.chuoichientv.me/live/1523218/hangzhou-greentown-vs-dalian-zhixing",
-      "match_name": "hangzhou greentown vs dalian zhixing",
+      "match_name": "Hangzhou Greentown vs Dalian Zhixing - Ngoại Hạng Trung Quốc",
       "kickoff_iso": "2026-07-26T19:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-07-26T19:32:49.966760+07:00",
-      "next_scan_at": "2026-07-26T19:37:49.966760+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-07-26T20:02:23.466456+07:00",
+      "next_scan_at": "2026-07-26T20:07:23.466456+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -638,11 +639,11 @@
     },
     "1561335": {
       "url": "https://live04.chuoichientv.me/live/1561335/lokomotiv-vs-akhmat",
-      "match_name": "Lokomotiv vs Akhmat - Ngoại Hạng Nga",
+      "match_name": "lokomotiv vs akhmat",
       "kickoff_iso": "2026-07-26T21:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-07-26T19:32:49.966760+07:00",
-      "next_scan_at": "2026-07-26T19:52:49.966760+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-07-26T20:02:23.466456+07:00",
+      "next_scan_at": "2026-07-26T20:22:23.466456+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -651,10 +652,48 @@
     "1548978": {
       "url": "https://live04.chuoichientv.me/live/1548978/ac-horsens-vs-fc-nordsjaelland",
       "match_name": "ac horsens vs fc nordsjaelland",
+      "kickoff_iso": "2026-07-26T23:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-07-26T20:02:23.466456+07:00",
+      "next_scan_at": "2026-07-26T20:47:23.466456+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1494710": {
+      "url": "https://live04.chuoichientv.me/live/1494710/brann-vs-valerenga",
+      "match_name": "Brann vs Valerenga - Eliteserien",
+      "kickoff_iso": "2026-07-26T19:30:00+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-07-26T20:02:23.466456+07:00",
+      "next_scan_at": "2026-07-26T20:07:23.466456+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoitieu.flv"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1561337": {
+      "url": "https://live04.chuoichientv.me/live/1561337/rubin-vs-fc-krasnodar",
+      "match_name": "rubin vs fc krasnodar",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-26T19:32:49.966760+07:00",
-      "next_scan_at": "2026-07-26T19:42:49.966760+07:00",
+      "last_scan_at": "2026-07-26T20:02:23.466456+07:00",
+      "next_scan_at": "2026-07-26T20:12:23.466456+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1493002": {
+      "url": "https://live04.chuoichientv.me/live/1493002/atletico-tucuman-vs-independ-rivadavia",
+      "match_name": "atletico tucuman vs independ rivadavia",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-26T20:02:23.466456+07:00",
+      "next_scan_at": "2026-07-26T20:12:23.466456+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
