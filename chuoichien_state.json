@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-26T15:01:47.485722+07:00",
+  "updated_at": "2026-07-26T15:31:35.392826+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -26,20 +26,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "991023": {
-      "url": "https://live04.chuoichientv.me/live/991023/vit-nam-vs-myanmar",
-      "match_name": "Việt Nam vs Myanmar - SEA V CUP 2026",
-      "kickoff_iso": "2026-07-24T15:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-24T17:01:45.761346+07:00",
-      "next_scan_at": "2026-07-24T17:06:45.761346+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "994933": {
       "url": "https://live04.chuoichientv.me/live/994933/phong-ph-h-nam-n-vs-thi-nguyn-n",
@@ -606,14 +592,13 @@
       "url": "https://live04.chuoichientv.me/live/1560861/kingborough-lions-vs-melbourne-victory",
       "match_name": "Kingborough Lions vs Melbourne Victory - Australia Cup",
       "kickoff_iso": "2026-07-26T14:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-26T15:01:47.485530+07:00",
-      "next_scan_at": "2026-07-26T15:06:47.485530+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-26T15:31:35.392637+07:00",
+      "next_scan_at": "2026-07-26T15:36:35.392637+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -621,71 +606,72 @@
       "url": "https://live04.chuoichientv.me/live/997728/china-w-vs-italy-w",
       "match_name": "China W vs Italy W - Nations League Women",
       "kickoff_iso": "2026-07-26T14:30:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-07-26T15:01:47.485530+07:00",
-      "next_scan_at": "2026-07-26T15:06:47.485530+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-07-26T15:31:35.392637+07:00",
+      "next_scan_at": "2026-07-26T15:36:35.392637+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1507013": {
       "url": "https://live04.chuoichientv.me/live/1507013/gwangju-fc-vs-jeju-united-fc",
       "match_name": "gwangju fc vs jeju united fc",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-26T15:01:47.485530+07:00",
-      "next_scan_at": "2026-07-26T15:11:47.485530+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
-    },
-    "1507015": {
-      "url": "https://live04.chuoichientv.me/live/1507015/fc-seoul-vs-ulsan-hyundai-fc",
-      "match_name": "fc seoul vs ulsan hyundai fc",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-26T15:01:47.485530+07:00",
-      "next_scan_at": "2026-07-26T15:11:47.485530+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
-    },
-    "1523215": {
-      "url": "https://live04.chuoichientv.me/live/1523215/yunnan-yukun-vs-sichuan-jiuniu",
-      "match_name": "yunnan yukun vs sichuan jiuniu",
-      "kickoff_iso": "2026-07-26T18:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-07-26T15:01:47.485530+07:00",
-      "next_scan_at": "2026-07-26T15:46:47.485530+07:00",
+      "kickoff_iso": "2026-07-26T17:30:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-07-26T15:31:35.392637+07:00",
+      "next_scan_at": "2026-07-26T15:51:35.392637+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
     },
-    "999276": {
-      "url": "https://live04.chuoichientv.me/live/999276/turkey-w-vs-brazil-w",
-      "match_name": "turkey w vs brazil w",
+    "1507015": {
+      "url": "https://live04.chuoichientv.me/live/1507015/fc-seoul-vs-ulsan-hyundai-fc",
+      "match_name": "fc seoul vs ulsan hyundai fc",
+      "kickoff_iso": "2026-07-26T17:30:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-07-26T15:31:35.392637+07:00",
+      "next_scan_at": "2026-07-26T15:51:35.392637+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1523215": {
+      "url": "https://live04.chuoichientv.me/live/1523215/yunnan-yukun-vs-sichuan-jiuniu",
+      "match_name": "yunnan yukun vs sichuan jiuniu",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-26T15:01:47.485530+07:00",
-      "next_scan_at": "2026-07-26T15:11:47.485530+07:00",
+      "last_scan_at": "2026-07-26T15:31:35.392637+07:00",
+      "next_scan_at": "2026-07-26T15:41:35.392637+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
+    },
+    "999276": {
+      "url": "https://live04.chuoichientv.me/live/999276/turkey-w-vs-brazil-w",
+      "match_name": "turkey w vs brazil w",
+      "kickoff_iso": "2026-07-26T18:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-07-26T15:31:35.392637+07:00",
+      "next_scan_at": "2026-07-26T16:16:35.392637+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     },
     "1523216": {
       "url": "https://live04.chuoichientv.me/live/1523216/chengdu-better-city-vs-beijing-guoan",
       "match_name": "chengdu better city vs beijing guoan",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-26T15:01:47.485530+07:00",
-      "next_scan_at": "2026-07-26T15:11:47.485530+07:00",
+      "last_scan_at": "2026-07-26T15:31:35.392637+07:00",
+      "next_scan_at": "2026-07-26T15:41:35.392637+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -696,8 +682,8 @@
       "match_name": "hangzhou greentown vs dalian zhixing",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-26T15:01:47.485530+07:00",
-      "next_scan_at": "2026-07-26T15:11:47.485530+07:00",
+      "last_scan_at": "2026-07-26T15:31:35.392637+07:00",
+      "next_scan_at": "2026-07-26T15:41:35.392637+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -708,8 +694,8 @@
       "match_name": "persebaya surabaya vs persija",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-26T15:01:47.485530+07:00",
-      "next_scan_at": "2026-07-26T15:11:47.485530+07:00",
+      "last_scan_at": "2026-07-26T15:31:35.392637+07:00",
+      "next_scan_at": "2026-07-26T15:41:35.392637+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
