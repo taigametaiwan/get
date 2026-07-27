@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-27T22:06:29.634834+07:00",
+  "updated_at": "2026-07-27T22:34:53.135490+07:00",
   "matches": {
-    "715557": {
-      "url": "https://phaohoa1.live/truc-tiep/kalmar-vs-mjallby-25-07-2026-715557",
-      "match_name": "Kalmar vs Mjallby",
-      "kickoff_iso": "2026-07-25T22:30:00+07:00",
-      "minutes_to_kickoff": -97,
-      "last_scan_at": "2026-07-26T00:07:48.246773+07:00",
-      "next_scan_at": "2026-07-26T00:12:48.246773+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "767892": {
       "url": "https://phaohoa1.live/truc-tiep/wolves-vs-real-sociedad-25-07-2026-767892",
       "match_name": "Wolves vs Real Sociedad",
@@ -311,9 +297,9 @@
       "url": "https://phaohoa1.live/truc-tiep/lok-tashkent-vs-sogdiana-27-07-2026-736649",
       "match_name": "Lok. Tashkent vs Sogdiana",
       "kickoff_iso": "2026-07-27T22:00:00+07:00",
-      "minutes_to_kickoff": -5,
-      "last_scan_at": "2026-07-27T22:06:29.634570+07:00",
-      "next_scan_at": "2026-07-27T22:11:29.634570+07:00",
+      "minutes_to_kickoff": -34,
+      "last_scan_at": "2026-07-27T22:34:53.135272+07:00",
+      "next_scan_at": "2026-07-27T22:39:53.135272+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -325,9 +311,9 @@
       "url": "https://phaohoa1.live/truc-tiep/cfr-cluj-vs-fc-voluntari-27-07-2026-774982",
       "match_name": "Cfr Cluj vs FC Voluntari",
       "kickoff_iso": "2026-07-27T22:30:00+07:00",
-      "minutes_to_kickoff": 24,
-      "last_scan_at": "2026-07-27T22:06:29.634570+07:00",
-      "next_scan_at": "2026-07-27T22:11:29.634570+07:00",
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-07-27T22:34:53.135272+07:00",
+      "next_scan_at": "2026-07-27T22:39:53.135272+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -339,21 +325,35 @@
       "url": "https://phaohoa1.live/truc-tiep/artis-brno-vs-mlada-boleslav-27-07-2026-781988",
       "match_name": "27-07 Czech Liga Artis Brno VS Mlada Boleslav Pháo Thủ",
       "kickoff_iso": "2026-07-27T23:00:00+07:00",
-      "minutes_to_kickoff": 54,
-      "last_scan_at": "2026-07-27T22:06:29.634570+07:00",
-      "next_scan_at": "2026-07-27T22:26:29.634570+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-07-27T22:34:53.135272+07:00",
+      "next_scan_at": "2026-07-27T22:39:53.135272+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     },
     "715556": {
       "url": "https://phaohoa1.live/truc-tiep/hacken-vs-aik-28-07-2026-715556",
       "match_name": "28-07 Allsvenskan Hacken VS AIK Kevin",
       "kickoff_iso": "2026-07-28T00:00:00+07:00",
-      "minutes_to_kickoff": 115,
-      "last_scan_at": "2026-07-27T22:06:29.634570+07:00",
-      "next_scan_at": "2026-07-27T22:26:29.634570+07:00",
+      "minutes_to_kickoff": 85,
+      "last_scan_at": "2026-07-27T22:34:53.135272+07:00",
+      "next_scan_at": "2026-07-27T22:54:53.135272+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "774498": {
+      "url": "https://phaohoa1.live/truc-tiep/cska-sofia-vs-botev-plovdiv-28-07-2026-774498",
+      "match_name": "28-07 First League CSKA Sofia VS Botev Plovdiv Pháo Thủ",
+      "kickoff_iso": "2026-07-28T01:15:00+07:00",
+      "minutes_to_kickoff": 161,
+      "last_scan_at": "2026-07-27T22:34:53.135272+07:00",
+      "next_scan_at": "2026-07-27T23:19:53.135272+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
