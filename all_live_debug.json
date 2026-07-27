@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-07-27T08:34:51.974250+07:00",
+  "generated_at": "2026-07-27T09:04:47.271073+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -19,13 +19,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 9,
-      "playlist_blocks": 2,
+      "playlist_blocks": 1,
       "catalog_placeholders": 0,
       "metadata_references": 9,
       "included": true,
-      "fresh_stream_blocks": 2,
-      "fresh_verified_blocks": 2,
-      "fresh_selected": 2,
+      "fresh_stream_blocks": 1,
+      "fresh_verified_blocks": 1,
+      "fresh_selected": 1,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -38,15 +38,15 @@
       "label": "Lương Sơn",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 51,
-      "playlist_blocks": 8,
+      "debug_rows": 48,
+      "playlist_blocks": 6,
       "catalog_placeholders": 0,
-      "metadata_references": 44,
+      "metadata_references": 42,
       "included": true,
-      "fresh_stream_blocks": 8,
-      "fresh_verified_blocks": 8,
-      "fresh_selected": 0,
-      "fresh_explicitly_dropped": 8,
+      "fresh_stream_blocks": 6,
+      "fresh_verified_blocks": 6,
+      "fresh_selected": 2,
+      "fresh_explicitly_dropped": 4,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
       "unresolved": 0,
@@ -78,14 +78,14 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 53,
-      "playlist_blocks": 10,
+      "debug_rows": 52,
+      "playlist_blocks": 9,
       "catalog_placeholders": 0,
-      "metadata_references": 53,
+      "metadata_references": 52,
       "included": true,
-      "fresh_stream_blocks": 10,
-      "fresh_verified_blocks": 10,
-      "fresh_selected": 10,
+      "fresh_stream_blocks": 9,
+      "fresh_verified_blocks": 9,
+      "fresh_selected": 9,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -118,11 +118,11 @@
       "label": "Pháo Hoa TV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 0,
-      "playlist_blocks": 0,
+      "debug_rows": 18,
+      "playlist_blocks": 18,
       "catalog_placeholders": 0,
-      "metadata_references": 0,
-      "included": false,
+      "metadata_references": 17,
+      "included": true,
       "fresh_stream_blocks": 0,
       "fresh_verified_blocks": 0,
       "fresh_selected": 0,
@@ -134,37 +134,22 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 27,
-  "metadata_reference_count": 178,
+  "input_candidates": 41,
+  "metadata_reference_count": 192,
   "last_good_recovered_count": 1,
-  "last_good_suppressed_by_fresh_count": 12,
+  "last_good_suppressed_by_fresh_count": 13,
   "last_good_audit": [
     {
-      "url": "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "chuoichien",
-      "kickoff_iso": "2026-07-27T06:00:00+07:00",
-      "minutes_to_kickoff": -154.87,
-      "filtered_before_probe": true
+      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "chuoichien"
     },
     {
-      "url": "https://hls.lauthaitv.cc/live/necaxa-monterry-mexliga/index.m3u8",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "gavang",
-      "kickoff_iso": "2026-07-27T06:00:00+07:00",
-      "minutes_to_kickoff": -154.87,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel6.flv?auth_key=3000001785114338-0-0-e34f6244f3a0c973a926fa09b44192c7",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-07-27T06:00:00+07:00",
-      "minutes_to_kickoff": -154.87,
-      "filtered_before_probe": true
+      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
     },
     {
       "url": "https://live2.streambylivepulse.com/live/channel16.flv",
@@ -173,13 +158,7 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel13.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel32.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -197,52 +176,10 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785114242-0-0-25bb8066626fb259b9669484e7ec0070",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785114354-0-0-99844f246bdb26f9f8b40f7315d7076a",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/41943555.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/75748097.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/75915087.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://video.gvvsb.com/hls/output_v1.m3u8",
+      "url": "https://hls.lauthaitv.cc/live/caldas-cucuta-cateprima/index.m3u8",
       "kept": true,
       "reason": "HTTP 206; m3u8=True",
-      "source": "colatv"
+      "source": "gavang"
     },
     {
       "url": "https://hls.lauthaitv.cc/live/pachuca-quere-mexliga/index.m3u8",
@@ -251,31 +188,79 @@
       "source": "gavang"
     },
     {
-      "url": "https://hls.lauthaitv.cc/live/caldas-cucuta-cateprima/index.m3u8",
+      "url": "https://live2.streambylivepulse.com/live/channel32.flv",
       "kept": true,
-      "reason": "HTTP 206; m3u8=True",
-      "source": "gavang"
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel9.flv",
+      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785116022-0-0-96372ac3733d34df4166fa0f6f93f075",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785115926-0-0-0a24ecfc4628b45b17f139b6d78ae915",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live05.meung.app/live/75748097.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/41943555.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
+      "kept": true,
+      "reason": "HTTP 206; m3u8=True",
+      "source": "chuoichien"
+    },
+    {
+      "url": "https://live05.meung.app/live/75915087.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/14707124.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel13.flv",
       "kept": false,
       "reason": "TimeoutError: The read operation timed out",
       "source": "xoilac"
     },
     {
+      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "chuoichien"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
       "url": "https://live2.streambylivepulse.com/live/channel16.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel13.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel32.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
@@ -293,25 +278,31 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
+      "url": "https://hls.lauthaitv.cc/live/caldas-cucuta-cateprima/index.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "gavang"
+    },
+    {
+      "url": "https://hls.lauthaitv.cc/live/pachuca-quere-mexliga/index.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "gavang"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel32.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/41943555.m3u8",
+      "url": "https://live05.meung.app/live/75748097.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/75748097.m3u8",
+      "url": "https://live05.meung.app/live/41943555.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
@@ -323,23 +314,17 @@
       "source": "colatv"
     },
     {
-      "url": "https://hls.lauthaitv.cc/live/pachuca-quere-mexliga/index.m3u8",
+      "url": "https://live05.meung.app/live/14707124.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
-      "source": "gavang"
-    },
-    {
-      "url": "https://hls.lauthaitv.cc/live/caldas-cucuta-cateprima/index.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "gavang"
+      "source": "colatv"
     }
   ],
   "selected_count": 17,
-  "dropped_count": 10,
+  "dropped_count": 24,
   "gavang_metadata": {
-    "enriched": 2,
-    "warn_only": 0,
+    "enriched": 1,
+    "warn_only": 1,
     "already_good": 0
   },
   "gavang_logo": {
@@ -352,8 +337,8 @@
       "source": "chuoichien",
       "source_label": "Chuối Chiên",
       "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
-      "match_key": "pachuca vs club queretaro|chuoi tay",
-      "display_name": "[08:06 27/07] Pachuca vs Club Queretaro - VĐQG Mexico [BLV Chuối Tây] [FHD FLV]",
+      "match_key": "pachuca vs club queretaro|",
+      "display_name": "[08:06 27/07] Pachuca vs Club Queretaro - VĐQG Mexico [FHD FLV]",
       "group": "Chuối Chiên",
       "sport_group": "Bóng đá",
       "quality": "FHD",
@@ -367,12 +352,12 @@
       "pending_reason": null,
       "score": 466,
       "kickoff_iso": "2026-07-27T08:06:00+07:00",
-      "minutes_to_kickoff": -28.87,
+      "minutes_to_kickoff": -58.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
       "stream_key_tokens": null,
-      "logo": "https://media.chuoichientv.net/media/uploads/20250623_131434_2bc770b2.png",
+      "logo": "https://media.chuoichientv.net/media/uploads/20250623_133839_2ee7b0dd.png",
       "logo_source": null,
       "logo_enriched_from": null,
       "logo_is_fallback": null,
@@ -380,7 +365,7 @@
       "page_url": "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Chuối Tây",
+      "blv": "",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -395,7 +380,7 @@
       "match_key": "pachuca vs club queretaro|chuoi tay",
       "display_name": "[08:06 27/07] Pachuca vs Club Queretaro - VĐQG Mexico [BLV Chuối Tây] (Luồng 2) [M3U8]",
       "group": "Chuối Chiên",
-      "sport_group": "Bóng đá",
+      "sport_group": "Chuối Chiên",
       "quality": "UNKNOWN",
       "kind": "m3u8",
       "playability": "verified",
@@ -405,9 +390,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 439,
+      "score": 385,
       "kickoff_iso": "2026-07-27T08:06:00+07:00",
-      "minutes_to_kickoff": -28.87,
+      "minutes_to_kickoff": -58.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -421,20 +406,20 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "Chuối Tây",
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 206; m3u8=True",
+      "prior_generated_at": "2026-07-27T08:34:51.974250+07:00"
     },
     {
-      "source": "gavang",
-      "source_label": "Gà Vàng",
-      "url": "https://hls.lauthaitv.cc/live/pachuca-quere-mexliga/index.m3u8",
-      "match_key": "mex liga mx pachuca vs queretaro fc|nguoi sat",
-      "display_name": "[08:00 27/07] MEX Liga MX - Pachuca VS Queretaro FC [BLV NGƯỜI SẮT] [M3U8]",
-      "group": "Gà Vàng",
+      "source": "luongson",
+      "source_label": "Lương Sơn",
+      "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6",
+      "match_key": "pachuca vs queretaro fc|kaka",
+      "display_name": "[27/07/2026 08:00] PACHUCA vs QUERETARO FC [BLV Kaka] [M3U8]",
+      "group": "Lương Sơn",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
       "kind": "m3u8",
@@ -445,26 +430,62 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 431,
+      "score": 439,
       "kickoff_iso": "2026-07-27T08:00:00+07:00",
-      "minutes_to_kickoff": -34.87,
-      "metadata_audit": "enriched-soft",
-      "metadata_enriched_from": "luongson",
+      "minutes_to_kickoff": -64.79,
+      "metadata_audit": null,
+      "metadata_enriched_from": null,
       "metadata_warning": null,
-      "stream_key_tokens": [
-        "pachuca",
-        "quere",
-        "mexliga"
-      ],
-      "logo": "https://media.chuoichientv.net/media/uploads/20250623_131434_2bc770b2.png",
-      "logo_source": "team-from-chuoichien",
-      "logo_enriched_from": "chuoichien",
-      "logo_is_fallback": false,
+      "stream_key_tokens": null,
+      "logo": "https://cdn-img.cdnokvip.com/logos/1151_1gv1ymnzhj3.png",
+      "logo_source": null,
+      "logo_enriched_from": null,
+      "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://hls.lauthaitv.cc/live/pachuca-quere-mexliga/index.m3u8",
-      "home_logo": null,
-      "away_logo": null,
-      "blv": "NGƯỜI SẮT",
+      "page_url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6",
+      "home_logo": "https://cdn-img.cdnokvip.com/logos/1151_1gv1ymnzhj3.png",
+      "away_logo": "https://cdn-img.cdnokvip.com/logos/3762_1j3vezbrp36.png",
+      "blv": "Kaka",
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
+    },
+    {
+      "source": "luongson",
+      "source_label": "Lương Sơn",
+      "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1",
+      "match_key": "deportiva once caldas vs cucuta|luu bi",
+      "display_name": "[27/07/2026 08:15] DEPORTIVA ONCE CALDAS vs CUCUTA [BLV LƯU BỊ] [M3U8]",
+      "group": "Lương Sơn",
+      "sport_group": "Bóng đá",
+      "quality": "UNKNOWN",
+      "kind": "m3u8",
+      "playability": "verified",
+      "classification": null,
+      "classification_reason": null,
+      "has_secret": false,
+      "expiry": null,
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 439,
+      "kickoff_iso": "2026-07-27T08:15:00+07:00",
+      "minutes_to_kickoff": -49.79,
+      "metadata_audit": null,
+      "metadata_enriched_from": null,
+      "metadata_warning": null,
+      "stream_key_tokens": null,
+      "logo": "https://cdn-img.cdnokvip.com/logos/1834_1hr8p9dqjb11.png",
+      "logo_source": null,
+      "logo_enriched_from": null,
+      "logo_is_fallback": null,
+      "entry_mode": "stream",
+      "page_url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1",
+      "home_logo": "https://cdn-img.cdnokvip.com/logos/1834_1hr8p9dqjb11.png",
+      "away_logo": "https://cdn-img.cdnokvip.com/logos/3312_1gran870jt2f.png",
+      "blv": "LƯU BỊ",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -491,7 +512,7 @@
       "pending_reason": null,
       "score": 431,
       "kickoff_iso": "2026-07-27T08:15:00+07:00",
-      "minutes_to_kickoff": -19.87,
+      "minutes_to_kickoff": -49.79,
       "metadata_audit": "enriched-soft",
       "metadata_enriched_from": "luongson",
       "metadata_warning": null,
@@ -509,6 +530,50 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "NGƯỜI CHÈ",
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
+    },
+    {
+      "source": "gavang",
+      "source_label": "Gà Vàng",
+      "url": "https://hls.lauthaitv.cc/live/pachuca-quere-mexliga/index.m3u8",
+      "match_key": "mex liga mx pachuca vs queretaro fc|nguoi sat",
+      "display_name": "[CHƯA CÓ GIỜ 27/07] MEX Liga MX - Pachuca VS Queretaro FC [BLV NGƯỜI SẮT] [M3U8]",
+      "group": "Gà Vàng",
+      "sport_group": "Bóng đá",
+      "quality": "UNKNOWN",
+      "kind": "m3u8",
+      "playability": "verified",
+      "classification": null,
+      "classification_reason": null,
+      "has_secret": false,
+      "expiry": null,
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 431,
+      "kickoff_iso": null,
+      "minutes_to_kickoff": null,
+      "metadata_audit": "warn-only",
+      "metadata_enriched_from": null,
+      "metadata_warning": "Không tìm được lịch/tên đối chiếu đủ tin cậy từ nguồn khác; stream verified/pending vẫn được giữ",
+      "stream_key_tokens": [
+        "pachuca",
+        "quere",
+        "mexliga"
+      ],
+      "logo": "https://media.chuoichientv.net/media/uploads/20250623_131434_2bc770b2.png",
+      "logo_source": "team-from-chuoichien",
+      "logo_enriched_from": "chuoichien",
+      "logo_is_fallback": false,
+      "entry_mode": "stream",
+      "page_url": "https://hls.lauthaitv.cc/live/pachuca-quere-mexliga/index.m3u8",
+      "home_logo": null,
+      "away_logo": null,
+      "blv": "NGƯỜI SẮT",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -540,7 +605,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-27T07:00:00+07:00",
-      "minutes_to_kickoff": -94.87,
+      "minutes_to_kickoff": -124.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -564,53 +629,8 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streambylivepulse.com/live/channel13.flv",
-      "match_key": "dep garcilaso vs fc cajamarca|hd xmen",
-      "display_name": "[07:00 27/07/2026] Dep Garcilaso vs Fc Cajamarca [BLV HD XMEN] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "VĐQG Peru",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 456,
-      "kickoff_iso": "2026-07-27T07:00:00+07:00",
-      "minutes_to_kickoff": -94.87,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh5ylomd7o/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live2.streambylivepulse.com/live/channel13.flv",
-      "home_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh5ylomd7o/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hol1pqdyj/image/small",
-      "blv": null,
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
       "url": "https://live2.streambylivepulse.com/live/channel7.flv",
-      "match_key": "barcelona sc vs ldu quito|hd jean",
+      "match_key": "d concepcion vs o higgins|hd jean",
       "display_name": "[07:15 27/07/2026] Barcelona Sc vs Ldu Quito [BLV HD JEAN] [FLV]",
       "group": "Xôi Lạc",
       "sport_group": "VĐQG Ecuador",
@@ -629,8 +649,8 @@
       "derived_pending": false,
       "pending_reason": null,
       "score": 456,
-      "kickoff_iso": "2026-07-27T07:15:00+07:00",
-      "minutes_to_kickoff": -79.87,
+      "kickoff_iso": "2026-07-27T07:30:00+07:00",
+      "minutes_to_kickoff": -94.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -641,8 +661,8 @@
       "logo_is_fallback": null,
       "entry_mode": "stream",
       "page_url": "https://live2.streambylivepulse.com/live/channel7.flv",
-      "home_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh4gvnr6od/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hd49q0j6/image/small",
+      "home_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7ph1jem2wd/image/small",
+      "away_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whkegeryox/image/small",
       "blv": null,
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
@@ -675,7 +695,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-27T07:30:00+07:00",
-      "minutes_to_kickoff": -64.87,
+      "minutes_to_kickoff": -94.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -720,7 +740,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-27T08:00:00+07:00",
-      "minutes_to_kickoff": -34.87,
+      "minutes_to_kickoff": -64.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -765,7 +785,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-27T08:06:00+07:00",
-      "minutes_to_kickoff": -28.87,
+      "minutes_to_kickoff": -58.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -810,7 +830,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-27T08:15:00+07:00",
-      "minutes_to_kickoff": -19.87,
+      "minutes_to_kickoff": -49.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -834,7 +854,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785116022-0-0-96372ac3733d34df4166fa0f6f93f075",
+      "url": "https://live2.streambylivepulse.com/live/channel14.flv",
       "match_key": "tacoma defiance vs colorado rapids ii|hd hiro",
       "display_name": "[09:00 27/07/2026] Tacoma Defiance vs Colorado Rapids Ii [BLV HD HIRO] [FLV]",
       "group": "Xôi Lạc",
@@ -855,7 +875,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-27T09:00:00+07:00",
-      "minutes_to_kickoff": 25.13,
+      "minutes_to_kickoff": -4.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -865,54 +885,9 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785116022-0-0-96372ac3733d34df4166fa0f6f93f075",
+      "page_url": "https://live2.streambylivepulse.com/live/channel14.flv",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdeh4xw7r510/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hzwzkqdyj/image/small",
-      "blv": null,
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785115926-0-0-0a24ecfc4628b45b17f139b6d78ae915",
-      "match_key": "alex hernandez vs alan magadan|hd vic",
-      "display_name": "Mexico Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fgdder1zp/image/small\",[09:10 27/07/2026] Alex Hernandez vs Alan Magadan [BLV HD VIC] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "ATP Los Cabos, Mexico Men Singles",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 456,
-      "kickoff_iso": "2026-07-27T09:10:00+07:00",
-      "minutes_to_kickoff": 35.13,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fgdder1zp/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785115926-0-0-0a24ecfc4628b45b17f139b6d78ae915",
-      "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fgdder1zp/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/pxwrxjfzenkmyk0/image/small",
       "blv": null,
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
@@ -940,7 +915,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-07-27T07:30:00+07:00",
-      "minutes_to_kickoff": -64.87,
+      "minutes_to_kickoff": -94.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -980,7 +955,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-07-27T08:06:00+07:00",
-      "minutes_to_kickoff": -28.87,
+      "minutes_to_kickoff": -58.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1005,8 +980,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/75915087.m3u8",
-      "match_key": "deportiva once caldas vs cucuta deportivo|monster ang xem",
-      "display_name": "[08:15 27/07] Deportiva Once Caldas vs Cucuta Deportivo [BLV MONSTERĐang xem] [M3U8]",
+      "match_key": "once caldas vs cucuta|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[08:15 27/07] Once Caldas vs Cucuta [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -1020,7 +995,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-07-27T08:15:00+07:00",
-      "minutes_to_kickoff": -19.87,
+      "minutes_to_kickoff": -49.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1033,7 +1008,7 @@
       "page_url": "https://live05.meung.app/live/75915087.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "MONSTERĐang xem",
+      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1060,7 +1035,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-07-27T09:00:00+07:00",
-      "minutes_to_kickoff": 25.13,
+      "minutes_to_kickoff": -4.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1086,50 +1061,14 @@
     {
       "source": "chuoichien",
       "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
-      "display_name": "[08:06 27/07] Pachuca vs Club Queretaro - VĐQG Mexico [BLV Chuối Tây] [FHD FLV]",
-      "match_key": "pachuca vs club queretaro|chuoi tay",
+      "display_name": "[08:06 27/07] Pachuca vs Club Queretaro - VĐQG Mexico [FHD FLV]",
+      "match_key": "pachuca vs club queretaro|",
       "quality": "FHD",
       "playability": "verified",
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "decision": "selected-fresh",
       "reason": "selected"
-    },
-    {
-      "source": "chuoichien",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-      "display_name": "[08:06 27/07] Pachuca vs Club Queretaro - VĐQG Mexico [BLV Chuối Tây] (Luồng 2) [M3U8]",
-      "match_key": "pachuca vs club queretaro|chuoi tay",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "luongson",
-      "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6",
-      "display_name": "[27/07/2026 07:00] DEPORTIVO GARCILASO vs FC CAJAMARCA [BLV Heineken] [M3U8]",
-      "match_key": "deportivo garcilaso vs fc cajamarca|heineken",
-      "quality": "UNKNOWN",
-      "playability": "browser-observed",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "dropped-explicitly",
-      "reason": "not-verified-or-not-upcoming"
-    },
-    {
-      "source": "luongson",
-      "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5",
-      "display_name": "[27/07/2026 07:15] BARCELONA SC(ECU) vs LIGA DEP. UNIVERSITARIA QUITO [BLV NGƯỜI THÉP] [M3U8]",
-      "match_key": "barcelona sc ecu vs liga dep universitaria quito|nguoi thep",
-      "quality": "UNKNOWN",
-      "playability": "browser-observed",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "dropped-explicitly",
-      "reason": "not-verified-or-not-upcoming"
     },
     {
       "source": "luongson",
@@ -1173,11 +1112,11 @@
       "display_name": "[27/07/2026 08:00] PACHUCA vs QUERETARO FC [BLV Kaka] [M3U8]",
       "match_key": "pachuca vs queretaro fc|kaka",
       "quality": "UNKNOWN",
-      "playability": "browser-observed",
+      "playability": "verified",
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "decision": "dropped-explicitly",
-      "reason": "not-verified-or-not-upcoming"
+      "decision": "selected-fresh",
+      "reason": "selected"
     },
     {
       "source": "luongson",
@@ -1185,11 +1124,11 @@
       "display_name": "[27/07/2026 08:15] DEPORTIVA ONCE CALDAS vs CUCUTA [BLV LƯU BỊ] [M3U8]",
       "match_key": "deportiva once caldas vs cucuta|luu bi",
       "quality": "UNKNOWN",
-      "playability": "browser-observed",
+      "playability": "verified",
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "decision": "dropped-explicitly",
-      "reason": "not-verified-or-not-upcoming"
+      "decision": "selected-fresh",
+      "reason": "selected"
     },
     {
       "source": "luongson",
@@ -1218,9 +1157,21 @@
     {
       "source": "gavang",
       "url": "https://hls.lauthaitv.cc/live/pachuca-quere-mexliga/index.m3u8",
-      "display_name": "[08:00 27/07] MEX Liga MX - Pachuca VS Queretaro FC [BLV NGƯỜI SẮT] [M3U8]",
+      "display_name": "[CHƯA CÓ GIỜ 27/07] MEX Liga MX - Pachuca VS Queretaro FC [BLV NGƯỜI SẮT] [M3U8]",
       "match_key": "mex liga mx pachuca vs queretaro fc|nguoi sat",
       "quality": "UNKNOWN",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel14.flv",
+      "display_name": "[09:00 27/07/2026] Tacoma Defiance vs Colorado Rapids Ii [BLV HD HIRO] [FLV]",
+      "match_key": "tacoma defiance vs colorado rapids ii|hd hiro",
+      "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
@@ -1232,6 +1183,66 @@
       "url": "https://live2.streambylivepulse.com/live/channel4.flv",
       "display_name": "[08:15 27/07/2026] Once Caldas vs Cucuta Deportivo [BLV HD TOM] [FLV]",
       "match_key": "once caldas vs cucuta deportivo|hd tom",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel32.flv",
+      "display_name": "Mexico Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/dn1m12f3p1jqoep/image/small\",[08:00 27/07/2026] Kwon Soon Woo vs Edward Winter [BLV HD VIC] [FLV]",
+      "match_key": "kwon soon woo vs edward winter|hd vic",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
+      "display_name": "[07:30 27/07/2026] D Concepcion vs O Higgins [FLV]",
+      "match_key": "d concepcion vs o higgins|",
+      "quality": "UNKNOWN",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel16.flv",
+      "display_name": "[07:30 27/07/2026] Nu Club America vs Nu Tigres [BLV HD RIO] [FLV]",
+      "match_key": "nu club america vs nu tigres|hd rio",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
+      "display_name": "[07:15 27/07/2026] Barcelona Sc vs Ldu Quito [BLV HD JEAN] [FLV]",
+      "match_key": "d concepcion vs o higgins|hd jean",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
+      "display_name": "[07:00 27/07/2026] Criollos De Caguas vs Baamon Cattle Herder [BLV HD STEP] [FLV]",
+      "match_key": "criollos de caguas vs baamon cattle herder|hd step",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1254,92 +1265,8 @@
     {
       "source": "xoilac",
       "url": "https://live2.streambylivepulse.com/live/channel32.flv",
-      "display_name": "Mexico Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/dn1m12f3p1jqoep/image/small\",[08:00 27/07/2026] Kwon Soon Woo vs Edward Winter [BLV HD VIC] [FLV]",
-      "match_key": "kwon soon woo vs edward winter|hd vic",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785115926-0-0-0a24ecfc4628b45b17f139b6d78ae915",
       "display_name": "Mexico Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fgdder1zp/image/small\",[09:10 27/07/2026] Alex Hernandez vs Alan Magadan [BLV HD VIC] [FLV]",
-      "match_key": "alex hernandez vs alan magadan|hd vic",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
-      "display_name": "[07:15 27/07/2026] Barcelona Sc vs Ldu Quito [BLV HD JEAN] [FLV]",
-      "match_key": "barcelona sc vs ldu quito|hd jean",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
-      "display_name": "[07:00 27/07/2026] Criollos De Caguas vs Baamon Cattle Herder [BLV HD STEP] [FLV]",
-      "match_key": "criollos de caguas vs baamon cattle herder|hd step",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel13.flv",
-      "display_name": "[07:00 27/07/2026] Dep Garcilaso vs Fc Cajamarca [BLV HD XMEN] [FLV]",
-      "match_key": "dep garcilaso vs fc cajamarca|hd xmen",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
-      "display_name": "[07:30 27/07/2026] D Concepcion vs O Higgins [FLV]",
-      "match_key": "barcelona sc vs ldu quito|",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel16.flv",
-      "display_name": "[07:30 27/07/2026] Nu Club America vs Nu Tigres [BLV HD RIO] [FLV]",
-      "match_key": "nu club america vs nu tigres|hd rio",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785116022-0-0-96372ac3733d34df4166fa0f6f93f075",
-      "display_name": "[09:00 27/07/2026] Tacoma Defiance vs Colorado Rapids Ii [BLV HD HIRO] [FLV]",
-      "match_key": "tacoma defiance vs colorado rapids ii|hd hiro",
+      "match_key": "kwon soon woo vs edward winter|hd vic",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1374,8 +1301,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/75915087.m3u8",
-      "display_name": "[08:15 27/07] Deportiva Once Caldas vs Cucuta Deportivo [BLV MONSTERĐang xem] [M3U8]",
-      "match_key": "deportiva once caldas vs cucuta deportivo|monster ang xem",
+      "display_name": "[08:15 27/07] Once Caldas vs Cucuta [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "once caldas vs cucuta|lich thi au cuoc vsbet tai app ta",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1399,16 +1326,6 @@
   "fresh_preservation_ok": true,
   "dropped": [
     {
-      "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "luongson"
-    },
-    {
-      "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "luongson"
-    },
-    {
       "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582",
       "reason": "not-verified-or-not-upcoming",
       "source": "luongson"
@@ -1420,16 +1337,6 @@
     },
     {
       "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "luongson"
-    },
-    {
-      "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "luongson"
-    },
-    {
-      "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1",
       "reason": "not-verified-or-not-upcoming",
       "source": "luongson"
     },
@@ -1447,10 +1354,102 @@
       "dropped_score": 436
     },
     {
-      "url": "https://video.gvvsb.com/hls/output_v1.m3u8",
-      "reason": "duplicate-quality-UNKNOWN",
-      "source": "colatv",
-      "match_key": "tacoma defiance vs colorado rapids ii|sting ang xem"
+      "url": "https://live2.streambylivepulse.com/live/channel32.flv",
+      "reason": "duplicate-url-lower-score",
+      "source": "xoilac",
+      "selected_source": "xoilac",
+      "selected_score": 456,
+      "dropped_score": 456
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791558.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791559.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/152523.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/736649.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/774982.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/781988.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/715556.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/774498.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/821374.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/712690.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791560.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791561.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/776463.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/736651.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/776464.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/770558.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/770478.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/870f7a34fe46.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
     }
   ],
   "outputs_written": true
