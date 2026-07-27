@@ -1,20 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-27T16:33:28.241915+07:00",
+  "updated_at": "2026-07-27T17:04:54.696732+07:00",
   "matches": {
-    "791556": {
-      "url": "https://phaohoa1.live/truc-tiep/myanmar-vs-malaysia-25-07-2026-791556",
-      "match_name": "Myanmar vs Malaysia",
-      "kickoff_iso": "2026-07-25T17:00:00+07:00",
-      "minutes_to_kickoff": -95,
-      "last_scan_at": "2026-07-25T18:36:09.767127+07:00",
-      "next_scan_at": "2026-07-25T18:41:09.767127+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "774339": {
       "url": "https://phaohoa1.live/truc-tiep/dusseldorf-vs-dortmund-25-07-2026-774339",
       "match_name": "Dusseldorf vs Dortmund",
@@ -389,13 +377,25 @@
       "url": "https://phaohoa1.live/truc-tiep/singapore-vs-timor-leste-27-07-2026-791558",
       "match_name": "27-07 ASEAN Championship Singapore VS Timor-Leste Dế Lửa",
       "kickoff_iso": "2026-07-27T18:00:00+07:00",
-      "minutes_to_kickoff": 87,
-      "last_scan_at": "2026-07-27T16:33:28.241847+07:00",
-      "next_scan_at": "2026-07-27T16:53:28.241847+07:00",
+      "minutes_to_kickoff": 55,
+      "last_scan_at": "2026-07-27T17:04:54.696612+07:00",
+      "next_scan_at": "2026-07-27T17:24:54.696612+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "870f7a34fe46": {
+      "url": "https://phaohoa1.live/truc-tiep/u18-hoa-chat-duc-giang-vs-u18-binh-chung-thong-tin",
+      "match_name": "27-07 U18 Việt Nam Hóa Chất Đức Giang VS Binh Chủng Thông Tin KaKa",
+      "kickoff_iso": "2026-07-27T20:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-07-27T17:04:54.696612+07:00",
+      "next_scan_at": "2026-07-27T17:49:54.696612+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
