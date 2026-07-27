@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-28T03:31:24.172467+07:00",
+  "updated_at": "2026-07-28T04:01:36.334288+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -549,9 +549,9 @@
       "url": "https://live04.chuoichientv.me/live/1508819/ka-akureyri-vs-thor-akureyri",
       "match_name": "KA Akureyri vs Thor Akureyri - Úrvalsdeild",
       "kickoff_iso": "2026-07-28T02:15:00+07:00",
-      "minutes_to_kickoff": -76,
-      "last_scan_at": "2026-07-28T03:31:24.172415+07:00",
-      "next_scan_at": "2026-07-28T03:36:24.172415+07:00",
+      "minutes_to_kickoff": -106,
+      "last_scan_at": "2026-07-28T04:01:36.334221+07:00",
+      "next_scan_at": "2026-07-28T04:06:36.334221+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -563,14 +563,14 @@
     "1505474": {
       "url": "https://live04.chuoichientv.me/live/1505474/union-la-calera-vs-everton",
       "match_name": "union la calera vs everton",
-      "kickoff_iso": "2026-07-28T06:00:00+07:00",
-      "minutes_to_kickoff": 149,
-      "last_scan_at": "2026-07-28T03:31:24.172415+07:00",
-      "next_scan_at": "2026-07-28T04:16:24.172415+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-28T04:01:36.334221+07:00",
+      "next_scan_at": "2026-07-28T04:11:36.334221+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     }
   }
 }
