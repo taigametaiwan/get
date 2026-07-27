@@ -1,42 +1,28 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-1508819-1" tvg-name="[02:15 28/07] KA Akureyri vs Thor Akureyri - Úrvalsdeild [BLV Chuối To]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133816_0134902e.png",[02:15 28/07] KA Akureyri vs Thor Akureyri - Úrvalsdeild [BLV Chuối To] [FHD FLV]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://gckc0525.edgemaxcdn.org/live/chuoito.flv
-#EXTINF:-1 tvg-id="chuoichien-1508819-2" tvg-name="[02:15 28/07] KA Akureyri vs Thor Akureyri - Úrvalsdeild [BLV Chuối To]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133816_0134902e.png",[02:15 28/07] KA Akureyri vs Thor Akureyri - Úrvalsdeild [BLV Chuối To] (Luồng 2) [M3U8]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
-#EXTINF:-1 tvg-id="hygenie-ee3007ae58e9-379-1" tvg-name="[28/07/2026 04:30] GUAYAQUIL CITY vs UNIVERSIDAD CATOLICA [BLV Heineken]" group-title="Lương Sơn" tvg-logo="https://cdn-img.cdnokvip.com/logos/21673_1gt31t5xqg20.png",[28/07/2026 04:30] GUAYAQUIL CITY vs UNIVERSIDAD CATOLICA [BLV Heineken] [M3U8]
+#EXTINF:-1 tvg-id="hygenie-8164d2d6cf94-292-1" tvg-name="[28/07/2026 03:00] IVORY COAST (W) vs BURKINA FASO (W) [BLV LÝ ỨNG]" group-title="Lương Sơn" tvg-logo="https://cdn-img.cdnokvip.com/logos/12499_1h5vq89w5s1j.png",[28/07/2026 03:00] IVORY COAST (W) vs BURKINA FASO (W) [BLV LÝ ỨNG] [M3U8]
 #EXTVLCOPT:http-referrer=https://magicbeast.io/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://magicbeast.io/","Origin":"https://magicbeast.io"}
-https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6
-#EXTINF:-1 tvg-id="gavang-2597-1" tvg-name="[CHƯA CÓ GIỜ 28/07] Liga Pro Serie A - Mushuc Runa VS Libertad FC [BLV NGƯỜI CÁO]" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-content/uploads/2026/04/logo-gavangtv.png",[CHƯA CÓ GIỜ 28/07] Liga Pro Serie A - Mushuc Runa VS Libertad FC [BLV NGƯỜI CÁO] [M3U8]
+https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d
+#EXTINF:-1 tvg-id="hygenie-080f61c54cf9-324-1" tvg-name="[28/07/2026 03:30] ENVIGADO FC vs REAL SOACHA CUNDINAMARCA [BLV LÝ QUỲ]" group-title="Lương Sơn" tvg-logo="https://cdn-img.cdnokvip.com/logos/2221_1hrk16e6c4v.png",[28/07/2026 03:30] ENVIGADO FC vs REAL SOACHA CUNDINAMARCA [BLV LÝ QUỲ] [M3U8]
+#EXTVLCOPT:http-referrer=https://magicbeast.io/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://magicbeast.io/","Origin":"https://magicbeast.io"}
+https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3
+#EXTINF:-1 tvg-id="gavang-2598-1" tvg-name="[04:30 28/07] GUAYAQUIL CITY vs UNIVERSIDAD CATOLICA" group-title="Gà Vàng" tvg-logo="https://cdn-img.cdnokvip.com/logos/21673_1gt31t5xqg20.png",[04:30 28/07] GUAYAQUIL CITY vs UNIVERSIDAD CATOLICA [M3U8]
+#EXTVLCOPT:http-referrer=https://profecta.io/s8-live/2598/guaya-ucatolica-ligapro/?s8_live_fixture_id=2598&s8_live_stream_key=guaya-ucatolica-ligapro&s8_auto_sound=1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2598/guaya-ucatolica-ligapro/?s8_live_fixture_id=2598&s8_live_stream_key=guaya-ucatolica-ligapro&s8_auto_sound=1","Origin":"https://profecta.io"}
+https://hls.lauthaitv.cc/live/guaya-ucatolica-ligapro/index.m3u8
+#EXTINF:-1 tvg-id="gavang-2597-1" tvg-name="[CHƯA CÓ GIỜ 28/07] Liga Pro Serie A - Mushuc Runa VS Libertad FC [BLV NGƯỜI CÁO] [M3U8]" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-content/uploads/2026/04/logo-gavangtv.png",[CHƯA CÓ GIỜ 28/07] Liga Pro Serie A - Mushuc Runa VS Libertad FC [BLV NGƯỜI CÁO] [M3U8] [M3U8]
 #EXTVLCOPT:http-referrer=https://profecta.io/s8-live/2597/mushuc-libertad-ligapro/?s8_live_fixture_id=2597&s8_live_stream_key=mushuc-libertad-ligapro&s8_auto_sound=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2597/mushuc-libertad-ligapro/?s8_live_fixture_id=2597&s8_live_stream_key=mushuc-libertad-ligapro&s8_auto_sound=1","Origin":"https://profecta.io"}
 https://hls.lauthaitv.cc/live/mushuc-libertad-ligapro/index.m3u8
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-taylor-fritz-vs-zizou-bergs-luc-0200-ngay-28-07-2026-s1-4" tvg-name="[02:00 28/07/2026] Taylor Fritz vs Zizou Bergs [BLV HD LUCAS] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/3glrw2fzpv6rdyj/image/small",[02:00 28/07/2026] Taylor Fritz vs Zizou Bergs [BLV HD LUCAS] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel31.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-ka-akureyri-vs-thor-akureyri-luc-0215-ngay-28-07-2026-s1-1" tvg-name="[02:15 28/07/2026] Ka Akureyri vs Thor Akureyri [BLV HD XMEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwj75qdyj/image/small",[02:15 28/07/2026] Ka Akureyri vs Thor Akureyri [BLV HD XMEN] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel13.flv
 #EXTINF:-1 tvg-id="xoilac--tiep-nu-bo-bien-nga-vs-nu-burkina-faso-luc-0300-ngay-28-07-2026-s1-2" tvg-name="[03:00 28/07/2026] Nu Bo Bien Nga vs Nu Burkina Faso [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghgjgor6od/image/small",[03:00 28/07/2026] Nu Bo Bien Nga vs Nu Burkina Faso [BLV HD BEE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
@@ -44,56 +30,56 @@ https://live2.streambylivepulse.com/live/channel13.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel8.flv
-#EXTINF:-1 tvg-id="xoilac--guayaquil-city-vs-universidad-catolica-luc-0430-ngay-28-07-2026-s1-3" tvg-name="[04:30 28/07/2026] Guayaquil City vs Universidad Catolica [BLV HD NEMO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghg4l1r6od/image/small",[04:30 28/07/2026] Guayaquil City vs Universidad Catolica [BLV HD NEMO] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel17/off-tvc
+#EXTINF:-1 tvg-id="xoilac--guayaquil-city-vs-universidad-catolica-luc-0430-ngay-28-07-2026-s1-1" tvg-name="[04:30 28/07/2026] Guayaquil City vs Universidad Catolica [BLV HD NEMO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghg4l1r6od/image/small",[04:30 28/07/2026] Guayaquil City vs Universidad Catolica [BLV HD NEMO] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel17/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel17.flv?auth_key=3000001785186293-0-0-c801137dd321216e8ca8f1bf7c602267
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-ec-bahia-vs-nu-botafogo-rj-luc-0500-ngay-28-07-2026-s1-4" tvg-name="[05:00 28/07/2026] Nu Ec Bahia vs Nu Botafogo Rj [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4hv759q0j6/image/small",[05:00 28/07/2026] Nu Ec Bahia vs Nu Botafogo Rj [BLV HD FELIX] [FLV]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel17.flv
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-ec-bahia-vs-nu-botafogo-rj-luc-0500-ngay-28-07-2026-s1-3" tvg-name="[05:00 28/07/2026] Nu Ec Bahia vs Nu Botafogo Rj [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4hv759q0j6/image/small",[05:00 28/07/2026] Nu Ec Bahia vs Nu Botafogo Rj [BLV HD FELIX] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel24/off-tvc
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel24/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel24.flv?auth_key=3000001785186315-0-0-e561d7e5d2167e46861124d3729eab91
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-crb-al-vs-vila-nova-luc-0530-ngay-28-07-2026-s1-5" tvg-name="[05:30 28/07/2026] Crb Al vs Vila Nova [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8d1yq86p/image/small",[05:30 28/07/2026] Crb Al vs Vila Nova [BLV HD LOGAN] [FLV]
+https://live3.procdnlive.com/livecdn/channel24.flv?auth_key=3000001785187997-0-0-86dc486bb49930d34c4f69993e4dd8a0
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-crb-al-vs-vila-nova-luc-0530-ngay-28-07-2026-s1-4" tvg-name="[05:30 28/07/2026] Crb Al vs Vila Nova [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8d1yq86p/image/small",[05:30 28/07/2026] Crb Al vs Vila Nova [BLV HD LOGAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel23/off-tvc
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel23/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel23.flv?auth_key=3000001785186338-0-0-912bfa0a4347c2c6eaf7c3ee07079208
+https://live3.procdnlive.com/livecdn/channel23.flv?auth_key=3000001785188039-0-0-1ec2d7d36af7acbcc387b30949b0649e
+#EXTINF:-1 tvg-id="xoilac-ntigua-and-barbuda-u20-vs-guatemala-u20-luc-0600-ngay-28-07-2026-s1-5" tvg-name="[06:00 28/07/2026] Antigua And Barbuda U20 vs Guatemala U20 [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l7oqdehnkglr510/image/small",[06:00 28/07/2026] Antigua And Barbuda U20 vs Guatemala U20 [BLV HD POLO] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel10/off-tvc
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel10/off-tvc","Origin":"https://xlz.livepingscorex.com"}
+https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001785188063-0-0-7fa77be5ada5b0a1e8c856469f393140
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-union-la-calera-vs-everton-cd-luc-0600-ngay-28-07-2026-s1-6" tvg-name="[06:00 28/07/2026] Union La Calera vs Everton Cd [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hoye3qo9j/image/small",[06:00 28/07/2026] Union La Calera vs Everton Cd [BLV HD TONI] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel9/off-tvc
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel9/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001785186376-0-0-545393b744544854650a5492f1f95973
+https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001785188093-0-0-d2b053054a65feafb10c7ab54bcb09a4
 #EXTINF:-1 tvg-id="xoilac-c-tiep-frances-tiafoe-vs-terence-atmane-luc-0610-ngay-28-07-2026-s1-7" tvg-name="[06:10 28/07/2026] Frances Tiafoe vs Terence Atmane [BLV HD LUCAS] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/318q6jf4xxwro9j/image/small",[06:10 28/07/2026] Frances Tiafoe vs Terence Atmane [BLV HD LUCAS] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel31/off-tvc
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel31/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel31.flv?auth_key=3000001785186382-0-0-b702a998f95734d3ea7f67813deae904
+https://live3.procdnlive.com/livecdn/channel31.flv?auth_key=3000001785188098-0-0-0471d39f85a58732b114caff026ae365
 #EXTINF:-1 tvg-id="xoilac-tiep-leones-de-ponce-vs-aguada-santeros-luc-0700-ngay-28-07-2026-s1-8" tvg-name="[07:00 28/07/2026] Leones De Ponce vs Aguada Santeros [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/9dn1m17tw0vmoep/image/small",[07:00 28/07/2026] Leones De Ponce vs Aguada Santeros [BLV HD ALAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel25/off-tvc
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel25/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785186383-0-0-c700579c260010b8e49330c6fe997291
-#EXTINF:-1 tvg-id="colatv-dc31389932c8-1" tvg-name="[02:15 28/07] Ka Akureyri vs Thor Akureyri [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/5aa5f2f1a954448fd5bef463a34830b0.png!w80",[02:15 28/07] Ka Akureyri vs Thor Akureyri [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/59444581.m3u8
-#EXTINF:-1 tvg-id="colatv-6257459ff3f2-1" tvg-name="[05:30 28/07] CRB AL vs Vila Nova [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/053969e26d843de456e0265abd3f008a.png!w80",[05:30 28/07] CRB AL vs Vila Nova [BLV MOUNTAIN DEWĐang xem] [M3U8]
+https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785188121-0-0-acb836d8bc0ca1fe4b22c93741e49fa9
+#EXTINF:-1 tvg-id="colatv-c7c09654763c-1" tvg-name="[05:30 28/07] CRB AL vs Vila Nova [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/053969e26d843de456e0265abd3f008a.png!w80",[05:30 28/07] CRB AL vs Vila Nova [BLV MOUNTAIN DEWĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
