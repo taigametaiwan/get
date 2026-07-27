@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-27T07:01:36.909850+07:00",
+  "updated_at": "2026-07-27T07:33:56.719000+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -26,21 +26,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1493009": {
-      "url": "https://live04.chuoichientv.me/live/1493009/huracan-vs-banfield",
-      "match_name": "Huracan vs Banfield - VĐQG Argentina",
-      "kickoff_iso": "2026-07-25T07:15:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-07-25T09:01:57.574638+07:00",
-      "next_scan_at": "2026-07-25T09:06:57.574638+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1549686": {
       "url": "https://live04.chuoichientv.me/live/1549686/deportivo-cali-vs-jaguares",
@@ -143,20 +128,6 @@
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
-    "1493012": {
-      "url": "https://live04.chuoichientv.me/live/1493012/platense-vs-union-santa-fe",
-      "match_name": "Platense vs Union Santa Fe - VĐQG Argentina",
-      "kickoff_iso": "2026-07-25T07:15:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-07-25T09:01:57.574638+07:00",
-      "next_scan_at": "2026-07-25T09:06:57.574638+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
-      ],
       "scan_decision": "browser-fallback"
     },
     "1523213": {
@@ -591,29 +562,25 @@
       "url": "https://live04.chuoichientv.me/live/1492306/palmeiras-vs-atletico-mg",
       "match_name": "Palmeiras vs Atletico-MG - VĐQG Brazil",
       "kickoff_iso": "2026-07-27T05:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-27T07:01:36.909763+07:00",
-      "next_scan_at": "2026-07-27T07:06:36.909763+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -123,
+      "last_scan_at": "2026-07-27T07:33:56.718089+07:00",
+      "next_scan_at": "2026-07-27T07:38:56.718089+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "1550910": {
       "url": "https://live04.chuoichientv.me/live/1550910/necaxa-vs-monterrey",
       "match_name": "Necaxa vs Monterrey - VĐQG Mexico",
       "kickoff_iso": "2026-07-27T06:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-27T07:01:36.909763+07:00",
-      "next_scan_at": "2026-07-27T07:06:36.909763+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-07-27T07:33:56.718089+07:00",
+      "next_scan_at": "2026-07-27T07:38:56.718089+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -621,13 +588,85 @@
       "url": "https://live04.chuoichientv.me/live/1550911/pachuca-vs-club-queretaro",
       "match_name": "Pachuca vs Club Queretaro - VĐQG Mexico",
       "kickoff_iso": "2026-07-27T08:06:00+07:00",
-      "minutes_to_kickoff": 65,
-      "last_scan_at": "2026-07-27T07:01:36.909763+07:00",
-      "next_scan_at": "2026-07-27T07:21:36.909763+07:00",
+      "minutes_to_kickoff": 33,
+      "last_scan_at": "2026-07-27T07:33:56.718089+07:00",
+      "next_scan_at": "2026-07-27T07:43:56.718089+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "1532840": {
+      "url": "https://live04.chuoichientv.me/live/1532840/qingdao-red-lions-vs-bit",
+      "match_name": "qingdao red lions vs bit",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-27T07:33:56.718089+07:00",
+      "next_scan_at": "2026-07-27T07:43:56.718089+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1567781": {
+      "url": "https://live04.chuoichientv.me/live/1567781/singapore-vs-timor-leste",
+      "match_name": "singapore vs timor leste",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-27T07:33:56.718089+07:00",
+      "next_scan_at": "2026-07-27T07:43:56.718089+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1548091": {
+      "url": "https://live04.chuoichientv.me/live/1548091/indonesia-vs-cambodia",
+      "match_name": "indonesia vs cambodia",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-27T07:33:56.718089+07:00",
+      "next_scan_at": "2026-07-27T07:43:56.718089+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1516073": {
+      "url": "https://live04.chuoichientv.me/live/1516073/andijan-vs-buxoro",
+      "match_name": "andijan vs buxoro",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-27T07:33:56.718089+07:00",
+      "next_scan_at": "2026-07-27T07:43:56.718089+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1516076": {
+      "url": "https://live04.chuoichientv.me/live/1516076/lokomotiv-vs-sogdiana",
+      "match_name": "lokomotiv vs sogdiana",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-27T07:33:56.718089+07:00",
+      "next_scan_at": "2026-07-27T07:43:56.718089+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1565191": {
+      "url": "https://live04.chuoichientv.me/live/1565191/cfr-cluj-vs-fc-voluntari",
+      "match_name": "cfr cluj vs fc voluntari",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-27T07:33:56.718089+07:00",
+      "next_scan_at": "2026-07-27T07:43:56.718089+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
