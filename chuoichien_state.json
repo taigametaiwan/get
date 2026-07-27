@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-27T06:31:30.101585+07:00",
+  "updated_at": "2026-07-27T07:01:36.909850+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -26,20 +26,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1493587": {
-      "url": "https://live04.chuoichientv.me/live/1493587/birmingham-legion-vs-new-mexico-united",
-      "match_name": "Birmingham Legion vs New Mexico United - USL Championship",
-      "kickoff_iso": "2026-07-25T07:00:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-07-25T07:03:28.536061+07:00",
-      "next_scan_at": "2026-07-25T07:08:28.536061+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1493009": {
       "url": "https://live04.chuoichientv.me/live/1493009/huracan-vs-banfield",
@@ -605,9 +591,9 @@
       "url": "https://live04.chuoichientv.me/live/1492306/palmeiras-vs-atletico-mg",
       "match_name": "Palmeiras vs Atletico-MG - VĐQG Brazil",
       "kickoff_iso": "2026-07-27T05:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-27T06:31:30.101497+07:00",
-      "next_scan_at": "2026-07-27T06:36:30.101497+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-27T07:01:36.909763+07:00",
+      "next_scan_at": "2026-07-27T07:06:36.909763+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -620,9 +606,9 @@
       "url": "https://live04.chuoichientv.me/live/1550910/necaxa-vs-monterrey",
       "match_name": "Necaxa vs Monterrey - VĐQG Mexico",
       "kickoff_iso": "2026-07-27T06:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-07-27T06:31:30.101497+07:00",
-      "next_scan_at": "2026-07-27T06:36:30.101497+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-07-27T07:01:36.909763+07:00",
+      "next_scan_at": "2026-07-27T07:06:36.909763+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -633,15 +619,15 @@
     },
     "1550911": {
       "url": "https://live04.chuoichientv.me/live/1550911/pachuca-vs-club-queretaro",
-      "match_name": "pachuca vs club queretaro",
+      "match_name": "Pachuca vs Club Queretaro - VĐQG Mexico",
       "kickoff_iso": "2026-07-27T08:06:00+07:00",
-      "minutes_to_kickoff": 95,
-      "last_scan_at": "2026-07-27T06:31:30.101497+07:00",
-      "next_scan_at": "2026-07-27T06:51:30.101497+07:00",
+      "minutes_to_kickoff": 65,
+      "last_scan_at": "2026-07-27T07:01:36.909763+07:00",
+      "next_scan_at": "2026-07-27T07:21:36.909763+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
