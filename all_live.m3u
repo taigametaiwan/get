@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-1550911-1" tvg-name="[08:06 27/07] Pachuca vs Club Queretaro - VĐQG Mexico" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133839_2ee7b0dd.png",[08:06 27/07] Pachuca vs Club Queretaro - VĐQG Mexico [FHD FLV]
+#EXTINF:-1 tvg-id="chuoichien-1550911-1" tvg-name="[08:06 27/07] Pachuca vs Club Queretaro - VĐQG Mexico [BLV Chuối Tây]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131434_2bc770b2.png",[08:06 27/07] Pachuca vs Club Queretaro - VĐQG Mexico [BLV Chuối Tây] [FHD FLV]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
@@ -17,74 +17,67 @@ https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://beastkingdom.io/","Origin":"https://beastkingdom.io"}
 https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6
-#EXTINF:-1 tvg-id="hygenie-59d89a271a6e-135-1" tvg-name="[27/07/2026 08:15] DEPORTIVA ONCE CALDAS vs CUCUTA [BLV LƯU BỊ]" group-title="Lương Sơn" tvg-logo="https://cdn-img.cdnokvip.com/logos/1834_1hr8p9dqjb11.png",[27/07/2026 08:15] DEPORTIVA ONCE CALDAS vs CUCUTA [BLV LƯU BỊ] [M3U8]
+#EXTINF:-1 tvg-id="hygenie-92940bc58f17-298-1" tvg-name="[27/07/2026 09:00] TACOMA DEFIANCE vs COLORADO RAPIDS II [BLV TÂY MÔN KHÁNH]" group-title="Lương Sơn" tvg-logo="https://cdn-img.cdnokvip.com/logos/38960_1jr4fxamwa13.png",[27/07/2026 09:00] TACOMA DEFIANCE vs COLORADO RAPIDS II [BLV TÂY MÔN KHÁNH] [M3U8]
 #EXTVLCOPT:http-referrer=https://beastkingdom.io/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://beastkingdom.io/","Origin":"https://beastkingdom.io"}
-https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1
+https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da
+#EXTINF:-1 tvg-id="gavang-2582-1" tvg-name="[08:00 27/07] PACHUCA vs QUERETARO FC" group-title="Gà Vàng" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131434_2bc770b2.png",[08:00 27/07] PACHUCA vs QUERETARO FC [M3U8]
+#EXTVLCOPT:http-referrer=https://profecta.io/s8-live/2582/pachuca-quere-mexliga/?s8_live_fixture_id=2582&s8_live_stream_key=pachuca-quere-mexliga&s8_auto_sound=1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2582/pachuca-quere-mexliga/?s8_live_fixture_id=2582&s8_live_stream_key=pachuca-quere-mexliga&s8_auto_sound=1","Origin":"https://profecta.io"}
+https://hls.lauthaitv.cc/live/pachuca-quere-mexliga/index.m3u8
 #EXTINF:-1 tvg-id="gavang-2583-1" tvg-name="[08:15 27/07] Categoria Primera A - Deportiva Once Caldas VS Cucuta Deportivo [BLV NGƯỜI CHÈ]" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-json/s8-image/6f21005b-2b71-4298-a521-2288df815b6d",[08:15 27/07] Categoria Primera A - Deportiva Once Caldas VS Cucuta Deportivo [BLV NGƯỜI CHÈ] [M3U8]
 #EXTVLCOPT:http-referrer=https://profecta.io/s8-live/2583/caldas-cucuta-cateprima/?s8_live_fixture_id=2583&s8_live_stream_key=caldas-cucuta-cateprima&s8_auto_sound=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2583/caldas-cucuta-cateprima/?s8_live_fixture_id=2583&s8_live_stream_key=caldas-cucuta-cateprima&s8_auto_sound=1","Origin":"https://profecta.io"}
 https://hls.lauthaitv.cc/live/caldas-cucuta-cateprima/index.m3u8
-#EXTINF:-1 tvg-id="gavang-2582-1" tvg-name="[CHƯA CÓ GIỜ 27/07] MEX Liga MX - Pachuca VS Queretaro FC [BLV NGƯỜI SẮT]" group-title="Gà Vàng" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131434_2bc770b2.png",[CHƯA CÓ GIỜ 27/07] MEX Liga MX - Pachuca VS Queretaro FC [BLV NGƯỜI SẮT] [M3U8]
-#EXTVLCOPT:http-referrer=https://profecta.io/s8-live/2582/pachuca-quere-mexliga/?s8_live_fixture_id=2582&s8_live_stream_key=pachuca-quere-mexliga&s8_auto_sound=1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2582/pachuca-quere-mexliga/?s8_live_fixture_id=2582&s8_live_stream_key=pachuca-quere-mexliga&s8_auto_sound=1","Origin":"https://profecta.io"}
-https://hls.lauthaitv.cc/live/pachuca-quere-mexliga/index.m3u8
-#EXTINF:-1 tvg-id="xoilac-ollos-de-caguas-vs-baamon-cattle-herder-luc-0700-ngay-27-07-2026-s1-7" tvg-name="[07:00 27/07/2026] Criollos De Caguas vs Baamon Cattle Herder [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/y0or5gt471dqwzv/image/small",[07:00 27/07/2026] Criollos De Caguas vs Baamon Cattle Herder [BLV HD STEP] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel26.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-barcelona-sc-vs-ldu-quito-luc-0715-ngay-27-07-2026-s1-6" tvg-name="[07:15 27/07/2026] Barcelona Sc vs Ldu Quito [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh4gvnr6od/image/small",[07:15 27/07/2026] Barcelona Sc vs Ldu Quito [BLV HD JEAN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-d-concepcion-vs-o-higgins-luc-0730-ngay-27-07-2026-s0-7" tvg-name="[07:30 27/07/2026] D Concepcion vs O Higgins [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7ph1jem2wd/image/small",[07:30 27/07/2026] D Concepcion vs O Higgins [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel7.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-club-america-vs-nu-tigres-luc-0730-ngay-27-07-2026-s1-5" tvg-name="[07:30 27/07/2026] Nu Club America vs Nu Tigres [BLV HD RIO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hjk57qdyj/image/small",[07:30 27/07/2026] Nu Club America vs Nu Tigres [BLV HD RIO] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-club-america-vs-nu-tigres-luc-0730-ngay-27-07-2026-s1-6" tvg-name="[07:30 27/07/2026] Nu Club America vs Nu Tigres [BLV HD RIO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hjk57qdyj/image/small",[07:30 27/07/2026] Nu Club America vs Nu Tigres [BLV HD RIO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel16.flv
-#EXTINF:-1 tvg-id="xoilac-ruc-tiep-alex-hernandez-vs-alan-magadan-luc-0910-ngay-27-07-2026-s1-9" tvg-name="[09:10 27/07/2026] Alex Hernandez vs Alan Magadan [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fgdder1zp/image/small",[09:10 27/07/2026] Alex Hernandez vs Alan Magadan [BLV HD VIC] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel32.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-pachuca-vs-queretaro-fc-luc-0806-ngay-27-07-2026-s1-8" tvg-name="[08:06 27/07/2026] Pachuca vs Queretaro Fc [BLV HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hpy5q0j6/image/small",[08:06 27/07/2026] Pachuca vs Queretaro Fc [BLV HD BRADY] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-pachuca-vs-queretaro-fc-luc-0806-ngay-27-07-2026-s1-4" tvg-name="[08:06 27/07/2026] Pachuca vs Queretaro Fc [BLV HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hpy5q0j6/image/small",[08:06 27/07/2026] Pachuca vs Queretaro Fc [BLV HD BRADY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel15.flv
-#EXTINF:-1 tvg-id="xoilac-uc-tiep-once-caldas-vs-cucuta-deportivo-luc-0815-ngay-27-07-2026-s1-2" tvg-name="[08:15 27/07/2026] Once Caldas vs Cucuta Deportivo [BLV HD TOM] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhgp2oryk0/image/small",[08:15 27/07/2026] Once Caldas vs Cucuta Deportivo [BLV HD TOM] [FLV]
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-once-caldas-vs-cucuta-deportivo-luc-0815-ngay-27-07-2026-s1-3" tvg-name="[08:15 27/07/2026] Once Caldas vs Cucuta Deportivo [BLV HD TOM] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhgp2oryk0/image/small",[08:15 27/07/2026] Once Caldas vs Cucuta Deportivo [BLV HD TOM] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel4.flv
-#EXTINF:-1 tvg-id="xoilac-p-tacoma-defiance-vs-colorado-rapids-ii-luc-0900-ngay-27-07-2026-s1-1" tvg-name="[09:00 27/07/2026] Tacoma Defiance vs Colorado Rapids Ii [BLV HD HIRO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l7oqdeh4xw7r510/image/small",[09:00 27/07/2026] Tacoma Defiance vs Colorado Rapids Ii [BLV HD HIRO] [FLV]
+#EXTINF:-1 tvg-id="xoilac-p-tacoma-defiance-vs-colorado-rapids-ii-luc-0900-ngay-27-07-2026-s1-2" tvg-name="[09:00 27/07/2026] Tacoma Defiance vs Colorado Rapids Ii [BLV HD HIRO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l7oqdeh4xw7r510/image/small",[09:00 27/07/2026] Tacoma Defiance vs Colorado Rapids Ii [BLV HD HIRO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel14.flv
-#EXTINF:-1 tvg-id="colatv-de86c08ddcc6-1" tvg-name="[07:30 27/07] Club America Nữ vs UANL- Tigres Nữ [BLV SPRITEĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/988d4c293006d45d1f453c9ee2884022.png!w80",[07:30 27/07] Club America Nữ vs UANL- Tigres Nữ [BLV SPRITEĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="xoilac-ruc-tiep-kwon-soon-woo-vs-edward-winter-luc-0800-ngay-27-07-2026-s1-5" tvg-name="[08:00 27/07/2026] Kwon Soon Woo vs Edward Winter [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/dn1m12f3p1jqoep/image/small",[08:00 27/07/2026] Kwon Soon Woo vs Edward Winter [BLV HD VIC] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel32.flv
+#EXTINF:-1 tvg-id="colatv-d94fc2524ac5-1" tvg-name="[07:30 27/07] Club America Nữ vs UANL- Tigres Nữ [BLV SPRITEĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/988d4c293006d45d1f453c9ee2884022.png!w80",[07:30 27/07] Club America Nữ vs UANL- Tigres Nữ [BLV SPRITEĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
@@ -98,7 +91,7 @@ https://live05.meung.app/live/75748097.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/41943555.m3u8
-#EXTINF:-1 tvg-id="colatv-69db750f7752-1" tvg-name="[08:15 27/07] Once Caldas vs Cucuta [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/b060f70150fe2b52fba8aa026a930c4e.png!w80",[08:15 27/07] Once Caldas vs Cucuta [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
+#EXTINF:-1 tvg-id="colatv-69db750f7752-1" tvg-name="[08:15 27/07] Deportiva Once Caldas vs Cucuta Deportivo [BLV MONSTERĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/b060f70150fe2b52fba8aa026a930c4e.png!w80",[08:15 27/07] Deportiva Once Caldas vs Cucuta Deportivo [BLV MONSTERĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
