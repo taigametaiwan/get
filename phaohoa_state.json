@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-27T17:33:29.920630+07:00",
+  "updated_at": "2026-07-27T18:03:43.264625+07:00",
   "matches": {
-    "774339": {
-      "url": "https://phaohoa1.live/truc-tiep/dusseldorf-vs-dortmund-25-07-2026-774339",
-      "match_name": "Dusseldorf vs Dortmund",
-      "kickoff_iso": "2026-07-25T18:00:00+07:00",
-      "minutes_to_kickoff": -66,
-      "last_scan_at": "2026-07-25T19:07:40.350316+07:00",
-      "next_scan_at": "2026-07-25T19:12:40.350316+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "770236": {
       "url": "https://phaohoa1.live/truc-tiep/gateshead-vs-newcastle-25-07-2026-770236",
       "match_name": "Gateshead vs Newcastle",
@@ -375,23 +361,25 @@
     },
     "791558": {
       "url": "https://phaohoa1.live/truc-tiep/singapore-vs-timor-leste-27-07-2026-791558",
-      "match_name": "27-07 ASEAN Championship Singapore VS Timor-Leste Dế Lửa",
+      "match_name": "Singapore vs Timor Leste",
       "kickoff_iso": "2026-07-27T18:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-07-27T17:33:29.920334+07:00",
-      "next_scan_at": "2026-07-27T17:43:29.920334+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-07-27T18:03:43.264502+07:00",
+      "next_scan_at": "2026-07-27T18:08:43.264502+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
+      ],
       "scan_decision": "browser-fallback"
     },
     "870f7a34fe46": {
       "url": "https://phaohoa1.live/truc-tiep/u18-hoa-chat-duc-giang-vs-u18-binh-chung-thong-tin",
       "match_name": "27-07 U18 Việt Nam Hóa Chất Đức Giang VS Binh Chủng Thông Tin KaKa",
       "kickoff_iso": "2026-07-27T20:00:00+07:00",
-      "minutes_to_kickoff": 176,
-      "last_scan_at": "2026-07-27T17:04:54.696612+07:00",
-      "next_scan_at": "2026-07-27T17:49:54.696612+07:00",
+      "minutes_to_kickoff": 117,
+      "last_scan_at": "2026-07-27T18:03:43.264502+07:00",
+      "next_scan_at": "2026-07-27T18:23:43.264502+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
