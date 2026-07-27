@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-28T04:01:36.334288+07:00",
+  "updated_at": "2026-07-28T05:01:18.012276+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -62,21 +62,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1589332": {
-      "url": "https://live04.chuoichientv.me/live/1589332/liverpool-vs-sunderland",
-      "match_name": "Liverpool vs Sunderland - Premier League - Summer Series",
-      "kickoff_iso": "2026-07-26T05:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-07-26T06:33:48.600912+07:00",
-      "next_scan_at": "2026-07-26T06:38:48.600912+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1550908": {
       "url": "https://live04.chuoichientv.me/live/1550908/guadalajara-chivas-vs-fc-juarez",
@@ -562,15 +547,15 @@
     },
     "1505474": {
       "url": "https://live04.chuoichientv.me/live/1505474/union-la-calera-vs-everton",
-      "match_name": "union la calera vs everton",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-28T04:01:36.334221+07:00",
-      "next_scan_at": "2026-07-28T04:11:36.334221+07:00",
+      "match_name": "Union La Calera vs Everton - VĐQG Chile",
+      "kickoff_iso": "2026-07-28T06:00:00+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-07-28T05:01:18.012229+07:00",
+      "next_scan_at": "2026-07-28T05:21:18.012229+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "browser-fallback"
     }
   }
 }
