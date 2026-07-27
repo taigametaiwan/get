@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-27T23:36:40.783980+07:00",
+  "updated_at": "2026-07-28T00:05:15.381674+07:00",
   "matches": {
     "766458": {
       "url": "https://phaohoa1.live/truc-tiep/st-liege-vs-juventus-26-07-2026-766458",
@@ -285,9 +285,9 @@
       "url": "https://phaohoa1.live/truc-tiep/cfr-cluj-vs-fc-voluntari-27-07-2026-774982",
       "match_name": "Cfr Cluj vs FC Voluntari",
       "kickoff_iso": "2026-07-27T22:30:00+07:00",
-      "minutes_to_kickoff": -66,
-      "last_scan_at": "2026-07-27T23:36:40.783789+07:00",
-      "next_scan_at": "2026-07-27T23:41:40.783789+07:00",
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-07-28T00:05:15.381446+07:00",
+      "next_scan_at": "2026-07-28T00:10:15.381446+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -299,9 +299,9 @@
       "url": "https://phaohoa1.live/truc-tiep/artis-brno-vs-mlada-boleslav-27-07-2026-781988",
       "match_name": "Artis Brno vs Mlada Boleslav",
       "kickoff_iso": "2026-07-27T23:00:00+07:00",
-      "minutes_to_kickoff": -36,
-      "last_scan_at": "2026-07-27T23:36:40.783789+07:00",
-      "next_scan_at": "2026-07-27T23:41:40.783789+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-07-28T00:05:15.381446+07:00",
+      "next_scan_at": "2026-07-28T00:10:15.381446+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -313,9 +313,9 @@
       "url": "https://phaohoa1.live/truc-tiep/hacken-vs-aik-28-07-2026-715556",
       "match_name": "Hacken vs Aik",
       "kickoff_iso": "2026-07-28T00:00:00+07:00",
-      "minutes_to_kickoff": 24,
-      "last_scan_at": "2026-07-27T23:36:40.783789+07:00",
-      "next_scan_at": "2026-07-27T23:41:40.783789+07:00",
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-07-28T00:05:15.381446+07:00",
+      "next_scan_at": "2026-07-28T00:10:15.381446+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -327,13 +327,27 @@
       "url": "https://phaohoa1.live/truc-tiep/cska-sofia-vs-botev-plovdiv-28-07-2026-774498",
       "match_name": "28-07 First League CSKA Sofia VS Botev Plovdiv Pháo Thủ",
       "kickoff_iso": "2026-07-28T01:15:00+07:00",
-      "minutes_to_kickoff": 99,
-      "last_scan_at": "2026-07-27T23:36:40.783789+07:00",
-      "next_scan_at": "2026-07-27T23:56:40.783789+07:00",
+      "minutes_to_kickoff": 70,
+      "last_scan_at": "2026-07-28T00:05:15.381446+07:00",
+      "next_scan_at": "2026-07-28T00:25:15.381446+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
+    },
+    "716901": {
+      "url": "https://phaohoa1.live/truc-tiep/rosenborg-vs-fredrikstad-28-07-2026-716901",
+      "match_name": "Rosenborg vs Fredrikstad",
+      "kickoff_iso": "2026-07-28T00:00:00+07:00",
+      "minutes_to_kickoff": -5,
+      "last_scan_at": "2026-07-28T00:05:15.381446+07:00",
+      "next_scan_at": "2026-07-28T00:10:15.381446+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
+      ],
+      "scan_decision": "browser-fallback"
     }
   }
 }
