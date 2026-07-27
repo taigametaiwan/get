@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-28T01:02:03.268467+07:00",
+  "updated_at": "2026-07-28T03:31:24.172467+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -50,18 +50,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1589304": {
-      "url": "https://live04.chuoichientv.me/live/1589304/fc-porto-vs-aston-villa",
-      "match_name": "FC Porto vs Aston Villa - Giao Hữu Câu Lạc Bộ",
-      "kickoff_iso": "2026-07-26T02:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-07-26T04:01:43.307398+07:00",
-      "next_scan_at": "2026-07-26T04:06:43.307398+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
     },
     "1493011": {
       "url": "https://live04.chuoichientv.me/live/1493011/newells-old-boys-vs-talleres-cordoba",
@@ -559,27 +547,30 @@
     },
     "1508819": {
       "url": "https://live04.chuoichientv.me/live/1508819/ka-akureyri-vs-thor-akureyri",
-      "match_name": "ka akureyri vs thor akureyri",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-28T01:02:03.268357+07:00",
-      "next_scan_at": "2026-07-28T01:12:03.268357+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "KA Akureyri vs Thor Akureyri - Úrvalsdeild",
+      "kickoff_iso": "2026-07-28T02:15:00+07:00",
+      "minutes_to_kickoff": -76,
+      "last_scan_at": "2026-07-28T03:31:24.172415+07:00",
+      "next_scan_at": "2026-07-28T03:36:24.172415+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1505474": {
       "url": "https://live04.chuoichientv.me/live/1505474/union-la-calera-vs-everton",
       "match_name": "union la calera vs everton",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-28T01:02:03.268357+07:00",
-      "next_scan_at": "2026-07-28T01:12:03.268357+07:00",
+      "kickoff_iso": "2026-07-28T06:00:00+07:00",
+      "minutes_to_kickoff": 149,
+      "last_scan_at": "2026-07-28T03:31:24.172415+07:00",
+      "next_scan_at": "2026-07-28T04:16:24.172415+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
