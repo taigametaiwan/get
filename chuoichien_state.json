@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-27T18:01:43.895709+07:00",
+  "updated_at": "2026-07-27T18:31:33.222700+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -38,21 +38,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "210899": {
-      "url": "https://live04.chuoichientv.me/live/210899/china-w-vs-turkey-w",
-      "match_name": "China W vs Turkey W - Nations League Women",
-      "kickoff_iso": "2026-07-25T18:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-25T20:02:17.713551+07:00",
-      "next_scan_at": "2026-07-25T20:07:17.713551+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1523213": {
       "url": "https://live04.chuoichientv.me/live/1523213/shanghai-sipg-vs-shanghai-shenhua",
@@ -526,13 +511,14 @@
       "url": "https://live04.chuoichientv.me/live/1532840/qingdao-red-lions-vs-bit",
       "match_name": "Qingdao Red Lions vs BIT - League Two",
       "kickoff_iso": "2026-07-27T17:30:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-07-27T18:01:43.895542+07:00",
-      "next_scan_at": "2026-07-27T18:06:43.895542+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-07-27T18:31:33.222513+07:00",
+      "next_scan_at": "2026-07-27T18:36:33.222513+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitieu.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoitieu.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoitieu/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -540,35 +526,36 @@
       "url": "https://live04.chuoichientv.me/live/1567781/singapore-vs-timor-leste",
       "match_name": "Singapore vs Timor-Leste - AFF Championship",
       "kickoff_iso": "2026-07-27T18:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-07-27T18:01:43.895542+07:00",
-      "next_scan_at": "2026-07-27T18:06:43.895542+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-27T18:31:33.222513+07:00",
+      "next_scan_at": "2026-07-27T18:36:33.222513+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1548091": {
       "url": "https://live04.chuoichientv.me/live/1548091/indonesia-vs-cambodia",
       "match_name": "indonesia vs cambodia",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-27T18:01:43.895542+07:00",
-      "next_scan_at": "2026-07-27T18:11:43.895542+07:00",
+      "kickoff_iso": "2026-07-27T20:30:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-07-27T18:31:33.222513+07:00",
+      "next_scan_at": "2026-07-27T18:51:33.222513+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1516073": {
       "url": "https://live04.chuoichientv.me/live/1516073/andijan-vs-buxoro",
       "match_name": "andijan vs buxoro",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-27T18:01:43.895542+07:00",
-      "next_scan_at": "2026-07-27T18:11:43.895542+07:00",
+      "last_scan_at": "2026-07-27T18:31:33.222513+07:00",
+      "next_scan_at": "2026-07-27T18:41:33.222513+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -579,8 +566,8 @@
       "match_name": "lokomotiv vs sogdiana",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-27T18:01:43.895542+07:00",
-      "next_scan_at": "2026-07-27T18:11:43.895542+07:00",
+      "last_scan_at": "2026-07-27T18:31:33.222513+07:00",
+      "next_scan_at": "2026-07-27T18:41:33.222513+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -591,8 +578,8 @@
       "match_name": "cfr cluj vs fc voluntari",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-27T18:01:43.895542+07:00",
-      "next_scan_at": "2026-07-27T18:11:43.895542+07:00",
+      "last_scan_at": "2026-07-27T18:31:33.222513+07:00",
+      "next_scan_at": "2026-07-27T18:41:33.222513+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -603,8 +590,8 @@
       "match_name": "dunav ruse vs ludogorets",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-27T18:01:43.895542+07:00",
-      "next_scan_at": "2026-07-27T18:11:43.895542+07:00",
+      "last_scan_at": "2026-07-27T18:31:33.222513+07:00",
+      "next_scan_at": "2026-07-27T18:41:33.222513+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -615,8 +602,8 @@
       "match_name": "kamaz vs rotor volgograd",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-27T18:01:43.895542+07:00",
-      "next_scan_at": "2026-07-27T18:11:43.895542+07:00",
+      "last_scan_at": "2026-07-27T18:31:33.222513+07:00",
+      "next_scan_at": "2026-07-27T18:41:33.222513+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -627,8 +614,8 @@
       "match_name": "bk hacken vs aik stockholm",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-27T18:01:43.895542+07:00",
-      "next_scan_at": "2026-07-27T18:11:43.895542+07:00",
+      "last_scan_at": "2026-07-27T18:31:33.222513+07:00",
+      "next_scan_at": "2026-07-27T18:41:33.222513+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
