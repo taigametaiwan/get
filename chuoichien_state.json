@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-29T00:31:41.777057+07:00",
+  "updated_at": "2026-07-29T01:01:47.488567+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -86,21 +86,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1493002": {
-      "url": "https://live04.chuoichientv.me/live/1493002/atletico-tucuman-vs-independ-rivadavia",
-      "match_name": "Atletico Tucuman vs Independ. Rivadavia - VĐQG Argentina",
-      "kickoff_iso": "2026-07-27T01:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-27T02:31:32.347653+07:00",
-      "next_scan_at": "2026-07-27T02:36:32.347653+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
-        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1492303": {
       "url": "https://live04.chuoichientv.me/live/1492303/cruzeiro-vs-botafogo",
@@ -445,59 +430,64 @@
     },
     "1556505": {
       "url": "https://live04.chuoichientv.me/live/1556505/dinamo-zagreb-vs-fc-thun",
-      "match_name": "dinamo zagreb vs fc thun",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T00:31:41.776608+07:00",
-      "next_scan_at": "2026-07-29T00:41:41.776608+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Dinamo Zagreb vs FC Thun - UEFA Champions League",
+      "kickoff_iso": "2026-07-29T01:00:00+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-07-29T01:01:47.488395+07:00",
+      "next_scan_at": "2026-07-29T01:06:47.488395+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
+        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1591937": {
       "url": "https://live04.chuoichientv.me/live/1591937/celje-vs-egnatia-rrogozhin",
-      "match_name": "celje vs egnatia rrogozhin",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T00:31:41.776608+07:00",
-      "next_scan_at": "2026-07-29T00:41:41.776608+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Celje vs Egnatia Rrogozhinë - UEFA Champions League",
+      "kickoff_iso": "2026-07-29T01:15:00+07:00",
+      "minutes_to_kickoff": 14,
+      "last_scan_at": "2026-07-29T01:01:47.488395+07:00",
+      "next_scan_at": "2026-07-29T01:06:47.488395+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoitieu.flv"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1556507": {
       "url": "https://live04.chuoichientv.me/live/1556507/heart-of-midlothian-vs-sturm-graz",
-      "match_name": "heart of midlothian vs sturm graz",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T00:31:41.776608+07:00",
-      "next_scan_at": "2026-07-29T00:41:41.776608+07:00",
+      "match_name": "Heart Of Midlothian vs Sturm Graz - UEFA Champions League",
+      "kickoff_iso": "2026-07-29T01:45:00+07:00",
+      "minutes_to_kickoff": 44,
+      "last_scan_at": "2026-07-29T01:01:47.488395+07:00",
+      "next_scan_at": "2026-07-29T01:11:47.488395+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "browser-fallback"
     },
     "1589425": {
       "url": "https://live04.chuoichientv.me/live/1589425/shamrock-rovers-vs-ararat-armenia",
-      "match_name": "shamrock rovers vs ararat armenia",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T00:31:41.776608+07:00",
-      "next_scan_at": "2026-07-29T00:41:41.776608+07:00",
+      "match_name": "Shamrock Rovers vs Ararat-Armenia - UEFA Champions League",
+      "kickoff_iso": "2026-07-29T02:00:00+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-07-29T01:01:47.488395+07:00",
+      "next_scan_at": "2026-07-29T01:21:47.488395+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "browser-fallback"
     },
     "1493028": {
       "url": "https://live04.chuoichientv.me/live/1493028/san-lorenzo-vs-gimnasia-m",
       "match_name": "san lorenzo vs gimnasia m",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T00:31:41.776608+07:00",
-      "next_scan_at": "2026-07-29T00:41:41.776608+07:00",
+      "last_scan_at": "2026-07-29T01:01:47.488395+07:00",
+      "next_scan_at": "2026-07-29T01:11:47.488395+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -508,8 +498,8 @@
       "match_name": "santos vs ucv",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T00:31:41.776608+07:00",
-      "next_scan_at": "2026-07-29T00:41:41.776608+07:00",
+      "last_scan_at": "2026-07-29T01:01:47.488395+07:00",
+      "next_scan_at": "2026-07-29T01:11:47.488395+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -534,8 +524,8 @@
       "match_name": "slovenia vs turkey",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T00:31:41.776608+07:00",
-      "next_scan_at": "2026-07-29T00:41:41.776608+07:00",
+      "last_scan_at": "2026-07-29T01:01:47.488395+07:00",
+      "next_scan_at": "2026-07-29T01:11:47.488395+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -546,8 +536,20 @@
       "match_name": "japan vs china",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T00:31:41.776608+07:00",
-      "next_scan_at": "2026-07-29T00:41:41.776608+07:00",
+      "last_scan_at": "2026-07-29T01:01:47.488395+07:00",
+      "next_scan_at": "2026-07-29T01:11:47.488395+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1547787": {
+      "url": "https://live04.chuoichientv.me/live/1547787/tigre-vs-nacional",
+      "match_name": "tigre vs nacional",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-29T01:01:47.488395+07:00",
+      "next_scan_at": "2026-07-29T01:11:47.488395+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

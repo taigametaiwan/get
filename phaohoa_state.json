@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-29T00:34:56.531390+07:00",
+  "updated_at": "2026-07-29T01:04:32.886031+07:00",
   "matches": {
     "791558": {
       "url": "https://phaohoa1.live/truc-tiep/singapore-vs-timor-leste-27-07-2026-791558",
@@ -259,9 +259,9 @@
       "url": "https://phaohoa1.live/truc-tiep/cska-1948-sofia-vs-trnava-29-07-2026-770558",
       "match_name": "CSKA 1948 Sofia vs Trnava",
       "kickoff_iso": "2026-07-29T00:30:00+07:00",
-      "minutes_to_kickoff": -4,
-      "last_scan_at": "2026-07-29T00:34:56.531192+07:00",
-      "next_scan_at": "2026-07-29T00:39:56.531192+07:00",
+      "minutes_to_kickoff": -34,
+      "last_scan_at": "2026-07-29T01:04:32.885856+07:00",
+      "next_scan_at": "2026-07-29T01:09:32.885856+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -273,9 +273,9 @@
       "url": "https://phaohoa1.live/truc-tiep/din-zagreb-vs-thun-29-07-2026-770478",
       "match_name": "Din. Zagreb vs Thun",
       "kickoff_iso": "2026-07-29T01:00:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-07-29T00:34:56.531192+07:00",
-      "next_scan_at": "2026-07-29T00:39:56.531192+07:00",
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-07-29T01:04:32.885856+07:00",
+      "next_scan_at": "2026-07-29T01:09:32.885856+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -287,9 +287,9 @@
       "url": "https://phaohoa1.live/truc-tiep/aston-villa-vs-real-sociedad-29-07-2026-767881",
       "match_name": "29-07 Club Friendlies Aston Villa VS Real Sociedad Chim Nhỏ",
       "kickoff_iso": "2026-07-29T01:30:00+07:00",
-      "minutes_to_kickoff": 55,
-      "last_scan_at": "2026-07-29T00:34:56.531192+07:00",
-      "next_scan_at": "2026-07-29T00:54:56.531192+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-07-29T01:04:32.885856+07:00",
+      "next_scan_at": "2026-07-29T01:14:32.885856+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -297,14 +297,16 @@
     },
     "770480": {
       "url": "https://phaohoa1.live/truc-tiep/hearts-vs-sturm-graz-29-07-2026-770480",
-      "match_name": "29-07 UEFA Champions League Hearts VS Sturm Graz Pháo Thủ",
+      "match_name": "Hearts vs Sturm Graz",
       "kickoff_iso": "2026-07-29T01:45:00+07:00",
-      "minutes_to_kickoff": 70,
-      "last_scan_at": "2026-07-29T00:34:56.531192+07:00",
-      "next_scan_at": "2026-07-29T00:54:56.531192+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 41,
+      "last_scan_at": "2026-07-29T01:04:32.885856+07:00",
+      "next_scan_at": "2026-07-29T01:14:32.885856+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
