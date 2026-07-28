@@ -1,61 +1,28 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-1505474-1" tvg-name="[06:00 28/07] Union La Calera vs Everton - VĐQG Chile [BLV A Ngáo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134644_d6f20d30.png",[06:00 28/07] Union La Calera vs Everton - VĐQG Chile [BLV A Ngáo] [FHD FLV]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://gckc0525.edgemaxcdn.org/live/angao.flv
-#EXTINF:-1 tvg-id="chuoichien-1505474-2" tvg-name="[06:00 28/07] Union La Calera vs Everton - VĐQG Chile [BLV A Ngáo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134644_d6f20d30.png",[06:00 28/07] Union La Calera vs Everton - VĐQG Chile [BLV A Ngáo] (Luồng 2) [M3U8]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8
 #EXTINF:-1 tvg-id="hygenie-7a989cd36bdc-320-1" tvg-name="[28/07/2026 06:00] ATLETICO ATLANTA vs ALMAGRO [BLV YẾN THANH]" group-title="Lương Sơn" tvg-logo="https://cdn-img.cdnokvip.com/logos/11700_20130917091542.jpg",[28/07/2026 06:00] ATLETICO ATLANTA vs ALMAGRO [BLV YẾN THANH] [M3U8]
 #EXTVLCOPT:http-referrer=https://magicbeast.io/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://magicbeast.io/","Origin":"https://magicbeast.io"}
 https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582
-#EXTINF:-1 tvg-id="hygenie-8cc29a2aaade-218-1" tvg-name="[28/07/2026 06:00] UNION LA CALERA vs EVERTON CD [BLV Kaka]" group-title="Lương Sơn" tvg-logo="https://cdn-img.cdnokvip.com/logos/6631_1hr8p8jyza1p.png",[28/07/2026 06:00] UNION LA CALERA vs EVERTON CD [BLV Kaka] [M3U8]
+#EXTINF:-1 tvg-id="hygenie-0336960124b2-328-1" tvg-name="[28/07/2026 07:00] LEONES DE PONCE vs AGUADA SANTEROS [BLV VÕ TÒNG]" group-title="Lương Sơn" tvg-logo="https://upload-img.cdnokvip.com/uploads/team_logo/1785166521.png",[28/07/2026 07:00] LEONES DE PONCE vs AGUADA SANTEROS [BLV VÕ TÒNG] [M3U8]
 #EXTVLCOPT:http-referrer=https://magicbeast.io/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://magicbeast.io/","Origin":"https://magicbeast.io"}
-https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6
+https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299
 #EXTINF:-1 tvg-id="hygenie-d7082ec46449-253-1" tvg-name="[28/07/2026 07:30] ATLETICO FC vs INDEPENDIENTE YUMBO [BLV Pele]" group-title="Lương Sơn" tvg-logo="https://cdn-img.cdnokvip.com/logos/6885_1grd73j8km9.png",[28/07/2026 07:30] ATLETICO FC vs INDEPENDIENTE YUMBO [BLV Pele] [M3U8]
 #EXTVLCOPT:http-referrer=https://magicbeast.io/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://magicbeast.io/","Origin":"https://magicbeast.io"}
 https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526
-#EXTINF:-1 tvg-id="gavang-2600-1" tvg-name="Ulacalera VS Evertoncd" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-content/uploads/2026/04/logo-gavangtv.png",Ulacalera VS Evertoncd [M3U8]
-#EXTVLCOPT:http-referrer=https://profecta.io/s8-live/2600/ulacalera-evertoncd-chiliga/?s8_live_fixture_id=2600&s8_live_stream_key=ulacalera-evertoncd-chiliga&s8_auto_sound=1
+#EXTINF:-1 tvg-id="hygenie-f0c3a487d8bd-218-1" tvg-name="[28/07/2026 08:30] TAURO FC vs SPORTING SAN MIGUELITO [BLV Kaka]" group-title="Lương Sơn" tvg-logo="https://cdn-img.cdnokvip.com/logos/7575_1j6nj6gp072b.png",[28/07/2026 08:30] TAURO FC vs SPORTING SAN MIGUELITO [BLV Kaka] [M3U8]
+#EXTVLCOPT:http-referrer=https://magicbeast.io/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2600/ulacalera-evertoncd-chiliga/?s8_live_fixture_id=2600&s8_live_stream_key=ulacalera-evertoncd-chiliga&s8_auto_sound=1","Origin":"https://profecta.io"}
-https://hls.lauthaitv.cc/live/ulacalera-evertoncd-chiliga/index.m3u8
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-crb-al-vs-vila-nova-luc-0530-ngay-28-07-2026-s1-7" tvg-name="[05:30 28/07/2026] Crb Al vs Vila Nova [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8d1yq86p/image/small",[05:30 28/07/2026] Crb Al vs Vila Nova [BLV HD LOGAN] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel23/off-tvc
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel23/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel23.flv?auth_key=3000001785198994-0-0-e508b4b35818b47a388b25c74a54b761
-#EXTINF:-1 tvg-id="xoilac-ntigua-and-barbuda-u20-vs-guatemala-u20-luc-0600-ngay-28-07-2026-s1-4" tvg-name="[06:00 28/07/2026] Antigua And Barbuda U20 vs Guatemala U20 [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l7oqdehnkglr510/image/small",[06:00 28/07/2026] Antigua And Barbuda U20 vs Guatemala U20 [BLV HD POLO] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel10.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-union-la-calera-vs-everton-cd-luc-0600-ngay-28-07-2026-s1-6" tvg-name="[06:00 28/07/2026] Union La Calera vs Everton Cd [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hoye3qo9j/image/small",[06:00 28/07/2026] Union La Calera vs Everton Cd [BLV HD TONI] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel9.flv
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://magicbeast.io/","Origin":"https://magicbeast.io"}
+https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6
 #EXTINF:-1 tvg-id="xoilac-c-tiep-frances-tiafoe-vs-terence-atmane-luc-0610-ngay-28-07-2026-s1-3" tvg-name="[06:10 28/07/2026] Frances Tiafoe vs Terence Atmane [BLV HD LUCAS] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/318q6jf4xxwro9j/image/small",[06:10 28/07/2026] Frances Tiafoe vs Terence Atmane [BLV HD LUCAS] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
@@ -63,7 +30,7 @@ https://live2.streambylivepulse.com/live/channel9.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel31.flv
-#EXTINF:-1 tvg-id="xoilac-c-tiep-deportivo-cuenca-vs-sport-emelec-luc-0700-ngay-28-07-2026-s1-1" tvg-name="[07:00 28/07/2026] Deportivo Cuenca vs Sport Emelec [BLV HD RAVEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h7w1mojx/image/small",[07:00 28/07/2026] Deportivo Cuenca vs Sport Emelec [BLV HD RAVEN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-c-tiep-deportivo-cuenca-vs-sport-emelec-luc-0700-ngay-28-07-2026-s1-4" tvg-name="[07:00 28/07/2026] Deportivo Cuenca vs Sport Emelec [BLV HD RAVEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h7w1mojx/image/small",[07:00 28/07/2026] Deportivo Cuenca vs Sport Emelec [BLV HD RAVEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
@@ -77,48 +44,41 @@ https://live2.streambylivepulse.com/live/channel21.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel25.flv
-#EXTINF:-1 tvg-id="xoilac-uc-tiep-alex-hernandez-vs-bernard-tomic-luc-0800-ngay-28-07-2026-s1-8" tvg-name="[08:00 28/07/2026] Alex Hernandez vs Bernard Tomic [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fgdder1zp/image/small",[08:00 28/07/2026] Alex Hernandez vs Bernard Tomic [BLV HD VIC] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel32/off-tvc
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-alex-hernandez-vs-bernard-tomic-luc-0800-ngay-28-07-2026-s1-1" tvg-name="[08:00 28/07/2026] Alex Hernandez vs Bernard Tomic [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fgdder1zp/image/small",[08:00 28/07/2026] Alex Hernandez vs Bernard Tomic [BLV HD VIC] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel32/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785199022-0-0-e0df8654ed42164ba0315264b187ffad
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-costa-rica-u20-vs-mexico-u20-luc-0900-ngay-28-07-2026-s1-9" tvg-name="[09:00 28/07/2026] Costa Rica U20 vs Mexico U20 [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh4l0wr6od/image/small",[09:00 28/07/2026] Costa Rica U20 vs Mexico U20 [BLV HD SILVA] [FLV]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel32.flv
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-costa-rica-u20-vs-mexico-u20-luc-0900-ngay-28-07-2026-s1-5" tvg-name="[09:00 28/07/2026] Costa Rica U20 vs Mexico U20 [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh4l0wr6od/image/small",[09:00 28/07/2026] Costa Rica U20 vs Mexico U20 [BLV HD SILVA] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel20/off-tvc
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel20/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel20.flv?auth_key=3000001785199031-0-0-165c6a6a86abbf60c626c638e72828b0
-#EXTINF:-1 tvg-id="xoilac-tiep-nu-shanxi-tianze-vs-nu-wuhan-sheng-luc-0900-ngay-28-07-2026-s1-10" tvg-name="[09:00 28/07/2026] Nu Shanxi Tianze vs Nu Wuhan Sheng [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/6ypq3kt07olmd7o/image/small",[09:00 28/07/2026] Nu Shanxi Tianze vs Nu Wuhan Sheng [BLV HD TOMMY] [FLV]
+https://live3.procdnlive.com/livecdn/channel20.flv?auth_key=3000001785200760-0-0-78f3ebb714ecd6cc8043921c457074f1
+#EXTINF:-1 tvg-id="xoilac-tiep-nu-shanxi-tianze-vs-nu-wuhan-sheng-luc-0900-ngay-28-07-2026-s1-6" tvg-name="[09:00 28/07/2026] Nu Shanxi Tianze vs Nu Wuhan Sheng [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/6ypq3kt07olmd7o/image/small",[09:00 28/07/2026] Nu Shanxi Tianze vs Nu Wuhan Sheng [BLV HD TOMMY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel29/off-tvc
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel29/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785199038-0-0-0906483b2aad2ff02b131d9e01c9726d
-#EXTINF:-1 tvg-id="xoilac--cameron-norrie-vs-aleksandar-kovacevic-luc-0910-ngay-28-07-2026-s1-11" tvg-name="[09:10 28/07/2026] Cameron Norrie vs Aleksandar Kovacevic [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4jwq2pfx9x6m0ve/image/small",[09:10 28/07/2026] Cameron Norrie vs Aleksandar Kovacevic [BLV HD VIC] [FLV]
+https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785200762-0-0-0c58c6b13b0734fac155fb8622c639f7
+#EXTINF:-1 tvg-id="xoilac--cameron-norrie-vs-aleksandar-kovacevic-luc-0910-ngay-28-07-2026-s1-7" tvg-name="[09:10 28/07/2026] Cameron Norrie vs Aleksandar Kovacevic [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4jwq2pfx9x6m0ve/image/small",[09:10 28/07/2026] Cameron Norrie vs Aleksandar Kovacevic [BLV HD VIC] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel32/off-tvc
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel32/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785199041-0-0-c92d7b26b77f357af47d9d23e87a2cc4
-#EXTINF:-1 tvg-id="xoilac-de-jalisco-vs-correcaminos-uat-victoria-luc-0915-ngay-28-07-2026-s1-12" tvg-name="[09:15 28/07/2026] Astros De Jalisco vs Correcaminos Uat Victoria [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/965mk8t49dkm1ge/image/small",[09:15 28/07/2026] Astros De Jalisco vs Correcaminos Uat Victoria [BLV HD STEP] [FLV]
+https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785200767-0-0-b85292f07e4bd9f8378f9c3803bdb14b
+#EXTINF:-1 tvg-id="xoilac-de-jalisco-vs-correcaminos-uat-victoria-luc-0915-ngay-28-07-2026-s1-8" tvg-name="[09:15 28/07/2026] Astros De Jalisco vs Correcaminos Uat Victoria [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/965mk8t49dkm1ge/image/small",[09:15 28/07/2026] Astros De Jalisco vs Correcaminos Uat Victoria [BLV HD STEP] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel26/off-tvc
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel26/off-tvc","Origin":"https://xlz.livepingscorex.com"}
-https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785199045-0-0-1ad1235b6915ae32711d0e4aa635ccf9
-#EXTINF:-1 tvg-id="colatv-03dbbe23088c-1" tvg-name="[06:00 28/07] Union La Calera vs Everton [BLV BÍ ĐAOĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f9b2e922f6ca83c14def96049ccbfe42.png!w80",[06:00 28/07] Union La Calera vs Everton [BLV BÍ ĐAOĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/99121525.m3u8
+https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785200769-0-0-47c6c8311482f1e705c1cd87ca83fc66
 #EXTINF:-1 tvg-id="colatv-995b0b3e36df-1" tvg-name="[08:30 28/07] Giải Panama Serie A 28/07 Tauro FC VS Sporting San Miguelito BLV C2 [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/6293c44ab7fc90a120afb07ab59b20d4.png!w80",[08:30 28/07] Giải Panama Serie A 28/07 Tauro FC VS Sporting San Miguelito BLV C2 [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
