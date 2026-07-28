@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-29T04:31:14.014013+07:00",
+  "updated_at": "2026-07-29T05:01:47.441450+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -460,25 +460,28 @@
       "url": "https://live04.chuoichientv.me/live/1493028/san-lorenzo-vs-gimnasia-m",
       "match_name": "San Lorenzo vs Gimnasia M. - VĐQG Argentina",
       "kickoff_iso": "2026-07-29T05:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-07-29T04:31:14.013854+07:00",
-      "next_scan_at": "2026-07-29T04:41:14.013854+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-07-29T05:01:47.441345+07:00",
+      "next_scan_at": "2026-07-29T05:06:47.441345+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
+        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1547786": {
       "url": "https://live04.chuoichientv.me/live/1547786/santos-vs-ucv",
       "match_name": "santos vs ucv",
-      "kickoff_iso": "2026-07-29T07:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-07-29T04:31:14.013854+07:00",
-      "next_scan_at": "2026-07-29T05:16:14.013854+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-29T05:01:47.441345+07:00",
+      "next_scan_at": "2026-07-29T05:11:47.441345+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1589424": {
       "url": "https://live04.chuoichientv.me/live/1589424/lincoln-red-imps-fc-vs-mjallby",
@@ -499,8 +502,8 @@
       "match_name": "slovenia vs turkey",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T04:31:14.013854+07:00",
-      "next_scan_at": "2026-07-29T04:41:14.013854+07:00",
+      "last_scan_at": "2026-07-29T05:01:47.441345+07:00",
+      "next_scan_at": "2026-07-29T05:11:47.441345+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -511,8 +514,8 @@
       "match_name": "japan vs china",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T04:31:14.013854+07:00",
-      "next_scan_at": "2026-07-29T04:41:14.013854+07:00",
+      "last_scan_at": "2026-07-29T05:01:47.441345+07:00",
+      "next_scan_at": "2026-07-29T05:11:47.441345+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -522,12 +525,15 @@
       "url": "https://live04.chuoichientv.me/live/1547787/tigre-vs-nacional",
       "match_name": "Tigre vs Nacional - CONMEBOL Sudamericana",
       "kickoff_iso": "2026-07-29T05:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-07-29T04:31:14.013854+07:00",
-      "next_scan_at": "2026-07-29T04:41:14.013854+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-07-29T05:01:47.441345+07:00",
+      "next_scan_at": "2026-07-29T05:06:47.441345+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
+        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
