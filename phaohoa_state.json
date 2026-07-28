@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-28T16:34:32.998401+07:00",
+  "updated_at": "2026-07-28T17:05:01.395024+07:00",
   "matches": {
     "728352": {
       "url": "https://phaohoa1.live/truc-tiep/seoul-vs-ulsan-hd-26-07-2026-728352",
@@ -285,9 +285,9 @@
       "url": "https://phaohoa1.live/truc-tiep/philippines-vs-myanmar-28-07-2026-791560",
       "match_name": "Philippines vs Myanmar",
       "kickoff_iso": "2026-07-28T17:00:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-07-28T16:34:32.998248+07:00",
-      "next_scan_at": "2026-07-28T16:39:32.998248+07:00",
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-07-28T17:05:01.394797+07:00",
+      "next_scan_at": "2026-07-28T17:10:01.394797+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -297,15 +297,41 @@
     },
     "712690": {
       "url": "https://phaohoa1.live/truc-tiep/chelsea-vs-ws-wanderers-28-07-2026-712690",
-      "match_name": "28-07 Club Friendlies Chelsea VS WS Wanderers Chim Nhỏ",
+      "match_name": "Chelsea vs Ws Wanderers",
       "kickoff_iso": "2026-07-28T16:45:00+07:00",
-      "minutes_to_kickoff": 11,
-      "last_scan_at": "2026-07-28T16:34:32.998248+07:00",
-      "next_scan_at": "2026-07-28T16:39:32.998248+07:00",
+      "minutes_to_kickoff": -19,
+      "last_scan_at": "2026-07-28T17:05:01.394797+07:00",
+      "next_scan_at": "2026-07-28T17:10:01.394797+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "791561": {
+      "url": "https://phaohoa1.live/truc-tiep/malaysia-vs-laos-28-07-2026-791561",
+      "match_name": "28-07 ASEAN Championship Malaysia VS Laos Dế Lửa",
+      "kickoff_iso": "2026-07-28T20:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-07-28T17:05:01.394797+07:00",
+      "next_scan_at": "2026-07-28T17:50:01.394797+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "bb5b5aeaaf18": {
+      "url": "https://phaohoa1.live/truc-tiep/the-cong-vs-bien-phong",
+      "match_name": "28-07 U18 Việt Nam Thể Công VS Biên Phòng KaKa",
+      "kickoff_iso": "2026-07-28T20:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-07-28T17:05:01.394797+07:00",
+      "next_scan_at": "2026-07-28T17:50:01.394797+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
