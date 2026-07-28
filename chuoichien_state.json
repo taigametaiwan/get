@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-29T05:01:47.441450+07:00",
+  "updated_at": "2026-07-29T05:31:29.727560+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -86,18 +86,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1492306": {
-      "url": "https://live04.chuoichientv.me/live/1492306/palmeiras-vs-atletico-mg",
-      "match_name": "Palmeiras vs Atletico-MG - VĐQG Brazil",
-      "kickoff_iso": "2026-07-27T05:30:00+07:00",
-      "minutes_to_kickoff": -123,
-      "last_scan_at": "2026-07-27T07:33:56.718089+07:00",
-      "next_scan_at": "2026-07-27T07:38:56.718089+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
     },
     "1550910": {
       "url": "https://live04.chuoichientv.me/live/1550910/necaxa-vs-monterrey",
@@ -460,28 +448,27 @@
       "url": "https://live04.chuoichientv.me/live/1493028/san-lorenzo-vs-gimnasia-m",
       "match_name": "San Lorenzo vs Gimnasia M. - VĐQG Argentina",
       "kickoff_iso": "2026-07-29T05:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-07-29T05:01:47.441345+07:00",
-      "next_scan_at": "2026-07-29T05:06:47.441345+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-29T05:31:29.727443+07:00",
+      "next_scan_at": "2026-07-29T05:36:29.727443+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
       ],
       "scan_decision": "browser-fallback"
     },
     "1547786": {
       "url": "https://live04.chuoichientv.me/live/1547786/santos-vs-ucv",
       "match_name": "santos vs ucv",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T05:01:47.441345+07:00",
-      "next_scan_at": "2026-07-29T05:11:47.441345+07:00",
+      "kickoff_iso": "2026-07-29T07:30:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-07-29T05:31:29.727443+07:00",
+      "next_scan_at": "2026-07-29T05:51:29.727443+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1589424": {
       "url": "https://live04.chuoichientv.me/live/1589424/lincoln-red-imps-fc-vs-mjallby",
@@ -502,8 +489,8 @@
       "match_name": "slovenia vs turkey",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T05:01:47.441345+07:00",
-      "next_scan_at": "2026-07-29T05:11:47.441345+07:00",
+      "last_scan_at": "2026-07-29T05:31:29.727443+07:00",
+      "next_scan_at": "2026-07-29T05:41:29.727443+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -514,8 +501,8 @@
       "match_name": "japan vs china",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T05:01:47.441345+07:00",
-      "next_scan_at": "2026-07-29T05:11:47.441345+07:00",
+      "last_scan_at": "2026-07-29T05:31:29.727443+07:00",
+      "next_scan_at": "2026-07-29T05:41:29.727443+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -525,9 +512,9 @@
       "url": "https://live04.chuoichientv.me/live/1547787/tigre-vs-nacional",
       "match_name": "Tigre vs Nacional - CONMEBOL Sudamericana",
       "kickoff_iso": "2026-07-29T05:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-07-29T05:01:47.441345+07:00",
-      "next_scan_at": "2026-07-29T05:06:47.441345+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-29T05:31:29.727443+07:00",
+      "next_scan_at": "2026-07-29T05:36:29.727443+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
