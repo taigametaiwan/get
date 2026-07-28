@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-28T07:01:35.870350+07:00",
+  "updated_at": "2026-07-28T07:31:36.436363+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -62,20 +62,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1490354": {
-      "url": "https://live04.chuoichientv.me/live/1490354/minnesota-united-fc-vs-vancouver-whitecaps",
-      "match_name": "Minnesota United FC vs Vancouver Whitecaps - Major League Soccer",
-      "kickoff_iso": "2026-07-26T07:30:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-07-26T09:31:44.735532+07:00",
-      "next_scan_at": "2026-07-26T09:36:44.735532+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1490358": {
       "url": "https://live04.chuoichientv.me/live/1490358/los-angeles-fc-vs-sporting-kansas-city",
@@ -522,14 +508,13 @@
       "url": "https://live04.chuoichientv.me/live/1505474/union-la-calera-vs-everton",
       "match_name": "Union La Calera vs Everton - VĐQG Chile",
       "kickoff_iso": "2026-07-28T06:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-28T07:01:35.870299+07:00",
-      "next_scan_at": "2026-07-28T07:06:35.870299+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-28T07:31:36.436311+07:00",
+      "next_scan_at": "2026-07-28T07:36:36.436311+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
       ],
       "scan_decision": "browser-fallback"
     }
