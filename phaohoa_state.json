@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-28T20:04:40.841542+07:00",
+  "updated_at": "2026-07-28T20:34:55.282670+07:00",
   "matches": {
     "715558": {
       "url": "https://phaohoa1.live/truc-tiep/malmo-ff-vs-elfsborg-26-07-2026-715558",
@@ -257,23 +257,21 @@
       "url": "https://phaohoa1.live/truc-tiep/malaysia-vs-laos-28-07-2026-791561",
       "match_name": "Malaysia vs Laos",
       "kickoff_iso": "2026-07-28T20:00:00+07:00",
-      "minutes_to_kickoff": -4,
-      "last_scan_at": "2026-07-28T20:04:40.841286+07:00",
-      "next_scan_at": "2026-07-28T20:09:40.841286+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
-      ],
+      "minutes_to_kickoff": -34,
+      "last_scan_at": "2026-07-28T20:34:55.282434+07:00",
+      "next_scan_at": "2026-07-28T20:39:55.282434+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "bb5b5aeaaf18": {
       "url": "https://phaohoa1.live/truc-tiep/the-cong-vs-bien-phong",
       "match_name": "Thể Công vs Biên Phòng",
       "kickoff_iso": "2026-07-28T20:00:00+07:00",
-      "minutes_to_kickoff": -4,
-      "last_scan_at": "2026-07-28T20:04:40.841286+07:00",
-      "next_scan_at": "2026-07-28T20:09:40.841286+07:00",
+      "minutes_to_kickoff": -34,
+      "last_scan_at": "2026-07-28T20:34:55.282434+07:00",
+      "next_scan_at": "2026-07-28T20:39:55.282434+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -285,25 +283,25 @@
       "url": "https://phaohoa1.live/truc-tiep/neftchi-fargona-vs-navbahor-namangan-28-07-2026-736651",
       "match_name": "28-07 Super League Neftchi Fargona VS Navbahor Namangan KaKa",
       "kickoff_iso": "2026-07-28T22:00:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-07-28T20:04:40.841286+07:00",
-      "next_scan_at": "2026-07-28T20:24:40.841286+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-07-28T20:34:55.282434+07:00",
+      "next_scan_at": "2026-07-28T20:54:55.282434+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "776463": {
       "url": "https://phaohoa1.live/truc-tiep/kups-vs-sabah-baku-28-07-2026-776463",
       "match_name": "28-07 UEFA Champions League KuPS VS Sabah Baku Văn Minh",
       "kickoff_iso": "2026-07-28T22:00:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-07-28T20:04:40.841286+07:00",
-      "next_scan_at": "2026-07-28T20:24:40.841286+07:00",
+      "minutes_to_kickoff": 85,
+      "last_scan_at": "2026-07-28T20:34:55.282434+07:00",
+      "next_scan_at": "2026-07-28T20:54:55.282434+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "821374": {
       "url": "https://phaohoa1.live/truc-tiep/real-madrid-vs-leganes-28-07-2026-821374",
