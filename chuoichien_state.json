@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-30T00:01:43.258616+07:00",
+  "updated_at": "2026-07-30T01:31:46.484655+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -561,15 +561,17 @@
     },
     "1556508": {
       "url": "https://live04.chuoichientv.me/live/1556508/lech-poznan-vs-aarhus",
-      "match_name": "lech poznan vs aarhus",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T00:01:43.258459+07:00",
-      "next_scan_at": "2026-07-30T00:11:43.258459+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Lech Poznan vs Aarhus - UEFA Champions League",
+      "kickoff_iso": "2026-07-30T00:00:00+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-30T01:31:46.480124+07:00",
+      "next_scan_at": "2026-07-30T01:36:46.480124+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1556506": {
       "url": "https://live04.chuoichientv.me/live/1556506/gornik-zabrze-vs-fenerbahce",
@@ -585,47 +587,52 @@
     },
     "1583487": {
       "url": "https://live04.chuoichientv.me/live/1583487/real-betis-vs-lyon",
-      "match_name": "real betis vs lyon",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T00:01:43.258459+07:00",
-      "next_scan_at": "2026-07-30T00:11:43.258459+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Real Betis vs Lyon - Giao Hữu Câu Lạc Bộ",
+      "kickoff_iso": "2026-07-30T01:00:00+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-30T01:31:46.480124+07:00",
+      "next_scan_at": "2026-07-30T01:36:46.480124+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1583490": {
       "url": "https://live04.chuoichientv.me/live/1583490/bristol-city-vs-newcastle",
-      "match_name": "bristol city vs newcastle",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T00:01:43.258459+07:00",
-      "next_scan_at": "2026-07-30T00:11:43.258459+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Bristol City vs Newcastle - Giao Hữu Câu Lạc Bộ",
+      "kickoff_iso": "2026-07-30T01:30:00+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-07-30T01:31:46.480124+07:00",
+      "next_scan_at": "2026-07-30T01:36:46.480124+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1493022": {
       "url": "https://live04.chuoichientv.me/live/1493022/defensa-y-justicia-vs-deportivo-riestra",
-      "match_name": "defensa y justicia vs deportivo riestra",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T00:01:43.258459+07:00",
-      "next_scan_at": "2026-07-30T00:11:43.258459+07:00",
+      "match_name": "Defensa Y Justicia vs Deportivo Riestra - VĐQG Argentina",
+      "kickoff_iso": "2026-07-30T03:00:00+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-07-30T01:31:46.480124+07:00",
+      "next_scan_at": "2026-07-30T01:51:46.480124+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "browser-fallback"
     },
     "1492316": {
       "url": "https://live04.chuoichientv.me/live/1492316/internacional-vs-flamengo",
       "match_name": "internacional vs flamengo",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T00:01:43.258459+07:00",
-      "next_scan_at": "2026-07-30T00:11:43.258459+07:00",
+      "last_scan_at": "2026-07-30T01:31:46.480124+07:00",
+      "next_scan_at": "2026-07-30T01:41:46.480124+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -636,8 +643,8 @@
       "match_name": "liverpool vs wrexham",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T00:01:43.258459+07:00",
-      "next_scan_at": "2026-07-30T00:11:43.258459+07:00",
+      "last_scan_at": "2026-07-30T01:31:46.480124+07:00",
+      "next_scan_at": "2026-07-30T01:41:46.480124+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
