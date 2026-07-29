@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-07-29T08:06:01.965525+07:00",
+  "generated_at": "2026-07-29T08:36:45.542556+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -19,13 +19,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 7,
-      "playlist_blocks": 2,
+      "playlist_blocks": 1,
       "catalog_placeholders": 0,
       "metadata_references": 7,
       "included": true,
-      "fresh_stream_blocks": 2,
-      "fresh_verified_blocks": 2,
-      "fresh_selected": 2,
+      "fresh_stream_blocks": 1,
+      "fresh_verified_blocks": 1,
+      "fresh_selected": 1,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -78,10 +78,10 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 67,
+      "debug_rows": 66,
       "playlist_blocks": 18,
       "catalog_placeholders": 0,
-      "metadata_references": 67,
+      "metadata_references": 66,
       "included": true,
       "fresh_stream_blocks": 18,
       "fresh_verified_blocks": 18,
@@ -99,13 +99,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 102,
-      "playlist_blocks": 6,
+      "playlist_blocks": 7,
       "catalog_placeholders": 0,
-      "metadata_references": 95,
+      "metadata_references": 93,
       "included": true,
-      "fresh_stream_blocks": 6,
-      "fresh_verified_blocks": 6,
-      "fresh_selected": 6,
+      "fresh_stream_blocks": 7,
+      "fresh_verified_blocks": 7,
+      "fresh_selected": 7,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -135,15 +135,18 @@
     }
   ],
   "input_candidates": 39,
-  "metadata_reference_count": 178,
+  "metadata_reference_count": 175,
   "last_good_recovered_count": 1,
-  "last_good_suppressed_by_fresh_count": 18,
+  "last_good_suppressed_by_fresh_count": 21,
   "last_good_audit": [
     {
-      "url": "https://live2.streambylivepulse.com/live/channel9.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
+      "url": "https://live2.streambylivepulse.com/live/channel20.flv",
+      "kept": false,
+      "reason": "outside-source-window",
+      "source": "xoilac",
+      "kickoff_iso": "2026-07-29T06:00:00+07:00",
+      "minutes_to_kickoff": -156.76,
+      "filtered_before_probe": true
     },
     {
       "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
@@ -152,10 +155,16 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel20.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel9.flv",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
+    },
+    {
+      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
+      "kept": true,
+      "reason": "HTTP 206; m3u8=True",
+      "source": "chuoichien"
     },
     {
       "url": "https://live2.streambylivepulse.com/live/channel7.flv",
@@ -170,25 +179,7 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel33.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
       "url": "https://live2.streambylivepulse.com/live/channel21.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel13.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel5.flv",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -200,19 +191,43 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel4.flv?auth_key=3000001785285317-0-0-9d3e6893dfbdc95e02d9515e93ec3d0e",
+      "url": "https://live2.streambylivepulse.com/live/channel5.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel13.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel24.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel33.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel4.flv?auth_key=3000001785287090-0-0-f36870cf436ecf0f8d15350b2990624d",
       "kept": false,
       "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
       "source": "xoilac"
     },
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785285297-0-0-392c9ed3a9df31a4ea64c2d1e6245bbf",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel24.flv?auth_key=3000001785285286-0-0-c1a14d568eea301f7c4ad01da441bd43",
+      "url": "https://live3.procdnlive.com/livecdn/channel15.flv?auth_key=3000001785287101-0-0-1d423087b6417c90521fd9f8e37a4721",
       "kept": false,
       "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
       "source": "xoilac"
@@ -224,19 +239,25 @@
       "source": "gavang"
     },
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel17.flv?auth_key=3000001785285334-0-0-4303133a47c7ccf26b124e409a5ec587",
+      "url": "https://hls.lauthaitv.cc/live/tigres-medellin-colcopa/index.m3u8",
+      "kept": true,
+      "reason": "HTTP 206; m3u8=True",
+      "source": "gavang"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001785287107-0-0-2504817c9dafe4ee5645d505b86d0f3f",
       "kept": false,
       "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
       "source": "xoilac"
     },
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001785285329-0-0-a351d33166a8e5abb5f36db6803b0930",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785287114-0-0-21dbe0a1093474880f0b869bd3aeab66",
       "kept": false,
       "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
       "source": "xoilac"
     },
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel15.flv?auth_key=3000001785285328-0-0-1b9cce83dfea0b0a8b6c693bfd1aeaf3",
+      "url": "https://live3.procdnlive.com/livecdn/channel17.flv?auth_key=3000001785287112-0-0-d1e24f778b475ce992c134a249bbcb10",
       "kept": false,
       "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
       "source": "xoilac"
@@ -248,37 +269,25 @@
       "source": "gavang"
     },
     {
-      "url": "https://hls.lauthaitv.cc/live/tigres-medellin-colcopa/index.m3u8",
+      "url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785287125-0-0-4037af95f7076d15c59462e394462e23",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785287119-0-0-944a50afd15ec78599e86f6571a0977e",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel32.flv",
       "kept": true,
-      "reason": "HTTP 206; m3u8=True",
-      "source": "gavang"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785285336-0-0-8e8aba5f2aa81f470e09aa28005cf81e",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785285336-0-0-c406e66468256eafbd796c60d4c7c75c",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785285343-0-0-077946a7aa7061cd0b1d524a4833adc2",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
       "url": "https://live05.meung.app/live/87547578.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/82054853.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
@@ -291,6 +300,12 @@
     },
     {
       "url": "https://live05.meung.app/live/99121525.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/82054853.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
@@ -308,16 +323,16 @@
       "source": "colatv"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel9.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
       "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "chuoichien"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel9.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
     },
     {
       "url": "https://live2.streambylivepulse.com/live/channel7.flv",
@@ -332,25 +347,7 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel33.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
       "url": "https://live2.streambylivepulse.com/live/channel21.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel13.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel5.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
@@ -362,13 +359,37 @@
       "source": "xoilac"
     },
     {
-      "url": "https://hls.lauthaitv.cc/live/santos-uvene-copasuda/index.m3u8",
+      "url": "https://live2.streambylivepulse.com/live/channel5.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
-      "source": "gavang"
+      "source": "xoilac"
     },
     {
-      "url": "https://hls.lauthaitv.cc/live/rosario-racing-argdiv1/index.m3u8",
+      "url": "https://live2.streambylivepulse.com/live/channel13.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel24.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel33.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://hls.lauthaitv.cc/live/santos-uvene-copasuda/index.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "gavang"
@@ -380,13 +401,19 @@
       "source": "gavang"
     },
     {
-      "url": "https://live05.meung.app/live/87547578.m3u8",
+      "url": "https://hls.lauthaitv.cc/live/rosario-racing-argdiv1/index.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
+      "source": "gavang"
     },
     {
-      "url": "https://live05.meung.app/live/82054853.m3u8",
+      "url": "https://live2.streambylivepulse.com/live/channel32.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live05.meung.app/live/87547578.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
@@ -399,6 +426,12 @@
     },
     {
       "url": "https://live05.meung.app/live/99121525.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/82054853.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
@@ -416,8 +449,8 @@
       "source": "colatv"
     }
   ],
-  "selected_count": 30,
-  "dropped_count": 9,
+  "selected_count": 29,
+  "dropped_count": 10,
   "gavang_metadata": {
     "enriched": 1,
     "warn_only": 2,
@@ -448,7 +481,7 @@
       "pending_reason": null,
       "score": 466,
       "kickoff_iso": "2026-07-29T07:30:00+07:00",
-      "minutes_to_kickoff": -36.03,
+      "minutes_to_kickoff": -66.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -476,7 +509,7 @@
       "match_key": "santos vs ucv|chuoi tay",
       "display_name": "[07:30 29/07] Santos vs UCV - CONMEBOL Sudamericana [BLV Chuối Tây] (Luồng 2) [M3U8]",
       "group": "Chuối Chiên",
-      "sport_group": "Bóng đá",
+      "sport_group": "Chuối Chiên",
       "quality": "UNKNOWN",
       "kind": "m3u8",
       "playability": "verified",
@@ -486,9 +519,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 439,
+      "score": 385,
       "kickoff_iso": "2026-07-29T07:30:00+07:00",
-      "minutes_to_kickoff": -36.03,
+      "minutes_to_kickoff": -66.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -502,12 +535,12 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "Chuối Tây",
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 206; m3u8=True",
+      "prior_generated_at": "2026-07-29T08:06:01.965525+07:00"
     },
     {
       "source": "gavang",
@@ -528,7 +561,7 @@
       "pending_reason": null,
       "score": 431,
       "kickoff_iso": "2026-07-29T07:15:00+07:00",
-      "minutes_to_kickoff": -51.03,
+      "minutes_to_kickoff": -81.76,
       "metadata_audit": "enriched-soft",
       "metadata_enriched_from": "colatv",
       "metadata_warning": null,
@@ -537,7 +570,7 @@
         "racing",
         "argdiv1"
       ],
-      "logo": "https://profecta.io/wp-json/s8-image/e9783b83-5625-4315-9f9e-b6ce4b1263cf",
+      "logo": "https://profecta.io/wp-json/s8-image/6c2726a3-c851-4fb0-9b1b-786586e10bef",
       "logo_source": "team",
       "logo_enriched_from": null,
       "logo_is_fallback": false,
@@ -644,51 +677,6 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streambylivepulse.com/live/channel20.flv",
-      "match_key": "union magdalena vs ind santa fe|hd silva",
-      "display_name": "[06:00 29/07/2026] Union Magdalena vs Ind Santa Fe [BLV HD SILVA] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "Xôi Lạc",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 405,
-      "kickoff_iso": "2026-07-29T06:00:00+07:00",
-      "minutes_to_kickoff": -126.03,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh446pmoep/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live2.streambylivepulse.com/live/channel20.flv",
-      "home_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh446pmoep/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/football/team/jednm9wh30nryox/image/small",
-      "blv": null,
-      "recovered_last_good": true,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-07-29T07:36:12.206426+07:00"
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
       "url": "https://live2.streambylivepulse.com/live/channel9.flv",
       "match_key": "deportes quindio vs deportes tolima|hd toni",
       "display_name": "[06:15 29/07/2026] Deportes Quindio vs Deportes Tolima [BLV HD TONI] [FLV]",
@@ -710,7 +698,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T06:15:00+07:00",
-      "minutes_to_kickoff": -111.03,
+      "minutes_to_kickoff": -141.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -755,7 +743,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T06:30:00+07:00",
-      "minutes_to_kickoff": -96.03,
+      "minutes_to_kickoff": -126.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -800,7 +788,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T07:00:00+07:00",
-      "minutes_to_kickoff": -66.03,
+      "minutes_to_kickoff": -96.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -845,7 +833,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T07:00:00+07:00",
-      "minutes_to_kickoff": -66.03,
+      "minutes_to_kickoff": -96.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -890,7 +878,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T07:00:00+07:00",
-      "minutes_to_kickoff": -66.03,
+      "minutes_to_kickoff": -96.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -935,7 +923,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T07:15:00+07:00",
-      "minutes_to_kickoff": -51.03,
+      "minutes_to_kickoff": -81.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -980,7 +968,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T07:15:00+07:00",
-      "minutes_to_kickoff": -51.03,
+      "minutes_to_kickoff": -81.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1025,7 +1013,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T07:30:00+07:00",
-      "minutes_to_kickoff": -36.03,
+      "minutes_to_kickoff": -66.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1038,51 +1026,6 @@
       "page_url": "https://live2.streambylivepulse.com/live/channel13.flv",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyhvd7r1ge/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hly30rz84/image/small",
-      "blv": null,
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
-      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
-      "match_key": "fortaleza vs botafogo sp|",
-      "display_name": "[07:35 29/07/2026] Fortaleza vs Botafogo Sp [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "Hạng 2 Brazil",
-      "quality": "UNKNOWN",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 436,
-      "kickoff_iso": "2026-07-29T07:35:00+07:00",
-      "minutes_to_kickoff": -31.03,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zhy70ql07/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live2.streambylivepulse.com/live/channel4.flv",
-      "home_logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zhy70ql07/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/football/team/318q66ho166qo9j/image/small",
       "blv": null,
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
@@ -1115,7 +1058,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T08:00:00+07:00",
-      "minutes_to_kickoff": -6.03,
+      "minutes_to_kickoff": -36.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1160,7 +1103,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T08:00:00+07:00",
-      "minutes_to_kickoff": -6.03,
+      "minutes_to_kickoff": -36.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1184,7 +1127,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel4.flv?auth_key=3000001785287090-0-0-f36870cf436ecf0f8d15350b2990624d",
+      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
       "match_key": "tigres zipaquira vs atl nacional|hd tom",
       "display_name": "[08:30 29/07/2026] Tigres Zipaquira vs Atl Nacional [BLV HD TOM] [FLV]",
       "group": "Xôi Lạc",
@@ -1205,7 +1148,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T08:30:00+07:00",
-      "minutes_to_kickoff": 23.97,
+      "minutes_to_kickoff": -6.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1215,7 +1158,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel4.flv?auth_key=3000001785287090-0-0-f36870cf436ecf0f8d15350b2990624d",
+      "page_url": "https://live2.streambylivepulse.com/live/channel4.flv",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jhl3nvqwzv/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hll85rz84/image/small",
       "blv": null,
@@ -1229,7 +1172,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel15.flv?auth_key=3000001785287101-0-0-1d423087b6417c90521fd9f8e37a4721",
+      "url": "https://live3.procdnlive.com/livecdn/channel15.flv?auth_key=3000001785288936-0-0-0bb7abcb2d65f5018d2cd4d19f951da6",
       "match_key": "cd olimpia vs deportivo mixco|hd brady",
       "display_name": "[09:00 29/07/2026] Cd Olimpia vs Deportivo Mixco [BLV HD BRADY] [FLV]",
       "group": "Xôi Lạc",
@@ -1250,7 +1193,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T09:00:00+07:00",
-      "minutes_to_kickoff": 53.97,
+      "minutes_to_kickoff": 23.24,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1260,7 +1203,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel15.flv?auth_key=3000001785287101-0-0-1d423087b6417c90521fd9f8e37a4721",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel15.flv?auth_key=3000001785288936-0-0-0bb7abcb2d65f5018d2cd4d19f951da6",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hwo01qdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/l5ergph3dyzr8k0/image/small",
       "blv": null,
@@ -1274,7 +1217,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001785287107-0-0-2504817c9dafe4ee5645d505b86d0f3f",
+      "url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001785288937-0-0-6584dde43465faa8ec5873b956da1274",
       "match_key": "diriangen vs plaza amador|hd johan",
       "display_name": "[09:00 29/07/2026] Diriangen vs Plaza Amador [BLV HD JOHAN] [FLV]",
       "group": "Xôi Lạc",
@@ -1295,7 +1238,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T09:00:00+07:00",
-      "minutes_to_kickoff": 53.97,
+      "minutes_to_kickoff": 23.24,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1305,7 +1248,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001785287107-0-0-2504817c9dafe4ee5645d505b86d0f3f",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001785288937-0-0-6584dde43465faa8ec5873b956da1274",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hn378rz84/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2ghkwvpm0ve/image/small",
       "blv": null,
@@ -1319,7 +1262,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel17.flv?auth_key=3000001785287112-0-0-d1e24f778b475ce992c134a249bbcb10",
+      "url": "https://live3.procdnlive.com/livecdn/channel17.flv?auth_key=3000001785288944-0-0-dfc9fc3a06a2480280e24a39d9dbe7d4",
       "match_key": "el salvador u20 vs usa u20|hd nemo",
       "display_name": "[09:00 29/07/2026] El Salvador U20 vs Usa U20 [BLV HD NEMO] [FLV]",
       "group": "Xôi Lạc",
@@ -1340,7 +1283,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T09:00:00+07:00",
-      "minutes_to_kickoff": 53.97,
+      "minutes_to_kickoff": 23.24,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1350,7 +1293,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel17.flv?auth_key=3000001785287112-0-0-d1e24f778b475ce992c134a249bbcb10",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel17.flv?auth_key=3000001785288944-0-0-dfc9fc3a06a2480280e24a39d9dbe7d4",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhvg3drepz/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/965mkyh7zegr1ge/image/small",
       "blv": null,
@@ -1364,7 +1307,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785287114-0-0-21dbe0a1093474880f0b869bd3aeab66",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785288944-0-0-ff2b60351d43aea3fde5375dd21525d4",
       "match_key": "nu las vegas aces vs nu portland fire|hd tommy",
       "display_name": "[09:00 29/07/2026] Nu Las Vegas Aces vs Nu Portland Fire [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -1385,7 +1328,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T09:00:00+07:00",
-      "minutes_to_kickoff": 53.97,
+      "minutes_to_kickoff": 23.24,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1395,7 +1338,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785287114-0-0-21dbe0a1093474880f0b869bd3aeab66",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785288944-0-0-ff2b60351d43aea3fde5375dd21525d4",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/8y39mp4t8x8mojx/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/1l4rjztzk60m7vx/image/small",
       "blv": null,
@@ -1409,7 +1352,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785287119-0-0-944a50afd15ec78599e86f6571a0977e",
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785288953-0-0-a8491a8dbbea6f005e3dac3481283024",
       "match_key": "nu los angeles sparks vs nu ny liberty|hd alan",
       "display_name": "[09:00 29/07/2026] Nu Los Angeles Sparks vs Nu Ny Liberty [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -1430,7 +1373,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T09:00:00+07:00",
-      "minutes_to_kickoff": 53.97,
+      "minutes_to_kickoff": 23.24,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1440,7 +1383,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785287119-0-0-944a50afd15ec78599e86f6571a0977e",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785288953-0-0-a8491a8dbbea6f005e3dac3481283024",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/kjw2r02tde8qz84/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/9dn1m17td5jmoep/image/small",
       "blv": null,
@@ -1454,7 +1397,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785287125-0-0-4037af95f7076d15c59462e394462e23",
+      "url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785288960-0-0-f84436fce4833f99a7ba2372a99ebfdc",
       "match_key": "denis shapovalov vs rinky hijikata|hd vic",
       "display_name": "Mexico Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fg8zkr1zp/image/small\",[09:10 29/07/2026] Denis Shapovalov vs Rinky Hijikata [BLV HD VIC] [FLV]",
       "group": "Xôi Lạc",
@@ -1475,7 +1418,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-29T09:10:00+07:00",
-      "minutes_to_kickoff": 63.97,
+      "minutes_to_kickoff": 33.24,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1485,7 +1428,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785287125-0-0-4037af95f7076d15c59462e394462e23",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785288960-0-0-f84436fce4833f99a7ba2372a99ebfdc",
       "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fg8zkr1zp/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/4jwq2pfkj72m0ve/image/small",
       "blv": null,
@@ -1515,7 +1458,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-07-29T06:30:00+07:00",
-      "minutes_to_kickoff": -96.03,
+      "minutes_to_kickoff": -126.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1555,7 +1498,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-07-29T07:00:00+07:00",
-      "minutes_to_kickoff": -66.03,
+      "minutes_to_kickoff": -96.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1580,8 +1523,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/19919577.m3u8",
-      "match_key": "minnesota lynx vs toronto tempo|lich thi au cuoc vsbet nhan km ho tro k",
-      "display_name": "[07:00 29/07] Minnesota Lynx vs Toronto Tempo [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
+      "match_key": "minnesota lynx vs toronto tempo|pocari ang xem",
+      "display_name": "[07:00 29/07] Minnesota Lynx vs Toronto Tempo [BLV POCARIĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng rổ",
       "quality": "UNKNOWN",
@@ -1595,7 +1538,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-07-29T07:00:00+07:00",
-      "minutes_to_kickoff": -66.03,
+      "minutes_to_kickoff": -96.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1608,7 +1551,7 @@
       "page_url": "https://live05.meung.app/live/19919577.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k",
+      "blv": "POCARIĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1635,7 +1578,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-07-29T07:15:00+07:00",
-      "minutes_to_kickoff": -51.03,
+      "minutes_to_kickoff": -81.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1675,7 +1618,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-07-29T07:30:00+07:00",
-      "minutes_to_kickoff": -36.03,
+      "minutes_to_kickoff": -66.76,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1699,8 +1642,48 @@
     {
       "source": "colatv",
       "source_label": "ColaTV",
+      "url": "https://live05.meung.app/live/90865415.m3u8",
+      "match_key": "seattle storm vs indiana fever|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[08:30 29/07] Seattle Storm vs Indiana Fever [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "group": "ColaTV",
+      "sport_group": "Bóng rổ",
+      "quality": "UNKNOWN",
+      "kind": "m3u8",
+      "playability": "verified",
+      "classification": null,
+      "classification_reason": null,
+      "has_secret": false,
+      "expiry": null,
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 439,
+      "kickoff_iso": "2026-07-29T08:30:00+07:00",
+      "minutes_to_kickoff": -6.76,
+      "metadata_audit": null,
+      "metadata_enriched_from": null,
+      "metadata_warning": null,
+      "stream_key_tokens": null,
+      "logo": "https://img.gvapi.cc/basketball/team/21275a59516956d98aedc00b97faadc4.png!w80",
+      "logo_source": null,
+      "logo_enriched_from": null,
+      "logo_is_fallback": null,
+      "entry_mode": "stream",
+      "page_url": "https://live05.meung.app/live/90865415.m3u8",
+      "home_logo": null,
+      "away_logo": null,
+      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
+    },
+    {
+      "source": "colatv",
+      "source_label": "ColaTV",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "match_key": "hiep hoi bong ro quoc gia nu 29 07 seattle storm vs indiana fever blv 247|lich thi au cuoc vsbet tai app ta",
+      "match_key": "los angeles sparks vs new york liberty|rockstar ang xem",
       "display_name": "[09:00 29/07] CD Olimpia vs Deportivo Mixco [BLV BÍ ĐAOĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
@@ -1714,8 +1697,8 @@
       "derived_pending": false,
       "pending_reason": null,
       "score": 439,
-      "kickoff_iso": "2026-07-29T08:30:00+07:00",
-      "minutes_to_kickoff": 23.97,
+      "kickoff_iso": "2026-07-29T09:00:00+07:00",
+      "minutes_to_kickoff": 23.24,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1728,7 +1711,7 @@
       "page_url": "https://colatv88xi.cc/video2/output.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
+      "blv": "ROCKSTARĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1744,18 +1727,6 @@
       "display_name": "[07:30 29/07] Santos vs UCV - CONMEBOL Sudamericana [BLV Chuối Tây] [FHD FLV]",
       "match_key": "santos vs ucv|chuoi tay",
       "quality": "FHD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "chuoichien",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-      "display_name": "[07:30 29/07] Santos vs UCV - CONMEBOL Sudamericana [BLV Chuối Tây] (Luồng 2) [M3U8]",
-      "match_key": "santos vs ucv|chuoi tay",
-      "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
@@ -1800,6 +1771,18 @@
     },
     {
       "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
+      "display_name": "[08:30 29/07/2026] Tigres Zipaquira vs Atl Nacional [BLV HD TOM] [FLV]",
+      "match_key": "tigres zipaquira vs atl nacional|hd tom",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
       "url": "https://live2.streambylivepulse.com/live/channel24.flv",
       "display_name": "[08:00 29/07/2026] Cavalry Fc vs Supra Du Quebec [BLV HD FELIX] [FLV]",
       "match_key": "cavalry fc vs supra du quebec|hd felix",
@@ -1815,30 +1798,6 @@
       "url": "https://live2.streambylivepulse.com/live/channel32.flv",
       "display_name": "Mexico Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/n54ql4fk76lrvy9/image/small\",[08:00 29/07/2026] Sho Shimabukuro vs Rodrigo Pacheco Mendez [BLV HD VIC] [FLV]",
       "match_key": "sho shimabukuro vs rodrigo pacheco mendez|hd vic",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
-      "display_name": "[07:35 29/07/2026] Fortaleza vs Botafogo Sp [FLV]",
-      "match_key": "fortaleza vs botafogo sp|",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel13.flv",
-      "display_name": "[07:30 29/07/2026] Santos vs U C V Fc [BLV HD XMEN] [FLV]",
-      "match_key": "santos vs u c v fc|hd xmen",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1872,45 +1831,21 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel33.flv",
-      "display_name": "[07:00 29/07/2026] Cuba vs Dominican Republic [BLV HD TYSON] [FLV]",
-      "match_key": "cuba vs dominican republic|hd tyson",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel31.flv",
-      "display_name": "USA Women Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/n54ql4fkj9vrvy9/image/small\",[06:30 29/07/2026] Anastasia Potapova vs Venus Williams [BLV HD LUCAS] [FLV]",
-      "match_key": "anastasia potapova vs venus williams|hd lucas",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel9.flv",
-      "display_name": "[06:15 29/07/2026] Deportes Quindio vs Deportes Tolima [BLV HD TONI] [FLV]",
-      "match_key": "deportes quindio vs deportes tolima|hd toni",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
       "url": "https://live2.streambylivepulse.com/live/channel7.flv",
       "display_name": "[07:00 29/07/2026] Bogota Fc vs Deportivo Pasto [BLV HD JEAN] [FLV]",
       "match_key": "bogota fc vs deportivo pasto|hd jean",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel33.flv",
+      "display_name": "[07:00 29/07/2026] Cuba vs Dominican Republic [BLV HD TYSON] [FLV]",
+      "match_key": "cuba vs dominican republic|hd tyson",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1932,9 +1867,9 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel4.flv?auth_key=3000001785287090-0-0-f36870cf436ecf0f8d15350b2990624d",
-      "display_name": "[08:30 29/07/2026] Tigres Zipaquira vs Atl Nacional [BLV HD TOM] [FLV]",
-      "match_key": "tigres zipaquira vs atl nacional|hd tom",
+      "url": "https://live2.streambylivepulse.com/live/channel31.flv",
+      "display_name": "USA Women Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/n54ql4fkj9vrvy9/image/small\",[06:30 29/07/2026] Anastasia Potapova vs Venus Williams [BLV HD LUCAS] [FLV]",
+      "match_key": "anastasia potapova vs venus williams|hd lucas",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1944,7 +1879,43 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel15.flv?auth_key=3000001785287101-0-0-1d423087b6417c90521fd9f8e37a4721",
+      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
+      "display_name": "[07:35 29/07/2026] Fortaleza vs Botafogo Sp [FLV]",
+      "match_key": "tigres zipaquira vs atl nacional|",
+      "quality": "UNKNOWN",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel13.flv",
+      "display_name": "[07:30 29/07/2026] Santos vs U C V Fc [BLV HD XMEN] [FLV]",
+      "match_key": "santos vs u c v fc|hd xmen",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel9.flv",
+      "display_name": "[06:15 29/07/2026] Deportes Quindio vs Deportes Tolima [BLV HD TONI] [FLV]",
+      "match_key": "deportes quindio vs deportes tolima|hd toni",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live3.procdnlive.com/livecdn/channel15.flv?auth_key=3000001785288936-0-0-0bb7abcb2d65f5018d2cd4d19f951da6",
       "display_name": "[09:00 29/07/2026] Cd Olimpia vs Deportivo Mixco [BLV HD BRADY] [FLV]",
       "match_key": "cd olimpia vs deportivo mixco|hd brady",
       "quality": "HD",
@@ -1956,7 +1927,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001785287107-0-0-2504817c9dafe4ee5645d505b86d0f3f",
+      "url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001785288937-0-0-6584dde43465faa8ec5873b956da1274",
       "display_name": "[09:00 29/07/2026] Diriangen vs Plaza Amador [BLV HD JOHAN] [FLV]",
       "match_key": "diriangen vs plaza amador|hd johan",
       "quality": "HD",
@@ -1968,7 +1939,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel17.flv?auth_key=3000001785287112-0-0-d1e24f778b475ce992c134a249bbcb10",
+      "url": "https://live3.procdnlive.com/livecdn/channel17.flv?auth_key=3000001785288944-0-0-dfc9fc3a06a2480280e24a39d9dbe7d4",
       "display_name": "[09:00 29/07/2026] El Salvador U20 vs Usa U20 [BLV HD NEMO] [FLV]",
       "match_key": "el salvador u20 vs usa u20|hd nemo",
       "quality": "HD",
@@ -1980,7 +1951,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785287114-0-0-21dbe0a1093474880f0b869bd3aeab66",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785288944-0-0-ff2b60351d43aea3fde5375dd21525d4",
       "display_name": "[09:00 29/07/2026] Nu Las Vegas Aces vs Nu Portland Fire [BLV HD TOMMY] [FLV]",
       "match_key": "nu las vegas aces vs nu portland fire|hd tommy",
       "quality": "HD",
@@ -1992,7 +1963,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785287119-0-0-944a50afd15ec78599e86f6571a0977e",
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785288953-0-0-a8491a8dbbea6f005e3dac3481283024",
       "display_name": "[09:00 29/07/2026] Nu Los Angeles Sparks vs Nu Ny Liberty [BLV HD ALAN] [FLV]",
       "match_key": "nu los angeles sparks vs nu ny liberty|hd alan",
       "quality": "HD",
@@ -2004,7 +1975,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785287125-0-0-4037af95f7076d15c59462e394462e23",
+      "url": "https://live3.procdnlive.com/livecdn/channel32.flv?auth_key=3000001785288960-0-0-f84436fce4833f99a7ba2372a99ebfdc",
       "display_name": "Mexico Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fg8zkr1zp/image/small\",[09:10 29/07/2026] Denis Shapovalov vs Rinky Hijikata [BLV HD VIC] [FLV]",
       "match_key": "denis shapovalov vs rinky hijikata|hd vic",
       "quality": "HD",
@@ -2054,7 +2025,7 @@
       "source": "colatv",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
       "display_name": "[09:00 29/07] CD Olimpia vs Deportivo Mixco [BLV BÍ ĐAOĐang xem] [M3U8]",
-      "match_key": "hiep hoi bong ro quoc gia nu 29 07 seattle storm vs indiana fever blv 247|lich thi au cuoc vsbet tai app ta",
+      "match_key": "los angeles sparks vs new york liberty|rockstar ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -2077,8 +2048,20 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/19919577.m3u8",
-      "display_name": "[07:00 29/07] Minnesota Lynx vs Toronto Tempo [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
-      "match_key": "minnesota lynx vs toronto tempo|lich thi au cuoc vsbet nhan km ho tro k",
+      "display_name": "[07:00 29/07] Minnesota Lynx vs Toronto Tempo [BLV POCARIĐang xem] [M3U8]",
+      "match_key": "minnesota lynx vs toronto tempo|pocari ang xem",
+      "quality": "UNKNOWN",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "colatv",
+      "url": "https://live05.meung.app/live/90865415.m3u8",
+      "display_name": "[08:30 29/07] Seattle Storm vs Indiana Fever [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "seattle storm vs indiana fever|lich thi au cuoc vsbet tai app ta",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -2089,6 +2072,14 @@
   ],
   "fresh_preservation_ok": true,
   "dropped": [
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
+      "reason": "duplicate-url-lower-score",
+      "source": "xoilac",
+      "selected_source": "xoilac",
+      "selected_score": 456,
+      "dropped_score": 436
+    },
     {
       "url": "http://127.0.0.1:9/__phaohoa_metadata__/712691.m3u8",
       "reason": "not-verified-or-not-upcoming",
