@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-30T02:02:07.962667+07:00",
+  "updated_at": "2026-07-30T02:31:40.953584+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -134,21 +134,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1508819": {
-      "url": "https://live04.chuoichientv.me/live/1508819/ka-akureyri-vs-thor-akureyri",
-      "match_name": "KA Akureyri vs Thor Akureyri - Úrvalsdeild",
-      "kickoff_iso": "2026-07-28T02:15:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-07-28T04:01:36.334221+07:00",
-      "next_scan_at": "2026-07-28T04:06:36.334221+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1505474": {
       "url": "https://live04.chuoichientv.me/live/1505474/union-la-calera-vs-everton",
@@ -561,17 +546,15 @@
     },
     "1556508": {
       "url": "https://live04.chuoichientv.me/live/1556508/lech-poznan-vs-aarhus",
-      "match_name": "Lech Poznan vs Aarhus - UEFA Champions League",
-      "kickoff_iso": "2026-07-30T00:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-07-30T02:02:07.962562+07:00",
-      "next_scan_at": "2026-07-30T02:07:07.962562+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
-      ],
-      "scan_decision": "browser-fallback"
+      "match_name": "lech poznan vs aarhus",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-30T02:31:40.953482+07:00",
+      "next_scan_at": "2026-07-30T02:41:40.953482+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     },
     "1556506": {
       "url": "https://live04.chuoichientv.me/live/1556506/gornik-zabrze-vs-fenerbahce",
@@ -589,9 +572,9 @@
       "url": "https://live04.chuoichientv.me/live/1583487/real-betis-vs-lyon",
       "match_name": "Real Betis vs Lyon - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-07-30T01:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-30T02:02:07.962562+07:00",
-      "next_scan_at": "2026-07-30T02:07:07.962562+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-30T02:31:40.953482+07:00",
+      "next_scan_at": "2026-07-30T02:36:40.953482+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -603,9 +586,9 @@
       "url": "https://live04.chuoichientv.me/live/1583490/bristol-city-vs-newcastle",
       "match_name": "Bristol City vs Newcastle - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-07-30T01:30:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-07-30T02:02:07.962562+07:00",
-      "next_scan_at": "2026-07-30T02:07:07.962562+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-07-30T02:31:40.953482+07:00",
+      "next_scan_at": "2026-07-30T02:36:40.953482+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -617,9 +600,9 @@
       "url": "https://live04.chuoichientv.me/live/1493022/defensa-y-justicia-vs-deportivo-riestra",
       "match_name": "Defensa Y Justicia vs Deportivo Riestra - VĐQG Argentina",
       "kickoff_iso": "2026-07-30T03:00:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-07-30T02:02:07.962562+07:00",
-      "next_scan_at": "2026-07-30T02:22:07.962562+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-07-30T02:31:40.953482+07:00",
+      "next_scan_at": "2026-07-30T02:41:40.953482+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -642,8 +625,8 @@
       "match_name": "liverpool vs wrexham",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T02:02:07.962562+07:00",
-      "next_scan_at": "2026-07-30T02:12:07.962562+07:00",
+      "last_scan_at": "2026-07-30T02:31:40.953482+07:00",
+      "next_scan_at": "2026-07-30T02:41:40.953482+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
