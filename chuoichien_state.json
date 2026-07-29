@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-30T04:31:30.593079+07:00",
+  "updated_at": "2026-07-30T05:01:18.435407+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -625,15 +625,15 @@
     },
     "1589333": {
       "url": "https://live04.chuoichientv.me/live/1589333/liverpool-vs-wrexham",
-      "match_name": "liverpool vs wrexham",
+      "match_name": "Liverpool vs Wrexham - Premier League - Summer Series",
       "kickoff_iso": "2026-07-30T06:30:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-07-30T04:31:30.593005+07:00",
-      "next_scan_at": "2026-07-30T04:51:30.593005+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-07-30T05:01:18.435332+07:00",
+      "next_scan_at": "2026-07-30T05:21:18.435332+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
