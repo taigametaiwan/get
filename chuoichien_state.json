@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-29T16:31:46.979747+07:00",
+  "updated_at": "2026-07-29T17:02:28.340101+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -474,15 +474,15 @@
     },
     "210763": {
       "url": "https://live04.chuoichientv.me/live/210763/japan-vs-china",
-      "match_name": "japan vs china",
+      "match_name": "Japan vs China - Nations League",
       "kickoff_iso": "2026-07-29T18:30:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-07-29T16:31:46.979586+07:00",
-      "next_scan_at": "2026-07-29T16:51:46.979586+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-07-29T17:02:28.339916+07:00",
+      "next_scan_at": "2026-07-29T17:22:28.339916+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1547787": {
       "url": "https://live04.chuoichientv.me/live/1547787/tigre-vs-nacional",
@@ -502,14 +502,13 @@
       "url": "https://live04.chuoichientv.me/live/1602959/port-fc-vs-persija",
       "match_name": "Port FC vs Persija - Piala Presiden",
       "kickoff_iso": "2026-07-29T15:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-29T16:31:46.979586+07:00",
-      "next_scan_at": "2026-07-29T16:36:46.979586+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-29T17:02:28.339916+07:00",
+      "next_scan_at": "2026-07-29T17:07:28.339916+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
+        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -517,9 +516,9 @@
       "url": "https://live04.chuoichientv.me/live/1502104/tottenham-vs-sydney",
       "match_name": "Tottenham vs Sydney - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-07-29T16:45:00+07:00",
-      "minutes_to_kickoff": 14,
-      "last_scan_at": "2026-07-29T16:31:46.979586+07:00",
-      "next_scan_at": "2026-07-29T16:36:46.979586+07:00",
+      "minutes_to_kickoff": -16,
+      "last_scan_at": "2026-07-29T17:02:28.339916+07:00",
+      "next_scan_at": "2026-07-29T17:07:28.339916+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -531,49 +530,53 @@
       "url": "https://live04.chuoichientv.me/live/1546736/cerezo-osaka-vs-borussia-dortmund",
       "match_name": "Cerezo Osaka vs Borussia Dortmund - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-07-29T17:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-07-29T16:31:46.979586+07:00",
-      "next_scan_at": "2026-07-29T16:41:46.979586+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-07-29T17:02:28.339916+07:00",
+      "next_scan_at": "2026-07-29T17:07:28.339916+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1591953": {
       "url": "https://live04.chuoichientv.me/live/1591953/busan-i-park-vs-fc-seoul",
-      "match_name": "Busan I Park vs FC Seoul - FA Cup",
+      "match_name": "busan i park vs fc seoul",
       "kickoff_iso": "2026-07-29T17:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-07-29T16:31:46.979586+07:00",
-      "next_scan_at": "2026-07-29T16:41:46.979586+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-07-29T17:02:28.339916+07:00",
+      "next_scan_at": "2026-07-29T17:07:28.339916+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1602960": {
       "url": "https://live04.chuoichientv.me/live/1602960/persebaya-surabaya-vs-psms-medan",
       "match_name": "persebaya surabaya vs psms medan",
-      "kickoff_iso": "2026-07-29T19:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-07-29T16:31:46.979586+07:00",
-      "next_scan_at": "2026-07-29T17:16:46.979586+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
-    },
-    "1604679": {
-      "url": "https://live04.chuoichientv.me/live/1604679/bayer-leverkusen-vs-genk",
-      "match_name": "bayer leverkusen vs genk",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T16:31:46.979586+07:00",
-      "next_scan_at": "2026-07-29T16:41:46.979586+07:00",
+      "last_scan_at": "2026-07-29T17:02:28.339916+07:00",
+      "next_scan_at": "2026-07-29T17:12:28.339916+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
+    },
+    "1604679": {
+      "url": "https://live04.chuoichientv.me/live/1604679/bayer-leverkusen-vs-genk",
+      "match_name": "bayer leverkusen vs genk",
+      "kickoff_iso": "2026-07-29T20:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-07-29T17:02:28.339916+07:00",
+      "next_scan_at": "2026-07-29T17:47:28.339916+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     },
     "1559560": {
       "url": "https://live04.chuoichientv.me/live/1559560/ilpar-vs-metallurg-asha",
@@ -592,8 +595,8 @@
       "match_name": "dukagjini vs fc lugano",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T16:31:46.979586+07:00",
-      "next_scan_at": "2026-07-29T16:41:46.979586+07:00",
+      "last_scan_at": "2026-07-29T17:02:28.339916+07:00",
+      "next_scan_at": "2026-07-29T17:12:28.339916+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -604,8 +607,8 @@
       "match_name": "kairat almaty vs omonia nicosia",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-29T16:31:46.979586+07:00",
-      "next_scan_at": "2026-07-29T16:41:46.979586+07:00",
+      "last_scan_at": "2026-07-29T17:02:28.339916+07:00",
+      "next_scan_at": "2026-07-29T17:12:28.339916+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
