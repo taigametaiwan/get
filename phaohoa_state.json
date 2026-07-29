@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-29T15:05:05.521462+07:00",
+  "updated_at": "2026-07-29T15:35:37.823563+07:00",
   "matches": {
     "791558": {
       "url": "https://phaohoa1.live/truc-tiep/singapore-vs-timor-leste-27-07-2026-791558",
@@ -315,9 +315,9 @@
       "url": "https://phaohoa1.live/truc-tiep/slovenia-vs-tho-nhi-ki",
       "match_name": "Slovenia vs Thổ Nhĩ Kì",
       "kickoff_iso": "2026-07-29T14:00:00+07:00",
-      "minutes_to_kickoff": -65,
-      "last_scan_at": "2026-07-29T15:05:05.521303+07:00",
-      "next_scan_at": "2026-07-29T15:10:05.521303+07:00",
+      "minutes_to_kickoff": -95,
+      "last_scan_at": "2026-07-29T15:35:37.823434+07:00",
+      "next_scan_at": "2026-07-29T15:40:37.823434+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -329,21 +329,33 @@
       "url": "https://phaohoa1.live/truc-tiep/tottenham-vs-sydney-fc-29-07-2026-712691",
       "match_name": "29-07 Club Friendlies Tottenham VS Sydney FC Chim Nhỏ",
       "kickoff_iso": "2026-07-29T16:45:00+07:00",
-      "minutes_to_kickoff": 100,
-      "last_scan_at": "2026-07-29T15:05:05.521303+07:00",
-      "next_scan_at": "2026-07-29T15:25:05.521303+07:00",
+      "minutes_to_kickoff": 70,
+      "last_scan_at": "2026-07-29T15:35:37.823434+07:00",
+      "next_scan_at": "2026-07-29T15:55:37.823434+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "763663": {
       "url": "https://phaohoa1.live/truc-tiep/cerezo-osaka-vs-dortmund-29-07-2026-763663",
       "match_name": "29-07 Club Friendlies Cerezo Osaka VS Dortmund Pháo Thủ",
       "kickoff_iso": "2026-07-29T17:00:00+07:00",
-      "minutes_to_kickoff": 115,
-      "last_scan_at": "2026-07-29T15:05:05.521303+07:00",
-      "next_scan_at": "2026-07-29T15:25:05.521303+07:00",
+      "minutes_to_kickoff": 85,
+      "last_scan_at": "2026-07-29T15:35:37.823434+07:00",
+      "next_scan_at": "2026-07-29T15:55:37.823434+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "17314220d118": {
+      "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-trung-quoc",
+      "match_name": "29-07 Nations League Nhật Bản VS Trung Quốc KaKa",
+      "kickoff_iso": "2026-07-29T18:30:00+07:00",
+      "minutes_to_kickoff": 175,
+      "last_scan_at": "2026-07-29T15:35:37.823434+07:00",
+      "next_scan_at": "2026-07-29T16:20:37.823434+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
