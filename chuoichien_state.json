@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-30T06:01:19.789541+07:00",
+  "updated_at": "2026-07-30T06:31:39.959794+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -613,12 +613,14 @@
       "url": "https://live04.chuoichientv.me/live/1589333/liverpool-vs-wrexham",
       "match_name": "Liverpool vs Wrexham - Premier League - Summer Series",
       "kickoff_iso": "2026-07-30T06:30:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-07-30T06:01:19.789496+07:00",
-      "next_scan_at": "2026-07-30T06:11:19.789496+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-07-30T06:31:39.959671+07:00",
+      "next_scan_at": "2026-07-30T06:36:39.959671+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
