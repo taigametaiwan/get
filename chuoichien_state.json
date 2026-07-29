@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-30T02:31:40.953584+07:00",
+  "updated_at": "2026-07-30T03:01:40.686469+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -586,13 +586,14 @@
       "url": "https://live04.chuoichientv.me/live/1583490/bristol-city-vs-newcastle",
       "match_name": "Bristol City vs Newcastle - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-07-30T01:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-30T02:31:40.953482+07:00",
-      "next_scan_at": "2026-07-30T02:36:40.953482+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-30T03:01:40.686417+07:00",
+      "next_scan_at": "2026-07-30T03:06:40.686417+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -600,12 +601,14 @@
       "url": "https://live04.chuoichientv.me/live/1493022/defensa-y-justicia-vs-deportivo-riestra",
       "match_name": "Defensa Y Justicia vs Deportivo Riestra - VĐQG Argentina",
       "kickoff_iso": "2026-07-30T03:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-07-30T02:31:40.953482+07:00",
-      "next_scan_at": "2026-07-30T02:41:40.953482+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-07-30T03:01:40.686417+07:00",
+      "next_scan_at": "2026-07-30T03:06:40.686417+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1492316": {
@@ -625,8 +628,8 @@
       "match_name": "liverpool vs wrexham",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T02:31:40.953482+07:00",
-      "next_scan_at": "2026-07-30T02:41:40.953482+07:00",
+      "last_scan_at": "2026-07-30T03:01:40.686417+07:00",
+      "next_scan_at": "2026-07-30T03:11:40.686417+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
