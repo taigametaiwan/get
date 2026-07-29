@@ -1,36 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-29T20:03:55.609613+07:00",
+  "updated_at": "2026-07-29T21:03:09.596804+07:00",
   "matches": {
-    "791559": {
-      "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-cambodia-27-07-2026-791559",
-      "match_name": "Indonesia vs Cambodia",
-      "kickoff_iso": "2026-07-27T20:30:00+07:00",
-      "minutes_to_kickoff": -95,
-      "last_scan_at": "2026-07-27T22:06:29.634570+07:00",
-      "next_scan_at": "2026-07-27T22:11:29.634570+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "152523": {
-      "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-cambodia-26-07-2026-152523",
-      "match_name": "Indonesia vs Cambodia",
-      "kickoff_iso": "2026-07-27T20:30:00+07:00",
-      "minutes_to_kickoff": -95,
-      "last_scan_at": "2026-07-27T22:06:29.634570+07:00",
-      "next_scan_at": "2026-07-27T22:11:29.634570+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "736649": {
       "url": "https://phaohoa1.live/truc-tiep/lok-tashkent-vs-sogdiana-27-07-2026-736649",
       "match_name": "Lok. Tashkent vs Sogdiana",
@@ -343,9 +315,9 @@
       "url": "https://phaohoa1.live/truc-tiep/bayer-leverkusen-vs-genk-29-07-2026-826126",
       "match_name": "Bayer Leverkusen vs Genk",
       "kickoff_iso": "2026-07-29T20:00:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-07-29T20:03:55.609446+07:00",
-      "next_scan_at": "2026-07-29T20:08:55.609446+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-07-29T21:03:09.596707+07:00",
+      "next_scan_at": "2026-07-29T21:08:09.596707+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -357,9 +329,21 @@
       "url": "https://phaohoa1.live/truc-tiep/kairat-almaty-vs-omonia-29-07-2026-776596",
       "match_name": "29-07 UEFA Champions League Kairat Almaty VS Omonia Kevin",
       "kickoff_iso": "2026-07-29T22:00:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-07-29T20:03:55.609446+07:00",
-      "next_scan_at": "2026-07-29T20:23:55.609446+07:00",
+      "minutes_to_kickoff": 57,
+      "last_scan_at": "2026-07-29T21:03:09.596707+07:00",
+      "next_scan_at": "2026-07-29T21:23:09.596707+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "770560": {
+      "url": "https://phaohoa1.live/truc-tiep/fc-copenhagen-vs-polissya-zhytomyr-30-07-2026-770560",
+      "match_name": "30-07 UEFA Conference League FC Copenhagen VS Polissya Zhytomyr Văn Minh",
+      "kickoff_iso": "2026-07-30T00:00:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-07-29T21:03:09.596707+07:00",
+      "next_scan_at": "2026-07-29T21:48:09.596707+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
