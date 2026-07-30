@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-30T16:31:31.568597+07:00",
+  "updated_at": "2026-07-30T17:01:48.976179+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -134,35 +134,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1502103": {
-      "url": "https://live04.chuoichientv.me/live/1502103/chelsea-vs-western-sydney-wanderers",
-      "match_name": "Chelsea vs Western Sydney Wanderers - Giao Hữu Câu Lạc Bộ",
-      "kickoff_iso": "2026-07-28T16:45:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-07-28T18:31:58.204601+07:00",
-      "next_scan_at": "2026-07-28T18:36:58.204601+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1548093": {
-      "url": "https://live04.chuoichientv.me/live/1548093/philippines-vs-myanmar",
-      "match_name": "Philippines vs Myanmar - AFF Championship",
-      "kickoff_iso": "2026-07-28T17:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-28T18:31:58.204601+07:00",
-      "next_scan_at": "2026-07-28T18:36:58.204601+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "996253": {
       "url": "https://live04.chuoichientv.me/live/996253/trau-vs-neroca",
@@ -625,14 +596,13 @@
       "url": "https://live04.chuoichientv.me/live/1560868/sydney-olympic-vs-brisbane-roar",
       "match_name": "Sydney Olympic vs Brisbane Roar - Australia Cup",
       "kickoff_iso": "2026-07-30T16:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-07-30T16:31:31.568439+07:00",
-      "next_scan_at": "2026-07-30T16:36:31.568439+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-30T17:01:48.975998+07:00",
+      "next_scan_at": "2026-07-30T17:06:48.975998+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
+        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -651,22 +621,22 @@
     "1534810": {
       "url": "https://live04.chuoichientv.me/live/1534810/kaspij-aktau-2-vs-aktobe-jas",
       "match_name": "kaspij aktau 2 vs aktobe jas",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T16:31:31.568439+07:00",
-      "next_scan_at": "2026-07-30T16:41:31.568439+07:00",
+      "kickoff_iso": "2026-07-30T20:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-07-30T17:01:48.975998+07:00",
+      "next_scan_at": "2026-07-30T17:46:48.975998+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1593499": {
       "url": "https://live04.chuoichientv.me/live/1593499/atltic-club-descaldes-vs-fc-vaduz",
       "match_name": "atltic club descaldes vs fc vaduz",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T16:31:31.568439+07:00",
-      "next_scan_at": "2026-07-30T16:41:31.568439+07:00",
+      "last_scan_at": "2026-07-30T17:01:48.975998+07:00",
+      "next_scan_at": "2026-07-30T17:11:48.975998+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -677,8 +647,8 @@
       "match_name": "jippo vs jps",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T16:31:31.568439+07:00",
-      "next_scan_at": "2026-07-30T16:41:31.568439+07:00",
+      "last_scan_at": "2026-07-30T17:01:48.975998+07:00",
+      "next_scan_at": "2026-07-30T17:11:48.975998+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -689,8 +659,8 @@
       "match_name": "fc midtjylland vs besiktas",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T16:31:31.568439+07:00",
-      "next_scan_at": "2026-07-30T16:41:31.568439+07:00",
+      "last_scan_at": "2026-07-30T17:01:48.975998+07:00",
+      "next_scan_at": "2026-07-30T17:11:48.975998+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -701,8 +671,8 @@
       "match_name": "cska sofia vs qarabag",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T16:31:31.568439+07:00",
-      "next_scan_at": "2026-07-30T16:41:31.568439+07:00",
+      "last_scan_at": "2026-07-30T17:01:48.975998+07:00",
+      "next_scan_at": "2026-07-30T17:11:48.975998+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -713,8 +683,8 @@
       "match_name": "benfica vs fc st gallen",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T16:31:31.568439+07:00",
-      "next_scan_at": "2026-07-30T16:41:31.568439+07:00",
+      "last_scan_at": "2026-07-30T17:01:48.975998+07:00",
+      "next_scan_at": "2026-07-30T17:11:48.975998+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -722,23 +692,23 @@
     },
     "999289": {
       "url": "https://live04.chuoichientv.me/live/999289/poland-vs-ukraine",
-      "match_name": "poland vs ukraine",
+      "match_name": "Poland vs Ukraine - Nations League",
       "kickoff_iso": "2026-07-30T18:30:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-07-30T16:31:31.568439+07:00",
-      "next_scan_at": "2026-07-30T16:51:31.568439+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-07-30T17:01:48.975998+07:00",
+      "next_scan_at": "2026-07-30T17:21:48.975998+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1492313": {
       "url": "https://live04.chuoichientv.me/live/1492313/corinthians-vs-atletico-paranaense",
       "match_name": "corinthians vs atletico paranaense",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T16:31:31.568439+07:00",
-      "next_scan_at": "2026-07-30T16:41:31.568439+07:00",
+      "last_scan_at": "2026-07-30T17:01:48.975998+07:00",
+      "next_scan_at": "2026-07-30T17:11:48.975998+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

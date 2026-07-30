@@ -1,36 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-30T16:32:58.858838+07:00",
+  "updated_at": "2026-07-30T17:03:50.591394+07:00",
   "matches": {
-    "791560": {
-      "url": "https://phaohoa1.live/truc-tiep/philippines-vs-myanmar-28-07-2026-791560",
-      "match_name": "Philippines vs Myanmar",
-      "kickoff_iso": "2026-07-28T17:00:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-07-28T18:35:11.014855+07:00",
-      "next_scan_at": "2026-07-28T18:40:11.014855+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "712690": {
-      "url": "https://phaohoa1.live/truc-tiep/chelsea-vs-ws-wanderers-28-07-2026-712690",
-      "match_name": "Chelsea vs Ws Wanderers",
-      "kickoff_iso": "2026-07-28T16:45:00+07:00",
-      "minutes_to_kickoff": -109,
-      "last_scan_at": "2026-07-28T18:35:11.014855+07:00",
-      "next_scan_at": "2026-07-28T18:40:11.014855+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "791561": {
       "url": "https://phaohoa1.live/truc-tiep/malaysia-vs-laos-28-07-2026-791561",
       "match_name": "Malaysia vs Laos",
@@ -339,15 +311,15 @@
     },
     "e28321e49fc2": {
       "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-ukraine",
-      "match_name": "30-07 Nations League Ba Lan VS Ukraine KaKa",
+      "match_name": "Ba Lan vs Ukraine",
       "kickoff_iso": "2026-07-30T18:30:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-07-30T16:32:58.858745+07:00",
-      "next_scan_at": "2026-07-30T16:52:58.858745+07:00",
+      "minutes_to_kickoff": 87,
+      "last_scan_at": "2026-07-30T17:03:50.591306+07:00",
+      "next_scan_at": "2026-07-30T17:23:50.591306+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
