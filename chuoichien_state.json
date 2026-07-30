@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-30T06:31:39.959794+07:00",
+  "updated_at": "2026-07-30T07:01:32.521189+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -613,15 +613,112 @@
       "url": "https://live04.chuoichientv.me/live/1589333/liverpool-vs-wrexham",
       "match_name": "Liverpool vs Wrexham - Premier League - Summer Series",
       "kickoff_iso": "2026-07-30T06:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-07-30T06:31:39.959671+07:00",
-      "next_scan_at": "2026-07-30T06:36:39.959671+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-30T07:01:32.521072+07:00",
+      "next_scan_at": "2026-07-30T07:06:32.521072+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
+        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "210764": {
+      "url": "https://live04.chuoichientv.me/live/210764/italy-vs-usa",
+      "match_name": "italy vs usa",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-30T07:01:32.521072+07:00",
+      "next_scan_at": "2026-07-30T07:11:32.521072+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1560868": {
+      "url": "https://live04.chuoichientv.me/live/1560868/sydney-olympic-vs-brisbane-roar",
+      "match_name": "sydney olympic vs brisbane roar",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-30T07:01:32.521072+07:00",
+      "next_scan_at": "2026-07-30T07:11:32.521072+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "210765": {
+      "url": "https://live04.chuoichientv.me/live/210765/poland-vs-guadalajara-chivas",
+      "match_name": "poland vs guadalajara chivas",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-30T07:01:32.521072+07:00",
+      "next_scan_at": "2026-07-30T07:11:32.521072+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1534810": {
+      "url": "https://live04.chuoichientv.me/live/1534810/kaspij-aktau-2-vs-aktobe-jas",
+      "match_name": "kaspij aktau 2 vs aktobe jas",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-30T07:01:32.521072+07:00",
+      "next_scan_at": "2026-07-30T07:11:32.521072+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1593499": {
+      "url": "https://live04.chuoichientv.me/live/1593499/atltic-club-descaldes-vs-fc-vaduz",
+      "match_name": "atltic club descaldes vs fc vaduz",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-30T07:01:32.521072+07:00",
+      "next_scan_at": "2026-07-30T07:11:32.521072+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1504273": {
+      "url": "https://live04.chuoichientv.me/live/1504273/jippo-vs-jps",
+      "match_name": "jippo vs jps",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-30T07:01:32.521072+07:00",
+      "next_scan_at": "2026-07-30T07:11:32.521072+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1556549": {
+      "url": "https://live04.chuoichientv.me/live/1556549/fc-midtjylland-vs-besiktas",
+      "match_name": "fc midtjylland vs besiktas",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-30T07:01:32.521072+07:00",
+      "next_scan_at": "2026-07-30T07:11:32.521072+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1593524": {
+      "url": "https://live04.chuoichientv.me/live/1593524/cska-sofia-vs-qarabag",
+      "match_name": "cska sofia vs qarabag",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-30T07:01:32.521072+07:00",
+      "next_scan_at": "2026-07-30T07:11:32.521072+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }

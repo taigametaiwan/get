@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-30T06:34:43.991429+07:00",
+  "updated_at": "2026-07-30T07:04:30.463999+07:00",
   "matches": {
     "791560": {
       "url": "https://phaohoa1.live/truc-tiep/philippines-vs-myanmar-28-07-2026-791560",
@@ -315,14 +315,12 @@
       "url": "https://phaohoa1.live/truc-tiep/liverpool-vs-wrexham",
       "match_name": "Liverpool vs Wrexham",
       "kickoff_iso": "2026-07-30T06:30:00+07:00",
-      "minutes_to_kickoff": -4,
-      "last_scan_at": "2026-07-30T06:34:43.991348+07:00",
-      "next_scan_at": "2026-07-30T06:39:43.991348+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
+      "minutes_to_kickoff": -34,
+      "last_scan_at": "2026-07-30T07:04:30.463926+07:00",
+      "next_scan_at": "2026-07-30T07:09:30.463926+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     }
   }
