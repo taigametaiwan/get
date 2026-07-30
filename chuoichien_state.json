@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-30T20:31:44.756850+07:00",
+  "updated_at": "2026-07-30T21:02:07.272584+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -146,20 +146,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "995444": {
-      "url": "https://live04.chuoichientv.me/live/995444/south-united-vs-cisf-protectors",
-      "match_name": "South United vs CISF Protectors - Durand Cup",
-      "kickoff_iso": "2026-07-28T21:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-28T22:31:57.237631+07:00",
-      "next_scan_at": "2026-07-28T22:36:57.237631+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1589423": {
       "url": "https://live04.chuoichientv.me/live/1589423/kups-vs-sabah-fa",
@@ -594,13 +580,14 @@
       "url": "https://live04.chuoichientv.me/live/1534810/kaspij-aktau-2-vs-aktobe-jas",
       "match_name": "Kaspij Aktau 2 vs Aktobe Jas - Hạng Nhất Kazakhstan",
       "kickoff_iso": "2026-07-30T20:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-07-30T20:31:44.756676+07:00",
-      "next_scan_at": "2026-07-30T20:36:44.756676+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-07-30T21:02:07.271616+07:00",
+      "next_scan_at": "2026-07-30T21:07:07.271616+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -633,8 +620,8 @@
       "match_name": "fc midtjylland vs besiktas",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T20:31:44.756676+07:00",
-      "next_scan_at": "2026-07-30T20:41:44.756676+07:00",
+      "last_scan_at": "2026-07-30T21:02:07.271616+07:00",
+      "next_scan_at": "2026-07-30T21:12:07.271616+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -645,8 +632,8 @@
       "match_name": "cska sofia vs qarabag",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T20:31:44.756676+07:00",
-      "next_scan_at": "2026-07-30T20:41:44.756676+07:00",
+      "last_scan_at": "2026-07-30T21:02:07.271616+07:00",
+      "next_scan_at": "2026-07-30T21:12:07.271616+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -657,8 +644,8 @@
       "match_name": "benfica vs fc st gallen",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T20:31:44.756676+07:00",
-      "next_scan_at": "2026-07-30T20:41:44.756676+07:00",
+      "last_scan_at": "2026-07-30T21:02:07.271616+07:00",
+      "next_scan_at": "2026-07-30T21:12:07.271616+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -683,8 +670,8 @@
       "match_name": "corinthians vs atletico paranaense",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T20:31:44.756676+07:00",
-      "next_scan_at": "2026-07-30T20:41:44.756676+07:00",
+      "last_scan_at": "2026-07-30T21:02:07.271616+07:00",
+      "next_scan_at": "2026-07-30T21:12:07.271616+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -705,37 +692,39 @@
     "1593507": {
       "url": "https://live04.chuoichientv.me/live/1593507/inter-turku-vs-istanbul-basaksehir",
       "match_name": "inter turku vs istanbul basaksehir",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T20:31:44.756676+07:00",
-      "next_scan_at": "2026-07-30T20:41:44.756676+07:00",
+      "kickoff_iso": "2026-07-30T23:00:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-07-30T21:02:07.271616+07:00",
+      "next_scan_at": "2026-07-30T21:22:07.271616+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1593526": {
       "url": "https://live04.chuoichientv.me/live/1593526/maccabi-tel-aviv-vs-sheriff-tiraspol",
       "match_name": "maccabi tel aviv vs sheriff tiraspol",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T20:31:44.756676+07:00",
-      "next_scan_at": "2026-07-30T20:41:44.756676+07:00",
+      "kickoff_iso": "2026-07-30T23:00:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-07-30T21:02:07.271616+07:00",
+      "next_scan_at": "2026-07-30T21:22:07.271616+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1583494": {
       "url": "https://live04.chuoichientv.me/live/1583494/fc-augsburg-vs-bournemouth",
       "match_name": "FC Augsburg vs Bournemouth - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-07-30T21:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-07-30T20:31:44.756676+07:00",
-      "next_scan_at": "2026-07-30T20:41:44.756676+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-07-30T21:02:07.271616+07:00",
+      "next_scan_at": "2026-07-30T21:07:07.271616+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1589334": {
@@ -743,8 +732,8 @@
       "match_name": "sunderland vs leeds",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-30T20:31:44.756676+07:00",
-      "next_scan_at": "2026-07-30T20:41:44.756676+07:00",
+      "last_scan_at": "2026-07-30T21:02:07.271616+07:00",
+      "next_scan_at": "2026-07-30T21:12:07.271616+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
