@@ -1,36 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-30T21:34:22.080787+07:00",
+  "updated_at": "2026-07-30T22:03:57.596146+07:00",
   "matches": {
-    "736651": {
-      "url": "https://phaohoa1.live/truc-tiep/neftchi-fargona-vs-navbahor-namangan-28-07-2026-736651",
-      "match_name": "Neftchi Fargona vs Navbahor Namangan",
-      "kickoff_iso": "2026-07-28T22:00:00+07:00",
-      "minutes_to_kickoff": -124,
-      "last_scan_at": "2026-07-29T00:04:47.621575+07:00",
-      "next_scan_at": "2026-07-29T00:09:47.621575+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "776463": {
-      "url": "https://phaohoa1.live/truc-tiep/kups-vs-sabah-baku-28-07-2026-776463",
-      "match_name": "Kups vs Sabah Baku",
-      "kickoff_iso": "2026-07-28T22:00:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-07-28T23:35:25.230576+07:00",
-      "next_scan_at": "2026-07-28T23:40:25.230576+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "821374": {
       "url": "https://phaohoa1.live/truc-tiep/real-madrid-vs-leganes-28-07-2026-821374",
       "match_name": "Real Madrid vs Leganes",
@@ -313,9 +285,9 @@
       "url": "https://phaohoa1.live/truc-tiep/inter-turku-vs-basaksehir-30-07-2026-778815",
       "match_name": "30-07 UEFA Conference League Inter Turku VS Basaksehir Pháo Thủ",
       "kickoff_iso": "2026-07-30T23:00:00+07:00",
-      "minutes_to_kickoff": 86,
-      "last_scan_at": "2026-07-30T21:34:22.080701+07:00",
-      "next_scan_at": "2026-07-30T21:54:22.080701+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-07-30T22:03:57.595961+07:00",
+      "next_scan_at": "2026-07-30T22:23:57.595961+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -325,9 +297,9 @@
       "url": "https://phaohoa1.live/truc-tiep/maccabi-tel-aviv-vs-sheriff-tiraspol-30-07-2026-778996",
       "match_name": "Maccabi Tel Aviv vs Sheriff Tiraspol",
       "kickoff_iso": "2026-07-30T23:00:00+07:00",
-      "minutes_to_kickoff": 86,
-      "last_scan_at": "2026-07-30T21:34:22.080701+07:00",
-      "next_scan_at": "2026-07-30T21:54:22.080701+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-07-30T22:03:57.595961+07:00",
+      "next_scan_at": "2026-07-30T22:23:57.595961+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -337,9 +309,21 @@
       "url": "https://phaohoa1.live/truc-tiep/midtjylland-vs-besiktas-31-07-2026-770781",
       "match_name": "31-07 UEFA Europa League Midtjylland VS Besiktas Văn Minh",
       "kickoff_iso": "2026-07-31T00:00:00+07:00",
-      "minutes_to_kickoff": 176,
-      "last_scan_at": "2026-07-30T21:04:44.902049+07:00",
-      "next_scan_at": "2026-07-30T21:49:44.902049+07:00",
+      "minutes_to_kickoff": 116,
+      "last_scan_at": "2026-07-30T22:03:57.595961+07:00",
+      "next_scan_at": "2026-07-30T22:23:57.595961+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "778998": {
+      "url": "https://phaohoa1.live/truc-tiep/paok-vs-dyn-kyiv-31-07-2026-778998",
+      "match_name": "31-07 UEFA Europa League PAOK VS Dyn. Kyiv Chim Nhỏ",
+      "kickoff_iso": "2026-07-31T00:45:00+07:00",
+      "minutes_to_kickoff": 161,
+      "last_scan_at": "2026-07-30T22:03:57.595961+07:00",
+      "next_scan_at": "2026-07-30T22:48:57.595961+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
