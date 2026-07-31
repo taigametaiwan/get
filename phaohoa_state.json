@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-31T13:31:34.404757+07:00",
+  "updated_at": "2026-07-31T14:02:18.484737+07:00",
   "matches": {
-    "d61a967e42b9": {
-      "url": "https://phaohoa1.live/truc-tiep/slovenia-vs-tho-nhi-ki",
-      "match_name": "Slovenia vs Thổ Nhĩ Kì",
-      "kickoff_iso": "2026-07-29T14:00:00+07:00",
-      "minutes_to_kickoff": -124,
-      "last_scan_at": "2026-07-29T16:04:47.058792+07:00",
-      "next_scan_at": "2026-07-29T16:09:47.058792+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "712691": {
       "url": "https://phaohoa1.live/truc-tiep/tottenham-vs-sydney-fc-29-07-2026-712691",
       "match_name": "Tottenham vs Sydney FC",
@@ -299,9 +285,21 @@
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-indonesia",
       "match_name": "31-07 Sea V Cup Thái Lan VS Indonesia KaKa",
       "kickoff_iso": "2026-07-31T16:00:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-07-31T14:02:18.484589+07:00",
+      "next_scan_at": "2026-07-31T14:22:18.484589+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "791562": {
+      "url": "https://phaohoa1.live/truc-tiep/timor-leste-vs-indonesia-31-07-2026-791562",
+      "match_name": "31-07 ASEAN Championship Timor-Leste VS Indonesia Chim Nhỏ",
+      "kickoff_iso": "2026-07-31T17:00:00+07:00",
       "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-07-31T13:01:40.274878+07:00",
-      "next_scan_at": "2026-07-31T13:46:40.274878+07:00",
+      "last_scan_at": "2026-07-31T14:02:18.484589+07:00",
+      "next_scan_at": "2026-07-31T14:47:18.484589+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
