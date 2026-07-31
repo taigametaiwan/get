@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-31T21:02:11.895367+07:00",
+  "updated_at": "2026-07-31T21:31:37.964778+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -182,20 +182,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1556531": {
-      "url": "https://live04.chuoichientv.me/live/1556531/dukagjini-vs-fc-lugano",
-      "match_name": "Dukagjini vs FC Lugano - UEFA Europa Conference League",
-      "kickoff_iso": "2026-07-29T21:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-29T23:01:41.682885+07:00",
-      "next_scan_at": "2026-07-29T23:06:41.682885+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1591938": {
       "url": "https://live04.chuoichientv.me/live/1591938/kairat-almaty-vs-omonia-nicosia",
@@ -617,11 +603,11 @@
     },
     "1548094": {
       "url": "https://live04.chuoichientv.me/live/1548094/vit-nam-vs-singapore",
-      "match_name": "Việt Nam vs Singapore - AFF Championship",
+      "match_name": "vit nam vs singapore",
       "kickoff_iso": "2026-07-31T20:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-07-31T21:02:11.895236+07:00",
-      "next_scan_at": "2026-07-31T21:07:11.895236+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-07-31T21:31:37.964611+07:00",
+      "next_scan_at": "2026-07-31T21:36:37.964611+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -632,37 +618,38 @@
     },
     "993936": {
       "url": "https://live04.chuoichientv.me/live/993936/east-bengal-vs-cisf-protectors",
-      "match_name": "East Bengal vs CISF Protectors - Durand Cup",
+      "match_name": "east bengal vs cisf protectors",
       "kickoff_iso": "2026-07-31T21:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-07-31T21:02:11.895236+07:00",
-      "next_scan_at": "2026-07-31T21:07:11.895236+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-31T21:31:37.964611+07:00",
+      "next_scan_at": "2026-07-31T21:36:37.964611+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitieu.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoitieu.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoitieu/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1585004": {
       "url": "https://live04.chuoichientv.me/live/1585004/juventus-vs-nice",
-      "match_name": "juventus vs nice",
+      "match_name": "Juventus vs Nice - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-07-31T23:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-07-31T21:02:11.895236+07:00",
-      "next_scan_at": "2026-07-31T21:22:11.895236+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-07-31T21:31:37.964611+07:00",
+      "next_scan_at": "2026-07-31T21:51:37.964611+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1561346": {
       "url": "https://live04.chuoichientv.me/live/1561346/rodina-moskva-vs-fc-rostov",
       "match_name": "rodina moskva vs fc rostov",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-31T21:02:11.895236+07:00",
-      "next_scan_at": "2026-07-31T21:12:11.895236+07:00",
+      "last_scan_at": "2026-07-31T21:31:37.964611+07:00",
+      "next_scan_at": "2026-07-31T21:41:37.964611+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -673,8 +660,8 @@
       "match_name": "birmingham vs barcelona",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-31T21:02:11.895236+07:00",
-      "next_scan_at": "2026-07-31T21:12:11.895236+07:00",
+      "last_scan_at": "2026-07-31T21:31:37.964611+07:00",
+      "next_scan_at": "2026-07-31T21:41:37.964611+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -685,8 +672,8 @@
       "match_name": "bodoglimt vs lillestrom",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-31T21:02:11.895236+07:00",
-      "next_scan_at": "2026-07-31T21:12:11.895236+07:00",
+      "last_scan_at": "2026-07-31T21:31:37.964611+07:00",
+      "next_scan_at": "2026-07-31T21:41:37.964611+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -697,8 +684,32 @@
       "match_name": "el salvador u20 vs haiti u20",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-31T21:02:11.895236+07:00",
-      "next_scan_at": "2026-07-31T21:12:11.895236+07:00",
+      "last_scan_at": "2026-07-31T21:31:37.964611+07:00",
+      "next_scan_at": "2026-07-31T21:41:37.964611+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1490361": {
+      "url": "https://live04.chuoichientv.me/live/1490361/new-york-city-fc-vs-toronto-fc",
+      "match_name": "new york city fc vs toronto fc",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-31T21:31:37.964611+07:00",
+      "next_scan_at": "2026-07-31T21:41:37.964611+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1550912": {
+      "url": "https://live04.chuoichientv.me/live/1550912/puebla-vs-guadalajara-chivas",
+      "match_name": "puebla vs guadalajara chivas",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-07-31T21:31:37.964611+07:00",
+      "next_scan_at": "2026-07-31T21:41:37.964611+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

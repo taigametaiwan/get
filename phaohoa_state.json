@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-31T21:04:52.330128+07:00",
+  "updated_at": "2026-07-31T21:34:53.431466+07:00",
   "matches": {
     "776596": {
       "url": "https://phaohoa1.live/truc-tiep/kairat-almaty-vs-omonia-29-07-2026-776596",
@@ -283,9 +283,9 @@
       "url": "https://phaohoa1.live/truc-tiep/vietnam-vs-singapore-31-07-2026-791563",
       "match_name": "Việt Nam vs Singapore",
       "kickoff_iso": "2026-07-31T20:00:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-07-31T21:04:52.329761+07:00",
-      "next_scan_at": "2026-07-31T21:09:52.329761+07:00",
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-07-31T21:34:53.431307+07:00",
+      "next_scan_at": "2026-07-31T21:39:53.431307+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -297,9 +297,9 @@
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-singapore-30-07-2026-005840",
       "match_name": "Việt Nam vs Singapore",
       "kickoff_iso": "2026-07-31T20:00:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-07-31T21:04:52.329761+07:00",
-      "next_scan_at": "2026-07-31T21:09:52.329761+07:00",
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-07-31T21:34:53.431307+07:00",
+      "next_scan_at": "2026-07-31T21:39:53.431307+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -309,27 +309,29 @@
     },
     "795392": {
       "url": "https://phaohoa1.live/truc-tiep/fk-zorya-luhansk-vs-kolos-kovalivka-31-07-2026-795392",
-      "match_name": "31-07 Premier League FK Zorya Luhansk VS Kolos Kovalivka Văn Minh",
+      "match_name": "Fk Zorya Luhansk vs Kolos Kovalivka",
       "kickoff_iso": "2026-07-31T22:00:00+07:00",
-      "minutes_to_kickoff": 55,
-      "last_scan_at": "2026-07-31T21:04:52.329761+07:00",
-      "next_scan_at": "2026-07-31T21:24:52.329761+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-07-31T21:34:53.431307+07:00",
+      "next_scan_at": "2026-07-31T21:39:53.431307+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
+      ],
       "scan_decision": "browser-fallback"
     },
     "779693": {
       "url": "https://phaohoa1.live/truc-tiep/aarhus-fremad-vs-aalborg-31-07-2026-779693",
       "match_name": "31-07 1. Division Aarhus Fremad VS Aalborg Pháo Thủ",
       "kickoff_iso": "2026-07-31T23:00:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-07-31T21:04:52.329761+07:00",
-      "next_scan_at": "2026-07-31T21:24:52.329761+07:00",
+      "minutes_to_kickoff": 85,
+      "last_scan_at": "2026-07-31T21:34:53.431307+07:00",
+      "next_scan_at": "2026-07-31T21:54:53.431307+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "716911": {
       "url": "https://phaohoa1.live/truc-tiep/valerenga-vs-hamkam-01-08-2026-716911",
