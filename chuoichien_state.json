@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-01T01:01:46.557234+07:00",
+  "updated_at": "2026-08-01T01:38:25.289769+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -206,21 +206,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1583490": {
-      "url": "https://live04.chuoichientv.me/live/1583490/bristol-city-vs-newcastle",
-      "match_name": "Bristol City vs Newcastle - Giao Hữu Câu Lạc Bộ",
-      "kickoff_iso": "2026-07-30T01:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-30T03:01:40.686417+07:00",
-      "next_scan_at": "2026-07-30T03:06:40.686417+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1493022": {
       "url": "https://live04.chuoichientv.me/live/1493022/defensa-y-justicia-vs-deportivo-riestra",
@@ -619,13 +604,14 @@
       "url": "https://live04.chuoichientv.me/live/1561346/rodina-moskva-vs-fc-rostov",
       "match_name": "Rodina Moskva vs FC Rostov - Ngoại Hạng Nga",
       "kickoff_iso": "2026-08-01T00:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-01T01:01:46.557082+07:00",
-      "next_scan_at": "2026-08-01T01:06:46.557082+07:00",
+      "minutes_to_kickoff": -98,
+      "last_scan_at": "2026-08-01T01:38:25.289583+07:00",
+      "next_scan_at": "2026-08-01T01:43:25.289583+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -633,45 +619,49 @@
       "url": "https://live04.chuoichientv.me/live/1583514/birmingham-vs-barcelona",
       "match_name": "Birmingham vs Barcelona - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-01T01:45:00+07:00",
-      "minutes_to_kickoff": 44,
-      "last_scan_at": "2026-08-01T01:01:46.557082+07:00",
-      "next_scan_at": "2026-08-01T01:11:46.557082+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 7,
+      "last_scan_at": "2026-08-01T01:38:25.289583+07:00",
+      "next_scan_at": "2026-08-01T01:43:25.289583+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1494717": {
       "url": "https://live04.chuoichientv.me/live/1494717/bodoglimt-vs-lillestrom",
       "match_name": "Bodo/Glimt vs Lillestrom - Eliteserien",
       "kickoff_iso": "2026-08-01T02:00:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-08-01T01:01:46.557082+07:00",
-      "next_scan_at": "2026-08-01T01:21:46.557082+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 22,
+      "last_scan_at": "2026-08-01T01:38:25.289583+07:00",
+      "next_scan_at": "2026-08-01T01:43:25.289583+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoitieu.flv"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1544731": {
       "url": "https://live04.chuoichientv.me/live/1544731/el-salvador-u20-vs-haiti-u20",
       "match_name": "el salvador u20 vs haiti u20",
-      "kickoff_iso": "2026-08-01T04:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-01T01:01:46.557082+07:00",
-      "next_scan_at": "2026-08-01T01:46:46.557082+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-01T01:38:25.289583+07:00",
+      "next_scan_at": "2026-08-01T01:48:25.289583+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1490361": {
       "url": "https://live04.chuoichientv.me/live/1490361/new-york-city-fc-vs-toronto-fc",
       "match_name": "new york city fc vs toronto fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-01T01:01:46.557082+07:00",
-      "next_scan_at": "2026-08-01T01:11:46.557082+07:00",
+      "last_scan_at": "2026-08-01T01:38:25.289583+07:00",
+      "next_scan_at": "2026-08-01T01:48:25.289583+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -682,8 +672,8 @@
       "match_name": "puebla vs guadalajara chivas",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-01T01:01:46.557082+07:00",
-      "next_scan_at": "2026-08-01T01:11:46.557082+07:00",
+      "last_scan_at": "2026-08-01T01:38:25.289583+07:00",
+      "next_scan_at": "2026-08-01T01:48:25.289583+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -694,8 +684,8 @@
       "match_name": "slovenia vs poland",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-01T01:01:46.557082+07:00",
-      "next_scan_at": "2026-08-01T01:11:46.557082+07:00",
+      "last_scan_at": "2026-08-01T01:38:25.289583+07:00",
+      "next_scan_at": "2026-08-01T01:48:25.289583+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -706,8 +696,8 @@
       "match_name": "thailand w vs philippines w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-01T01:01:46.557082+07:00",
-      "next_scan_at": "2026-08-01T01:11:46.557082+07:00",
+      "last_scan_at": "2026-08-01T01:38:25.289583+07:00",
+      "next_scan_at": "2026-08-01T01:48:25.289583+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -718,8 +708,8 @@
       "match_name": "japan vs usa",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-01T01:01:46.557082+07:00",
-      "next_scan_at": "2026-08-01T01:11:46.557082+07:00",
+      "last_scan_at": "2026-08-01T01:38:25.289583+07:00",
+      "next_scan_at": "2026-08-01T01:48:25.289583+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
