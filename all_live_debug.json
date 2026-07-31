@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-07-31T10:33:43.048321+07:00",
+  "generated_at": "2026-07-31T11:03:39.564471+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -78,14 +78,14 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 73,
-      "playlist_blocks": 3,
+      "debug_rows": 71,
+      "playlist_blocks": 4,
       "catalog_placeholders": 0,
-      "metadata_references": 73,
+      "metadata_references": 71,
       "included": true,
-      "fresh_stream_blocks": 3,
-      "fresh_verified_blocks": 3,
-      "fresh_selected": 3,
+      "fresh_stream_blocks": 4,
+      "fresh_verified_blocks": 4,
+      "fresh_selected": 4,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -135,37 +135,10 @@
     }
   ],
   "input_candidates": 16,
-  "metadata_reference_count": 182,
-  "last_good_recovered_count": 2,
+  "metadata_reference_count": 180,
+  "last_good_recovered_count": 1,
   "last_good_suppressed_by_fresh_count": 5,
   "last_good_audit": [
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001785466982-0-0-6a8e828a69f23a9ba7e6391f22018bb5",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-07-31T08:00:00+07:00",
-      "minutes_to_kickoff": -153.72,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel6.flv?auth_key=3000001785466995-0-0-a973323f4859d8e26813019110014e7b",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-07-31T08:00:00+07:00",
-      "minutes_to_kickoff": -153.72,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel33.flv",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-07-31T08:00:00+07:00",
-      "minutes_to_kickoff": -153.72,
-      "filtered_before_probe": true
-    },
     {
       "url": "https://live2.streambylivepulse.com/live/channel32.flv",
       "kept": true,
@@ -173,13 +146,13 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -191,19 +164,13 @@
       "source": "gavang"
     },
     {
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "kept": true,
-      "reason": "HTTP 206; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/14830711.m3u8",
+      "url": "https://live05.meung.app/live/87379114.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/87379114.m3u8",
+      "url": "https://live05.meung.app/live/14830711.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
@@ -215,32 +182,32 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
       "url": "https://live2.streambylivepulse.com/live/channel29.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
     },
     {
-      "url": "https://live05.meung.app/live/14830711.m3u8",
+      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
+      "source": "xoilac"
     },
     {
       "url": "https://live05.meung.app/live/87379114.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/14830711.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "colatv"
     }
   ],
-  "selected_count": 6,
-  "dropped_count": 10,
+  "selected_count": 7,
+  "dropped_count": 9,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 1,
@@ -257,7 +224,7 @@
       "source_label": "Gà Vàng",
       "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
       "match_key": "liv vs wrex|",
-      "display_name": "Liv VS Wrex [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
+      "display_name": "Liv VS Wrex [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
       "group": "Gà Vàng",
       "sport_group": "Gà Vàng",
       "quality": "SD",
@@ -292,7 +259,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 206; m3u8=True",
-      "prior_generated_at": "2026-07-31T10:03:50.723892+07:00"
+      "prior_generated_at": "2026-07-31T10:33:43.048321+07:00"
     },
     {
       "source": "xoilac",
@@ -318,7 +285,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-31T09:00:00+07:00",
-      "minutes_to_kickoff": -93.72,
+      "minutes_to_kickoff": -123.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -363,7 +330,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-31T09:10:00+07:00",
-      "minutes_to_kickoff": -83.72,
+      "minutes_to_kickoff": -113.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -408,7 +375,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-07-31T10:00:00+07:00",
-      "minutes_to_kickoff": -33.72,
+      "minutes_to_kickoff": -63.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -421,6 +388,51 @@
       "page_url": "https://live2.streambylivepulse.com/live/channel12.flv",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h3ew4mojx/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh692pm7vx/image/small",
+      "blv": null,
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
+    },
+    {
+      "source": "xoilac",
+      "source_label": "Xôi Lạc",
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785470553-0-0-783f334555698e2c94550b329958ed0d",
+      "match_key": "manila batang quiapo vs bataan risers|hd alan",
+      "display_name": "[14:00 31/07/2026] Manila Batang Quiapo vs Bataan Risers [BLV HD ALAN] [FLV]",
+      "group": "Xôi Lạc",
+      "sport_group": "Philippines MPBL",
+      "quality": "HD",
+      "kind": "flv",
+      "playability": "verified",
+      "classification": "verified_unsigned",
+      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
+      "has_secret": false,
+      "expiry": {
+        "timestamp": null,
+        "utc": "",
+        "vietnam": "",
+        "seconds_left": null
+      },
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 456,
+      "kickoff_iso": "2026-07-31T14:00:00+07:00",
+      "minutes_to_kickoff": 176.34,
+      "metadata_audit": null,
+      "metadata_enriched_from": null,
+      "metadata_warning": null,
+      "stream_key_tokens": null,
+      "logo": "https://imgts.sportpulseapiz.com/basketball/team/ednm9ktkl7wryox/image/small",
+      "logo_source": null,
+      "logo_enriched_from": null,
+      "logo_is_fallback": null,
+      "entry_mode": "stream",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785470553-0-0-783f334555698e2c94550b329958ed0d",
+      "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/ednm9ktkl7wryox/image/small",
+      "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/jw2r02tld6oqz84/image/small",
       "blv": null,
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
@@ -448,7 +460,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-07-31T09:00:00+07:00",
-      "minutes_to_kickoff": -93.72,
+      "minutes_to_kickoff": -123.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -488,7 +500,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-07-31T10:00:00+07:00",
-      "minutes_to_kickoff": -33.72,
+      "minutes_to_kickoff": -63.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -513,18 +525,6 @@
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
-      "display_name": "[10:00 31/07/2026] Municipal vs Cartagines Deportiva [BLV HD JOHAN] [FLV]",
-      "match_key": "municipal vs cartagines deportiva|hd johan",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
       "url": "https://live2.streambylivepulse.com/live/channel32.flv",
       "display_name": "Mexico Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fg8zkr1zp/image/small\",[09:10 31/07/2026] Denis Shapovalov vs Dalibor Svrcina [BLV HD VIC] [FLV]",
       "match_key": "denis shapovalov vs dalibor svrcina|hd vic",
@@ -540,6 +540,30 @@
       "url": "https://live2.streambylivepulse.com/live/channel29.flv",
       "display_name": "[09:00 31/07/2026] Nu Las Vegas Aces vs Nu Ny Liberty [BLV HD TOMMY] [FLV]",
       "match_key": "nu las vegas aces vs nu ny liberty|hd tommy",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
+      "display_name": "[10:00 31/07/2026] Municipal vs Cartagines Deportiva [BLV HD JOHAN] [FLV]",
+      "match_key": "municipal vs cartagines deportiva|hd johan",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785470553-0-0-783f334555698e2c94550b329958ed0d",
+      "display_name": "[14:00 31/07/2026] Manila Batang Quiapo vs Bataan Risers [BLV HD ALAN] [FLV]",
+      "match_key": "manila batang quiapo vs bataan risers|hd alan",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -618,12 +642,6 @@
       "url": "http://127.0.0.1:9/__phaohoa_metadata__/a02a37557a4c.m3u8",
       "reason": "not-verified-or-not-upcoming",
       "source": "phaohoa"
-    },
-    {
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "reason": "duplicate-quality-UNKNOWN",
-      "source": "colatv",
-      "match_key": "csd municipal vs cs cartagines|gia lang ang xem"
     }
   ],
   "outputs_written": true
