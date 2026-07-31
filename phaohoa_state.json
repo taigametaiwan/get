@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-31T12:31:30.537536+07:00",
+  "updated_at": "2026-07-31T13:01:40.274973+07:00",
   "matches": {
     "d61a967e42b9": {
       "url": "https://phaohoa1.live/truc-tiep/slovenia-vs-tho-nhi-ki",
@@ -294,6 +294,18 @@
         "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "e9a8be850222": {
+      "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-indonesia",
+      "match_name": "31-07 Sea V Cup Thái Lan VS Indonesia KaKa",
+      "kickoff_iso": "2026-07-31T16:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-07-31T13:01:40.274878+07:00",
+      "next_scan_at": "2026-07-31T13:46:40.274878+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
