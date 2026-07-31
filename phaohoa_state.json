@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-07-31T18:04:44.243142+07:00",
+  "updated_at": "2026-07-31T18:34:34.514504+07:00",
   "matches": {
-    "17314220d118": {
-      "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-trung-quoc",
-      "match_name": "Nhật Bản vs Trung Quốc",
-      "kickoff_iso": "2026-07-29T18:30:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-07-29T20:03:55.609446+07:00",
-      "next_scan_at": "2026-07-29T20:08:55.609446+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "826126": {
       "url": "https://phaohoa1.live/truc-tiep/bayer-leverkusen-vs-genk-29-07-2026-826126",
       "match_name": "Bayer Leverkusen vs Genk",
@@ -271,9 +257,9 @@
       "url": "https://phaohoa1.live/truc-tiep/timor-leste-vs-indonesia-31-07-2026-791562",
       "match_name": "Timor Leste vs Indonesia",
       "kickoff_iso": "2026-07-31T17:00:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-07-31T18:04:44.242864+07:00",
-      "next_scan_at": "2026-07-31T18:09:44.242864+07:00",
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-07-31T18:34:34.514257+07:00",
+      "next_scan_at": "2026-07-31T18:39:34.514257+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -283,23 +269,25 @@
     },
     "742930": {
       "url": "https://phaohoa1.live/truc-tiep/henan-songshan-longmen-vs-dalian-yingbo-31-07-2026-742930",
-      "match_name": "31-07 Chinese Super League Henan Songshan Longmen VS Dalian Yingbo Pháo Thủ",
+      "match_name": "Henan Songshan Longmen vs Dalian Yingbo",
       "kickoff_iso": "2026-07-31T18:35:00+07:00",
-      "minutes_to_kickoff": 31,
-      "last_scan_at": "2026-07-31T18:04:44.242864+07:00",
-      "next_scan_at": "2026-07-31T18:14:44.242864+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 1,
+      "last_scan_at": "2026-07-31T18:34:34.514257+07:00",
+      "next_scan_at": "2026-07-31T18:39:34.514257+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     },
     "a02a37557a4c": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-philippines",
-      "match_name": "31-07 Sea V Cup Việt Nam VS Philippines KaKa",
+      "match_name": "Việt Nam vs Philippines",
       "kickoff_iso": "2026-07-31T19:00:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-07-31T18:04:44.242864+07:00",
-      "next_scan_at": "2026-07-31T18:24:44.242864+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-07-31T18:34:34.514257+07:00",
+      "next_scan_at": "2026-07-31T18:44:34.514257+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -309,25 +297,25 @@
       "url": "https://phaohoa1.live/truc-tiep/vietnam-vs-singapore-31-07-2026-791563",
       "match_name": "31-07 ASEAN Championship Việt Nam VS Singapore Ken",
       "kickoff_iso": "2026-07-31T20:00:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-07-31T18:04:44.242864+07:00",
-      "next_scan_at": "2026-07-31T18:24:44.242864+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-07-31T18:34:34.514257+07:00",
+      "next_scan_at": "2026-07-31T18:54:34.514257+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "005840": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-singapore-30-07-2026-005840",
       "match_name": "31-07 ASEAN Championship Việt Nam VS Singapore Kevin",
       "kickoff_iso": "2026-07-31T20:00:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-07-31T18:04:44.242864+07:00",
-      "next_scan_at": "2026-07-31T18:24:44.242864+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-07-31T18:34:34.514257+07:00",
+      "next_scan_at": "2026-07-31T18:54:34.514257+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
