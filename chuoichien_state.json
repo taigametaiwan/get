@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-07-31T19:41:34.096208+07:00",
+  "updated_at": "2026-07-31T20:02:08.728761+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -170,20 +170,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1604679": {
-      "url": "https://live04.chuoichientv.me/live/1604679/bayer-leverkusen-vs-genk",
-      "match_name": "Bayer Leverkusen vs Genk - Giao Hữu Câu Lạc Bộ",
-      "kickoff_iso": "2026-07-29T20:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-29T21:31:51.887937+07:00",
-      "next_scan_at": "2026-07-29T21:36:51.887937+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1559560": {
       "url": "https://live04.chuoichientv.me/live/1559560/ilpar-vs-metallurg-asha",
@@ -588,11 +574,11 @@
     },
     "1523219": {
       "url": "https://live04.chuoichientv.me/live/1523219/henan-jianye-vs-dalian-zhixing",
-      "match_name": "henan jianye vs dalian zhixing",
+      "match_name": "Henan Jianye vs Dalian Zhixing - Ngoại Hạng Trung Quốc",
       "kickoff_iso": "2026-07-31T18:35:00+07:00",
-      "minutes_to_kickoff": -66,
-      "last_scan_at": "2026-07-31T19:41:34.096031+07:00",
-      "next_scan_at": "2026-07-31T19:46:34.096031+07:00",
+      "minutes_to_kickoff": -86,
+      "last_scan_at": "2026-07-31T20:02:08.728607+07:00",
+      "next_scan_at": "2026-07-31T20:07:08.728607+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -602,11 +588,11 @@
     },
     "991536": {
       "url": "https://live04.chuoichientv.me/live/991536/vietnam-w-vs-philippines-w",
-      "match_name": "vietnam w vs philippines w",
+      "match_name": "Vietnam W vs Philippines W - Bóng Chuyền SEA V.LEAGUE",
       "kickoff_iso": "2026-07-31T19:00:00+07:00",
-      "minutes_to_kickoff": -41,
-      "last_scan_at": "2026-07-31T19:41:34.096031+07:00",
-      "next_scan_at": "2026-07-31T19:46:34.096031+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-07-31T20:02:08.728607+07:00",
+      "next_scan_at": "2026-07-31T20:07:08.728607+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -619,9 +605,9 @@
       "url": "https://live04.chuoichientv.me/live/1602962/persib-bandung-vs-tampines-rovers",
       "match_name": "Persib Bandung vs Tampines Rovers - Piala Presiden",
       "kickoff_iso": "2026-07-31T19:30:00+07:00",
-      "minutes_to_kickoff": -11,
-      "last_scan_at": "2026-07-31T19:41:34.096031+07:00",
-      "next_scan_at": "2026-07-31T19:46:34.096031+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-07-31T20:02:08.728607+07:00",
+      "next_scan_at": "2026-07-31T20:07:08.728607+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -633,13 +619,14 @@
       "url": "https://live04.chuoichientv.me/live/1548094/vit-nam-vs-singapore",
       "match_name": "Việt Nam vs Singapore - AFF Championship",
       "kickoff_iso": "2026-07-31T20:00:00+07:00",
-      "minutes_to_kickoff": 19,
-      "last_scan_at": "2026-07-31T19:41:34.096031+07:00",
-      "next_scan_at": "2026-07-31T19:46:34.096031+07:00",
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-07-31T20:02:08.728607+07:00",
+      "next_scan_at": "2026-07-31T20:07:08.728607+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -647,9 +634,9 @@
       "url": "https://live04.chuoichientv.me/live/993936/east-bengal-vs-cisf-protectors",
       "match_name": "East Bengal vs CISF Protectors - Durand Cup",
       "kickoff_iso": "2026-07-31T21:00:00+07:00",
-      "minutes_to_kickoff": 79,
-      "last_scan_at": "2026-07-31T19:41:34.096031+07:00",
-      "next_scan_at": "2026-07-31T20:01:34.096031+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-07-31T20:02:08.728607+07:00",
+      "next_scan_at": "2026-07-31T20:22:08.728607+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -658,22 +645,22 @@
     "1585004": {
       "url": "https://live04.chuoichientv.me/live/1585004/juventus-vs-nice",
       "match_name": "juventus vs nice",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-31T19:41:34.096031+07:00",
-      "next_scan_at": "2026-07-31T19:51:34.096031+07:00",
+      "kickoff_iso": "2026-07-31T23:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-07-31T20:02:08.728607+07:00",
+      "next_scan_at": "2026-07-31T20:47:08.728607+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1561346": {
       "url": "https://live04.chuoichientv.me/live/1561346/rodina-moskva-vs-fc-rostov",
       "match_name": "rodina moskva vs fc rostov",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-31T19:41:34.096031+07:00",
-      "next_scan_at": "2026-07-31T19:51:34.096031+07:00",
+      "last_scan_at": "2026-07-31T20:02:08.728607+07:00",
+      "next_scan_at": "2026-07-31T20:12:08.728607+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -684,8 +671,8 @@
       "match_name": "birmingham vs barcelona",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-31T19:41:34.096031+07:00",
-      "next_scan_at": "2026-07-31T19:51:34.096031+07:00",
+      "last_scan_at": "2026-07-31T20:02:08.728607+07:00",
+      "next_scan_at": "2026-07-31T20:12:08.728607+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -696,8 +683,8 @@
       "match_name": "bodoglimt vs lillestrom",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-07-31T19:41:34.096031+07:00",
-      "next_scan_at": "2026-07-31T19:51:34.096031+07:00",
+      "last_scan_at": "2026-07-31T20:02:08.728607+07:00",
+      "next_scan_at": "2026-07-31T20:12:08.728607+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
