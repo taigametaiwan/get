@@ -11,13 +11,19 @@ https://gckc0525.edgemaxcdn.org/live/chuoitieu.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://gckc0525.edgemaxcdn.org/live/chuoitieu/playlist.m3u8
-#EXTINF:-1 tvg-id="gavang-2701-1" tvg-name="[02:00 02/08] Categoria Primera A - Deportivo Pasto VS Aguilas Doradas [BLV NGƯỜI CHÈ]" group-title="Gà Vàng" tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hoolgqo9j/image/small",[02:00 02/08] Categoria Primera A - Deportivo Pasto VS Aguilas Doradas [BLV NGƯỜI CHÈ] [M3U8]
-#EXTVLCOPT:http-referrer=https://profecta.io/s8-live/2701/pasto-doradas-cate/?s8_live_fixture_id=2701&s8_live_stream_key=pasto-doradas-cate&s8_auto_sound=1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="chuoichien-1493033-1" tvg-name="[04:00 02/08] Belgrano Cordoba vs Argentinos JRS - VĐQG Argentina [BLV A Ngáo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132719_cb10e107.png",[04:00 02/08] Belgrano Cordoba vs Argentinos JRS - VĐQG Argentina [BLV A Ngáo] [FHD FLV]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2701/pasto-doradas-cate/?s8_live_fixture_id=2701&s8_live_stream_key=pasto-doradas-cate&s8_auto_sound=1","Origin":"https://profecta.io"}
-https://hls.lauthaitv.cc/live/pasto-doradas-cate/index.m3u8
-#EXTINF:-1 tvg-id="gavang-2706-1" tvg-name="Atlas VS Monterray [SD M3U8] [SD M3U8] [SD M3U8]" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-json/s8-image/fa4f582e-f072-46a4-a3bb-5938b19dd140",Atlas VS Monterray [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/angao.flv
+#EXTINF:-1 tvg-id="chuoichien-1493033-2" tvg-name="[04:00 02/08] Belgrano Cordoba vs Argentinos JRS - VĐQG Argentina [BLV A Ngáo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132719_cb10e107.png",[04:00 02/08] Belgrano Cordoba vs Argentinos JRS - VĐQG Argentina [BLV A Ngáo] (Luồng 2) [M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8
+#EXTINF:-1 tvg-id="gavang-2706-1" tvg-name="Atlas VS Monterray [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-json/s8-image/fa4f582e-f072-46a4-a3bb-5938b19dd140",Atlas VS Monterray [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]
 #EXTVLCOPT:http-referrer=https://profecta.io/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
@@ -29,27 +35,6 @@ https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2702/belgrano-argjunior-argdiv1/?s8_live_fixture_id=2702&s8_live_stream_key=belgrano-argjunior-argdiv1&s8_auto_sound=1","Origin":"https://profecta.io"}
 https://hls.lauthaitv.cc/live/belgrano-argjunior-argdiv1/index.m3u8
-#EXTINF:-1 tvg-id="xoilac-tiep-botev-plovdiv-vs-cherno-more-varna-luc-0115-ngay-02-08-2026-s1-11" tvg-name="[01:15 02/08/2026] Botev Plovdiv vs Cherno More Varna [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdeh58lr510/image/small",[01:15 02/08/2026] Botev Plovdiv vs Cherno More Varna [BLV HD BEE] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel8.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-thun-vs-young-boys-luc-0130-ngay-02-08-2026-s1-9" tvg-name="[01:30 02/08/2026] Thun vs Young Boys [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhoekryk0/image/small",[01:30 02/08/2026] Thun vs Young Boys [BLV HD SILVA] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel20.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-univ-craiova-vs-petrolul-luc-0130-ngay-02-08-2026-s1-10" tvg-name="[01:30 02/08/2026] Univ Craiova vs Petrolul [BLV HD OLER] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghjeodq82w/image/small",[01:30 02/08/2026] Univ Craiova vs Petrolul [BLV HD OLER] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel28.flv
 #EXTINF:-1 tvg-id="xoilac-tiep-deportivo-pasto-vs-aguilas-doradas-luc-0200-ngay-02-08-2026-s1-5" tvg-name="[02:00 02/08/2026] Deportivo Pasto vs Aguilas Doradas [BLV HD TAGE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hoolgqo9j/image/small",[02:00 02/08/2026] Deportivo Pasto vs Aguilas Doradas [BLV HD TAGE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
@@ -57,77 +42,98 @@ https://live2.streambylivepulse.com/live/channel28.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel27.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-real-oruro-vs-in-petrolero-luc-0200-ngay-02-08-2026-s0-8" tvg-name="[02:00 02/08/2026] Real Oruro vs In Petrolero [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nhllldmd7o/image/small",[02:00 02/08/2026] Real Oruro vs In Petrolero [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-everton-cd-vs-colo-colo-luc-0200-ngay-02-08-2026-s1-8" tvg-name="[02:00 02/08/2026] Everton Cd vs Colo Colo [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jednm9whnvxryox/image/small",[02:00 02/08/2026] Everton Cd vs Colo Colo [BLV HD LOGAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel23.flv
-#EXTINF:-1 tvg-id="xoilac-iep-nu-phoenix-mercury-vs-nu-ny-liberty-luc-0200-ngay-02-08-2026-s1-7" tvg-name="[02:00 02/08/2026] Nu Phoenix Mercury vs Nu Ny Liberty [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/j1l4rjztp89m7vx/image/small",[02:00 02/08/2026] Nu Phoenix Mercury vs Nu Ny Liberty [BLV HD STEP] [FLV]
+#EXTINF:-1 tvg-id="xoilac-iep-nu-phoenix-mercury-vs-nu-ny-liberty-luc-0200-ngay-02-08-2026-s1-9" tvg-name="[02:00 02/08/2026] Nu Phoenix Mercury vs Nu Ny Liberty [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/j1l4rjztp89m7vx/image/small",[02:00 02/08/2026] Nu Phoenix Mercury vs Nu Ny Liberty [BLV HD STEP] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel26.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-naomi-osaka-vs-alexandra-eala-luc-0210-ngay-02-08-2026-s1-4" tvg-name="[02:10 02/08/2026] Naomi Osaka vs Alexandra Eala [BLV HD LUCAS] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4wyrnjfdyk1q86p/image/small",[02:10 02/08/2026] Naomi Osaka vs Alexandra Eala [BLV HD LUCAS] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-naomi-osaka-vs-alexandra-eala-luc-0210-ngay-02-08-2026-s1-7" tvg-name="[02:10 02/08/2026] Naomi Osaka vs Alexandra Eala [BLV HD LUCAS] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4wyrnjfdyk1q86p/image/small",[02:10 02/08/2026] Naomi Osaka vs Alexandra Eala [BLV HD LUCAS] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel31.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-fc-porto-vs-scu-torreense-luc-0215-ngay-02-08-2026-s1-3" tvg-name="[02:15 02/08/2026] Fc Porto vs Scu Torreense [BLV HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhwl4ryk0/image/small",[02:15 02/08/2026] Fc Porto vs Scu Torreense [BLV HD BRADY] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel15.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-nigeria-vs-nu-zambia-luc-0300-ngay-02-08-2026-s1-2" tvg-name="[03:00 02/08/2026] Nu Nigeria vs Nu Zambia [BLV HD RAVEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8wzjq86p/image/small",[03:00 02/08/2026] Nu Nigeria vs Nu Zambia [BLV HD RAVEN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-nigeria-vs-nu-zambia-luc-0300-ngay-02-08-2026-s1-10" tvg-name="[03:00 02/08/2026] Nu Nigeria vs Nu Zambia [BLV HD RAVEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8wzjq86p/image/small",[03:00 02/08/2026] Nu Nigeria vs Nu Zambia [BLV HD RAVEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel21.flv
-#EXTINF:-1 tvg-id="xoilac-sportivo-ameliano-vs-sportivo-2-de-mayo-luc-0200-ngay-02-08-2026-s0-9" tvg-name="[02:00 02/08/2026] Sportivo Ameliano vs Sportivo 2 De Mayo [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhyk95repz/image/small",[02:00 02/08/2026] Sportivo Ameliano vs Sportivo 2 De Mayo [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-gualaceo-sc-vs-indep-juniors-luc-0330-ngay-02-08-2026-s0-4" tvg-name="[03:30 02/08/2026] Gualaceo Sc vs Indep Juniors [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9wh9x54ryox/image/small",[03:30 02/08/2026] Gualaceo Sc vs Indep Juniors [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel10.flv
+#EXTINF:-1 tvg-id="xoilac-ruc-tiep-vasco-da-gama-vs-fluminense-rj-luc-0330-ngay-02-08-2026-s1-5" tvg-name="[03:30 02/08/2026] Vasco Da Gama vs Fluminense Rj [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jednm9whll2ryox/image/small",[03:30 02/08/2026] Vasco Da Gama vs Fluminense Rj [BLV HD FELIX] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel24.flv
-#EXTINF:-1 tvg-id="xoilac-ruc-tiep-belgrano-vs-argentinos-juniors-luc-0400-ngay-02-08-2026-s1-10" tvg-name="[04:00 02/08/2026] Belgrano vs Argentinos Juniors [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdehzxxr510/image/small",[04:00 02/08/2026] Belgrano vs Argentinos Juniors [BLV HD SILVA] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel20/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="xoilac-ruc-tiep-belgrano-vs-argentinos-juniors-luc-0400-ngay-02-08-2026-s1-1" tvg-name="[04:00 02/08/2026] Belgrano vs Argentinos Juniors [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdehzxxr510/image/small",[04:00 02/08/2026] Belgrano vs Argentinos Juniors [BLV HD SILVA] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel20/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel20.flv?auth_key=3000001785616575-0-0-b6fdcf1742305b84d0076860689dd48e
-#EXTINF:-1 tvg-id="xoilac-ep-estudiantes-lp-vs-defensa-y-justicia-luc-0400-ngay-02-08-2026-s1-11" tvg-name="[04:00 02/08/2026] Estudiantes Lp vs Defensa Y Justicia [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7pheg8m2wd/image/small",[04:00 02/08/2026] Estudiantes Lp vs Defensa Y Justicia [BLV HD BEE] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel8/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel20.flv
+#EXTINF:-1 tvg-id="xoilac-ep-estudiantes-lp-vs-defensa-y-justicia-luc-0400-ngay-02-08-2026-s1-3" tvg-name="[04:00 02/08/2026] Estudiantes Lp vs Defensa Y Justicia [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7pheg8m2wd/image/small",[04:00 02/08/2026] Estudiantes Lp vs Defensa Y Justicia [BLV HD BEE] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel8/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel8.flv?auth_key=3000001785616589-0-0-1bdfee51b7748f6d34f63276cd68b9d9
-#EXTINF:-1 tvg-id="colatv-8227d4907af4-1" tvg-name="[02:15 02/08] FC Porto vs SCU Torreense [BLV ROCKSTARĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/83aa826e3c45d5047a8c917fb0b41a5e.png!w80",[02:15 02/08] FC Porto vs SCU Torreense [BLV ROCKSTARĐang xem] [M3U8]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel8.flv
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-fc-porto-vs-scu-torreense-luc-0215-ngay-02-08-2026-s1-6" tvg-name="[02:15 02/08/2026] Fc Porto vs Scu Torreense [BLV HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhwl4ryk0/image/small",[02:15 02/08/2026] Fc Porto vs Scu Torreense [BLV HD BRADY] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel15.flv
+#EXTINF:-1 tvg-id="xoilac-ep-alianza-petrolera-vs-deportes-tolima-luc-0405-ngay-02-08-2026-s1-11" tvg-name="[04:05 02/08/2026] Alianza Petrolera vs Deportes Tolima [BLV HD OLER] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hw3njqdyj/image/small",[04:05 02/08/2026] Alianza Petrolera vs Deportes Tolima [BLV HD OLER] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel28.flv
+#EXTINF:-1 tvg-id="colatv-8227d4907af4-1" tvg-name="[02:15 02/08] Porto vs Torreense [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/83aa826e3c45d5047a8c917fb0b41a5e.png!w80",[02:15 02/08] Porto vs Torreense [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/82054853.m3u8
-#EXTINF:-1 tvg-id="colatv-a5cd2258e77a-1" tvg-name="[03:30 02/08] Vasco da Gama Saf - RJ vs Fluminense - RJ [BLV C2Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f110dc3a4406e67ecbc46511a7ea83f7.png!w80",[03:30 02/08] Vasco da Gama Saf - RJ vs Fluminense - RJ [BLV C2Đang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-77bef03bcf50-1" tvg-name="[03:30 02/08] Vasco vs Fluminense Rj [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV",[03:30 02/08] Vasco vs Fluminense Rj [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/08552895.m3u8
-#EXTINF:-1 tvg-id="colatv-224f83ef4e30-1" tvg-name="[04:00 02/08] Belgrano vs Argentinos Juniors [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f24c6d2696f439d43875fba52100991d.png!w80",[04:00 02/08] Belgrano vs Argentinos Juniors [BLV MOUNTAIN DEWĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-5142da0c654c-1" tvg-name="[04:00 02/08] Belgrano vs Argentinos Juniors [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f24c6d2696f439d43875fba52100991d.png!w80",[04:00 02/08] Belgrano vs Argentinos Juniors [BLV MOUNTAIN DEWĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/87547578.m3u8
+#EXTINF:-1 tvg-id="colatv-1116cfa94c55-1" tvg-name="[05:30 02/08] Atlético Mineiro - MG vs Esporte Clube Juventude [BLV SPRITEĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/079e86cebd6511ce807cc6073a3e26ee.png!w80",[05:30 02/08] Atlético Mineiro - MG vs Esporte Clube Juventude [BLV SPRITEĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
