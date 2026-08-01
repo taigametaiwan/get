@@ -1,78 +1,91 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="chuoichien-1550912-1" tvg-name="[08:00 01/08] Puebla vs Guadalajara Chivas - VĐQG Mexico [BLV Chuối Tây]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133839_09ad8cba.png",[08:00 01/08] Puebla vs Guadalajara Chivas - VĐQG Mexico [BLV Chuối Tây] [FHD FLV]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/chuoitay.flv
 #EXTINF:-1 tvg-id="chuoichien-1550912-1" tvg-name="[08:00 01/08] Puebla vs Guadalajara Chivas - VĐQG Mexico" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/20260724_223350_d469c078.png",[08:00 01/08] Puebla vs Guadalajara Chivas - VĐQG Mexico [FHD M3U8]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
-#EXTINF:-1 tvg-id="gavang-2677-1" tvg-name="[08:00 01/08] [08:00 01/08] puebla vs guadalajara chivas [FHD FLV] [BLV NGƯỜI THỎ]" group-title="Gà Vàng" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133839_09ad8cba.png",[08:00 01/08] [08:00 01/08] puebla vs guadalajara chivas [FHD FLV] [BLV NGƯỜI THỎ] [M3U8]
+#EXTINF:-1 tvg-id="gavang-2677-1" tvg-name="[08:00 01/08] [08:00 01/08] Puebla vs Guadalajara Chivas - VĐQG Mexico [FHD M3U8] [BLV NGƯỜI THỎ]" group-title="Gà Vàng" tvg-logo="https://media.chuoichientv.net/media/20260724_223350_d469c078.png",[08:00 01/08] [08:00 01/08] Puebla vs Guadalajara Chivas - VĐQG Mexico [FHD M3U8] [BLV NGƯỜI THỎ] [M3U8]
 #EXTVLCOPT:http-referrer=https://profecta.io/s8-live/2677/puebla-guada-mexliga/?s8_live_fixture_id=2677&s8_live_stream_key=puebla-guada-mexliga&s8_auto_sound=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2677/puebla-guada-mexliga/?s8_live_fixture_id=2677&s8_live_stream_key=puebla-guada-mexliga&s8_auto_sound=1","Origin":"https://profecta.io"}
 https://hls.lauthaitv.cc/live/puebla-guada-mexliga/index.m3u8
-#EXTINF:-1 tvg-id="gavang-2676-1" tvg-name="Newyork VS Toronto [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-json/s8-image/94d7dc43-56ec-481d-8bcc-f80ae0b241dd",Newyork VS Toronto [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]
+#EXTINF:-1 tvg-id="gavang-2676-1" tvg-name="Newyork VS Toronto [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-json/s8-image/94d7dc43-56ec-481d-8bcc-f80ae0b241dd",Newyork VS Toronto [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]
 #EXTVLCOPT:http-referrer=https://profecta.io/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/","Origin":"https://profecta.io"}
 https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8
-#EXTINF:-1 tvg-id="xoilac-rrecaminos-de-la-u-a-t-vs-tepatitlan-fc-luc-0800-ngay-01-08-2026-s1-4" tvg-name="[08:00 01/08/2026] Correcaminos De La U A T vs Tepatitlan Fc [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8j4oq86p/image/small",[08:00 01/08/2026] Correcaminos De La U A T vs Tepatitlan Fc [BLV HD POLO] [FLV]
+#EXTINF:-1 tvg-id="xoilac-rrecaminos-de-la-u-a-t-vs-tepatitlan-fc-luc-0800-ngay-01-08-2026-s1-5" tvg-name="[08:00 01/08/2026] Correcaminos De La U A T vs Tepatitlan Fc [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8j4oq86p/image/small",[08:00 01/08/2026] Correcaminos De La U A T vs Tepatitlan Fc [BLV HD POLO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel10.flv
-#EXTINF:-1 tvg-id="xoilac-tiep-fortaleza-f-c-vs-deportivo-pereira-luc-0800-ngay-01-08-2026-s1-5" tvg-name="[08:00 01/08/2026] Fortaleza F C vs Deportivo Pereira [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh4y0emoep/image/small",[08:00 01/08/2026] Fortaleza F C vs Deportivo Pereira [BLV HD JEAN] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel7.flv
-#EXTINF:-1 tvg-id="xoilac-p-sporting-kansas-r-vs-houston-dynamo-b-luc-0700-ngay-01-08-2026-s0-10" tvg-name="[07:00 01/08/2026] Sporting Kansas R vs Houston Dynamo B [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7pho9z2m2wd/image/small",[07:00 01/08/2026] Sporting Kansas R vs Houston Dynamo B [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-m-zacatecas-vs-tlaxcala-fc-luc-0800-ngay-01-08-2026-s1-8" tvg-name="[08:00 01/08/2026] M Zacatecas vs Tlaxcala Fc [BLV HD KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4jwq2gh4dylm0ve/image/small",[08:00 01/08/2026] M Zacatecas vs Tlaxcala Fc [BLV HD KEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel18.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-cruz-azul-vs-nu-atlas-luc-0800-ngay-01-08-2026-s1-7" tvg-name="[08:00 01/08/2026] Nu Cruz Azul vs Nu Atlas [BLV HD NEMO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh9poxryk0/image/small",[08:00 01/08/2026] Nu Cruz Azul vs Nu Atlas [BLV HD NEMO] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-cruz-azul-vs-nu-atlas-luc-0800-ngay-01-08-2026-s1-9" tvg-name="[08:00 01/08/2026] Nu Cruz Azul vs Nu Atlas [BLV HD NEMO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh9poxryk0/image/small",[08:00 01/08/2026] Nu Cruz Azul vs Nu Atlas [BLV HD NEMO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel17.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-puebla-vs-club-guadalajara-luc-0800-ngay-01-08-2026-s1-8" tvg-name="[08:00 01/08/2026] Puebla vs Club Guadalajara [BLV HD NICK] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kdj2ryoh66gq1zp/image/small",[08:00 01/08/2026] Puebla vs Club Guadalajara [BLV HD NICK] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel5.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-san-antonio-vs-indy-eleven-luc-0800-ngay-01-08-2026-s0-9" tvg-name="[08:00 01/08/2026] San Antonio vs Indy Eleven [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7h134gqdyj/image/small",[08:00 01/08/2026] San Antonio vs Indy Eleven [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-san-antonio-vs-indy-eleven-luc-0800-ngay-01-08-2026-s0-11" tvg-name="[08:00 01/08/2026] San Antonio vs Indy Eleven [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7h134gqdyj/image/small",[08:00 01/08/2026] San Antonio vs Indy Eleven [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel29.flv
-#EXTINF:-1 tvg-id="xoilac-uc-tiep-island-bay-united-vs-fc-western-luc-0800-ngay-01-08-2026-s0-3" tvg-name="[08:00 01/08/2026] Island Bay United vs Fc Western [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nhzdy8md7o/image/small",[08:00 01/08/2026] Island Bay United vs Fc Western [FLV]
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-island-bay-united-vs-fc-western-luc-0800-ngay-01-08-2026-s0-7" tvg-name="[08:00 01/08/2026] Island Bay United vs Fc Western [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nhzdy8md7o/image/small",[08:00 01/08/2026] Island Bay United vs Fc Western [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel27.flv
-#EXTINF:-1 tvg-id="xoilac--de-mexicali-vs-gambusinos-de-fresnillo-luc-1000-ngay-01-08-2026-s1-11" tvg-name="[10:00 01/08/2026] Soles De Mexicali vs Gambusinos De Fresnillo [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/p3glrwyt24jqdyj/image/small",[10:00 01/08/2026] Soles De Mexicali vs Gambusinos De Fresnillo [BLV HD STEP] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-puebla-vs-club-guadalajara-luc-0800-ngay-01-08-2026-s1-10" tvg-name="[08:00 01/08/2026] Puebla vs Club Guadalajara [BLV HD NICK] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kdj2ryoh66gq1zp/image/small",[08:00 01/08/2026] Puebla vs Club Guadalajara [BLV HD NICK] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel5.flv
+#EXTINF:-1 tvg-id="xoilac-tiep-fortaleza-f-c-vs-deportivo-pereira-luc-0800-ngay-01-08-2026-s1-6" tvg-name="[08:00 01/08/2026] Fortaleza F C vs Deportivo Pereira [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh4y0emoep/image/small",[08:00 01/08/2026] Fortaleza F C vs Deportivo Pereira [BLV HD JEAN] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel7.flv
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-fc-juarez-vs-pumas-u-n-a-m-luc-1000-ngay-01-08-2026-s1-12" tvg-name="[10:00 01/08/2026] Fc Juarez vs Pumas U N A M [BLV HD ASTRA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkh386yqg8n/image/small",[10:00 01/08/2026] Fc Juarez vs Pumas U N A M [BLV HD ASTRA] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel11/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel11/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
+https://live3.procdnlive.com/livecdn/channel11.flv?auth_key=3000001785551713-0-0-268fac59763734e28b67b0c01dd9b4ec
+#EXTINF:-1 tvg-id="xoilac--de-mexicali-vs-gambusinos-de-fresnillo-luc-1000-ngay-01-08-2026-s1-13" tvg-name="[10:00 01/08/2026] Soles De Mexicali vs Gambusinos De Fresnillo [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/p3glrwyt24jqdyj/image/small",[10:00 01/08/2026] Soles De Mexicali vs Gambusinos De Fresnillo [BLV HD STEP] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel26/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel26/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785550084-0-0-677ae311e531638de2f51048819a2ea6
+https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785551717-0-0-1649e01e1a590fb5bdcb09870a2cbe25
 #EXTINF:-1 tvg-id="colatv-0488cf75f5fb-1" tvg-name="[08:00 01/08] Puebla vs Club Deportivo Guadalajara [BLV C2Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/a98bd615308472b65dc82bcc3a2d54fb.png!w80",[08:00 01/08] Puebla vs Club Deportivo Guadalajara [BLV C2Đang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -80,17 +93,31 @@ https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785550084-0-0
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/08552895.m3u8
-#EXTINF:-1 tvg-id="colatv-3ac97a6d711c-1" tvg-name="[09:00 01/08] Portland Fire vs Indiana Fever [BLV CozyĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/basketball/team/43b63f097099b8178eba0e6f9388cabc.png!w80",[09:00 01/08] Portland Fire vs Indiana Fever [BLV CozyĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-94839c19f9a2-1" tvg-name="[09:00 01/08] Portland Fire vs Indiana Fever [BLV CozyĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/basketball/team/43b63f097099b8178eba0e6f9388cabc.png!w80",[09:00 01/08] Portland Fire vs Indiana Fever [BLV CozyĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/87379114.m3u8
-#EXTINF:-1 tvg-id="colatv-3b487d2c55d5-1" tvg-name="[10:00 01/08] Atletico San Luis vs Club Tijuana [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr]" group-title="ColaTV",[10:00 01/08] Atletico San Luis vs Club Tijuana [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]
+#EXTINF:-1 tvg-id="colatv-a373c1341a2b-1" tvg-name="[10:00 01/08] Atletico San Luis vs Club Tijuana [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f6c489e1e71d37e301b30df37a43b8a4.png!w80",[10:00 01/08] Atletico San Luis vs Club Tijuana [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://colatv88xi.cc/video2/output.m3u8
+#EXTINF:-1 tvg-id="colatv-e085d29378e8-1" tvg-name="[10:00 01/08] Auckland Huskies vs Wellington Saints [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/basketball/team/12e9ecb23853b22284862b0002431e14.png!w80",[10:00 01/08] Auckland Huskies vs Wellington Saints [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/19919577.m3u8
+#EXTINF:-1 tvg-id="colatv-230fe3325fa3-1" tvg-name="[10:00 01/08] FC Juarez vs Pumas U.N.A.M. [BLV KHÔNG ĐỘĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2ef06350057f561b5dce57c7fca99a74.png!w80",[10:00 01/08] FC Juarez vs Pumas U.N.A.M. [BLV KHÔNG ĐỘĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/41943555.m3u8
