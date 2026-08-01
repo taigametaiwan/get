@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-02T01:33:31.099332+07:00",
+  "updated_at": "2026-08-02T02:01:44.282010+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -254,21 +254,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1556548": {
-      "url": "https://live04.chuoichientv.me/live/1556548/benfica-vs-fc-st-gallen",
-      "match_name": "Benfica vs FC ST. Gallen - UEFA Europa League",
-      "kickoff_iso": "2026-07-31T02:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-31T03:31:29.543003+07:00",
-      "next_scan_at": "2026-07-31T03:36:29.543003+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1492313": {
       "url": "https://live04.chuoichientv.me/live/1492313/corinthians-vs-atletico-paranaense",
@@ -751,9 +736,9 @@
       "url": "https://live04.chuoichientv.me/live/1604752/estrela-vs-al-nassr",
       "match_name": "Estrela vs Al-Nassr - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-02T00:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-02T01:33:31.099171+07:00",
-      "next_scan_at": "2026-08-02T01:38:31.099171+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-02T02:01:44.281887+07:00",
+      "next_scan_at": "2026-08-02T02:06:44.281887+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -765,36 +750,35 @@
       "url": "https://live04.chuoichientv.me/live/1583596/girona-vs-arsenal",
       "match_name": "Girona vs Arsenal - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-02T01:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-02T01:33:31.099171+07:00",
-      "next_scan_at": "2026-08-02T01:38:31.099171+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-02T02:01:44.281887+07:00",
+      "next_scan_at": "2026-08-02T02:06:44.281887+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
       ],
       "scan_decision": "browser-fallback"
     },
     "1493033": {
       "url": "https://live04.chuoichientv.me/live/1493033/belgrano-cordoba-vs-argentinos-jrs",
       "match_name": "belgrano cordoba vs argentinos jrs",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-02T01:33:31.099171+07:00",
-      "next_scan_at": "2026-08-02T01:43:31.099171+07:00",
+      "kickoff_iso": "2026-08-02T04:00:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-02T02:01:44.281887+07:00",
+      "next_scan_at": "2026-08-02T02:21:44.281887+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1490362": {
       "url": "https://live04.chuoichientv.me/live/1490362/inter-miami-vs-columbus-crew",
       "match_name": "inter miami vs columbus crew",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-02T01:33:31.099171+07:00",
-      "next_scan_at": "2026-08-02T01:43:31.099171+07:00",
+      "last_scan_at": "2026-08-02T02:01:44.281887+07:00",
+      "next_scan_at": "2026-08-02T02:11:44.281887+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -805,8 +789,8 @@
       "match_name": "philippines w vs indonesia w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-02T01:33:31.099171+07:00",
-      "next_scan_at": "2026-08-02T01:43:31.099171+07:00",
+      "last_scan_at": "2026-08-02T02:01:44.281887+07:00",
+      "next_scan_at": "2026-08-02T02:11:44.281887+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -816,12 +800,14 @@
       "url": "https://live04.chuoichientv.me/live/1582364/fc-porto-vs-torreense",
       "match_name": "FC Porto vs Torreense - Super Cup",
       "kickoff_iso": "2026-08-02T02:15:00+07:00",
-      "minutes_to_kickoff": 42,
-      "last_scan_at": "2026-08-02T01:33:31.099171+07:00",
-      "next_scan_at": "2026-08-02T01:43:31.099171+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 14,
+      "last_scan_at": "2026-08-02T02:01:44.281887+07:00",
+      "next_scan_at": "2026-08-02T02:06:44.281887+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoitieu.flv"
+      ],
       "scan_decision": "browser-fallback"
     },
     "992430": {
@@ -841,8 +827,8 @@
       "match_name": "south melbourne vs st albans saints",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-02T01:33:31.099171+07:00",
-      "next_scan_at": "2026-08-02T01:43:31.099171+07:00",
+      "last_scan_at": "2026-08-02T02:01:44.281887+07:00",
+      "next_scan_at": "2026-08-02T02:11:44.281887+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -853,8 +839,8 @@
       "match_name": "japan vs slovakia",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-02T01:33:31.099171+07:00",
-      "next_scan_at": "2026-08-02T01:43:31.099171+07:00",
+      "last_scan_at": "2026-08-02T02:01:44.281887+07:00",
+      "next_scan_at": "2026-08-02T02:11:44.281887+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -865,8 +851,8 @@
       "match_name": "qingdao youth island vs qingdao jonoon",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-02T01:33:31.099171+07:00",
-      "next_scan_at": "2026-08-02T01:43:31.099171+07:00",
+      "last_scan_at": "2026-08-02T02:01:44.281887+07:00",
+      "next_scan_at": "2026-08-02T02:11:44.281887+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
