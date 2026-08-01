@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-01T22:33:51.724705+07:00",
+  "updated_at": "2026-08-01T23:01:37.835068+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -310,34 +310,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1593507": {
-      "url": "https://live04.chuoichientv.me/live/1593507/inter-turku-vs-istanbul-basaksehir",
-      "match_name": "Inter Turku vs Istanbul Basaksehir - UEFA Europa Conference League",
-      "kickoff_iso": "2026-07-30T23:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-31T00:32:00.550463+07:00",
-      "next_scan_at": "2026-07-31T00:37:00.550463+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1593526": {
-      "url": "https://live04.chuoichientv.me/live/1593526/maccabi-tel-aviv-vs-sheriff-tiraspol",
-      "match_name": "Maccabi Tel Aviv vs Sheriff Tiraspol - UEFA Europa League",
-      "kickoff_iso": "2026-07-30T23:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-07-31T00:32:00.550463+07:00",
-      "next_scan_at": "2026-07-31T00:37:00.550463+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1589334": {
       "url": "https://live04.chuoichientv.me/live/1589334/sunderland-vs-leeds",
@@ -765,13 +737,13 @@
       "url": "https://live04.chuoichientv.me/live/1554097/tranmere-vs-rochdale",
       "match_name": "Tranmere vs Rochdale - Cúp Liên đoàn Anh",
       "kickoff_iso": "2026-08-01T21:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-01T22:33:51.724537+07:00",
-      "next_scan_at": "2026-08-01T22:38:51.724537+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-01T23:01:37.834713+07:00",
+      "next_scan_at": "2026-08-01T23:06:37.834713+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -779,13 +751,14 @@
       "url": "https://live04.chuoichientv.me/live/1589316/real-madrid-vs-fiorentina",
       "match_name": "Real Madrid vs Fiorentina - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-01T23:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-01T22:33:51.724537+07:00",
-      "next_scan_at": "2026-08-01T22:38:51.724537+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-01T23:01:37.834713+07:00",
+      "next_scan_at": "2026-08-01T23:06:37.834713+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -794,8 +767,8 @@
       "match_name": "estrela vs al nassr",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-01T22:33:51.724537+07:00",
-      "next_scan_at": "2026-08-01T22:43:51.724537+07:00",
+      "last_scan_at": "2026-08-01T23:01:37.834713+07:00",
+      "next_scan_at": "2026-08-01T23:11:37.834713+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -806,8 +779,8 @@
       "match_name": "girona vs arsenal",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-01T22:33:51.724537+07:00",
-      "next_scan_at": "2026-08-01T22:43:51.724537+07:00",
+      "last_scan_at": "2026-08-01T23:01:37.834713+07:00",
+      "next_scan_at": "2026-08-01T23:11:37.834713+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -818,8 +791,8 @@
       "match_name": "belgrano cordoba vs argentinos jrs",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-01T22:33:51.724537+07:00",
-      "next_scan_at": "2026-08-01T22:43:51.724537+07:00",
+      "last_scan_at": "2026-08-01T23:01:37.834713+07:00",
+      "next_scan_at": "2026-08-01T23:11:37.834713+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -830,8 +803,8 @@
       "match_name": "inter miami vs columbus crew",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-01T22:33:51.724537+07:00",
-      "next_scan_at": "2026-08-01T22:43:51.724537+07:00",
+      "last_scan_at": "2026-08-01T23:01:37.834713+07:00",
+      "next_scan_at": "2026-08-01T23:11:37.834713+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -842,8 +815,8 @@
       "match_name": "philippines w vs indonesia w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-01T22:33:51.724537+07:00",
-      "next_scan_at": "2026-08-01T22:43:51.724537+07:00",
+      "last_scan_at": "2026-08-01T23:01:37.834713+07:00",
+      "next_scan_at": "2026-08-01T23:11:37.834713+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -854,8 +827,8 @@
       "match_name": "fc porto vs torreense",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-01T22:33:51.724537+07:00",
-      "next_scan_at": "2026-08-01T22:43:51.724537+07:00",
+      "last_scan_at": "2026-08-01T23:01:37.834713+07:00",
+      "next_scan_at": "2026-08-01T23:11:37.834713+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -866,8 +839,8 @@
       "match_name": "vietnam w vs thailand w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-01T22:33:51.724537+07:00",
-      "next_scan_at": "2026-08-01T22:43:51.724537+07:00",
+      "last_scan_at": "2026-08-01T23:01:37.834713+07:00",
+      "next_scan_at": "2026-08-01T23:11:37.834713+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
