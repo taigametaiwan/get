@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-03T06:01:46.292000+07:00",
+  "updated_at": "2026-08-03T06:31:45.550796+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -278,20 +278,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1490361": {
-      "url": "https://live04.chuoichientv.me/live/1490361/new-york-city-fc-vs-toronto-fc",
-      "match_name": "New York City FC vs Toronto FC - Major League Soccer",
-      "kickoff_iso": "2026-08-01T06:30:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-01T08:31:45.537345+07:00",
-      "next_scan_at": "2026-08-01T08:36:45.537345+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1550912": {
       "url": "https://live04.chuoichientv.me/live/1550912/puebla-vs-guadalajara-chivas",
@@ -798,11 +784,11 @@
     },
     "1493044": {
       "url": "https://live04.chuoichientv.me/live/1493044/river-plate-vs-rosario-central",
-      "match_name": "River Plate vs Rosario Central - VĐQG Argentina",
+      "match_name": "river plate vs rosario central",
       "kickoff_iso": "2026-08-03T05:15:00+07:00",
-      "minutes_to_kickoff": -46,
-      "last_scan_at": "2026-08-03T06:01:46.291897+07:00",
-      "next_scan_at": "2026-08-03T06:06:46.291897+07:00",
+      "minutes_to_kickoff": -76,
+      "last_scan_at": "2026-08-03T06:31:45.550220+07:00",
+      "next_scan_at": "2026-08-03T06:36:45.550220+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -813,15 +799,16 @@
     },
     "1550919": {
       "url": "https://live04.chuoichientv.me/live/1550919/club-america-vs-santos-laguna",
-      "match_name": "Club America vs Santos Laguna - VĐQG Mexico",
+      "match_name": "club america vs santos laguna",
       "kickoff_iso": "2026-08-03T06:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-03T06:01:46.291897+07:00",
-      "next_scan_at": "2026-08-03T06:06:46.291897+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-03T06:31:45.550220+07:00",
+      "next_scan_at": "2026-08-03T06:36:45.550220+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -829,9 +816,9 @@
       "url": "https://live04.chuoichientv.me/live/1493040/lanus-vs-instituto-cordoba",
       "match_name": "Lanus vs Instituto Cordoba - VĐQG Argentina",
       "kickoff_iso": "2026-08-03T07:30:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-08-03T06:01:46.291897+07:00",
-      "next_scan_at": "2026-08-03T06:21:46.291897+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-08-03T06:31:45.550220+07:00",
+      "next_scan_at": "2026-08-03T06:51:45.550220+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -851,15 +838,75 @@
     },
     "1550920": {
       "url": "https://live04.chuoichientv.me/live/1550920/toluca-vs-necaxa",
-      "match_name": "toluca vs necaxa",
+      "match_name": "Toluca vs Necaxa - VĐQG Mexico",
       "kickoff_iso": "2026-08-03T08:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-03T06:01:46.291897+07:00",
-      "next_scan_at": "2026-08-03T06:21:46.291897+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-08-03T06:31:45.550220+07:00",
+      "next_scan_at": "2026-08-03T06:51:45.550220+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
+    },
+    "993893": {
+      "url": "https://live04.chuoichientv.me/live/993893/h-ch-minh-city-w-vs-h-ni-n",
+      "match_name": "h ch minh city w vs h ni n",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-03T06:31:45.550220+07:00",
+      "next_scan_at": "2026-08-03T06:41:45.550220+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1567783": {
+      "url": "https://live04.chuoichientv.me/live/1567783/cambodia-vs-timor-leste",
+      "match_name": "cambodia vs timor leste",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-03T06:31:45.550220+07:00",
+      "next_scan_at": "2026-08-03T06:41:45.550220+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1565433": {
+      "url": "https://live04.chuoichientv.me/live/1565433/bukovyna-vs-lnz-cherkasy",
+      "match_name": "bukovyna vs lnz cherkasy",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-03T06:31:45.550220+07:00",
+      "next_scan_at": "2026-08-03T06:41:45.550220+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1548097": {
+      "url": "https://live04.chuoichientv.me/live/1548097/indonesia-vs-vit-nam",
+      "match_name": "indonesia vs vit nam",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-03T06:31:45.550220+07:00",
+      "next_scan_at": "2026-08-03T06:41:45.550220+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1604758": {
+      "url": "https://live04.chuoichientv.me/live/1604758/al-hilal-saudi-fc-vs-al-ahli-doha",
+      "match_name": "al hilal saudi fc vs al ahli doha",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-03T06:31:45.550220+07:00",
+      "next_scan_at": "2026-08-03T06:41:45.550220+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
