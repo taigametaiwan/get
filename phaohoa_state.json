@@ -1,36 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-02T19:35:09.357873+07:00",
+  "updated_at": "2026-08-02T20:05:21.984166+07:00",
   "matches": {
-    "791563": {
-      "url": "https://phaohoa1.live/truc-tiep/vietnam-vs-singapore-31-07-2026-791563",
-      "match_name": "Việt Nam vs Singapore",
-      "kickoff_iso": "2026-07-31T20:00:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-07-31T21:34:53.431307+07:00",
-      "next_scan_at": "2026-07-31T21:39:53.431307+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "005840": {
-      "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-singapore-30-07-2026-005840",
-      "match_name": "Việt Nam vs Singapore",
-      "kickoff_iso": "2026-07-31T20:00:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-07-31T21:34:53.431307+07:00",
-      "next_scan_at": "2026-07-31T21:39:53.431307+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "795392": {
       "url": "https://phaohoa1.live/truc-tiep/fk-zorya-luhansk-vs-kolos-kovalivka-31-07-2026-795392",
       "match_name": "Fk Zorya Luhansk vs Kolos Kovalivka",
@@ -391,11 +363,11 @@
     },
     "3a9fdd0ba443": {
       "url": "https://phaohoa1.live/truc-tiep/my-vs-ba-lan",
-      "match_name": "Mỹ vs Ba Lan",
+      "match_name": "My vs Ba Lan",
       "kickoff_iso": "2026-08-02T18:30:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-08-02T19:35:09.357663+07:00",
-      "next_scan_at": "2026-08-02T19:40:09.357663+07:00",
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-08-02T20:05:21.983860+07:00",
+      "next_scan_at": "2026-08-02T20:10:21.983860+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -407,9 +379,9 @@
       "url": "https://phaohoa1.live/truc-tiep/brommapojkarna-vs-malmo-ff-02-08-2026-715562",
       "match_name": "Brommapojkarna vs Malmo Ff",
       "kickoff_iso": "2026-08-02T19:00:00+07:00",
-      "minutes_to_kickoff": -34,
-      "last_scan_at": "2026-08-02T19:35:09.357663+07:00",
-      "next_scan_at": "2026-08-02T19:40:09.357663+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-08-02T20:05:21.983860+07:00",
+      "next_scan_at": "2026-08-02T20:10:21.983860+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -421,9 +393,9 @@
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-thai-lan",
       "match_name": "Việt Nam vs Thái Lan",
       "kickoff_iso": "2026-08-02T19:00:00+07:00",
-      "minutes_to_kickoff": -34,
-      "last_scan_at": "2026-08-02T19:35:09.357663+07:00",
-      "next_scan_at": "2026-08-02T19:40:09.357663+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-08-02T20:05:21.983860+07:00",
+      "next_scan_at": "2026-08-02T20:10:21.983860+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -433,35 +405,61 @@
     },
     "781994": {
       "url": "https://phaohoa1.live/truc-tiep/sigma-olomouc-vs-mlada-boleslav-02-08-2026-781994",
-      "match_name": "02-08 Czech Liga Sigma Olomouc VS Mlada Boleslav Văn Minh",
+      "match_name": "Sigma Olomouc vs Mlada Boleslav",
       "kickoff_iso": "2026-08-02T20:00:00+07:00",
-      "minutes_to_kickoff": 25,
-      "last_scan_at": "2026-08-02T19:35:09.357663+07:00",
-      "next_scan_at": "2026-08-02T19:45:09.357663+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -5,
+      "last_scan_at": "2026-08-02T20:05:21.983860+07:00",
+      "next_scan_at": "2026-08-02T20:10:21.983860+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
+      ],
       "scan_decision": "browser-fallback"
     },
     "715561": {
       "url": "https://phaohoa1.live/truc-tiep/aik-vs-orgryte-02-08-2026-715561",
       "match_name": "02-08 Allsvenskan AIK VS Orgryte Kevin",
       "kickoff_iso": "2026-08-02T21:30:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-08-02T19:35:09.357663+07:00",
-      "next_scan_at": "2026-08-02T19:55:09.357663+07:00",
+      "minutes_to_kickoff": 85,
+      "last_scan_at": "2026-08-02T20:05:21.983860+07:00",
+      "next_scan_at": "2026-08-02T20:25:21.983860+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "716909": {
       "url": "https://phaohoa1.live/truc-tiep/molde-vs-sarpsborg-08-02-08-2026-716909",
       "match_name": "02-08 Eliteserien Molde VS Sarpsborg 08 Pháo Thủ",
       "kickoff_iso": "2026-08-02T22:00:00+07:00",
+      "minutes_to_kickoff": 116,
+      "last_scan_at": "2026-08-02T20:05:21.983860+07:00",
+      "next_scan_at": "2026-08-02T20:25:21.983860+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "779567": {
+      "url": "https://phaohoa1.live/truc-tiep/silkeborg-vs-fc-copenhagen-02-08-2026-779567",
+      "match_name": "02-08 Superliga Silkeborg VS FC Copenhagen Văn Minh",
+      "kickoff_iso": "2026-08-02T23:00:00+07:00",
       "minutes_to_kickoff": 176,
-      "last_scan_at": "2026-08-02T19:05:16.427122+07:00",
-      "next_scan_at": "2026-08-02T19:50:16.427122+07:00",
+      "last_scan_at": "2026-08-02T20:05:21.983860+07:00",
+      "next_scan_at": "2026-08-02T20:50:21.983860+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "829592": {
+      "url": "https://phaohoa1.live/truc-tiep/wrexham-vs-sunderland-02-08-2026-829592",
+      "match_name": "02-08 Premier League Summer Series Wrexham VS Sunderland Ken",
+      "kickoff_iso": "2026-08-02T23:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-08-02T20:05:21.983860+07:00",
+      "next_scan_at": "2026-08-02T20:50:21.983860+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
