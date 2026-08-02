@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-02T11:06:30.792775+07:00",
+  "updated_at": "2026-08-02T11:41:18.468004+07:00",
   "matches": {
     "e9a8be850222": {
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-indonesia",
@@ -390,6 +390,18 @@
         "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "c5539b6aba0c": {
+      "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-slovenia",
+      "match_name": "02-08 Sea V Cup Nhật Bản VS Slovenia Chim Nhỏ",
+      "kickoff_iso": "2026-08-02T14:40:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-02T11:41:18.467920+07:00",
+      "next_scan_at": "2026-08-02T12:26:18.467920+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
