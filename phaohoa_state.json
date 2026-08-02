@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-02T14:03:53.297616+07:00",
+  "updated_at": "2026-08-02T14:33:28.628193+07:00",
   "matches": {
     "e9a8be850222": {
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-indonesia",
@@ -395,21 +395,47 @@
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-slovenia",
       "match_name": "Nhật Bản vs Slovenia",
       "kickoff_iso": "2026-08-02T14:40:00+07:00",
-      "minutes_to_kickoff": 36,
-      "last_scan_at": "2026-08-02T14:03:53.297480+07:00",
-      "next_scan_at": "2026-08-02T14:13:53.297480+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 7,
+      "last_scan_at": "2026-08-02T14:33:28.628026+07:00",
+      "next_scan_at": "2026-08-02T14:38:28.628026+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     },
     "123281712237": {
       "url": "https://phaohoa1.live/truc-tiep/philippines-vs-indonesia",
       "match_name": "02-08 Sea V Cup Philippines VS Indonesia Ken",
       "kickoff_iso": "2026-08-02T16:00:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-08-02T14:03:53.297480+07:00",
-      "next_scan_at": "2026-08-02T14:23:53.297480+07:00",
+      "minutes_to_kickoff": 87,
+      "last_scan_at": "2026-08-02T14:33:28.628026+07:00",
+      "next_scan_at": "2026-08-02T14:53:28.628026+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "728357": {
+      "url": "https://phaohoa1.live/truc-tiep/jeju-sk-vs-incheon-02-08-2026-728357",
+      "match_name": "02-08 K League 1 Jeju SK VS Incheon Pháo Thủ",
+      "kickoff_iso": "2026-08-02T17:30:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-02T14:33:28.628026+07:00",
+      "next_scan_at": "2026-08-02T15:18:28.628026+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "728358": {
+      "url": "https://phaohoa1.live/truc-tiep/ulsan-hd-vs-anyang-02-08-2026-728358",
+      "match_name": "02-08 K League 1 Ulsan HD VS Anyang Văn Minh",
+      "kickoff_iso": "2026-08-02T17:30:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-02T14:33:28.628026+07:00",
+      "next_scan_at": "2026-08-02T15:18:28.628026+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
