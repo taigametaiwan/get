@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-02T13:05:41.030825+07:00",
+  "generated_at": "2026-08-02T13:38:21.496256+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -58,14 +58,14 @@
       "label": "Gà Vàng",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 30,
-      "playlist_blocks": 4,
+      "debug_rows": 29,
+      "playlist_blocks": 1,
       "catalog_placeholders": 0,
       "metadata_references": 0,
       "included": true,
-      "fresh_stream_blocks": 4,
-      "fresh_verified_blocks": 4,
-      "fresh_selected": 4,
+      "fresh_stream_blocks": 1,
+      "fresh_verified_blocks": 1,
+      "fresh_selected": 1,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -79,13 +79,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 114,
-      "playlist_blocks": 16,
+      "playlist_blocks": 18,
       "catalog_placeholders": 0,
       "metadata_references": 114,
       "included": true,
-      "fresh_stream_blocks": 16,
-      "fresh_verified_blocks": 16,
-      "fresh_selected": 15,
+      "fresh_stream_blocks": 18,
+      "fresh_verified_blocks": 18,
+      "fresh_selected": 17,
       "fresh_explicitly_dropped": 1,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -101,7 +101,7 @@
       "debug_rows": 106,
       "playlist_blocks": 4,
       "catalog_placeholders": 0,
-      "metadata_references": 98,
+      "metadata_references": 97,
       "included": true,
       "fresh_stream_blocks": 4,
       "fresh_verified_blocks": 4,
@@ -134,17 +134,11 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 35,
-  "metadata_reference_count": 230,
-  "last_good_recovered_count": 0,
-  "last_good_suppressed_by_fresh_count": 16,
+  "input_candidates": 36,
+  "metadata_reference_count": 229,
+  "last_good_recovered_count": 2,
+  "last_good_suppressed_by_fresh_count": 15,
   "last_good_audit": [
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
     {
       "url": "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
       "kept": true,
@@ -164,7 +158,61 @@
       "source": "gavang"
     },
     {
+      "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/master.m3u8",
+      "kept": true,
+      "reason": "HTTP 206; m3u8=True",
+      "source": "gavang"
+    },
+    {
       "url": "https://live2.streambylivepulse.com/live/channel19.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001785650650-0-0-18c72bf54aa955d06cdf0daf480e28b1",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785650691-0-0-53ce85d95e0c24a11d14496e37d20a26",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel10.flv",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -182,54 +230,6 @@
       "source": "gavang"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel33.flv?auth_key=3000001785649572-0-0-0d2ded185adc98eec2e327be4db499fd",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785649579-0-0-8eca659a794745ccdf59e8f110d3d0e8",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel10.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/82054853.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
       "url": "https://live05.meung.app/live/99121525.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
@@ -242,22 +242,22 @@
       "source": "colatv"
     },
     {
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "kept": true,
-      "reason": "HTTP 206; m3u8=True",
-      "source": "colatv"
-    },
-    {
       "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
       "kept": true,
       "reason": "HTTP 206; m3u8=True",
       "source": "chuoichien"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
+      "url": "https://live05.meung.app/live/82054853.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "kept": true,
+      "reason": "HTTP 206; m3u8=True",
+      "source": "colatv"
     },
     {
       "url": "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
@@ -272,37 +272,13 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "gavang"
-    },
-    {
       "url": "https://live2.streambylivepulse.com/live/channel19.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
     },
     {
-      "url": "https://hls.lauthaitv.cc/live/smelbourn-stalbans-nplvic/index.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "gavang"
-    },
-    {
       "url": "https://live2.streambylivepulse.com/live/channel12.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
@@ -314,16 +290,34 @@
       "source": "xoilac"
     },
     {
+      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
       "url": "https://live2.streambylivepulse.com/live/channel10.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
     },
     {
-      "url": "https://live05.meung.app/live/82054853.m3u8",
+      "url": "https://hls.lauthaitv.cc/live/smelbourn-stalbans-nplvic/index.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
+      "source": "gavang"
     },
     {
       "url": "https://live05.meung.app/live/99121525.m3u8",
@@ -338,28 +332,34 @@
       "source": "colatv"
     },
     {
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "chuoichien"
+    },
+    {
+      "url": "https://live05.meung.app/live/82054853.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     },
     {
-      "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
-      "source": "chuoichien"
+      "source": "colatv"
     }
   ],
   "selected_count": 20,
-  "dropped_count": 15,
+  "dropped_count": 16,
   "gavang_metadata": {
     "enriched": 1,
-    "warn_only": 3,
+    "warn_only": 2,
     "already_good": 0
   },
   "gavang_logo": {
     "team_logo": 1,
-    "source_fallback": 3,
+    "source_fallback": 2,
     "repaired_invalid": 0
   },
   "channels": [
@@ -382,7 +382,7 @@
       "pending_reason": null,
       "score": 466,
       "kickoff_iso": "2026-08-02T12:30:00+07:00",
-      "minutes_to_kickoff": -35.68,
+      "minutes_to_kickoff": -68.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -422,7 +422,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-02T12:30:00+07:00",
-      "minutes_to_kickoff": -35.68,
+      "minutes_to_kickoff": -68.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -462,7 +462,7 @@
       "pending_reason": null,
       "score": 431,
       "kickoff_iso": "2026-08-02T12:30:00+07:00",
-      "minutes_to_kickoff": -35.68,
+      "minutes_to_kickoff": -68.36,
       "metadata_audit": "enriched-soft",
       "metadata_enriched_from": "chuoichien",
       "metadata_warning": null,
@@ -492,9 +492,9 @@
       "source_label": "Gà Vàng",
       "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/master.m3u8",
       "match_key": "legia vs zaglebie|",
-      "display_name": "Legia VS Zaglebie [M3U8]",
+      "display_name": "Legia VS Zaglebie [M3U8] [M3U8]",
       "group": "Gà Vàng",
-      "sport_group": "Bóng đá",
+      "sport_group": "Gà Vàng",
       "quality": "UNKNOWN",
       "kind": "m3u8",
       "playability": "verified",
@@ -504,7 +504,7 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 439,
+      "score": 385,
       "kickoff_iso": null,
       "minutes_to_kickoff": null,
       "metadata_audit": "warn-only",
@@ -522,64 +522,21 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "",
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
-    {
-      "source": "gavang",
-      "source_label": "Gà Vàng",
-      "url": "https://hls.lauthaitv.cc/live/portland-sealtle-mls/index.m3u8",
-      "match_key": "mls portland timbers vs seattle sounders|nguoi cao",
-      "display_name": "[CHƯA CÓ GIỜ 02/08] MLS - Portland Timbers VS Seattle Sounders [BLV NGƯỜI CÁO] [M3U8]",
-      "group": "Gà Vàng",
-      "sport_group": "Bóng đá",
-      "quality": "UNKNOWN",
-      "kind": "m3u8",
-      "playability": "verified",
-      "classification": null,
-      "classification_reason": null,
-      "has_secret": false,
-      "expiry": null,
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 431,
-      "kickoff_iso": null,
-      "minutes_to_kickoff": null,
-      "metadata_audit": "warn-only",
-      "metadata_enriched_from": null,
-      "metadata_warning": "Không tìm được lịch/tên đối chiếu đủ tin cậy từ nguồn khác; stream verified/pending vẫn được giữ",
-      "stream_key_tokens": [
-        "portland",
-        "sealtle"
-      ],
-      "logo": "https://profecta.io/wp-content/uploads/2026/04/logo-gavangtv.png",
-      "logo_source": "gavang-source-fallback",
-      "logo_enriched_from": null,
-      "logo_is_fallback": true,
-      "entry_mode": "stream",
-      "page_url": "https://hls.lauthaitv.cc/live/portland-sealtle-mls/index.m3u8",
-      "home_logo": null,
-      "away_logo": null,
-      "blv": "NGƯỜI CÁO",
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 206; m3u8=True",
+      "prior_generated_at": "2026-08-02T13:05:41.030825+07:00"
     },
     {
       "source": "gavang",
       "source_label": "Gà Vàng",
       "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
       "match_key": "oulu vs ilves|",
-      "display_name": "Oulu VS Ilves [SD M3U8]",
+      "display_name": "Oulu VS Ilves [SD M3U8] [SD M3U8]",
       "group": "Gà Vàng",
-      "sport_group": "Bóng đá",
+      "sport_group": "Gà Vàng",
       "quality": "SD",
       "kind": "m3u8",
       "playability": "verified",
@@ -589,7 +546,7 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 449,
+      "score": 395,
       "kickoff_iso": null,
       "minutes_to_kickoff": null,
       "metadata_audit": "warn-only",
@@ -607,12 +564,12 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "",
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 206; m3u8=True",
+      "prior_generated_at": "2026-08-02T13:05:41.030825+07:00"
     },
     {
       "source": "xoilac",
@@ -638,7 +595,7 @@
       "pending_reason": null,
       "score": 436,
       "kickoff_iso": "2026-08-02T11:30:00+07:00",
-      "minutes_to_kickoff": -95.68,
+      "minutes_to_kickoff": -128.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -683,7 +640,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-02T12:00:00+07:00",
-      "minutes_to_kickoff": -65.68,
+      "minutes_to_kickoff": -98.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -728,7 +685,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-02T12:00:00+07:00",
-      "minutes_to_kickoff": -65.68,
+      "minutes_to_kickoff": -98.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -773,7 +730,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-02T12:00:00+07:00",
-      "minutes_to_kickoff": -65.68,
+      "minutes_to_kickoff": -98.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -818,7 +775,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-02T12:00:00+07:00",
-      "minutes_to_kickoff": -65.68,
+      "minutes_to_kickoff": -98.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -863,7 +820,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-02T12:30:00+07:00",
-      "minutes_to_kickoff": -35.68,
+      "minutes_to_kickoff": -68.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -908,7 +865,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-02T13:00:00+07:00",
-      "minutes_to_kickoff": -5.68,
+      "minutes_to_kickoff": -38.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -953,7 +910,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-02T13:00:00+07:00",
-      "minutes_to_kickoff": -5.68,
+      "minutes_to_kickoff": -38.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -977,7 +934,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001785650650-0-0-18c72bf54aa955d06cdf0daf480e28b1",
+      "url": "https://live2.streambylivepulse.com/live/channel18.flv",
       "match_key": "george willawong vs brisbane strikers|hd ken",
       "display_name": "[13:30 02/08/2026] George Willawong vs Brisbane Strikers [BLV HD KEN] [FLV]",
       "group": "Xôi Lạc",
@@ -998,7 +955,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-02T13:30:00+07:00",
-      "minutes_to_kickoff": 24.32,
+      "minutes_to_kickoff": -8.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1008,7 +965,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001785650650-0-0-18c72bf54aa955d06cdf0daf480e28b1",
+      "page_url": "https://live2.streambylivepulse.com/live/channel18.flv",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/2y8m4zhj2wpql07/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzgh7795q82w/image/small",
       "blv": null,
@@ -1022,7 +979,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785650691-0-0-53ce85d95e0c24a11d14496e37d20a26",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785652645-0-0-e60e07ceceabae0bccbb5c46c5c2fb86",
       "match_key": "dn soopers vs fredit brion|hd marty",
       "display_name": "[15:00 02/08/2026] Dn Soopers vs Fredit Brion [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -1043,7 +1000,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-02T15:00:00+07:00",
-      "minutes_to_kickoff": 114.32,
+      "minutes_to_kickoff": 81.64,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1053,9 +1010,54 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785650691-0-0-53ce85d95e0c24a11d14496e37d20a26",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785652645-0-0-e60e07ceceabae0bccbb5c46c5c2fb86",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/2y8m4exu32pkql0/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/ednm926hky17ryo/image/small",
+      "blv": null,
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
+    },
+    {
+      "source": "xoilac",
+      "source_label": "Xôi Lạc",
+      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785652693-0-0-22228908457470e9072ab69b349280c5",
+      "match_key": "shine elastopainters vs meralco bolts|hd step",
+      "display_name": "[16:15 02/08/2026] Shine Elastopainters vs Meralco Bolts [BLV HD STEP] [FLV]",
+      "group": "Xôi Lạc",
+      "sport_group": "Philippine Basketball Governors' Cup",
+      "quality": "HD",
+      "kind": "flv",
+      "playability": "verified",
+      "classification": "verified_unsigned",
+      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
+      "has_secret": false,
+      "expiry": {
+        "timestamp": null,
+        "utc": "",
+        "vietnam": "",
+        "seconds_left": null
+      },
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 456,
+      "kickoff_iso": "2026-08-02T16:15:00+07:00",
+      "minutes_to_kickoff": 156.64,
+      "metadata_audit": null,
+      "metadata_enriched_from": null,
+      "metadata_warning": null,
+      "stream_key_tokens": null,
+      "logo": "https://imgts.sportpulseapiz.com/basketball/team/gy0or5gtpj4qwzv/image/small",
+      "logo_source": null,
+      "logo_enriched_from": null,
+      "logo_is_fallback": null,
+      "entry_mode": "stream",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785652693-0-0-22228908457470e9072ab69b349280c5",
+      "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/gy0or5gtpj4qwzv/image/small",
+      "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/gpxwrx5t426qyk0/image/small",
       "blv": null,
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
@@ -1083,7 +1085,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-02T11:40:00+07:00",
-      "minutes_to_kickoff": -85.68,
+      "minutes_to_kickoff": -118.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1123,7 +1125,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-02T12:30:00+07:00",
-      "minutes_to_kickoff": -35.68,
+      "minutes_to_kickoff": -68.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1148,8 +1150,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/87379114.m3u8",
-      "match_key": "canterbury rams vs southland sharks|cozy ang xem",
-      "display_name": "[13:00 02/08] Canterbury Rams vs Southland Sharks [BLV CozyĐang xem] [M3U8]",
+      "match_key": "canterbury rams vs southland sharks|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[13:00 02/08] Canterbury Rams vs Southland Sharks [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng rổ",
       "quality": "UNKNOWN",
@@ -1163,12 +1165,12 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-02T13:00:00+07:00",
-      "minutes_to_kickoff": -5.68,
+      "minutes_to_kickoff": -38.36,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
       "stream_key_tokens": null,
-      "logo": "https://img.gvapi.cc/basketball/team/256e715800fb8321f7cf1dacce3aa35e.png!w80",
+      "logo": null,
       "logo_source": null,
       "logo_enriched_from": null,
       "logo_is_fallback": null,
@@ -1176,7 +1178,7 @@
       "page_url": "https://live05.meung.app/live/87379114.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "CozyĐang xem",
+      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1188,7 +1190,7 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "match_key": "st george willawong fc vs brisbane strikers|bi ao ang xem",
+      "match_key": "shanghai second vs changchun xidu|samurai ang xem",
       "display_name": "[13:30 02/08] St George Willawong FC vs Brisbane Strikers [BLV BÍ ĐAOĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
@@ -1202,8 +1204,8 @@
       "derived_pending": false,
       "pending_reason": null,
       "score": 439,
-      "kickoff_iso": "2026-08-02T13:30:00+07:00",
-      "minutes_to_kickoff": 24.32,
+      "kickoff_iso": "2026-08-02T15:00:00+07:00",
+      "minutes_to_kickoff": 81.64,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1216,7 +1218,7 @@
       "page_url": "https://colatv88xi.cc/video2/output.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "BÍ ĐAOĐang xem",
+      "blv": "SAMURAIĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1252,45 +1254,33 @@
     },
     {
       "source": "gavang",
-      "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/master.m3u8",
-      "display_name": "Legia VS Zaglebie [M3U8]",
-      "match_key": "legia vs zaglebie|",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "gavang",
-      "url": "https://hls.lauthaitv.cc/live/portland-sealtle-mls/index.m3u8",
-      "display_name": "[CHƯA CÓ GIỜ 02/08] MLS - Portland Timbers VS Seattle Sounders [BLV NGƯỜI CÁO] [M3U8]",
-      "match_key": "mls portland timbers vs seattle sounders|nguoi cao",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "gavang",
-      "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
-      "display_name": "Oulu VS Ilves [SD M3U8]",
-      "match_key": "oulu vs ilves|",
-      "quality": "SD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "gavang",
       "url": "https://hls.lauthaitv.cc/live/smelbourn-stalbans-nplvic/index.m3u8",
       "display_name": "[12:30 02/08] South Melbourne vs St. Albans Saints - Victoria NPL [M3U8]",
       "match_key": "south melbourne vs st albans saints|",
+      "quality": "UNKNOWN",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel18.flv",
+      "display_name": "[13:30 02/08/2026] George Willawong vs Brisbane Strikers [BLV HD KEN] [FLV]",
+      "match_key": "george willawong vs brisbane strikers|hd ken",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel18.flv",
+      "display_name": "[13:30 02/08/2026] Sydney United U20 vs Nws Spirit Fc U20 [FLV]",
+      "match_key": "george willawong vs brisbane strikers|",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1324,78 +1314,6 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
-      "display_name": "[12:30 02/08/2026] South Melbourne vs St Albans Saints [BLV HD TOM] [FLV]",
-      "match_key": "south melbourne vs st albans saints|hd tom",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
-      "display_name": "[12:00 02/08/2026] Manly Warringah Sea Eagles vs Central Coast Crusaders [BLV HD TOMMY] [FLV]",
-      "match_key": "manly warringah sea eagles vs central coast crusaders|hd tommy",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
-      "display_name": "[11:30 02/08/2026] Hobart Zebras vs Ulverstone [FLV]",
-      "match_key": "south melbourne vs st albans saints|",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
-      "display_name": "[11:30 02/08/2026] Nu Canberra Olympic vs Nu Canberra Fc [FLV]",
-      "match_key": "canterbury rams vs southland sharks|",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel17.flv?auth_key=3000001785650589-0-0-3c717fa51d0fbd9617d1625e6e013ec1",
-      "display_name": "[11:30 02/08/2026] Sydney United 58 Fc vs Spirit Fc [FLV]",
-      "match_key": "sydney united 58 fc vs spirit fc|",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "dropped-explicitly",
-      "reason": "duplicate-quality-UNKNOWN"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel17.flv",
-      "display_name": "[11:30 02/08/2026] Sydney United 58 Fc vs Spirit Fc [FLV]",
-      "match_key": "sydney united 58 fc vs spirit fc|",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
       "url": "https://live2.streambylivepulse.com/live/channel19.flv",
       "display_name": "[12:00 02/08/2026] Blacktown City vs Sydney Fc Y [BLV HD FILIP] [FLV]",
       "match_key": "blacktown city vs sydney fc y|hd filip",
@@ -1412,6 +1330,18 @@
       "display_name": "[12:00 02/08/2026] Coast Mariners R vs Inter Lions [FLV]",
       "match_key": "coast mariners r vs inter lions|",
       "quality": "UNKNOWN",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
+      "display_name": "[12:00 02/08/2026] Manly Warringah Sea Eagles vs Central Coast Crusaders [BLV HD TOMMY] [FLV]",
+      "match_key": "manly warringah sea eagles vs central coast crusaders|hd tommy",
+      "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
@@ -1468,9 +1398,33 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001785650650-0-0-18c72bf54aa955d06cdf0daf480e28b1",
-      "display_name": "[13:30 02/08/2026] George Willawong vs Brisbane Strikers [BLV HD KEN] [FLV]",
-      "match_key": "george willawong vs brisbane strikers|hd ken",
+      "url": "https://live3.procdnlive.com/livecdn/channel17.flv?auth_key=3000001785652593-0-0-65d57a5be3fb4ac164ab34f8642d98a8",
+      "display_name": "[11:30 02/08/2026] Sydney United 58 Fc vs Spirit Fc [FLV]",
+      "match_key": "sydney united 58 fc vs spirit fc|",
+      "quality": "UNKNOWN",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "dropped-explicitly",
+      "reason": "duplicate-quality-UNKNOWN"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel17.flv",
+      "display_name": "[11:30 02/08/2026] Sydney United 58 Fc vs Spirit Fc [FLV]",
+      "match_key": "sydney united 58 fc vs spirit fc|",
+      "quality": "UNKNOWN",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
+      "display_name": "[12:30 02/08/2026] South Melbourne vs St Albans Saints [BLV HD TOM] [FLV]",
+      "match_key": "south melbourne vs st albans saints|hd tom",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1480,9 +1434,45 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785650691-0-0-53ce85d95e0c24a11d14496e37d20a26",
+      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
+      "display_name": "[11:30 02/08/2026] Nu Canberra Olympic vs Nu Canberra Fc [FLV]",
+      "match_key": "canterbury rams vs southland sharks|",
+      "quality": "UNKNOWN",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel19.flv",
+      "display_name": "[13:50 02/08/2026] Nu Apia L Tigers vs Nu Bulls Academy [FLV]",
+      "match_key": "blacktown city vs sydney fc y|",
+      "quality": "UNKNOWN",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785652645-0-0-e60e07ceceabae0bccbb5c46c5c2fb86",
       "display_name": "[15:00 02/08/2026] Dn Soopers vs Fredit Brion [BLV HD MARTY] [FLV]",
       "match_key": "dn soopers vs fredit brion|hd marty",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785652693-0-0-22228908457470e9072ab69b349280c5",
+      "display_name": "[16:15 02/08/2026] Shine Elastopainters vs Meralco Bolts [BLV HD STEP] [FLV]",
+      "match_key": "shine elastopainters vs meralco bolts|hd step",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1518,7 +1508,7 @@
       "source": "colatv",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
       "display_name": "[13:30 02/08] St George Willawong FC vs Brisbane Strikers [BLV BÍ ĐAOĐang xem] [M3U8]",
-      "match_key": "st george willawong fc vs brisbane strikers|bi ao ang xem",
+      "match_key": "shanghai second vs changchun xidu|samurai ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1529,8 +1519,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/87379114.m3u8",
-      "display_name": "[13:00 02/08] Canterbury Rams vs Southland Sharks [BLV CozyĐang xem] [M3U8]",
-      "match_key": "canterbury rams vs southland sharks|cozy ang xem",
+      "display_name": "[13:00 02/08] Canterbury Rams vs Southland Sharks [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "canterbury rams vs southland sharks|lich thi au cuoc vsbet tai app ta",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1542,15 +1532,7 @@
   "fresh_preservation_ok": true,
   "dropped": [
     {
-      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
-      "reason": "duplicate-url-lower-score",
-      "source": "xoilac",
-      "selected_source": "xoilac",
-      "selected_score": 456,
-      "dropped_score": 436
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel18.flv",
       "reason": "duplicate-url-lower-score",
       "source": "xoilac",
       "selected_source": "xoilac",
@@ -1575,6 +1557,22 @@
     },
     {
       "url": "https://live2.streambylivepulse.com/live/channel12.flv",
+      "reason": "duplicate-url-lower-score",
+      "source": "xoilac",
+      "selected_source": "xoilac",
+      "selected_score": 456,
+      "dropped_score": 436
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel26.flv",
+      "reason": "duplicate-url-lower-score",
+      "source": "xoilac",
+      "selected_source": "xoilac",
+      "selected_score": 456,
+      "dropped_score": 436
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel19.flv",
       "reason": "duplicate-url-lower-score",
       "source": "xoilac",
       "selected_source": "xoilac",
@@ -1627,7 +1625,7 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel17.flv?auth_key=3000001785650589-0-0-3c717fa51d0fbd9617d1625e6e013ec1",
+      "url": "https://live3.procdnlive.com/livecdn/channel17.flv?auth_key=3000001785652593-0-0-65d57a5be3fb4ac164ab34f8642d98a8",
       "reason": "duplicate-quality-UNKNOWN",
       "source": "xoilac",
       "match_key": "sydney united 58 fc vs spirit fc|"
