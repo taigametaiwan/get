@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-02T16:01:49.386979+07:00",
+  "updated_at": "2026-08-02T16:31:44.492701+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -734,13 +734,14 @@
       "url": "https://live04.chuoichientv.me/live/996426/philippines-w-vs-indonesia-w",
       "match_name": "Philippines W vs Indonesia W - Bóng Chuyền SEA V.LEAGUE",
       "kickoff_iso": "2026-08-02T16:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-02T16:01:49.386830+07:00",
-      "next_scan_at": "2026-08-02T16:06:49.386830+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-02T16:31:44.492490+07:00",
+      "next_scan_at": "2026-08-02T16:36:44.492490+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -761,14 +762,14 @@
     "992430": {
       "url": "https://live04.chuoichientv.me/live/992430/vietnam-w-vs-thailand-w",
       "match_name": "vietnam w vs thailand w",
-      "kickoff_iso": "2026-08-02T19:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-02T16:01:49.386830+07:00",
-      "next_scan_at": "2026-08-02T16:46:49.386830+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-02T16:31:44.492490+07:00",
+      "next_scan_at": "2026-08-02T16:41:44.492490+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1521997": {
       "url": "https://live04.chuoichientv.me/live/1521997/south-melbourne-vs-st-albans-saints",
@@ -788,13 +789,13 @@
       "url": "https://live04.chuoichientv.me/live/997036/japan-vs-slovenia",
       "match_name": "Japan vs Slovenia - Nations League",
       "kickoff_iso": "2026-08-02T14:40:00+07:00",
-      "minutes_to_kickoff": -81,
-      "last_scan_at": "2026-08-02T16:01:49.386830+07:00",
-      "next_scan_at": "2026-08-02T16:06:49.386830+07:00",
+      "minutes_to_kickoff": -111,
+      "last_scan_at": "2026-08-02T16:31:44.492490+07:00",
+      "next_scan_at": "2026-08-02T16:36:44.492490+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/camry.flv"
+        "https://gckc0525.edgemaxcdn.org/live/camry/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -802,9 +803,9 @@
       "url": "https://live04.chuoichientv.me/live/1523225/qingdao-youth-island-vs-qingdao-jonoon",
       "match_name": "Qingdao Youth Island vs Qingdao Jonoon - Ngoại Hạng Trung Quốc",
       "kickoff_iso": "2026-08-02T17:00:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-08-02T16:01:49.386830+07:00",
-      "next_scan_at": "2026-08-02T16:21:49.386830+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-02T16:31:44.492490+07:00",
+      "next_scan_at": "2026-08-02T16:41:44.492490+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -814,9 +815,9 @@
       "url": "https://live04.chuoichientv.me/live/1507020/jeju-united-fc-vs-incheon-united",
       "match_name": "Jeju United FC vs Incheon United - K League 1",
       "kickoff_iso": "2026-08-02T17:30:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-02T16:01:49.386830+07:00",
-      "next_scan_at": "2026-08-02T16:21:49.386830+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-08-02T16:31:44.492490+07:00",
+      "next_scan_at": "2026-08-02T16:51:44.492490+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -837,14 +838,14 @@
     "1523224": {
       "url": "https://live04.chuoichientv.me/live/1523224/sichuan-jiuniu-vs-chongqing-tongliang-long",
       "match_name": "sichuan jiuniu vs chongqing tongliang long",
-      "kickoff_iso": "2026-08-02T19:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-02T16:01:49.386830+07:00",
-      "next_scan_at": "2026-08-02T16:46:49.386830+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-02T16:31:44.492490+07:00",
+      "next_scan_at": "2026-08-02T16:41:44.492490+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "995464": {
       "url": "https://live04.chuoichientv.me/live/995464/nguyn-thy-linh-vs-tanvi-sharma",
@@ -863,22 +864,22 @@
     "993103": {
       "url": "https://live04.chuoichientv.me/live/993103/usa-vs-poland",
       "match_name": "usa vs poland",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-02T16:01:49.386830+07:00",
-      "next_scan_at": "2026-08-02T16:11:49.386830+07:00",
+      "kickoff_iso": "2026-08-02T18:30:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-02T16:31:44.492490+07:00",
+      "next_scan_at": "2026-08-02T16:51:44.492490+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1548983": {
       "url": "https://live04.chuoichientv.me/live/1548983/brondby-vs-viborg",
       "match_name": "brondby vs viborg",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-02T16:01:49.386830+07:00",
-      "next_scan_at": "2026-08-02T16:11:49.386830+07:00",
+      "last_scan_at": "2026-08-02T16:31:44.492490+07:00",
+      "next_scan_at": "2026-08-02T16:41:44.492490+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -889,8 +890,8 @@
       "match_name": "wrexham vs sunderland",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-02T16:01:49.386830+07:00",
-      "next_scan_at": "2026-08-02T16:11:49.386830+07:00",
+      "last_scan_at": "2026-08-02T16:31:44.492490+07:00",
+      "next_scan_at": "2026-08-02T16:41:44.492490+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
