@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-02T15:33:33.186742+07:00",
+  "updated_at": "2026-08-02T16:04:19.438069+07:00",
   "matches": {
-    "e9a8be850222": {
-      "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-indonesia",
-      "match_name": "Thái Lan vs Indonesia",
-      "kickoff_iso": "2026-07-31T16:00:00+07:00",
-      "minutes_to_kickoff": -124,
-      "last_scan_at": "2026-07-31T18:04:44.242864+07:00",
-      "next_scan_at": "2026-07-31T18:09:44.242864+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "791562": {
       "url": "https://phaohoa1.live/truc-tiep/timor-leste-vs-indonesia-31-07-2026-791562",
       "match_name": "Timor Leste vs Indonesia",
@@ -395,9 +381,9 @@
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-slovenia",
       "match_name": "Nhật Bản vs Slovenia",
       "kickoff_iso": "2026-08-02T14:40:00+07:00",
-      "minutes_to_kickoff": -53,
-      "last_scan_at": "2026-08-02T15:33:33.186524+07:00",
-      "next_scan_at": "2026-08-02T15:38:33.186524+07:00",
+      "minutes_to_kickoff": -84,
+      "last_scan_at": "2026-08-02T16:04:19.437915+07:00",
+      "next_scan_at": "2026-08-02T16:09:19.437915+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -421,25 +407,25 @@
       "url": "https://phaohoa1.live/truc-tiep/jeju-sk-vs-incheon-02-08-2026-728357",
       "match_name": "02-08 K League 1 Jeju SK VS Incheon Pháo Thủ",
       "kickoff_iso": "2026-08-02T17:30:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-08-02T15:33:33.186524+07:00",
-      "next_scan_at": "2026-08-02T15:53:33.186524+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-02T16:04:19.437915+07:00",
+      "next_scan_at": "2026-08-02T16:24:19.437915+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "728358": {
       "url": "https://phaohoa1.live/truc-tiep/ulsan-hd-vs-anyang-02-08-2026-728358",
       "match_name": "02-08 K League 1 Ulsan HD VS Anyang Văn Minh",
       "kickoff_iso": "2026-08-02T17:30:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-08-02T15:33:33.186524+07:00",
-      "next_scan_at": "2026-08-02T15:53:33.186524+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-02T16:04:19.437915+07:00",
+      "next_scan_at": "2026-08-02T16:24:19.437915+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "3a9fdd0ba443": {
       "url": "https://phaohoa1.live/truc-tiep/my-vs-ba-lan",
@@ -448,6 +434,30 @@
       "minutes_to_kickoff": 177,
       "last_scan_at": "2026-08-02T15:33:33.186524+07:00",
       "next_scan_at": "2026-08-02T16:18:33.186524+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "715562": {
+      "url": "https://phaohoa1.live/truc-tiep/brommapojkarna-vs-malmo-ff-02-08-2026-715562",
+      "match_name": "02-08 Allsvenskan Brommapojkarna VS Malmo FF Kevin",
+      "kickoff_iso": "2026-08-02T19:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-08-02T16:04:19.437915+07:00",
+      "next_scan_at": "2026-08-02T16:49:19.437915+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "e42ebdb7e388": {
+      "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-thai-lan",
+      "match_name": "02-08 Sea V Cup Việt Nam VS Thái Lan Chim Nhỏ",
+      "kickoff_iso": "2026-08-02T19:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-08-02T16:04:19.437915+07:00",
+      "next_scan_at": "2026-08-02T16:49:19.437915+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
