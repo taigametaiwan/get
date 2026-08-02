@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-03T01:04:42.679463+07:00",
+  "updated_at": "2026-08-03T01:34:44.242901+07:00",
   "matches": {
     "769170": {
       "url": "https://phaohoa1.live/truc-tiep/birmingham-vs-barcelona-01-08-2026-769170",
@@ -409,9 +409,9 @@
       "url": "https://phaohoa1.live/truc-tiep/brann-vs-rosenborg-03-08-2026-716906",
       "match_name": "Brann vs Rosenborg",
       "kickoff_iso": "2026-08-03T00:15:00+07:00",
-      "minutes_to_kickoff": -49,
-      "last_scan_at": "2026-08-03T01:04:42.679312+07:00",
-      "next_scan_at": "2026-08-03T01:09:42.679312+07:00",
+      "minutes_to_kickoff": -79,
+      "last_scan_at": "2026-08-03T01:34:44.241714+07:00",
+      "next_scan_at": "2026-08-03T01:39:44.241714+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -423,9 +423,9 @@
       "url": "https://phaohoa1.live/truc-tiep/fk-pardubice-vs-jablonec-03-08-2026-781996",
       "match_name": "Fk Pardubice vs Jablonec",
       "kickoff_iso": "2026-08-03T01:00:00+07:00",
-      "minutes_to_kickoff": -4,
-      "last_scan_at": "2026-08-03T01:04:42.679312+07:00",
-      "next_scan_at": "2026-08-03T01:09:42.679312+07:00",
+      "minutes_to_kickoff": -34,
+      "last_scan_at": "2026-08-03T01:34:44.241714+07:00",
+      "next_scan_at": "2026-08-03T01:39:44.241714+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -435,27 +435,29 @@
     },
     "774991": {
       "url": "https://phaohoa1.live/truc-tiep/fc-rapid-bucuresti-vs-cfr-cluj-03-08-2026-774991",
-      "match_name": "03-08 Liga I FC Rapid Bucuresti VS CFR Cluj Pháo Thủ",
+      "match_name": "FC Rapid Bucuresti vs Cfr Cluj",
       "kickoff_iso": "2026-08-03T01:30:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-08-03T01:04:42.679312+07:00",
-      "next_scan_at": "2026-08-03T01:14:42.679312+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-08-03T01:34:44.241714+07:00",
+      "next_scan_at": "2026-08-03T01:39:44.241714+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     },
     "829593": {
       "url": "https://phaohoa1.live/truc-tiep/liverpool-vs-leeds-03-08-2026-829593",
       "match_name": "03-08 Premier League Summer Series Liverpool VS Leeds Ken",
       "kickoff_iso": "2026-08-03T03:00:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-08-03T01:04:42.679312+07:00",
-      "next_scan_at": "2026-08-03T01:24:42.679312+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-03T01:34:44.241714+07:00",
+      "next_scan_at": "2026-08-03T01:54:44.241714+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
