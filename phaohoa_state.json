@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-02T22:36:34.239168+07:00",
+  "updated_at": "2026-08-02T23:07:10.138923+07:00",
   "matches": {
-    "779693": {
-      "url": "https://phaohoa1.live/truc-tiep/aarhus-fremad-vs-aalborg-31-07-2026-779693",
-      "match_name": "Aarhus Fremad vs Aalborg",
-      "kickoff_iso": "2026-07-31T23:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-01T00:34:24.296251+07:00",
-      "next_scan_at": "2026-08-01T00:39:24.296251+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "716911": {
       "url": "https://phaohoa1.live/truc-tiep/valerenga-vs-hamkam-01-08-2026-716911",
       "match_name": "Valerenga vs Hamkam",
@@ -407,9 +393,9 @@
       "url": "https://phaohoa1.live/truc-tiep/aik-vs-orgryte-02-08-2026-715561",
       "match_name": "Aik vs Orgryte",
       "kickoff_iso": "2026-08-02T21:30:00+07:00",
-      "minutes_to_kickoff": -66,
-      "last_scan_at": "2026-08-02T22:36:34.238868+07:00",
-      "next_scan_at": "2026-08-02T22:41:34.238868+07:00",
+      "minutes_to_kickoff": -96,
+      "last_scan_at": "2026-08-02T23:07:10.138632+07:00",
+      "next_scan_at": "2026-08-02T23:12:10.138632+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -421,9 +407,9 @@
       "url": "https://phaohoa1.live/truc-tiep/molde-vs-sarpsborg-08-02-08-2026-716909",
       "match_name": "Molde vs Sarpsborg 08",
       "kickoff_iso": "2026-08-02T22:00:00+07:00",
-      "minutes_to_kickoff": -36,
-      "last_scan_at": "2026-08-02T22:36:34.238868+07:00",
-      "next_scan_at": "2026-08-02T22:41:34.238868+07:00",
+      "minutes_to_kickoff": -66,
+      "last_scan_at": "2026-08-02T23:07:10.138632+07:00",
+      "next_scan_at": "2026-08-02T23:12:10.138632+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -435,37 +421,41 @@
       "url": "https://phaohoa1.live/truc-tiep/silkeborg-vs-fc-copenhagen-02-08-2026-779567",
       "match_name": "Silkeborg vs FC Copenhagen",
       "kickoff_iso": "2026-08-02T23:00:00+07:00",
-      "minutes_to_kickoff": 24,
-      "last_scan_at": "2026-08-02T22:36:34.238868+07:00",
-      "next_scan_at": "2026-08-02T22:46:34.238868+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -6,
+      "last_scan_at": "2026-08-02T23:07:10.138632+07:00",
+      "next_scan_at": "2026-08-02T23:12:10.138632+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
+      ],
       "scan_decision": "browser-fallback"
     },
     "829592": {
       "url": "https://phaohoa1.live/truc-tiep/wrexham-vs-sunderland-02-08-2026-829592",
       "match_name": "Wrexham vs Sunderland",
       "kickoff_iso": "2026-08-02T23:00:00+07:00",
-      "minutes_to_kickoff": 24,
-      "last_scan_at": "2026-08-02T22:36:34.238868+07:00",
-      "next_scan_at": "2026-08-02T22:46:34.238868+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -7,
+      "last_scan_at": "2026-08-02T23:07:10.138632+07:00",
+      "next_scan_at": "2026-08-02T23:12:10.138632+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     },
     "716906": {
       "url": "https://phaohoa1.live/truc-tiep/brann-vs-rosenborg-03-08-2026-716906",
       "match_name": "03-08 Eliteserien Brann VS Rosenborg Kevin",
       "kickoff_iso": "2026-08-03T00:15:00+07:00",
-      "minutes_to_kickoff": 99,
-      "last_scan_at": "2026-08-02T22:36:34.238868+07:00",
-      "next_scan_at": "2026-08-02T22:56:34.238868+07:00",
+      "minutes_to_kickoff": 68,
+      "last_scan_at": "2026-08-02T23:07:10.138632+07:00",
+      "next_scan_at": "2026-08-02T23:27:10.138632+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "781996": {
       "url": "https://phaohoa1.live/truc-tiep/fk-pardubice-vs-jablonec-03-08-2026-781996",
@@ -483,9 +473,9 @@
       "url": "https://phaohoa1.live/truc-tiep/fc-rapid-bucuresti-vs-cfr-cluj-03-08-2026-774991",
       "match_name": "FC Rapid Bucuresti vs Cfr Cluj",
       "kickoff_iso": "2026-08-03T01:30:00+07:00",
-      "minutes_to_kickoff": 174,
-      "last_scan_at": "2026-08-02T22:36:34.238868+07:00",
-      "next_scan_at": "2026-08-02T23:21:34.238868+07:00",
+      "minutes_to_kickoff": 143,
+      "last_scan_at": "2026-08-02T23:07:10.138632+07:00",
+      "next_scan_at": "2026-08-02T23:52:10.138632+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
