@@ -1,11 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-1490362-1" tvg-name="[06:30 02/08] Inter Miami vs Columbus Crew - Major League Soccer [BLV Chuối To]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131436_8ba487aa.png",[06:30 02/08] Inter Miami vs Columbus Crew - Major League Soccer [BLV Chuối To] [FHD FLV]
+#EXTINF:-1 tvg-id="chuoichien-1490362-1" tvg-name="[06:30 02/08] Inter Miami vs Columbus Crew - Major League Soccer [BLV trực tiếp: Chuối To Trận đấu Inter Miami]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131608_f8dbdd17.png",[06:30 02/08] Inter Miami vs Columbus Crew - Major League Soccer [BLV trực tiếp: Chuối To Trận đấu Inter Miami] [FHD FLV]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://gckc0525.edgemaxcdn.org/live/chuoito.flv
-#EXTINF:-1 tvg-id="chuoichien-1490362-2" tvg-name="[06:30 02/08] Inter Miami vs Columbus Crew - Major League Soccer [BLV Chuối To]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131436_8ba487aa.png",[06:30 02/08] Inter Miami vs Columbus Crew - Major League Soccer [BLV Chuối To] (Luồng 2) [M3U8]
+#EXTINF:-1 tvg-id="chuoichien-1490362-2" tvg-name="[06:30 02/08] Inter Miami vs Columbus Crew - Major League Soccer [BLV trực tiếp: Chuối To Trận đấu Inter Miami]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131608_f8dbdd17.png",[06:30 02/08] Inter Miami vs Columbus Crew - Major League Soccer [BLV trực tiếp: Chuối To Trận đấu Inter Miami] (Luồng 2) [M3U8]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
@@ -17,143 +17,129 @@ https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2703/queretaro-tigres-mexliga/?s8_live_fixture_id=2703&s8_live_stream_key=queretaro-tigres-mexliga&s8_auto_sound=1","Origin":"https://profecta.io"}
 https://hls.lauthaitv.cc/live/queretaro-tigres-mexliga/index.m3u8
-#EXTINF:-1 tvg-id="gavang-2704-1" tvg-name="[06:30 02/08] Inter Miami vs Columbus Crew - Major League Soccer" group-title="Gà Vàng" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131436_8ba487aa.png",[06:30 02/08] Inter Miami vs Columbus Crew - Major League Soccer [M3U8]
+#EXTINF:-1 tvg-id="gavang-2704-1" tvg-name="[06:30 02/08] Inter Miami vs Columbus Crew - Major League Soccer [BLV NGƯỜI NẶN]" group-title="Gà Vàng" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131608_f8dbdd17.png",[06:30 02/08] Inter Miami vs Columbus Crew - Major League Soccer [BLV NGƯỜI NẶN] [M3U8]
 #EXTVLCOPT:http-referrer=https://profecta.io/s8-live/2704/miami-columbus-mls/?s8_live_fixture_id=2704&s8_live_stream_key=miami-columbus-mls&s8_auto_sound=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2704/miami-columbus-mls/?s8_live_fixture_id=2704&s8_live_stream_key=miami-columbus-mls&s8_auto_sound=1","Origin":"https://profecta.io"}
 https://hls.lauthaitv.cc/live/miami-columbus-mls/index.m3u8
-#EXTINF:-1 tvg-id="gavang-2706-1" tvg-name="[08:05 02/08] Giải Vô địch Quốc gia Mexico 02/08 Atlas VS Monterrey BLV SPRITE" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-json/s8-image/fa4f582e-f072-46a4-a3bb-5938b19dd140",[08:05 02/08] Giải Vô địch Quốc gia Mexico 02/08 Atlas VS Monterrey BLV SPRITE [M3U8]
+#EXTINF:-1 tvg-id="gavang-2706-1" tvg-name="[08:05 02/08] Atlas VS Monterray" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-json/s8-image/fa4f582e-f072-46a4-a3bb-5938b19dd140",[08:05 02/08] Atlas VS Monterray [M3U8]
 #EXTVLCOPT:http-referrer=https://profecta.io/s8-live/2706/atlas-monterray-mexliga/?s8_live_fixture_id=2706&s8_live_stream_key=atlas-monterray-mexliga&s8_auto_sound=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/s8-live/2706/atlas-monterray-mexliga/?s8_live_fixture_id=2706&s8_live_stream_key=atlas-monterray-mexliga&s8_auto_sound=1","Origin":"https://profecta.io"}
 https://hls.lauthaitv.cc/live/atlas-monterray-mexliga/index.m3u8
-#EXTINF:-1 tvg-id="gavang-2706-1" tvg-name="Atlas VS Monterray [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-json/s8-image/fa4f582e-f072-46a4-a3bb-5938b19dd140",Atlas VS Monterray [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]
+#EXTINF:-1 tvg-id="gavang-2706-1" tvg-name="Atlas VS Monterray [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-json/s8-image/fa4f582e-f072-46a4-a3bb-5938b19dd140",Atlas VS Monterray [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]
 #EXTVLCOPT:http-referrer=https://profecta.io/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/","Origin":"https://profecta.io"}
 https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8
-#EXTINF:-1 tvg-id="xoilac--tiep-cerro-porteno-vs-sportivo-luqueno-luc-0430-ngay-02-08-2026-s0-7" tvg-name="[04:30 02/08/2026] Cerro Porteno vs Sportivo Luqueno [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zhk64ql07/image/small",[04:30 02/08/2026] Cerro Porteno vs Sportivo Luqueno [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel21.flv
-#EXTINF:-1 tvg-id="xoilac-is-policia-nacional-vs-atletico-choloma-luc-0430-ngay-02-08-2026-s0-8" tvg-name="[04:30 02/08/2026] Genesis Policia Nacional vs Atletico Choloma [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhz552ryk0/image/small",[04:30 02/08/2026] Genesis Policia Nacional vs Atletico Choloma [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel20.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-bandeirante-vs-marilia-ac-luc-0500-ngay-02-08-2026-s0-4" tvg-name="[05:00 02/08/2026] Bandeirante vs Marilia Ac [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4hel8wq86p/image/small",[05:00 02/08/2026] Bandeirante vs Marilia Ac [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-bandeirante-vs-marilia-ac-luc-0500-ngay-02-08-2026-s0-7" tvg-name="[05:00 02/08/2026] Bandeirante vs Marilia Ac [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4hel8wq86p/image/small",[05:00 02/08/2026] Bandeirante vs Marilia Ac [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel24.flv
-#EXTINF:-1 tvg-id="xoilac-uc-tiep-vancouver-fc-vs-atletico-ottawa-luc-0500-ngay-02-08-2026-s1-5" tvg-name="[05:00 02/08/2026] Vancouver Fc vs Atletico Ottawa [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphnywlr8k0/image/small",[05:00 02/08/2026] Vancouver Fc vs Atletico Ottawa [BLV HD LOGAN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-vancouver-fc-vs-atletico-ottawa-luc-0500-ngay-02-08-2026-s1-2" tvg-name="[05:00 02/08/2026] Vancouver Fc vs Atletico Ottawa [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphnywlr8k0/image/small",[05:00 02/08/2026] Vancouver Fc vs Atletico Ottawa [BLV HD LOGAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel23.flv
-#EXTINF:-1 tvg-id="xoilac-tico-mineiro-vs-esporte-clube-juventude-luc-0530-ngay-02-08-2026-s0-7" tvg-name="[05:30 02/08/2026] Atletico Mineiro vs Esporte Clube Juventude [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7phe29m2wd/image/small",[05:30 02/08/2026] Atletico Mineiro vs Esporte Clube Juventude [FLV]
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-fc-cincinnati-vs-sj-earthquakes-luc-0630-ngay-02-08-2026-s1-3" tvg-name="[06:30 02/08/2026] Fc Cincinnati vs Sj Earthquakes [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7pho3jem2wd/image/small",[06:30 02/08/2026] Fc Cincinnati vs Sj Earthquakes [BLV HD ALAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel25.flv
-#EXTINF:-1 tvg-id="xoilac-cruz-azul-hidalgo-vs-venados-fc-yucatan-luc-0445-ngay-02-08-2026-s1-6" tvg-name="[04:45 02/08/2026] Cruz Azul Hidalgo vs Venados Fc Yucatan [BLV HD TAGE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zh3xnwql07/image/small",[04:45 02/08/2026] Cruz Azul Hidalgo vs Venados Fc Yucatan [BLV HD TAGE] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel27.flv
-#EXTINF:-1 tvg-id="xoilac-ew-york-city-b-vs-philadelphia-union-ii-luc-0600-ngay-02-08-2026-s0-1" tvg-name="[06:00 02/08/2026] New York City B vs Philadelphia Union Ii [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7ph9g41m2wd/image/small",[06:00 02/08/2026] New York City B vs Philadelphia Union Ii [FLV]
+#EXTINF:-1 tvg-id="xoilac-ew-york-city-b-vs-philadelphia-union-ii-luc-0600-ngay-02-08-2026-s0-4" tvg-name="[06:00 02/08/2026] New York City B vs Philadelphia Union Ii [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7ph9g41m2wd/image/small",[06:00 02/08/2026] New York City B vs Philadelphia Union Ii [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel28.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-queretaro-fc-vs-tigres-uanl-luc-0600-ngay-02-08-2026-s1-3" tvg-name="[06:00 02/08/2026] Queretaro Fc vs Tigres Uanl [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghd6wr6od/image/small",[06:00 02/08/2026] Queretaro Fc vs Tigres Uanl [BLV HD JEAN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-puntarenas-fc-vs-sporting-fc-luc-0600-ngay-02-08-2026-s0-5" tvg-name="[06:00 02/08/2026] Puntarenas Fc vs Sporting Fc [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkd8om2wd/image/small",[06:00 02/08/2026] Puntarenas Fc vs Sporting Fc [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel27.flv
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-queretaro-fc-vs-tigres-uanl-luc-0600-ngay-02-08-2026-s1-6" tvg-name="[06:00 02/08/2026] Queretaro Fc vs Tigres Uanl [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghd6wr6od/image/small",[06:00 02/08/2026] Queretaro Fc vs Tigres Uanl [BLV HD JEAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel7.flv
-#EXTINF:-1 tvg-id="xoilac-minos-uat-victoria-vs-santos-del-potosi-luc-0815-ngay-02-08-2026-s1-9" tvg-name="[08:15 02/08/2026] Correcaminos Uat Victoria vs Santos Del Potosi [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/56ypq3kt935md7o/image/small",[08:15 02/08/2026] Correcaminos Uat Victoria vs Santos Del Potosi [BLV HD TOMMY] [FLV]
+#EXTINF:-1 tvg-id="xoilac-minos-uat-victoria-vs-santos-del-potosi-luc-0815-ngay-02-08-2026-s1-8" tvg-name="[08:15 02/08/2026] Correcaminos Uat Victoria vs Santos Del Potosi [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/56ypq3kt935md7o/image/small",[08:15 02/08/2026] Correcaminos Uat Victoria vs Santos Del Potosi [BLV HD TOMMY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel29/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel29/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785627540-0-0-72dd5cc9aa47a65a84fd9e4d13c1a018
-#EXTINF:-1 tvg-id="colatv-e56403257b6c-1" tvg-name="[05:30 02/08] Atletico Mineiro vs Juventude [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV",[05:30 02/08] Atletico Mineiro vs Juventude [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
+https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785629388-0-0-3e6dbaec207bb30ed99e542f5a74ecfa
+#EXTINF:-1 tvg-id="colatv-048b81662e50-1" tvg-name="[05:30 02/08] Atlético Mineiro - MG vs Esporte Clube Juventude [BLV SPRITEĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/079e86cebd6511ce807cc6073a3e26ee.png!w80",[05:30 02/08] Atlético Mineiro - MG vs Esporte Clube Juventude [BLV SPRITEĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/75748097.m3u8
-#EXTINF:-1 tvg-id="colatv-f18159ab4826-1" tvg-name="[06:00 02/08] Queretaro vs Tigres [BLV POCARIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/e93c69c95a943755907a17adf4d7d732.png!w80",[06:00 02/08] Queretaro vs Tigres [BLV POCARIĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-f18159ab4826-1" tvg-name="[06:00 02/08] Queretaro vs Tigres [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/e93c69c95a943755907a17adf4d7d732.png!w80",[06:00 02/08] Queretaro vs Tigres [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/19919577.m3u8
-#EXTINF:-1 tvg-id="colatv-925ad994d540-1" tvg-name="[06:30 02/08] Dc United vs Nashville [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2d846f3eea3e2d5067b26de498f83d94.png!w80",[06:30 02/08] Dc United vs Nashville [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/78905744.m3u8
-#EXTINF:-1 tvg-id="colatv-8009b8ee82bd-1" tvg-name="[06:30 02/08] Inter Miami CF vs Columbus Crew [BLV COCAĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/976fe1d29c112f4baeb844cdda2f04cb.png!w80",[06:30 02/08] Inter Miami CF vs Columbus Crew [BLV COCAĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/24561735.m3u8
-#EXTINF:-1 tvg-id="colatv-d3bdb805a25b-1" tvg-name="[06:30 02/08] Inter Miami CF vs Columbus Crew [BLV 247Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/976fe1d29c112f4baeb844cdda2f04cb.png!w80",[06:30 02/08] Inter Miami CF vs Columbus Crew [BLV 247Đang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/90865415.m3u8
-#EXTINF:-1 tvg-id="colatv-46d3573b6e36-1" tvg-name="[06:30 02/08] Racing Club de Avellaneda vs Club Atletico Tigre [BLV FANTAĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/cb3c7e99e401d3ff83eeb36c53996d79.png!w80",[06:30 02/08] Racing Club de Avellaneda vs Club Atletico Tigre [BLV FANTAĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-a59f6bbca28a-1" tvg-name="[06:30 02/08] Racing Club de Avellaneda vs Club Atletico Tigre [BLV FANTAĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/cb3c7e99e401d3ff83eeb36c53996d79.png!w80",[06:30 02/08] Racing Club de Avellaneda vs Club Atletico Tigre [BLV FANTAĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/16226575.m3u8
-#EXTINF:-1 tvg-id="colatv-2071c3bd63ba-1" tvg-name="[06:30 02/08] Vancouver Whitecaps vs Los Angeles FC [BLV CozyĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/527dcdb6260004a2c8f61fae9345f133.png!w80",[06:30 02/08] Vancouver Whitecaps vs Los Angeles FC [BLV CozyĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-b3a17e4bc50f-1" tvg-name="[06:40 02/08] Dc United vs Nashville [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2d846f3eea3e2d5067b26de498f83d94.png!w80",[06:40 02/08] Dc United vs Nashville [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/78905744.m3u8
+#EXTINF:-1 tvg-id="colatv-5af83402245a-1" tvg-name="[06:40 02/08] Vancouver Whitecaps vs Los Angeles FC [BLV CozyĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/527dcdb6260004a2c8f61fae9345f133.png!w80",[06:40 02/08] Vancouver Whitecaps vs Los Angeles FC [BLV CozyĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/87379114.m3u8
-#EXTINF:-1 tvg-id="colatv-8f35af3a4dde-1" tvg-name="[07:00 02/08] Santos Fc - SP vs Remo - PA [BLV PEPSIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/0840bace9b911b3f0dbadb710ea20316.png!w80",[07:00 02/08] Santos Fc - SP vs Remo - PA [BLV PEPSIĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-d2df6996d153-1" tvg-name="[07:00 02/08] Santos Fc - SP vs Remo - PA [BLV PEPSIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/0840bace9b911b3f0dbadb710ea20316.png!w80",[07:00 02/08] Santos Fc - SP vs Remo - PA [BLV PEPSIĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/59444581.m3u8
+#EXTINF:-1 tvg-id="colatv-f9c683f774bc-1" tvg-name="[07:10 02/08] Inter Miami CF vs Columbus Crew [BLV COCAĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/976fe1d29c112f4baeb844cdda2f04cb.png!w80",[07:10 02/08] Inter Miami CF vs Columbus Crew [BLV COCAĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/24561735.m3u8
+#EXTINF:-1 tvg-id="colatv-9a8c4801e70d-1" tvg-name="[07:10 02/08] Inter Miami CF vs Columbus Crew [BLV 247Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/976fe1d29c112f4baeb844cdda2f04cb.png!w80",[07:10 02/08] Inter Miami CF vs Columbus Crew [BLV 247Đang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/90865415.m3u8
 #EXTINF:-1 tvg-id="colatv-042ba8071329-1" tvg-name="[07:30 02/08] Chicago Fire vs Charlotte FC [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/929fe1b737e458218cbe8ce00a55a05c.png!w80",[07:30 02/08] Chicago Fire vs Charlotte FC [BLV MOUNTAIN DEWĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
