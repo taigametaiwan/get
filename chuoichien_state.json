@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-04T04:01:40.426827+07:00",
+  "updated_at": "2026-08-04T04:31:40.263918+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -699,13 +699,12 @@
       "url": "https://live04.chuoichientv.me/live/1493045/sarmiento-junin-vs-independ-rivadavia",
       "match_name": "Sarmiento Junin vs Independ. Rivadavia - VĐQG Argentina",
       "kickoff_iso": "2026-08-04T02:45:00+07:00",
-      "minutes_to_kickoff": -76,
-      "last_scan_at": "2026-08-04T04:01:40.426724+07:00",
-      "next_scan_at": "2026-08-04T04:06:40.426724+07:00",
+      "minutes_to_kickoff": -106,
+      "last_scan_at": "2026-08-04T04:31:40.263838+07:00",
+      "next_scan_at": "2026-08-04T04:36:40.263838+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
         "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
@@ -714,10 +713,10 @@
       "url": "https://live04.chuoichientv.me/live/1603307/atlante-w-vs-necaxa-w",
       "match_name": "Atlante W vs Necaxa W - VĐQG Nữ Mexico",
       "kickoff_iso": "2026-08-04T04:45:00+07:00",
-      "minutes_to_kickoff": 44,
-      "last_scan_at": "2026-08-04T04:01:40.426724+07:00",
-      "next_scan_at": "2026-08-04T04:11:40.426724+07:00",
-      "has_stream": false,
+      "minutes_to_kickoff": 14,
+      "last_scan_at": "2026-08-04T04:31:40.263838+07:00",
+      "next_scan_at": "2026-08-04T04:36:40.263838+07:00",
+      "has_stream": true,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
@@ -726,9 +725,9 @@
       "url": "https://live04.chuoichientv.me/live/1493046/velez-sarsfield-vs-independiente",
       "match_name": "Velez Sarsfield vs Independiente - VĐQG Argentina",
       "kickoff_iso": "2026-08-04T05:00:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-08-04T04:01:40.426724+07:00",
-      "next_scan_at": "2026-08-04T04:21:40.426724+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-04T04:31:40.263838+07:00",
+      "next_scan_at": "2026-08-04T04:41:40.263838+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -737,14 +736,14 @@
     "1546843": {
       "url": "https://live04.chuoichientv.me/live/1546843/atletico-paranaense-vs-vitoria",
       "match_name": "atletico paranaense vs vitoria",
-      "kickoff_iso": "2026-08-04T07:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-04T04:01:40.426724+07:00",
-      "next_scan_at": "2026-08-04T04:46:40.426724+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-04T04:31:40.263838+07:00",
+      "next_scan_at": "2026-08-04T04:41:40.263838+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1548985": {
       "url": "https://live04.chuoichientv.me/live/1548985/odense-vs-sonderjyske",
@@ -763,8 +762,8 @@
       "match_name": "santos laguna w vs amrica w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T04:01:40.426724+07:00",
-      "next_scan_at": "2026-08-04T04:11:40.426724+07:00",
+      "last_scan_at": "2026-08-04T04:31:40.263838+07:00",
+      "next_scan_at": "2026-08-04T04:41:40.263838+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
