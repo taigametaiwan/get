@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "gavang",
-  "updated_at": "2026-08-03T22:03:43.428931+07:00",
+  "updated_at": "2026-08-03T22:31:42.872812+07:00",
   "matches": {
     "2474": {
       "url": "https://smorf.io/s8-live/2474/tot-mkdons-intcf/?s8_live_fixture_id=2474&s8_live_stream_key=tot-mkdons-intcf&s8_auto_sound=1",
@@ -3406,38 +3406,36 @@
       "match_name": "Ind VS Vie",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T22:03:43.425236+07:00",
-      "next_scan_at": "2026-08-03T22:08:43.425236+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://hls.lauthaitv.cc/live/ind-vie-asean-buata/index.m3u8"
-      ],
-      "scan_decision": "derived-flv-fast-path"
+      "last_scan_at": "2026-08-03T22:31:42.872555+07:00",
+      "next_scan_at": "2026-08-03T22:41:42.872555+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "derived-probe-only-miss"
     },
     "2748": {
       "url": "https://radio-capital.io/s8-live/2748/djur-vast-sweall/?s8_live_fixture_id=2748&s8_live_stream_key=djur-vast-sweall&s8_auto_sound=1",
       "match_name": "Djur VS Vast",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T22:03:43.425236+07:00",
-      "next_scan_at": "2026-08-03T22:13:43.425236+07:00",
+      "last_scan_at": "2026-08-03T22:31:42.872555+07:00",
+      "next_scan_at": "2026-08-03T22:41:42.872555+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "derived-probe-only-miss"
     },
     "2747": {
       "url": "https://radio-capital.io/s8-live/2747/oden-sonder-densup/?s8_live_fixture_id=2747&s8_live_stream_key=oden-sonder-densup&s8_auto_sound=1",
       "match_name": "Oden VS Sonder",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T22:03:43.425236+07:00",
-      "next_scan_at": "2026-08-03T22:13:43.425236+07:00",
+      "last_scan_at": "2026-08-03T22:31:42.872555+07:00",
+      "next_scan_at": "2026-08-03T22:41:42.872555+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "derived-probe-only-miss"
     },
     "2738": {
       "url": "https://radio-capital.io/s8-live/2738/hcm-hn-vielw/?s8_live_fixture_id=2738&s8_live_stream_key=hcm-hn-vielw&s8_auto_sound=1",
@@ -3482,8 +3480,8 @@
       "match_name": "Kokand VS Ternez",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T22:03:43.425236+07:00",
-      "next_scan_at": "2026-08-03T22:08:43.425236+07:00",
+      "last_scan_at": "2026-08-03T22:31:42.872555+07:00",
+      "next_scan_at": "2026-08-03T22:36:42.872555+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -3493,11 +3491,11 @@
     },
     "2743": {
       "url": "https://radio-capital.io/s8-live/2743/shakhtar-kudrivka-ukrprem/?s8_live_fixture_id=2743&s8_live_stream_key=shakhtar-kudrivka-ukrprem&s8_auto_sound=1",
-      "match_name": "Shakhtar VS Kudrivka",
+      "match_name": "UKR Premier League - Shakhtar Donestk VS Kudrivka",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T22:03:43.425236+07:00",
-      "next_scan_at": "2026-08-03T22:08:43.425236+07:00",
+      "last_scan_at": "2026-08-03T22:31:42.872555+07:00",
+      "next_scan_at": "2026-08-03T22:36:42.872555+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -3510,92 +3508,98 @@
       "match_name": "Ucluj VS Botosani",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T22:03:43.425236+07:00",
-      "next_scan_at": "2026-08-03T22:13:43.425236+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "last_scan_at": "2026-08-03T22:31:42.872555+07:00",
+      "next_scan_at": "2026-08-03T22:36:42.872555+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.lauthaitv.cc/live/ucluj-botosani/index.m3u8"
+      ],
+      "scan_decision": "derived-flv-fast-path"
     },
     "2745": {
       "url": "https://radio-capital.io/s8-live/2745/dinamo-neftchi-uzbsup/?s8_live_fixture_id=2745&s8_live_stream_key=dinamo-neftchi-uzbsup&s8_auto_sound=1",
       "match_name": "Dinamo VS Neftchi",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T22:03:43.425236+07:00",
-      "next_scan_at": "2026-08-03T22:13:43.425236+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "last_scan_at": "2026-08-03T22:31:42.872555+07:00",
+      "next_scan_at": "2026-08-03T22:36:42.872555+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.lauthaitv.cc/live/dinamo-neftchi-uzbsup/index.m3u8"
+      ],
+      "scan_decision": "derived-flv-fast-path"
     },
     "2746": {
       "url": "https://radio-capital.io/s8-live/2746/sjk-hjk-finveik/?s8_live_fixture_id=2746&s8_live_stream_key=sjk-hjk-finveik&s8_auto_sound=1",
-      "match_name": "FIN Veikkausliiga SJK Seinajoen VS HJK Helsinki",
+      "match_name": "Sjk VS Hjk",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T22:03:43.425236+07:00",
-      "next_scan_at": "2026-08-03T22:13:43.425236+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "last_scan_at": "2026-08-03T22:31:42.872555+07:00",
+      "next_scan_at": "2026-08-03T22:36:42.872555+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.lauthaitv.cc/live/sjk-hjk-finveik/index.m3u8"
+      ],
+      "scan_decision": "derived-flv-fast-path"
     },
     "2749": {
       "url": "https://radio-capital.io/s8-live/2749/varna-plovdiv-bul1st/?s8_live_fixture_id=2749&s8_live_stream_key=varna-plovdiv-bul1st&s8_auto_sound=1",
       "match_name": "Varna VS Plovdiv",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T22:03:43.425236+07:00",
-      "next_scan_at": "2026-08-03T22:13:43.425236+07:00",
+      "last_scan_at": "2026-08-03T22:31:42.872555+07:00",
+      "next_scan_at": "2026-08-03T22:41:42.872555+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "derived-probe-only-miss"
     },
     "2750": {
       "url": "https://radio-capital.io/s8-live/2750/junin-rivadavia-argdiv1/?s8_live_fixture_id=2750&s8_live_stream_key=junin-rivadavia-argdiv1&s8_auto_sound=1",
       "match_name": "Junin VS Rivadavia",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T22:03:43.425236+07:00",
-      "next_scan_at": "2026-08-03T22:13:43.425236+07:00",
+      "last_scan_at": "2026-08-03T22:31:42.872555+07:00",
+      "next_scan_at": "2026-08-03T22:41:42.872555+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "derived-probe-only-miss"
     },
     "2751": {
       "url": "https://radio-capital.io/s8-live/2751/platense-cordoba-argdiv1/?s8_live_fixture_id=2751&s8_live_stream_key=platense-cordoba-argdiv1&s8_auto_sound=1",
       "match_name": "Platense VS Cordoba",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T22:03:43.425236+07:00",
-      "next_scan_at": "2026-08-03T22:13:43.425236+07:00",
+      "last_scan_at": "2026-08-03T22:31:42.872555+07:00",
+      "next_scan_at": "2026-08-03T22:41:42.872555+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "derived-probe-only-miss"
     },
     "2752": {
       "url": "https://radio-capital.io/s8-live/2752/atpara-vitoria-copabra/?s8_live_fixture_id=2752&s8_live_stream_key=atpara-vitoria-copabra&s8_auto_sound=1",
       "match_name": "Atpara VS Vitoria",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T22:03:43.425236+07:00",
-      "next_scan_at": "2026-08-03T22:13:43.425236+07:00",
+      "last_scan_at": "2026-08-03T22:31:42.872555+07:00",
+      "next_scan_at": "2026-08-03T22:41:42.872555+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "derived-probe-only-miss"
     },
     "2753": {
       "url": "https://radio-capital.io/s8-live/2753/huracan-tucuman-argdiv1/?s8_live_fixture_id=2753&s8_live_stream_key=huracan-tucuman-argdiv1&s8_auto_sound=1",
       "match_name": "Huracan VS Tucuman",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T22:03:43.425236+07:00",
-      "next_scan_at": "2026-08-03T22:13:43.425236+07:00",
+      "last_scan_at": "2026-08-03T22:31:42.872555+07:00",
+      "next_scan_at": "2026-08-03T22:41:42.872555+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
