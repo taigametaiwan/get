@@ -1,60 +1,27 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-1550920-1" tvg-name="[08:00 03/08] Toluca vs Necaxa - VĐQG Mexico [BLV A Ngáo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/20250921_010707_d23dff4c.png",[08:00 03/08] Toluca vs Necaxa - VĐQG Mexico [BLV A Ngáo] [FHD FLV]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://gckc0525.edgemaxcdn.org/live/angao.flv
-#EXTINF:-1 tvg-id="chuoichien-1550920-2" tvg-name="[08:00 03/08] Toluca vs Necaxa - VĐQG Mexico [BLV A Ngáo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/20250921_010707_d23dff4c.png",[08:00 03/08] Toluca vs Necaxa - VĐQG Mexico [BLV A Ngáo] (Luồng 2) [M3U8]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8
-#EXTINF:-1 tvg-id="gavang-2737-1" tvg-name="[08:00 03/08] MEX Liga MX - Toluca VS Necaxa [BLV NGƯỜI CÁO]" group-title="Gà Vàng" tvg-logo="https://media.chuoichientv.net/media/20250921_010707_d23dff4c.png",[08:00 03/08] MEX Liga MX - Toluca VS Necaxa [BLV NGƯỜI CÁO] [M3U8]
-#EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2737/toluca-necaxa-mexliga/?s8_live_fixture_id=2737&s8_live_stream_key=toluca-necaxa-mexliga&s8_auto_sound=1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2737/toluca-necaxa-mexliga/?s8_live_fixture_id=2737&s8_live_stream_key=toluca-necaxa-mexliga&s8_auto_sound=1","Origin":"https://radio-capital.io"}
-https://hls.lauthaitv.cc/live/toluca-necaxa-mexliga/index.m3u8
-#EXTINF:-1 tvg-id="gavang-2728-1" tvg-name="Cska VS Dunav [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-content/uploads/2026/04/logo-gavangtv.png",Cska VS Dunav [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]
+#EXTINF:-1 tvg-id="gavang-2728-1" tvg-name="Cska VS Dunav [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]" group-title="Gà Vàng" tvg-logo="https://profecta.io/wp-content/uploads/2026/04/logo-gavangtv.png",Cska VS Dunav [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]
 #EXTVLCOPT:http-referrer=https://profecta.io/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://profecta.io/","Origin":"https://profecta.io"}
 https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8
-#EXTINF:-1 tvg-id="xoilac-ep-nu-denver-summit-vs-nu-boston-legacy-luc-0800-ngay-03-08-2026-s0-4" tvg-name="[08:00 03/08/2026] Nu Denver Summit vs Nu Boston Legacy [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4hz6pnq0j6/image/small",[08:00 03/08/2026] Nu Denver Summit vs Nu Boston Legacy [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="gavang-2737-1" tvg-name="[CHƯA CÓ GIỜ 03/08] MEX Liga MX - Toluca VS Necaxa [BLV NGƯỜI CÁO]" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-content/uploads/2026/04/logo-gavangtv.png",[CHƯA CÓ GIỜ 03/08] MEX Liga MX - Toluca VS Necaxa [BLV NGƯỜI CÁO] [M3U8]
+#EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2737/toluca-necaxa-mexliga/?s8_live_fixture_id=2737&s8_live_stream_key=toluca-necaxa-mexliga&s8_auto_sound=1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel12.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-toluca-vs-necaxa-luc-0805-ngay-03-08-2026-s1-2" tvg-name="[08:05 03/08/2026] Toluca vs Necaxa [BLV HD ROY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66h9p6qo9j/image/small",[08:05 03/08/2026] Toluca vs Necaxa [BLV HD ROY] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel1.flv
-#EXTINF:-1 tvg-id="xoilac-ep-huehuetecos-fc-vs-deportivo-gomerano-luc-0800-ngay-03-08-2026-s0-3" tvg-name="[08:00 03/08/2026] Huehuetecos Fc vs Deportivo Gomerano [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh1peymoep/image/small",[08:00 03/08/2026] Huehuetecos Fc vs Deportivo Gomerano [FLV]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2737/toluca-necaxa-mexliga/?s8_live_fixture_id=2737&s8_live_stream_key=toluca-necaxa-mexliga&s8_auto_sound=1","Origin":"https://radio-capital.io"}
+https://hls.lauthaitv.cc/live/toluca-necaxa-mexliga/index.m3u8
+#EXTINF:-1 tvg-id="xoilac-c-tiep-sj-earthquakes-r-vs-austin-fc-ii-luc-0930-ngay-03-08-2026-s1-2" tvg-name="[09:30 03/08/2026] Sj Earthquakes R vs Austin Fc Ii [BLV HD ASTRA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zhz307ql07/image/small",[09:30 03/08/2026] Sj Earthquakes R vs Austin Fc Ii [BLV HD ASTRA] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel11.flv
-#EXTINF:-1 tvg-id="xoilac-ersity-vs-university-of-the-philippines-luc-1030-ngay-03-08-2026-s1-5" tvg-name="[10:30 03/08/2026] Hakuhou University vs University Of The Philippines [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/zp5rzktjn01r82w/image/small",[10:30 03/08/2026] Hakuhou University vs University Of The Philippines [BLV HD TOMMY] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel29/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="xoilac-ersity-vs-university-of-the-philippines-luc-1030-ngay-03-08-2026-s1-1" tvg-name="[10:30 03/08/2026] Hakuhou University vs University Of The Philippines [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/zp5rzktjn01r82w/image/small",[10:30 03/08/2026] Hakuhou University vs University Of The Philippines [BLV HD TOMMY] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel29/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785726154-0-0-cb2867c029c31ad344751fee1b534841
-#EXTINF:-1 tvg-id="colatv-c750116e642a-1" tvg-name="[08:10 03/08] Toluca vs Necaxa [BLV GIÀ LÀNGĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/725ccd5793be6b4f8dd917170dd17d04.png!w80",[08:10 03/08] Toluca vs Necaxa [BLV GIÀ LÀNGĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/14830711.m3u8
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel29.flv
