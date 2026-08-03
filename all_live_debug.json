@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-03T11:03:38.180265+07:00",
+  "generated_at": "2026-08-03T11:33:16.246045+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -146,22 +146,22 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
       "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
       "kept": true,
       "reason": "HTTP 206; m3u8=True",
       "source": "gavang"
     },
     {
-      "url": "https://hls.lauthaitv.cc/live/toluca-necaxa-mexliga/index.m3u8",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785729676-0-0-2e94bf500d7419c8ff7f5268c249eb30",
       "kept": false,
-      "reason": "HTTP 404",
-      "source": "gavang"
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
     },
     {
       "url": "https://live2.streambylivepulse.com/live/channel11.flv",
@@ -194,7 +194,7 @@
       "source_label": "Gà Vàng",
       "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
       "match_key": "cska vs dunav|",
-      "display_name": "Cska VS Dunav [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
+      "display_name": "Cska VS Dunav [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
       "group": "Gà Vàng",
       "sport_group": "Gà Vàng",
       "quality": "SD",
@@ -229,7 +229,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 206; m3u8=True",
-      "prior_generated_at": "2026-08-03T10:33:43.756720+07:00"
+      "prior_generated_at": "2026-08-03T11:03:38.180265+07:00"
     },
     {
       "source": "xoilac",
@@ -255,7 +255,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-03T09:30:00+07:00",
-      "minutes_to_kickoff": -93.64,
+      "minutes_to_kickoff": -123.27,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -300,7 +300,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-03T10:30:00+07:00",
-      "minutes_to_kickoff": -33.64,
+      "minutes_to_kickoff": -63.27,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -324,7 +324,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785729676-0-0-2e94bf500d7419c8ff7f5268c249eb30",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785731488-0-0-d166a789ab8bfecf9c872b6c0022eb3b",
       "match_key": "bulacan kuyas vs mindoro tamaraws|hd tommy",
       "display_name": "[14:00 03/08/2026] Bulacan Kuyas vs Mindoro Tamaraws [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -345,7 +345,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-03T14:00:00+07:00",
-      "minutes_to_kickoff": 176.36,
+      "minutes_to_kickoff": 146.73,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -355,7 +355,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785729676-0-0-2e94bf500d7419c8ff7f5268c249eb30",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785731488-0-0-d166a789ab8bfecf9c872b6c0022eb3b",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/6ypq3kt0o52md7o/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/4wyrn1teek8q86p/image/small",
       "blv": null,
@@ -394,7 +394,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785729676-0-0-2e94bf500d7419c8ff7f5268c249eb30",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785731488-0-0-d166a789ab8bfecf9c872b6c0022eb3b",
       "display_name": "[14:00 03/08/2026] Bulacan Kuyas vs Mindoro Tamaraws [BLV HD TOMMY] [FLV]",
       "match_key": "bulacan kuyas vs mindoro tamaraws|hd tommy",
       "quality": "HD",
