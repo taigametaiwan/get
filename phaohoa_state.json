@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-03T17:18:51.849631+07:00",
+  "updated_at": "2026-08-03T17:33:47.547818+07:00",
   "matches": {
     "761671": {
       "url": "https://phaohoa1.live/truc-tiep/manchester-city-vs-inter-01-08-2026-761671",
@@ -367,15 +367,51 @@
       "url": "https://phaohoa1.live/truc-tiep/cambodia-vs-timor-leste-03-08-2026-791566",
       "match_name": "Cambodia vs Timor Leste",
       "kickoff_iso": "2026-08-03T17:30:00+07:00",
-      "minutes_to_kickoff": 12,
-      "last_scan_at": "2026-08-03T17:18:51.849565+07:00",
-      "next_scan_at": "2026-08-03T17:23:51.849565+07:00",
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-08-03T17:33:47.547576+07:00",
+      "next_scan_at": "2026-08-03T17:38:47.547576+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "791567": {
+      "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-vietnam-03-08-2026-791567",
+      "match_name": "03-08 ASEAN Championship Indonesia VS Việt Nam Dế Lửa",
+      "kickoff_iso": "2026-08-03T20:30:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-03T17:33:47.547576+07:00",
+      "next_scan_at": "2026-08-03T18:18:47.547576+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "115212": {
+      "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-viet-nam-02-08-2026-115212",
+      "match_name": "03-08 ASEAN Championship Indonesia VS Việt Nam Ken",
+      "kickoff_iso": "2026-08-03T20:30:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-03T17:33:47.547576+07:00",
+      "next_scan_at": "2026-08-03T18:18:47.547576+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "115213": {
+      "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-viet-nam-02-08-2026-115213",
+      "match_name": "03-08 ASEAN Championship Indonesia VS Việt Nam Kevin",
+      "kickoff_iso": "2026-08-03T20:30:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-03T17:33:47.547576+07:00",
+      "next_scan_at": "2026-08-03T18:18:47.547576+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
