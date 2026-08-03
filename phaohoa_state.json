@@ -1,36 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-04T00:35:07.478384+07:00",
+  "updated_at": "2026-08-04T01:05:02.391322+07:00",
   "matches": {
-    "770290": {
-      "url": "https://phaohoa1.live/truc-tiep/girona-vs-arsenal-02-08-2026-770290",
-      "match_name": "Girona vs Arsenal",
-      "kickoff_iso": "2026-08-02T01:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-02T02:33:28.471622+07:00",
-      "next_scan_at": "2026-08-02T02:38:28.471622+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "785303": {
-      "url": "https://phaohoa1.live/truc-tiep/betis-vs-almeria-02-08-2026-785303",
-      "match_name": "Real Betis vs Almeria",
-      "kickoff_iso": "2026-08-02T01:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-02T02:33:28.471622+07:00",
-      "next_scan_at": "2026-08-02T02:38:28.471622+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "c5539b6aba0c": {
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-slovenia",
       "match_name": "Nhật Bản vs Slovenia",
@@ -339,9 +311,9 @@
       "url": "https://phaohoa1.live/truc-tiep/djurgarden-vs-vasteras-sk-04-08-2026-715563",
       "match_name": "Djurgarden vs Vasteras SK",
       "kickoff_iso": "2026-08-04T00:00:00+07:00",
-      "minutes_to_kickoff": -34,
-      "last_scan_at": "2026-08-04T00:35:07.478250+07:00",
-      "next_scan_at": "2026-08-04T00:40:07.478250+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-08-04T01:05:02.391121+07:00",
+      "next_scan_at": "2026-08-04T01:10:02.391121+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -353,9 +325,9 @@
       "url": "https://phaohoa1.live/truc-tiep/halmstad-vs-sirius-04-08-2026-715568",
       "match_name": "Halmstad vs Sirius",
       "kickoff_iso": "2026-08-04T00:00:00+07:00",
-      "minutes_to_kickoff": -34,
-      "last_scan_at": "2026-08-04T00:35:07.478250+07:00",
-      "next_scan_at": "2026-08-04T00:40:07.478250+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-08-04T01:05:02.391121+07:00",
+      "next_scan_at": "2026-08-04T01:10:02.391121+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -367,9 +339,9 @@
       "url": "https://phaohoa1.live/truc-tiep/odense-vs-sonderjyske-04-08-2026-779568",
       "match_name": "Odense vs Sonderjyske",
       "kickoff_iso": "2026-08-04T00:00:00+07:00",
-      "minutes_to_kickoff": -35,
-      "last_scan_at": "2026-08-04T00:35:07.478250+07:00",
-      "next_scan_at": "2026-08-04T00:40:07.478250+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-08-04T01:05:02.391121+07:00",
+      "next_scan_at": "2026-08-04T01:10:02.391121+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -379,14 +351,16 @@
     },
     "803075": {
       "url": "https://phaohoa1.live/truc-tiep/celtic-vs-dundee-fc-04-08-2026-803075",
-      "match_name": "04-08 Premiership Celtic VS Dundee FC Pháo Thủ",
+      "match_name": "Celtic vs Dundee FC",
       "kickoff_iso": "2026-08-04T01:30:00+07:00",
-      "minutes_to_kickoff": 55,
-      "last_scan_at": "2026-08-04T00:35:07.478250+07:00",
-      "next_scan_at": "2026-08-04T00:55:07.478250+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 25,
+      "last_scan_at": "2026-08-04T01:05:02.391121+07:00",
+      "next_scan_at": "2026-08-04T01:10:02.391121+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
