@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-03T12:03:11.350053+07:00",
+  "generated_at": "2026-08-03T12:33:47.766593+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -79,13 +79,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 84,
-      "playlist_blocks": 3,
+      "playlist_blocks": 2,
       "catalog_placeholders": 0,
       "metadata_references": 84,
       "included": true,
-      "fresh_stream_blocks": 3,
-      "fresh_verified_blocks": 3,
-      "fresh_selected": 3,
+      "fresh_stream_blocks": 2,
+      "fresh_verified_blocks": 2,
+      "fresh_selected": 2,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -118,11 +118,11 @@
       "label": "Pháo Hoa TV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 0,
-      "playlist_blocks": 0,
+      "debug_rows": 9,
+      "playlist_blocks": 9,
       "catalog_placeholders": 0,
-      "metadata_references": 0,
-      "included": false,
+      "metadata_references": 8,
+      "included": true,
       "fresh_stream_blocks": 0,
       "fresh_verified_blocks": 0,
       "fresh_selected": 0,
@@ -134,24 +134,21 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 4,
-  "metadata_reference_count": 84,
+  "input_candidates": 12,
+  "metadata_reference_count": 92,
   "last_good_recovered_count": 1,
-  "last_good_suppressed_by_fresh_count": 1,
+  "last_good_suppressed_by_fresh_count": 0,
   "last_good_audit": [
     {
-      "url": "https://live2.streambylivepulse.com/live/channel11.flv",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785733284-0-0-812544edaaafa2d89d45bce7b1f99c2e",
       "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-03T09:30:00+07:00",
-      "minutes_to_kickoff": -153.19,
-      "filtered_before_probe": true
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785733322-0-0-c634d52ace8c79171cde0d0f9f17c8d8",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
       "source": "xoilac"
     },
     {
@@ -161,20 +158,14 @@
       "source": "gavang"
     },
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785731488-0-0-d166a789ab8bfecf9c872b6c0022eb3b",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
       "url": "https://live2.streambylivepulse.com/live/channel29.flv",
       "kept": false,
-      "reason": "fresh-source-replaces-last-good",
+      "reason": "TimeoutError: The read operation timed out",
       "source": "xoilac"
     }
   ],
-  "selected_count": 4,
-  "dropped_count": 0,
+  "selected_count": 3,
+  "dropped_count": 9,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 1,
@@ -191,7 +182,7 @@
       "source_label": "Gà Vàng",
       "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
       "match_key": "cska vs dunav|",
-      "display_name": "Cska VS Dunav [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
+      "display_name": "Cska VS Dunav [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
       "group": "Gà Vàng",
       "sport_group": "Gà Vàng",
       "quality": "SD",
@@ -226,57 +217,12 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 206; m3u8=True",
-      "prior_generated_at": "2026-08-03T11:33:16.246045+07:00"
+      "prior_generated_at": "2026-08-03T12:03:11.350053+07:00"
     },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
-      "match_key": "hakuhou university vs university of the philippines|hd tommy",
-      "display_name": "[10:30 03/08/2026] Hakuhou University vs University Of The Philippines [BLV HD TOMMY] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "Asian University Basketball League",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 456,
-      "kickoff_iso": "2026-08-03T10:30:00+07:00",
-      "minutes_to_kickoff": -93.19,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/basketball/team/zp5rzktjn01r82w/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live2.streambylivepulse.com/live/channel29.flv",
-      "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/zp5rzktjn01r82w/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/6ypq3ktz60gmd7o/image/small",
-      "blv": null,
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785733284-0-0-812544edaaafa2d89d45bce7b1f99c2e",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785735100-0-0-b1cdafddc199520a650f39c9f88ed95d",
       "match_key": "bulacan kuyas vs mindoro tamaraws|hd tommy",
       "display_name": "[14:00 03/08/2026] Bulacan Kuyas vs Mindoro Tamaraws [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -297,7 +243,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-03T14:00:00+07:00",
-      "minutes_to_kickoff": 116.81,
+      "minutes_to_kickoff": 86.2,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -307,7 +253,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785733284-0-0-812544edaaafa2d89d45bce7b1f99c2e",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785735100-0-0-b1cdafddc199520a650f39c9f88ed95d",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/6ypq3kt0o52md7o/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/4wyrn1teek8q86p/image/small",
       "blv": null,
@@ -321,7 +267,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785733322-0-0-c634d52ace8c79171cde0d0f9f17c8d8",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785735131-0-0-4ae1c9e4b8b4fd0bf181d1a173b4938d",
       "match_key": "gen g esports vs hanwha life esports|hd marty",
       "display_name": "[15:00 03/08/2026] Gen G Esports vs Hanwha Life Esports [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -342,7 +288,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-03T15:00:00+07:00",
-      "minutes_to_kickoff": 176.81,
+      "minutes_to_kickoff": 146.2,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -352,7 +298,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785733322-0-0-c634d52ace8c79171cde0d0f9f17c8d8",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785735131-0-0-4ae1c9e4b8b4fd0bf181d1a173b4938d",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/k82repjtvpxzqep/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/965mk6zt7d5jq1g/image/small",
       "blv": null,
@@ -367,19 +313,7 @@
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
-      "display_name": "[10:30 03/08/2026] Hakuhou University vs University Of The Philippines [BLV HD TOMMY] [FLV]",
-      "match_key": "hakuhou university vs university of the philippines|hd tommy",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785733284-0-0-812544edaaafa2d89d45bce7b1f99c2e",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785735100-0-0-b1cdafddc199520a650f39c9f88ed95d",
       "display_name": "[14:00 03/08/2026] Bulacan Kuyas vs Mindoro Tamaraws [BLV HD TOMMY] [FLV]",
       "match_key": "bulacan kuyas vs mindoro tamaraws|hd tommy",
       "quality": "HD",
@@ -391,7 +325,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785733322-0-0-c634d52ace8c79171cde0d0f9f17c8d8",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785735131-0-0-4ae1c9e4b8b4fd0bf181d1a173b4938d",
       "display_name": "[15:00 03/08/2026] Gen G Esports vs Hanwha Life Esports [BLV HD MARTY] [FLV]",
       "match_key": "gen g esports vs hanwha life esports|hd marty",
       "quality": "HD",
@@ -403,6 +337,52 @@
     }
   ],
   "fresh_preservation_ok": true,
-  "dropped": [],
+  "dropped": [
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791566.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791567.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/115212.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/115213.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/736660.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/718664.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/715563.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/715568.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/779568.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    }
+  ],
   "outputs_written": true
 }
