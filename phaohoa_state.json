@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-03T18:33:30.177270+07:00",
+  "updated_at": "2026-08-03T19:04:25.465211+07:00",
   "matches": {
-    "9c1940409eed": {
-      "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-indonesia",
-      "match_name": "Việt Nam vs Indonesia",
-      "kickoff_iso": "2026-08-01T19:00:00+07:00",
-      "minutes_to_kickoff": -65,
-      "last_scan_at": "2026-08-01T20:06:06.381185+07:00",
-      "next_scan_at": "2026-08-01T20:11:06.381185+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "758915": {
       "url": "https://phaohoa1.live/truc-tiep/manchester-utd-vs-atl-madrid-01-08-2026-758915",
       "match_name": "Manchester United vs Atl. Madrid",
@@ -339,9 +325,9 @@
       "url": "https://phaohoa1.live/truc-tiep/cambodia-vs-timor-leste-03-08-2026-791566",
       "match_name": "Cambodia vs Timor Leste",
       "kickoff_iso": "2026-08-03T17:30:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-03T18:33:30.177068+07:00",
-      "next_scan_at": "2026-08-03T18:38:30.177068+07:00",
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-08-03T19:04:25.465056+07:00",
+      "next_scan_at": "2026-08-03T19:09:25.465056+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -353,33 +339,45 @@
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-vietnam-03-08-2026-791567",
       "match_name": "03-08 ASEAN Championship Indonesia VS Việt Nam Dế Lửa",
       "kickoff_iso": "2026-08-03T20:30:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-08-03T18:33:30.177068+07:00",
-      "next_scan_at": "2026-08-03T18:53:30.177068+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-03T19:04:25.465056+07:00",
+      "next_scan_at": "2026-08-03T19:24:25.465056+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "115212": {
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-viet-nam-02-08-2026-115212",
       "match_name": "03-08 ASEAN Championship Indonesia VS Việt Nam Ken",
       "kickoff_iso": "2026-08-03T20:30:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-08-03T18:33:30.177068+07:00",
-      "next_scan_at": "2026-08-03T18:53:30.177068+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-03T19:04:25.465056+07:00",
+      "next_scan_at": "2026-08-03T19:24:25.465056+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "115213": {
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-viet-nam-02-08-2026-115213",
       "match_name": "03-08 ASEAN Championship Indonesia VS Việt Nam Kevin",
       "kickoff_iso": "2026-08-03T20:30:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-08-03T18:33:30.177068+07:00",
-      "next_scan_at": "2026-08-03T18:53:30.177068+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-03T19:04:25.465056+07:00",
+      "next_scan_at": "2026-08-03T19:24:25.465056+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "736660": {
+      "url": "https://phaohoa1.live/truc-tiep/okmk-vs-nasaf-qarshi-03-08-2026-736660",
+      "match_name": "03-08 Super League OKMK VS Nasaf Qarshi Văn Minh",
+      "kickoff_iso": "2026-08-03T22:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-08-03T19:04:25.465056+07:00",
+      "next_scan_at": "2026-08-03T19:49:25.465056+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
