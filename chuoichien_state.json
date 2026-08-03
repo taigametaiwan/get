@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-03T16:02:10.306837+07:00",
+  "updated_at": "2026-08-03T17:17:06.887738+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -303,34 +303,6 @@
       "verified_urls": [
         "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
         "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1502105": {
-      "url": "https://live04.chuoichientv.me/live/1502105/chelsea-vs-tottenham",
-      "match_name": "Chelsea vs Tottenham - Giao Hữu Câu Lạc Bộ",
-      "kickoff_iso": "2026-08-01T16:45:00+07:00",
-      "minutes_to_kickoff": -46,
-      "last_scan_at": "2026-08-01T17:32:08.906917+07:00",
-      "next_scan_at": "2026-08-01T17:37:08.906917+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1548096": {
-      "url": "https://live04.chuoichientv.me/live/1548096/laos-vs-philippines",
-      "match_name": "Laos vs Philippines - AFF Championship",
-      "kickoff_iso": "2026-08-01T17:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-01T19:02:08.814637+07:00",
-      "next_scan_at": "2026-08-01T19:07:08.814637+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -757,13 +729,14 @@
       "url": "https://live04.chuoichientv.me/live/993893/h-ch-minh-city-w-vs-h-ni-n",
       "match_name": "Hồ Chí Minh City W vs Hà Nội Nữ - VĐQG Nữ Việt Nam",
       "kickoff_iso": "2026-08-03T16:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-03T16:02:10.306661+07:00",
-      "next_scan_at": "2026-08-03T16:07:10.306661+07:00",
+      "minutes_to_kickoff": -77,
+      "last_scan_at": "2026-08-03T17:17:06.887535+07:00",
+      "next_scan_at": "2026-08-03T17:22:06.887535+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -771,33 +744,36 @@
       "url": "https://live04.chuoichientv.me/live/1567783/cambodia-vs-timor-leste",
       "match_name": "Cambodia vs Timor-Leste - AFF Championship",
       "kickoff_iso": "2026-08-03T17:30:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-03T16:02:10.306661+07:00",
-      "next_scan_at": "2026-08-03T16:22:10.306661+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 13,
+      "last_scan_at": "2026-08-03T17:17:06.887535+07:00",
+      "next_scan_at": "2026-08-03T17:22:06.887535+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoida.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoida/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1565433": {
       "url": "https://live04.chuoichientv.me/live/1565433/bukovyna-vs-lnz-cherkasy",
       "match_name": "bukovyna vs lnz cherkasy",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T16:02:10.306661+07:00",
-      "next_scan_at": "2026-08-03T16:12:10.306661+07:00",
+      "kickoff_iso": "2026-08-03T19:30:00+07:00",
+      "minutes_to_kickoff": 134,
+      "last_scan_at": "2026-08-03T17:17:06.887535+07:00",
+      "next_scan_at": "2026-08-03T18:02:06.887535+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1548097": {
       "url": "https://live04.chuoichientv.me/live/1548097/indonesia-vs-vit-nam",
       "match_name": "indonesia vs vit nam",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T16:02:10.306661+07:00",
-      "next_scan_at": "2026-08-03T16:12:10.306661+07:00",
+      "last_scan_at": "2026-08-03T17:17:06.887535+07:00",
+      "next_scan_at": "2026-08-03T17:27:06.887535+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -808,8 +784,8 @@
       "match_name": "al hilal saudi fc vs al ahli doha",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T16:02:10.306661+07:00",
-      "next_scan_at": "2026-08-03T16:12:10.306661+07:00",
+      "last_scan_at": "2026-08-03T17:17:06.887535+07:00",
+      "next_scan_at": "2026-08-03T17:27:06.887535+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -820,8 +796,8 @@
       "match_name": "sjk vs hjk helsinki",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T16:02:10.306661+07:00",
-      "next_scan_at": "2026-08-03T16:12:10.306661+07:00",
+      "last_scan_at": "2026-08-03T17:17:06.887535+07:00",
+      "next_scan_at": "2026-08-03T17:27:06.887535+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -832,8 +808,8 @@
       "match_name": "veles vs rotor volgograd",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T16:02:10.306661+07:00",
-      "next_scan_at": "2026-08-03T16:12:10.306661+07:00",
+      "last_scan_at": "2026-08-03T17:17:06.887535+07:00",
+      "next_scan_at": "2026-08-03T17:27:06.887535+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -844,8 +820,8 @@
       "match_name": "ranheim vs haugesund",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T16:02:10.306661+07:00",
-      "next_scan_at": "2026-08-03T16:12:10.306661+07:00",
+      "last_scan_at": "2026-08-03T17:17:06.887535+07:00",
+      "next_scan_at": "2026-08-03T17:27:06.887535+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -856,8 +832,8 @@
       "match_name": "york vs crawley town",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-03T16:02:10.306661+07:00",
-      "next_scan_at": "2026-08-03T16:12:10.306661+07:00",
+      "last_scan_at": "2026-08-03T17:17:06.887535+07:00",
+      "next_scan_at": "2026-08-03T17:27:06.887535+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
