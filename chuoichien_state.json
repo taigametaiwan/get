@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-04T05:01:39.142068+07:00",
+  "updated_at": "2026-08-04T05:31:35.023390+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -725,9 +725,9 @@
       "url": "https://live04.chuoichientv.me/live/1493046/velez-sarsfield-vs-independiente",
       "match_name": "Velez Sarsfield vs Independiente - VĐQG Argentina",
       "kickoff_iso": "2026-08-04T05:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-04T05:01:39.141971+07:00",
-      "next_scan_at": "2026-08-04T05:06:39.141971+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-04T05:31:35.023266+07:00",
+      "next_scan_at": "2026-08-04T05:36:35.023266+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -738,15 +738,15 @@
     },
     "1546843": {
       "url": "https://live04.chuoichientv.me/live/1546843/atletico-paranaense-vs-vitoria",
-      "match_name": "atletico paranaense vs vitoria",
+      "match_name": "Atletico Paranaense vs Vitoria - Cúp Brazil",
       "kickoff_iso": "2026-08-04T07:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-04T05:01:39.141971+07:00",
-      "next_scan_at": "2026-08-04T05:21:39.141971+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-08-04T05:31:35.023266+07:00",
+      "next_scan_at": "2026-08-04T05:51:35.023266+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1548985": {
       "url": "https://live04.chuoichientv.me/live/1548985/odense-vs-sonderjyske",
@@ -763,22 +763,22 @@
     "1603308": {
       "url": "https://live04.chuoichientv.me/live/1603308/santos-laguna-w-vs-amrica-w",
       "match_name": "santos laguna w vs amrica w",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T05:01:39.141971+07:00",
-      "next_scan_at": "2026-08-04T05:11:39.141971+07:00",
+      "kickoff_iso": "2026-08-04T08:06:00+07:00",
+      "minutes_to_kickoff": 155,
+      "last_scan_at": "2026-08-04T05:31:35.023266+07:00",
+      "next_scan_at": "2026-08-04T06:16:35.023266+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1493042": {
       "url": "https://live04.chuoichientv.me/live/1493042/platense-vs-talleres-cordoba",
       "match_name": "Platense vs Talleres Cordoba - VĐQG Argentina",
       "kickoff_iso": "2026-08-04T05:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-04T05:01:39.141971+07:00",
-      "next_scan_at": "2026-08-04T05:06:39.141971+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-04T05:31:35.023266+07:00",
+      "next_scan_at": "2026-08-04T05:36:35.023266+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
