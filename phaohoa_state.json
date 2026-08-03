@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-03T20:03:35.576261+07:00",
+  "updated_at": "2026-08-03T20:35:00.305351+07:00",
   "matches": {
     "718662": {
       "url": "https://phaohoa1.live/truc-tiep/lahti-vs-jaro-01-08-2026-718662",
@@ -311,9 +311,9 @@
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-vietnam-03-08-2026-791567",
       "match_name": "Indonesia vs Việt Nam",
       "kickoff_iso": "2026-08-03T20:30:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-03T20:03:35.576141+07:00",
-      "next_scan_at": "2026-08-03T20:08:35.576141+07:00",
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-08-03T20:35:00.305107+07:00",
+      "next_scan_at": "2026-08-03T20:40:00.305107+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -323,39 +323,43 @@
     },
     "115212": {
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-viet-nam-02-08-2026-115212",
-      "match_name": "03-08 ASEAN Championship Indonesia VS Việt Nam Ken",
+      "match_name": "Indonesia vs Việt Nam",
       "kickoff_iso": "2026-08-03T20:30:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-03T20:03:35.576141+07:00",
-      "next_scan_at": "2026-08-03T20:13:35.576141+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-08-03T20:35:00.305107+07:00",
+      "next_scan_at": "2026-08-03T20:40:00.305107+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     },
     "115213": {
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-viet-nam-02-08-2026-115213",
       "match_name": "Indonesia vs Việt Nam",
       "kickoff_iso": "2026-08-03T20:30:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-03T20:03:35.576141+07:00",
-      "next_scan_at": "2026-08-03T20:13:35.576141+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-08-03T20:35:00.305107+07:00",
+      "next_scan_at": "2026-08-03T20:40:00.305107+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
       "scan_decision": "browser-fallback"
     },
     "736660": {
       "url": "https://phaohoa1.live/truc-tiep/okmk-vs-nasaf-qarshi-03-08-2026-736660",
       "match_name": "03-08 Super League OKMK VS Nasaf Qarshi Văn Minh",
       "kickoff_iso": "2026-08-03T22:00:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-08-03T20:03:35.576141+07:00",
-      "next_scan_at": "2026-08-03T20:23:35.576141+07:00",
+      "minutes_to_kickoff": 85,
+      "last_scan_at": "2026-08-03T20:35:00.305107+07:00",
+      "next_scan_at": "2026-08-03T20:55:00.305107+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "718664": {
       "url": "https://phaohoa1.live/truc-tiep/sjk-vs-hjk-03-08-2026-718664",
