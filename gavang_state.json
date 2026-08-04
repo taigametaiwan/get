@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "gavang",
-  "updated_at": "2026-08-04T21:03:14.329873+07:00",
+  "updated_at": "2026-08-04T23:04:13.744167+07:00",
   "matches": {
     "2474": {
       "url": "https://smorf.io/s8-live/2474/tot-mkdons-intcf/?s8_live_fixture_id=2474&s8_live_stream_key=tot-mkdons-intcf&s8_auto_sound=1",
@@ -3666,14 +3666,12 @@
       "match_name": "Respu VS Gaza",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:08:14.329218+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://hls.lauthaitv.cc/live/respu-gaza-uzbpro/index.m3u8"
-      ],
-      "scan_decision": "derived-flv-fast-path"
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:14:13.743858+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
     },
     "2761": {
       "url": "https://radio-capital.io/s8-live/2761/akron-rostov-ruscup/?s8_live_fixture_id=2761&s8_live_stream_key=akron-rostov-ruscup&s8_auto_sound=1",
@@ -3694,70 +3692,76 @@
       "match_name": "UEFA Women's Champions League - Breidablik (w) VS Aktobe (w)",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:08:14.329218+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://hls.lauthaitv.cc/live/breida-aktobe-c1w/index.m3u8"
-      ],
-      "scan_decision": "derived-flv-fast-path"
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:14:13.743858+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
     },
     "2760": {
       "url": "https://radio-capital.io/s8-live/2760/makhach-sovetov-ruscup/?s8_live_fixture_id=2760&s8_live_stream_key=makhach-sovetov-ruscup&s8_auto_sound=1",
       "match_name": "Makhach VS Sovetov",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:13:14.329218+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:09:13.743858+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.lauthaitv.cc/live/makhach-sovetov-ruscup/index.m3u8"
+      ],
+      "scan_decision": "derived-flv-fast-path"
     },
     "2763": {
       "url": "https://radio-capital.io/s8-live/2763/ararat-cellje-c1qual/?s8_live_fixture_id=2763&s8_live_stream_key=ararat-cellje-c1qual&s8_auto_sound=1",
       "match_name": "Ararat VS Cellje",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:13:14.329218+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:09:13.743858+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.lauthaitv.cc/live/ararat-cellje-c1qual/index.m3u8"
+      ],
+      "scan_decision": "derived-flv-fast-path"
     },
     "2762": {
       "url": "https://radio-capital.io/s8-live/2762/mjallby-slovan-c1qual/?s8_live_fixture_id=2762&s8_live_stream_key=mjallby-slovan-c1qual&s8_auto_sound=1",
       "match_name": "UEFA Champions League (qual) - Mjallby AIF VS Slovan Bratislava",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:13:14.329218+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:09:13.743858+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.lauthaitv.cc/live/mjallby-slovan-c1qual/index.m3u8"
+      ],
+      "scan_decision": "derived-flv-fast-path"
     },
     "2764": {
       "url": "https://radio-capital.io/s8-live/2764/audariga-dinamocity-c3qual/?s8_live_fixture_id=2764&s8_live_stream_key=audariga-dinamocity-c3qual&s8_auto_sound=1",
       "match_name": "Audariga VS Dinamocity",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:13:14.329218+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:09:13.743858+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.lauthaitv.cc/live/audariga-dinamocity-c3qual/index.m3u8"
+      ],
+      "scan_decision": "derived-flv-fast-path"
     },
     "2766": {
       "url": "https://radio-capital.io/s8-live/2766/hapoel-crvena-c1qual/?s8_live_fixture_id=2766&s8_live_stream_key=hapoel-crvena-c1qual&s8_auto_sound=1",
-      "match_name": "Hapoel VS Crvena",
+      "match_name": "UEFA Champions League (qual) - Hapoel Beer Sheva VS Crvena Zvezda",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:13:14.329218+07:00",
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:14:13.743858+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -3768,8 +3772,8 @@
       "match_name": "Levski VS Kairat",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:13:14.329218+07:00",
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:14:13.743858+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -3777,11 +3781,11 @@
     },
     "2767": {
       "url": "https://radio-capital.io/s8-live/2767/union-bodo-c1qual/?s8_live_fixture_id=2767&s8_live_stream_key=union-bodo-c1qual&s8_auto_sound=1",
-      "match_name": "UEFA Champions League (qual) - Union Saint-Gilloise VS Bodo Glimt",
+      "match_name": "Union VS Bodø/Glimt",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:13:14.329218+07:00",
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:14:13.743858+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -3789,47 +3793,47 @@
     },
     "2768": {
       "url": "https://radio-capital.io/s8-live/2768/sparta-lyon-c1qual/?s8_live_fixture_id=2768&s8_live_stream_key=sparta-lyon-c1qual&s8_auto_sound=1",
-      "match_name": "Sparta VS Lyon",
+      "match_name": "UEFA Champions League (qual) - AC Sparta Praha VS Lyon",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:13:14.329218+07:00",
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:14:13.743858+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "derived-probe-only-miss"
+      "scan_decision": "browser-fallback"
     },
     "2770": {
       "url": "https://radio-capital.io/s8-live/2770/larne-iberia-c2qual/?s8_live_fixture_id=2770&s8_live_stream_key=larne-iberia-c2qual&s8_auto_sound=1",
       "match_name": "Larne VS Iberia",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:13:14.329218+07:00",
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:14:13.743858+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "derived-probe-only-miss"
+      "scan_decision": "browser-fallback"
     },
     "2769": {
       "url": "https://radio-capital.io/s8-live/2769/shamrock-egnatia-c2qual/?s8_live_fixture_id=2769&s8_live_stream_key=shamrock-egnatia-c2qual&s8_auto_sound=1",
       "match_name": "Shamrock VS Egnatia",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:13:14.329218+07:00",
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:14:13.743858+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "derived-probe-only-miss"
+      "scan_decision": "browser-fallback"
     },
     "2771": {
       "url": "https://radio-capital.io/s8-live/2771/llaneros-fortaleza-cate/?s8_live_fixture_id=2771&s8_live_stream_key=llaneros-fortaleza-cate&s8_auto_sound=1",
       "match_name": "Llaneros VS Fortaleza",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:13:14.329218+07:00",
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:14:13.743858+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -3840,8 +3844,8 @@
       "match_name": "FC Cincinnati VS Pachuca",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:13:14.329218+07:00",
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:14:13.743858+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -3852,8 +3856,8 @@
       "match_name": "Tigres VS Realsalt",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T21:03:14.329218+07:00",
-      "next_scan_at": "2026-08-04T21:13:14.329218+07:00",
+      "last_scan_at": "2026-08-04T23:04:13.743858+07:00",
+      "next_scan_at": "2026-08-04T23:14:13.743858+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
