@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-04T19:04:19.283313+07:00",
+  "updated_at": "2026-08-04T19:34:20.927862+07:00",
   "matches": {
     "781994": {
       "url": "https://phaohoa1.live/truc-tiep/sigma-olomouc-vs-mlada-boleslav-02-08-2026-781994",
@@ -287,9 +287,9 @@
       "url": "https://phaohoa1.live/truc-tiep/jeju-sk-vs-bayern-munich-04-08-2026-759675",
       "match_name": "Jeju SK vs Bayern Munich",
       "kickoff_iso": "2026-08-04T18:00:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-08-04T19:04:19.283205+07:00",
-      "next_scan_at": "2026-08-04T19:09:19.283205+07:00",
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-08-04T19:34:20.927718+07:00",
+      "next_scan_at": "2026-08-04T19:39:20.927718+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -299,15 +299,29 @@
     },
     "791569": {
       "url": "https://phaohoa1.live/truc-tiep/philippines-vs-thailand-04-08-2026-791569",
-      "match_name": "04-08 ASEAN Championship Philippines VS Thái Lan Dế Lửa",
+      "match_name": "Philippines vs Thái Lan",
       "kickoff_iso": "2026-08-04T20:00:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-08-04T19:04:19.283205+07:00",
-      "next_scan_at": "2026-08-04T19:24:19.283205+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-04T19:34:20.927718+07:00",
+      "next_scan_at": "2026-08-04T19:39:20.927718+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "785727": {
+      "url": "https://phaohoa1.live/truc-tiep/rodina-moscow-vs-rubin-kazan-04-08-2026-785727",
+      "match_name": "04-08 Cup Rodina Moscow VS Rubin Kazan Pháo Thủ",
+      "kickoff_iso": "2026-08-04T22:30:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-08-04T19:34:20.927718+07:00",
+      "next_scan_at": "2026-08-04T20:19:20.927718+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
