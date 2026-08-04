@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-04T19:34:20.927862+07:00",
+  "updated_at": "2026-08-04T20:04:42.293233+07:00",
   "matches": {
-    "781994": {
-      "url": "https://phaohoa1.live/truc-tiep/sigma-olomouc-vs-mlada-boleslav-02-08-2026-781994",
-      "match_name": "Sigma Olomouc vs Mlada Boleslav",
-      "kickoff_iso": "2026-08-02T20:00:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-08-02T21:35:07.431165+07:00",
-      "next_scan_at": "2026-08-02T21:40:07.431165+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "715561": {
       "url": "https://phaohoa1.live/truc-tiep/aik-vs-orgryte-02-08-2026-715561",
       "match_name": "Aik vs Orgryte",
@@ -301,9 +287,9 @@
       "url": "https://phaohoa1.live/truc-tiep/philippines-vs-thailand-04-08-2026-791569",
       "match_name": "Philippines vs Thái Lan",
       "kickoff_iso": "2026-08-04T20:00:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-08-04T19:34:20.927718+07:00",
-      "next_scan_at": "2026-08-04T19:39:20.927718+07:00",
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-08-04T20:04:42.293093+07:00",
+      "next_scan_at": "2026-08-04T20:09:42.293093+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -318,6 +304,30 @@
       "minutes_to_kickoff": 176,
       "last_scan_at": "2026-08-04T19:34:20.927718+07:00",
       "next_scan_at": "2026-08-04T20:19:20.927718+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "828323": {
+      "url": "https://phaohoa1.live/truc-tiep/ararat-armenia-vs-celje-05-08-2026-828323",
+      "match_name": "04-08 UEFA Champions League Ararat-Armenia VS Celje Văn Minh",
+      "kickoff_iso": "2026-08-04T23:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-08-04T20:04:42.293093+07:00",
+      "next_scan_at": "2026-08-04T20:49:42.293093+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "829365": {
+      "url": "https://phaohoa1.live/truc-tiep/mjallby-vs-slovan-bratislava-05-08-2026-829365",
+      "match_name": "04-08 UEFA Champions League Mjallby VS Slovan Bratislava Kevin",
+      "kickoff_iso": "2026-08-04T23:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-08-04T20:04:42.293093+07:00",
+      "next_scan_at": "2026-08-04T20:49:42.293093+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
