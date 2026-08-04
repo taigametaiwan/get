@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-04T09:34:43.731080+07:00",
+  "generated_at": "2026-08-04T10:04:46.545634+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -18,14 +18,14 @@
       "label": "Chuối Chiên",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 9,
-      "playlist_blocks": 1,
+      "debug_rows": 0,
+      "playlist_blocks": 0,
       "catalog_placeholders": 0,
-      "metadata_references": 9,
-      "included": true,
-      "fresh_stream_blocks": 1,
-      "fresh_verified_blocks": 1,
-      "fresh_selected": 1,
+      "metadata_references": 0,
+      "included": false,
+      "fresh_stream_blocks": 0,
+      "fresh_verified_blocks": 0,
+      "fresh_selected": 0,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -79,13 +79,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 73,
-      "playlist_blocks": 5,
+      "playlist_blocks": 6,
       "catalog_placeholders": 0,
       "metadata_references": 73,
       "included": true,
-      "fresh_stream_blocks": 5,
-      "fresh_verified_blocks": 5,
-      "fresh_selected": 5,
+      "fresh_stream_blocks": 6,
+      "fresh_verified_blocks": 6,
+      "fresh_selected": 6,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -98,10 +98,10 @@
       "label": "ColaTV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 107,
+      "debug_rows": 108,
       "playlist_blocks": 3,
       "catalog_placeholders": 0,
-      "metadata_references": 99,
+      "metadata_references": 100,
       "included": true,
       "fresh_stream_blocks": 3,
       "fresh_verified_blocks": 3,
@@ -135,37 +135,10 @@
     }
   ],
   "input_candidates": 20,
-  "metadata_reference_count": 190,
+  "metadata_reference_count": 182,
   "last_good_recovered_count": 2,
-  "last_good_suppressed_by_fresh_count": 8,
+  "last_good_suppressed_by_fresh_count": 6,
   "last_good_audit": [
-    {
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "chuoichien",
-      "kickoff_iso": "2026-08-04T07:00:00+07:00",
-      "minutes_to_kickoff": -154.73,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel24.flv",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-04T07:00:00+07:00",
-      "minutes_to_kickoff": -154.73,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-04T07:00:00+07:00",
-      "minutes_to_kickoff": -154.73,
-      "filtered_before_probe": true
-    },
     {
       "url": "https://media.monitorhub.dev/media/hls/9b3eb51eaf154cf1bd333f60ea69dafc/media-2/stream.m3u8",
       "kept": true,
@@ -173,19 +146,7 @@
       "source": "gavang"
     },
     {
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "chuoichien"
-    },
-    {
-      "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
-      "kept": true,
-      "reason": "HTTP 206; m3u8=True",
-      "source": "gavang"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel21.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -197,13 +158,13 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel21.flv",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785809062-0-0-d93202f27d48b1d0f57129de32b26f21",
+      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785810846-0-0-15cda9bbf95c19889e66ae5e0368944d",
       "kept": false,
       "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
       "source": "xoilac"
@@ -215,34 +176,10 @@
       "source": "xoilac"
     },
     {
-      "url": "https://hls.lauthaitv.cc/live/huracan-tucuman-argdiv1/index.m3u8",
-      "kept": false,
-      "reason": "HTTP 404",
-      "source": "gavang"
-    },
-    {
-      "url": "https://hls.lauthaitv.cc/live/atpara-vitoria-copabra/index.m3u8",
-      "kept": false,
-      "reason": "HTTP 404",
-      "source": "gavang"
-    },
-    {
-      "url": "https://live05.meung.app/live/82054853.m3u8",
+      "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
       "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/07808742.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel9.flv",
-      "kept": false,
-      "reason": "HTTP 404",
-      "source": "xoilac"
+      "reason": "HTTP 206; m3u8=True",
+      "source": "gavang"
     },
     {
       "url": "https://live05.meung.app/live/14830711.m3u8",
@@ -251,37 +188,25 @@
       "source": "colatv"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel18.flv",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/78905744.m3u8",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/08552895.m3u8",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/95826384.m3u8",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
+      "url": "https://live05.meung.app/live/82054853.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
     },
     {
       "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
       "kept": false,
-      "reason": "fresh-source-replaces-last-good",
+      "reason": "TimeoutError: The read operation timed out",
       "source": "chuoichien"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel21.flv",
+      "url": "https://live05.meung.app/live/07808742.m3u8",
+      "kept": false,
+      "reason": "TimeoutError: The read operation timed out",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
@@ -293,7 +218,7 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel21.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
@@ -305,19 +230,13 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live05.meung.app/live/82054853.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/07808742.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
-    },
-    {
       "url": "https://live05.meung.app/live/14830711.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/82054853.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
@@ -337,51 +256,11 @@
   },
   "channels": [
     {
-      "source": "chuoichien",
-      "source_label": "Chuối Chiên",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
-      "match_key": "bucaramanga vs cucuta|chuoi tay",
-      "display_name": "[08:00 04/08] Bucaramanga vs Cucuta - VĐQG Colombia [BLV Chuối Tây] [FHD FLV]",
-      "group": "Chuối Chiên",
-      "sport_group": "Bóng đá",
-      "quality": "FHD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": null,
-      "classification_reason": null,
-      "has_secret": false,
-      "expiry": null,
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 466,
-      "kickoff_iso": "2026-08-04T08:00:00+07:00",
-      "minutes_to_kickoff": -94.73,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://media.chuoichientv.net/media/uploads/20250623_133533_2eb7128c.png",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
-      "home_logo": null,
-      "away_logo": null,
-      "blv": "Chuối Tây",
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
-    {
       "source": "gavang",
       "source_label": "Gà Vàng",
       "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
       "match_key": "platense vs cordoba|",
-      "display_name": "Platense VS Cordoba [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
+      "display_name": "Platense VS Cordoba [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
       "group": "Gà Vàng",
       "sport_group": "Gà Vàng",
       "quality": "SD",
@@ -416,14 +295,14 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 206; m3u8=True",
-      "prior_generated_at": "2026-08-04T09:04:57.740767+07:00"
+      "prior_generated_at": "2026-08-04T09:34:43.731080+07:00"
     },
     {
       "source": "gavang",
       "source_label": "Gà Vàng",
       "url": "https://media.monitorhub.dev/media/hls/9b3eb51eaf154cf1bd333f60ea69dafc/media-2/stream.m3u8",
       "match_key": "rus cup dynamo makhachkala vs krylya sovetov|nguoi phao",
-      "display_name": "[CHƯA CÓ GIỜ 04/08] RUS Cup - Dynamo Makhachkala VS Krylya Sovetov [BLV NGƯỜI PHÁO] [M3U8] [M3U8] [M3U8] [M3U8] [M3U8] [M3U8] [M3U8] [M3U8] [M3U8]",
+      "display_name": "[CHƯA CÓ GIỜ 04/08] RUS Cup - Dynamo Makhachkala VS Krylya Sovetov [BLV NGƯỜI PHÁO] [M3U8] [M3U8] [M3U8] [M3U8] [M3U8] [M3U8] [M3U8] [M3U8] [M3U8] [M3U8]",
       "group": "Gà Vàng",
       "sport_group": "Gà Vàng",
       "quality": "UNKNOWN",
@@ -456,7 +335,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 206; m3u8=True",
-      "prior_generated_at": "2026-08-04T09:04:57.740767+07:00"
+      "prior_generated_at": "2026-08-04T09:34:43.731080+07:00"
     },
     {
       "source": "xoilac",
@@ -482,7 +361,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-04T08:00:00+07:00",
-      "minutes_to_kickoff": -94.73,
+      "minutes_to_kickoff": -124.78,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -527,7 +406,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-04T08:00:00+07:00",
-      "minutes_to_kickoff": -94.73,
+      "minutes_to_kickoff": -124.78,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -572,7 +451,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-04T08:06:00+07:00",
-      "minutes_to_kickoff": -88.73,
+      "minutes_to_kickoff": -118.78,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -617,7 +496,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-04T09:00:00+07:00",
-      "minutes_to_kickoff": -34.73,
+      "minutes_to_kickoff": -64.78,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -641,7 +520,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785810846-0-0-15cda9bbf95c19889e66ae5e0368944d",
+      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785812632-0-0-43bf78b655187402f84a173f4d03dbe0",
       "match_key": "university of the philippines vs korea university|hd step",
       "display_name": "[10:30 04/08/2026] University Of The Philippines vs Korea University [BLV HD STEP] [FLV]",
       "group": "Xôi Lạc",
@@ -662,7 +541,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-04T10:30:00+07:00",
-      "minutes_to_kickoff": 55.27,
+      "minutes_to_kickoff": 25.22,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -672,9 +551,54 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785810846-0-0-15cda9bbf95c19889e66ae5e0368944d",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785812632-0-0-43bf78b655187402f84a173f4d03dbe0",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/6ypq3ktz60gmd7o/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/6ypq3kt5nodmd7o/image/small",
+      "blv": null,
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
+    },
+    {
+      "source": "xoilac",
+      "source_label": "Xôi Lạc",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785812682-0-0-56c46aea5d3712f994d4791a61cdf64e",
+      "match_key": "t1 vs hanwha life esports|hd marty",
+      "display_name": "[13:00 04/08/2026] T1 vs Hanwha Life Esports [BLV HD MARTY] [FLV]",
+      "group": "Xôi Lạc",
+      "sport_group": "KeSPA Cup 2026",
+      "quality": "HD",
+      "kind": "flv",
+      "playability": "verified",
+      "classification": "verified_unsigned",
+      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
+      "has_secret": false,
+      "expiry": {
+        "timestamp": null,
+        "utc": "",
+        "vietnam": "",
+        "seconds_left": null
+      },
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 456,
+      "kickoff_iso": "2026-08-04T13:00:00+07:00",
+      "minutes_to_kickoff": 175.22,
+      "metadata_audit": null,
+      "metadata_enriched_from": null,
+      "metadata_warning": null,
+      "stream_key_tokens": null,
+      "logo": "https://imgts.sportpulseapiz.com/lol/team/4jwq2eku42pkq0v/image/small",
+      "logo_source": null,
+      "logo_enriched_from": null,
+      "logo_is_fallback": null,
+      "entry_mode": "stream",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785812682-0-0-56c46aea5d3712f994d4791a61cdf64e",
+      "home_logo": "https://imgts.sportpulseapiz.com/lol/team/4jwq2eku42pkq0v/image/small",
+      "away_logo": "https://imgts.sportpulseapiz.com/lol/team/965mk6zt7d5jq1g/image/small",
       "blv": null,
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
@@ -687,8 +611,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/07808742.m3u8",
-      "match_key": "bucaramanga vs cucuta|lich thi au cuoc vsbet tai app ta",
-      "display_name": "[08:00 04/08] Bucaramanga vs Cucuta [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "bucaramanga vs cucuta|lich thi au cuoc vsbet tai app ho tr",
+      "display_name": "[08:00 04/08] Atletico Bucaramanga vs Cucuta Deportivo [BLV SAMURAIĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -702,7 +626,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-04T08:00:00+07:00",
-      "minutes_to_kickoff": -94.73,
+      "minutes_to_kickoff": -124.78,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -715,7 +639,7 @@
       "page_url": "https://live05.meung.app/live/07808742.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
+      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -727,8 +651,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/82054853.m3u8",
-      "match_key": "chicago sky vs phoenix mercury|rockstar ang xem",
-      "display_name": "[08:00 04/08] Chicago Sky vs Phoenix Mercury [BLV ROCKSTARĐang xem] [M3U8]",
+      "match_key": "chicago sky vs phoenix mercury|lich thi au cuoc vsbet nhan km ho tro k",
+      "display_name": "[08:00 04/08] Chicago Sky vs Phoenix Mercury [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng rổ",
       "quality": "UNKNOWN",
@@ -742,7 +666,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-04T08:00:00+07:00",
-      "minutes_to_kickoff": -94.73,
+      "minutes_to_kickoff": -124.78,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -755,7 +679,7 @@
       "page_url": "https://live05.meung.app/live/82054853.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "ROCKSTARĐang xem",
+      "blv": "Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -782,7 +706,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-04T09:00:00+07:00",
-      "minutes_to_kickoff": -34.73,
+      "minutes_to_kickoff": -64.78,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -806,46 +730,10 @@
   ],
   "fresh_input_decisions": [
     {
-      "source": "chuoichien",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
-      "display_name": "[08:00 04/08] Bucaramanga vs Cucuta - VĐQG Colombia [BLV Chuối Tây] [FHD FLV]",
-      "match_key": "bucaramanga vs cucuta|chuoi tay",
-      "quality": "FHD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
-      "display_name": "[09:00 04/08/2026] Municipal Perez Zeledon vs Cartagines Deportiva [BLV HD TOM] [FLV]",
-      "match_key": "municipal perez zeledon vs cartagines deportiva|hd tom",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
       "source": "xoilac",
       "url": "https://live2.streambylivepulse.com/live/channel12.flv",
       "display_name": "[08:06 04/08/2026] Nu Santos Laguna vs Nu Club America [BLV HD JOHAN] [FLV]",
       "match_key": "nu santos laguna vs nu club america|hd johan",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel21.flv",
-      "display_name": "[08:00 04/08/2026] Atl Bucaramanga vs Cucuta Deportivo [BLV HD RAVEN] [FLV]",
-      "match_key": "atl bucaramanga vs cucuta deportivo|hd raven",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -867,7 +755,31 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785810846-0-0-15cda9bbf95c19889e66ae5e0368944d",
+      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
+      "display_name": "[09:00 04/08/2026] Municipal Perez Zeledon vs Cartagines Deportiva [BLV HD TOM] [FLV]",
+      "match_key": "municipal perez zeledon vs cartagines deportiva|hd tom",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel21.flv",
+      "display_name": "[08:00 04/08/2026] Atl Bucaramanga vs Cucuta Deportivo [BLV HD RAVEN] [FLV]",
+      "match_key": "atl bucaramanga vs cucuta deportivo|hd raven",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785812632-0-0-43bf78b655187402f84a173f4d03dbe0",
       "display_name": "[10:30 04/08/2026] University Of The Philippines vs Korea University [BLV HD STEP] [FLV]",
       "match_key": "university of the philippines vs korea university|hd step",
       "quality": "HD",
@@ -878,10 +790,22 @@
       "reason": "selected"
     },
     {
+      "source": "xoilac",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785812682-0-0-56c46aea5d3712f994d4791a61cdf64e",
+      "display_name": "[13:00 04/08/2026] T1 vs Hanwha Life Esports [BLV HD MARTY] [FLV]",
+      "match_key": "t1 vs hanwha life esports|hd marty",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
       "source": "colatv",
       "url": "https://live05.meung.app/live/07808742.m3u8",
-      "display_name": "[08:00 04/08] Bucaramanga vs Cucuta [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
-      "match_key": "bucaramanga vs cucuta|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[08:00 04/08] Atletico Bucaramanga vs Cucuta Deportivo [BLV SAMURAIĐang xem] [M3U8]",
+      "match_key": "bucaramanga vs cucuta|lich thi au cuoc vsbet tai app ho tr",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -904,8 +828,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/82054853.m3u8",
-      "display_name": "[08:00 04/08] Chicago Sky vs Phoenix Mercury [BLV ROCKSTARĐang xem] [M3U8]",
-      "match_key": "chicago sky vs phoenix mercury|rockstar ang xem",
+      "display_name": "[08:00 04/08] Chicago Sky vs Phoenix Mercury [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
+      "match_key": "chicago sky vs phoenix mercury|lich thi au cuoc vsbet nhan km ho tro k",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -947,17 +871,17 @@
       "source": "phaohoa"
     },
     {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/829362.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
       "url": "http://127.0.0.1:9/__phaohoa_metadata__/829364.m3u8",
       "reason": "not-verified-or-not-upcoming",
       "source": "phaohoa"
     },
     {
       "url": "http://127.0.0.1:9/__phaohoa_metadata__/829344.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/785363.m3u8",
       "reason": "not-verified-or-not-upcoming",
       "source": "phaohoa"
     }
