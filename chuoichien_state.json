@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-04T09:31:32.794414+07:00",
+  "updated_at": "2026-08-04T12:31:08.407160+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -332,20 +332,6 @@
       ],
       "scan_decision": "browser-fallback"
     },
-    "1521997": {
-      "url": "https://live04.chuoichientv.me/live/1521997/south-melbourne-vs-st-albans-saints",
-      "match_name": "South Melbourne vs St. Albans Saints - Victoria NPL",
-      "kickoff_iso": "2026-08-02T12:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-02T14:01:39.155451+07:00",
-      "next_scan_at": "2026-08-02T14:06:39.155451+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "997036": {
       "url": "https://live04.chuoichientv.me/live/997036/japan-vs-slovenia",
       "match_name": "Japan vs Slovenia - Nations League",
@@ -407,20 +393,6 @@
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
-    "995464": {
-      "url": "https://live04.chuoichientv.me/live/995464/nguyn-thy-linh-vs-tanvi-sharma",
-      "match_name": "Nguyễn Thùy Linh vs Tanvi Sharma - Đài Loan mở rộng - Chung kết",
-      "kickoff_iso": "2026-08-02T11:00:00+07:00",
-      "minutes_to_kickoff": -39,
-      "last_scan_at": "2026-08-02T11:39:19.796079+07:00",
-      "next_scan_at": "2026-08-02T11:44:19.796079+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/camry.flv"
-      ],
       "scan_decision": "browser-fallback"
     },
     "993103": {
@@ -793,8 +765,8 @@
       "match_name": "myanmar vs laos",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T09:31:32.794305+07:00",
-      "next_scan_at": "2026-08-04T09:41:32.794305+07:00",
+      "last_scan_at": "2026-08-04T12:31:08.407065+07:00",
+      "next_scan_at": "2026-08-04T12:41:08.407065+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -805,8 +777,8 @@
       "match_name": "jeju united fc vs bayern mnchen",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T09:31:32.794305+07:00",
-      "next_scan_at": "2026-08-04T09:41:32.794305+07:00",
+      "last_scan_at": "2026-08-04T12:31:08.407065+07:00",
+      "next_scan_at": "2026-08-04T12:41:08.407065+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -815,22 +787,22 @@
     "1610531": {
       "url": "https://live04.chuoichientv.me/live/1610531/persib-bandung-vs-persija",
       "match_name": "persib bandung vs persija",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T09:31:32.794305+07:00",
-      "next_scan_at": "2026-08-04T09:41:32.794305+07:00",
+      "kickoff_iso": "2026-08-04T15:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-04T12:31:08.407065+07:00",
+      "next_scan_at": "2026-08-04T13:16:08.407065+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1610530": {
       "url": "https://live04.chuoichientv.me/live/1610530/persebaya-surabaya-vs-arema-fc",
       "match_name": "persebaya surabaya vs arema fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T09:31:32.794305+07:00",
-      "next_scan_at": "2026-08-04T09:41:32.794305+07:00",
+      "last_scan_at": "2026-08-04T12:31:08.407065+07:00",
+      "next_scan_at": "2026-08-04T12:41:08.407065+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -841,8 +813,8 @@
       "match_name": "pathum united vs aston villa",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T09:31:32.794305+07:00",
-      "next_scan_at": "2026-08-04T09:41:32.794305+07:00",
+      "last_scan_at": "2026-08-04T12:31:08.407065+07:00",
+      "next_scan_at": "2026-08-04T12:41:08.407065+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -853,8 +825,8 @@
       "match_name": "philippines vs thailand",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T09:31:32.794305+07:00",
-      "next_scan_at": "2026-08-04T09:41:32.794305+07:00",
+      "last_scan_at": "2026-08-04T12:31:08.407065+07:00",
+      "next_scan_at": "2026-08-04T12:41:08.407065+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -865,8 +837,8 @@
       "match_name": "akron vs fc rostov",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T09:31:32.794305+07:00",
-      "next_scan_at": "2026-08-04T09:41:32.794305+07:00",
+      "last_scan_at": "2026-08-04T12:31:08.407065+07:00",
+      "next_scan_at": "2026-08-04T12:41:08.407065+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -891,8 +863,20 @@
       "match_name": "rodina moskva vs rubin",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T09:31:32.794305+07:00",
-      "next_scan_at": "2026-08-04T09:41:32.794305+07:00",
+      "last_scan_at": "2026-08-04T12:31:08.407065+07:00",
+      "next_scan_at": "2026-08-04T12:41:08.407065+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1605370": {
+      "url": "https://live04.chuoichientv.me/live/1605370/ararat-armenia-vs-celje",
+      "match_name": "ararat armenia vs celje",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-04T12:31:08.407065+07:00",
+      "next_scan_at": "2026-08-04T12:41:08.407065+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
