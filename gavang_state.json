@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "gavang",
-  "updated_at": "2026-08-05T01:32:40.855162+07:00",
+  "updated_at": "2026-08-05T02:02:02.691417+07:00",
   "matches": {
     "2474": {
       "url": "https://smorf.io/s8-live/2474/tot-mkdons-intcf/?s8_live_fixture_id=2474&s8_live_stream_key=tot-mkdons-intcf&s8_auto_sound=1",
@@ -3756,8 +3756,8 @@
       "match_name": "UEFA Champions League (qual) - Hapoel Beer Sheva VS Crvena Zvezda",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-05T01:32:40.854905+07:00",
-      "next_scan_at": "2026-08-05T01:37:40.854905+07:00",
+      "last_scan_at": "2026-08-05T02:02:02.691189+07:00",
+      "next_scan_at": "2026-08-05T02:07:02.691189+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -3767,11 +3767,11 @@
     },
     "2765": {
       "url": "https://radio-capital.io/s8-live/2765/levski-kairat-c1qual/?s8_live_fixture_id=2765&s8_live_stream_key=levski-kairat-c1qual&s8_auto_sound=1",
-      "match_name": "UEFA Champions League (qual) - Levski Sofia VS FC Kairat Almaty",
+      "match_name": "Levski VS Kairat",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-05T01:32:40.854905+07:00",
-      "next_scan_at": "2026-08-05T01:37:40.854905+07:00",
+      "last_scan_at": "2026-08-05T02:02:02.691189+07:00",
+      "next_scan_at": "2026-08-05T02:07:02.691189+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -3781,11 +3781,11 @@
     },
     "2767": {
       "url": "https://radio-capital.io/s8-live/2767/union-bodo-c1qual/?s8_live_fixture_id=2767&s8_live_stream_key=union-bodo-c1qual&s8_auto_sound=1",
-      "match_name": "UEFA Champions League (qual) - Union Saint-Gilloise VS Bodo Glimt",
+      "match_name": "Union VS Bodø/Glimt",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-05T01:32:40.854905+07:00",
-      "next_scan_at": "2026-08-05T01:37:40.854905+07:00",
+      "last_scan_at": "2026-08-05T02:02:02.691189+07:00",
+      "next_scan_at": "2026-08-05T02:07:02.691189+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -3798,8 +3798,8 @@
       "match_name": "UEFA Champions League (qual) - AC Sparta Praha VS Lyon",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-05T01:32:40.854905+07:00",
-      "next_scan_at": "2026-08-05T01:37:40.854905+07:00",
+      "last_scan_at": "2026-08-05T02:02:02.691189+07:00",
+      "next_scan_at": "2026-08-05T02:07:02.691189+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -3812,20 +3812,22 @@
       "match_name": "UEFA Europa League (qual) - Larne FC VS FC Iberia 1999 Tbilisi",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-05T01:32:40.854905+07:00",
-      "next_scan_at": "2026-08-05T01:42:40.854905+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "last_scan_at": "2026-08-05T02:02:02.691189+07:00",
+      "next_scan_at": "2026-08-05T02:07:02.691189+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://hls.lauthaitv.cc/live/larne-iberia-c2qual/index.m3u8"
+      ],
+      "scan_decision": "derived-flv-fast-path"
     },
     "2769": {
       "url": "https://radio-capital.io/s8-live/2769/shamrock-egnatia-c2qual/?s8_live_fixture_id=2769&s8_live_stream_key=shamrock-egnatia-c2qual&s8_auto_sound=1",
-      "match_name": "UEFA Europa League (qual) - Shamrock Rovers VS Egnatia",
+      "match_name": "Shamrock VS Egnatia",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-05T01:32:40.854905+07:00",
-      "next_scan_at": "2026-08-05T01:37:40.854905+07:00",
+      "last_scan_at": "2026-08-05T02:02:02.691189+07:00",
+      "next_scan_at": "2026-08-05T02:07:02.691189+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -3835,11 +3837,11 @@
     },
     "2771": {
       "url": "https://radio-capital.io/s8-live/2771/llaneros-fortaleza-cate/?s8_live_fixture_id=2771&s8_live_stream_key=llaneros-fortaleza-cate&s8_auto_sound=1",
-      "match_name": "Categoria Primera A - Llaneros FC VS Fortaleza F.C",
+      "match_name": "Llaneros VS Fortaleza",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-05T01:32:40.854905+07:00",
-      "next_scan_at": "2026-08-05T01:42:40.854905+07:00",
+      "last_scan_at": "2026-08-05T02:02:02.691189+07:00",
+      "next_scan_at": "2026-08-05T02:12:02.691189+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -3847,11 +3849,11 @@
     },
     "2772": {
       "url": "https://radio-capital.io/s8-live/2772/cincinati-pachuca-league/?s8_live_fixture_id=2772&s8_live_stream_key=cincinati-pachuca-league&s8_auto_sound=1",
-      "match_name": "Leagues Cup - FC Cincinnati VS Pachuca",
+      "match_name": "FC Cincinnati VS Pachuca",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-05T01:32:40.854905+07:00",
-      "next_scan_at": "2026-08-05T01:42:40.854905+07:00",
+      "last_scan_at": "2026-08-05T02:02:02.691189+07:00",
+      "next_scan_at": "2026-08-05T02:12:02.691189+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -3859,11 +3861,11 @@
     },
     "2773": {
       "url": "https://radio-capital.io/s8-live/2773/tigres-realsalt-leagues/?s8_live_fixture_id=2773&s8_live_stream_key=tigres-realsalt-leagues&s8_auto_sound=1",
-      "match_name": "Leagues Cup - Tigres UANL VS Real Salt Lake",
+      "match_name": "Tigres VS Realsalt",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-05T01:32:40.854905+07:00",
-      "next_scan_at": "2026-08-05T01:42:40.854905+07:00",
+      "last_scan_at": "2026-08-05T02:02:02.691189+07:00",
+      "next_scan_at": "2026-08-05T02:12:02.691189+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
