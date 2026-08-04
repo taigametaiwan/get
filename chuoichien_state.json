@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-04T20:02:06.699113+07:00",
+  "updated_at": "2026-08-04T20:31:43.069991+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -725,25 +725,23 @@
     },
     "1610530": {
       "url": "https://live04.chuoichientv.me/live/1610530/persebaya-surabaya-vs-arema-fc",
-      "match_name": "Persebaya Surabaya vs Arema FC - Piala Presiden",
+      "match_name": "persebaya surabaya vs arema fc",
       "kickoff_iso": "2026-08-04T19:30:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-04T20:02:06.698921+07:00",
-      "next_scan_at": "2026-08-04T20:07:06.698921+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
-      ],
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-04T20:31:43.069828+07:00",
+      "next_scan_at": "2026-08-04T20:36:43.069828+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "1583613": {
       "url": "https://live04.chuoichientv.me/live/1583613/pathum-united-vs-aston-villa",
       "match_name": "pathum united vs aston villa",
       "kickoff_iso": "2026-08-04T19:30:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-04T20:02:06.698921+07:00",
-      "next_scan_at": "2026-08-04T20:07:06.698921+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-04T20:31:43.069828+07:00",
+      "next_scan_at": "2026-08-04T20:36:43.069828+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -753,16 +751,15 @@
     },
     "1548098": {
       "url": "https://live04.chuoichientv.me/live/1548098/philippines-vs-thailand",
-      "match_name": "Philippines vs Thailand - AFF Championship",
+      "match_name": "philippines vs thailand",
       "kickoff_iso": "2026-08-04T20:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-04T20:02:06.698921+07:00",
-      "next_scan_at": "2026-08-04T20:07:06.698921+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-04T20:31:43.069828+07:00",
+      "next_scan_at": "2026-08-04T20:36:43.069828+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -795,58 +792,58 @@
     "1563640": {
       "url": "https://live04.chuoichientv.me/live/1563640/rodina-moskva-vs-rubin",
       "match_name": "rodina moskva vs rubin",
+      "kickoff_iso": "2026-08-04T22:30:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-04T20:31:43.069828+07:00",
+      "next_scan_at": "2026-08-04T20:51:43.069828+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1605370": {
+      "url": "https://live04.chuoichientv.me/live/1605370/ararat-armenia-vs-celje",
+      "match_name": "ararat armenia vs celje",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T20:02:06.698921+07:00",
-      "next_scan_at": "2026-08-04T20:12:06.698921+07:00",
+      "last_scan_at": "2026-08-04T20:31:43.069828+07:00",
+      "next_scan_at": "2026-08-04T20:41:43.069828+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1605370": {
-      "url": "https://live04.chuoichientv.me/live/1605370/ararat-armenia-vs-celje",
-      "match_name": "ararat armenia vs celje",
-      "kickoff_iso": "2026-08-04T23:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-04T20:02:06.698921+07:00",
-      "next_scan_at": "2026-08-04T20:47:06.698921+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
-    },
     "1607168": {
       "url": "https://live04.chuoichientv.me/live/1607168/mjallby-vs-slovan-bratislava",
       "match_name": "mjallby vs slovan bratislava",
-      "kickoff_iso": "2026-08-04T23:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-04T20:02:06.698921+07:00",
-      "next_scan_at": "2026-08-04T20:47:06.698921+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-04T20:31:43.069828+07:00",
+      "next_scan_at": "2026-08-04T20:41:43.069828+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1607573": {
       "url": "https://live04.chuoichientv.me/live/1607573/auda-vs-dinamo-tirana",
       "match_name": "auda vs dinamo tirana",
-      "kickoff_iso": "2026-08-04T23:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-04T20:02:06.698921+07:00",
-      "next_scan_at": "2026-08-04T20:47:06.698921+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-04T20:31:43.069828+07:00",
+      "next_scan_at": "2026-08-04T20:41:43.069828+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1607166": {
       "url": "https://live04.chuoichientv.me/live/1607166/hapoel-beer-sheva-vs-fk-crvena-zvezda",
       "match_name": "hapoel beer sheva vs fk crvena zvezda",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T20:02:06.698921+07:00",
-      "next_scan_at": "2026-08-04T20:12:06.698921+07:00",
+      "last_scan_at": "2026-08-04T20:31:43.069828+07:00",
+      "next_scan_at": "2026-08-04T20:41:43.069828+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -857,8 +854,8 @@
       "match_name": "levski sofia vs kairat almaty",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T20:02:06.698921+07:00",
-      "next_scan_at": "2026-08-04T20:12:06.698921+07:00",
+      "last_scan_at": "2026-08-04T20:31:43.069828+07:00",
+      "next_scan_at": "2026-08-04T20:41:43.069828+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
