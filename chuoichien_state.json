@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-04T17:01:49.116601+07:00",
+  "updated_at": "2026-08-04T17:31:48.944365+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -315,18 +315,6 @@
       "verified_urls": [
         "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
       ],
-      "scan_decision": "browser-fallback"
-    },
-    "1507020": {
-      "url": "https://live04.chuoichientv.me/live/1507020/jeju-united-fc-vs-incheon-united",
-      "match_name": "Jeju United FC vs Incheon United - K League 1",
-      "kickoff_iso": "2026-08-02T17:30:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-02T19:32:12.022230+07:00",
-      "next_scan_at": "2026-08-02T19:37:12.022230+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "991780": {
@@ -722,9 +710,9 @@
       "url": "https://live04.chuoichientv.me/live/1548099/myanmar-vs-laos",
       "match_name": "Myanmar vs Laos - AFF Championship",
       "kickoff_iso": "2026-08-04T17:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-04T17:01:49.116459+07:00",
-      "next_scan_at": "2026-08-04T17:06:49.116459+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-04T17:31:48.944191+07:00",
+      "next_scan_at": "2026-08-04T17:36:48.944191+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -737,9 +725,9 @@
       "url": "https://live04.chuoichientv.me/live/1542344/jeju-united-fc-vs-bayern-mnchen",
       "match_name": "Jeju United FC vs Bayern München - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-04T18:00:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-08-04T17:01:49.116459+07:00",
-      "next_scan_at": "2026-08-04T17:21:49.116459+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-04T17:31:48.944191+07:00",
+      "next_scan_at": "2026-08-04T17:41:48.944191+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -749,63 +737,63 @@
       "url": "https://live04.chuoichientv.me/live/1610531/persib-bandung-vs-persija",
       "match_name": "Persib Bandung vs Persija - Piala Presiden",
       "kickoff_iso": "2026-08-04T15:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-04T17:01:49.116459+07:00",
-      "next_scan_at": "2026-08-04T17:06:49.116459+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-04T17:31:48.944191+07:00",
+      "next_scan_at": "2026-08-04T17:36:48.944191+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitieu.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoitieu/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1610530": {
       "url": "https://live04.chuoichientv.me/live/1610530/persebaya-surabaya-vs-arema-fc",
-      "match_name": "persebaya surabaya vs arema fc",
+      "match_name": "Persebaya Surabaya vs Arema FC - Piala Presiden",
       "kickoff_iso": "2026-08-04T19:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-04T17:01:49.116459+07:00",
-      "next_scan_at": "2026-08-04T17:21:49.116459+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-04T17:31:48.944191+07:00",
+      "next_scan_at": "2026-08-04T17:51:48.944191+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1583613": {
       "url": "https://live04.chuoichientv.me/live/1583613/pathum-united-vs-aston-villa",
       "match_name": "pathum united vs aston villa",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T17:01:49.116459+07:00",
-      "next_scan_at": "2026-08-04T17:11:49.116459+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
-    },
-    "1548098": {
-      "url": "https://live04.chuoichientv.me/live/1548098/philippines-vs-thailand",
-      "match_name": "philippines vs thailand",
-      "kickoff_iso": "2026-08-04T20:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-04T17:01:49.116459+07:00",
-      "next_scan_at": "2026-08-04T17:46:49.116459+07:00",
+      "kickoff_iso": "2026-08-04T19:30:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-04T17:31:48.944191+07:00",
+      "next_scan_at": "2026-08-04T17:51:48.944191+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
     },
-    "1563635": {
-      "url": "https://live04.chuoichientv.me/live/1563635/akron-vs-fc-rostov",
-      "match_name": "akron vs fc rostov",
+    "1548098": {
+      "url": "https://live04.chuoichientv.me/live/1548098/philippines-vs-thailand",
+      "match_name": "philippines vs thailand",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T17:01:49.116459+07:00",
-      "next_scan_at": "2026-08-04T17:11:49.116459+07:00",
+      "last_scan_at": "2026-08-04T17:31:48.944191+07:00",
+      "next_scan_at": "2026-08-04T17:41:48.944191+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
+    },
+    "1563635": {
+      "url": "https://live04.chuoichientv.me/live/1563635/akron-vs-fc-rostov",
+      "match_name": "akron vs fc rostov",
+      "kickoff_iso": "2026-08-04T20:15:00+07:00",
+      "minutes_to_kickoff": 164,
+      "last_scan_at": "2026-08-04T17:31:48.944191+07:00",
+      "next_scan_at": "2026-08-04T18:16:48.944191+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     },
     "1549704": {
       "url": "https://live04.chuoichientv.me/live/1549704/bucaramanga-vs-cucuta",
@@ -826,8 +814,8 @@
       "match_name": "rodina moskva vs rubin",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T17:01:49.116459+07:00",
-      "next_scan_at": "2026-08-04T17:11:49.116459+07:00",
+      "last_scan_at": "2026-08-04T17:31:48.944191+07:00",
+      "next_scan_at": "2026-08-04T17:41:48.944191+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -838,8 +826,8 @@
       "match_name": "ararat armenia vs celje",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-04T17:01:49.116459+07:00",
-      "next_scan_at": "2026-08-04T17:11:49.116459+07:00",
+      "last_scan_at": "2026-08-04T17:31:48.944191+07:00",
+      "next_scan_at": "2026-08-04T17:41:48.944191+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
