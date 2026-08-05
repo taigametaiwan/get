@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-05T05:31:42.822703+07:00",
+  "updated_at": "2026-08-05T15:31:41.470791+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -375,35 +375,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1550919": {
-      "url": "https://live04.chuoichientv.me/live/1550919/club-america-vs-santos-laguna",
-      "match_name": "club america vs santos laguna",
-      "kickoff_iso": "2026-08-03T06:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-03T08:01:52.047024+07:00",
-      "next_scan_at": "2026-08-03T08:06:52.047024+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1493040": {
-      "url": "https://live04.chuoichientv.me/live/1493040/lanus-vs-instituto-cordoba",
-      "match_name": "Lanus vs Instituto Cordoba - VĐQG Argentina",
-      "kickoff_iso": "2026-08-03T07:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-03T09:01:41.578283+07:00",
-      "next_scan_at": "2026-08-03T09:06:41.578283+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitieu.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoitieu/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1565201": {
       "url": "https://live04.chuoichientv.me/live/1565201/rapid-vs-cfr-cluj",
       "match_name": "rapid vs cfr cluj",
@@ -415,21 +386,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1550920": {
-      "url": "https://live04.chuoichientv.me/live/1550920/toluca-vs-necaxa",
-      "match_name": "Toluca vs Necaxa - VĐQG Mexico",
-      "kickoff_iso": "2026-08-03T08:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-03T10:01:30.753627+07:00",
-      "next_scan_at": "2026-08-03T10:06:30.753627+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "993893": {
       "url": "https://live04.chuoichientv.me/live/993893/h-ch-minh-city-w-vs-h-ni-n",
@@ -890,6 +846,114 @@
       "minutes_to_kickoff": null,
       "last_scan_at": "2026-08-05T00:01:58.323384+07:00",
       "next_scan_at": "2026-08-05T00:11:58.323384+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1583618": {
+      "url": "https://live04.chuoichientv.me/live/1583618/k-league-stars-vs-manchester-city",
+      "match_name": "k league stars vs manchester city",
+      "kickoff_iso": "2026-08-05T18:00:00+07:00",
+      "minutes_to_kickoff": 149,
+      "last_scan_at": "2026-08-05T15:31:41.470616+07:00",
+      "next_scan_at": "2026-08-05T16:16:41.470616+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1542346": {
+      "url": "https://live04.chuoichientv.me/live/1542346/chelsea-vs-juventus",
+      "match_name": "chelsea vs juventus",
+      "kickoff_iso": "2026-08-05T18:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-05T15:31:41.470616+07:00",
+      "next_scan_at": "2026-08-05T16:16:41.470616+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1542345": {
+      "url": "https://live04.chuoichientv.me/live/1542345/ac-milan-vs-inter",
+      "match_name": "AC Milan vs Inter - Giao Hữu Câu Lạc Bộ",
+      "kickoff_iso": "2026-08-05T17:00:00+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-08-05T15:31:41.470616+07:00",
+      "next_scan_at": "2026-08-05T15:51:41.470616+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "1537489": {
+      "url": "https://live04.chuoichientv.me/live/1537489/queanbeyan-city-vs-tuggeranong-united",
+      "match_name": "Queanbeyan City vs Tuggeranong United - Capital Territory NPL",
+      "kickoff_iso": "2026-08-05T16:30:00+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-08-05T15:31:41.470616+07:00",
+      "next_scan_at": "2026-08-05T15:51:41.470616+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "1598584": {
+      "url": "https://live04.chuoichientv.me/live/1598584/deportivo-la-corua-ii-vs-real-madrid-ii",
+      "match_name": "deportivo la corua ii vs real madrid ii",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-05T15:31:41.470616+07:00",
+      "next_scan_at": "2026-08-05T15:41:41.470616+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1547830": {
+      "url": "https://live04.chuoichientv.me/live/1547830/podbeskidzie-vs-hutnik-krakw",
+      "match_name": "podbeskidzie vs hutnik krakw",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-05T15:31:41.470616+07:00",
+      "next_scan_at": "2026-08-05T15:41:41.470616+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1547828": {
+      "url": "https://live04.chuoichientv.me/live/1547828/grnik-czna-vs-kalisz",
+      "match_name": "grnik czna vs kalisz",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-05T15:31:41.470616+07:00",
+      "next_scan_at": "2026-08-05T15:41:41.470616+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1585035": {
+      "url": "https://live04.chuoichientv.me/live/1585035/lazio-vs-ostia-mare",
+      "match_name": "lazio vs ostia mare",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-05T15:31:41.470616+07:00",
+      "next_scan_at": "2026-08-05T15:41:41.470616+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1598586": {
+      "url": "https://live04.chuoichientv.me/live/1598586/napoli-vs-osasuna",
+      "match_name": "napoli vs osasuna",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-05T15:31:41.470616+07:00",
+      "next_scan_at": "2026-08-05T15:41:41.470616+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
