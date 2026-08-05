@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-06T04:31:19.626576+07:00",
+  "updated_at": "2026-08-06T05:01:35.690900+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -435,32 +435,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1603307": {
-      "url": "https://live04.chuoichientv.me/live/1603307/atlante-w-vs-necaxa-w",
-      "match_name": "Atlante W vs Necaxa W - VĐQG Nữ Mexico",
-      "kickoff_iso": "2026-08-04T04:45:00+07:00",
-      "minutes_to_kickoff": 14,
-      "last_scan_at": "2026-08-04T04:31:40.263838+07:00",
-      "next_scan_at": "2026-08-04T04:36:40.263838+07:00",
-      "has_stream": true,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
-    "1493046": {
-      "url": "https://live04.chuoichientv.me/live/1493046/velez-sarsfield-vs-independiente",
-      "match_name": "Velez Sarsfield vs Independiente - VĐQG Argentina",
-      "kickoff_iso": "2026-08-04T05:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-04T06:31:49.089565+07:00",
-      "next_scan_at": "2026-08-04T06:36:49.089565+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1546843": {
       "url": "https://live04.chuoichientv.me/live/1546843/atletico-paranaense-vs-vitoria",
       "match_name": "Atletico Paranaense vs Vitoria - Cúp Brazil",
@@ -497,21 +471,6 @@
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
-    "1493042": {
-      "url": "https://live04.chuoichientv.me/live/1493042/platense-vs-talleres-cordoba",
-      "match_name": "Platense vs Talleres Cordoba - VĐQG Argentina",
-      "kickoff_iso": "2026-08-04T05:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-04T06:31:49.089565+07:00",
-      "next_scan_at": "2026-08-04T06:36:49.089565+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
-      ],
       "scan_decision": "browser-fallback"
     },
     "1548099": {
@@ -1003,37 +962,40 @@
       "url": "https://live04.chuoichientv.me/live/1493020/boca-juniors-vs-estudiantes-lp",
       "match_name": "Boca Juniors vs Estudiantes L.P. - VĐQG Argentina",
       "kickoff_iso": "2026-08-06T05:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-06T04:31:19.626512+07:00",
-      "next_scan_at": "2026-08-06T04:41:19.626512+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-06T05:01:35.690824+07:00",
+      "next_scan_at": "2026-08-06T05:06:35.690824+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoida.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoida/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1530114": {
+      "url": "https://live04.chuoichientv.me/live/1530114/inter-miami-vs-atletico-san-luis",
+      "match_name": "Inter Miami vs Atletico San Luis - Leagues Cup",
+      "kickoff_iso": "2026-08-06T06:30:00+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-08-06T05:01:35.690824+07:00",
+      "next_scan_at": "2026-08-06T05:21:35.690824+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
-    "1530114": {
-      "url": "https://live04.chuoichientv.me/live/1530114/inter-miami-vs-atletico-san-luis",
-      "match_name": "inter miami vs atletico san luis",
-      "kickoff_iso": "2026-08-06T06:30:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-06T04:31:19.626512+07:00",
-      "next_scan_at": "2026-08-06T04:51:19.626512+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
-    },
     "1493030": {
       "url": "https://live04.chuoichientv.me/live/1493030/tigre-vs-belgrano-cordoba",
       "match_name": "tigre vs belgrano cordoba",
-      "kickoff_iso": "2026-08-06T07:15:00+07:00",
-      "minutes_to_kickoff": 164,
-      "last_scan_at": "2026-08-06T04:31:19.626512+07:00",
-      "next_scan_at": "2026-08-06T05:16:19.626512+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-06T05:01:35.690824+07:00",
+      "next_scan_at": "2026-08-06T05:11:35.690824+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     }
   }
 }

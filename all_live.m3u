@@ -1,11 +1,16 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-brazil-vs-paraguay-luc-0230-ngay-06-08-2026-s1-3" tvg-name="[02:30 06/08/2026] Brazil vs Paraguay [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/z318q67h59kro9j/image/small",[02:30 06/08/2026] Brazil vs Paraguay [BLV HD TYSON] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="chuoichien-1493020-1" tvg-name="[05:00 06/08] Boca Juniors vs Estudiantes L.P. - VĐQG Argentina [BLV Chuối Đá]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131432_a5a02afb.png",[05:00 06/08] Boca Juniors vs Estudiantes L.P. - VĐQG Argentina [BLV Chuối Đá] [FHD FLV]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel33.flv
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/chuoida.flv
+#EXTINF:-1 tvg-id="chuoichien-1493020-2" tvg-name="[05:00 06/08] Boca Juniors vs Estudiantes L.P. - VĐQG Argentina [BLV Chuối Đá]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131432_a5a02afb.png",[05:00 06/08] Boca Juniors vs Estudiantes L.P. - VĐQG Argentina [BLV Chuối Đá] (Luồng 2) [M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/chuoida/playlist.m3u8
 #EXTINF:-1 tvg-id="xoilac-uc-tiep-atl-nacional-vs-atletico-junior-luc-0300-ngay-06-08-2026-s1-1" tvg-name="[03:00 06/08/2026] Atl Nacional vs Atletico Junior [BLV HD OLER] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09hll85rz84/image/small",[03:00 06/08/2026] Atl Nacional vs Atletico Junior [BLV HD OLER] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
@@ -13,98 +18,112 @@ https://live2.streambylivepulse.com/live/channel33.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel28.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-ai-cap-vs-nu-nigeria-luc-0300-ngay-06-08-2026-s1-2" tvg-name="[03:00 06/08/2026] Nu Ai Cap vs Nu Nigeria [BLV HD TAGE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdehp90r510/image/small",[03:00 06/08/2026] Nu Ai Cap vs Nu Nigeria [BLV HD TAGE] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-ai-cap-vs-nu-nigeria-luc-0300-ngay-06-08-2026-s1-6" tvg-name="[03:00 06/08/2026] Nu Ai Cap vs Nu Nigeria [BLV HD TAGE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdehp90r510/image/small",[03:00 06/08/2026] Nu Ai Cap vs Nu Nigeria [BLV HD TAGE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel27.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-panna-udvardy-vs-naomi-osaka-luc-0400-ngay-06-08-2026-s1-1" tvg-name="[04:00 06/08/2026] Panna Udvardy vs Naomi Osaka [BLV HD LUCAS] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4jwq2pf05d5m0ve/image/small",[04:00 06/08/2026] Panna Udvardy vs Naomi Osaka [BLV HD LUCAS] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-panna-udvardy-vs-naomi-osaka-luc-0400-ngay-06-08-2026-s1-5" tvg-name="[04:00 06/08/2026] Panna Udvardy vs Naomi Osaka [BLV HD LUCAS] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4jwq2pf05d5m0ve/image/small",[04:00 06/08/2026] Panna Udvardy vs Naomi Osaka [BLV HD LUCAS] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel31.flv
-#EXTINF:-1 tvg-id="xoilac-ruc-tiep-boca-juniors-vs-estudiantes-lp-luc-0500-ngay-06-08-2026-s1-3" tvg-name="[05:00 06/08/2026] Boca Juniors vs Estudiantes Lp [BLV HD MAX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hj31q0j6/image/small",[05:00 06/08/2026] Boca Juniors vs Estudiantes Lp [BLV HD MAX] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel6/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="xoilac-ruc-tiep-boca-juniors-vs-estudiantes-lp-luc-0500-ngay-06-08-2026-s1-1" tvg-name="[05:00 06/08/2026] Boca Juniors vs Estudiantes Lp [BLV HD MAX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hj31q0j6/image/small",[05:00 06/08/2026] Boca Juniors vs Estudiantes Lp [BLV HD MAX] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel6/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel6.flv?auth_key=3000001785965545-0-0-6664e83cfb05ab338b7870c06286a776
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-colombia-vs-venezuela-luc-0500-ngay-06-08-2026-s1-4" tvg-name="[05:00 06/08/2026] Colombia vs Venezuela [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/p3glrwjhvv7qdyj/image/small",[05:00 06/08/2026] Colombia vs Venezuela [BLV HD TYSON] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel33/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel6.flv
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-colombia-vs-venezuela-luc-0500-ngay-06-08-2026-s1-2" tvg-name="[05:00 06/08/2026] Colombia vs Venezuela [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/p3glrwjhvv7qdyj/image/small",[05:00 06/08/2026] Colombia vs Venezuela [BLV HD TYSON] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel33/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel33.flv?auth_key=3000001785965551-0-0-2735086c17fdcbe56e0483c2c50b1909
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-cruzeiro-vs-chapecoense-sc-luc-0500-ngay-06-08-2026-s1-5" tvg-name="[05:00 06/08/2026] Cruzeiro vs Chapecoense Sc [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4zp5rzghee0q82w/image/small",[05:00 06/08/2026] Cruzeiro vs Chapecoense Sc [BLV HD ZANE] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel22/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel33.flv
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-cruzeiro-vs-chapecoense-sc-luc-0500-ngay-06-08-2026-s1-3" tvg-name="[05:00 06/08/2026] Cruzeiro vs Chapecoense Sc [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4zp5rzghee0q82w/image/small",[05:00 06/08/2026] Cruzeiro vs Chapecoense Sc [BLV HD ZANE] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel22/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel22.flv?auth_key=3000001785965559-0-0-0d4eb8966a880b875bfef931fb95ce6a
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-canada-u20-vs-jamaica-u20-luc-0530-ngay-06-08-2026-s1-6" tvg-name="[05:30 06/08/2026] Canada U20 vs Jamaica U20 [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh6yzwm7vx/image/small",[05:30 06/08/2026] Canada U20 vs Jamaica U20 [BLV HD LOGAN] [FLV]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel22.flv
+#EXTINF:-1 tvg-id="xoilac-c-tiep-nacional-potosi-vs-the-strongest-luc-0500-ngay-06-08-2026-s0-4" tvg-name="[05:00 06/08/2026] Nacional Potosi vs The Strongest [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghgv93r6od/image/small",[05:00 06/08/2026] Nacional Potosi vs The Strongest [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel10.flv
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-canada-u20-vs-jamaica-u20-luc-0530-ngay-06-08-2026-s1-7" tvg-name="[05:30 06/08/2026] Canada U20 vs Jamaica U20 [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh6yzwm7vx/image/small",[05:30 06/08/2026] Canada U20 vs Jamaica U20 [BLV HD LOGAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel23/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel23/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel23.flv?auth_key=3000001785965579-0-0-2f315541252c12d061b74eb2834b70bc
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-gremio-rs-vs-mirassol-sp-luc-0530-ngay-06-08-2026-s1-7" tvg-name="[05:30 06/08/2026] Gremio Rs vs Mirassol Sp [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghdd9m0ve/image/small",[05:30 06/08/2026] Gremio Rs vs Mirassol Sp [BLV HD POLO] [FLV]
+https://live3.procdnlive.com/livecdn/channel23.flv?auth_key=3000001785967388-0-0-10b9ede0a0a052b0ba96012e18106fec
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-gremio-rs-vs-mirassol-sp-luc-0530-ngay-06-08-2026-s1-8" tvg-name="[05:30 06/08/2026] Gremio Rs vs Mirassol Sp [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghdd9m0ve/image/small",[05:30 06/08/2026] Gremio Rs vs Mirassol Sp [BLV HD POLO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel10/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel10/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001785965586-0-0-c8eba7bfd3d41fe506338fa0a2ce4ad8
-#EXTINF:-1 tvg-id="xoilac--nu-atlanta-dream-vs-nu-phoenix-mercury-luc-0600-ngay-06-08-2026-s1-8" tvg-name="[06:00 06/08/2026] Nu Atlanta Dream vs Nu Phoenix Mercury [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/9dn1m17tzdgmoep/image/small",[06:00 06/08/2026] Nu Atlanta Dream vs Nu Phoenix Mercury [BLV HD TOMMY] [FLV]
+https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001785967403-0-0-496e76d9bb5c5b5d0f82ff11186d2127
+#EXTINF:-1 tvg-id="xoilac--nu-atlanta-dream-vs-nu-phoenix-mercury-luc-0600-ngay-06-08-2026-s1-9" tvg-name="[06:00 06/08/2026] Nu Atlanta Dream vs Nu Phoenix Mercury [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/9dn1m17tzdgmoep/image/small",[06:00 06/08/2026] Nu Atlanta Dream vs Nu Phoenix Mercury [BLV HD TOMMY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel29/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel29/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785965593-0-0-645ef4cf381054f88664b18c355a07c2
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-valentin-royer-vs-tommy-paul-luc-0610-ngay-06-08-2026-s1-9" tvg-name="[06:10 06/08/2026] Valentin Royer vs Tommy Paul [BLV HD LUCAS] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/l7oqdwf47nxr510/image/small",[06:10 06/08/2026] Valentin Royer vs Tommy Paul [BLV HD LUCAS] [FLV]
+https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001785967413-0-0-9afed87ddd2e7d534627261763344681
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-valentin-royer-vs-tommy-paul-luc-0610-ngay-06-08-2026-s1-10" tvg-name="[06:10 06/08/2026] Valentin Royer vs Tommy Paul [BLV HD LUCAS] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/l7oqdwf47nxr510/image/small",[06:10 06/08/2026] Valentin Royer vs Tommy Paul [BLV HD LUCAS] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel31/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel31/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel31.flv?auth_key=3000001785965605-0-0-f34fcabbf946be0dfd68360a75170218
-#EXTINF:-1 tvg-id="xoilac--internacional-de-bogota-vs-cd-jaguares-luc-0615-ngay-06-08-2026-s1-10" tvg-name="[06:15 06/08/2026] Internacional De Bogota vs Cd Jaguares [BLV HD TAGE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7ph635m2wd/image/small",[06:15 06/08/2026] Internacional De Bogota vs Cd Jaguares [BLV HD TAGE] [FLV]
+https://live3.procdnlive.com/livecdn/channel31.flv?auth_key=3000001785967426-0-0-823de099666c8716a8673236158d159d
+#EXTINF:-1 tvg-id="xoilac--internacional-de-bogota-vs-cd-jaguares-luc-0615-ngay-06-08-2026-s1-11" tvg-name="[06:15 06/08/2026] Internacional De Bogota vs Cd Jaguares [BLV HD TAGE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7ph635m2wd/image/small",[06:15 06/08/2026] Internacional De Bogota vs Cd Jaguares [BLV HD TAGE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel27/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel27/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel27.flv?auth_key=3000001785965611-0-0-ae57d2349e00a4841fb05d74521d090a
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-inter-miami-vs-atl-san-luis-luc-0630-ngay-06-08-2026-s1-11" tvg-name="[06:30 06/08/2026] Inter Miami vs Atl San Luis [BLV HD ROY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghjyd1r6od/image/small",[06:30 06/08/2026] Inter Miami vs Atl San Luis [BLV HD ROY] [FLV]
+https://live3.procdnlive.com/livecdn/channel27.flv?auth_key=3000001785967434-0-0-430aa6020b089aa9fb6b0dea68005268
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-inter-miami-vs-atl-san-luis-luc-0630-ngay-06-08-2026-s1-12" tvg-name="[06:30 06/08/2026] Inter Miami vs Atl San Luis [BLV HD ROY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghjyd1r6od/image/small",[06:30 06/08/2026] Inter Miami vs Atl San Luis [BLV HD ROY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel1/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel1/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel1.flv?auth_key=3000001785965616-0-0-a776bd8d82fa24f183d546acce2c3b72
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-monterrey-vs-orlando-city-luc-0630-ngay-06-08-2026-s1-12" tvg-name="[06:30 06/08/2026] Monterrey vs Orlando City [BLV HD HIRO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlh60kryk0/image/small",[06:30 06/08/2026] Monterrey vs Orlando City [BLV HD HIRO] [FLV]
+https://live3.procdnlive.com/livecdn/channel1.flv?auth_key=3000001785967439-0-0-f89efd15ef8316d45343c5f6d66bd1c4
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-monterrey-vs-orlando-city-luc-0630-ngay-06-08-2026-s1-13" tvg-name="[06:30 06/08/2026] Monterrey vs Orlando City [BLV HD HIRO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlh60kryk0/image/small",[06:30 06/08/2026] Monterrey vs Orlando City [BLV HD HIRO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel14/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel14/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785965618-0-0-a14c2969f2b1e4ca842edf66684ac83d
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-umecit-vs-cd-olimpia-luc-0700-ngay-06-08-2026-s1-13" tvg-name="[07:00 06/08/2026] Umecit vs Cd Olimpia [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hy03kqdyj/image/small",[07:00 06/08/2026] Umecit vs Cd Olimpia [BLV HD BEE] [FLV]
+https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785967442-0-0-9a86d3705d8f08cc14b74cc39b1ebc01
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-umecit-vs-cd-olimpia-luc-0700-ngay-06-08-2026-s1-14" tvg-name="[07:00 06/08/2026] Umecit vs Cd Olimpia [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hy03kqdyj/image/small",[07:00 06/08/2026] Umecit vs Cd Olimpia [BLV HD BEE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel8/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel8/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel8.flv?auth_key=3000001785965625-0-0-436e4293a1601852eb0eab216ed1c25e
-#EXTINF:-1 tvg-id="colatv-b344424cf9d1-1" tvg-name="[05:00 06/08] Boca Juniors vs Estudiantes La Plata [BLV 247Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/9ed2c4f6adc51975cdbd2a93093e6a43.png!w80",[05:00 06/08] Boca Juniors vs Estudiantes La Plata [BLV 247Đang xem] [M3U8]
+https://live3.procdnlive.com/livecdn/channel8.flv?auth_key=3000001785967464-0-0-01afe4bd95cc6c0cffee0b94ccc243c2
+#EXTINF:-1 tvg-id="xoilac-nu-chicago-sky-vs-nu-los-angeles-sparks-luc-0800-ngay-06-08-2026-s1-15" tvg-name="[08:00 06/08/2026] Nu Chicago Sky vs Nu Los Angeles Sparks [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/4zp5rzkten5r82w/image/small",[08:00 06/08/2026] Nu Chicago Sky vs Nu Los Angeles Sparks [BLV HD STEP] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel26/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel26/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
+https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001785967471-0-0-4f197f3080e9aeb3b3caf38f8ca3c8db
+#EXTINF:-1 tvg-id="colatv-51c34666964d-1" tvg-name="[05:30 06/08] Grêmio - RS vs Mirassol - SP [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/e1f593199d4ee1d98b2db8a9522b605f.png!w80",[05:30 06/08] Grêmio - RS vs Mirassol - SP [BLV MOUNTAIN DEWĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
