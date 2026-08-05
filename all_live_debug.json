@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-05T10:35:33.227455+07:00",
+  "generated_at": "2026-08-05T11:05:28.314913+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -137,22 +137,16 @@
   "input_candidates": 20,
   "metadata_reference_count": 233,
   "last_good_recovered_count": 0,
-  "last_good_suppressed_by_fresh_count": 10,
+  "last_good_suppressed_by_fresh_count": 8,
   "last_good_audit": [
     {
-      "url": "https://live2.streambylivepulse.com/live/channel1.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
       "url": "https://live2.streambylivepulse.com/live/channel29.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel1.flv",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -164,16 +158,16 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live05.meung.app/live/08552895.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785900876-0-0-8a2f8cbccf6b08e949ba178398c269f3",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
     },
     {
       "url": "https://live05.meung.app/live/19919577.m3u8",
@@ -182,7 +176,13 @@
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/41943555.m3u8",
+      "url": "https://live05.meung.app/live/08552895.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/87547578.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
@@ -194,37 +194,25 @@
       "source": "gavang"
     },
     {
-      "url": "https://live05.meung.app/live/87547578.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
       "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
+      "reason": "HTTP 404",
       "source": "xoilac"
     },
     {
-      "url": "https://live05.meung.app/live/82054853.m3u8",
+      "url": "https://live05.meung.app/live/41943555.m3u8",
       "kept": false,
       "reason": "TimeoutError: The read operation timed out",
       "source": "colatv"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel1.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
     },
     {
       "url": "https://live2.streambylivepulse.com/live/channel29.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel1.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
@@ -236,16 +224,10 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/08552895.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
     },
     {
       "url": "https://live05.meung.app/live/19919577.m3u8",
@@ -254,7 +236,13 @@
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/41943555.m3u8",
+      "url": "https://live05.meung.app/live/08552895.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/87547578.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
@@ -264,12 +252,6 @@
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "gavang"
-    },
-    {
-      "url": "https://live05.meung.app/live/87547578.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
     }
   ],
   "selected_count": 11,
@@ -332,7 +314,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
+      "url": "https://live3.procdnlive.com/livecdn/channel4.flv?auth_key=3000001785902580-0-0-e5fd35f6b55e17d99c80d8ea630a38bd",
       "match_key": "antigua gfc vs real esteli|hd tom",
       "display_name": "[09:00 05/08/2026] Antigua Gfc vs Real Esteli [BLV HD TOM] [FLV]",
       "group": "Xôi Lạc",
@@ -353,7 +335,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-05T09:00:00+07:00",
-      "minutes_to_kickoff": -95.55,
+      "minutes_to_kickoff": -125.47,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -363,7 +345,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.streambylivepulse.com/live/channel4.flv",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel4.flv?auth_key=3000001785902580-0-0-e5fd35f6b55e17d99c80d8ea630a38bd",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hnj31rz84/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhex1dqvy9/image/small",
       "blv": null,
@@ -398,7 +380,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-05T09:00:00+07:00",
-      "minutes_to_kickoff": -95.55,
+      "minutes_to_kickoff": -125.47,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -443,7 +425,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-05T09:00:00+07:00",
-      "minutes_to_kickoff": -95.55,
+      "minutes_to_kickoff": -125.47,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -488,7 +470,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-05T09:00:00+07:00",
-      "minutes_to_kickoff": -95.55,
+      "minutes_to_kickoff": -125.47,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -533,7 +515,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-05T09:30:00+07:00",
-      "minutes_to_kickoff": -65.55,
+      "minutes_to_kickoff": -95.47,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -557,7 +539,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785900876-0-0-8a2f8cbccf6b08e949ba178398c269f3",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785902652-0-0-68d6417cd03a3c210010a2a8c2c900e7",
       "match_key": "bnk fearx youth vs kiwoom drx challengers|hd marty",
       "display_name": "[12:00 05/08/2026] Bnk Fearx Youth vs Kiwoom Drx Challengers [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -578,7 +560,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-05T12:00:00+07:00",
-      "minutes_to_kickoff": 84.45,
+      "minutes_to_kickoff": 54.53,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -588,7 +570,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785900876-0-0-8a2f8cbccf6b08e949ba178398c269f3",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785902652-0-0-68d6417cd03a3c210010a2a8c2c900e7",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/y39mp8xu3xykqoj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/318q6g8to5vvro9/image/small",
       "blv": null,
@@ -603,8 +585,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/41943555.m3u8",
-      "match_key": "antigua gfc vs real esteli|lich thi au cuoc vsbet tai app ta",
-      "display_name": "[09:00 05/08] Antigua Gfc vs Real Esteli [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "antigua gfc vs real esteli|khong o ang xem",
+      "display_name": "[09:00 05/08] Antigua GFC vs Real Esteli [BLV KHÔNG ĐỘĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -618,7 +600,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-05T09:00:00+07:00",
-      "minutes_to_kickoff": -95.55,
+      "minutes_to_kickoff": -125.47,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -631,7 +613,7 @@
       "page_url": "https://live05.meung.app/live/41943555.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
+      "blv": "KHÔNG ĐỘĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -643,8 +625,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/19919577.m3u8",
-      "match_key": "golden state valkyries vs toronto tempo|pocari ang xem",
-      "display_name": "[09:00 05/08] Golden State Valkyries vs Toronto Tempo [BLV POCARIĐang xem] [M3U8]",
+      "match_key": "golden state valkyries vs toronto tempo|lich thi au cuoc vsbet nhan km ho tro k",
+      "display_name": "[09:00 05/08] Golden State Valkyries vs Toronto Tempo [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng rổ",
       "quality": "UNKNOWN",
@@ -658,7 +640,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-05T09:00:00+07:00",
-      "minutes_to_kickoff": -95.55,
+      "minutes_to_kickoff": -125.47,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -671,7 +653,7 @@
       "page_url": "https://live05.meung.app/live/19919577.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "POCARIĐang xem",
+      "blv": "Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -684,7 +666,7 @@
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/08552895.m3u8",
       "match_key": "tigres vs real salt lake|c2 ang xem",
-      "display_name": "[09:00 05/08] Tigres vs Real Salt Lake [BLV C2Đang xem] [M3U8]",
+      "display_name": "[09:10 05/08] Tigres vs Real Salt Lake [BLV C2Đang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -697,8 +679,8 @@
       "derived_pending": false,
       "pending_reason": null,
       "score": 439,
-      "kickoff_iso": "2026-08-05T09:00:00+07:00",
-      "minutes_to_kickoff": -95.55,
+      "kickoff_iso": "2026-08-05T09:10:00+07:00",
+      "minutes_to_kickoff": -115.47,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -738,7 +720,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-05T09:30:00+07:00",
-      "minutes_to_kickoff": -65.55,
+      "minutes_to_kickoff": -95.47,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -775,9 +757,9 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel4.flv",
-      "display_name": "[09:00 05/08/2026] Antigua Gfc vs Real Esteli [BLV HD TOM] [FLV]",
-      "match_key": "antigua gfc vs real esteli|hd tom",
+      "url": "https://live2.streambylivepulse.com/live/channel15.flv",
+      "display_name": "[09:30 05/08/2026] Vancouver Whitecaps vs Atlante Fc [BLV HD BRADY] [FLV]",
+      "match_key": "vancouver whitecaps vs atlante fc|hd brady",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -787,9 +769,9 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
-      "display_name": "[09:00 05/08/2026] Diriangen vs Ld Alajuelense [BLV HD JOHAN] [FLV]",
-      "match_key": "diriangen vs ld alajuelense|hd johan",
+      "url": "https://live3.procdnlive.com/livecdn/channel4.flv?auth_key=3000001785902580-0-0-e5fd35f6b55e17d99c80d8ea630a38bd",
+      "display_name": "[09:00 05/08/2026] Antigua Gfc vs Real Esteli [BLV HD TOM] [FLV]",
+      "match_key": "antigua gfc vs real esteli|hd tom",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -823,9 +805,9 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel15.flv",
-      "display_name": "[09:30 05/08/2026] Vancouver Whitecaps vs Atlante Fc [BLV HD BRADY] [FLV]",
-      "match_key": "vancouver whitecaps vs atlante fc|hd brady",
+      "url": "https://live2.streambylivepulse.com/live/channel12.flv",
+      "display_name": "[09:00 05/08/2026] Diriangen vs Ld Alajuelense [BLV HD JOHAN] [FLV]",
+      "match_key": "diriangen vs ld alajuelense|hd johan",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -835,7 +817,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785900876-0-0-8a2f8cbccf6b08e949ba178398c269f3",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785902652-0-0-68d6417cd03a3c210010a2a8c2c900e7",
       "display_name": "[12:00 05/08/2026] Bnk Fearx Youth vs Kiwoom Drx Challengers [BLV HD MARTY] [FLV]",
       "match_key": "bnk fearx youth vs kiwoom drx challengers|hd marty",
       "quality": "HD",
@@ -848,8 +830,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/41943555.m3u8",
-      "display_name": "[09:00 05/08] Antigua Gfc vs Real Esteli [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
-      "match_key": "antigua gfc vs real esteli|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[09:00 05/08] Antigua GFC vs Real Esteli [BLV KHÔNG ĐỘĐang xem] [M3U8]",
+      "match_key": "antigua gfc vs real esteli|khong o ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -860,7 +842,7 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/08552895.m3u8",
-      "display_name": "[09:00 05/08] Tigres vs Real Salt Lake [BLV C2Đang xem] [M3U8]",
+      "display_name": "[09:10 05/08] Tigres vs Real Salt Lake [BLV C2Đang xem] [M3U8]",
       "match_key": "tigres vs real salt lake|c2 ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
@@ -884,8 +866,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/19919577.m3u8",
-      "display_name": "[09:00 05/08] Golden State Valkyries vs Toronto Tempo [BLV POCARIĐang xem] [M3U8]",
-      "match_key": "golden state valkyries vs toronto tempo|pocari ang xem",
+      "display_name": "[09:00 05/08] Golden State Valkyries vs Toronto Tempo [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
+      "match_key": "golden state valkyries vs toronto tempo|lich thi au cuoc vsbet nhan km ho tro k",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
