@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-05T14:07:21.239869+07:00",
+  "generated_at": "2026-08-05T14:37:52.879856+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -79,13 +79,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 126,
-      "playlist_blocks": 8,
+      "playlist_blocks": 7,
       "catalog_placeholders": 0,
       "metadata_references": 126,
       "included": true,
-      "fresh_stream_blocks": 8,
-      "fresh_verified_blocks": 8,
-      "fresh_selected": 8,
+      "fresh_stream_blocks": 7,
+      "fresh_verified_blocks": 7,
+      "fresh_selected": 7,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -98,32 +98,31 @@
       "label": "ColaTV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 112,
+      "debug_rows": 106,
       "playlist_blocks": 2,
       "catalog_placeholders": 0,
-      "metadata_references": 107,
+      "metadata_references": 99,
       "included": true,
       "fresh_stream_blocks": 2,
-      "fresh_verified_blocks": 1,
-      "fresh_selected": 1,
-      "fresh_explicitly_dropped": 1,
+      "fresh_verified_blocks": 2,
+      "fresh_selected": 2,
+      "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
       "unresolved": 0,
       "integrity_ok": true,
-      "fresh_unverified_blocks": 1,
-      "integrity_warning": "fresh-unverified-streams-explicitly-decided"
+      "fresh_unverified_blocks": 0
     },
     {
       "key": "phaohoa",
       "label": "Pháo Hoa TV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 9,
-      "playlist_blocks": 9,
+      "debug_rows": 0,
+      "playlist_blocks": 0,
       "catalog_placeholders": 0,
-      "metadata_references": 9,
-      "included": true,
+      "metadata_references": 0,
+      "included": false,
       "fresh_stream_blocks": 0,
       "fresh_verified_blocks": 0,
       "fresh_selected": 0,
@@ -135,57 +134,60 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 19,
-  "metadata_reference_count": 242,
+  "input_candidates": 9,
+  "metadata_reference_count": 225,
   "last_good_recovered_count": 0,
-  "last_good_suppressed_by_fresh_count": 2,
+  "last_good_suppressed_by_fresh_count": 1,
   "last_good_audit": [
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001785912791-0-0-bca051948b566bae67f67e266003f2d9",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785912762-0-0-d51d574e7ea9ff1f6ae713b2a57d0857",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001785912826-0-0-5c3cd3938458b91c4cf8dbf43d3bab48",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel21.flv?auth_key=3000001785912770-0-0-334b5dda7bc9f7f77085e0b31cc1c6d0",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel8.flv?auth_key=3000001785912878-0-0-2b81f294b384e3200017dce583016794",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785912856-0-0-5917203d14e3730d79589ebb17f06dd0",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785912748-0-0-61baf7e0d431c85485d357dbf2cf6c7e",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
       "url": "https://live2.streambylivepulse.com/live/channel30.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
+      "kept": false,
+      "reason": "outside-source-window",
+      "source": "xoilac",
+      "kickoff_iso": "2026-08-05T12:00:00+07:00",
+      "minutes_to_kickoff": -157.88,
+      "filtered_before_probe": true
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785913600-0-0-4415e7f4a6d412035fe106779da7ae52",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001785913531-0-0-a9c15e3aaf45237327d5f7f2d19ab44d",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel21.flv?auth_key=3000001785913515-0-0-7a8ded3fbddd910753051512536b22c5",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785913499-0-0-fa67fe85022a69243a1a98b143fc8781",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785913494-0-0-e540506ab97dbd867584c3db5d60356d",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001785913570-0-0-c098124b25d1be9b3bb87e1bc92e1201",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785913623-0-0-cfb7b2ff0a0d78afb991077e57108e12",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
       "source": "xoilac"
     },
     {
@@ -195,12 +197,6 @@
       "source": "colatv"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel30.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
       "url": "https://colatv88xi.cc/video2/output.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
@@ -208,7 +204,7 @@
     }
   ],
   "selected_count": 9,
-  "dropped_count": 10,
+  "dropped_count": 0,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -223,52 +219,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streambylivepulse.com/live/channel30.flv",
-      "match_key": "bnk fearx youth vs kiwoom drx challengers|hd marty",
-      "display_name": "[12:00 05/08/2026] Bnk Fearx Youth vs Kiwoom Drx Challengers [BLV HD MARTY] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "LCK Challengers League 2026",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 456,
-      "kickoff_iso": "2026-08-05T12:00:00+07:00",
-      "minutes_to_kickoff": -127.35,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/lol/team/y39mp8xu3xykqoj/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live2.streambylivepulse.com/live/channel30.flv",
-      "home_logo": "https://imgts.sportpulseapiz.com/lol/team/y39mp8xu3xykqoj/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/lol/team/318q6g8to5vvro9/image/small",
-      "blv": null,
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785913494-0-0-e540506ab97dbd867584c3db5d60356d",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785915303-0-0-35a9fb12eadf8e67639a02316513519d",
       "match_key": "fredit brion vs nongshim redforce|hd marty",
       "display_name": "[15:00 05/08/2026] Fredit Brion vs Nongshim Redforce [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -289,7 +240,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-05T15:00:00+07:00",
-      "minutes_to_kickoff": 52.65,
+      "minutes_to_kickoff": 22.12,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -299,7 +250,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785913494-0-0-e540506ab97dbd867584c3db5d60356d",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785915303-0-0-35a9fb12eadf8e67639a02316513519d",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/ednm926hky17ryo/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/vjxm89jb412kq6o/image/small",
       "blv": null,
@@ -313,7 +264,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785913499-0-0-fa67fe85022a69243a1a98b143fc8781",
+      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785915312-0-0-bee3fc9ee84628b27977d250bdf2132a",
       "match_key": "nu sk brann vs nu mitrovica|hd hiro",
       "display_name": "[15:00 05/08/2026] Nu Sk Brann vs Nu Mitrovica [BLV HD HIRO] [FLV]",
       "group": "Xôi Lạc",
@@ -334,7 +285,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-05T15:00:00+07:00",
-      "minutes_to_kickoff": 52.65,
+      "minutes_to_kickoff": 22.12,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -344,7 +295,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785913499-0-0-fa67fe85022a69243a1a98b143fc8781",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785915312-0-0-bee3fc9ee84628b27977d250bdf2132a",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hw47grz84/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4h2467q0j6/image/small",
       "blv": null,
@@ -358,7 +309,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel21.flv?auth_key=3000001785913515-0-0-7a8ded3fbddd910753051512536b22c5",
+      "url": "https://live3.procdnlive.com/livecdn/channel21.flv?auth_key=3000001785915322-0-0-91e40ae7dbc53bf635c1d09592769e8f",
       "match_key": "villarreal vs levante|hd raven",
       "display_name": "[15:00 05/08/2026] Villarreal vs Levante [BLV HD RAVEN] [FLV]",
       "group": "Xôi Lạc",
@@ -379,7 +330,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-05T15:00:00+07:00",
-      "minutes_to_kickoff": 52.65,
+      "minutes_to_kickoff": 22.12,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -389,7 +340,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel21.flv?auth_key=3000001785913515-0-0-7a8ded3fbddd910753051512536b22c5",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel21.flv?auth_key=3000001785915322-0-0-91e40ae7dbc53bf635c1d09592769e8f",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/kjw2r09hvwwrz84/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/4zp5rzgh9z9q82w/image/small",
       "blv": null,
@@ -403,7 +354,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001785913531-0-0-a9c15e3aaf45237327d5f7f2d19ab44d",
+      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001785915347-0-0-467d2fa69ad58a65b7c8e08abeb185a0",
       "match_key": "shanghai port b vs xian ronghai fc|hd jean",
       "display_name": "[15:30 05/08/2026] Shanghai Port B vs Xian Ronghai Fc [BLV HD JEAN] [FLV]",
       "group": "Xôi Lạc",
@@ -424,7 +375,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-05T15:30:00+07:00",
-      "minutes_to_kickoff": 82.65,
+      "minutes_to_kickoff": 52.12,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -434,7 +385,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001785913531-0-0-a9c15e3aaf45237327d5f7f2d19ab44d",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001785915347-0-0-467d2fa69ad58a65b7c8e08abeb185a0",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekh3xwgrepz/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh8eojmoep/image/small",
       "blv": null,
@@ -448,7 +399,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001785913570-0-0-c098124b25d1be9b3bb87e1bc92e1201",
+      "url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001785915379-0-0-be0567bfb96cf3780d1ada010c24b36c",
       "match_key": "nu austria wien vs nu hajduk split|hd rio",
       "display_name": "[16:00 05/08/2026] Nu Austria Wien vs Nu Hajduk Split [BLV HD RIO] [FLV]",
       "group": "Xôi Lạc",
@@ -469,7 +420,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-05T16:00:00+07:00",
-      "minutes_to_kickoff": 112.65,
+      "minutes_to_kickoff": 82.12,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -479,7 +430,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001785913570-0-0-c098124b25d1be9b3bb87e1bc92e1201",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001785915379-0-0-be0567bfb96cf3780d1ada010c24b36c",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh3n0dqwzv/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hzoz8qdyj/image/small",
       "blv": null,
@@ -493,7 +444,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785913600-0-0-4415e7f4a6d412035fe106779da7ae52",
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785915416-0-0-324cc0e4a8add305b80ed3839611156c",
       "match_key": "blackwater bossing vs phoenix fuel masters|hd alan",
       "display_name": "[16:15 05/08/2026] Blackwater Bossing vs Phoenix Fuel Masters [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -514,7 +465,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-05T16:15:00+07:00",
-      "minutes_to_kickoff": 127.65,
+      "minutes_to_kickoff": 97.12,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -524,7 +475,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785913600-0-0-4415e7f4a6d412035fe106779da7ae52",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785915416-0-0-324cc0e4a8add305b80ed3839611156c",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/e4wyrn1tkw9q86p/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/yl5ergytzojr8k0/image/small",
       "blv": null,
@@ -538,7 +489,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785913623-0-0-cfb7b2ff0a0d78afb991077e57108e12",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785915432-0-0-0a0a10de2b3051539e581e7474c5cac3",
       "match_key": "hanwha life esports vs gen g esports|hd marty",
       "display_name": "[17:00 05/08/2026] Hanwha Life Esports vs Gen G Esports [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -559,7 +510,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-05T17:00:00+07:00",
-      "minutes_to_kickoff": 172.65,
+      "minutes_to_kickoff": 142.12,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -569,7 +520,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785913623-0-0-cfb7b2ff0a0d78afb991077e57108e12",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785915432-0-0-0a0a10de2b3051539e581e7474c5cac3",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/965mk6zt7d5jq1g/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/k82repjtvpxzqep/image/small",
       "blv": null,
@@ -583,7 +534,7 @@
     {
       "source": "colatv",
       "source_label": "ColaTV",
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "url": "https://live05.meung.app/live/82054853.m3u8",
       "match_key": "sk brann women vs kff mitrovica women|rockstar ang xem",
       "display_name": "[15:00 05/08] SK Brann Women vs KFF Mitrovica Women [BLV ROCKSTARĐang xem] [M3U8]",
       "group": "ColaTV",
@@ -599,7 +550,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-05T15:00:00+07:00",
-      "minutes_to_kickoff": 52.65,
+      "minutes_to_kickoff": 22.12,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -609,10 +560,50 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://colatv88xi.cc/video2/output.m3u8",
+      "page_url": "https://live05.meung.app/live/82054853.m3u8",
       "home_logo": null,
       "away_logo": null,
       "blv": "ROCKSTARĐang xem",
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
+    },
+    {
+      "source": "colatv",
+      "source_label": "ColaTV",
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "match_key": "austria wien women vs znk hajduk split women|fanta ang xem",
+      "display_name": "[16:00 05/08] Austria Wien Women vs ZNK Hajduk Split Women [BLV FANTAĐang xem] [M3U8]",
+      "group": "ColaTV",
+      "sport_group": "Bóng đá",
+      "quality": "UNKNOWN",
+      "kind": "m3u8",
+      "playability": "verified",
+      "classification": null,
+      "classification_reason": null,
+      "has_secret": false,
+      "expiry": null,
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 439,
+      "kickoff_iso": "2026-08-05T16:00:00+07:00",
+      "minutes_to_kickoff": 82.12,
+      "metadata_audit": null,
+      "metadata_enriched_from": null,
+      "metadata_warning": null,
+      "stream_key_tokens": null,
+      "logo": "https://img.gvapi.cc/football/team/0454e224a578f2d2fb8e4bafc58e140e.png!w80",
+      "logo_source": null,
+      "logo_enriched_from": null,
+      "logo_is_fallback": null,
+      "entry_mode": "stream",
+      "page_url": "https://colatv88xi.cc/video2/output.m3u8",
+      "home_logo": null,
+      "away_logo": null,
+      "blv": "FANTAĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -624,19 +615,7 @@
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel30.flv",
-      "display_name": "[12:00 05/08/2026] Bnk Fearx Youth vs Kiwoom Drx Challengers [BLV HD MARTY] [FLV]",
-      "match_key": "bnk fearx youth vs kiwoom drx challengers|hd marty",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785913494-0-0-e540506ab97dbd867584c3db5d60356d",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785915303-0-0-35a9fb12eadf8e67639a02316513519d",
       "display_name": "[15:00 05/08/2026] Fredit Brion vs Nongshim Redforce [BLV HD MARTY] [FLV]",
       "match_key": "fredit brion vs nongshim redforce|hd marty",
       "quality": "HD",
@@ -648,7 +627,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785913499-0-0-fa67fe85022a69243a1a98b143fc8781",
+      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001785915312-0-0-bee3fc9ee84628b27977d250bdf2132a",
       "display_name": "[15:00 05/08/2026] Nu Sk Brann vs Nu Mitrovica [BLV HD HIRO] [FLV]",
       "match_key": "nu sk brann vs nu mitrovica|hd hiro",
       "quality": "HD",
@@ -660,7 +639,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel21.flv?auth_key=3000001785913515-0-0-7a8ded3fbddd910753051512536b22c5",
+      "url": "https://live3.procdnlive.com/livecdn/channel21.flv?auth_key=3000001785915322-0-0-91e40ae7dbc53bf635c1d09592769e8f",
       "display_name": "[15:00 05/08/2026] Villarreal vs Levante [BLV HD RAVEN] [FLV]",
       "match_key": "villarreal vs levante|hd raven",
       "quality": "HD",
@@ -672,7 +651,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001785913531-0-0-a9c15e3aaf45237327d5f7f2d19ab44d",
+      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001785915347-0-0-467d2fa69ad58a65b7c8e08abeb185a0",
       "display_name": "[15:30 05/08/2026] Shanghai Port B vs Xian Ronghai Fc [BLV HD JEAN] [FLV]",
       "match_key": "shanghai port b vs xian ronghai fc|hd jean",
       "quality": "HD",
@@ -684,7 +663,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001785913570-0-0-c098124b25d1be9b3bb87e1bc92e1201",
+      "url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001785915379-0-0-be0567bfb96cf3780d1ada010c24b36c",
       "display_name": "[16:00 05/08/2026] Nu Austria Wien vs Nu Hajduk Split [BLV HD RIO] [FLV]",
       "match_key": "nu austria wien vs nu hajduk split|hd rio",
       "quality": "HD",
@@ -696,7 +675,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785913600-0-0-4415e7f4a6d412035fe106779da7ae52",
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001785915416-0-0-324cc0e4a8add305b80ed3839611156c",
       "display_name": "[16:15 05/08/2026] Blackwater Bossing vs Phoenix Fuel Masters [BLV HD ALAN] [FLV]",
       "match_key": "blackwater bossing vs phoenix fuel masters|hd alan",
       "quality": "HD",
@@ -708,7 +687,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785913623-0-0-cfb7b2ff0a0d78afb991077e57108e12",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001785915432-0-0-0a0a10de2b3051539e581e7474c5cac3",
       "display_name": "[17:00 05/08/2026] Hanwha Life Esports vs Gen G Esports [BLV HD MARTY] [FLV]",
       "match_key": "hanwha life esports vs gen g esports|hd marty",
       "quality": "HD",
@@ -720,7 +699,7 @@
     },
     {
       "source": "colatv",
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "url": "https://live05.meung.app/live/82054853.m3u8",
       "display_name": "[15:00 05/08] SK Brann Women vs KFF Mitrovica Women [BLV ROCKSTARĐang xem] [M3U8]",
       "match_key": "sk brann women vs kff mitrovica women|rockstar ang xem",
       "quality": "UNKNOWN",
@@ -732,69 +711,18 @@
     },
     {
       "source": "colatv",
-      "url": "https://live05.meung.app/live/82054853.m3u8",
-      "display_name": "[15:00 05/08] SK Brann Women vs KFF Mitrovica Women [BLV ROCKSTARĐang xem] [M3U8]",
-      "match_key": "sk brann women vs kff mitrovica women|rockstar ang xem",
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "display_name": "[16:00 05/08] Austria Wien Women vs ZNK Hajduk Split Women [BLV FANTAĐang xem] [M3U8]",
+      "match_key": "austria wien women vs znk hajduk split women|fanta ang xem",
       "quality": "UNKNOWN",
-      "playability": "upcoming-pending",
+      "playability": "verified",
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "decision": "dropped-explicitly",
-      "reason": "not-verified-or-not-upcoming"
+      "decision": "selected-fresh",
+      "reason": "selected"
     }
   ],
   "fresh_preservation_ok": true,
-  "dropped": [
-    {
-      "url": "https://live05.meung.app/live/82054853.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "colatv"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/759553.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/771686.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/761549.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/785730.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/829362.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/829880.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/829363.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/829909.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/758916.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    }
-  ],
+  "dropped": [],
   "outputs_written": true
 }
