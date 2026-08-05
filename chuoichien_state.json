@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-05T19:32:13.143301+07:00",
+  "updated_at": "2026-08-05T20:02:01.321683+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -843,13 +843,13 @@
       "url": "https://live04.chuoichientv.me/live/1542346/chelsea-vs-juventus",
       "match_name": "Chelsea vs Juventus - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-05T18:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-05T19:32:13.143139+07:00",
-      "next_scan_at": "2026-08-05T19:37:13.143139+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-05T20:02:01.321485+07:00",
+      "next_scan_at": "2026-08-05T20:07:01.321485+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -857,12 +857,13 @@
       "url": "https://live04.chuoichientv.me/live/1542345/ac-milan-vs-inter",
       "match_name": "AC Milan vs Inter - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-05T18:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-05T19:32:13.143139+07:00",
-      "next_scan_at": "2026-08-05T19:37:13.143139+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-05T20:02:01.321485+07:00",
+      "next_scan_at": "2026-08-05T20:07:01.321485+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
         "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
@@ -908,34 +909,34 @@
     "1547828": {
       "url": "https://live04.chuoichientv.me/live/1547828/grnik-czna-vs-kalisz",
       "match_name": "grnik czna vs kalisz",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-05T19:32:13.143139+07:00",
-      "next_scan_at": "2026-08-05T19:42:13.143139+07:00",
+      "kickoff_iso": "2026-08-05T23:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-05T20:02:01.321485+07:00",
+      "next_scan_at": "2026-08-05T20:47:01.321485+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1585035": {
       "url": "https://live04.chuoichientv.me/live/1585035/lazio-vs-ostia-mare",
       "match_name": "lazio vs ostia mare",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-05T19:32:13.143139+07:00",
-      "next_scan_at": "2026-08-05T19:42:13.143139+07:00",
+      "kickoff_iso": "2026-08-05T23:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-05T20:02:01.321485+07:00",
+      "next_scan_at": "2026-08-05T20:47:01.321485+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1598586": {
       "url": "https://live04.chuoichientv.me/live/1598586/napoli-vs-osasuna",
       "match_name": "napoli vs osasuna",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-05T19:32:13.143139+07:00",
-      "next_scan_at": "2026-08-05T19:42:13.143139+07:00",
+      "last_scan_at": "2026-08-05T20:02:01.321485+07:00",
+      "next_scan_at": "2026-08-05T20:12:01.321485+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -946,8 +947,8 @@
       "match_name": "fenerbahce vs sturm graz",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-05T19:32:13.143139+07:00",
-      "next_scan_at": "2026-08-05T19:42:13.143139+07:00",
+      "last_scan_at": "2026-08-05T20:02:01.321485+07:00",
+      "next_scan_at": "2026-08-05T20:12:01.321485+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -957,9 +958,9 @@
       "url": "https://live04.chuoichientv.me/live/1531071/buxdu-vs-shortan",
       "match_name": "BuxDu vs Shortan - Pro League A",
       "kickoff_iso": "2026-08-05T21:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-05T19:32:13.143139+07:00",
-      "next_scan_at": "2026-08-05T19:52:13.143139+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-05T20:02:01.321485+07:00",
+      "next_scan_at": "2026-08-05T20:22:01.321485+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -969,16 +970,27 @@
       "url": "https://live04.chuoichientv.me/live/1531073/lochin-vs-yaypan",
       "match_name": "Lochin vs Yaypan - Pro League A",
       "kickoff_iso": "2026-08-05T19:30:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-05T19:32:13.143139+07:00",
-      "next_scan_at": "2026-08-05T19:37:13.143139+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-05T20:02:01.321485+07:00",
+      "next_scan_at": "2026-08-05T20:07:01.321485+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
-        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
+        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "1607561": {
+      "url": "https://live04.chuoichientv.me/live/1607561/ferencvarosi-tc-vs-gornik-zabrze",
+      "match_name": "ferencvarosi tc vs gornik zabrze",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-05T20:02:01.321485+07:00",
+      "next_scan_at": "2026-08-05T20:12:01.321485+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
