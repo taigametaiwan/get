@@ -1,50 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-05T20:02:53.254189+07:00",
+  "updated_at": "2026-08-05T20:31:59.170499+07:00",
   "matches": {
-    "791567": {
-      "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-vietnam-03-08-2026-791567",
-      "match_name": "Indonesia vs Việt Nam",
-      "kickoff_iso": "2026-08-03T20:30:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-08-03T22:05:10.076942+07:00",
-      "next_scan_at": "2026-08-03T22:10:10.076942+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "115212": {
-      "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-viet-nam-02-08-2026-115212",
-      "match_name": "Indonesia vs Việt Nam",
-      "kickoff_iso": "2026-08-03T20:30:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-08-03T22:05:10.076942+07:00",
-      "next_scan_at": "2026-08-03T22:10:10.076942+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "115213": {
-      "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-viet-nam-02-08-2026-115213",
-      "match_name": "Indonesia vs Việt Nam",
-      "kickoff_iso": "2026-08-03T20:30:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-08-03T22:05:10.076942+07:00",
-      "next_scan_at": "2026-08-03T22:10:10.076942+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "736660": {
       "url": "https://phaohoa1.live/truc-tiep/okmk-vs-nasaf-qarshi-03-08-2026-736660",
       "match_name": "Okmk vs Nasaf Qarshi",
@@ -315,9 +273,21 @@
       "url": "https://phaohoa1.live/truc-tiep/spartak-moscow-vs-orenburg-05-08-2026-785730",
       "match_name": "05-08 Cup Spartak Moscow VS Orenburg KaKa",
       "kickoff_iso": "2026-08-05T22:30:00+07:00",
-      "minutes_to_kickoff": 177,
-      "last_scan_at": "2026-08-05T19:33:06.411499+07:00",
-      "next_scan_at": "2026-08-05T20:18:06.411499+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-05T20:31:59.170380+07:00",
+      "next_scan_at": "2026-08-05T20:51:59.170380+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "829362": {
+      "url": "https://phaohoa1.live/truc-tiep/aarhus-vs-sabah-baku-05-08-2026-829362",
+      "match_name": "05-08 UEFA Champions League Aarhus VS Sabah Baku Văn Minh",
+      "kickoff_iso": "2026-08-05T23:30:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-05T20:31:59.170380+07:00",
+      "next_scan_at": "2026-08-05T21:16:59.170380+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
