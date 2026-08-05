@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-05T21:32:21.767493+07:00",
+  "updated_at": "2026-08-05T22:02:35.257035+07:00",
   "matches": {
-    "736660": {
-      "url": "https://phaohoa1.live/truc-tiep/okmk-vs-nasaf-qarshi-03-08-2026-736660",
-      "match_name": "Okmk vs Nasaf Qarshi",
-      "kickoff_iso": "2026-08-03T22:00:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-08-03T23:35:02.198033+07:00",
-      "next_scan_at": "2026-08-03T23:40:02.198033+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "718664": {
       "url": "https://phaohoa1.live/truc-tiep/sjk-vs-hjk-03-08-2026-718664",
       "match_name": "SJK vs HJK",
@@ -273,9 +259,9 @@
       "url": "https://phaohoa1.live/truc-tiep/spartak-moscow-vs-orenburg-05-08-2026-785730",
       "match_name": "05-08 Cup Spartak Moscow VS Orenburg KaKa",
       "kickoff_iso": "2026-08-05T22:30:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-05T21:32:21.767318+07:00",
-      "next_scan_at": "2026-08-05T21:52:21.767318+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-05T22:02:35.256915+07:00",
+      "next_scan_at": "2026-08-05T22:12:35.256915+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -285,13 +271,13 @@
       "url": "https://phaohoa1.live/truc-tiep/aarhus-vs-sabah-baku-05-08-2026-829362",
       "match_name": "05-08 UEFA Champions League Aarhus VS Sabah Baku Văn Minh",
       "kickoff_iso": "2026-08-05T23:30:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-05T21:32:21.767318+07:00",
-      "next_scan_at": "2026-08-05T21:52:21.767318+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-05T22:02:35.256915+07:00",
+      "next_scan_at": "2026-08-05T22:22:35.256915+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "829880": {
       "url": "https://phaohoa1.live/truc-tiep/brann-vs-apollon-07-08-2026-829880",
@@ -300,6 +286,18 @@
       "minutes_to_kickoff": 148,
       "last_scan_at": "2026-08-05T21:32:21.767318+07:00",
       "next_scan_at": "2026-08-05T22:17:21.767318+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "829363": {
+      "url": "https://phaohoa1.live/truc-tiep/fenerbahce-vs-sturm-graz-05-08-2026-829363",
+      "match_name": "06-08 UEFA Champions League Fenerbahce VS Sturm Graz Kevin",
+      "kickoff_iso": "2026-08-06T01:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-05T22:02:35.256915+07:00",
+      "next_scan_at": "2026-08-05T22:47:35.256915+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
