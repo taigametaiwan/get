@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-06T00:03:08.257516+07:00",
+  "updated_at": "2026-08-06T00:33:01.475744+07:00",
   "matches": {
     "803075": {
       "url": "https://phaohoa1.live/truc-tiep/celtic-vs-dundee-fc-04-08-2026-803075",
@@ -217,9 +217,9 @@
       "url": "https://phaohoa1.live/truc-tiep/aarhus-vs-sabah-baku-05-08-2026-829362",
       "match_name": "Aarhus vs Sabah Baku",
       "kickoff_iso": "2026-08-05T23:30:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-06T00:03:08.257249+07:00",
-      "next_scan_at": "2026-08-06T00:08:08.257249+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-08-06T00:33:01.475519+07:00",
+      "next_scan_at": "2026-08-06T00:38:01.475519+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -231,9 +231,9 @@
       "url": "https://phaohoa1.live/truc-tiep/brann-vs-apollon-07-08-2026-829880",
       "match_name": "Brann vs Apollon",
       "kickoff_iso": "2026-08-06T00:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-06T00:03:08.257249+07:00",
-      "next_scan_at": "2026-08-06T00:08:08.257249+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-06T00:33:01.475519+07:00",
+      "next_scan_at": "2026-08-06T00:38:01.475519+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -245,21 +245,23 @@
       "url": "https://phaohoa1.live/truc-tiep/fenerbahce-vs-sturm-graz-05-08-2026-829363",
       "match_name": "06-08 UEFA Champions League Fenerbahce VS Sturm Graz Kevin",
       "kickoff_iso": "2026-08-06T01:00:00+07:00",
-      "minutes_to_kickoff": 57,
-      "last_scan_at": "2026-08-06T00:03:08.257249+07:00",
-      "next_scan_at": "2026-08-06T00:23:08.257249+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-06T00:33:01.475519+07:00",
+      "next_scan_at": "2026-08-06T00:38:01.475519+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
       "scan_decision": "browser-fallback"
     },
     "829909": {
       "url": "https://phaohoa1.live/truc-tiep/ferencvaros-vs-gornik-zabrze-07-08-2026-829909",
       "match_name": "Ferencvaros vs Gornik Zabrze",
       "kickoff_iso": "2026-08-06T01:15:00+07:00",
-      "minutes_to_kickoff": 72,
-      "last_scan_at": "2026-08-06T00:03:08.257249+07:00",
-      "next_scan_at": "2026-08-06T00:23:08.257249+07:00",
+      "minutes_to_kickoff": 42,
+      "last_scan_at": "2026-08-06T00:33:01.475519+07:00",
+      "next_scan_at": "2026-08-06T00:43:01.475519+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -269,9 +271,9 @@
       "url": "https://phaohoa1.live/truc-tiep/arsenal-vs-real-betis-06-08-2026-758916",
       "match_name": "06-08 Club Friendlies Arsenal VS Real Betis Ken",
       "kickoff_iso": "2026-08-06T01:30:00+07:00",
-      "minutes_to_kickoff": 87,
-      "last_scan_at": "2026-08-06T00:03:08.257249+07:00",
-      "next_scan_at": "2026-08-06T00:23:08.257249+07:00",
+      "minutes_to_kickoff": 57,
+      "last_scan_at": "2026-08-06T00:33:01.475519+07:00",
+      "next_scan_at": "2026-08-06T00:53:01.475519+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -281,13 +283,13 @@
       "url": "https://phaohoa1.live/truc-tiep/mallorca-vs-psg-06-08-2026-770668",
       "match_name": "06-08 Club Friendlies Mallorca VS PSG Pháo Thủ",
       "kickoff_iso": "2026-08-06T02:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-06T00:03:08.257249+07:00",
-      "next_scan_at": "2026-08-06T00:23:08.257249+07:00",
+      "minutes_to_kickoff": 87,
+      "last_scan_at": "2026-08-06T00:33:01.475519+07:00",
+      "next_scan_at": "2026-08-06T00:53:01.475519+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
