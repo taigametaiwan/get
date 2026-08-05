@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-06T05:01:35.690900+07:00",
+  "updated_at": "2026-08-06T05:31:34.181969+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -962,9 +962,9 @@
       "url": "https://live04.chuoichientv.me/live/1493020/boca-juniors-vs-estudiantes-lp",
       "match_name": "Boca Juniors vs Estudiantes L.P. - VĐQG Argentina",
       "kickoff_iso": "2026-08-06T05:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-06T05:01:35.690824+07:00",
-      "next_scan_at": "2026-08-06T05:06:35.690824+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-06T05:31:34.181886+07:00",
+      "next_scan_at": "2026-08-06T05:36:34.181886+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -977,9 +977,9 @@
       "url": "https://live04.chuoichientv.me/live/1530114/inter-miami-vs-atletico-san-luis",
       "match_name": "Inter Miami vs Atletico San Luis - Leagues Cup",
       "kickoff_iso": "2026-08-06T06:30:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-08-06T05:01:35.690824+07:00",
-      "next_scan_at": "2026-08-06T05:21:35.690824+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-08-06T05:31:34.181886+07:00",
+      "next_scan_at": "2026-08-06T05:51:34.181886+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -988,14 +988,14 @@
     "1493030": {
       "url": "https://live04.chuoichientv.me/live/1493030/tigre-vs-belgrano-cordoba",
       "match_name": "tigre vs belgrano cordoba",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-06T05:01:35.690824+07:00",
-      "next_scan_at": "2026-08-06T05:11:35.690824+07:00",
+      "kickoff_iso": "2026-08-06T07:15:00+07:00",
+      "minutes_to_kickoff": 104,
+      "last_scan_at": "2026-08-06T05:31:34.181886+07:00",
+      "next_scan_at": "2026-08-06T05:51:34.181886+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
