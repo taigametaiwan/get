@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-06T17:31:44.542589+07:00",
+  "updated_at": "2026-08-06T18:01:39.600547+07:00",
   "matches": {
-    "759675": {
-      "url": "https://phaohoa1.live/truc-tiep/jeju-sk-vs-bayern-munich-04-08-2026-759675",
-      "match_name": "Jeju SK vs Bayern Munich",
-      "kickoff_iso": "2026-08-04T18:00:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-08-04T19:34:20.927718+07:00",
-      "next_scan_at": "2026-08-04T19:39:20.927718+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "791569": {
       "url": "https://phaohoa1.live/truc-tiep/philippines-vs-thailand-04-08-2026-791569",
       "match_name": "Philippines vs Thái Lan",
@@ -268,6 +254,18 @@
         "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "736667": {
+      "url": "https://phaohoa1.live/truc-tiep/sogdiana-vs-andijan-06-08-2026-736667",
+      "match_name": "06-08 Super League Sogdiana VS Andijan Pháo Thủ",
+      "kickoff_iso": "2026-08-06T21:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-06T18:01:39.600485+07:00",
+      "next_scan_at": "2026-08-06T18:46:39.600485+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
