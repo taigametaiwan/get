@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-06T07:31:40.478782+07:00",
+  "updated_at": "2026-08-06T08:01:45.777677+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -555,20 +555,6 @@
       "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
-    "1549704": {
-      "url": "https://live04.chuoichientv.me/live/1549704/bucaramanga-vs-cucuta",
-      "match_name": "Bucaramanga vs Cucuta - VĐQG Colombia",
-      "kickoff_iso": "2026-08-04T08:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-04T09:31:32.794305+07:00",
-      "next_scan_at": "2026-08-04T09:36:32.794305+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1563640": {
       "url": "https://live04.chuoichientv.me/live/1563640/rodina-moskva-vs-rubin",
       "match_name": "Rodina Moskva vs Rubin - Cúp Nga",
@@ -960,9 +946,9 @@
       "url": "https://live04.chuoichientv.me/live/1530114/inter-miami-vs-atletico-san-luis",
       "match_name": "Inter Miami vs Atletico San Luis - Leagues Cup",
       "kickoff_iso": "2026-08-06T06:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-06T07:31:40.476763+07:00",
-      "next_scan_at": "2026-08-06T07:36:40.476763+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-06T08:01:45.777603+07:00",
+      "next_scan_at": "2026-08-06T08:06:45.777603+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -975,15 +961,27 @@
       "url": "https://live04.chuoichientv.me/live/1493030/tigre-vs-belgrano-cordoba",
       "match_name": "Tigre vs Belgrano Cordoba - VĐQG Argentina",
       "kickoff_iso": "2026-08-06T07:15:00+07:00",
-      "minutes_to_kickoff": -16,
-      "last_scan_at": "2026-08-06T07:31:40.476763+07:00",
-      "next_scan_at": "2026-08-06T07:36:40.476763+07:00",
+      "minutes_to_kickoff": -46,
+      "last_scan_at": "2026-08-06T08:01:45.777603+07:00",
+      "next_scan_at": "2026-08-06T08:06:45.777603+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://gckc0525.edgemaxcdn.org/live/chuoito.flv"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "1534815": {
+      "url": "https://live04.chuoichientv.me/live/1534815/aktobe-jas-vs-ekibastuz",
+      "match_name": "aktobe jas vs ekibastuz",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-06T08:01:45.777603+07:00",
+      "next_scan_at": "2026-08-06T08:11:45.777603+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
