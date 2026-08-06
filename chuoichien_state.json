@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-06T22:31:56.567460+07:00",
+  "updated_at": "2026-08-07T06:04:35.708962+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -446,42 +446,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1605370": {
-      "url": "https://live04.chuoichientv.me/live/1605370/ararat-armenia-vs-celje",
-      "match_name": "Ararat-Armenia vs Celje - UEFA Champions League",
-      "kickoff_iso": "2026-08-04T23:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-04T23:03:31.194056+07:00",
-      "next_scan_at": "2026-08-04T23:08:31.194056+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
-    "1607168": {
-      "url": "https://live04.chuoichientv.me/live/1607168/mjallby-vs-slovan-bratislava",
-      "match_name": "Mjallby vs Slovan Bratislava - UEFA Champions League",
-      "kickoff_iso": "2026-08-04T23:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-04T23:03:31.194056+07:00",
-      "next_scan_at": "2026-08-04T23:08:31.194056+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
-    "1607573": {
-      "url": "https://live04.chuoichientv.me/live/1607573/auda-vs-dinamo-tirana",
-      "match_name": "Auda vs Dinamo Tirana - UEFA Europa Conference League",
-      "kickoff_iso": "2026-08-04T23:00:00+07:00",
-      "minutes_to_kickoff": -391,
-      "last_scan_at": "2026-08-05T05:31:42.822655+07:00",
-      "next_scan_at": "2026-08-05T05:36:42.822655+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
     },
     "1607166": {
       "url": "https://live04.chuoichientv.me/live/1607166/hapoel-beer-sheva-vs-fk-crvena-zvezda",
@@ -977,11 +941,110 @@
     },
     "1493031": {
       "url": "https://live04.chuoichientv.me/live/1493031/union-santa-fe-vs-lanus",
-      "match_name": "union santa fe vs lanus",
+      "match_name": "Union Santa Fe vs Lanus - VĐQG Argentina",
+      "kickoff_iso": "2026-08-07T05:00:00+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-08-07T06:04:35.708320+07:00",
+      "next_scan_at": "2026-08-07T06:09:35.708320+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
+        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1530119": {
+      "url": "https://live04.chuoichientv.me/live/1530119/austin-vs-club-tijuana",
+      "match_name": "austin vs club tijuana",
+      "kickoff_iso": "2026-08-07T08:00:00+07:00",
+      "minutes_to_kickoff": 116,
+      "last_scan_at": "2026-08-07T06:04:35.708320+07:00",
+      "next_scan_at": "2026-08-07T06:24:35.708320+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1530122": {
+      "url": "https://live04.chuoichientv.me/live/1530122/new-york-city-fc-vs-santos-laguna",
+      "match_name": "New York City FC vs Santos Laguna - Leagues Cup",
+      "kickoff_iso": "2026-08-07T06:30:00+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-07T06:04:35.708320+07:00",
+      "next_scan_at": "2026-08-07T06:14:35.708320+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "1548351": {
+      "url": "https://live04.chuoichientv.me/live/1548351/cd-motagua-vs-fas",
+      "match_name": "cd motagua vs fas",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-06T22:31:56.567294+07:00",
-      "next_scan_at": "2026-08-06T22:41:56.567294+07:00",
+      "last_scan_at": "2026-08-07T06:04:35.708320+07:00",
+      "next_scan_at": "2026-08-07T06:14:35.708320+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "993549": {
+      "url": "https://live04.chuoichientv.me/live/993549/indonesia-w-vs-vietnam-w",
+      "match_name": "indonesia w vs vietnam w",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-07T06:04:35.708320+07:00",
+      "next_scan_at": "2026-08-07T06:14:35.708320+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1524092": {
+      "url": "https://live04.chuoichientv.me/live/1524092/lions-vs-brisbane-roar-ii",
+      "match_name": "lions vs brisbane roar ii",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-07T06:04:35.708320+07:00",
+      "next_scan_at": "2026-08-07T06:14:35.708320+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "993374": {
+      "url": "https://live04.chuoichientv.me/live/993374/philippines-w-vs-thailand-w",
+      "match_name": "philippines w vs thailand w",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-07T06:04:35.708320+07:00",
+      "next_scan_at": "2026-08-07T06:14:35.708320+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1553999": {
+      "url": "https://live04.chuoichientv.me/live/1553999/yokohama-f-marinos-vs-kashima",
+      "match_name": "yokohama f marinos vs kashima",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-07T06:04:35.708320+07:00",
+      "next_scan_at": "2026-08-07T06:14:35.708320+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1523227": {
+      "url": "https://live04.chuoichientv.me/live/1523227/beijing-guoan-vs-sichuan-jiuniu",
+      "match_name": "beijing guoan vs sichuan jiuniu",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-07T06:04:35.708320+07:00",
+      "next_scan_at": "2026-08-07T06:14:35.708320+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
