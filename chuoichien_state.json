@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-07T20:02:08.640180+07:00",
+  "updated_at": "2026-08-07T20:31:56.474166+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -983,13 +983,14 @@
       "url": "https://live04.chuoichientv.me/live/1542348/bayern-mnchen-vs-aston-villa",
       "match_name": "Bayern München vs Aston Villa - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-07T19:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-07T20:02:08.640046+07:00",
-      "next_scan_at": "2026-08-07T20:07:08.640046+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-07T20:31:56.473962+07:00",
+      "next_scan_at": "2026-08-07T20:36:56.473962+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
+        "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
+        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -997,13 +998,14 @@
       "url": "https://live04.chuoichientv.me/live/1548100/singapore-vs-indonesia",
       "match_name": "Singapore vs Indonesia - AFF Championship",
       "kickoff_iso": "2026-08-07T20:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-07T20:02:08.640046+07:00",
-      "next_scan_at": "2026-08-07T20:07:08.640046+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-07T20:31:56.473962+07:00",
+      "next_scan_at": "2026-08-07T20:36:56.473962+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao.flv"
+        "https://gckc0525.edgemaxcdn.org/live/angao.flv",
+        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1011,9 +1013,9 @@
       "url": "https://live04.chuoichientv.me/live/1548101/vit-nam-vs-cambodia",
       "match_name": "Việt Nam vs Cambodia - AFF Championship",
       "kickoff_iso": "2026-08-07T20:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-07T20:02:08.640046+07:00",
-      "next_scan_at": "2026-08-07T20:07:08.640046+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-07T20:31:56.473962+07:00",
+      "next_scan_at": "2026-08-07T20:36:56.473962+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1023,15 +1025,15 @@
     },
     "1516096": {
       "url": "https://live04.chuoichientv.me/live/1516096/xorazm-vs-mashal",
-      "match_name": "xorazm vs mashal",
+      "match_name": "Xorazm vs Mash'al - VĐQG Uzbekistan",
       "kickoff_iso": "2026-08-07T22:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-07T20:02:08.640046+07:00",
-      "next_scan_at": "2026-08-07T20:22:08.640046+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-07T20:31:56.473962+07:00",
+      "next_scan_at": "2026-08-07T20:51:56.473962+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1558170": {
       "url": "https://live04.chuoichientv.me/live/1558170/polonia-bytom-vs-pogo-siedlce",
@@ -1050,8 +1052,8 @@
       "match_name": "fulham vs crystal palace",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-07T20:02:08.640046+07:00",
-      "next_scan_at": "2026-08-07T20:12:08.640046+07:00",
+      "last_scan_at": "2026-08-07T20:31:56.473962+07:00",
+      "next_scan_at": "2026-08-07T20:41:56.473962+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1062,8 +1064,8 @@
       "match_name": "vfl bochum vs hertha bsc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-07T20:02:08.640046+07:00",
-      "next_scan_at": "2026-08-07T20:12:08.640046+07:00",
+      "last_scan_at": "2026-08-07T20:31:56.473962+07:00",
+      "next_scan_at": "2026-08-07T20:41:56.473962+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1072,22 +1074,34 @@
     "1495751": {
       "url": "https://live04.chuoichientv.me/live/1495751/sjk-vs-gnistan",
       "match_name": "sjk vs gnistan",
-      "kickoff_iso": "2026-08-07T23:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-07T20:02:08.640046+07:00",
-      "next_scan_at": "2026-08-07T20:47:08.640046+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-07T20:31:56.473962+07:00",
+      "next_scan_at": "2026-08-07T20:41:56.473962+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1567419": {
       "url": "https://live04.chuoichientv.me/live/1567419/wolves-vs-port-vale",
       "match_name": "wolves vs port vale",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-07T20:02:08.640046+07:00",
-      "next_scan_at": "2026-08-07T20:12:08.640046+07:00",
+      "last_scan_at": "2026-08-07T20:31:56.473962+07:00",
+      "next_scan_at": "2026-08-07T20:41:56.473962+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1567407": {
+      "url": "https://live04.chuoichientv.me/live/1567407/middlesbrough-vs-wrexham",
+      "match_name": "middlesbrough vs wrexham",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-07T20:31:56.473962+07:00",
+      "next_scan_at": "2026-08-07T20:41:56.473962+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
