@@ -11,7 +11,7 @@ https://gckc0525.edgemaxcdn.org/live/angao.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8
-#EXTINF:-1 tvg-id="chuoichien-1567419-1" tvg-name="[01:45 08/08] wolves vs port vale" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125546_9f69a4f1.png",[01:45 08/08] wolves vs port vale [FHD FLV]
+#EXTINF:-1 tvg-id="chuoichien-1567419-1" tvg-name="[01:45 08/08] Wolves vs Port Vale - Cúp Liên đoàn Anh" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125546_9f69a4f1.png",[01:45 08/08] Wolves vs Port Vale - Cúp Liên đoàn Anh [FHD FLV]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
@@ -29,110 +29,82 @@ https://gckc0525.edgemaxcdn.org/live/chuoichao.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2830/estoril-famalicao-porliga/?s8_live_fixture_id=2830&s8_live_stream_key=estoril-famalicao-porliga&s8_auto_sound=1","Origin":"https://radio-capital.io"}
 https://hls.lauthaitv.cc/live/estoril-famalicao-porliga/index.m3u8
+#EXTINF:-1 tvg-id="gavang-2828-1" tvg-name="Cambuur VS Excelsior" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-json/s8-image/c7701738-bc9c-47fa-8a27-43a1f7cb16a3",Cambuur VS Excelsior [M3U8]
+#EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2828/cambuur-excelsior-ned/?s8_live_fixture_id=2828&s8_live_stream_key=cambuur-excelsior-ned&s8_auto_sound=1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2828/cambuur-excelsior-ned/?s8_live_fixture_id=2828&s8_live_stream_key=cambuur-excelsior-ned&s8_auto_sound=1","Origin":"https://radio-capital.io"}
+https://hls.lauthaitv.cc/live/cambuur-excelsior-ned/index.m3u8
 #EXTINF:-1 tvg-id="gavang-2829-1" tvg-name="[CHƯA CÓ GIỜ 08/08] EFL Cup - Wolverhampton Wanderers VS Port Vale [BLV NGƯỜI NẶN]" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-content/uploads/2026/04/logo-gavangtv.png",[CHƯA CÓ GIỜ 08/08] EFL Cup - Wolverhampton Wanderers VS Port Vale [BLV NGƯỜI NẶN] [M3U8]
 #EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2829/wolve-portvale-efl/?s8_live_fixture_id=2829&s8_live_stream_key=wolve-portvale-efl&s8_auto_sound=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2829/wolve-portvale-efl/?s8_live_fixture_id=2829&s8_live_stream_key=wolve-portvale-efl&s8_auto_sound=1","Origin":"https://radio-capital.io"}
 https://hls.lauthaitv.cc/live/wolve-portvale-efl/index.m3u8
-#EXTINF:-1 tvg-id="gavang-2828-1" tvg-name="[CHƯA CÓ GIỜ 08/08] NED Eredivisie - SC Cambuur Leeuwarden VS Excelsior SBV [BLV NGƯỜI CHÈ]" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-json/s8-image/c7701738-bc9c-47fa-8a27-43a1f7cb16a3",[CHƯA CÓ GIỜ 08/08] NED Eredivisie - SC Cambuur Leeuwarden VS Excelsior SBV [BLV NGƯỜI CHÈ] [M3U8]
-#EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2828/cambuur-excelsior-ned/?s8_live_fixture_id=2828&s8_live_stream_key=cambuur-excelsior-ned&s8_auto_sound=1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2828/cambuur-excelsior-ned/?s8_live_fixture_id=2828&s8_live_stream_key=cambuur-excelsior-ned&s8_auto_sound=1","Origin":"https://radio-capital.io"}
-https://hls.lauthaitv.cc/live/cambuur-excelsior-ned/index.m3u8
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-team-heretics-vs-fnatic-luc-0015-ngay-08-08-2026-s1-9" tvg-name="[00:15 08/08/2026] Team Heretics vs Fnatic [BLV HD MARTY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/lol/team/l5erg5efo92lm8k/image/small",[00:15 08/08/2026] Team Heretics vs Fnatic [BLV HD MARTY] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel30.flv
-#EXTINF:-1 tvg-id="xoilac-tiep-mirra-andreeva-vs-leylah-fernandez-luc-0040-ngay-08-08-2026-s1-8" tvg-name="[00:40 08/08/2026] Mirra Andreeva vs Leylah Fernandez [BLV HD LUCAS] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/y39mpyfol52mojx/image/small",[00:40 08/08/2026] Mirra Andreeva vs Leylah Fernandez [BLV HD LUCAS] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel31.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-fc-ut-arad-vs-fc-rapid-1923-luc-0100-ngay-08-08-2026-s1-5" tvg-name="[01:00 08/08/2026] Fc Ut Arad vs Fc Rapid 1923 [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whk9jdryox/image/small",[01:00 08/08/2026] Fc Ut Arad vs Fc Rapid 1923 [BLV HD FELIX] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-fc-ut-arad-vs-fc-rapid-1923-luc-0100-ngay-08-08-2026-s1-8" tvg-name="[01:00 08/08/2026] Fc Ut Arad vs Fc Rapid 1923 [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whk9jdryox/image/small",[01:00 08/08/2026] Fc Ut Arad vs Fc Rapid 1923 [BLV HD FELIX] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel24.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-sc-cambuur-vs-excelsior-sbv-luc-0100-ngay-08-08-2026-s1-6" tvg-name="[01:00 08/08/2026] Sc Cambuur vs Excelsior Sbv [BLV HD JOHAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4zp5rzghegzq82w/image/small",[01:00 08/08/2026] Sc Cambuur vs Excelsior Sbv [BLV HD JOHAN] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel12.flv
-#EXTINF:-1 tvg-id="xoilac--tiep-levski-sofia-vs-lokomotiv-plovdiv-luc-0115-ngay-08-08-2026-s1-4" tvg-name="[01:15 08/08/2026] Levski Sofia vs Lokomotiv Plovdiv [BLV HD OLER] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhzjgqg8n/image/small",[01:15 08/08/2026] Levski Sofia vs Lokomotiv Plovdiv [BLV HD OLER] [FLV]
+#EXTINF:-1 tvg-id="xoilac--tiep-levski-sofia-vs-lokomotiv-plovdiv-luc-0115-ngay-08-08-2026-s1-7" tvg-name="[01:15 08/08/2026] Levski Sofia vs Lokomotiv Plovdiv [BLV HD OLER] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhzjgqg8n/image/small",[01:15 08/08/2026] Levski Sofia vs Lokomotiv Plovdiv [BLV HD OLER] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel28.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-vfl-bochum-vs-hertha-berlin-luc-0130-ngay-08-08-2026-s1-10" tvg-name="[01:30 08/08/2026] Vfl Bochum vs Hertha Berlin [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kn54qllhy10qvy9/image/small",[01:30 08/08/2026] Vfl Bochum vs Hertha Berlin [BLV HD ZANE] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-vfl-bochum-vs-hertha-berlin-luc-0130-ngay-08-08-2026-s1-5" tvg-name="[01:30 08/08/2026] Vfl Bochum vs Hertha Berlin [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kn54qllhy10qvy9/image/small",[01:30 08/08/2026] Vfl Bochum vs Hertha Berlin [BLV HD ZANE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel22.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-wisla-krakow-vs-wisla-plock-luc-0130-ngay-08-08-2026-s1-11" tvg-name="[01:30 08/08/2026] Wisla Krakow vs Wisla Plock [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9k82rekh413repz/image/small",[01:30 08/08/2026] Wisla Krakow vs Wisla Plock [BLV HD POLO] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-wisla-krakow-vs-wisla-plock-luc-0130-ngay-08-08-2026-s1-6" tvg-name="[01:30 08/08/2026] Wisla Krakow vs Wisla Plock [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9k82rekh413repz/image/small",[01:30 08/08/2026] Wisla Krakow vs Wisla Plock [BLV HD POLO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel10.flv
-#EXTINF:-1 tvg-id="xoilac-ruc-tiep-vitesse-arnhem-vs-rkc-waalwijk-luc-0100-ngay-08-08-2026-s0-7" tvg-name="[01:00 08/08/2026] Vitesse Arnhem vs Rkc Waalwijk [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnh0ynm7vx/image/small",[01:00 08/08/2026] Vitesse Arnhem vs Rkc Waalwijk [FLV]
+#EXTINF:-1 tvg-id="xoilac-ruc-tiep-vitesse-arnhem-vs-rkc-waalwijk-luc-0100-ngay-08-08-2026-s0-9" tvg-name="[01:00 08/08/2026] Vitesse Arnhem vs Rkc Waalwijk [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnh0ynm7vx/image/small",[01:00 08/08/2026] Vitesse Arnhem vs Rkc Waalwijk [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel21.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-wolverhampton-vs-port-vale-luc-0145-ngay-08-08-2026-s1-2" tvg-name="[01:45 08/08/2026] Wolverhampton vs Port Vale [BLV HD MAX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7he51qdyj/image/small",[01:45 08/08/2026] Wolverhampton vs Port Vale [BLV HD MAX] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-wolverhampton-vs-port-vale-luc-0145-ngay-08-08-2026-s1-3" tvg-name="[01:45 08/08/2026] Wolverhampton vs Port Vale [BLV HD MAX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7he51qdyj/image/small",[01:45 08/08/2026] Wolverhampton vs Port Vale [BLV HD MAX] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel6.flv
-#EXTINF:-1 tvg-id="xoilac--wycombe-wanderers-vs-stevenage-borough-luc-0145-ngay-08-08-2026-s1-3" tvg-name="[01:45 08/08/2026] Wycombe Wanderers vs Stevenage Borough [BLV HD RIO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kn54qllhgkxqvy9/image/small",[01:45 08/08/2026] Wycombe Wanderers vs Stevenage Borough [BLV HD RIO] [FLV]
+#EXTINF:-1 tvg-id="xoilac--wycombe-wanderers-vs-stevenage-borough-luc-0145-ngay-08-08-2026-s1-4" tvg-name="[01:45 08/08/2026] Wycombe Wanderers vs Stevenage Borough [BLV HD RIO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kn54qllhgkxqvy9/image/small",[01:45 08/08/2026] Wycombe Wanderers vs Stevenage Borough [BLV HD RIO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel16.flv
-#EXTINF:-1 tvg-id="colatv-73151f01cf4f-1" tvg-name="[01:00 08/08] Cambuur vs Excelsior [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/57b4c68789a8bedcb43174f5f4eb164a.png!w80",[01:00 08/08] Cambuur vs Excelsior [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/07808742.m3u8
-#EXTINF:-1 tvg-id="colatv-15aa554fa4a2-1" tvg-name="[01:30 08/08] VfL Bochum 1848 vs Hertha Berlin [BLV PEPSIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/51e1cbc15a7ae90e176b1c1dfb096928.png!w80",[01:30 08/08] VfL Bochum 1848 vs Hertha Berlin [BLV PEPSIĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-6189647a98c5-1" tvg-name="[01:30 08/08] VfL Bochum 1848 vs Hertha Berlin [BLV PEPSIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/51e1cbc15a7ae90e176b1c1dfb096928.png!w80",[01:30 08/08] VfL Bochum 1848 vs Hertha Berlin [BLV PEPSIĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/59444581.m3u8
-#EXTINF:-1 tvg-id="colatv-2e5dd41f5b4b-1" tvg-name="[01:45 08/08] Club Brugge vs KV Kortrijk [BLV 247Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2e9f652d28ec91e0b66c0b714bff8d78.png!w80",[01:45 08/08] Club Brugge vs KV Kortrijk [BLV 247Đang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-3549eab32d4f-1" tvg-name="[01:45 08/08] Club Brugge vs KV Kortrijk [BLV 247Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2e9f652d28ec91e0b66c0b714bff8d78.png!w80",[01:45 08/08] Club Brugge vs KV Kortrijk [BLV 247Đang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/90865415.m3u8
-#EXTINF:-1 tvg-id="colatv-5237c2cb3161-1" tvg-name="[01:45 08/08] Wolverhampton Wanderers vs Port Vale [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/5759932ca2512c6701d86dfbd58380a7.png!w80",[01:45 08/08] Wolverhampton Wanderers vs Port Vale [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
+#EXTINF:-1 tvg-id="colatv-5237c2cb3161-1" tvg-name="[01:45 08/08] Wolverhampton Wanderers vs Port Vale [BLV KHÔNG ĐỘĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/5759932ca2512c6701d86dfbd58380a7.png!w80",[01:45 08/08] Wolverhampton Wanderers vs Port Vale [BLV KHÔNG ĐỘĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
