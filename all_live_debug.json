@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-08T04:07:23.538045+07:00",
+  "generated_at": "2026-08-08T04:36:11.808913+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -58,14 +58,14 @@
       "label": "Gà Vàng",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 34,
-      "playlist_blocks": 1,
+      "debug_rows": 32,
+      "playlist_blocks": 0,
       "catalog_placeholders": 0,
       "metadata_references": 0,
       "included": true,
-      "fresh_stream_blocks": 1,
-      "fresh_verified_blocks": 1,
-      "fresh_selected": 1,
+      "fresh_stream_blocks": 0,
+      "fresh_verified_blocks": 0,
+      "fresh_selected": 0,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -98,21 +98,20 @@
       "label": "ColaTV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 107,
-      "playlist_blocks": 3,
+      "debug_rows": 113,
+      "playlist_blocks": 1,
       "catalog_placeholders": 0,
-      "metadata_references": 101,
+      "metadata_references": 108,
       "included": true,
-      "fresh_stream_blocks": 3,
-      "fresh_verified_blocks": 2,
-      "fresh_selected": 2,
-      "fresh_explicitly_dropped": 1,
+      "fresh_stream_blocks": 1,
+      "fresh_verified_blocks": 1,
+      "fresh_selected": 1,
+      "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
       "unresolved": 0,
       "integrity_ok": true,
-      "fresh_unverified_blocks": 1,
-      "integrity_warning": "fresh-unverified-streams-explicitly-decided"
+      "fresh_unverified_blocks": 0
     },
     {
       "key": "phaohoa",
@@ -135,59 +134,11 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 19,
-  "metadata_reference_count": 204,
-  "last_good_recovered_count": 0,
-  "last_good_suppressed_by_fresh_count": 4,
+  "input_candidates": 17,
+  "metadata_reference_count": 211,
+  "last_good_recovered_count": 1,
+  "last_good_suppressed_by_fresh_count": 2,
   "last_good_audit": [
-    {
-      "url": "https://hls.lauthaitv.cc/live/estoril-famalicao-porliga/index.m3u8",
-      "kept": true,
-      "reason": "HTTP 206; m3u8=True",
-      "source": "gavang"
-    },
-    {
-      "url": "https://hls.lauthaitv.cc/live/cambuur-excelsior-ned/index.m3u8",
-      "kept": false,
-      "reason": "HTTP 404",
-      "source": "gavang"
-    },
-    {
-      "url": "https://hls.lauthaitv.cc/live/wolve-portvale-efl/index.m3u8",
-      "kept": false,
-      "reason": "HTTP 404",
-      "source": "gavang"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel6.flv",
-      "kept": false,
-      "reason": "HTTP 404",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel9.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
-      "source": "chuoichien"
-    },
-    {
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoida.flv",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
-      "source": "chuoichien"
-    },
-    {
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoida/playlist.m3u8",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
-      "source": "chuoichien"
-    },
     {
       "url": "https://live2.streambylivepulse.com/live/channel24.flv",
       "kept": true,
@@ -195,64 +146,52 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786134985-0-0-810a71792887bfaa01f7cd422724b466",
+      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786136811-0-0-18154083bce77304bbed4a750dedbdec",
       "kept": false,
       "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel21.flv",
+      "url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786136812-0-0-cb6f8945410ca5df57da14d31b10e813",
       "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
       "source": "xoilac"
     },
     {
-      "url": "https://live05.meung.app/live/75915087.m3u8",
+      "url": "https://live3.procdnlive.com/livecdn/channel22.flv?auth_key=3000001786136803-0-0-dfaba35bfd37b78669406714397e8c0f",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786136820-0-0-5e8ad1926801e046c12511bf5e1120ac",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel9.flv",
       "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel16.flv",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
+      "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel11.flv",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/90865415.m3u8",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/99121525.m3u8",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/41943555.m3u8",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "kept": true,
+      "reason": "HTTP 206; m3u8=True",
       "source": "colatv"
     },
     {
       "url": "https://hls.lauthaitv.cc/live/estoril-famalicao-porliga/index.m3u8",
       "kept": false,
-      "reason": "fresh-source-replaces-last-good",
+      "reason": "HTTP 404",
       "source": "gavang"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel9.flv",
+      "url": "https://live05.meung.app/live/75915087.m3u8",
       "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
+      "reason": "TimeoutError: The read operation timed out",
+      "source": "colatv"
     },
     {
       "url": "https://live2.streambylivepulse.com/live/channel24.flv",
@@ -261,69 +200,25 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live05.meung.app/live/75915087.m3u8",
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     }
   ],
-  "selected_count": 9,
-  "dropped_count": 10,
+  "selected_count": 8,
+  "dropped_count": 9,
   "gavang_metadata": {
-    "enriched": 1,
+    "enriched": 0,
     "warn_only": 0,
     "already_good": 0
   },
   "gavang_logo": {
-    "team_logo": 1,
+    "team_logo": 0,
     "source_fallback": 0,
     "repaired_invalid": 0
   },
   "channels": [
-    {
-      "source": "gavang",
-      "source_label": "Gà Vàng",
-      "url": "https://hls.lauthaitv.cc/live/estoril-famalicao-porliga/index.m3u8",
-      "match_key": "liga portugal estoril vs fc famalicao|nguoi soi",
-      "display_name": "[02:15 08/08] Liga Portugal - Estoril VS FC Famalicao [BLV NGƯỜI SÓI] [M3U8]",
-      "group": "Gà Vàng",
-      "sport_group": "Bóng đá",
-      "quality": "UNKNOWN",
-      "kind": "m3u8",
-      "playability": "verified",
-      "classification": null,
-      "classification_reason": null,
-      "has_secret": false,
-      "expiry": null,
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 431,
-      "kickoff_iso": "2026-08-08T02:15:00+07:00",
-      "minutes_to_kickoff": -112.39,
-      "metadata_audit": "enriched-soft",
-      "metadata_enriched_from": "xoilac",
-      "metadata_warning": null,
-      "stream_key_tokens": [
-        "estoril",
-        "famalicao",
-        "porliga"
-      ],
-      "logo": "https://imgts.sportpulseapiz.com/football/team/z318q66h548qo9j/image/small",
-      "logo_source": "team-from-xoilac",
-      "logo_enriched_from": "xoilac",
-      "logo_is_fallback": false,
-      "entry_mode": "stream",
-      "page_url": "https://hls.lauthaitv.cc/live/estoril-famalicao-porliga/index.m3u8",
-      "home_logo": null,
-      "away_logo": null,
-      "blv": "NGƯỜI SÓI",
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
@@ -331,7 +226,7 @@
       "match_key": "estoril vs fc famalicao|hd toni",
       "display_name": "[02:15 08/08/2026] Estoril vs Fc Famalicao [BLV HD TONI] [FLV]",
       "group": "Xôi Lạc",
-      "sport_group": "VĐQG Bồ Đào Nha",
+      "sport_group": "Xôi Lạc",
       "quality": "HD",
       "kind": "flv",
       "playability": "verified",
@@ -346,9 +241,9 @@
       },
       "derived_pending": false,
       "pending_reason": null,
-      "score": 456,
+      "score": 405,
       "kickoff_iso": "2026-08-08T02:15:00+07:00",
-      "minutes_to_kickoff": -112.39,
+      "minutes_to_kickoff": -141.2,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -362,12 +257,12 @@
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/z318q66h548qo9j/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h3yk3mojx/image/small",
       "blv": null,
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 200; flv=True",
+      "prior_generated_at": "2026-08-08T04:07:23.538045+07:00"
     },
     {
       "source": "xoilac",
@@ -393,7 +288,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-08T03:15:00+07:00",
-      "minutes_to_kickoff": -52.39,
+      "minutes_to_kickoff": -81.2,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -417,7 +312,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel22.flv?auth_key=3000001786136803-0-0-dfaba35bfd37b78669406714397e8c0f",
+      "url": "https://live3.procdnlive.com/livecdn/channel22.flv?auth_key=3000001786138512-0-0-4efbbf6fd9026dc69b50c7e9e5eab5f5",
       "match_key": "ca rosario central vs aldosivi|hd zane",
       "display_name": "[05:30 08/08/2026] Ca Rosario Central vs Aldosivi [BLV HD ZANE] [FLV]",
       "group": "Xôi Lạc",
@@ -438,7 +333,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-08T05:30:00+07:00",
-      "minutes_to_kickoff": 82.61,
+      "minutes_to_kickoff": 53.8,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -448,7 +343,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel22.flv?auth_key=3000001786136803-0-0-dfaba35bfd37b78669406714397e8c0f",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel22.flv?auth_key=3000001786138512-0-0-4efbbf6fd9026dc69b50c7e9e5eab5f5",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hoxyq0j6/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlho01ryk0/image/small",
       "blv": null,
@@ -462,7 +357,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786136811-0-0-18154083bce77304bbed4a750dedbdec",
+      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786138528-0-0-dd054e1f1770be4f851488e653c41746",
       "match_key": "forge fc vs vancouver fc|hd toni",
       "display_name": "[06:00 08/08/2026] Forge Fc vs Vancouver Fc [BLV HD TONI] [FLV]",
       "group": "Xôi Lạc",
@@ -483,7 +378,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-08T06:00:00+07:00",
-      "minutes_to_kickoff": 112.61,
+      "minutes_to_kickoff": 83.8,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -493,7 +388,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786136811-0-0-18154083bce77304bbed4a750dedbdec",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786138528-0-0-dd054e1f1770be4f851488e653c41746",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/2y8m4zhgdjdql07/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/l5ergphnywlr8k0/image/small",
       "blv": null,
@@ -507,7 +402,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786136812-0-0-cb6f8945410ca5df57da14d31b10e813",
+      "url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786138531-0-0-faa71a8d45e3ee6f77e3d75b939cebc8",
       "match_key": "inter miami b vs crown legacy fc|hd polo",
       "display_name": "[06:00 08/08/2026] Inter Miami B vs Crown Legacy Fc [BLV HD POLO] [FLV]",
       "group": "Xôi Lạc",
@@ -528,7 +423,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-08T06:00:00+07:00",
-      "minutes_to_kickoff": 112.61,
+      "minutes_to_kickoff": 83.8,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -538,7 +433,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786136812-0-0-cb6f8945410ca5df57da14d31b10e813",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786138531-0-0-faa71a8d45e3ee6f77e3d75b939cebc8",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4hvzgvq86p/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhzeyoryk0/image/small",
       "blv": null,
@@ -552,7 +447,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786136820-0-0-5e8ad1926801e046c12511bf5e1120ac",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786138544-0-0-dfbf92f49315edd7e3e36a8e840bdaa9",
       "match_key": "nu mystics vs nu atlanta dream|hd tommy",
       "display_name": "[06:30 08/08/2026] Nu Mystics vs Nu Atlanta Dream [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -573,7 +468,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-08T06:30:00+07:00",
-      "minutes_to_kickoff": 142.61,
+      "minutes_to_kickoff": 113.8,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -583,7 +478,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786136820-0-0-5e8ad1926801e046c12511bf5e1120ac",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786138544-0-0-dfbf92f49315edd7e3e36a8e840bdaa9",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/l965mk8t9j0m1ge/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/9dn1m17tzdgmoep/image/small",
       "blv": null,
@@ -595,38 +490,43 @@
       "prior_generated_at": null
     },
     {
-      "source": "colatv",
-      "source_label": "ColaTV",
-      "url": "https://live05.meung.app/live/75915087.m3u8",
-      "match_key": "estoril vs fc famalicao|monster ang xem",
-      "display_name": "[02:15 08/08] Estoril vs FC Famalicao [BLV MONSTERĐang xem] [M3U8]",
-      "group": "ColaTV",
-      "sport_group": "Bóng đá",
-      "quality": "UNKNOWN",
-      "kind": "m3u8",
+      "source": "xoilac",
+      "source_label": "Xôi Lạc",
+      "url": "https://live3.procdnlive.com/livecdn/channel33.flv?auth_key=3000001786138563-0-0-01879fe7e0f38406c10d461daf5a0dfc",
+      "match_key": "argentina vs chile|hd tyson",
+      "display_name": "[07:30 08/08/2026] Argentina vs Chile [BLV HD TYSON] [FLV]",
+      "group": "Xôi Lạc",
+      "sport_group": "Copa América",
+      "quality": "HD",
+      "kind": "flv",
       "playability": "verified",
-      "classification": null,
-      "classification_reason": null,
+      "classification": "verified_unsigned",
+      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
       "has_secret": false,
-      "expiry": null,
+      "expiry": {
+        "timestamp": null,
+        "utc": "",
+        "vietnam": "",
+        "seconds_left": null
+      },
       "derived_pending": false,
       "pending_reason": null,
-      "score": 439,
-      "kickoff_iso": "2026-08-08T02:15:00+07:00",
-      "minutes_to_kickoff": -112.39,
+      "score": 456,
+      "kickoff_iso": "2026-08-08T07:30:00+07:00",
+      "minutes_to_kickoff": 173.8,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
       "stream_key_tokens": null,
-      "logo": "https://img.gvapi.cc/football/team/faeceacffbf35e28b7e71a5f90b6efdc.png!w80",
+      "logo": "https://imgts.sportpulseapiz.com/volleyball/team/9dn1m1nhw5oqoep/image/small",
       "logo_source": null,
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live05.meung.app/live/75915087.m3u8",
-      "home_logo": null,
-      "away_logo": null,
-      "blv": "MONSTERĐang xem",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel33.flv?auth_key=3000001786138563-0-0-01879fe7e0f38406c10d461daf5a0dfc",
+      "home_logo": "https://imgts.sportpulseapiz.com/volleyball/team/9dn1m1nhw5oqoep/image/small",
+      "away_logo": "https://imgts.sportpulseapiz.com/volleyball/team/e4wyrn3hkj0m86p/image/small",
+      "blv": null,
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -638,8 +538,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "match_key": "giai hang nhi brasil 08 08 operario vs sao bernardo blv mountain dew|lich thi au cuoc vsbet nhan km ho tro k",
-      "display_name": "[05:30 08/08] Giải Hạng nhì Brasil 08/08 Operario VS Sao Bernardo BLV MOUNTAIN DEW [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
+      "match_key": "giai hang nhi brasil 08 08 operario vs sao bernardo blv mountain dew|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[05:30 08/08] Giải Hạng nhì Brasil 08/08 Operario VS Sao Bernardo BLV MOUNTAIN DEW [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -653,12 +553,12 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-08T05:30:00+07:00",
-      "minutes_to_kickoff": 82.61,
+      "minutes_to_kickoff": 53.8,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
       "stream_key_tokens": null,
-      "logo": "https://img.gvapi.cc/football/team/d10de41c21595dcf71ffbf4c3c105660.png!w80",
+      "logo": "https://img.gvapi.cc/football/team/e2f40e16499b22e942a5bd1d1d2398d3.png!w80",
       "logo_source": null,
       "logo_enriched_from": null,
       "logo_is_fallback": null,
@@ -666,7 +566,7 @@
       "page_url": "https://colatv88xi.cc/video2/output.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k",
+      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -676,18 +576,6 @@
     }
   ],
   "fresh_input_decisions": [
-    {
-      "source": "gavang",
-      "url": "https://hls.lauthaitv.cc/live/estoril-famalicao-porliga/index.m3u8",
-      "display_name": "[02:15 08/08] Liga Portugal - Estoril VS FC Famalicao [BLV NGƯỜI SÓI] [M3U8]",
-      "match_key": "liga portugal estoril vs fc famalicao|nguoi soi",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
     {
       "source": "xoilac",
       "url": "https://live2.streambylivepulse.com/live/channel24.flv",
@@ -702,19 +590,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel9.flv",
-      "display_name": "[02:15 08/08/2026] Estoril vs Fc Famalicao [BLV HD TONI] [FLV]",
-      "match_key": "estoril vs fc famalicao|hd toni",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel22.flv?auth_key=3000001786136803-0-0-dfaba35bfd37b78669406714397e8c0f",
+      "url": "https://live3.procdnlive.com/livecdn/channel22.flv?auth_key=3000001786138512-0-0-4efbbf6fd9026dc69b50c7e9e5eab5f5",
       "display_name": "[05:30 08/08/2026] Ca Rosario Central vs Aldosivi [BLV HD ZANE] [FLV]",
       "match_key": "ca rosario central vs aldosivi|hd zane",
       "quality": "HD",
@@ -726,7 +602,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786136811-0-0-18154083bce77304bbed4a750dedbdec",
+      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786138528-0-0-dd054e1f1770be4f851488e653c41746",
       "display_name": "[06:00 08/08/2026] Forge Fc vs Vancouver Fc [BLV HD TONI] [FLV]",
       "match_key": "forge fc vs vancouver fc|hd toni",
       "quality": "HD",
@@ -738,7 +614,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786136812-0-0-cb6f8945410ca5df57da14d31b10e813",
+      "url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786138531-0-0-faa71a8d45e3ee6f77e3d75b939cebc8",
       "display_name": "[06:00 08/08/2026] Inter Miami B vs Crown Legacy Fc [BLV HD POLO] [FLV]",
       "match_key": "inter miami b vs crown legacy fc|hd polo",
       "quality": "HD",
@@ -750,7 +626,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786136820-0-0-5e8ad1926801e046c12511bf5e1120ac",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786138544-0-0-dfbf92f49315edd7e3e36a8e840bdaa9",
       "display_name": "[06:30 08/08/2026] Nu Mystics vs Nu Atlanta Dream [BLV HD TOMMY] [FLV]",
       "match_key": "nu mystics vs nu atlanta dream|hd tommy",
       "quality": "HD",
@@ -761,11 +637,11 @@
       "reason": "selected"
     },
     {
-      "source": "colatv",
-      "url": "https://live05.meung.app/live/75915087.m3u8",
-      "display_name": "[02:15 08/08] Estoril vs FC Famalicao [BLV MONSTERĐang xem] [M3U8]",
-      "match_key": "estoril vs fc famalicao|monster ang xem",
-      "quality": "UNKNOWN",
+      "source": "xoilac",
+      "url": "https://live3.procdnlive.com/livecdn/channel33.flv?auth_key=3000001786138563-0-0-01879fe7e0f38406c10d461daf5a0dfc",
+      "display_name": "[07:30 08/08/2026] Argentina vs Chile [BLV HD TYSON] [FLV]",
+      "match_key": "argentina vs chile|hd tyson",
+      "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
@@ -775,35 +651,18 @@
     {
       "source": "colatv",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "display_name": "[05:30 08/08] Giải Hạng nhì Brasil 08/08 Operario VS Sao Bernardo BLV MOUNTAIN DEW [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
-      "match_key": "giai hang nhi brasil 08 08 operario vs sao bernardo blv mountain dew|lich thi au cuoc vsbet nhan km ho tro k",
+      "display_name": "[05:30 08/08] Giải Hạng nhì Brasil 08/08 Operario VS Sao Bernardo BLV MOUNTAIN DEW [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "giai hang nhi brasil 08 08 operario vs sao bernardo blv mountain dew|lich thi au cuoc vsbet tai app ta",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "decision": "selected-fresh",
       "reason": "selected"
-    },
-    {
-      "source": "colatv",
-      "url": "https://live05.meung.app/live/87547578.m3u8",
-      "display_name": "[05:30 08/08] Operario vs Sao Bernardo [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
-      "match_key": "operario vs sao bernardo|lich thi au cuoc vsbet nhan km ho tro k",
-      "quality": "UNKNOWN",
-      "playability": "upcoming-pending",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "dropped-explicitly",
-      "reason": "not-verified-or-not-upcoming"
     }
   ],
   "fresh_preservation_ok": true,
   "dropped": [
-    {
-      "url": "https://live05.meung.app/live/87547578.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "colatv"
-    },
     {
       "url": "http://127.0.0.1:9/__phaohoa_metadata__/807475.m3u8",
       "reason": "not-verified-or-not-upcoming",
