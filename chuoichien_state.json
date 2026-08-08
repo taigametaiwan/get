@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-09T06:01:30.525174+07:00",
+  "updated_at": "2026-08-09T06:31:25.032402+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -641,18 +641,6 @@
       ],
       "scan_decision": "browser-fallback"
     },
-    "1530122": {
-      "url": "https://live04.chuoichientv.me/live/1530122/new-york-city-fc-vs-santos-laguna",
-      "match_name": "new york city fc vs santos laguna",
-      "kickoff_iso": "2026-08-07T06:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-07T06:31:51.377704+07:00",
-      "next_scan_at": "2026-08-07T06:36:51.377704+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "1548351": {
       "url": "https://live04.chuoichientv.me/live/1548351/cd-motagua-vs-fas",
       "match_name": "CD Motagua vs FAS - Concacaf Central American Cup",
@@ -1146,9 +1134,9 @@
       "url": "https://live04.chuoichientv.me/live/1530130/inter-miami-vs-monterrey",
       "match_name": "Inter Miami vs Monterrey - Leagues Cup",
       "kickoff_iso": "2026-08-09T07:00:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-08-09T06:01:30.525119+07:00",
-      "next_scan_at": "2026-08-09T06:21:30.525119+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-09T06:31:25.032312+07:00",
+      "next_scan_at": "2026-08-09T06:41:25.032312+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1206,23 +1194,23 @@
     },
     "1530129": {
       "url": "https://live04.chuoichientv.me/live/1530129/guadalajara-chivas-vs-fc-dallas",
-      "match_name": "guadalajara chivas vs fc dallas",
+      "match_name": "Guadalajara Chivas vs FC Dallas - Leagues Cup",
       "kickoff_iso": "2026-08-09T08:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-09T06:01:30.525119+07:00",
-      "next_scan_at": "2026-08-09T06:21:30.525119+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-08-09T06:31:25.032312+07:00",
+      "next_scan_at": "2026-08-09T06:51:25.032312+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1530134": {
       "url": "https://live04.chuoichientv.me/live/1530134/toluca-vs-los-angeles-fc",
       "match_name": "toluca vs los angeles fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T06:01:30.525119+07:00",
-      "next_scan_at": "2026-08-09T06:11:30.525119+07:00",
+      "last_scan_at": "2026-08-09T06:31:25.032312+07:00",
+      "next_scan_at": "2026-08-09T06:41:25.032312+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
