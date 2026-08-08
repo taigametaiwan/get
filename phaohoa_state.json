@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-08T17:05:09.545072+07:00",
+  "updated_at": "2026-08-08T17:34:45.263010+07:00",
   "matches": {
     "736667": {
       "url": "https://phaohoa1.live/truc-tiep/sogdiana-vs-andijan-06-08-2026-736667",
@@ -327,11 +327,11 @@
     },
     "e9a8be850222": {
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-indonesia",
-      "match_name": "Thái Lan vs Indonesia",
+      "match_name": "Thai Lan vs Indonesia",
       "kickoff_iso": "2026-08-08T16:30:00+07:00",
-      "minutes_to_kickoff": -34,
-      "last_scan_at": "2026-08-08T17:05:09.544751+07:00",
-      "next_scan_at": "2026-08-08T17:10:09.544751+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-08-08T17:34:45.262732+07:00",
+      "next_scan_at": "2026-08-08T17:39:45.262732+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -355,23 +355,21 @@
       "url": "https://phaohoa1.live/truc-tiep/cerezo-osaka-vs-okayama-08-08-2026-807476",
       "match_name": "Cerezo Osaka vs Okayama",
       "kickoff_iso": "2026-08-08T17:00:00+07:00",
-      "minutes_to_kickoff": -4,
-      "last_scan_at": "2026-08-08T17:05:09.544751+07:00",
-      "next_scan_at": "2026-08-08T17:10:09.544751+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
+      "minutes_to_kickoff": -34,
+      "last_scan_at": "2026-08-08T17:34:45.262732+07:00",
+      "next_scan_at": "2026-08-08T17:39:45.262732+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "807477": {
       "url": "https://phaohoa1.live/truc-tiep/fc-tokyo-vs-machida-08-08-2026-807477",
       "match_name": "FC Tokyo vs Machida",
       "kickoff_iso": "2026-08-08T17:00:00+07:00",
-      "minutes_to_kickoff": -4,
-      "last_scan_at": "2026-08-08T17:05:09.544751+07:00",
-      "next_scan_at": "2026-08-08T17:10:09.544751+07:00",
+      "minutes_to_kickoff": -34,
+      "last_scan_at": "2026-08-08T17:34:45.262732+07:00",
+      "next_scan_at": "2026-08-08T17:39:45.262732+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -381,23 +379,25 @@
     },
     "759554": {
       "url": "https://phaohoa1.live/truc-tiep/juventus-vs-inter-08-08-2026-759554",
-      "match_name": "08-08 Club Friendlies Juventus VS Inter Ken",
+      "match_name": "Juventus vs Inter",
       "kickoff_iso": "2026-08-08T18:00:00+07:00",
-      "minutes_to_kickoff": 55,
-      "last_scan_at": "2026-08-08T17:05:09.544751+07:00",
-      "next_scan_at": "2026-08-08T17:25:09.544751+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-08T17:34:45.262732+07:00",
+      "next_scan_at": "2026-08-08T17:39:45.262732+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     },
     "809602": {
       "url": "https://phaohoa1.live/truc-tiep/darmstadt-vs-holstein-kiel-08-08-2026-809602",
       "match_name": "08-08 2. Bundesliga Darmstadt VS Holstein Kiel Văn Minh",
       "kickoff_iso": "2026-08-08T18:00:00+07:00",
-      "minutes_to_kickoff": 55,
-      "last_scan_at": "2026-08-08T17:05:09.544751+07:00",
-      "next_scan_at": "2026-08-08T17:25:09.544751+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-08T17:34:45.262732+07:00",
+      "next_scan_at": "2026-08-08T17:44:45.262732+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -407,13 +407,13 @@
       "url": "https://phaohoa1.live/truc-tiep/chelsea-vs-ac-milan-08-08-2026-763692",
       "match_name": "08-08 Club Friendlies Chelsea VS AC Milan Pháo Thủ",
       "kickoff_iso": "2026-08-08T19:00:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-08-08T17:05:09.544751+07:00",
-      "next_scan_at": "2026-08-08T17:25:09.544751+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-08T17:34:45.262732+07:00",
+      "next_scan_at": "2026-08-08T17:54:45.262732+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "791572": {
       "url": "https://phaohoa1.live/truc-tiep/malaysia-vs-philippines-08-08-2026-791572",
