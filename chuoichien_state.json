@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-09T03:02:15.992766+07:00",
+  "updated_at": "2026-08-09T03:31:39.175376+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1146,15 +1146,16 @@
     },
     "1598603": {
       "url": "https://live04.chuoichientv.me/live/1598603/udinese-vs-barcelona",
-      "match_name": "Udinese vs Barcelona - Giao Hữu Câu Lạc Bộ",
+      "match_name": "udinese vs barcelona",
       "kickoff_iso": "2026-08-09T03:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-09T03:02:15.992598+07:00",
-      "next_scan_at": "2026-08-09T03:07:15.992598+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-09T03:31:39.175232+07:00",
+      "next_scan_at": "2026-08-09T03:36:39.175232+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
+        "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
+        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1163,8 +1164,8 @@
       "match_name": "inter miami vs monterrey",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T03:02:15.992598+07:00",
-      "next_scan_at": "2026-08-09T03:12:15.992598+07:00",
+      "last_scan_at": "2026-08-09T03:31:39.175232+07:00",
+      "next_scan_at": "2026-08-09T03:41:39.175232+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1196,11 +1197,11 @@
     },
     "1493060": {
       "url": "https://live04.chuoichientv.me/live/1493060/tigre-vs-river-plate",
-      "match_name": "Tigre vs River Plate - VĐQG Argentina",
+      "match_name": "tigre vs river plate",
       "kickoff_iso": "2026-08-09T03:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-09T03:02:15.992598+07:00",
-      "next_scan_at": "2026-08-09T03:07:15.992598+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-09T03:31:39.175232+07:00",
+      "next_scan_at": "2026-08-09T03:36:39.175232+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1210,14 +1211,13 @@
       "url": "https://live04.chuoichientv.me/live/1575448/estrela-vs-sporting-cp",
       "match_name": "Estrela vs Sporting CP - VĐQG Bồ Đào Nha",
       "kickoff_iso": "2026-08-09T02:30:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-09T03:02:15.992598+07:00",
-      "next_scan_at": "2026-08-09T03:07:15.992598+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-09T03:31:39.175232+07:00",
+      "next_scan_at": "2026-08-09T03:36:39.175232+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1226,8 +1226,8 @@
       "match_name": "guadalajara chivas vs fc dallas",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T03:02:15.992598+07:00",
-      "next_scan_at": "2026-08-09T03:12:15.992598+07:00",
+      "last_scan_at": "2026-08-09T03:31:39.175232+07:00",
+      "next_scan_at": "2026-08-09T03:41:39.175232+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1238,8 +1238,8 @@
       "match_name": "toluca vs los angeles fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T03:02:15.992598+07:00",
-      "next_scan_at": "2026-08-09T03:12:15.992598+07:00",
+      "last_scan_at": "2026-08-09T03:31:39.175232+07:00",
+      "next_scan_at": "2026-08-09T03:41:39.175232+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1247,18 +1247,15 @@
     },
     "1598600": {
       "url": "https://live04.chuoichientv.me/live/1598600/udinese-vs-nottingham-forest",
-      "match_name": "Udinese vs Nottingham Forest - Giao Hữu Câu Lạc Bộ",
-      "kickoff_iso": "2026-08-09T01:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-09T03:02:15.992598+07:00",
-      "next_scan_at": "2026-08-09T03:07:15.992598+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
-        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
+      "match_name": "udinese vs nottingham forest",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-09T03:31:39.175232+07:00",
+      "next_scan_at": "2026-08-09T03:41:39.175232+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
