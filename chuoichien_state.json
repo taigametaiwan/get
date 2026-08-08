@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-09T04:31:45.315938+07:00",
+  "updated_at": "2026-08-09T05:01:44.926854+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -627,20 +627,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1493031": {
-      "url": "https://live04.chuoichientv.me/live/1493031/union-santa-fe-vs-lanus",
-      "match_name": "union santa fe vs lanus",
-      "kickoff_iso": "2026-08-07T05:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-07T06:31:51.377704+07:00",
-      "next_scan_at": "2026-08-07T06:36:51.377704+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1530119": {
       "url": "https://live04.chuoichientv.me/live/1530119/austin-vs-club-tijuana",
       "match_name": "Austin vs Club Tijuana - Leagues Cup",
@@ -1146,11 +1132,11 @@
     },
     "1598603": {
       "url": "https://live04.chuoichientv.me/live/1598603/udinese-vs-barcelona",
-      "match_name": "Udinese vs Barcelona - Giao Hữu Câu Lạc Bộ",
+      "match_name": "udinese vs barcelona",
       "kickoff_iso": "2026-08-09T03:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-09T04:31:45.315805+07:00",
-      "next_scan_at": "2026-08-09T04:36:45.315805+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-09T05:01:44.926748+07:00",
+      "next_scan_at": "2026-08-09T05:06:44.926748+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1159,14 +1145,14 @@
     "1530130": {
       "url": "https://live04.chuoichientv.me/live/1530130/inter-miami-vs-monterrey",
       "match_name": "inter miami vs monterrey",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T04:31:45.315805+07:00",
-      "next_scan_at": "2026-08-09T04:41:45.315805+07:00",
+      "kickoff_iso": "2026-08-09T07:00:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-09T05:01:44.926748+07:00",
+      "next_scan_at": "2026-08-09T05:21:44.926748+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1575454": {
       "url": "https://live04.chuoichientv.me/live/1575454/guimaraes-vs-arouca",
@@ -1194,11 +1180,11 @@
     },
     "1493060": {
       "url": "https://live04.chuoichientv.me/live/1493060/tigre-vs-river-plate",
-      "match_name": "Tigre vs River Plate - VĐQG Argentina",
+      "match_name": "tigre vs river plate",
       "kickoff_iso": "2026-08-09T03:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-09T04:31:45.315805+07:00",
-      "next_scan_at": "2026-08-09T04:36:45.315805+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-09T05:01:44.926748+07:00",
+      "next_scan_at": "2026-08-09T05:06:44.926748+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1221,22 +1207,22 @@
     "1530129": {
       "url": "https://live04.chuoichientv.me/live/1530129/guadalajara-chivas-vs-fc-dallas",
       "match_name": "guadalajara chivas vs fc dallas",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T04:31:45.315805+07:00",
-      "next_scan_at": "2026-08-09T04:41:45.315805+07:00",
+      "kickoff_iso": "2026-08-09T08:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-09T05:01:44.926748+07:00",
+      "next_scan_at": "2026-08-09T05:46:44.926748+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1530134": {
       "url": "https://live04.chuoichientv.me/live/1530134/toluca-vs-los-angeles-fc",
       "match_name": "toluca vs los angeles fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T04:31:45.315805+07:00",
-      "next_scan_at": "2026-08-09T04:41:45.315805+07:00",
+      "last_scan_at": "2026-08-09T05:01:44.926748+07:00",
+      "next_scan_at": "2026-08-09T05:11:44.926748+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1247,8 +1233,8 @@
       "match_name": "udinese vs nottingham forest",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T04:31:45.315805+07:00",
-      "next_scan_at": "2026-08-09T04:41:45.315805+07:00",
+      "last_scan_at": "2026-08-09T05:01:44.926748+07:00",
+      "next_scan_at": "2026-08-09T05:11:44.926748+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
