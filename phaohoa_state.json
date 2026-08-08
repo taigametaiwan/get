@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-08T09:33:12.619761+07:00",
+  "updated_at": "2026-08-08T10:03:11.983165+07:00",
   "matches": {
     "736667": {
       "url": "https://phaohoa1.live/truc-tiep/sogdiana-vs-andijan-06-08-2026-736667",
@@ -310,6 +310,18 @@
         "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "a02a37557a4c": {
+      "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-philippines",
+      "match_name": "08-08 Sea V Cup Việt Nam VS Philippines KaKa",
+      "kickoff_iso": "2026-08-08T13:00:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-08T10:03:11.983059+07:00",
+      "next_scan_at": "2026-08-08T10:48:11.983059+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
