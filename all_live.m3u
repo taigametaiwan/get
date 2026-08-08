@@ -1,11 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-1607637-1" tvg-name="[16:30 08/08] Western Sydney Wanderers vs Melbourne Victory - Australia Cup [BLV A Ngáo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130438_eb01dea2.png",[16:30 08/08] Western Sydney Wanderers vs Melbourne Victory - Australia Cup [BLV A Ngáo] [FHD FLV]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://gckc0525.edgemaxcdn.org/live/angao.flv
-#EXTINF:-1 tvg-id="chuoichien-1554002-1" tvg-name="[17:00 08/08] FC Tokyo vs Machida Zelvia - J1 League [BLV Chuối Chao]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132412_1f072485.png",[17:00 08/08] FC Tokyo vs Machida Zelvia - J1 League [BLV Chuối Chao] [FHD FLV]
+#EXTINF:-1 tvg-id="chuoichien-1554002-1" tvg-name="[17:00 08/08] FC Tokyo vs Machida Zelvia - J1 League [BLV trực tiếp: Chuối Chao Trận đấu FC Tokyo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132412_1f072485.png",[17:00 08/08] FC Tokyo vs Machida Zelvia - J1 League [BLV trực tiếp: Chuối Chao Trận đấu FC Tokyo] [FHD FLV]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
@@ -17,18 +11,24 @@ https://gckc0525.edgemaxcdn.org/live/chuoichao.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://gckc0525.edgemaxcdn.org/live/chuoida.flv
+#EXTINF:-1 tvg-id="chuoichien-1546760-1" tvg-name="[19:00 08/08] Chelsea vs AC Milan - Giao Hữu Câu Lạc Bộ [BLV Trốc Tru]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125549_a4353df0.png",[19:00 08/08] Chelsea vs AC Milan - Giao Hữu Câu Lạc Bộ [BLV Trốc Tru] [FHD FLV]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/troctru.flv
+#EXTINF:-1 tvg-id="chuoichien-1546760-2" tvg-name="[19:00 08/08] Chelsea vs AC Milan - Giao Hữu Câu Lạc Bộ [BLV Trốc Tru]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125549_a4353df0.png",[19:00 08/08] Chelsea vs AC Milan - Giao Hữu Câu Lạc Bộ [BLV Trốc Tru] (Luồng 2) [M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 #EXTINF:-1 tvg-id="gavang-2838-1" tvg-name="[17:00 08/08] FC Tokyo vs Machida Zelvia - J1 League [BLV NGƯỜI CAT]" group-title="Gà Vàng" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132412_1f072485.png",[17:00 08/08] FC Tokyo vs Machida Zelvia - J1 League [BLV NGƯỜI CAT] [M3U8]
 #EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2838/tokyo-machida-j1/?s8_live_fixture_id=2838&s8_live_stream_key=tokyo-machida-j1&s8_auto_sound=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2838/tokyo-machida-j1/?s8_live_fixture_id=2838&s8_live_stream_key=tokyo-machida-j1&s8_auto_sound=1","Origin":"https://radio-capital.io"}
 https://hls.lauthaitv.cc/live/tokyo-machida-j1/index.m3u8
-#EXTINF:-1 tvg-id="gavang-2839-1" tvg-name="[17:00 08/08] JPN J1 - Avispa Fukuoka VS Vissel Kobe [BLV NGƯỜI NẶN]" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-json/s8-image/7a8e8b01-9f29-41f9-bf85-4a41a3ed4153",[17:00 08/08] JPN J1 - Avispa Fukuoka VS Vissel Kobe [BLV NGƯỜI NẶN] [M3U8]
-#EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2839/avispa-vissel-j1/?s8_live_fixture_id=2839&s8_live_stream_key=avispa-vissel-j1&s8_auto_sound=1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2839/avispa-vissel-j1/?s8_live_fixture_id=2839&s8_live_stream_key=avispa-vissel-j1&s8_auto_sound=1","Origin":"https://radio-capital.io"}
-https://hls.lauthaitv.cc/live/avispa-vissel-j1/index.m3u8
 #EXTINF:-1 tvg-id="gavang-2841-1" tvg-name="[18:00 08/08] GER Bundesliga 2 - SV Darmstadt 98 VS Holstein Kiel [BLV NGƯỜI PHÁO]" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-json/s8-image/ca359b3d-57ad-4060-a171-5032762ede47",[18:00 08/08] GER Bundesliga 2 - SV Darmstadt 98 VS Holstein Kiel [BLV NGƯỜI PHÁO] [M3U8]
 #EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2841/darmstadt-holstein-ger2/?s8_live_fixture_id=2841&s8_live_stream_key=darmstadt-holstein-ger2&s8_auto_sound=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
@@ -53,125 +53,117 @@ https://hls.lauthaitv.cc/live/valerenga-bodo-nor/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2842/zhejiang-wuhan-csl/?s8_live_fixture_id=2842&s8_live_stream_key=zhejiang-wuhan-csl&s8_auto_sound=1","Origin":"https://radio-capital.io"}
 https://hls.lauthaitv.cc/live/zhejiang-wuhan-csl/index.m3u8
-#EXTINF:-1 tvg-id="xoilac--tiep-cumberland-fc-vs-adelaide-olympic-luc-1630-ngay-08-08-2026-s0-2" tvg-name="[16:30 08/08/2026] Cumberland Fc vs Adelaide Olympic [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/965mkyh7j20r1ge/image/small",[16:30 08/08/2026] Cumberland Fc vs Adelaide Olympic [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="gavang-2844-1" tvg-name="[CHƯA CÓ GIỜ 08/08] International Club Friendly - Chelsea VS AC Milan [BLV NGƯỜI TIỀN SỬ]" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-json/s8-image/2723795c-2c0c-41bb-b488-1e9f30f1c1f9",[CHƯA CÓ GIỜ 08/08] International Club Friendly - Chelsea VS AC Milan [BLV NGƯỜI TIỀN SỬ] [M3U8]
+#EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2844/che-milan-intcf/?s8_live_fixture_id=2844&s8_live_stream_key=che-milan-intcf&s8_auto_sound=1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel6.flv
-#EXTINF:-1 tvg-id="xoilac-ruc-tiep-fujieda-myfc-vs-vegalta-sendai-luc-1630-ngay-08-08-2026-s1-3" tvg-name="[16:30 08/08/2026] Fujieda Myfc vs Vegalta Sendai [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/965mkyh7967r1ge/image/small",[16:30 08/08/2026] Fujieda Myfc vs Vegalta Sendai [BLV HD FELIX] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel24.flv
-#EXTINF:-1 tvg-id="xoilac--nu-saku-sporting-vs-nu-harju-jk-laagri-luc-1630-ngay-08-08-2026-s0-4" tvg-name="[16:30 08/08/2026] Nu Saku Sporting vs Nu Harju Jk Laagri [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkhdookqg8n/image/small",[16:30 08/08/2026] Nu Saku Sporting vs Nu Harju Jk Laagri [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel4.flv
-#EXTINF:-1 tvg-id="xoilac--tiep-vanraure-hachi-vs-kataller-toyama-luc-1630-ngay-08-08-2026-s1-5" tvg-name="[16:30 08/08/2026] Vanraure Hachi vs Kataller Toyama [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nh56ojmd7o/image/small",[16:30 08/08/2026] Vanraure Hachi vs Kataller Toyama [BLV HD JEAN] [FLV]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2844/che-milan-intcf/?s8_live_fixture_id=2844&s8_live_stream_key=che-milan-intcf&s8_auto_sound=1","Origin":"https://radio-capital.io"}
+https://hls.lauthaitv.cc/live/che-milan-intcf/index.m3u8
+#EXTINF:-1 tvg-id="xoilac-ep-nu-boeun-sangmu-vs-nu-seoul-amazones-luc-1655-ngay-08-08-2026-s0-8" tvg-name="[16:55 08/08/2026] Nu Boeun Sangmu vs Nu Seoul Amazones [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/965mkyh76nlr1ge/image/small",[16:55 08/08/2026] Nu Boeun Sangmu vs Nu Seoul Amazones [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel7.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-avispa-fukuoka-vs-vissel-kobe-luc-1700-ngay-08-08-2026-s1-3" tvg-name="[17:00 08/08/2026] Avispa Fukuoka vs Vissel Kobe [BLV HD RAVEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdehkv6r510/image/small",[17:00 08/08/2026] Avispa Fukuoka vs Vissel Kobe [BLV HD RAVEN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-avispa-fukuoka-vs-vissel-kobe-luc-1700-ngay-08-08-2026-s1-9" tvg-name="[17:00 08/08/2026] Avispa Fukuoka vs Vissel Kobe [BLV HD RAVEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdehkv6r510/image/small",[17:00 08/08/2026] Avispa Fukuoka vs Vissel Kobe [BLV HD RAVEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel21.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-miyazaki-vs-yokohama-fc-luc-1700-ngay-08-08-2026-s0-11" tvg-name="[17:00 08/08/2026] Miyazaki vs Yokohama Fc [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h7ep5q0j6/image/small",[17:00 08/08/2026] Miyazaki vs Yokohama Fc [FLV]
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-cerezo-osaka-vs-fagiano-okayama-luc-1700-ngay-08-08-2026-s1-5" tvg-name="[17:00 08/08/2026] Cerezo Osaka vs Fagiano Okayama [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhjdzqg8n/image/small",[17:00 08/08/2026] Cerezo Osaka vs Fagiano Okayama [BLV HD TONI] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel9.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-fc-tokyo-vs-machida-zelvia-luc-1700-ngay-08-08-2026-s1-5" tvg-name="[17:00 08/08/2026] Fc Tokyo vs Machida Zelvia [BLV HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hd6jqo9j/image/small",[17:00 08/08/2026] Fc Tokyo vs Machida Zelvia [BLV HD BRADY] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-fc-tokyo-vs-machida-zelvia-luc-1700-ngay-08-08-2026-s1-6" tvg-name="[17:00 08/08/2026] Fc Tokyo vs Machida Zelvia [BLV HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hd6jqo9j/image/small",[17:00 08/08/2026] Fc Tokyo vs Machida Zelvia [BLV HD BRADY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel15.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-gainare-tottori-vs-osaka-fc-luc-1700-ngay-08-08-2026-s0-6" tvg-name="[17:00 08/08/2026] Gainare Tottori vs Osaka Fc [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghgxp5r6od/image/small",[17:00 08/08/2026] Gainare Tottori vs Osaka Fc [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-gainare-tottori-vs-osaka-fc-luc-1700-ngay-08-08-2026-s0-10" tvg-name="[17:00 08/08/2026] Gainare Tottori vs Osaka Fc [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghgxp5r6od/image/small",[17:00 08/08/2026] Gainare Tottori vs Osaka Fc [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel13.flv
-#EXTINF:-1 tvg-id="xoilac-uc-tiep-jubilo-iwata-vs-blaublitz-akita-luc-1700-ngay-08-08-2026-s0-7" tvg-name="[17:00 08/08/2026] Jubilo Iwata vs Blaublitz Akita [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hjg1q0j6/image/small",[17:00 08/08/2026] Jubilo Iwata vs Blaublitz Akita [FLV]
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-jubilo-iwata-vs-blaublitz-akita-luc-1700-ngay-08-08-2026-s0-11" tvg-name="[17:00 08/08/2026] Jubilo Iwata vs Blaublitz Akita [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hjg1q0j6/image/small",[17:00 08/08/2026] Jubilo Iwata vs Blaublitz Akita [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel8.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-kagoshima-utd-vs-thespa-gunma-luc-1700-ngay-08-08-2026-s0-8" tvg-name="[17:00 08/08/2026] Kagoshima Utd vs Thespa Gunma [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh72xnq82w/image/small",[17:00 08/08/2026] Kagoshima Utd vs Thespa Gunma [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-kagoshima-utd-vs-thespa-gunma-luc-1700-ngay-08-08-2026-s0-12" tvg-name="[17:00 08/08/2026] Kagoshima Utd vs Thespa Gunma [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh72xnq82w/image/small",[17:00 08/08/2026] Kagoshima Utd vs Thespa Gunma [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel12.flv
-#EXTINF:-1 tvg-id="xoilac-c-tiep-kashiwa-reysol-vs-mito-hollyhock-luc-1700-ngay-08-08-2026-s1-9" tvg-name="[17:00 08/08/2026] Kashiwa Reysol vs Mito Hollyhock [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhjv8qg8n/image/small",[17:00 08/08/2026] Kashiwa Reysol vs Mito Hollyhock [BLV HD ZANE] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="xoilac-c-tiep-kashiwa-reysol-vs-mito-hollyhock-luc-1700-ngay-08-08-2026-s1-13" tvg-name="[17:00 08/08/2026] Kashiwa Reysol vs Mito Hollyhock [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhjv8qg8n/image/small",[17:00 08/08/2026] Kashiwa Reysol vs Mito Hollyhock [BLV HD ZANE] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel22/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel22.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-kochi-united-vs-matsumoto-fc-luc-1700-ngay-08-08-2026-s0-10" tvg-name="[17:00 08/08/2026] Kochi United vs Matsumoto Fc [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nh5p88md7o/image/small",[17:00 08/08/2026] Kochi United vs Matsumoto Fc [FLV]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel22/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
+https://live3.procdnlive.com/livecdn/channel22.flv?auth_key=3000001786190634-0-0-1ee1c4b0dca766f9336481a634c99677
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-kochi-united-vs-matsumoto-fc-luc-1700-ngay-08-08-2026-s0-14" tvg-name="[17:00 08/08/2026] Kochi United vs Matsumoto Fc [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nh5p88md7o/image/small",[17:00 08/08/2026] Kochi United vs Matsumoto Fc [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel14.flv
-#EXTINF:-1 tvg-id="xoilac--tiep-nagoya-grampus-vs-shimizu-s-pulse-luc-1700-ngay-08-08-2026-s1-12" tvg-name="[17:00 08/08/2026] Nagoya Grampus vs Shimizu S Pulse [BLV HD KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zh915ql07/image/small",[17:00 08/08/2026] Nagoya Grampus vs Shimizu S Pulse [BLV HD KEN] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel18.flv
-#EXTINF:-1 tvg-id="xoilac-uc-tiep-nongshim-redforce-vs-dn-soopers-luc-1700-ngay-08-08-2026-s1-13" tvg-name="[17:00 08/08/2026] Nongshim Redforce vs Dn Soopers [BLV HD MARTY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/lol/team/vjxm89jb412kq6o/image/small",[17:00 08/08/2026] Nongshim Redforce vs Dn Soopers [BLV HD MARTY] [FLV]
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-nongshim-redforce-vs-dn-soopers-luc-1700-ngay-08-08-2026-s1-7" tvg-name="[17:00 08/08/2026] Nongshim Redforce vs Dn Soopers [BLV HD MARTY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/lol/team/vjxm89jb412kq6o/image/small",[17:00 08/08/2026] Nongshim Redforce vs Dn Soopers [BLV HD MARTY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel30.flv
-#EXTINF:-1 tvg-id="xoilac-uc-tiep-oita-trinita-vs-shonan-bellmare-luc-1700-ngay-08-08-2026-s0-14" tvg-name="[17:00 08/08/2026] Oita Trinita vs Shonan Bellmare [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9k82rekhpx0repz/image/small",[17:00 08/08/2026] Oita Trinita vs Shonan Bellmare [FLV]
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-oita-trinita-vs-shonan-bellmare-luc-1700-ngay-08-08-2026-s0-16" tvg-name="[17:00 08/08/2026] Oita Trinita vs Shonan Bellmare [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9k82rekhpx0repz/image/small",[17:00 08/08/2026] Oita Trinita vs Shonan Bellmare [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel10.flv
-#EXTINF:-1 tvg-id="xoilac-tiep-rb-omiya-ardija-vs-albirex-niigata-luc-1700-ngay-08-08-2026-s0-15" tvg-name="[17:00 08/08/2026] Rb Omiya Ardija vs Albirex Niigata [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghle0m0ve/image/small",[17:00 08/08/2026] Rb Omiya Ardija vs Albirex Niigata [FLV]
+#EXTINF:-1 tvg-id="xoilac-tiep-rb-omiya-ardija-vs-albirex-niigata-luc-1700-ngay-08-08-2026-s0-17" tvg-name="[17:00 08/08/2026] Rb Omiya Ardija vs Albirex Niigata [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghle0m0ve/image/small",[17:00 08/08/2026] Rb Omiya Ardija vs Albirex Niigata [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel11.flv
-#EXTINF:-1 tvg-id="xoilac--tiep-sanfrecce-hiroshima-vs-jef-united-luc-1715-ngay-08-08-2026-s1-2" tvg-name="[17:15 08/08/2026] Sanfrecce Hiroshima vs Jef United [BLV HD FILIP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9dn1m1ghdp1moep/image/small",[17:15 08/08/2026] Sanfrecce Hiroshima vs Jef United [BLV HD FILIP] [FLV]
+#EXTINF:-1 tvg-id="xoilac--tiep-sanfrecce-hiroshima-vs-jef-united-luc-1715-ngay-08-08-2026-s1-4" tvg-name="[17:15 08/08/2026] Sanfrecce Hiroshima vs Jef United [BLV HD FILIP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/9dn1m1ghdp1moep/image/small",[17:15 08/08/2026] Sanfrecce Hiroshima vs Jef United [BLV HD FILIP] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel19.flv
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-sagan-tosu-vs-ventforet-kofu-luc-1730-ngay-08-08-2026-s0-3" tvg-name="[17:30 08/08/2026] Sagan Tosu vs Ventforet Kofu [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hozyq0j6/image/small",[17:30 08/08/2026] Sagan Tosu vs Ventforet Kofu [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel16.flv
+#EXTINF:-1 tvg-id="xoilac--tiep-nagoya-grampus-vs-shimizu-s-pulse-luc-1700-ngay-08-08-2026-s1-15" tvg-name="[17:00 08/08/2026] Nagoya Grampus vs Shimizu S Pulse [BLV HD KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zh915ql07/image/small",[17:00 08/08/2026] Nagoya Grampus vs Shimizu S Pulse [BLV HD KEN] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel18.flv
 #EXTINF:-1 tvg-id="xoilac--tiep-jiangsu-dragons-vs-guangsha-lions-luc-1830-ngay-08-08-2026-s1-1" tvg-name="[18:30 08/08/2026] Jiangsu Dragons vs Guangsha Lions [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/p3glrwytexoqdyj/image/small",[18:30 08/08/2026] Jiangsu Dragons vs Guangsha Lions [BLV HD STEP] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
@@ -179,55 +171,48 @@ https://live2.streambylivepulse.com/live/channel19.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel26.flv
-#EXTINF:-1 tvg-id="xoilac--tiep-ho-chi-minh-wings-vs-sai-gon-heat-luc-1930-ngay-08-08-2026-s1-16" tvg-name="[19:30 08/08/2026] Ho Chi Minh Wings vs Sai Gon Heat [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/z8yomovtw11q0j6/image/small",[19:30 08/08/2026] Ho Chi Minh Wings vs Sai Gon Heat [BLV HD TOMMY] [FLV]
+#EXTINF:-1 tvg-id="xoilac--tiep-ho-chi-minh-wings-vs-sai-gon-heat-luc-1930-ngay-08-08-2026-s1-18" tvg-name="[19:30 08/08/2026] Ho Chi Minh Wings vs Sai Gon Heat [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/z8yomovtw11q0j6/image/small",[19:30 08/08/2026] Ho Chi Minh Wings vs Sai Gon Heat [BLV HD TOMMY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel29/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel29/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786188863-0-0-550069c714f3a33f9512d5eca4097cd7
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-malaysia-vs-philippines-luc-2000-ngay-08-08-2026-s3-18" tvg-name="[20:00 08/08/2026] Malaysia vs Philippines [BLV FULL HD ROY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h298mojx/image/small",[20:00 08/08/2026] Malaysia vs Philippines [BLV FULL HD ROY] [FLV]
+https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786190660-0-0-5ec7e5a0e47dddc2fceaf51a64d1848d
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-malaysia-vs-philippines-luc-2000-ngay-08-08-2026-s3-20" tvg-name="[20:00 08/08/2026] Malaysia vs Philippines [BLV FULL HD ROY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h298mojx/image/small",[20:00 08/08/2026] Malaysia vs Philippines [BLV FULL HD ROY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel1/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel1/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel1.flv?auth_key=3000001786188899-0-0-bb4d7e1e69c3cefd1d725711d41ef5fc
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-malaysia-vs-philippines-luc-2000-ngay-08-08-2026-s1-17" tvg-name="[20:00 08/08/2026] Malaysia vs Philippines [BLV FILIP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h298mojx/image/small",[20:00 08/08/2026] Malaysia vs Philippines [BLV FILIP] [FLV]
+https://live3.procdnlive.com/livecdn/channel1.flv?auth_key=3000001786190696-0-0-2729a06737d7c8ad12b18bdb7a6df0eb
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-malaysia-vs-philippines-luc-2000-ngay-08-08-2026-s1-19" tvg-name="[20:00 08/08/2026] Malaysia vs Philippines [BLV FILIP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h298mojx/image/small",[20:00 08/08/2026] Malaysia vs Philippines [BLV FILIP] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel19/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel19/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel19.flv?auth_key=3000001786188879-0-0-ffdb4aa9e178036ff64a5a290ebecb2d
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-thai-lan-vs-myanmar-luc-2000-ngay-08-08-2026-s3-20" tvg-name="[20:00 08/08/2026] Thai Lan vs Myanmar [BLV FULL HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhyg2qwzv/image/small",[20:00 08/08/2026] Thai Lan vs Myanmar [BLV FULL HD BRADY] [FLV]
+https://live3.procdnlive.com/livecdn/channel19.flv?auth_key=3000001786190673-0-0-691cb098b5c73355b250c8d84640063a
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-thai-lan-vs-myanmar-luc-2000-ngay-08-08-2026-s3-22" tvg-name="[20:00 08/08/2026] Thai Lan vs Myanmar [BLV FULL HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhyg2qwzv/image/small",[20:00 08/08/2026] Thai Lan vs Myanmar [BLV FULL HD BRADY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel15/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel15/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel15.flv?auth_key=3000001786188918-0-0-029b749cc08820f015c2c3cee6ab7881
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-thai-lan-vs-myanmar-luc-2000-ngay-08-08-2026-s1-19" tvg-name="[20:00 08/08/2026] Thai Lan vs Myanmar [BLV KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhyg2qwzv/image/small",[20:00 08/08/2026] Thai Lan vs Myanmar [BLV KEN] [FLV]
+https://live3.procdnlive.com/livecdn/channel15.flv?auth_key=3000001786190704-0-0-9015babc3149e05587c3415a287de209
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-thai-lan-vs-myanmar-luc-2000-ngay-08-08-2026-s1-21" tvg-name="[20:00 08/08/2026] Thai Lan vs Myanmar [BLV KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhyg2qwzv/image/small",[20:00 08/08/2026] Thai Lan vs Myanmar [BLV KEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel18/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel18/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001786188896-0-0-2ffe13f6477fb5b7af91b42b1b67ba5f
-#EXTINF:-1 tvg-id="colatv-affe43411afd-1" tvg-name="[16:30 08/08] Western Sydney vs Melbourne Victory [BLV PEPSIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/65ad5821ea90c2eb91c4c159c6e62745.png!w80",[16:30 08/08] Western Sydney vs Melbourne Victory [BLV PEPSIĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
+https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001786190682-0-0-2717209be0e5b79796de68e1d04dd21e
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-sk-gaming-vs-natus-vincere-luc-2200-ngay-08-08-2026-s1-23" tvg-name="[22:00 08/08/2026] Sk Gaming vs Natus Vincere [BLV HD MARTY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/lol/team/965mk6zt7dvkq1g/image/small",[22:00 08/08/2026] Sk Gaming vs Natus Vincere [BLV HD MARTY] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel30/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/59444581.m3u8
-#EXTINF:-1 tvg-id="colatv-1ea777ef3241-1" tvg-name="[17:00 08/08] Avispa Fukuoka vs Vissel Kobe [BLV CozyĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png!w80",[17:00 08/08] Avispa Fukuoka vs Vissel Kobe [BLV CozyĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/87379114.m3u8
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel30/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
+https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001786190727-0-0-bba7d31a38549a9dbe4af110827e2adf
 #EXTINF:-1 tvg-id="colatv-ee1f54632b60-1" tvg-name="[17:00 08/08] Cerezo Osaka vs Fagiano Okayama [BLV FANTAĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/ab10ee503e539e55a9a11a9ff202405a.png!w80",[17:00 08/08] Cerezo Osaka vs Fagiano Okayama [BLV FANTAĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -235,14 +220,7 @@ https://live05.meung.app/live/87379114.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/16226575.m3u8
-#EXTINF:-1 tvg-id="colatv-f1448ec2a875-1" tvg-name="[17:00 08/08] Kashiwa Reysol vs Mito Hollyhock [BLV SAMURAIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/d272859d78eb8ca7a14753f4293fbf45.png!w80",[17:00 08/08] Kashiwa Reysol vs Mito Hollyhock [BLV SAMURAIĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/07808742.m3u8
-#EXTINF:-1 tvg-id="colatv-08fab1946194-1" tvg-name="[17:15 08/08] Sanfrecce Hiroshima vs Chiba [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/c81d5ff7a33a4f6a9312a8703f619352.png!w80",[17:15 08/08] Sanfrecce Hiroshima vs Chiba [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
+#EXTINF:-1 tvg-id="colatv-08fab1946194-1" tvg-name="[17:15 08/08] Sanfrecce Hiroshima vs JEF United Ichihara Chiba [BLV STINGĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/c81d5ff7a33a4f6a9312a8703f619352.png!w80",[17:15 08/08] Sanfrecce Hiroshima vs JEF United Ichihara Chiba [BLV STINGĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
@@ -256,20 +234,13 @@ https://live05.meung.app/live/14707124.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/41943555.m3u8
-#EXTINF:-1 tvg-id="colatv-bface6316f90-1" tvg-name="[18:00 08/08] Jeonbuk Hyundai Motors vs Jeju SK FC [BLV BÍ ĐAOĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/ee2117f952745163fecfa4b74a6a2bea.png!w80",[18:00 08/08] Jeonbuk Hyundai Motors vs Jeju SK FC [BLV BÍ ĐAOĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-b8993be4a22b-1" tvg-name="[18:00 08/08] Jeonbuk Hyundai Motors vs Jeju SK FC [BLV BÍ ĐAOĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/ee2117f952745163fecfa4b74a6a2bea.png!w80",[18:00 08/08] Jeonbuk Hyundai Motors vs Jeju SK FC [BLV BÍ ĐAOĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/99121525.m3u8
-#EXTINF:-1 tvg-id="colatv-794e63d5fbc4-1" tvg-name="[18:00 08/08] Juventus vs Inter Milan [BLV 7UPĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/dc0e43b95c6676c54415bac168472aa4.png!w80",[18:00 08/08] Juventus vs Inter Milan [BLV 7UPĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/78905744.m3u8
 #EXTINF:-1 tvg-id="colatv-8a5bae6705e2-1" tvg-name="[18:00 08/08] Juventus vs Inter Milan [BLV GIÀ LÀNGĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/dc0e43b95c6676c54415bac168472aa4.png!w80",[18:00 08/08] Juventus vs Inter Milan [BLV GIÀ LÀNGĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -277,6 +248,13 @@ https://live05.meung.app/live/78905744.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/14830711.m3u8
+#EXTINF:-1 tvg-id="colatv-794e63d5fbc4-1" tvg-name="[18:00 08/08] Juventus vs Inter Milan [BLV 7UPĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/dc0e43b95c6676c54415bac168472aa4.png!w80",[18:00 08/08] Juventus vs Inter Milan [BLV 7UPĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/78905744.m3u8
 #EXTINF:-1 tvg-id="colatv-0809a4808b44-1" tvg-name="[18:00 08/08] Magdeburg vs Braunschweig [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/e4dba0e2b72f3f545ece098b91b811a1.png!w80",[18:00 08/08] Magdeburg vs Braunschweig [BLV MOUNTAIN DEWĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -291,20 +269,55 @@ https://live05.meung.app/live/87547578.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/75748097.m3u8
-#EXTINF:-1 tvg-id="colatv-a55735ea8e6e-1" tvg-name="[19:00 08/08] Cambridge United vs Barnet [BLV POCARIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2bce14325a0bbb1642c569d5cb5435f7.png!w80",[19:00 08/08] Cambridge United vs Barnet [BLV POCARIĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-6c7ac35e14c2-1" tvg-name="[18:35 08/08] Dalian Yingbo vs Liaoning Tieren [BLV PEPSIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/0e5467034917e26c6e60a7162711c150.png!w80",[18:35 08/08] Dalian Yingbo vs Liaoning Tieren [BLV PEPSIĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://colatv88xi.cc/video2/output.m3u8
-#EXTINF:-1 tvg-id="colatv-bdec8fe549e8-1" tvg-name="[19:00 08/08] Chelsea vs AC Milan [BLV 247Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/b365ad0e85e2b1bcbf63f7a0f2f70a79.png!w80",[19:00 08/08] Chelsea vs AC Milan [BLV 247Đang xem] [M3U8]
+https://live05.meung.app/live/59444581.m3u8
+#EXTINF:-1 tvg-id="colatv-f63fec932cf3-1" tvg-name="[19:00 08/08] Cambridge United vs Barnet [BLV POCARIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2bce14325a0bbb1642c569d5cb5435f7.png!w80",[19:00 08/08] Cambridge United vs Barnet [BLV POCARIĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/19919577.m3u8
+#EXTINF:-1 tvg-id="colatv-0d03b3b90ac3-1" tvg-name="[19:00 08/08] Chelsea vs AC Milan [BLV 247Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/b365ad0e85e2b1bcbf63f7a0f2f70a79.png!w80",[19:00 08/08] Chelsea vs AC Milan [BLV 247Đang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/90865415.m3u8
+#EXTINF:-1 tvg-id="colatv-709adeef5cd4-1" tvg-name="[19:00 08/08] Chelsea vs AC Milan [BLV CozyĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/b365ad0e85e2b1bcbf63f7a0f2f70a79.png!w80",[19:00 08/08] Chelsea vs AC Milan [BLV CozyĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/87379114.m3u8
+#EXTINF:-1 tvg-id="colatv-98da24c5ce03-1" tvg-name="[19:00 08/08] Vålerenga Fotball Elite vs FK Bodo/Glimt [BLV MONSTERĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/c2f900f8f34b392faf1ca8ecb248bff1.png!w80",[19:00 08/08] Vålerenga Fotball Elite vs FK Bodo/Glimt [BLV MONSTERĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/75915087.m3u8
+#EXTINF:-1 tvg-id="colatv-c4ccc3a87f8c-1" tvg-name="[19:00 08/08] Yunnan Yukun vs Chengdu Rongcheng [BLV SAMURAIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/8c10b05df079cbf3efabd78675e6983f.png!w80",[19:00 08/08] Yunnan Yukun vs Chengdu Rongcheng [BLV SAMURAIĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/07808742.m3u8
+#EXTINF:-1 tvg-id="colatv-253c992c827e-1" tvg-name="[20:00 08/08] Malaysia vs Philippines [BLV 7UPĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png!w80",[20:00 08/08] Malaysia vs Philippines [BLV 7UPĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://colatv88xi.cc/video2/output.m3u8
 #EXTINF:-1 tvg-id="phaohoa-807476-1" tvg-name="[17:00 08/08] Cerezo Osaka vs Okayama" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/cerezo-osaka-vs-okayama-08-08-2026-807476" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_5045.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_5045.jpg" phaohoa-away-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_5084.jpg",[17:00 08/08] Cerezo Osaka vs Okayama [FHD M3U8]
 #EXTVLCOPT:http-referrer=https://phaohoa1.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
