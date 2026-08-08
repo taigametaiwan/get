@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-08T16:04:07.073701+07:00",
+  "updated_at": "2026-08-08T16:35:02.717683+07:00",
   "matches": {
     "736667": {
       "url": "https://phaohoa1.live/truc-tiep/sogdiana-vs-andijan-06-08-2026-736667",
@@ -327,14 +327,16 @@
     },
     "e9a8be850222": {
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-indonesia",
-      "match_name": "08-08 Sea V Cup Thái Lan VS Indonesia Chim Nhỏ",
+      "match_name": "Thái Lan vs Indonesia",
       "kickoff_iso": "2026-08-08T16:30:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-08-08T16:04:07.073496+07:00",
-      "next_scan_at": "2026-08-08T16:14:07.073496+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-08-08T16:35:02.717448+07:00",
+      "next_scan_at": "2026-08-08T16:40:02.717448+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     },
     "807475": {
@@ -353,9 +355,9 @@
       "url": "https://phaohoa1.live/truc-tiep/cerezo-osaka-vs-okayama-08-08-2026-807476",
       "match_name": "08-08 J1 League Cerezo Osaka VS Okayama Kevin",
       "kickoff_iso": "2026-08-08T17:00:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-08-08T16:04:07.073496+07:00",
-      "next_scan_at": "2026-08-08T16:24:07.073496+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-08T16:35:02.717448+07:00",
+      "next_scan_at": "2026-08-08T16:45:02.717448+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -365,9 +367,9 @@
       "url": "https://phaohoa1.live/truc-tiep/fc-tokyo-vs-machida-08-08-2026-807477",
       "match_name": "08-08 J1 League FC Tokyo VS Machida Pháo Thủ",
       "kickoff_iso": "2026-08-08T17:00:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-08-08T16:04:07.073496+07:00",
-      "next_scan_at": "2026-08-08T16:24:07.073496+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-08T16:35:02.717448+07:00",
+      "next_scan_at": "2026-08-08T16:45:02.717448+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -377,25 +379,25 @@
       "url": "https://phaohoa1.live/truc-tiep/juventus-vs-inter-08-08-2026-759554",
       "match_name": "08-08 Club Friendlies Juventus VS Inter Ken",
       "kickoff_iso": "2026-08-08T18:00:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-08-08T16:04:07.073496+07:00",
-      "next_scan_at": "2026-08-08T16:24:07.073496+07:00",
+      "minutes_to_kickoff": 85,
+      "last_scan_at": "2026-08-08T16:35:02.717448+07:00",
+      "next_scan_at": "2026-08-08T16:55:02.717448+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "809602": {
       "url": "https://phaohoa1.live/truc-tiep/darmstadt-vs-holstein-kiel-08-08-2026-809602",
       "match_name": "08-08 2. Bundesliga Darmstadt VS Holstein Kiel Văn Minh",
       "kickoff_iso": "2026-08-08T18:00:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-08-08T16:04:07.073496+07:00",
-      "next_scan_at": "2026-08-08T16:24:07.073496+07:00",
+      "minutes_to_kickoff": 85,
+      "last_scan_at": "2026-08-08T16:35:02.717448+07:00",
+      "next_scan_at": "2026-08-08T16:55:02.717448+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "763692": {
       "url": "https://phaohoa1.live/truc-tiep/chelsea-vs-ac-milan-08-08-2026-763692",
