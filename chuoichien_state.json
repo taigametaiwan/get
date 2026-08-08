@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-08T20:31:52.859268+07:00",
+  "updated_at": "2026-08-08T21:02:05.536564+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -579,20 +579,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1516094": {
-      "url": "https://live04.chuoichientv.me/live/1516094/sogdiana-vs-andijan",
-      "match_name": "Sogdiana vs Andijan - VĐQG Uzbekistan",
-      "kickoff_iso": "2026-08-06T21:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-06T22:31:56.567294+07:00",
-      "next_scan_at": "2026-08-06T22:36:56.567294+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1607175": {
       "url": "https://live04.chuoichientv.me/live/1607175/kups-vs-universitatea-craiova",
       "match_name": "kups vs universitatea craiova",
@@ -1042,9 +1028,9 @@
       "url": "https://live04.chuoichientv.me/live/1546760/chelsea-vs-ac-milan",
       "match_name": "Chelsea vs AC Milan - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-08T19:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-08T20:31:52.858423+07:00",
-      "next_scan_at": "2026-08-08T20:36:52.858423+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-08T21:02:05.536402+07:00",
+      "next_scan_at": "2026-08-08T21:07:05.536402+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1057,9 +1043,9 @@
       "url": "https://live04.chuoichientv.me/live/1548102/malaysia-vs-philippines",
       "match_name": "Malaysia vs Philippines - AFF Championship",
       "kickoff_iso": "2026-08-08T20:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-08T20:31:52.858423+07:00",
-      "next_scan_at": "2026-08-08T20:36:52.858423+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-08T21:02:05.536402+07:00",
+      "next_scan_at": "2026-08-08T21:07:05.536402+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1072,13 +1058,14 @@
       "url": "https://live04.chuoichientv.me/live/1548103/thailand-vs-myanmar",
       "match_name": "Thailand vs Myanmar - AFF Championship",
       "kickoff_iso": "2026-08-08T20:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-08T20:31:52.858423+07:00",
-      "next_scan_at": "2026-08-08T20:36:52.858423+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-08T21:02:05.536402+07:00",
+      "next_scan_at": "2026-08-08T21:07:05.536402+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1108,23 +1095,25 @@
     },
     "1567418": {
       "url": "https://live04.chuoichientv.me/live/1567418/west-ham-vs-portsmouth",
-      "match_name": "west ham vs portsmouth",
+      "match_name": "West Ham vs Portsmouth - Cúp Liên đoàn Anh",
       "kickoff_iso": "2026-08-08T21:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-08T20:31:52.858423+07:00",
-      "next_scan_at": "2026-08-08T20:41:52.858423+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-08T21:02:05.536402+07:00",
+      "next_scan_at": "2026-08-08T21:07:05.536402+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoida.flv"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1542350": {
       "url": "https://live04.chuoichientv.me/live/1542350/manchester-united-vs-paris-saint-germain",
       "match_name": "Manchester United vs Paris Saint Germain - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-08T22:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-08T20:31:52.858423+07:00",
-      "next_scan_at": "2026-08-08T20:51:52.858423+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-08T21:02:05.536402+07:00",
+      "next_scan_at": "2026-08-08T21:22:05.536402+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1133,34 +1122,34 @@
     "1567397": {
       "url": "https://live04.chuoichientv.me/live/1567397/cheltenham-vs-charlton",
       "match_name": "cheltenham vs charlton",
-      "kickoff_iso": "2026-08-08T23:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-08T20:31:52.858423+07:00",
-      "next_scan_at": "2026-08-08T21:16:52.858423+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-08T21:02:05.536402+07:00",
+      "next_scan_at": "2026-08-08T21:12:05.536402+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1567398": {
       "url": "https://live04.chuoichientv.me/live/1567398/colchester-vs-southampton",
       "match_name": "colchester vs southampton",
-      "kickoff_iso": "2026-08-08T23:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-08T20:31:52.858423+07:00",
-      "next_scan_at": "2026-08-08T21:16:52.858423+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-08T21:02:05.536402+07:00",
+      "next_scan_at": "2026-08-08T21:12:05.536402+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1604780": {
       "url": "https://live04.chuoichientv.me/live/1604780/ferencvarosi-tc-vs-real-madrid",
       "match_name": "ferencvarosi tc vs real madrid",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-08T20:31:52.858423+07:00",
-      "next_scan_at": "2026-08-08T20:41:52.858423+07:00",
+      "last_scan_at": "2026-08-08T21:02:05.536402+07:00",
+      "next_scan_at": "2026-08-08T21:12:05.536402+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1171,8 +1160,8 @@
       "match_name": "galatasaray vs villarreal",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-08T20:31:52.858423+07:00",
-      "next_scan_at": "2026-08-08T20:41:52.858423+07:00",
+      "last_scan_at": "2026-08-08T21:02:05.536402+07:00",
+      "next_scan_at": "2026-08-08T21:12:05.536402+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
