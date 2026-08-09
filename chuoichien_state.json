@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-09T17:01:56.627673+07:00",
+  "updated_at": "2026-08-09T17:32:06.724333+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -639,21 +639,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1553999": {
-      "url": "https://live04.chuoichientv.me/live/1553999/yokohama-f-marinos-vs-kashima",
-      "match_name": "Yokohama F. Marinos vs Kashima - J1 League",
-      "kickoff_iso": "2026-08-07T17:25:00+07:00",
-      "minutes_to_kickoff": -126,
-      "last_scan_at": "2026-08-07T19:32:03.609743+07:00",
-      "next_scan_at": "2026-08-07T19:37:03.609743+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1523227": {
       "url": "https://live04.chuoichientv.me/live/1523227/beijing-guoan-vs-sichuan-jiuniu",
       "match_name": "Beijing Guoan vs Sichuan Jiuniu - Ngoại Hạng Trung Quốc",
@@ -1215,9 +1200,9 @@
       "url": "https://live04.chuoichientv.me/live/1607636/south-melbourne-vs-fremantle-city",
       "match_name": "South Melbourne vs Fremantle City - Australia Cup",
       "kickoff_iso": "2026-08-09T16:40:00+07:00",
-      "minutes_to_kickoff": -21,
-      "last_scan_at": "2026-08-09T17:01:56.627489+07:00",
-      "next_scan_at": "2026-08-09T17:06:56.627489+07:00",
+      "minutes_to_kickoff": -51,
+      "last_scan_at": "2026-08-09T17:32:06.715231+07:00",
+      "next_scan_at": "2026-08-09T17:37:06.715231+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1229,9 +1214,9 @@
       "url": "https://live04.chuoichientv.me/live/1554008/v-varen-nagasaki-vs-kyoto-sanga",
       "match_name": "V-varen Nagasaki vs Kyoto Sanga - J1 League",
       "kickoff_iso": "2026-08-09T17:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-09T17:01:56.627489+07:00",
-      "next_scan_at": "2026-08-09T17:06:56.627489+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-09T17:32:06.715231+07:00",
+      "next_scan_at": "2026-08-09T17:37:06.715231+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1243,9 +1228,9 @@
       "url": "https://live04.chuoichientv.me/live/1589321/manchester-city-vs-atletico-madrid",
       "match_name": "Manchester City vs Atletico Madrid - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-09T18:00:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-09T17:01:56.627489+07:00",
-      "next_scan_at": "2026-08-09T17:21:56.627489+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-09T17:32:06.715231+07:00",
+      "next_scan_at": "2026-08-09T17:42:06.715231+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1253,39 +1238,39 @@
     },
     "1523233": {
       "url": "https://live04.chuoichientv.me/live/1523233/chongqing-tongliang-long-vs-shanghai-sipg",
-      "match_name": "chongqing tongliang long vs shanghai sipg",
+      "match_name": "Chongqing Tongliang Long vs SHANGHAI SIPG - Ngoại Hạng Trung Quốc",
       "kickoff_iso": "2026-08-09T18:35:00+07:00",
-      "minutes_to_kickoff": 94,
-      "last_scan_at": "2026-08-09T17:01:56.627489+07:00",
-      "next_scan_at": "2026-08-09T17:21:56.627489+07:00",
+      "minutes_to_kickoff": 63,
+      "last_scan_at": "2026-08-09T17:32:06.715231+07:00",
+      "next_scan_at": "2026-08-09T17:52:06.715231+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1546761": {
       "url": "https://live04.chuoichientv.me/live/1546761/johor-darul-takzim-fc-vs-chelsea",
-      "match_name": "johor darul takzim fc vs chelsea",
+      "match_name": "Johor Darul Takzim FC vs Chelsea - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-09T19:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-09T17:01:56.627489+07:00",
-      "next_scan_at": "2026-08-09T17:21:56.627489+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-09T17:32:06.715231+07:00",
+      "next_scan_at": "2026-08-09T17:52:06.715231+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1589322": {
       "url": "https://live04.chuoichientv.me/live/1589322/arsenal-vs-borussia-dortmund",
       "match_name": "arsenal vs borussia dortmund",
-      "kickoff_iso": "2026-08-09T20:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-09T17:01:56.627489+07:00",
-      "next_scan_at": "2026-08-09T17:46:56.627489+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-09T17:32:06.715231+07:00",
+      "next_scan_at": "2026-08-09T17:42:06.715231+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "991047": {
       "url": "https://live04.chuoichientv.me/live/991047/philippines-w-vs-indonesia-w",
@@ -1303,9 +1288,9 @@
       "url": "https://live04.chuoichientv.me/live/991421/vit-nam-vs-thailand-w",
       "match_name": "Việt Nam vs Thailand W - Bóng Chuyền SEA V.LEAGUE",
       "kickoff_iso": "2026-08-09T16:30:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-09T17:01:56.627489+07:00",
-      "next_scan_at": "2026-08-09T17:06:56.627489+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-09T17:32:06.715231+07:00",
+      "next_scan_at": "2026-08-09T17:37:06.715231+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1317,22 +1302,22 @@
     "1550626": {
       "url": "https://live04.chuoichientv.me/live/1550626/liverpool-vs-monaco",
       "match_name": "liverpool vs monaco",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T17:01:56.627489+07:00",
-      "next_scan_at": "2026-08-09T17:11:56.627489+07:00",
+      "kickoff_iso": "2026-08-09T20:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-09T17:32:06.715231+07:00",
+      "next_scan_at": "2026-08-09T18:17:06.715231+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1567406": {
       "url": "https://live04.chuoichientv.me/live/1567406/mansfield-town-vs-sheffield-utd",
       "match_name": "mansfield town vs sheffield utd",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T17:01:56.627489+07:00",
-      "next_scan_at": "2026-08-09T17:11:56.627489+07:00",
+      "last_scan_at": "2026-08-09T17:32:06.715231+07:00",
+      "next_scan_at": "2026-08-09T17:42:06.715231+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
