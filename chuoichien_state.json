@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-10T02:31:38.390999+07:00",
+  "updated_at": "2026-08-10T03:01:55.274109+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1242,15 +1242,16 @@
     },
     "1585691": {
       "url": "https://live04.chuoichientv.me/live/1585691/bb-bodrumspor-vs-bursaspor",
-      "match_name": "BB Bodrumspor vs Bursaspor - Hạng Nhất Thổ Nhĩ Kỳ",
+      "match_name": "bb bodrumspor vs bursaspor",
       "kickoff_iso": "2026-08-10T01:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-10T02:31:38.390873+07:00",
-      "next_scan_at": "2026-08-10T02:36:38.390873+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-10T03:01:55.273964+07:00",
+      "next_scan_at": "2026-08-10T03:06:55.273964+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
+        "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
+        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1268,11 +1269,11 @@
     },
     "1492327": {
       "url": "https://live04.chuoichientv.me/live/1492327/palmeiras-vs-internacional",
-      "match_name": "Palmeiras vs Internacional - VĐQG Brazil",
+      "match_name": "palmeiras vs internacional",
       "kickoff_iso": "2026-08-10T02:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-10T02:31:38.390873+07:00",
-      "next_scan_at": "2026-08-10T02:36:38.390873+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-10T03:01:55.273964+07:00",
+      "next_scan_at": "2026-08-10T03:06:55.273964+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1284,28 +1285,27 @@
       "url": "https://live04.chuoichientv.me/live/1575446/benfica-vs-academico-viseu",
       "match_name": "Benfica vs Academico Viseu - VĐQG Bồ Đào Nha",
       "kickoff_iso": "2026-08-10T02:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-10T02:31:38.390873+07:00",
-      "next_scan_at": "2026-08-10T02:36:38.390873+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-10T03:01:55.273964+07:00",
+      "next_scan_at": "2026-08-10T03:06:55.273964+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
       ],
       "scan_decision": "browser-fallback"
     },
     "1492329": {
       "url": "https://live04.chuoichientv.me/live/1492329/santos-vs-atletico-paranaense",
-      "match_name": "santos vs atletico paranaense",
+      "match_name": "Santos vs Atletico Paranaense - VĐQG Brazil",
       "kickoff_iso": "2026-08-10T04:30:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-10T02:31:38.390873+07:00",
-      "next_scan_at": "2026-08-10T02:51:38.390873+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-10T03:01:55.273964+07:00",
+      "next_scan_at": "2026-08-10T03:21:55.273964+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1530140": {
       "url": "https://live04.chuoichientv.me/live/1530140/philadelphia-union-vs-necaxa",
@@ -1324,8 +1324,8 @@
       "match_name": "cruz azul vs new york city fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-10T02:31:38.390873+07:00",
-      "next_scan_at": "2026-08-10T02:41:38.390873+07:00",
+      "last_scan_at": "2026-08-10T03:01:55.273964+07:00",
+      "next_scan_at": "2026-08-10T03:11:55.273964+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1336,8 +1336,8 @@
       "match_name": "austin vs puebla",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-10T02:31:38.390873+07:00",
-      "next_scan_at": "2026-08-10T02:41:38.390873+07:00",
+      "last_scan_at": "2026-08-10T03:01:55.273964+07:00",
+      "next_scan_at": "2026-08-10T03:11:55.273964+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1348,8 +1348,8 @@
       "match_name": "club america vs portland timbers",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-10T02:31:38.390873+07:00",
-      "next_scan_at": "2026-08-10T02:41:38.390873+07:00",
+      "last_scan_at": "2026-08-10T03:01:55.273964+07:00",
+      "next_scan_at": "2026-08-10T03:11:55.273964+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
