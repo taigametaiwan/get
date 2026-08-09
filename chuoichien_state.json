@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-09T08:01:44.259714+07:00",
+  "updated_at": "2026-08-09T08:31:33.246186+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1120,13 +1120,12 @@
       "url": "https://live04.chuoichientv.me/live/1530130/inter-miami-vs-monterrey",
       "match_name": "Inter Miami vs Monterrey - Leagues Cup",
       "kickoff_iso": "2026-08-09T07:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-09T08:01:44.259627+07:00",
-      "next_scan_at": "2026-08-09T08:06:44.259627+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-09T08:31:33.246008+07:00",
+      "next_scan_at": "2026-08-09T08:36:33.246008+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv",
         "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
@@ -1196,14 +1195,14 @@
     "1530134": {
       "url": "https://live04.chuoichientv.me/live/1530134/toluca-vs-los-angeles-fc",
       "match_name": "toluca vs los angeles fc",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T08:01:44.259627+07:00",
-      "next_scan_at": "2026-08-09T08:11:44.259627+07:00",
+      "kickoff_iso": "2026-08-09T10:10:00+07:00",
+      "minutes_to_kickoff": 99,
+      "last_scan_at": "2026-08-09T08:31:33.246008+07:00",
+      "next_scan_at": "2026-08-09T08:51:33.246008+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1598600": {
       "url": "https://live04.chuoichientv.me/live/1598600/udinese-vs-nottingham-forest",
@@ -1212,6 +1211,90 @@
       "minutes_to_kickoff": null,
       "last_scan_at": "2026-08-09T05:01:44.926748+07:00",
       "next_scan_at": "2026-08-09T05:11:44.926748+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "999765": {
+      "url": "https://live04.chuoichientv.me/live/999765/philippines-w-vs-thailand-w",
+      "match_name": "philippines w vs thailand w",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-09T08:31:33.246008+07:00",
+      "next_scan_at": "2026-08-09T08:41:33.246008+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1607631": {
+      "url": "https://live04.chuoichientv.me/live/1607631/brisbane-roar-vs-sydney",
+      "match_name": "brisbane roar vs sydney",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-09T08:31:33.246008+07:00",
+      "next_scan_at": "2026-08-09T08:41:33.246008+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "994971": {
+      "url": "https://live04.chuoichientv.me/live/994971/vietnam-w-vs-indonesia-w",
+      "match_name": "vietnam w vs indonesia w",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-09T08:31:33.246008+07:00",
+      "next_scan_at": "2026-08-09T08:41:33.246008+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1607636": {
+      "url": "https://live04.chuoichientv.me/live/1607636/south-melbourne-vs-fremantle-city",
+      "match_name": "south melbourne vs fremantle city",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-09T08:31:33.246008+07:00",
+      "next_scan_at": "2026-08-09T08:41:33.246008+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1554008": {
+      "url": "https://live04.chuoichientv.me/live/1554008/v-varen-nagasaki-vs-kyoto-sanga",
+      "match_name": "v varen nagasaki vs kyoto sanga",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-09T08:31:33.246008+07:00",
+      "next_scan_at": "2026-08-09T08:41:33.246008+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1589321": {
+      "url": "https://live04.chuoichientv.me/live/1589321/manchester-city-vs-atletico-madrid",
+      "match_name": "manchester city vs atletico madrid",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-09T08:31:33.246008+07:00",
+      "next_scan_at": "2026-08-09T08:41:33.246008+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1523233": {
+      "url": "https://live04.chuoichientv.me/live/1523233/chongqing-tongliang-long-vs-shanghai-sipg",
+      "match_name": "chongqing tongliang long vs shanghai sipg",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-09T08:31:33.246008+07:00",
+      "next_scan_at": "2026-08-09T08:41:33.246008+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
