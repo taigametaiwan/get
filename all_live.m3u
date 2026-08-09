@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="chuoichien-1530130-1" tvg-name="[07:00 09/08] Inter Miami vs Monterrey - Leagues Cup [BLV Chuối Chao]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131436_8ba487aa.png",[07:00 09/08] Inter Miami vs Monterrey - Leagues Cup [BLV Chuối Chao] [FHD FLV]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/chuoichao.flv
+#EXTINF:-1 tvg-id="chuoichien-1530130-2" tvg-name="[07:00 09/08] Inter Miami vs Monterrey - Leagues Cup [BLV Chuối Chao]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131436_8ba487aa.png",[07:00 09/08] Inter Miami vs Monterrey - Leagues Cup [BLV Chuối Chao] (Luồng 2) [M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
 #EXTINF:-1 tvg-id="gavang-2858-1" tvg-name="[05:30 09/08] Leagues Cup - Orlando City VS Club Leon [BLV NGƯỜI CÁO]" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-json/s8-image/27054bb3-79dd-406c-bdbd-5d71e960ecad",[05:30 09/08] Leagues Cup - Orlando City VS Club Leon [BLV NGƯỜI CÁO] [M3U8]
 #EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2858/orlando-leon-leagues/?s8_live_fixture_id=2858&s8_live_stream_key=orlando-leon-leagues&s8_auto_sound=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
@@ -11,19 +23,12 @@ https://hls.lauthaitv.cc/live/orlando-leon-leagues/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2859/miami-monterrey-leagues/?s8_live_fixture_id=2859&s8_live_stream_key=miami-monterrey-leagues&s8_auto_sound=1","Origin":"https://radio-capital.io"}
 https://hls.lauthaitv.cc/live/miami-monterrey-leagues/index.m3u8
-#EXTINF:-1 tvg-id="gavang-2853-1" tvg-name="[CHƯA CÓ GIỜ 09/08] GER Bundesliga 2 - VfL Wolfsburg VS FC Kaiserslautern [BLV NGƯỜI TIỀN SỬ] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-json/s8-image/4b56f137-6f1c-443c-9122-6757ebbd020a",[CHƯA CÓ GIỜ 09/08] GER Bundesliga 2 - VfL Wolfsburg VS FC Kaiserslautern [BLV NGƯỜI TIỀN SỬ] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]
+#EXTINF:-1 tvg-id="gavang-2853-1" tvg-name="[CHƯA CÓ GIỜ 09/08] GER Bundesliga 2 - VfL Wolfsburg VS FC Kaiserslautern [BLV NGƯỜI TIỀN SỬ] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-json/s8-image/4b56f137-6f1c-443c-9122-6757ebbd020a",[CHƯA CÓ GIỜ 09/08] GER Bundesliga 2 - VfL Wolfsburg VS FC Kaiserslautern [BLV NGƯỜI TIỀN SỬ] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]
 #EXTVLCOPT:http-referrer=https://radio-capital.io/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/","Origin":"https://radio-capital.io"}
 https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8
-#EXTINF:-1 tvg-id="xoilac-ruc-tiep-remo-belem-vs-atletico-mineiro-luc-0430-ngay-09-08-2026-s1-9" tvg-name="[04:30 09/08/2026] Remo Belem vs Atletico Mineiro [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhnoxqg8n/image/small",[04:30 09/08/2026] Remo Belem vs Atletico Mineiro [BLV HD SILVA] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel20/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel20/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel20.flv?auth_key=3000001786232146-0-0-04dc36950899dcc702c7994e5a6f1347
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-jiri-lehecka-vs-rafael-jodar-luc-0500-ngay-09-08-2026-s1-2" tvg-name="[05:00 09/08/2026] Jiri Lehecka vs Rafael Jodar [BLV HD LUCAS] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/vjxm85fjzn5m6od/image/small",[05:00 09/08/2026] Jiri Lehecka vs Rafael Jodar [BLV HD LUCAS] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
@@ -31,48 +36,62 @@ https://live3.procdnlive.com/livecdn/channel20.flv?auth_key=3000001786232146-0-0
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel31.flv
-#EXTINF:-1 tvg-id="xoilac-uc-tiep-nu-club-america-vs-nu-cruz-azul-luc-0500-ngay-09-08-2026-s1-6" tvg-name="[05:00 09/08/2026] Nu Club America vs Nu Cruz Azul [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hjk57qdyj/image/small",[05:00 09/08/2026] Nu Club America vs Nu Cruz Azul [BLV HD POLO] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-nu-club-america-vs-nu-cruz-azul-luc-0500-ngay-09-08-2026-s1-9" tvg-name="[05:00 09/08/2026] Nu Club America vs Nu Cruz Azul [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hjk57qdyj/image/small",[05:00 09/08/2026] Nu Club America vs Nu Cruz Azul [BLV HD POLO] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel10/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel10.flv
-#EXTINF:-1 tvg-id="xoilac-c-tiep-brooklyn-fc-vs-birmingham-legion-luc-0600-ngay-09-08-2026-s0-7" tvg-name="[06:00 09/08/2026] Brooklyn Fc vs Birmingham Legion [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh1xg8moep/image/small",[06:00 09/08/2026] Brooklyn Fc vs Birmingham Legion [FLV]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel10/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
+https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786234004-0-0-d1b4dcf68ba8ea3c3825c9cb9e803a98
+#EXTINF:-1 tvg-id="xoilac-c-tiep-brooklyn-fc-vs-birmingham-legion-luc-0600-ngay-09-08-2026-s0-4" tvg-name="[06:00 09/08/2026] Brooklyn Fc vs Birmingham Legion [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh1xg8moep/image/small",[06:00 09/08/2026] Brooklyn Fc vs Birmingham Legion [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel24.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-orlando-city-vs-club-leon-luc-0530-ngay-09-08-2026-s1-4" tvg-name="[05:30 09/08/2026] Orlando City vs Club Leon [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kjw2r09hoxvrz84/image/small",[05:30 09/08/2026] Orlando City vs Club Leon [BLV HD ZANE] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel22.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-ituano-sp-vs-barra-fc-luc-0530-ngay-09-08-2026-s0-8" tvg-name="[05:30 09/08/2026] Ituano Sp vs Barra Fc [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllh28pvqvy9/image/small",[05:30 09/08/2026] Ituano Sp vs Barra Fc [FLV]
+#EXTINF:-1 tvg-id="xoilac-c-tiep-nu-queretaro-vs-nu-santos-laguna-luc-0600-ngay-09-08-2026-s1-8" tvg-name="[06:00 09/08/2026] Nu Queretaro vs Nu Santos Laguna [BLV HD NEMO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whzg77ryox/image/small",[06:00 09/08/2026] Nu Queretaro vs Nu Santos Laguna [BLV HD NEMO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel17.flv
-#EXTINF:-1 tvg-id="xoilac-ep-venados-fc-yucatan-vs-chivas-tapatio-luc-0600-ngay-09-08-2026-s1-3" tvg-name="[06:00 09/08/2026] Venados Fc Yucatan vs Chivas Tapatio [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phk20vm2wd/image/small",[06:00 09/08/2026] Venados Fc Yucatan vs Chivas Tapatio [BLV HD LOGAN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-chattanooga-wolves-vs-omaha-luc-0600-ngay-09-08-2026-s0-5" tvg-name="[06:00 09/08/2026] Chattanooga Wolves vs Omaha [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y39mp1hje9kmojx/image/small",[06:00 09/08/2026] Chattanooga Wolves vs Omaha [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel22.flv
+#EXTINF:-1 tvg-id="xoilac-ep-loudoun-united-vs-charleston-battery-luc-0600-ngay-09-08-2026-s0-6" tvg-name="[06:00 09/08/2026] Loudoun United vs Charleston Battery [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09hx3verz84/image/small",[06:00 09/08/2026] Loudoun United vs Charleston Battery [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel23.flv
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-miami-fc-vs-las-vegas-lights-luc-0600-ngay-09-08-2026-s0-7" tvg-name="[06:00 09/08/2026] Miami Fc vs Las Vegas Lights [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/965mkyh7n90r1ge/image/small",[06:00 09/08/2026] Miami Fc vs Las Vegas Lights [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel25.flv
 #EXTINF:-1 tvg-id="xoilac-ep-nu-portland-fire-vs-nu-seattle-storm-luc-0730-ngay-09-08-2026-s1-10" tvg-name="[07:30 09/08/2026] Nu Portland Fire vs Nu Seattle Storm [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/1l4rjztzk60m7vx/image/small",[07:30 09/08/2026] Nu Portland Fire vs Nu Seattle Storm [BLV HD TOMMY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel29/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel29/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786232207-0-0-568ce1420eb860ff72b642f0caf87db2
+https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786234023-0-0-cc35fc2cfbacf4a5a21fd83dd7678af1
+#EXTINF:-1 tvg-id="xoilac-p-southland-sharks-vs-wellington-saints-luc-1000-ngay-09-08-2026-s1-11" tvg-name="[10:00 09/08/2026] Southland Sharks vs Wellington Saints [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/l965mk8tdwxm1ge/image/small",[10:00 09/08/2026] Southland Sharks vs Wellington Saints [BLV HD STEP] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel26/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel26/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
+https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786234047-0-0-88586955d44fb86d184f82bc3da4b2b2
 #EXTINF:-1 tvg-id="colatv-8142095619e0-1" tvg-name="[05:40 09/08] Orlando City vs Club Leon [BLV POCARIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/b4ad649e6c6a9a6cf91493bf5e92ffbe.png!w80",[05:40 09/08] Orlando City vs Club Leon [BLV POCARIĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -94,17 +113,31 @@ https://live05.meung.app/live/87547578.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/02456966.m3u8
-#EXTINF:-1 tvg-id="colatv-7fb0b129a712-1" tvg-name="[07:00 09/08] Inter Miami CF vs Rayados de Monterrey [BLV 7UPĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/976fe1d29c112f4baeb844cdda2f04cb.png!w80",[07:00 09/08] Inter Miami CF vs Rayados de Monterrey [BLV 7UPĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-ebaab51b6ee1-1" tvg-name="[07:00 09/08] Inter Miami CF vs Rayados de Monterrey [BLV 7UPĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/976fe1d29c112f4baeb844cdda2f04cb.png!w80",[07:00 09/08] Inter Miami CF vs Rayados de Monterrey [BLV 7UPĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/78905744.m3u8
-#EXTINF:-1 tvg-id="colatv-2cefc9b455d8-1" tvg-name="[08:00 09/08] Club Deportivo Guadalajara vs FC Dallas [BLV 7UPĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/872867a492989e6a9a0785cfd0a40680.png!w80",[08:00 09/08] Club Deportivo Guadalajara vs FC Dallas [BLV 7UPĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-67914dfa0a2b-1" tvg-name="[08:00 09/08] Club Deportivo Guadalajara vs FC Dallas [BLV 7UPĐang xem]" group-title="ColaTV",[08:00 09/08] Club Deportivo Guadalajara vs FC Dallas [BLV 7UPĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://colatv88xi.cc/video2/output.m3u8
+#EXTINF:-1 tvg-id="phaohoa-28fce444acb9-1" tvg-name="[07:00 09/08] Ba Lan vs Nhat Ban" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/ba-lan-vs-nhat-ban" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_uiH5uS2.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_uiH5uS2.jpg" phaohoa-away-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_4xNC98N.jpg",[07:00 09/08] Ba Lan vs Nhat Ban [FHD M3U8]
+#EXTVLCOPT:http-referrer=https://phaohoa1.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://phaohoa1.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://phaohoa1.live/","Origin":"https://phaohoa1.live"}
+https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
+#EXTINF:-1 tvg-id="phaohoa-749495-1" tvg-name="[07:00 09/08] Inter Miami vs Monterrey" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/inter-miami-vs-monterrey-09-08-2026-749495" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_7953.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_7953.jpg" phaohoa-away-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_308.jpg",[07:00 09/08] Inter Miami vs Monterrey [FHD M3U8]
+#EXTVLCOPT:http-referrer=https://phaohoa1.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://phaohoa1.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://phaohoa1.live/","Origin":"https://phaohoa1.live"}
+https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
