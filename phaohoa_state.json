@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-10T01:04:58.303195+07:00",
+  "updated_at": "2026-08-10T01:35:24.253140+07:00",
   "matches": {
-    "809601": {
-      "url": "https://phaohoa1.live/truc-tiep/bochum-vs-hertha-berlin-08-08-2026-809601",
-      "match_name": "Bochum vs Hertha Berlin",
-      "kickoff_iso": "2026-08-08T01:30:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-08-08T03:04:39.480187+07:00",
-      "next_scan_at": "2026-08-08T03:09:39.480187+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "a02a37557a4c": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-philippines",
       "match_name": "Việt Nam vs Philippines",
@@ -449,9 +435,9 @@
       "url": "https://phaohoa1.live/truc-tiep/fc-porto-vs-alverca-10-08-2026-803644",
       "match_name": "FC Porto vs Alverca",
       "kickoff_iso": "2026-08-10T00:00:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-08-10T01:04:58.302962+07:00",
-      "next_scan_at": "2026-08-10T01:09:58.302962+07:00",
+      "minutes_to_kickoff": -95,
+      "last_scan_at": "2026-08-10T01:35:24.252926+07:00",
+      "next_scan_at": "2026-08-10T01:40:24.252926+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -463,9 +449,9 @@
       "url": "https://phaohoa1.live/truc-tiep/antwerp-vs-beveren-10-08-2026-819132",
       "match_name": "Antwerp vs Beveren",
       "kickoff_iso": "2026-08-10T00:15:00+07:00",
-      "minutes_to_kickoff": -49,
-      "last_scan_at": "2026-08-10T01:04:58.302962+07:00",
-      "next_scan_at": "2026-08-10T01:09:58.302962+07:00",
+      "minutes_to_kickoff": -79,
+      "last_scan_at": "2026-08-10T01:35:24.252926+07:00",
+      "next_scan_at": "2026-08-10T01:40:24.252926+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -477,9 +463,9 @@
       "url": "https://phaohoa1.live/truc-tiep/jagiellonia-vs-widzew-lodz-10-08-2026-780170",
       "match_name": "Jagiellonia vs Widzew Lodz",
       "kickoff_iso": "2026-08-10T01:15:00+07:00",
-      "minutes_to_kickoff": 10,
-      "last_scan_at": "2026-08-10T01:04:58.302962+07:00",
-      "next_scan_at": "2026-08-10T01:09:58.302962+07:00",
+      "minutes_to_kickoff": -20,
+      "last_scan_at": "2026-08-10T01:35:24.252926+07:00",
+      "next_scan_at": "2026-08-10T01:40:24.252926+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -491,9 +477,9 @@
       "url": "https://phaohoa1.live/truc-tiep/benfica-vs-academico-viseu-10-08-2026-803645",
       "match_name": "10-08 Primeira Liga Benfica VS Academico Viseu Ken",
       "kickoff_iso": "2026-08-10T02:30:00+07:00",
-      "minutes_to_kickoff": 85,
-      "last_scan_at": "2026-08-10T01:04:58.302962+07:00",
-      "next_scan_at": "2026-08-10T01:24:58.302962+07:00",
+      "minutes_to_kickoff": 55,
+      "last_scan_at": "2026-08-10T01:35:24.252926+07:00",
+      "next_scan_at": "2026-08-10T01:55:24.252926+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -501,14 +487,16 @@
     },
     "803647": {
       "url": "https://phaohoa1.live/truc-tiep/moreirense-vs-braga-10-08-2026-803647",
-      "match_name": "10-08 Primeira Liga Moreirense VS Braga Pháo Thủ",
+      "match_name": "Moreirense vs Braga",
       "kickoff_iso": "2026-08-10T02:30:00+07:00",
-      "minutes_to_kickoff": 85,
-      "last_scan_at": "2026-08-10T01:04:58.302962+07:00",
-      "next_scan_at": "2026-08-10T01:24:58.302962+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 55,
+      "last_scan_at": "2026-08-10T01:35:24.252926+07:00",
+      "next_scan_at": "2026-08-10T01:45:24.252926+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
