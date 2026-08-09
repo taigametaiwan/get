@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-10T06:01:42.693508+07:00",
+  "updated_at": "2026-08-10T06:31:45.990461+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -663,21 +663,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1530124": {
-      "url": "https://live04.chuoichientv.me/live/1530124/charlotte-vs-atlas",
-      "match_name": "Charlotte vs Atlas - Leagues Cup",
-      "kickoff_iso": "2026-08-08T06:30:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-08T08:31:34.594215+07:00",
-      "next_scan_at": "2026-08-08T08:36:34.594215+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
-        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1530125": {
       "url": "https://live04.chuoichientv.me/live/1530125/columbus-crew-vs-pachuca",
       "match_name": "columbus crew vs pachuca",
@@ -1323,37 +1308,39 @@
       "url": "https://live04.chuoichientv.me/live/1530138/cruz-azul-vs-new-york-city-fc",
       "match_name": "Cruz Azul vs New York City FC - Leagues Cup",
       "kickoff_iso": "2026-08-10T06:30:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-10T06:01:42.693413+07:00",
-      "next_scan_at": "2026-08-10T06:11:42.693413+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-10T06:31:45.990393+07:00",
+      "next_scan_at": "2026-08-10T06:36:45.990393+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoito.flv"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1530135": {
+      "url": "https://live04.chuoichientv.me/live/1530135/austin-vs-puebla",
+      "match_name": "Austin vs Puebla - Leagues Cup",
+      "kickoff_iso": "2026-08-10T08:00:00+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-08-10T06:31:45.990393+07:00",
+      "next_scan_at": "2026-08-10T06:51:45.990393+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
-    "1530135": {
-      "url": "https://live04.chuoichientv.me/live/1530135/austin-vs-puebla",
-      "match_name": "austin vs puebla",
-      "kickoff_iso": "2026-08-10T08:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-10T06:01:42.693413+07:00",
-      "next_scan_at": "2026-08-10T06:21:42.693413+07:00",
+    "1530137": {
+      "url": "https://live04.chuoichientv.me/live/1530137/club-america-vs-portland-timbers",
+      "match_name": "club america vs portland timbers",
+      "kickoff_iso": "2026-08-10T09:15:00+07:00",
+      "minutes_to_kickoff": 164,
+      "last_scan_at": "2026-08-10T06:31:45.990393+07:00",
+      "next_scan_at": "2026-08-10T07:16:45.990393+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
-    },
-    "1530137": {
-      "url": "https://live04.chuoichientv.me/live/1530137/club-america-vs-portland-timbers",
-      "match_name": "club america vs portland timbers",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-10T06:01:42.693413+07:00",
-      "next_scan_at": "2026-08-10T06:11:42.693413+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
     }
   }
 }
