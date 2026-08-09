@@ -1,37 +1,62 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-991421-1" tvg-name="[16:30 09/08] Việt Nam vs Thailand W - Bóng Chuyền SEA V.LEAGUE" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142846_1ef0d541.png",[16:30 09/08] Việt Nam vs Thailand W - Bóng Chuyền SEA V.LEAGUE [FHD FLV]
+#EXTINF:-1 tvg-id="chuoichien-991421-1" tvg-name="[16:30 09/08] Việt Nam vs Thailand W - Bóng Chuyền SEA V.LEAGUE [BLV Camry]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142846_1ef0d541.png",[16:30 09/08] Việt Nam vs Thailand W - Bóng Chuyền SEA V.LEAGUE [BLV Camry] [FHD FLV]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://gckc0525.edgemaxcdn.org/live/camry.flv
+#EXTINF:-1 tvg-id="chuoichien-991421-2" tvg-name="[16:30 09/08] Việt Nam vs Thailand W - Bóng Chuyền SEA V.LEAGUE [BLV Camry]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142846_1ef0d541.png",[16:30 09/08] Việt Nam vs Thailand W - Bóng Chuyền SEA V.LEAGUE [BLV Camry] (Luồng 2) [M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/camry/playlist.m3u8
 #EXTINF:-1 tvg-id="chuoichien-1607636-1" tvg-name="[16:40 09/08] South Melbourne vs Fremantle City - Australia Cup [BLV trực tiếp: Chuối To Trận đấu South Melbo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_141355_3745ec34.png",[16:40 09/08] South Melbourne vs Fremantle City - Australia Cup [BLV trực tiếp: Chuối To Trận đấu South Melbo] [FHD FLV]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://gckc0525.edgemaxcdn.org/live/chuoito.flv
+#EXTINF:-1 tvg-id="chuoichien-1554008-1" tvg-name="[17:00 09/08] V-varen Nagasaki vs Kyoto Sanga - J1 League [BLV trực tiếp: Chuối Chao Trận đấu V-varen N]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132410_9ebb3511.png",[17:00 09/08] V-varen Nagasaki vs Kyoto Sanga - J1 League [BLV trực tiếp: Chuối Chao Trận đấu V-varen N] [FHD FLV]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/chuoichao.flv
 #EXTINF:-1 tvg-id="gavang-2865-1" tvg-name="[16:00 09/08] JPN J1 - Tokyo Verdy VS Kawasaki Frontale [BLV NGƯỜI BẠC]" group-title="Gà Vàng" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7hexlqdyj/image/small",[16:00 09/08] JPN J1 - Tokyo Verdy VS Kawasaki Frontale [BLV NGƯỜI BẠC] [M3U8]
 #EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2865/tokyo-kawasaki-j1/?s8_live_fixture_id=2865&s8_live_stream_key=tokyo-kawasaki-j1&s8_auto_sound=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2865/tokyo-kawasaki-j1/?s8_live_fixture_id=2865&s8_live_stream_key=tokyo-kawasaki-j1&s8_auto_sound=1","Origin":"https://radio-capital.io"}
 https://hls.lauthaitv.cc/live/tokyo-kawasaki-j1/index.m3u8
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-zlin-b-vs-polanka-luc-1530-ngay-09-08-2026-s0-5" tvg-name="[15:30 09/08/2026] Zlin B vs Polanka [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhg02wryk0/image/small",[15:30 09/08/2026] Zlin B vs Polanka [FLV]
+#EXTINF:-1 tvg-id="gavang-2866-1" tvg-name="[17:00 09/08] V-varen Nagasaki vs Kyoto Sanga - J1 League [BLV NGƯỜI PHÁO]" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-json/s8-image/56528b07-3faf-491d-a3aa-34ff246e70ec",[17:00 09/08] V-varen Nagasaki vs Kyoto Sanga - J1 League [BLV NGƯỜI PHÁO] [M3U8]
+#EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2866/vvaren-kyoto-j1/?s8_live_fixture_id=2866&s8_live_stream_key=vvaren-kyoto-j1&s8_auto_sound=1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2866/vvaren-kyoto-j1/?s8_live_fixture_id=2866&s8_live_stream_key=vvaren-kyoto-j1&s8_auto_sound=1","Origin":"https://radio-capital.io"}
+https://hls.lauthaitv.cc/live/vvaren-kyoto-j1/index.m3u8
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-bnk-fearx-vs-kiwoom-drx-luc-1700-ngay-09-08-2026-s1-4" tvg-name="[17:00 09/08/2026] Bnk Fearx vs Kiwoom Drx [BLV HD MARTY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/lol/team/965mk6zt7jezq1g/image/small",[17:00 09/08/2026] Bnk Fearx vs Kiwoom Drx [BLV HD MARTY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel30.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-iwaki-fc-vs-fc-imabari-luc-1600-ngay-09-08-2026-s1-2" tvg-name="[16:00 09/08/2026] Iwaki Fc vs Fc Imabari [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhgjg7ryk0/image/small",[16:00 09/08/2026] Iwaki Fc vs Fc Imabari [BLV HD BEE] [FLV]
+#EXTINF:-1 tvg-id="xoilac--tiep-changchun-xidu-vs-xian-ronghai-fc-luc-1600-ngay-09-08-2026-s0-5" tvg-name="[16:00 09/08/2026] Changchun Xidu vs Xian Ronghai Fc [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hz10oqdyj/image/small",[16:00 09/08/2026] Changchun Xidu vs Xian Ronghai Fc [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel4.flv
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-iwaki-fc-vs-fc-imabari-luc-1600-ngay-09-08-2026-s1-6" tvg-name="[16:00 09/08/2026] Iwaki Fc vs Fc Imabari [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhgjg7ryk0/image/small",[16:00 09/08/2026] Iwaki Fc vs Fc Imabari [BLV HD BEE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel8.flv
-#EXTINF:-1 tvg-id="xoilac-c-tiep-tokyo-verdy-vs-kawasaki-frontale-luc-1600-ngay-09-08-2026-s1-3" tvg-name="[16:00 09/08/2026] Tokyo Verdy vs Kawasaki Frontale [BLV HD JOHAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7hexlqdyj/image/small",[16:00 09/08/2026] Tokyo Verdy vs Kawasaki Frontale [BLV HD JOHAN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-c-tiep-tokyo-verdy-vs-kawasaki-frontale-luc-1600-ngay-09-08-2026-s1-7" tvg-name="[16:00 09/08/2026] Tokyo Verdy vs Kawasaki Frontale [BLV HD JOHAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7hexlqdyj/image/small",[16:00 09/08/2026] Tokyo Verdy vs Kawasaki Frontale [BLV HD JOHAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
@@ -45,42 +70,49 @@ https://live2.streambylivepulse.com/live/channel12.flv
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel33.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-bnk-fearx-vs-kiwoom-drx-luc-1700-ngay-09-08-2026-s1-6" tvg-name="[17:00 09/08/2026] Bnk Fearx vs Kiwoom Drx [BLV HD MARTY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/lol/team/965mk6zt7jezq1g/image/small",[17:00 09/08/2026] Bnk Fearx vs Kiwoom Drx [BLV HD MARTY] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel30/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel30/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001786268308-0-0-6b3b3d9f01da4997cd73ccc0a6ee9584
-#EXTINF:-1 tvg-id="xoilac--tiep-qingdao-guoxin-vs-jiangsu-dragons-luc-1830-ngay-09-08-2026-s1-7" tvg-name="[18:30 09/08/2026] Qingdao Guoxin vs Jiangsu Dragons [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/8y39mp4t878mojx/image/small",[18:30 09/08/2026] Qingdao Guoxin vs Jiangsu Dragons [BLV HD ALAN] [FLV]
+#EXTINF:-1 tvg-id="xoilac--tiep-qingdao-guoxin-vs-jiangsu-dragons-luc-1830-ngay-09-08-2026-s1-8" tvg-name="[18:30 09/08/2026] Qingdao Guoxin vs Jiangsu Dragons [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/8y39mp4t878mojx/image/small",[18:30 09/08/2026] Qingdao Guoxin vs Jiangsu Dragons [BLV HD ALAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel25/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel25/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786268356-0-0-89bef814131ed6376e6e88c351256938
-#EXTINF:-1 tvg-id="xoilac--tiep-ha-noi-buffalo-vs-da-nang-dragons-luc-1930-ngay-09-08-2026-s1-8" tvg-name="[19:30 09/08/2026] Ha Noi Buffalo vs Da Nang Dragons [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/v2y8m4pt256ml07/image/small",[19:30 09/08/2026] Ha Noi Buffalo vs Da Nang Dragons [BLV HD TOMMY] [FLV]
+https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786270150-0-0-485face6d751d067ddad889510bf2172
+#EXTINF:-1 tvg-id="xoilac--tiep-ha-noi-buffalo-vs-da-nang-dragons-luc-1930-ngay-09-08-2026-s1-9" tvg-name="[19:30 09/08/2026] Ha Noi Buffalo vs Da Nang Dragons [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/v2y8m4pt256ml07/image/small",[19:30 09/08/2026] Ha Noi Buffalo vs Da Nang Dragons [BLV HD TOMMY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel29/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel29/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786268376-0-0-2cdb6e91f9550ed893f3b2a750e27a7c
-#EXTINF:-1 tvg-id="colatv-14367f1801cc-1" tvg-name="[16:00 09/08] Tokyo Verdy vs Kawasaki Frontale [BLV GIÀ LÀNGĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2a8adb34e764602183a7bee8f51726e4.png!w80",[16:00 09/08] Tokyo Verdy vs Kawasaki Frontale [BLV GIÀ LÀNGĐang xem] [M3U8]
+https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786270166-0-0-fe12a701bbd00292f6ff28dd6cd8205e
+#EXTINF:-1 tvg-id="colatv-14367f1801cc-1" tvg-name="[16:00 09/08] Tokyo Verdy vs Kawasaki Frontale [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr]" group-title="ColaTV",[16:00 09/08] Tokyo Verdy vs Kawasaki Frontale [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/14830711.m3u8
-#EXTINF:-1 tvg-id="colatv-a521df33bfb9-1" tvg-name="[16:40 09/08] South Melbourne vs Fremantle City [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/3728683390847f335552d077cf0b8752.png!w80",[16:40 09/08] South Melbourne vs Fremantle City [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]
+#EXTINF:-1 tvg-id="colatv-a521df33bfb9-1" tvg-name="[16:40 09/08] South Melbourne vs Fremantle City [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/3728683390847f335552d077cf0b8752.png!w80",[16:40 09/08] South Melbourne vs Fremantle City [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/90865415.m3u8
-#EXTINF:-1 tvg-id="colatv-97bde47dce84-1" tvg-name="[17:00 09/08] Giải vô địch quốc gia Nhật Bản 09/08 V Varen Nagasaki VS Kyoto Sanga BLV C2 [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/7d6fa50ea67cde7d66612a8189897ba5.png!w80",[17:00 09/08] Giải vô địch quốc gia Nhật Bản 09/08 V Varen Nagasaki VS Kyoto Sanga BLV C2 [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
+#EXTINF:-1 tvg-id="colatv-3e4f2903aee3-1" tvg-name="[17:00 09/08] V Varen Nagasaki vs Kyoto Sanga [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV",[17:00 09/08] V Varen Nagasaki vs Kyoto Sanga [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/59444581.m3u8
+#EXTINF:-1 tvg-id="colatv-69433c67278b-1" tvg-name="[17:15 09/08] Sparta Rotterdam vs Feyenoord [BLV MONSTERĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/73a60eae399442123eeb6f90b70cee8e.png!w80",[17:15 09/08] Sparta Rotterdam vs Feyenoord [BLV MONSTERĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/75915087.m3u8
+#EXTINF:-1 tvg-id="colatv-5b6c79161253-1" tvg-name="[18:00 09/08] Henan FC vs Qingdao West Coast [BLV FANTAĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f336520db254da6d6d5294b720d26d83.png!w80",[18:00 09/08] Henan FC vs Qingdao West Coast [BLV FANTAĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
@@ -101,3 +133,10 @@ https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa2
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://phaohoa1.live/","Origin":"https://phaohoa1.live"}
 https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
+#EXTINF:-1 tvg-id="phaohoa-805954-1" tvg-name="[17:15 09/08] Sparta Rotterdam VS Feyenoord [BLV Ken]" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/sparta-rotterdam-vs-feyenoord-09-08-2026-805954" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_5512.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_5512.jpg" phaohoa-away-logo="https://phaohoa1.live/media/tournaments/icons/tournament_244.png" phaohoa-blv="Ken",[17:15 09/08] Sparta Rotterdam VS Feyenoord [BLV Ken] [SD M3U8]
+#EXTVLCOPT:http-referrer=https://phaohoa1.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://phaohoa1.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://phaohoa1.live/","Origin":"https://phaohoa1.live"}
+https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
