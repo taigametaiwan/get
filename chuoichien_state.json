@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-09T20:01:52.706917+07:00",
+  "updated_at": "2026-08-09T20:31:47.398293+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1198,15 +1198,15 @@
     },
     "1546761": {
       "url": "https://live04.chuoichientv.me/live/1546761/johor-darul-takzim-fc-vs-chelsea",
-      "match_name": "Johor Darul Takzim FC vs Chelsea - Giao Hữu Câu Lạc Bộ",
+      "match_name": "johor darul takzim fc vs chelsea",
       "kickoff_iso": "2026-08-09T19:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-09T20:01:52.706678+07:00",
-      "next_scan_at": "2026-08-09T20:06:52.706678+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-09T20:31:47.398118+07:00",
+      "next_scan_at": "2026-08-09T20:36:47.398118+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
+        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1214,13 +1214,14 @@
       "url": "https://live04.chuoichientv.me/live/1589322/arsenal-vs-borussia-dortmund",
       "match_name": "Arsenal vs Borussia Dortmund - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-09T20:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-09T20:01:52.706678+07:00",
-      "next_scan_at": "2026-08-09T20:06:52.706678+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-09T20:31:47.398118+07:00",
+      "next_scan_at": "2026-08-09T20:36:47.398118+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv"
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv",
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1252,45 +1253,47 @@
       "url": "https://live04.chuoichientv.me/live/1550626/liverpool-vs-monaco",
       "match_name": "Liverpool vs Monaco - Giao Hữu Câu Lạc Bộ",
       "kickoff_iso": "2026-08-09T20:30:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-09T20:01:52.706678+07:00",
-      "next_scan_at": "2026-08-09T20:11:52.706678+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-09T20:31:47.398118+07:00",
+      "next_scan_at": "2026-08-09T20:36:47.398118+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao.flv"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1567406": {
       "url": "https://live04.chuoichientv.me/live/1567406/mansfield-town-vs-sheffield-utd",
       "match_name": "mansfield town vs sheffield utd",
       "kickoff_iso": "2026-08-09T22:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-09T20:01:52.706678+07:00",
-      "next_scan_at": "2026-08-09T20:21:52.706678+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-09T20:31:47.398118+07:00",
+      "next_scan_at": "2026-08-09T20:51:47.398118+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1604785": {
       "url": "https://live04.chuoichientv.me/live/1604785/marseille-vs-athletic-club",
       "match_name": "marseille vs athletic club",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T20:01:52.706678+07:00",
-      "next_scan_at": "2026-08-09T20:11:52.706678+07:00",
+      "kickoff_iso": "2026-08-09T22:30:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-09T20:31:47.398118+07:00",
+      "next_scan_at": "2026-08-09T20:51:47.398118+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1575449": {
       "url": "https://live04.chuoichientv.me/live/1575449/fc-porto-vs-alverca",
       "match_name": "fc porto vs alverca",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T20:01:52.706678+07:00",
-      "next_scan_at": "2026-08-09T20:11:52.706678+07:00",
+      "last_scan_at": "2026-08-09T20:31:47.398118+07:00",
+      "next_scan_at": "2026-08-09T20:41:47.398118+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1301,8 +1304,8 @@
       "match_name": "bb bodrumspor vs bursaspor",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T20:01:52.706678+07:00",
-      "next_scan_at": "2026-08-09T20:11:52.706678+07:00",
+      "last_scan_at": "2026-08-09T20:31:47.398118+07:00",
+      "next_scan_at": "2026-08-09T20:41:47.398118+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1313,8 +1316,20 @@
       "match_name": "frosinone vs lazio",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T20:01:52.706678+07:00",
-      "next_scan_at": "2026-08-09T20:11:52.706678+07:00",
+      "last_scan_at": "2026-08-09T20:31:47.398118+07:00",
+      "next_scan_at": "2026-08-09T20:41:47.398118+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1492327": {
+      "url": "https://live04.chuoichientv.me/live/1492327/palmeiras-vs-internacional",
+      "match_name": "palmeiras vs internacional",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-09T20:31:47.398118+07:00",
+      "next_scan_at": "2026-08-09T20:41:47.398118+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
