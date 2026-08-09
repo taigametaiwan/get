@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-10T00:34:42.505354+07:00",
+  "updated_at": "2026-08-10T01:04:58.303195+07:00",
   "matches": {
     "809601": {
       "url": "https://phaohoa1.live/truc-tiep/bochum-vs-hertha-berlin-08-08-2026-809601",
@@ -435,9 +435,9 @@
       "url": "https://phaohoa1.live/truc-tiep/anderlecht-vs-raal-la-louviere-09-08-2026-819131",
       "match_name": "Anderlecht vs Raal La Louviere",
       "kickoff_iso": "2026-08-09T23:30:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-08-10T00:34:42.505046+07:00",
-      "next_scan_at": "2026-08-10T00:39:42.505046+07:00",
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-08-10T01:04:58.302962+07:00",
+      "next_scan_at": "2026-08-10T01:09:58.302962+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -449,9 +449,9 @@
       "url": "https://phaohoa1.live/truc-tiep/fc-porto-vs-alverca-10-08-2026-803644",
       "match_name": "FC Porto vs Alverca",
       "kickoff_iso": "2026-08-10T00:00:00+07:00",
-      "minutes_to_kickoff": -34,
-      "last_scan_at": "2026-08-10T00:34:42.505046+07:00",
-      "next_scan_at": "2026-08-10T00:39:42.505046+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-08-10T01:04:58.302962+07:00",
+      "next_scan_at": "2026-08-10T01:09:58.302962+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -463,9 +463,9 @@
       "url": "https://phaohoa1.live/truc-tiep/antwerp-vs-beveren-10-08-2026-819132",
       "match_name": "Antwerp vs Beveren",
       "kickoff_iso": "2026-08-10T00:15:00+07:00",
-      "minutes_to_kickoff": -19,
-      "last_scan_at": "2026-08-10T00:34:42.505046+07:00",
-      "next_scan_at": "2026-08-10T00:39:42.505046+07:00",
+      "minutes_to_kickoff": -49,
+      "last_scan_at": "2026-08-10T01:04:58.302962+07:00",
+      "next_scan_at": "2026-08-10T01:09:58.302962+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -475,39 +475,41 @@
     },
     "780170": {
       "url": "https://phaohoa1.live/truc-tiep/jagiellonia-vs-widzew-lodz-10-08-2026-780170",
-      "match_name": "10-08 Ekstraklasa Jagiellonia VS Widzew Lodz Chim Nhỏ",
+      "match_name": "Jagiellonia vs Widzew Lodz",
       "kickoff_iso": "2026-08-10T01:15:00+07:00",
-      "minutes_to_kickoff": 41,
-      "last_scan_at": "2026-08-10T00:34:42.505046+07:00",
-      "next_scan_at": "2026-08-10T00:44:42.505046+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 10,
+      "last_scan_at": "2026-08-10T01:04:58.302962+07:00",
+      "next_scan_at": "2026-08-10T01:09:58.302962+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     },
     "803645": {
       "url": "https://phaohoa1.live/truc-tiep/benfica-vs-academico-viseu-10-08-2026-803645",
       "match_name": "10-08 Primeira Liga Benfica VS Academico Viseu Ken",
       "kickoff_iso": "2026-08-10T02:30:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-08-10T00:34:42.505046+07:00",
-      "next_scan_at": "2026-08-10T00:54:42.505046+07:00",
+      "minutes_to_kickoff": 85,
+      "last_scan_at": "2026-08-10T01:04:58.302962+07:00",
+      "next_scan_at": "2026-08-10T01:24:58.302962+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "803647": {
       "url": "https://phaohoa1.live/truc-tiep/moreirense-vs-braga-10-08-2026-803647",
       "match_name": "10-08 Primeira Liga Moreirense VS Braga Pháo Thủ",
       "kickoff_iso": "2026-08-10T02:30:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-08-10T00:34:42.505046+07:00",
-      "next_scan_at": "2026-08-10T00:54:42.505046+07:00",
+      "minutes_to_kickoff": 85,
+      "last_scan_at": "2026-08-10T01:04:58.302962+07:00",
+      "next_scan_at": "2026-08-10T01:24:58.302962+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
