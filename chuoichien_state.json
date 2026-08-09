@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-09T07:01:32.358531+07:00",
+  "updated_at": "2026-08-09T07:31:34.296743+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1134,9 +1134,9 @@
       "url": "https://live04.chuoichientv.me/live/1530130/inter-miami-vs-monterrey",
       "match_name": "Inter Miami vs Monterrey - Leagues Cup",
       "kickoff_iso": "2026-08-09T07:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-09T07:01:32.358451+07:00",
-      "next_scan_at": "2026-08-09T07:06:32.358451+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-09T07:31:34.296687+07:00",
+      "next_scan_at": "2026-08-09T07:36:34.296687+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1197,11 +1197,11 @@
     },
     "1530129": {
       "url": "https://live04.chuoichientv.me/live/1530129/guadalajara-chivas-vs-fc-dallas",
-      "match_name": "Guadalajara Chivas vs FC Dallas - Leagues Cup",
+      "match_name": "guadalajara chivas vs fc dallas",
       "kickoff_iso": "2026-08-09T08:00:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-08-09T07:01:32.358451+07:00",
-      "next_scan_at": "2026-08-09T07:21:32.358451+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-09T07:31:34.296687+07:00",
+      "next_scan_at": "2026-08-09T07:41:34.296687+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1210,14 +1210,14 @@
     "1530134": {
       "url": "https://live04.chuoichientv.me/live/1530134/toluca-vs-los-angeles-fc",
       "match_name": "toluca vs los angeles fc",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-09T07:01:32.358451+07:00",
-      "next_scan_at": "2026-08-09T07:11:32.358451+07:00",
+      "kickoff_iso": "2026-08-09T10:10:00+07:00",
+      "minutes_to_kickoff": 159,
+      "last_scan_at": "2026-08-09T07:31:34.296687+07:00",
+      "next_scan_at": "2026-08-09T08:16:34.296687+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1598600": {
       "url": "https://live04.chuoichientv.me/live/1598600/udinese-vs-nottingham-forest",
