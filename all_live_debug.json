@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-10T16:37:24.598261+07:00",
+  "generated_at": "2026-08-10T17:08:20.430751+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -137,52 +137,52 @@
   "input_candidates": 17,
   "metadata_reference_count": 223,
   "last_good_recovered_count": 0,
-  "last_good_suppressed_by_fresh_count": 2,
+  "last_good_suppressed_by_fresh_count": 1,
   "last_good_audit": [
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786352810-0-0-cad2e7eacbab59d5a0c784ef19e89d8f",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786352768-0-0-f979662dcbe66e0e3abf72583c5e1420",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel8.flv?auth_key=3000001786352800-0-0-8fa5e85f5d1f337e4820436e668f91c3",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786352788-0-0-41426ad4e25bbda192ac205f004eb97b",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
       "url": "https://live2.streambylivepulse.com/live/channel25.flv",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
+      "url": "https://live3.procdnlive.com/livecdn/channel8.flv?auth_key=3000001786354605-0-0-e63d69d0e6c94bc549ce1442cf4c5b1e",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001786354629-0-0-49dfafb0ba306819d17b6809ab9c3d06",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786354614-0-0-653ebb14aaa5b530fbe4654e946aae99",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786354592-0-0-0cff3430a381a1161ea4f2fede1e7928",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786354571-0-0-dba5a18ed1122ad447b59f3798ad3851",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
       "url": "https://live2.streambylivepulse.com/live/channel7.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
+      "kept": false,
+      "reason": "TimeoutError: The read operation timed out",
       "source": "xoilac"
     },
     {
       "url": "https://live2.streambylivepulse.com/live/channel25.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
@@ -204,7 +204,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
+      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001786356413-0-0-40ceab4da4116a7f9242e5434ab41922",
       "match_key": "hong da vs diversity veterans|hd jean",
       "display_name": "[15:00 10/08/2026] Hong Da vs Diversity Veterans [BLV HD JEAN] [FLV]",
       "group": "Xôi Lạc",
@@ -225,7 +225,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-10T15:00:00+07:00",
-      "minutes_to_kickoff": -97.41,
+      "minutes_to_kickoff": -128.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -235,7 +235,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.streambylivepulse.com/live/channel7.flv",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001786356413-0-0-40ceab4da4116a7f9242e5434ab41922",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h9317q86p/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hkedjqo9j/image/small",
       "blv": null,
@@ -270,7 +270,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-10T16:00:00+07:00",
-      "minutes_to_kickoff": -37.41,
+      "minutes_to_kickoff": -68.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -294,7 +294,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786354571-0-0-dba5a18ed1122ad447b59f3798ad3851",
+      "url": "https://live2.streambylivepulse.com/live/channel10.flv",
       "match_key": "hongyan village ii vs halftime brothers|hd polo",
       "display_name": "[17:00 10/08/2026] Hongyan Village Ii vs Halftime Brothers [BLV HD POLO] [FLV]",
       "group": "Xôi Lạc",
@@ -315,7 +315,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-10T17:00:00+07:00",
-      "minutes_to_kickoff": 22.59,
+      "minutes_to_kickoff": -8.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -325,7 +325,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786354571-0-0-dba5a18ed1122ad447b59f3798ad3851",
+      "page_url": "https://live2.streambylivepulse.com/live/channel10.flv",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/2y8m4zh1od6ql07/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnhe7pvm7vx/image/small",
       "blv": null,
@@ -339,7 +339,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786354592-0-0-0cff3430a381a1161ea4f2fede1e7928",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786356445-0-0-0b91fb189cd1d744c2d4ba272bbb15a8",
       "match_key": "manila batang quiapo vs san juan knights|hd tommy",
       "display_name": "[18:00 10/08/2026] Manila Batang Quiapo vs San Juan Knights [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -360,7 +360,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-10T18:00:00+07:00",
-      "minutes_to_kickoff": 82.59,
+      "minutes_to_kickoff": 51.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -370,7 +370,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786354592-0-0-0cff3430a381a1161ea4f2fede1e7928",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786356445-0-0-0b91fb189cd1d744c2d4ba272bbb15a8",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/ednm9ktkl7wryox/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/l5ergytojglr8k0/image/small",
       "blv": null,
@@ -384,7 +384,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel8.flv?auth_key=3000001786354605-0-0-e63d69d0e6c94bc549ce1442cf4c5b1e",
+      "url": "https://live3.procdnlive.com/livecdn/channel8.flv?auth_key=3000001786356454-0-0-7c7738997c4f83ca1ec9892f717bdb36",
       "match_key": "shanghai port u20 vs hubei istar u20|hd bee",
       "display_name": "[18:30 10/08/2026] Shanghai Port U20 vs Hubei Istar U20 [BLV HD BEE] [FLV]",
       "group": "Xôi Lạc",
@@ -405,7 +405,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-10T18:30:00+07:00",
-      "minutes_to_kickoff": 112.59,
+      "minutes_to_kickoff": 81.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -415,7 +415,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel8.flv?auth_key=3000001786354605-0-0-e63d69d0e6c94bc549ce1442cf4c5b1e",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel8.flv?auth_key=3000001786356454-0-0-7c7738997c4f83ca1ec9892f717bdb36",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghx1deq82w/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/2y8m4zh1908ql07/image/small",
       "blv": null,
@@ -429,7 +429,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786354614-0-0-653ebb14aaa5b530fbe4654e946aae99",
+      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786356466-0-0-186587bb60b3723af5df3583ebfd3d99",
       "match_key": "tuanpo village vs jingchi team|hd toni",
       "display_name": "[19:00 10/08/2026] Tuanpo Village vs Jingchi Team [BLV HD TONI] [FLV]",
       "group": "Xôi Lạc",
@@ -450,7 +450,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-10T19:00:00+07:00",
-      "minutes_to_kickoff": 142.59,
+      "minutes_to_kickoff": 111.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -460,7 +460,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786354614-0-0-653ebb14aaa5b530fbe4654e946aae99",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786356466-0-0-186587bb60b3723af5df3583ebfd3d99",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryoh2o3eq1zp/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09h1zd9rz84/image/small",
       "blv": null,
@@ -474,7 +474,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001786354629-0-0-49dfafb0ba306819d17b6809ab9c3d06",
+      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001786356478-0-0-0cd6940019be41ef750d50b684fa97fd",
       "match_key": "polissya zhytomyr vs metalist 1925|hd zane",
       "display_name": "[19:30 10/08/2026] Polissya Zhytomyr vs Metalist 1925 [BLV HD ZANE] [FLV]",
       "group": "Xôi Lạc",
@@ -495,7 +495,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-10T19:30:00+07:00",
-      "minutes_to_kickoff": 172.59,
+      "minutes_to_kickoff": 141.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -505,7 +505,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001786354629-0-0-49dfafb0ba306819d17b6809ab9c3d06",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001786356478-0-0-0cd6940019be41ef750d50b684fa97fd",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlh1dd3ryk0/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7h1dd3qdyj/image/small",
       "blv": null,
@@ -520,9 +520,9 @@
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel25.flv",
-      "display_name": "[16:00 10/08/2026] Marikina Shoemasters vs Mindoro Tamaraws [BLV HD ALAN] [FLV]",
-      "match_key": "marikina shoemasters vs mindoro tamaraws|hd alan",
+      "url": "https://live2.streambylivepulse.com/live/channel10.flv",
+      "display_name": "[17:00 10/08/2026] Hongyan Village Ii vs Halftime Brothers [BLV HD POLO] [FLV]",
+      "match_key": "hongyan village ii vs halftime brothers|hd polo",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -532,9 +532,9 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
-      "display_name": "[15:00 10/08/2026] Hong Da vs Diversity Veterans [BLV HD JEAN] [FLV]",
-      "match_key": "hong da vs diversity veterans|hd jean",
+      "url": "https://live2.streambylivepulse.com/live/channel25.flv",
+      "display_name": "[16:00 10/08/2026] Marikina Shoemasters vs Mindoro Tamaraws [BLV HD ALAN] [FLV]",
+      "match_key": "marikina shoemasters vs mindoro tamaraws|hd alan",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -556,9 +556,9 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786354571-0-0-dba5a18ed1122ad447b59f3798ad3851",
-      "display_name": "[17:00 10/08/2026] Hongyan Village Ii vs Halftime Brothers [BLV HD POLO] [FLV]",
-      "match_key": "hongyan village ii vs halftime brothers|hd polo",
+      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001786356413-0-0-40ceab4da4116a7f9242e5434ab41922",
+      "display_name": "[15:00 10/08/2026] Hong Da vs Diversity Veterans [BLV HD JEAN] [FLV]",
+      "match_key": "hong da vs diversity veterans|hd jean",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -568,7 +568,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786354592-0-0-0cff3430a381a1161ea4f2fede1e7928",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786356445-0-0-0b91fb189cd1d744c2d4ba272bbb15a8",
       "display_name": "[18:00 10/08/2026] Manila Batang Quiapo vs San Juan Knights [BLV HD TOMMY] [FLV]",
       "match_key": "manila batang quiapo vs san juan knights|hd tommy",
       "quality": "HD",
@@ -580,7 +580,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel8.flv?auth_key=3000001786354605-0-0-e63d69d0e6c94bc549ce1442cf4c5b1e",
+      "url": "https://live3.procdnlive.com/livecdn/channel8.flv?auth_key=3000001786356454-0-0-7c7738997c4f83ca1ec9892f717bdb36",
       "display_name": "[18:30 10/08/2026] Shanghai Port U20 vs Hubei Istar U20 [BLV HD BEE] [FLV]",
       "match_key": "shanghai port u20 vs hubei istar u20|hd bee",
       "quality": "HD",
@@ -592,7 +592,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786354614-0-0-653ebb14aaa5b530fbe4654e946aae99",
+      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786356466-0-0-186587bb60b3723af5df3583ebfd3d99",
       "display_name": "[19:00 10/08/2026] Tuanpo Village vs Jingchi Team [BLV HD TONI] [FLV]",
       "match_key": "tuanpo village vs jingchi team|hd toni",
       "quality": "HD",
@@ -604,7 +604,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001786354629-0-0-49dfafb0ba306819d17b6809ab9c3d06",
+      "url": "https://live3.procdnlive.com/livecdn/channel14.flv?auth_key=3000001786356478-0-0-0cd6940019be41ef750d50b684fa97fd",
       "display_name": "[19:30 10/08/2026] Polissya Zhytomyr vs Metalist 1925 [BLV HD ZANE] [FLV]",
       "match_key": "polissya zhytomyr vs metalist 1925|hd zane",
       "quality": "HD",
