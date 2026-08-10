@@ -5,7 +5,13 @@
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoito/playlist.m3u8
-#EXTINF:-1 tvg-id="gavang-2896-1" tvg-name="[21:00 10/08] BLR First League - FC Gomel B VS Shakhtyor Soligorsk [BLV NGƯỜI CAT]" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-json/s8-image/ea5cbef5-dc3b-4d1f-9d78-57514cde221d",[21:00 10/08] BLR First League - FC Gomel B VS Shakhtyor Soligorsk [BLV NGƯỜI CAT] [M3U8]
+#EXTINF:-1 tvg-id="chuoichien-1531077-1" tvg-name="[21:00 10/08] Metalourg vs Yaypan - Pro League A [BLV trực tiếp: Chuối Đá Trận đấu Metalourg v]" group-title="Chuối Chiên" tvg-logo="https://media.api-sports.io/football/teams/27588.png",[21:00 10/08] Metalourg vs Yaypan - Pro League A [BLV trực tiếp: Chuối Đá Trận đấu Metalourg v] [M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoida/playlist.m3u8
+#EXTINF:-1 tvg-id="gavang-2896-1" tvg-name="[21:00 10/08] BLR First League - FC Gomel B VS Shakhtyor Soligorsk [BLV NGƯỜI CAT]" group-title="Gà Vàng" tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh102zq82w/image/small",[21:00 10/08] BLR First League - FC Gomel B VS Shakhtyor Soligorsk [BLV NGƯỜI CAT] [M3U8]
 #EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2896/gomelb-soligorsk-blr1st/?s8_live_fixture_id=2896&s8_live_stream_key=gomelb-soligorsk-blr1st&s8_auto_sound=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
@@ -17,90 +23,90 @@ https://hls.lauthaitv.cc/live/gomelb-soligorsk-blr1st/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2895/respublika-aral-uzbpro/?s8_live_fixture_id=2895&s8_live_stream_key=respublika-aral-uzbpro&s8_auto_sound=1","Origin":"https://radio-capital.io"}
 https://hls.lauthaitv.cc/live/respublika-aral-uzbpro/index.m3u8
-#EXTINF:-1 tvg-id="gavang-2894-1" tvg-name="[CHƯA CÓ GIỜ 10/08] UKR Premier League - Polissya Zhytomyr VS Metalist Kharkiv [BLV NGƯỜI BẠC]" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-content/uploads/2026/04/logo-gavangtv.png",[CHƯA CÓ GIỜ 10/08] UKR Premier League - Polissya Zhytomyr VS Metalist Kharkiv [BLV NGƯỜI BẠC] [M3U8]
-#EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2894/polissya-metalist-ukrprem/?s8_live_fixture_id=2894&s8_live_stream_key=polissya-metalist-ukrprem&s8_auto_sound=1
+#EXTINF:-1 tvg-id="gavang-2898-1" tvg-name="[22:30 10/08] FC Botosani vs Corvinul Hunedoara - VĐQG Roma" group-title="Gà Vàng" tvg-logo="https://radio-capital.io/wp-json/s8-image/cf20c0d2-5f0b-4d2b-a4d1-9db71f999959",[22:30 10/08] FC Botosani vs Corvinul Hunedoara - VĐQG Roma [M3U8]
+#EXTVLCOPT:http-referrer=https://radio-capital.io/s8-live/2898/botosani-corvinul-rom/?s8_live_fixture_id=2898&s8_live_stream_key=botosani-corvinul-rom&s8_auto_sound=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2894/polissya-metalist-ukrprem/?s8_live_fixture_id=2894&s8_live_stream_key=polissya-metalist-ukrprem&s8_auto_sound=1","Origin":"https://radio-capital.io"}
-https://hls.lauthaitv.cc/live/polissya-metalist-ukrprem/index.m3u8
-#EXTINF:-1 tvg-id="xoilac-ruc-tiep-tuanpo-village-vs-jingchi-team-luc-1900-ngay-10-08-2026-s1-6" tvg-name="[19:00 10/08/2026] Tuanpo Village vs Jingchi Team [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryoh2o3eq1zp/image/small",[19:00 10/08/2026] Tuanpo Village vs Jingchi Team [BLV HD TONI] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel9.flv
-#EXTINF:-1 tvg-id="xoilac-tiep-polissya-zhytomyr-vs-metalist-1925-luc-1930-ngay-10-08-2026-s1-3" tvg-name="[19:30 10/08/2026] Polissya Zhytomyr vs Metalist 1925 [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh1dd3ryk0/image/small",[19:30 10/08/2026] Polissya Zhytomyr vs Metalist 1925 [BLV HD ZANE] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
-https://live2.streambylivepulse.com/live/channel22.flv
-#EXTINF:-1 tvg-id="xoilac-axaquene-vs-clube-ferroviario-de-nacala-luc-1945-ngay-10-08-2026-s0-2" tvg-name="[19:45 10/08/2026] Cd Maxaquene vs Clube Ferroviario De Nacala [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7h83zqdyj/image/small",[19:45 10/08/2026] Cd Maxaquene vs Clube Ferroviario De Nacala [FLV]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://radio-capital.io/s8-live/2898/botosani-corvinul-rom/?s8_live_fixture_id=2898&s8_live_stream_key=botosani-corvinul-rom&s8_auto_sound=1","Origin":"https://radio-capital.io"}
+https://hls.lauthaitv.cc/live/botosani-corvinul-rom/index.m3u8
+#EXTINF:-1 tvg-id="xoilac-axaquene-vs-clube-ferroviario-de-nacala-luc-1945-ngay-10-08-2026-s0-4" tvg-name="[19:45 10/08/2026] Cd Maxaquene vs Clube Ferroviario De Nacala [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7h83zqdyj/image/small",[19:45 10/08/2026] Cd Maxaquene vs Clube Ferroviario De Nacala [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel10.flv
-#EXTINF:-1 tvg-id="xoilac--tiep-fc-gomel-b-vs-shakhtyor-soligorsk-luc-2100-ngay-10-08-2026-s1-1" tvg-name="[21:00 10/08/2026] Fc Gomel B vs Shakhtyor Soligorsk [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh102zq82w/image/small",[21:00 10/08/2026] Fc Gomel B vs Shakhtyor Soligorsk [BLV HD LOGAN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-mika-ashtarak-vs-pyunik-b-luc-2000-ngay-10-08-2026-s0-3" tvg-name="[20:00 10/08/2026] Mika Ashtarak vs Pyunik B [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkk50m2wd/image/small",[20:00 10/08/2026] Mika Ashtarak vs Pyunik B [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel20.flv
+#EXTINF:-1 tvg-id="xoilac--tiep-fc-gomel-b-vs-shakhtyor-soligorsk-luc-2100-ngay-10-08-2026-s1-2" tvg-name="[21:00 10/08/2026] Fc Gomel B vs Shakhtyor Soligorsk [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh102zq82w/image/small",[21:00 10/08/2026] Fc Gomel B vs Shakhtyor Soligorsk [BLV HD LOGAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
 https://live2.streambylivepulse.com/live/channel23.flv
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-fk-minsk-b-vs-ostrowitz-luc-2130-ngay-10-08-2026-s1-4" tvg-name="[21:30 10/08/2026] Fk Minsk B vs Ostrowitz [BLV HD OLER] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9wh9g51ryox/image/small",[21:30 10/08/2026] Fk Minsk B vs Ostrowitz [BLV HD OLER] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel28/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-fk-minsk-b-vs-ostrowitz-luc-2130-ngay-10-08-2026-s1-1" tvg-name="[21:30 10/08/2026] Fk Minsk B vs Ostrowitz [BLV HD OLER] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9wh9g51ryox/image/small",[21:30 10/08/2026] Fk Minsk B vs Ostrowitz [BLV HD OLER] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+#EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel28/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel28.flv?auth_key=3000001786370745-0-0-b9aeafb5dd91f01656949537487c45a1
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36","Referer":"https://xlz.livepingscorex.com/","Origin":"https://xlz.livepingscorex.com"}
+https://live2.streambylivepulse.com/live/channel28.flv
 #EXTINF:-1 tvg-id="xoilac-uc-tiep-fc-karpaty-lviv-vs-lnz-cherkasy-luc-2200-ngay-10-08-2026-s1-5" tvg-name="[22:00 10/08/2026] Fc Karpaty Lviv vs Lnz Cherkasy [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghl9km0ve/image/small",[22:00 10/08/2026] Fc Karpaty Lviv vs Lnz Cherkasy [BLV HD TONI] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel9/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel9/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786370755-0-0-cb7c6d9bdcaddbf912ea7170ddc91598
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-urartu-ii-vs-fc-noah-b-luc-2200-ngay-10-08-2026-s1-6" tvg-name="[22:00 10/08/2026] Urartu Ii vs Fc Noah B [BLV HD XMEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkhd154qg8n/image/small",[22:00 10/08/2026] Urartu Ii vs Fc Noah B [BLV HD XMEN] [FLV]
+https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786372530-0-0-93038888b25b716439459f4c4e4d9b3d
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-fk-orsha-vs-fc-molodechno-luc-2200-ngay-10-08-2026-s1-6" tvg-name="[22:00 10/08/2026] Fk Orsha vs Fc Molodechno [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hodxlqo9j/image/small",[22:00 10/08/2026] Fk Orsha vs Fc Molodechno [BLV HD SILVA] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel20/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel20/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
+https://live3.procdnlive.com/livecdn/channel20.flv?auth_key=3000001786372538-0-0-13cee9bec9958041982b14d6dfd4e138
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-urartu-ii-vs-fc-noah-b-luc-2200-ngay-10-08-2026-s1-7" tvg-name="[22:00 10/08/2026] Urartu Ii vs Fc Noah B [BLV HD XMEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkhd154qg8n/image/small",[22:00 10/08/2026] Urartu Ii vs Fc Noah B [BLV HD XMEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel13/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.textliveupdaterz.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.textliveupdaterz.com/ajax/chanel/type/5/link/channel13/off-tvc?is_off_add=false","Origin":"https://xlz.textliveupdaterz.com"}
-https://live3.procdnlive.com/livecdn/channel13.flv?auth_key=3000001786370775-0-0-694b874532fdfd3c33efff768f26b413
-#EXTINF:-1 tvg-id="colatv-c10ea27e31f0-1" tvg-name="[19:30 10/08] FC Lochin vs Terdu [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV",[19:30 10/08] FC Lochin vs Terdu [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/16226575.m3u8
-#EXTINF:-1 tvg-id="colatv-f389d0b1f1a1-1" tvg-name="[19:30 10/08] Polissya Zhytomyr vs Metalist 1925 [BLV POCARIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/af718a29d1eacceec7da5c5815b1679b.png!w80",[19:30 10/08] Polissya Zhytomyr vs Metalist 1925 [BLV POCARIĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/19919577.m3u8
-#EXTINF:-1 tvg-id="colatv-9a83f2589a5d-1" tvg-name="[21:00 10/08] FC Gomel B vs Shakhtyor Soligorsk [BLV KHÔNG ĐỘĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/8170b33f0a6a11b512f8d05de077992a.png!w80",[21:00 10/08] FC Gomel B vs Shakhtyor Soligorsk [BLV KHÔNG ĐỘĐang xem] [M3U8]
+https://live3.procdnlive.com/livecdn/channel13.flv?auth_key=3000001786372560-0-0-382d9695b8b38bea39236ffcc570e336
+#EXTINF:-1 tvg-id="colatv-c653a0086bea-1" tvg-name="[21:00 10/08] FC Gomel B vs Shakhtyor Soligorsk [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV",[21:00 10/08] FC Gomel B vs Shakhtyor Soligorsk [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/41943555.m3u8
-#EXTINF:-1 tvg-id="colatv-fe2e97bfb8bc-1" tvg-name="[21:30 10/08] FK Minsk B vs Ostrowitz [BLV STINGĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/6c20ad6b52b03de5b69a54e34b05198d.png!w80",[21:30 10/08] FK Minsk B vs Ostrowitz [BLV STINGĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-a9cb77dd1fc5-1" tvg-name="[21:30 10/08] Fk Minsk B vs Ostrowitz [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/6c20ad6b52b03de5b69a54e34b05198d.png!w80",[21:30 10/08] Fk Minsk B vs Ostrowitz [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/14707124.m3u8
+#EXTINF:-1 tvg-id="colatv-918413cb1f2e-1" tvg-name="[22:00 10/08] Kommunalnik Slonim vs FK BumProm Gomel [BLV PEPSIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/0c32d507c2e7d454612e1ada7f4359bf.png!w80",[22:00 10/08] Kommunalnik Slonim vs FK BumProm Gomel [BLV PEPSIĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/59444581.m3u8
+#EXTINF:-1 tvg-id="colatv-eca1c4f6c6c2-1" tvg-name="[22:30 10/08] FC Botosani vs Corvinul Hunedoara [BLV SAMURAIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/b7e1d23bb62776473efc5ef196a98de5.png!w80",[22:30 10/08] FC Botosani vs Corvinul Hunedoara [BLV SAMURAIĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://colatv88xi.cc/video2/output.m3u8
-#EXTINF:-1 tvg-id="phaohoa-795406-1" tvg-name="[19:30 10/08] Polissya Zhytomyr vs Metalist 1925" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/polissya-zhytomyr-vs-metalist-1925-10-08-2026-795406" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_7780.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_7780.jpg" phaohoa-away-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_7774.jpg",[19:30 10/08] Polissya Zhytomyr vs Metalist 1925 [FHD M3U8]
+#EXTINF:-1 tvg-id="phaohoa-795404-1" tvg-name="[22:00 10/08] Karpaty Lviv vs Lnz Cherkasy" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/karpaty-lviv-vs-lnz-cherkasy-10-08-2026-795404" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_7820.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_7820.jpg" phaohoa-away-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_19481.jpg",[22:00 10/08] Karpaty Lviv vs Lnz Cherkasy [FHD M3U8]
 #EXTVLCOPT:http-referrer=https://phaohoa1.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://phaohoa1.live
