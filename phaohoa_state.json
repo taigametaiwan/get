@@ -1,20 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-10T23:03:50.608450+07:00",
+  "updated_at": "2026-08-10T23:33:33.751896+07:00",
   "matches": {
-    "819125": {
-      "url": "https://phaohoa1.live/truc-tiep/st-liege-vs-cercle-brugge-ksv-08-08-2026-819125",
-      "match_name": "08-08 First Division A St. Liege VS Cercle Brugge KSV Văn Minh",
-      "kickoff_iso": "2026-08-08T23:15:00+07:00",
-      "minutes_to_kickoff": 12,
-      "last_scan_at": "2026-08-08T23:04:10.659943+07:00",
-      "next_scan_at": "2026-08-08T23:09:10.659943+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "803642": {
       "url": "https://phaohoa1.live/truc-tiep/vitoria-guimaraes-vs-arouca-09-08-2026-803642",
       "match_name": "Vitoria Guimaraes vs Arouca",
@@ -353,9 +341,9 @@
       "url": "https://phaohoa1.live/truc-tiep/karpaty-lviv-vs-lnz-cherkasy-10-08-2026-795404",
       "match_name": "Karpaty Lviv vs Lnz Cherkasy",
       "kickoff_iso": "2026-08-10T22:00:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-10T23:03:50.608269+07:00",
-      "next_scan_at": "2026-08-10T23:08:50.608269+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-08-10T23:33:33.749210+07:00",
+      "next_scan_at": "2026-08-10T23:38:33.749210+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -367,9 +355,9 @@
       "url": "https://phaohoa1.live/truc-tiep/botev-vratsa-vs-slavia-sofia-10-08-2026-774507",
       "match_name": "Botev Vratsa vs Slavia Sofia",
       "kickoff_iso": "2026-08-10T23:00:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-08-10T23:03:50.608269+07:00",
-      "next_scan_at": "2026-08-10T23:08:50.608269+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-08-10T23:33:33.749210+07:00",
+      "next_scan_at": "2026-08-10T23:38:33.749210+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -381,9 +369,9 @@
       "url": "https://phaohoa1.live/truc-tiep/sirius-vs-brommapojkarna-11-08-2026-715575",
       "match_name": "11-08 Allsvenskan Sirius VS Brommapojkarna Pháo Thủ",
       "kickoff_iso": "2026-08-11T00:00:00+07:00",
-      "minutes_to_kickoff": 57,
-      "last_scan_at": "2026-08-10T23:03:50.608269+07:00",
-      "next_scan_at": "2026-08-10T23:23:50.608269+07:00",
+      "minutes_to_kickoff": 27,
+      "last_scan_at": "2026-08-10T23:33:33.749210+07:00",
+      "next_scan_at": "2026-08-10T23:43:33.749210+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -393,13 +381,25 @@
       "url": "https://phaohoa1.live/truc-tiep/vasteras-sk-vs-djurgarden-11-08-2026-715576",
       "match_name": "11-08 Allsvenskan Vasteras SK VS Djurgarden Tày",
       "kickoff_iso": "2026-08-11T00:00:00+07:00",
-      "minutes_to_kickoff": 57,
-      "last_scan_at": "2026-08-10T23:03:50.608269+07:00",
-      "next_scan_at": "2026-08-10T23:23:50.608269+07:00",
+      "minutes_to_kickoff": 27,
+      "last_scan_at": "2026-08-10T23:33:33.749210+07:00",
+      "next_scan_at": "2026-08-10T23:43:33.749210+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "803648": {
+      "url": "https://phaohoa1.live/truc-tiep/santa-clara-vs-nacional-11-08-2026-803648",
+      "match_name": "11-08 Primeira Liga Santa Clara VS Nacional Pháo Thủ",
+      "kickoff_iso": "2026-08-11T02:15:00+07:00",
+      "minutes_to_kickoff": 162,
+      "last_scan_at": "2026-08-10T23:33:33.749210+07:00",
+      "next_scan_at": "2026-08-11T00:18:33.749210+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
