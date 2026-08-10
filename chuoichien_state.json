@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-11T01:31:54.133491+07:00",
+  "updated_at": "2026-08-11T02:01:57.407187+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -735,20 +735,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1598601": {
-      "url": "https://live04.chuoichientv.me/live/1598601/barcelona-vs-nottingham-forest",
-      "match_name": "Barcelona vs Nottingham Forest - Giao Hữu Câu Lạc Bộ",
-      "kickoff_iso": "2026-08-09T02:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-09T03:02:15.992598+07:00",
-      "next_scan_at": "2026-08-09T03:07:15.992598+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1598603": {
       "url": "https://live04.chuoichientv.me/live/1598603/udinese-vs-barcelona",
       "match_name": "udinese vs barcelona",
@@ -1247,15 +1233,17 @@
     },
     "1551746": {
       "url": "https://live04.chuoichientv.me/live/1551746/jong-psv-vs-fc-volendam",
-      "match_name": "jong psv vs fc volendam",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-11T01:31:54.133388+07:00",
-      "next_scan_at": "2026-08-11T01:41:54.133388+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Jong PSV vs FC Volendam - Eerste Divisie",
+      "kickoff_iso": "2026-08-11T01:00:00+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-11T02:01:57.407084+07:00",
+      "next_scan_at": "2026-08-11T02:06:57.407084+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoida/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1585694": {
       "url": "https://live04.chuoichientv.me/live/1585694/pendikspor-vs-batman-petrolspor",
@@ -1287,22 +1275,38 @@
     "1567409": {
       "url": "https://live04.chuoichientv.me/live/1567409/plymouth-vs-exeter-city",
       "match_name": "plymouth vs exeter city",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-11T01:31:54.133388+07:00",
-      "next_scan_at": "2026-08-11T01:41:54.133388+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "kickoff_iso": "2026-08-11T02:00:00+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-11T02:01:57.407084+07:00",
+      "next_scan_at": "2026-08-11T02:06:57.407084+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitay/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1565212": {
       "url": "https://live04.chuoichientv.me/live/1565212/sepsi-osk-sfantu-gheorghe-vs-fcsb",
-      "match_name": "sepsi osk sfantu gheorghe vs fcsb",
+      "match_name": "Sepsi OSK Sfantu Gheorghe vs FCSB - VĐQG Roma",
+      "kickoff_iso": "2026-08-11T01:30:00+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-11T02:01:57.407084+07:00",
+      "next_scan_at": "2026-08-11T02:06:57.407084+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctru/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1607633": {
+      "url": "https://live04.chuoichientv.me/live/1607633/lions-vs-melbourne-city",
+      "match_name": "lions vs melbourne city",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-11T01:31:54.133388+07:00",
-      "next_scan_at": "2026-08-11T01:41:54.133388+07:00",
+      "last_scan_at": "2026-08-11T02:01:57.407084+07:00",
+      "next_scan_at": "2026-08-11T02:11:57.407084+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
