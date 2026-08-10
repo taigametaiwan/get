@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-10T16:01:55.412876+07:00",
+  "updated_at": "2026-08-10T16:32:03.734395+07:00",
   "matches": {
-    "e9a8be850222": {
-      "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-indonesia",
-      "match_name": "Thai Lan vs Indonesia",
-      "kickoff_iso": "2026-08-08T16:30:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-08-08T17:34:45.262732+07:00",
-      "next_scan_at": "2026-08-08T17:39:45.262732+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "807475": {
       "url": "https://phaohoa1.live/truc-tiep/avispa-fukuoka-vs-vissel-kobe-08-08-2026-807475",
       "match_name": "08-08 J1 League Avispa Fukuoka VS Vissel Kobe Chim Nhỏ",
@@ -486,6 +472,18 @@
         "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "795406": {
+      "url": "https://phaohoa1.live/truc-tiep/polissya-zhytomyr-vs-metalist-1925-10-08-2026-795406",
+      "match_name": "10-08 Premier League Polissya Zhytomyr VS Metalist 1925 Pháo Thủ",
+      "kickoff_iso": "2026-08-10T19:30:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-10T16:32:03.734292+07:00",
+      "next_scan_at": "2026-08-10T17:17:03.734292+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
