@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-10T23:31:55.925973+07:00",
+  "updated_at": "2026-08-11T00:01:50.740448+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -775,18 +775,6 @@
       ],
       "scan_decision": "browser-fallback"
     },
-    "1575454": {
-      "url": "https://live04.chuoichientv.me/live/1575454/guimaraes-vs-arouca",
-      "match_name": "Guimaraes vs Arouca - VĐQG Bồ Đào Nha",
-      "kickoff_iso": "2026-08-09T00:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-09T02:02:07.260825+07:00",
-      "next_scan_at": "2026-08-09T02:07:07.260825+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "1552121": {
       "url": "https://live04.chuoichientv.me/live/1552121/az-alkmaar-vs-ado-den-haag",
       "match_name": "az alkmaar vs ado den haag",
@@ -1213,23 +1201,21 @@
       "url": "https://live04.chuoichientv.me/live/1565445/karpaty-vs-lnz-cherkasy",
       "match_name": "Karpaty vs LNZ Cherkasy - Ngoại Hạng Ukraine",
       "kickoff_iso": "2026-08-10T22:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-10T23:31:55.925841+07:00",
-      "next_scan_at": "2026-08-10T23:36:55.925841+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctru/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-11T00:01:50.740318+07:00",
+      "next_scan_at": "2026-08-11T00:06:50.740318+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "1565210": {
       "url": "https://live04.chuoichientv.me/live/1565210/fc-botosani-vs-corvinul-hunedoara",
       "match_name": "FC Botosani vs Corvinul Hunedoara - VĐQG Roma",
       "kickoff_iso": "2026-08-10T22:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-10T23:31:55.925841+07:00",
-      "next_scan_at": "2026-08-10T23:36:55.925841+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-11T00:01:50.740318+07:00",
+      "next_scan_at": "2026-08-11T00:06:50.740318+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1239,15 +1225,15 @@
     },
     "1561348": {
       "url": "https://live04.chuoichientv.me/live/1561348/fakel-vs-akhmat",
-      "match_name": "fakel vs akhmat",
+      "match_name": "Fakel vs Akhmat - Ngoại Hạng Nga",
       "kickoff_iso": "2026-08-10T23:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-10T23:31:55.925841+07:00",
-      "next_scan_at": "2026-08-10T23:36:55.925841+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-11T00:01:50.740318+07:00",
+      "next_scan_at": "2026-08-11T00:06:50.740318+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho.flv"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1256,8 +1242,8 @@
       "match_name": "silkeborg vs odense",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-10T23:31:55.925841+07:00",
-      "next_scan_at": "2026-08-10T23:41:55.925841+07:00",
+      "last_scan_at": "2026-08-11T00:01:50.740318+07:00",
+      "next_scan_at": "2026-08-11T00:11:50.740318+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1268,8 +1254,8 @@
       "match_name": "jong psv vs fc volendam",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-10T23:31:55.925841+07:00",
-      "next_scan_at": "2026-08-10T23:41:55.925841+07:00",
+      "last_scan_at": "2026-08-11T00:01:50.740318+07:00",
+      "next_scan_at": "2026-08-11T00:11:50.740318+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1307,8 +1293,8 @@
       "match_name": "plymouth vs exeter city",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-10T23:31:55.925841+07:00",
-      "next_scan_at": "2026-08-10T23:41:55.925841+07:00",
+      "last_scan_at": "2026-08-11T00:01:50.740318+07:00",
+      "next_scan_at": "2026-08-11T00:11:50.740318+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1319,8 +1305,8 @@
       "match_name": "sepsi osk sfantu gheorghe vs fcsb",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-10T23:31:55.925841+07:00",
-      "next_scan_at": "2026-08-10T23:41:55.925841+07:00",
+      "last_scan_at": "2026-08-11T00:01:50.740318+07:00",
+      "next_scan_at": "2026-08-11T00:11:50.740318+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

@@ -1,36 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-10T23:33:33.751896+07:00",
+  "updated_at": "2026-08-11T00:03:30.929647+07:00",
   "matches": {
-    "803642": {
-      "url": "https://phaohoa1.live/truc-tiep/vitoria-guimaraes-vs-arouca-09-08-2026-803642",
-      "match_name": "Vitoria Guimaraes vs Arouca",
-      "kickoff_iso": "2026-08-09T00:00:00+07:00",
-      "minutes_to_kickoff": -95,
-      "last_scan_at": "2026-08-09T01:35:36.526919+07:00",
-      "next_scan_at": "2026-08-09T01:40:36.526919+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "826148": {
-      "url": "https://phaohoa1.live/truc-tiep/ferencvaros-vs-real-madrid-09-08-2026-826148",
-      "match_name": "Ferencvaros vs Real Madrid",
-      "kickoff_iso": "2026-08-09T00:00:00+07:00",
-      "minutes_to_kickoff": -95,
-      "last_scan_at": "2026-08-09T01:35:36.526919+07:00",
-      "next_scan_at": "2026-08-09T01:40:36.526919+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "809606": {
       "url": "https://phaohoa1.live/truc-tiep/wolfsburg-vs-kaiserslautern-09-08-2026-809606",
       "match_name": "Wolfsburg vs Kaiserslautern",
@@ -355,9 +327,9 @@
       "url": "https://phaohoa1.live/truc-tiep/botev-vratsa-vs-slavia-sofia-10-08-2026-774507",
       "match_name": "Botev Vratsa vs Slavia Sofia",
       "kickoff_iso": "2026-08-10T23:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-10T23:33:33.749210+07:00",
-      "next_scan_at": "2026-08-10T23:38:33.749210+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-08-11T00:03:30.929507+07:00",
+      "next_scan_at": "2026-08-11T00:08:30.929507+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -367,26 +339,30 @@
     },
     "715575": {
       "url": "https://phaohoa1.live/truc-tiep/sirius-vs-brommapojkarna-11-08-2026-715575",
-      "match_name": "11-08 Allsvenskan Sirius VS Brommapojkarna Pháo Thủ",
+      "match_name": "Sirius vs Brommapojkarna",
       "kickoff_iso": "2026-08-11T00:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-10T23:33:33.749210+07:00",
-      "next_scan_at": "2026-08-10T23:43:33.749210+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-08-11T00:03:30.929507+07:00",
+      "next_scan_at": "2026-08-11T00:08:30.929507+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     },
     "715576": {
       "url": "https://phaohoa1.live/truc-tiep/vasteras-sk-vs-djurgarden-11-08-2026-715576",
-      "match_name": "11-08 Allsvenskan Vasteras SK VS Djurgarden Tày",
+      "match_name": "Vasteras SK vs Djurgarden",
       "kickoff_iso": "2026-08-11T00:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-10T23:33:33.749210+07:00",
-      "next_scan_at": "2026-08-10T23:43:33.749210+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-08-11T00:03:30.929507+07:00",
+      "next_scan_at": "2026-08-11T00:08:30.929507+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     },
     "803648": {
