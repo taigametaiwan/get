@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-10T18:33:02.662693+07:00",
+  "updated_at": "2026-08-10T19:02:58.972187+07:00",
   "matches": {
-    "763692": {
-      "url": "https://phaohoa1.live/truc-tiep/chelsea-vs-ac-milan-08-08-2026-763692",
-      "match_name": "Chelsea vs AC Milan",
-      "kickoff_iso": "2026-08-08T19:00:00+07:00",
-      "minutes_to_kickoff": -124,
-      "last_scan_at": "2026-08-08T21:04:37.061612+07:00",
-      "next_scan_at": "2026-08-08T21:09:37.061612+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "791572": {
       "url": "https://phaohoa1.live/truc-tiep/malaysia-vs-philippines-08-08-2026-791572",
       "match_name": "Malaysia vs Philippines",
@@ -409,13 +395,25 @@
       "url": "https://phaohoa1.live/truc-tiep/polissya-zhytomyr-vs-metalist-1925-10-08-2026-795406",
       "match_name": "10-08 Premier League Polissya Zhytomyr VS Metalist 1925 Tày",
       "kickoff_iso": "2026-08-10T19:30:00+07:00",
-      "minutes_to_kickoff": 57,
-      "last_scan_at": "2026-08-10T18:33:02.662558+07:00",
-      "next_scan_at": "2026-08-10T18:53:02.662558+07:00",
+      "minutes_to_kickoff": 27,
+      "last_scan_at": "2026-08-10T19:02:58.972100+07:00",
+      "next_scan_at": "2026-08-10T19:12:58.972100+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "795404": {
+      "url": "https://phaohoa1.live/truc-tiep/karpaty-lviv-vs-lnz-cherkasy-10-08-2026-795404",
+      "match_name": "10-08 Premier League Karpaty Lviv VS LNZ Cherkasy Tày",
+      "kickoff_iso": "2026-08-10T22:00:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-10T19:02:58.972100+07:00",
+      "next_scan_at": "2026-08-10T19:47:58.972100+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
