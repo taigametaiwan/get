@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-10T12:03:45.381465+07:00",
+  "generated_at": "2026-08-10T12:33:43.725944+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -134,31 +134,34 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 12,
+  "input_candidates": 11,
   "metadata_reference_count": 109,
-  "last_good_recovered_count": 1,
+  "last_good_recovered_count": 0,
   "last_good_suppressed_by_fresh_count": 0,
   "last_good_audit": [
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786336391-0-0-3983f4ac5ecb140a965a17b509a82095",
+      "url": "https://live2.streambylivepulse.com/live/channel8.flv",
+      "kept": false,
+      "reason": "outside-source-window",
+      "source": "xoilac",
+      "kickoff_iso": "2026-08-10T10:00:00+07:00",
+      "minutes_to_kickoff": -153.73,
+      "filtered_before_probe": true
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786338193-0-0-c39ead6ba565c65a7130a9973a1132ad",
       "kept": false,
       "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel8.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/08552895.m3u8",
+      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001786338207-0-0-c6148cd2530e8190e495e4a1f8440b29",
       "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
-      "source": "colatv"
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
     }
   ],
-  "selected_count": 3,
+  "selected_count": 2,
   "dropped_count": 9,
   "gavang_metadata": {
     "enriched": 0,
@@ -174,52 +177,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streambylivepulse.com/live/channel8.flv",
-      "match_key": "central coast football vs auckland city|hd bee",
-      "display_name": "[10:00 10/08/2026] Central Coast Football vs Auckland City [BLV HD BEE] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "Xôi Lạc",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 405,
-      "kickoff_iso": "2026-08-10T10:00:00+07:00",
-      "minutes_to_kickoff": -123.76,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohy5w5q1zp/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live2.streambylivepulse.com/live/channel8.flv",
-      "home_logo": "https://imgts.sportpulseapiz.com/football/team/dj2ryohy5w5q1zp/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh478ym0ve/image/small",
-      "blv": null,
-      "recovered_last_good": true,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-10T11:34:06.163738+07:00"
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786338193-0-0-c39ead6ba565c65a7130a9973a1132ad",
+      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786339978-0-0-caf958c7af048469a20f000c92dc12db",
       "match_key": "paranaque patriots vs binan tatak gel|hd step",
       "display_name": "[14:00 10/08/2026] Paranaque Patriots vs Binan Tatak Gel [BLV HD STEP] [FLV]",
       "group": "Xôi Lạc",
@@ -240,7 +198,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-10T14:00:00+07:00",
-      "minutes_to_kickoff": 116.24,
+      "minutes_to_kickoff": 86.27,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -250,7 +208,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786338193-0-0-c39ead6ba565c65a7130a9973a1132ad",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786339978-0-0-caf958c7af048469a20f000c92dc12db",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/23xmv1t3z4kmg8n/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/k82re8t9400repz/image/small",
       "blv": null,
@@ -264,7 +222,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001786338207-0-0-c6148cd2530e8190e495e4a1f8440b29",
+      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001786339986-0-0-1fb11cc05d8733b11eb79c04db46eec6",
       "match_key": "hong da vs diversity veterans|hd jean",
       "display_name": "[15:00 10/08/2026] Hong Da vs Diversity Veterans [BLV HD JEAN] [FLV]",
       "group": "Xôi Lạc",
@@ -285,7 +243,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-10T15:00:00+07:00",
-      "minutes_to_kickoff": 176.24,
+      "minutes_to_kickoff": 146.27,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -295,7 +253,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001786338207-0-0-c6148cd2530e8190e495e4a1f8440b29",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001786339986-0-0-1fb11cc05d8733b11eb79c04db46eec6",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h9317q86p/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hkedjqo9j/image/small",
       "blv": null,
@@ -310,7 +268,7 @@
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786338193-0-0-c39ead6ba565c65a7130a9973a1132ad",
+      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786339978-0-0-caf958c7af048469a20f000c92dc12db",
       "display_name": "[14:00 10/08/2026] Paranaque Patriots vs Binan Tatak Gel [BLV HD STEP] [FLV]",
       "match_key": "paranaque patriots vs binan tatak gel|hd step",
       "quality": "HD",
@@ -322,7 +280,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001786338207-0-0-c6148cd2530e8190e495e4a1f8440b29",
+      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001786339986-0-0-1fb11cc05d8733b11eb79c04db46eec6",
       "display_name": "[15:00 10/08/2026] Hong Da vs Diversity Veterans [BLV HD JEAN] [FLV]",
       "match_key": "hong da vs diversity veterans|hd jean",
       "quality": "HD",
