@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-11T15:34:18.673261+07:00",
+  "updated_at": "2026-08-11T16:04:09.245444+07:00",
   "matches": {
-    "807481": {
-      "url": "https://phaohoa1.live/truc-tiep/verdy-vs-kawasaki-frontale-09-08-2026-807481",
-      "match_name": "Verdy vs Kawasaki Frontale",
-      "kickoff_iso": "2026-08-09T16:00:00+07:00",
-      "minutes_to_kickoff": -95,
-      "last_scan_at": "2026-08-09T17:36:08.516623+07:00",
-      "next_scan_at": "2026-08-09T17:41:08.516623+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "6998b16be7a8": {
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-viet-nam",
       "match_name": "Thái Lan vs Việt Nam",
@@ -327,9 +313,9 @@
       "url": "https://phaohoa1.live/truc-tiep/adelaide-united-vs-cong-an-ha-noi-11-08-2026-788094",
       "match_name": "11-08 AFC Champions League Elite Adelaide United VS Công An Hà Nội Ken",
       "kickoff_iso": "2026-08-11T16:30:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-08-11T15:34:18.673156+07:00",
-      "next_scan_at": "2026-08-11T15:54:18.673156+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-11T16:04:09.245283+07:00",
+      "next_scan_at": "2026-08-11T16:14:09.245283+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -337,27 +323,29 @@
     },
     "095228": {
       "url": "https://phaohoa1.live/truc-tiep/adelaide-united-vs-cong-an-ha-noi-09-08-2026-095228",
-      "match_name": "11-08 AFC Champions League Elite Adelaide United VS Công An Hà Nội Kevin",
+      "match_name": "Adelaide United vs Cong An Ha Noi",
       "kickoff_iso": "2026-08-11T16:30:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-08-11T15:34:18.673156+07:00",
-      "next_scan_at": "2026-08-11T15:54:18.673156+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-11T16:04:09.245283+07:00",
+      "next_scan_at": "2026-08-11T16:09:09.245283+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
       "scan_decision": "browser-fallback"
     },
     "788096": {
       "url": "https://phaohoa1.live/truc-tiep/gangwon-vs-gamba-osaka-11-08-2026-788096",
       "match_name": "11-08 AFC Champions League Elite Gangwon VS Gamba Osaka Pháo Thủ",
       "kickoff_iso": "2026-08-11T17:30:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-08-11T15:34:18.673156+07:00",
-      "next_scan_at": "2026-08-11T15:54:18.673156+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-11T16:04:09.245283+07:00",
+      "next_scan_at": "2026-08-11T16:24:09.245283+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
