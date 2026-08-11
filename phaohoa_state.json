@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-11T19:03:49.132407+07:00",
+  "updated_at": "2026-08-11T19:33:40.577638+07:00",
   "matches": {
-    "805956": {
-      "url": "https://phaohoa1.live/truc-tiep/zwolle-vs-ajax-09-08-2026-805956",
-      "match_name": "Zwolle vs Ajax",
-      "kickoff_iso": "2026-08-09T19:30:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-09T21:04:17.876246+07:00",
-      "next_scan_at": "2026-08-09T21:09:17.876246+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "770307": {
       "url": "https://phaohoa1.live/truc-tiep/arsenal-vs-dortmund-09-08-2026-770307",
       "match_name": "Arsenal vs Dortmund",
@@ -285,9 +271,9 @@
       "url": "https://phaohoa1.live/truc-tiep/gangwon-vs-gamba-osaka-11-08-2026-788096",
       "match_name": "Gangwon vs Gamba Osaka",
       "kickoff_iso": "2026-08-11T17:30:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-11T19:03:49.132304+07:00",
-      "next_scan_at": "2026-08-11T19:08:49.132304+07:00",
+      "minutes_to_kickoff": -123,
+      "last_scan_at": "2026-08-11T19:33:40.577510+07:00",
+      "next_scan_at": "2026-08-11T19:38:40.577510+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -302,6 +288,18 @@
       "minutes_to_kickoff": 177,
       "last_scan_at": "2026-08-11T19:03:49.132304+07:00",
       "next_scan_at": "2026-08-11T19:48:49.132304+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "a9138ac66727": {
+      "url": "https://phaohoa1.live/truc-tiep/phap-vs-italy",
+      "match_name": "11-08 Giao Hữu Pháp VS Italy KaKa",
+      "kickoff_iso": "2026-08-11T22:30:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-11T19:33:40.577510+07:00",
+      "next_scan_at": "2026-08-11T20:18:40.577510+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
