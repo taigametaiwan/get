@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-11T21:31:50.410994+07:00",
+  "updated_at": "2026-08-11T22:47:46.146889+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -807,32 +807,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1567406": {
-      "url": "https://live04.chuoichientv.me/live/1567406/mansfield-town-vs-sheffield-utd",
-      "match_name": "Mansfield Town vs Sheffield Utd - Cúp Liên đoàn Anh",
-      "kickoff_iso": "2026-08-09T22:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-09T23:31:39.160685+07:00",
-      "next_scan_at": "2026-08-09T23:36:39.160685+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/chuoida.flv"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1604785": {
-      "url": "https://live04.chuoichientv.me/live/1604785/marseille-vs-athletic-club",
-      "match_name": "Marseille vs Athletic Club - Giao Hữu Câu Lạc Bộ",
-      "kickoff_iso": "2026-08-09T22:30:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-10T00:31:52.769852+07:00",
-      "next_scan_at": "2026-08-10T00:36:52.769852+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "1575449": {
       "url": "https://live04.chuoichientv.me/live/1575449/fc-porto-vs-alverca",
       "match_name": "FC Porto vs Alverca - VĐQG Bồ Đào Nha",
@@ -1187,48 +1161,59 @@
       "url": "https://live04.chuoichientv.me/live/1582811/dordoi-bishkek-vs-wathba",
       "match_name": "Dordoi Bishkek vs Wathba - AFC Challenge League",
       "kickoff_iso": "2026-08-11T21:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-11T21:31:50.410844+07:00",
-      "next_scan_at": "2026-08-11T21:36:50.410844+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -107,
+      "last_scan_at": "2026-08-11T22:47:46.146713+07:00",
+      "next_scan_at": "2026-08-11T22:52:46.146713+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://gckc0525.edgemaxcdn.org/live/chuoitieu/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1567329": {
       "url": "https://live04.chuoichientv.me/live/1567329/pakhtakor-vs-al-hussein",
       "match_name": "Pakhtakor vs Al Hussein - AFC Champions League",
       "kickoff_iso": "2026-08-11T22:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-11T21:31:50.410844+07:00",
-      "next_scan_at": "2026-08-11T21:41:50.410844+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -47,
+      "last_scan_at": "2026-08-11T22:47:46.146713+07:00",
+      "next_scan_at": "2026-08-11T22:52:46.146713+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoidahd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoida/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1598827": {
       "url": "https://live04.chuoichientv.me/live/1598827/bodoglimt-vs-union-st-gilloise",
       "match_name": "Bodo/Glimt vs Union St. Gilloise - UEFA Champions League",
       "kickoff_iso": "2026-08-11T23:00:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-08-11T21:31:50.410844+07:00",
-      "next_scan_at": "2026-08-11T21:51:50.410844+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 13,
+      "last_scan_at": "2026-08-11T22:47:46.146713+07:00",
+      "next_scan_at": "2026-08-11T22:52:46.146713+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctru/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1567327": {
       "url": "https://live04.chuoichientv.me/live/1567327/al-jazira-vs-al-ittihad-fc",
       "match_name": "Al-Jazira vs Al-Ittihad FC - AFC Champions League",
       "kickoff_iso": "2026-08-11T23:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-11T21:31:50.410844+07:00",
-      "next_scan_at": "2026-08-11T21:51:50.410844+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 13,
+      "last_scan_at": "2026-08-11T22:47:46.146713+07:00",
+      "next_scan_at": "2026-08-11T22:52:46.146713+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichao/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1607171": {
@@ -1236,8 +1221,8 @@
       "match_name": "kauno algiris vs dinamo zagreb",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-11T21:31:50.410844+07:00",
-      "next_scan_at": "2026-08-11T21:41:50.410844+07:00",
+      "last_scan_at": "2026-08-11T22:47:46.146713+07:00",
+      "next_scan_at": "2026-08-11T22:57:46.146713+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1248,8 +1233,8 @@
       "match_name": "sturm graz vs fenerbahce",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-11T21:31:50.410844+07:00",
-      "next_scan_at": "2026-08-11T21:41:50.410844+07:00",
+      "last_scan_at": "2026-08-11T22:47:46.146713+07:00",
+      "next_scan_at": "2026-08-11T22:57:46.146713+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1260,8 +1245,8 @@
       "match_name": "lyon vs sparta praha",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-11T21:31:50.410844+07:00",
-      "next_scan_at": "2026-08-11T21:41:50.410844+07:00",
+      "last_scan_at": "2026-08-11T22:47:46.146713+07:00",
+      "next_scan_at": "2026-08-11T22:57:46.146713+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1272,8 +1257,8 @@
       "match_name": "fluminense vs independ rivadavia",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-11T21:31:50.410844+07:00",
-      "next_scan_at": "2026-08-11T21:41:50.410844+07:00",
+      "last_scan_at": "2026-08-11T22:47:46.146713+07:00",
+      "next_scan_at": "2026-08-11T22:57:46.146713+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1286,6 +1271,18 @@
       "minutes_to_kickoff": null,
       "last_scan_at": "2026-08-11T21:31:50.410844+07:00",
       "next_scan_at": "2026-08-11T21:41:50.410844+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1607169": {
+      "url": "https://live04.chuoichientv.me/live/1607169/fk-crvena-zvezda-vs-hapoel-beer-sheva",
+      "match_name": "fk crvena zvezda vs hapoel beer sheva",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-11T22:47:46.146713+07:00",
+      "next_scan_at": "2026-08-11T22:57:46.146713+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
