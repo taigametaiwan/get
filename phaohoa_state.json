@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-11T21:03:41.386847+07:00",
+  "updated_at": "2026-08-11T21:34:38.419289+07:00",
   "matches": {
-    "715569": {
-      "url": "https://phaohoa1.live/truc-tiep/goteborg-vs-kalmar-09-08-2026-715569",
-      "match_name": "Goteborg vs Kalmar",
-      "kickoff_iso": "2026-08-09T21:30:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-09T23:03:36.730536+07:00",
-      "next_scan_at": "2026-08-09T23:08:36.730536+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "819446": {
       "url": "https://phaohoa1.live/truc-tiep/wolfsberger-ac-vs-salzburg-09-08-2026-819446",
       "match_name": "Wolfsberger AC vs Salzburg",
@@ -255,23 +241,25 @@
     },
     "829345": {
       "url": "https://phaohoa1.live/truc-tiep/kairat-almaty-vs-levski-sofia-11-08-2026-829345",
-      "match_name": "11-08 UEFA Champions League Kairat Almaty VS Levski Sofia Kevin",
+      "match_name": "Kairat Almaty vs Levski Sofia",
       "kickoff_iso": "2026-08-11T22:00:00+07:00",
-      "minutes_to_kickoff": 57,
-      "last_scan_at": "2026-08-11T21:03:41.386730+07:00",
-      "next_scan_at": "2026-08-11T21:23:41.386730+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-11T21:34:38.419057+07:00",
+      "next_scan_at": "2026-08-11T21:39:38.419057+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
       "scan_decision": "browser-fallback"
     },
     "a9138ac66727": {
       "url": "https://phaohoa1.live/truc-tiep/phap-vs-italy",
       "match_name": "11-08 Giao Hữu Pháp VS Italy KaKa",
       "kickoff_iso": "2026-08-11T22:30:00+07:00",
-      "minutes_to_kickoff": 87,
-      "last_scan_at": "2026-08-11T21:03:41.386730+07:00",
-      "next_scan_at": "2026-08-11T21:23:41.386730+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-08-11T21:34:38.419057+07:00",
+      "next_scan_at": "2026-08-11T21:54:38.419057+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -281,33 +269,45 @@
       "url": "https://phaohoa1.live/truc-tiep/bodo-glimt-vs-royale-union-sg-11-08-2026-785366",
       "match_name": "11-08 UEFA Champions League Bodo/Glimt VS Royale Union SG Pháo Thủ",
       "kickoff_iso": "2026-08-11T23:00:00+07:00",
-      "minutes_to_kickoff": 131,
-      "last_scan_at": "2026-08-11T20:48:57.970221+07:00",
-      "next_scan_at": "2026-08-11T21:33:57.970221+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-11T21:34:38.419057+07:00",
+      "next_scan_at": "2026-08-11T21:54:38.419057+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "788095": {
       "url": "https://phaohoa1.live/truc-tiep/al-jazira-vs-al-ittihad-11-08-2026-788095",
       "match_name": "11-08 AFC Champions League Elite Al Jazira VS Al Ittihad Ken",
       "kickoff_iso": "2026-08-11T23:00:00+07:00",
-      "minutes_to_kickoff": 131,
-      "last_scan_at": "2026-08-11T20:48:57.970221+07:00",
-      "next_scan_at": "2026-08-11T21:33:57.970221+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-11T21:34:38.419057+07:00",
+      "next_scan_at": "2026-08-11T21:54:38.419057+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "829372": {
       "url": "https://phaohoa1.live/truc-tiep/sabah-baku-vs-aarhus-11-08-2026-829372",
       "match_name": "11-08 UEFA Champions League Sabah Baku VS Aarhus Tày",
       "kickoff_iso": "2026-08-11T23:00:00+07:00",
-      "minutes_to_kickoff": 131,
-      "last_scan_at": "2026-08-11T20:48:57.970221+07:00",
-      "next_scan_at": "2026-08-11T21:33:57.970221+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-11T21:34:38.419057+07:00",
+      "next_scan_at": "2026-08-11T21:54:38.419057+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "785368": {
+      "url": "https://phaohoa1.live/truc-tiep/nijmegen-vs-olympiacos-piraeus-12-08-2026-785368",
+      "match_name": "12-08 UEFA Champions League Nijmegen VS Olympiacos Piraeus Kevin",
+      "kickoff_iso": "2026-08-12T00:30:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-08-11T21:34:38.419057+07:00",
+      "next_scan_at": "2026-08-11T22:19:38.419057+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
