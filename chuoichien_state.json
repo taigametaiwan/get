@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-12T04:01:53.164559+07:00",
+  "updated_at": "2026-08-12T04:31:21.439694+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -807,21 +807,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1492329": {
-      "url": "https://live04.chuoichientv.me/live/1492329/santos-vs-atletico-paranaense",
-      "match_name": "Santos vs Atletico Paranaense - VĐQG Brazil",
-      "kickoff_iso": "2026-08-10T04:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-10T06:01:42.693413+07:00",
-      "next_scan_at": "2026-08-10T06:06:42.693413+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://gckc0525.edgemaxcdn.org/live/troctru.flv",
-        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1530140": {
       "url": "https://live04.chuoichientv.me/live/1530140/philadelphia-union-vs-necaxa",
       "match_name": "philadelphia union vs necaxa",
@@ -1188,9 +1173,9 @@
       "url": "https://live04.chuoichientv.me/live/1547760/fluminense-vs-independ-rivadavia",
       "match_name": "Fluminense vs Independ. Rivadavia - CONMEBOL Libertadores",
       "kickoff_iso": "2026-08-12T05:00:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-12T04:01:53.164487+07:00",
-      "next_scan_at": "2026-08-12T04:21:53.164487+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-12T04:31:21.439590+07:00",
+      "next_scan_at": "2026-08-12T04:41:21.439590+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1199,14 +1184,14 @@
     "1530143": {
       "url": "https://live04.chuoichientv.me/live/1530143/columbus-crew-vs-unam-pumas",
       "match_name": "columbus crew vs unam pumas",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-12T04:01:53.164487+07:00",
-      "next_scan_at": "2026-08-12T04:11:53.164487+07:00",
+      "kickoff_iso": "2026-08-12T06:30:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-12T04:31:21.439590+07:00",
+      "next_scan_at": "2026-08-12T04:51:21.439590+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1607169": {
       "url": "https://live04.chuoichientv.me/live/1607169/fk-crvena-zvezda-vs-hapoel-beer-sheva",
@@ -1225,8 +1210,8 @@
       "match_name": "real salt lake vs fc juarez",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-12T04:01:53.164487+07:00",
-      "next_scan_at": "2026-08-12T04:11:53.164487+07:00",
+      "last_scan_at": "2026-08-12T04:31:21.439590+07:00",
+      "next_scan_at": "2026-08-12T04:41:21.439590+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1237,8 +1222,8 @@
       "match_name": "tigres uanl vs vancouver whitecaps",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-12T04:01:53.164487+07:00",
-      "next_scan_at": "2026-08-12T04:11:53.164487+07:00",
+      "last_scan_at": "2026-08-12T04:31:21.439590+07:00",
+      "next_scan_at": "2026-08-12T04:41:21.439590+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
