@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-11T16:04:09.245444+07:00",
+  "updated_at": "2026-08-11T16:34:11.795079+07:00",
   "matches": {
-    "6998b16be7a8": {
-      "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-viet-nam",
-      "match_name": "Thái Lan vs Việt Nam",
-      "kickoff_iso": "2026-08-09T16:30:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-08-09T18:05:09.792881+07:00",
-      "next_scan_at": "2026-08-09T18:10:09.792881+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "805954": {
       "url": "https://phaohoa1.live/truc-tiep/sparta-rotterdam-vs-feyenoord-09-08-2026-805954",
       "match_name": "Sparta Rotterdam vs Feyenoord",
@@ -311,23 +297,25 @@
     },
     "788094": {
       "url": "https://phaohoa1.live/truc-tiep/adelaide-united-vs-cong-an-ha-noi-11-08-2026-788094",
-      "match_name": "11-08 AFC Champions League Elite Adelaide United VS Công An Hà Nội Ken",
+      "match_name": "Adelaide United vs Công An Hà Nội",
       "kickoff_iso": "2026-08-11T16:30:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-08-11T16:04:09.245283+07:00",
-      "next_scan_at": "2026-08-11T16:14:09.245283+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-08-11T16:34:11.794945+07:00",
+      "next_scan_at": "2026-08-11T16:39:11.794945+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     },
     "095228": {
       "url": "https://phaohoa1.live/truc-tiep/adelaide-united-vs-cong-an-ha-noi-09-08-2026-095228",
-      "match_name": "Adelaide United vs Cong An Ha Noi",
+      "match_name": "Adelaide United vs Công An Hà Nội",
       "kickoff_iso": "2026-08-11T16:30:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-08-11T16:04:09.245283+07:00",
-      "next_scan_at": "2026-08-11T16:09:09.245283+07:00",
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-08-11T16:34:11.794945+07:00",
+      "next_scan_at": "2026-08-11T16:39:11.794945+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -339,9 +327,9 @@
       "url": "https://phaohoa1.live/truc-tiep/gangwon-vs-gamba-osaka-11-08-2026-788096",
       "match_name": "11-08 AFC Champions League Elite Gangwon VS Gamba Osaka Pháo Thủ",
       "kickoff_iso": "2026-08-11T17:30:00+07:00",
-      "minutes_to_kickoff": 86,
-      "last_scan_at": "2026-08-11T16:04:09.245283+07:00",
-      "next_scan_at": "2026-08-11T16:24:09.245283+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-08-11T16:34:11.794945+07:00",
+      "next_scan_at": "2026-08-11T16:54:11.794945+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
