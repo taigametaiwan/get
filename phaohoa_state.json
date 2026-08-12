@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-12T22:04:45.821415+07:00",
+  "updated_at": "2026-08-12T22:34:12.843983+07:00",
   "matches": {
     "774507": {
       "url": "https://phaohoa1.live/truc-tiep/botev-vratsa-vs-slavia-sofia-10-08-2026-774507",
@@ -269,9 +269,9 @@
       "url": "https://phaohoa1.live/truc-tiep/east-bengal-vs-al-arabi-12-08-2026-820996",
       "match_name": "East Bengal vs Al Arabi",
       "kickoff_iso": "2026-08-12T20:30:00+07:00",
-      "minutes_to_kickoff": -94,
-      "last_scan_at": "2026-08-12T22:04:45.821141+07:00",
-      "next_scan_at": "2026-08-12T22:09:45.821141+07:00",
+      "minutes_to_kickoff": -123,
+      "last_scan_at": "2026-08-12T22:34:12.843741+07:00",
+      "next_scan_at": "2026-08-12T22:39:12.843741+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -283,9 +283,9 @@
       "url": "https://phaohoa1.live/truc-tiep/arkadag-vs-goa-12-08-2026-820997",
       "match_name": "Arkadag vs Goa",
       "kickoff_iso": "2026-08-12T22:00:00+07:00",
-      "minutes_to_kickoff": -4,
-      "last_scan_at": "2026-08-12T22:04:45.821141+07:00",
-      "next_scan_at": "2026-08-12T22:09:45.821141+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-08-12T22:34:12.843741+07:00",
+      "next_scan_at": "2026-08-12T22:39:12.843741+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -295,23 +295,25 @@
     },
     "3f924fd1fd35": {
       "url": "https://phaohoa1.live/truc-tiep/italy-vs-ukraine",
-      "match_name": "12-08 Giao Hữu Italy VS Ukraine KaKa",
+      "match_name": "Italy vs Ukraine",
       "kickoff_iso": "2026-08-12T22:30:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-08-12T22:04:45.821141+07:00",
-      "next_scan_at": "2026-08-12T22:14:45.821141+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-08-12T22:34:12.843741+07:00",
+      "next_scan_at": "2026-08-12T22:39:12.843741+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     },
     "829887": {
       "url": "https://phaohoa1.live/truc-tiep/fc-copenhagen-vs-debrecen-12-08-2026-829887",
       "match_name": "12-08 UEFA Conference League FC Copenhagen VS Debrecen Ken",
       "kickoff_iso": "2026-08-12T23:00:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-08-12T22:04:45.821141+07:00",
-      "next_scan_at": "2026-08-12T22:24:45.821141+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-12T22:34:12.843741+07:00",
+      "next_scan_at": "2026-08-12T22:44:12.843741+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -319,27 +321,65 @@
     },
     "829891": {
       "url": "https://phaohoa1.live/truc-tiep/sk-rapid-vs-paide-12-08-2026-829891",
-      "match_name": "12-08 UEFA Conference League SK Rapid VS Paide Chim Nhỏ",
+      "match_name": "SK Rapid vs Paide",
       "kickoff_iso": "2026-08-12T23:00:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-08-12T22:04:45.821141+07:00",
-      "next_scan_at": "2026-08-12T22:24:45.821141+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-12T22:34:12.843741+07:00",
+      "next_scan_at": "2026-08-12T22:39:12.843741+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     },
     "829963": {
       "url": "https://phaohoa1.live/truc-tiep/gks-katowice-vs-hapoel-tel-aviv-12-08-2026-829963",
       "match_name": "12-08 UEFA Conference League GKS Katowice VS Hapoel Tel Aviv Tày",
       "kickoff_iso": "2026-08-12T23:00:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-08-12T22:04:45.821141+07:00",
-      "next_scan_at": "2026-08-12T22:24:45.821141+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-12T22:34:12.843741+07:00",
+      "next_scan_at": "2026-08-12T22:44:12.843741+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "758918": {
+      "url": "https://phaohoa1.live/truc-tiep/leeds-vs-manchester-united-13-08-2026-758918",
+      "match_name": "13-08 Club Friendlies Leeds VS Manchester United Pháo Thủ",
+      "kickoff_iso": "2026-08-13T01:30:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-12T22:34:12.843741+07:00",
+      "next_scan_at": "2026-08-12T23:19:12.843741+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "770674": {
+      "url": "https://phaohoa1.live/truc-tiep/arsenal-vs-como-13-08-2026-770674",
+      "match_name": "13-08 Club Friendlies Arsenal VS Como Chim Nhỏ",
+      "kickoff_iso": "2026-08-13T01:30:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-12T22:34:12.843741+07:00",
+      "next_scan_at": "2026-08-12T23:19:12.843741+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "a8c3f0070d52": {
+      "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-phap",
+      "match_name": "13-08 Giao Hữu Ba Lan VS Pháp KaKa",
+      "kickoff_iso": "2026-08-13T01:30:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-12T22:34:12.843741+07:00",
+      "next_scan_at": "2026-08-12T23:19:12.843741+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
