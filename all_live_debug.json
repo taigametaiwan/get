@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-12T07:37:24.461368+07:00",
+  "generated_at": "2026-08-12T08:07:20.446818+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -58,14 +58,14 @@
       "label": "Gà Vàng",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 23,
-      "playlist_blocks": 1,
+      "debug_rows": 22,
+      "playlist_blocks": 2,
       "catalog_placeholders": 0,
       "metadata_references": 0,
       "included": true,
-      "fresh_stream_blocks": 1,
-      "fresh_verified_blocks": 1,
-      "fresh_selected": 1,
+      "fresh_stream_blocks": 2,
+      "fresh_verified_blocks": 2,
+      "fresh_selected": 2,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -79,13 +79,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 103,
-      "playlist_blocks": 18,
+      "playlist_blocks": 19,
       "catalog_placeholders": 0,
       "metadata_references": 103,
       "included": true,
-      "fresh_stream_blocks": 18,
-      "fresh_verified_blocks": 18,
-      "fresh_selected": 18,
+      "fresh_stream_blocks": 19,
+      "fresh_verified_blocks": 19,
+      "fresh_selected": 19,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -98,10 +98,10 @@
       "label": "ColaTV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 104,
+      "debug_rows": 103,
       "playlist_blocks": 9,
       "catalog_placeholders": 0,
-      "metadata_references": 89,
+      "metadata_references": 93,
       "included": true,
       "fresh_stream_blocks": 9,
       "fresh_verified_blocks": 9,
@@ -134,46 +134,13 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 40,
-  "metadata_reference_count": 210,
+  "input_candidates": 42,
+  "metadata_reference_count": 214,
   "last_good_recovered_count": 2,
-  "last_good_suppressed_by_fresh_count": 17,
+  "last_good_suppressed_by_fresh_count": 22,
   "last_good_audit": [
     {
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "chuoichien",
-      "kickoff_iso": "2026-08-12T05:00:00+07:00",
-      "minutes_to_kickoff": -157.41,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctru/playlist.m3u8",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "chuoichien",
-      "kickoff_iso": "2026-08-12T05:00:00+07:00",
-      "minutes_to_kickoff": -157.41,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live05.meung.app/live/87547578.m3u8",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "colatv",
-      "kickoff_iso": "2026-08-12T05:00:00+07:00",
-      "minutes_to_kickoff": -157.41,
-      "filtered_before_probe": true
-    },
-    {
       "url": "https://live2.streambylivepulse.com/live/channel20.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -197,9 +164,69 @@
       "source": "gavang"
     },
     {
+      "url": "https://live2.streambylivepulse.com/live/channel33.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
       "url": "https://live2.streambylivepulse.com/live/channel23.flv",
       "kept": true,
       "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichao/playlist.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "chuoichien"
+    },
+    {
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "chuoichien"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel22.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel27.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel13.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel11.flv",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786495017-0-0-2cb0af586b9a98f0f109a2685631f006",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001786494994-0-0-25e09248a5077203a3cfa4d48d78dcf6",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001786495006-0-0-ab9f963fb76eff7281bf30ba51669801",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
       "source": "xoilac"
     },
     {
@@ -209,97 +236,43 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel33.flv",
+      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786495024-0-0-c6c5f28fe070f693b5011f40f300a821",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786495024-0-0-209e1bd5e14662d201d5741d4577a3c6",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786495037-0-0-ab651a83bdc1df72c598862fe9e88c7c",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel5.flv?auth_key=3000001786495028-0-0-4dca7f92a44d49037afb6a44e7a52bce",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://hls.lauthaitv.cc/live/bolivar-saopaulo-copasuda/index.m3u8",
       "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
+      "reason": "HTTP 206; m3u8=True",
+      "source": "gavang"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel22.flv",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "chuoichien"
-    },
-    {
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichao/playlist.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "chuoichien"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel11.flv?auth_key=3000001786493153-0-0-45762f1442d491c8aa267016e9a1550b",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel27.flv?auth_key=3000001786493151-0-0-944b6708e55158afab41a3732c9342b1",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001786493173-0-0-8da003258f8e913b3ffbed8f12bb24d3",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel13.flv?auth_key=3000001786493142-0-0-910a095009077042a282b7b71e48ac05",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001786493180-0-0-d4f0b3937d12243536f5852c6fb0a8bf",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786493210-0-0-833b97d8109797bfa976cb72e475bd5e",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel5.flv?auth_key=3000001786493201-0-0-44baffe9bcfcfd3410a4b11a6618ef8b",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786493196-0-0-3cefffc092ac0f3a33002c7f59ed148d",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786493188-0-0-a35ff69b628533bb2728a36240016fa7",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786493195-0-0-f4d05ef9788942b7b1cb47839493cffa",
-      "kept": false,
-      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/75915087.m3u8",
+      "url": "https://live05.meung.app/live/75748097.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/82054853.m3u8",
+      "url": "https://live05.meung.app/live/75915087.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
@@ -311,15 +284,39 @@
       "source": "colatv"
     },
     {
+      "url": "https://live05.meung.app/live/19919577.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/82054853.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
       "url": "https://live05.meung.app/live/78905744.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/19919577.m3u8",
+      "url": "https://live05.meung.app/live/99121525.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/87547578.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "kept": true,
+      "reason": "HTTP 206; m3u8=True",
       "source": "colatv"
     },
     {
@@ -329,31 +326,13 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "kept": true,
-      "reason": "HTTP 206; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/75748097.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://hls.lauthaitv.cc/live/boca-recoleta-copasuda/index.m3u8",
+      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
       "kept": false,
-      "reason": "HTTP 404",
-      "source": "gavang"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel20.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
+      "reason": "TimeoutError: The read operation timed out",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel20.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
@@ -371,25 +350,13 @@
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel23.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streambylivepulse.com/live/channel28.flv",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "xoilac"
-    },
-    {
       "url": "https://live2.streambylivepulse.com/live/channel33.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.streambylivepulse.com/live/channel22.flv",
+      "url": "https://live2.streambylivepulse.com/live/channel23.flv",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "xoilac"
@@ -401,13 +368,49 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://live05.meung.app/live/75915087.m3u8",
+      "url": "https://live2.streambylivepulse.com/live/channel22.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel27.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel13.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel11.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streambylivepulse.com/live/channel28.flv",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://hls.lauthaitv.cc/live/bolivar-saopaulo-copasuda/index.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "gavang"
+    },
+    {
+      "url": "https://live05.meung.app/live/75748097.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/82054853.m3u8",
+      "url": "https://live05.meung.app/live/75915087.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
@@ -419,13 +422,37 @@
       "source": "colatv"
     },
     {
+      "url": "https://live05.meung.app/live/19919577.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/82054853.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "colatv"
+    },
+    {
       "url": "https://live05.meung.app/live/78905744.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/19919577.m3u8",
+      "url": "https://live05.meung.app/live/99121525.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/87547578.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "colatv"
+    },
+    {
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
@@ -435,30 +462,18 @@
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "phaohoa"
-    },
-    {
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/75748097.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
     }
   ],
-  "selected_count": 32,
+  "selected_count": 34,
   "dropped_count": 8,
   "gavang_metadata": {
-    "enriched": 0,
+    "enriched": 1,
     "warn_only": 2,
     "already_good": 0
   },
   "gavang_logo": {
     "team_logo": 0,
-    "source_fallback": 2,
+    "source_fallback": 3,
     "repaired_invalid": 0
   },
   "channels": [
@@ -466,8 +481,8 @@
       "source": "chuoichien",
       "source_label": "Chuối Chiên",
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichao/playlist.m3u8",
-      "match_key": "columbus crew vs u n a m|chuoi chao",
-      "display_name": "[06:30 12/08] Columbus Crew vs U.N.A.M. - Pumas - Leagues Cup [BLV Chuối Chao] [HD M3U8]",
+      "match_key": "columbus crew vs u n a m|truc tiep chuoi chao tran au columbus",
+      "display_name": "[06:30 12/08] Columbus Crew vs U.N.A.M. - Pumas - Leagues Cup [BLV trực tiếp: Chuối Chao Trận đấu Columbus] [HD M3U8]",
       "group": "Chuối Chiên",
       "sport_group": "Bóng đá",
       "quality": "HD",
@@ -481,7 +496,7 @@
       "pending_reason": null,
       "score": 459,
       "kickoff_iso": "2026-08-12T06:30:00+07:00",
-      "minutes_to_kickoff": -67.41,
+      "minutes_to_kickoff": -97.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -494,7 +509,7 @@
       "page_url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichao/playlist.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Chuối Chao",
+      "blv": "trực tiếp: Chuối Chao Trận đấu Columbus",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -521,7 +536,7 @@
       "pending_reason": null,
       "score": 415,
       "kickoff_iso": "2026-08-12T06:30:00+07:00",
-      "minutes_to_kickoff": -67.41,
+      "minutes_to_kickoff": -97.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -540,7 +555,51 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; m3u8=True",
-      "prior_generated_at": "2026-08-12T07:06:55.333117+07:00"
+      "prior_generated_at": "2026-08-12T07:37:24.461368+07:00"
+    },
+    {
+      "source": "gavang",
+      "source_label": "Gà Vàng",
+      "url": "https://hls.lauthaitv.cc/live/tigres-vancouver-leagues/index.m3u8",
+      "match_key": "leagues cup tigres uanl vs vancouver whitecaps|nguoi soi",
+      "display_name": "[09:00 12/08] Leagues Cup - Tigres UANL VS Vancouver Whitecaps [BLV NGƯỜI SÓI] [M3U8]",
+      "group": "Gà Vàng",
+      "sport_group": "Bóng đá",
+      "quality": "UNKNOWN",
+      "kind": "m3u8",
+      "playability": "verified",
+      "classification": null,
+      "classification_reason": null,
+      "has_secret": false,
+      "expiry": null,
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 431,
+      "kickoff_iso": "2026-08-12T09:00:00+07:00",
+      "minutes_to_kickoff": 52.66,
+      "metadata_audit": "enriched-soft",
+      "metadata_enriched_from": "xoilac",
+      "metadata_warning": null,
+      "stream_key_tokens": [
+        "tigres",
+        "vancouver",
+        "leagues"
+      ],
+      "logo": "https://radio-capital.io/wp-json/s8-image/24f7e459-66be-4146-b868-4422dccfd293",
+      "logo_source": "team",
+      "logo_enriched_from": null,
+      "logo_is_fallback": false,
+      "entry_mode": "stream",
+      "page_url": "https://hls.lauthaitv.cc/live/tigres-vancouver-leagues/index.m3u8",
+      "home_logo": null,
+      "away_logo": null,
+      "blv": "NGƯỜI SÓI",
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
     },
     {
       "source": "gavang",
@@ -570,10 +629,10 @@
         "saopaulo",
         "copasuda"
       ],
-      "logo": "https://radio-capital.io/wp-json/s8-image/8c4378cc-d5de-427e-adaa-ee55de68f857",
-      "logo_source": "team",
+      "logo": "https://radio-capital.io/wp-content/uploads/2026/04/logo-gavangtv.png",
+      "logo_source": "gavang-source-fallback",
       "logo_enriched_from": null,
-      "logo_is_fallback": false,
+      "logo_is_fallback": true,
       "entry_mode": "stream",
       "page_url": "https://hls.lauthaitv.cc/live/bolivar-saopaulo-copasuda/index.m3u8",
       "home_logo": null,
@@ -591,7 +650,7 @@
       "source_label": "Gà Vàng",
       "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
       "match_key": "pakhtakor vs alhussein|",
-      "display_name": "Pakhtakor VS Alhussein [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
+      "display_name": "Pakhtakor VS Alhussein [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
       "group": "Gà Vàng",
       "sport_group": "Gà Vàng",
       "quality": "SD",
@@ -626,12 +685,12 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 206; m3u8=True",
-      "prior_generated_at": "2026-08-12T07:06:55.333117+07:00"
+      "prior_generated_at": "2026-08-12T07:37:24.461368+07:00"
     },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
+      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001786496732-0-0-6c272822e024f36a6ac32e6ecc017a1e",
       "match_key": "atletico ottawa vs supra du quebec|hd jean",
       "display_name": "[06:00 12/08/2026] Atletico Ottawa vs Supra Du Quebec [BLV HD JEAN] [FLV]",
       "group": "Xôi Lạc",
@@ -652,7 +711,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T06:00:00+07:00",
-      "minutes_to_kickoff": -97.41,
+      "minutes_to_kickoff": -127.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -662,7 +721,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.streambylivepulse.com/live/channel7.flv",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001786496732-0-0-6c272822e024f36a6ac32e6ecc017a1e",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hy1yeqdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh1d8lqwzv/image/small",
       "blv": null,
@@ -697,7 +756,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T06:30:00+07:00",
-      "minutes_to_kickoff": -67.41,
+      "minutes_to_kickoff": -97.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -742,7 +801,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T06:30:00+07:00",
-      "minutes_to_kickoff": -67.41,
+      "minutes_to_kickoff": -97.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -787,7 +846,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T06:30:00+07:00",
-      "minutes_to_kickoff": -67.41,
+      "minutes_to_kickoff": -97.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -832,7 +891,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T07:00:00+07:00",
-      "minutes_to_kickoff": -37.41,
+      "minutes_to_kickoff": -67.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -877,7 +936,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T07:00:00+07:00",
-      "minutes_to_kickoff": -37.41,
+      "minutes_to_kickoff": -67.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -922,7 +981,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T07:00:00+07:00",
-      "minutes_to_kickoff": -37.41,
+      "minutes_to_kickoff": -67.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -967,7 +1026,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T07:00:00+07:00",
-      "minutes_to_kickoff": -37.41,
+      "minutes_to_kickoff": -67.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1012,7 +1071,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T07:30:00+07:00",
-      "minutes_to_kickoff": -7.41,
+      "minutes_to_kickoff": -37.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1057,7 +1116,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T07:30:00+07:00",
-      "minutes_to_kickoff": -7.41,
+      "minutes_to_kickoff": -37.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1102,7 +1161,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T07:30:00+07:00",
-      "minutes_to_kickoff": -7.41,
+      "minutes_to_kickoff": -37.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1126,7 +1185,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001786494994-0-0-25e09248a5077203a3cfa4d48d78dcf6",
+      "url": "https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001786496773-0-0-d11eca4c34971f939004bbcfe16b4375",
       "match_key": "real salt lake vs fc juarez|hd ken",
       "display_name": "[08:30 12/08/2026] Real Salt Lake vs Fc Juarez [BLV HD KEN] [FLV]",
       "group": "Xôi Lạc",
@@ -1147,7 +1206,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T08:30:00+07:00",
-      "minutes_to_kickoff": 52.59,
+      "minutes_to_kickoff": 22.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1157,7 +1216,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001786494994-0-0-25e09248a5077203a3cfa4d48d78dcf6",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001786496773-0-0-d11eca4c34971f939004bbcfe16b4375",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/gy0or5jhkk1qwzv/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkh386yqg8n/image/small",
       "blv": null,
@@ -1171,7 +1230,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001786495006-0-0-ab9f963fb76eff7281bf30ba51669801",
+      "url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001786496789-0-0-6d310f6ab612f579a82f2e3ef8d5c538",
       "match_key": "deportivo saprissa vs deportivo mixco|hd johan",
       "display_name": "[09:00 12/08/2026] Deportivo Saprissa vs Deportivo Mixco [BLV HD JOHAN] [FLV]",
       "group": "Xôi Lạc",
@@ -1192,7 +1251,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T09:00:00+07:00",
-      "minutes_to_kickoff": 82.59,
+      "minutes_to_kickoff": 52.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1202,7 +1261,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001786495006-0-0-ab9f963fb76eff7281bf30ba51669801",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001786496789-0-0-6d310f6ab612f579a82f2e3ef8d5c538",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/2y8m4zh3823ql07/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/l5ergph3dyzr8k0/image/small",
       "blv": null,
@@ -1216,7 +1275,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786495017-0-0-2cb0af586b9a98f0f109a2685631f006",
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786496800-0-0-d14eecd2881cb931249230e93b6e2a75",
       "match_key": "nu las vegas aces vs nu mystics|hd alan",
       "display_name": "[09:00 12/08/2026] Nu Las Vegas Aces vs Nu Mystics [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -1237,7 +1296,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T09:00:00+07:00",
-      "minutes_to_kickoff": 82.59,
+      "minutes_to_kickoff": 52.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1247,7 +1306,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786495017-0-0-2cb0af586b9a98f0f109a2685631f006",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786496800-0-0-d14eecd2881cb931249230e93b6e2a75",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/8y39mp4t8x8mojx/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/l965mk8t9j0m1ge/image/small",
       "blv": null,
@@ -1261,7 +1320,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786495024-0-0-c6c5f28fe070f693b5011f40f300a821",
+      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786496808-0-0-a7c74e5efd03accbd9d90ea8061fce8c",
       "match_key": "nu los angeles sparks vs nu phoenix mercury|hd step",
       "display_name": "[09:00 12/08/2026] Nu Los Angeles Sparks vs Nu Phoenix Mercury [BLV HD STEP] [FLV]",
       "group": "Xôi Lạc",
@@ -1282,7 +1341,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T09:00:00+07:00",
-      "minutes_to_kickoff": 82.59,
+      "minutes_to_kickoff": 52.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1292,7 +1351,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786495024-0-0-c6c5f28fe070f693b5011f40f300a821",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786496808-0-0-a7c74e5efd03accbd9d90ea8061fce8c",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/kjw2r02tde8qz84/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/j1l4rjztp89m7vx/image/small",
       "blv": null,
@@ -1306,7 +1365,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786495024-0-0-209e1bd5e14662d201d5741d4577a3c6",
+      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786496809-0-0-6fd1fc9ffc29f10fc8211bc45e273c82",
       "match_key": "real esteli vs alianza salvador|hd toni",
       "display_name": "[09:00 12/08/2026] Real Esteli vs Alianza Salvador [BLV HD TONI] [FLV]",
       "group": "Xôi Lạc",
@@ -1327,7 +1386,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T09:00:00+07:00",
-      "minutes_to_kickoff": 82.59,
+      "minutes_to_kickoff": 52.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1337,7 +1396,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786495024-0-0-209e1bd5e14662d201d5741d4577a3c6",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786496809-0-0-6fd1fc9ffc29f10fc8211bc45e273c82",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhex1dqvy9/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4h759eq0j6/image/small",
       "blv": null,
@@ -1351,7 +1410,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel5.flv?auth_key=3000001786495028-0-0-4dca7f92a44d49037afb6a44e7a52bce",
+      "url": "https://live3.procdnlive.com/livecdn/channel5.flv?auth_key=3000001786496809-0-0-ea6176518ca4fc417e53741083500bec",
       "match_key": "tigres uanl vs vancouver whitecaps|hd nick",
       "display_name": "[09:00 12/08/2026] Tigres Uanl vs Vancouver Whitecaps [BLV HD NICK] [FLV]",
       "group": "Xôi Lạc",
@@ -1372,7 +1431,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T09:00:00+07:00",
-      "minutes_to_kickoff": 82.59,
+      "minutes_to_kickoff": 52.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1382,7 +1441,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel5.flv?auth_key=3000001786495028-0-0-4dca7f92a44d49037afb6a44e7a52bce",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel5.flv?auth_key=3000001786496809-0-0-ea6176518ca4fc417e53741083500bec",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whk9g2ryox/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4hpv2q86p/image/small",
       "blv": null,
@@ -1396,7 +1455,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786495037-0-0-ab651a83bdc1df72c598862fe9e88c7c",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786496818-0-0-964b9cd25b0b593143b32da5a437d1f1",
       "match_key": "soles de mexicali vs abejas de leon|hd tommy",
       "display_name": "[10:00 12/08/2026] Soles De Mexicali vs Abejas De Leon [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -1417,7 +1476,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-12T10:00:00+07:00",
-      "minutes_to_kickoff": 142.59,
+      "minutes_to_kickoff": 112.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1427,9 +1486,54 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786495037-0-0-ab651a83bdc1df72c598862fe9e88c7c",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786496818-0-0-964b9cd25b0b593143b32da5a437d1f1",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/p3glrwyt24jqdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/gx7lm73tyv7r2wd/image/small",
+      "blv": null,
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
+    },
+    {
+      "source": "xoilac",
+      "source_label": "Xôi Lạc",
+      "url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786496834-0-0-e25257a5dad2726521141d7881999396",
+      "match_key": "rewa fc vs tupapa|hd polo",
+      "display_name": "[11:00 12/08/2026] Rewa Fc vs Tupapa [BLV HD POLO] [FLV]",
+      "group": "Xôi Lạc",
+      "sport_group": "OFC Champions League",
+      "quality": "HD",
+      "kind": "flv",
+      "playability": "verified",
+      "classification": "verified_unsigned",
+      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
+      "has_secret": false,
+      "expiry": {
+        "timestamp": null,
+        "utc": "",
+        "vietnam": "",
+        "seconds_left": null
+      },
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 456,
+      "kickoff_iso": "2026-08-12T11:00:00+07:00",
+      "minutes_to_kickoff": 172.66,
+      "metadata_audit": null,
+      "metadata_enriched_from": null,
+      "metadata_warning": null,
+      "stream_key_tokens": null,
+      "logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7h17v0qdyj/image/small",
+      "logo_source": null,
+      "logo_enriched_from": null,
+      "logo_is_fallback": null,
+      "entry_mode": "stream",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786496834-0-0-e25257a5dad2726521141d7881999396",
+      "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7h17v0qdyj/image/small",
+      "away_logo": "https://imgts.sportpulseapiz.com/football/team/l5ergphvn60r8k0/image/small",
       "blv": null,
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
@@ -1457,7 +1561,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-12T06:30:00+07:00",
-      "minutes_to_kickoff": -67.41,
+      "minutes_to_kickoff": -97.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1497,7 +1601,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-12T06:40:00+07:00",
-      "minutes_to_kickoff": -57.41,
+      "minutes_to_kickoff": -87.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1522,8 +1626,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/82054853.m3u8",
-      "match_key": "talleres cordoba vs club atletico lanus|rockstar ang xem",
-      "display_name": "[07:00 12/08] Talleres Cordoba vs Club Atlético Lanús [BLV ROCKSTARĐang xem] [M3U8]",
+      "match_key": "talleres cordoba vs lanus|lich thi au cuoc vsbet tai app ho tr",
+      "display_name": "[07:00 12/08] Talleres Cordoba vs Lanus [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -1537,7 +1641,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-12T07:00:00+07:00",
-      "minutes_to_kickoff": -37.41,
+      "minutes_to_kickoff": -67.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1550,7 +1654,7 @@
       "page_url": "https://live05.meung.app/live/82054853.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "ROCKSTARĐang xem",
+      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1577,7 +1681,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-12T07:10:00+07:00",
-      "minutes_to_kickoff": -27.41,
+      "minutes_to_kickoff": -57.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1602,8 +1706,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/75748097.m3u8",
-      "match_key": "bolivar vs sao paulo|sprite ang xem",
-      "display_name": "[07:30 12/08] Bolivar vs São Paulo - SP [BLV SPRITEĐang xem] [M3U8]",
+      "match_key": "bolivar vs sao paulo|lich thi au cuoc vsbet tai app ho tr",
+      "display_name": "[07:30 12/08] Bolivar vs Sao Paulo [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -1617,7 +1721,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-12T07:30:00+07:00",
-      "minutes_to_kickoff": -7.41,
+      "minutes_to_kickoff": -37.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1630,7 +1734,7 @@
       "page_url": "https://live05.meung.app/live/75748097.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "SPRITEĐang xem",
+      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1642,8 +1746,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/87547578.m3u8",
-      "match_key": "estudiantes la plata vs univ catolica|mountain dew ang xem",
-      "display_name": "[07:30 12/08] Estudiantes La Plata vs Univ Catolica [BLV MOUNTAIN DEWĐang xem] [M3U8]",
+      "match_key": "estudiantes la plata vs u catolica|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[07:30 12/08] Estudiantes La Plata vs U Catolica [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -1657,7 +1761,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-12T07:30:00+07:00",
-      "minutes_to_kickoff": -7.41,
+      "minutes_to_kickoff": -37.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1670,7 +1774,7 @@
       "page_url": "https://live05.meung.app/live/87547578.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "MOUNTAIN DEWĐang xem",
+      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1683,7 +1787,7 @@
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/99121525.m3u8",
       "match_key": "minnesota united fc vs atlante fc|bi ao ang xem",
-      "display_name": "[07:30 12/08] Minnesota United FC vs Atlante FC [BLV BÍ ĐAOĐang xem] [M3U8]",
+      "display_name": "[07:40 12/08] Minnesota United FC vs Atlante FC [BLV BÍ ĐAOĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -1696,8 +1800,8 @@
       "derived_pending": false,
       "pending_reason": null,
       "score": 439,
-      "kickoff_iso": "2026-08-12T07:30:00+07:00",
-      "minutes_to_kickoff": -7.41,
+      "kickoff_iso": "2026-08-12T07:40:00+07:00",
+      "minutes_to_kickoff": -27.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1722,8 +1826,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/78905744.m3u8",
-      "match_key": "charlotte fc vs pachuca|lich thi au cuoc vsbet tai app ta",
-      "display_name": "[07:52 12/08] Charlotte FC vs Pachuca [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "charlotte fc vs pachuca|7up ang xem",
+      "display_name": "[07:52 12/08] Charlotte FC vs Pachuca [BLV 7UPĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -1737,7 +1841,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-12T07:52:00+07:00",
-      "minutes_to_kickoff": 14.59,
+      "minutes_to_kickoff": -15.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1750,7 +1854,7 @@
       "page_url": "https://live05.meung.app/live/78905744.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
+      "blv": "7UPĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1762,8 +1866,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "match_key": "real salt lake vs juarez|7up ang xem",
-      "display_name": "[08:30 12/08] Real Salt Lake vs Juarez [BLV 7UPĐang xem] [M3U8]",
+      "match_key": "los angeles sparks vs phoenix mercury|cozy ang xem",
+      "display_name": "Trung Mỹ và vùng Caraibes 12/08 Real Esteli VS Alianza San Salvador BLV MONSTER [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]\" group-title=\"Bóng đá\" tvg-logo=\"https://img.gvapi.cc/football/team/5204181e7c7001736341ab9b8dd54754.png!w80\",[09:00 12/08] Giải vô địch Bắc Mỹ, Trung Mỹ và vùng Caraibes 12/08 Real Esteli VS Alianza San Salvador BLV MONSTER [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -1776,13 +1880,13 @@
       "derived_pending": false,
       "pending_reason": null,
       "score": 439,
-      "kickoff_iso": "2026-08-12T08:30:00+07:00",
-      "minutes_to_kickoff": 52.59,
+      "kickoff_iso": "2026-08-12T09:00:00+07:00",
+      "minutes_to_kickoff": 52.66,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
       "stream_key_tokens": null,
-      "logo": "https://img.gvapi.cc/football/team/98a89cba4bbd10c0ceb437d8f795d43b.png!w80",
+      "logo": "https://img.gvapi.cc/football/team/5204181e7c7001736341ab9b8dd54754.png!w80",
       "logo_source": null,
       "logo_enriched_from": null,
       "logo_is_fallback": null,
@@ -1790,7 +1894,7 @@
       "page_url": "https://colatv88xi.cc/video2/output.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "7UPĐang xem",
+      "blv": "CozyĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1817,7 +1921,7 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-08-12T07:30:00+07:00",
-      "minutes_to_kickoff": -7.41,
+      "minutes_to_kickoff": -37.34,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1843,8 +1947,8 @@
     {
       "source": "chuoichien",
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichao/playlist.m3u8",
-      "display_name": "[06:30 12/08] Columbus Crew vs U.N.A.M. - Pumas - Leagues Cup [BLV Chuối Chao] [HD M3U8]",
-      "match_key": "columbus crew vs u n a m|chuoi chao",
+      "display_name": "[06:30 12/08] Columbus Crew vs U.N.A.M. - Pumas - Leagues Cup [BLV trực tiếp: Chuối Chao Trận đấu Columbus] [HD M3U8]",
+      "match_key": "columbus crew vs u n a m|truc tiep chuoi chao tran au columbus",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1857,6 +1961,18 @@
       "url": "https://hls.lauthaitv.cc/live/bolivar-saopaulo-copasuda/index.m3u8",
       "display_name": "[CHƯA CÓ GIỜ 12/08] Copa Sudamericana - Bolivar VS Sao Paulo [BLV NGƯỜI NẶN] [M3U8]",
       "match_key": "copa sudamericana bolivar vs sao paulo|nguoi nan",
+      "quality": "UNKNOWN",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "gavang",
+      "url": "https://hls.lauthaitv.cc/live/tigres-vancouver-leagues/index.m3u8",
+      "display_name": "[09:00 12/08] Leagues Cup - Tigres UANL VS Vancouver Whitecaps [BLV NGƯỜI SÓI] [M3U8]",
+      "match_key": "leagues cup tigres uanl vs vancouver whitecaps|nguoi soi",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1902,69 +2018,9 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel23.flv",
-      "display_name": "[07:00 12/08/2026] Fc Cincinnati vs Atlas [BLV HD LOGAN] [FLV]",
-      "match_key": "fc cincinnati vs atlas|hd logan",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
       "url": "https://live2.streambylivepulse.com/live/channel33.flv",
       "display_name": "[07:00 12/08/2026] Nu Nhat Ban U17 vs Nu Brazil U17 [BLV HD TYSON] [FLV]",
       "match_key": "nu nhat ban u17 vs nu brazil u17|hd tyson",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel28.flv",
-      "display_name": "[07:00 12/08/2026] Plaza Amador vs Xelaju Mc [BLV HD OLER] [FLV]",
-      "match_key": "plaza amador vs xelaju mc|hd oler",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel22.flv",
-      "display_name": "[07:00 12/08/2026] Talleres Cordoba vs Ca Lanus [BLV HD ZANE] [FLV]",
-      "match_key": "talleres cordoba vs ca lanus|hd zane",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
-      "display_name": "[06:30 12/08/2026] Nu Indiana Fever vs Nu Ny Liberty [BLV HD TOMMY] [FLV]",
-      "match_key": "nu indiana fever vs nu ny liberty|hd tommy",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.streambylivepulse.com/live/channel7.flv",
-      "display_name": "[06:00 12/08/2026] Atletico Ottawa vs Supra Du Quebec [BLV HD JEAN] [FLV]",
-      "match_key": "atletico ottawa vs supra du quebec|hd jean",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1998,7 +2054,67 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001786494994-0-0-25e09248a5077203a3cfa4d48d78dcf6",
+      "url": "https://live2.streambylivepulse.com/live/channel29.flv",
+      "display_name": "[06:30 12/08/2026] Nu Indiana Fever vs Nu Ny Liberty [BLV HD TOMMY] [FLV]",
+      "match_key": "nu indiana fever vs nu ny liberty|hd tommy",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel23.flv",
+      "display_name": "[07:00 12/08/2026] Fc Cincinnati vs Atlas [BLV HD LOGAN] [FLV]",
+      "match_key": "fc cincinnati vs atlas|hd logan",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel28.flv",
+      "display_name": "[07:00 12/08/2026] Plaza Amador vs Xelaju Mc [BLV HD OLER] [FLV]",
+      "match_key": "plaza amador vs xelaju mc|hd oler",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.streambylivepulse.com/live/channel22.flv",
+      "display_name": "[07:00 12/08/2026] Talleres Cordoba vs Ca Lanus [BLV HD ZANE] [FLV]",
+      "match_key": "talleres cordoba vs ca lanus|hd zane",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live3.procdnlive.com/livecdn/channel7.flv?auth_key=3000001786496732-0-0-6c272822e024f36a6ac32e6ecc017a1e",
+      "display_name": "[06:00 12/08/2026] Atletico Ottawa vs Supra Du Quebec [BLV HD JEAN] [FLV]",
+      "match_key": "atletico ottawa vs supra du quebec|hd jean",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live3.procdnlive.com/livecdn/channel18.flv?auth_key=3000001786496773-0-0-d11eca4c34971f939004bbcfe16b4375",
       "display_name": "[08:30 12/08/2026] Real Salt Lake vs Fc Juarez [BLV HD KEN] [FLV]",
       "match_key": "real salt lake vs fc juarez|hd ken",
       "quality": "HD",
@@ -2010,7 +2126,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001786495006-0-0-ab9f963fb76eff7281bf30ba51669801",
+      "url": "https://live3.procdnlive.com/livecdn/channel12.flv?auth_key=3000001786496789-0-0-6d310f6ab612f579a82f2e3ef8d5c538",
       "display_name": "[09:00 12/08/2026] Deportivo Saprissa vs Deportivo Mixco [BLV HD JOHAN] [FLV]",
       "match_key": "deportivo saprissa vs deportivo mixco|hd johan",
       "quality": "HD",
@@ -2022,7 +2138,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786495017-0-0-2cb0af586b9a98f0f109a2685631f006",
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786496800-0-0-d14eecd2881cb931249230e93b6e2a75",
       "display_name": "[09:00 12/08/2026] Nu Las Vegas Aces vs Nu Mystics [BLV HD ALAN] [FLV]",
       "match_key": "nu las vegas aces vs nu mystics|hd alan",
       "quality": "HD",
@@ -2034,7 +2150,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786495024-0-0-c6c5f28fe070f693b5011f40f300a821",
+      "url": "https://live3.procdnlive.com/livecdn/channel26.flv?auth_key=3000001786496808-0-0-a7c74e5efd03accbd9d90ea8061fce8c",
       "display_name": "[09:00 12/08/2026] Nu Los Angeles Sparks vs Nu Phoenix Mercury [BLV HD STEP] [FLV]",
       "match_key": "nu los angeles sparks vs nu phoenix mercury|hd step",
       "quality": "HD",
@@ -2046,7 +2162,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786495024-0-0-209e1bd5e14662d201d5741d4577a3c6",
+      "url": "https://live3.procdnlive.com/livecdn/channel9.flv?auth_key=3000001786496809-0-0-6fd1fc9ffc29f10fc8211bc45e273c82",
       "display_name": "[09:00 12/08/2026] Real Esteli vs Alianza Salvador [BLV HD TONI] [FLV]",
       "match_key": "real esteli vs alianza salvador|hd toni",
       "quality": "HD",
@@ -2058,7 +2174,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel5.flv?auth_key=3000001786495028-0-0-4dca7f92a44d49037afb6a44e7a52bce",
+      "url": "https://live3.procdnlive.com/livecdn/channel5.flv?auth_key=3000001786496809-0-0-ea6176518ca4fc417e53741083500bec",
       "display_name": "[09:00 12/08/2026] Tigres Uanl vs Vancouver Whitecaps [BLV HD NICK] [FLV]",
       "match_key": "tigres uanl vs vancouver whitecaps|hd nick",
       "quality": "HD",
@@ -2070,9 +2186,21 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786495037-0-0-ab651a83bdc1df72c598862fe9e88c7c",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786496818-0-0-964b9cd25b0b593143b32da5a437d1f1",
       "display_name": "[10:00 12/08/2026] Soles De Mexicali vs Abejas De Leon [BLV HD TOMMY] [FLV]",
       "match_key": "soles de mexicali vs abejas de leon|hd tommy",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live3.procdnlive.com/livecdn/channel10.flv?auth_key=3000001786496834-0-0-e25257a5dad2726521141d7881999396",
+      "display_name": "[11:00 12/08/2026] Rewa Fc vs Tupapa [BLV HD POLO] [FLV]",
+      "match_key": "rewa fc vs tupapa|hd polo",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -2095,8 +2223,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/82054853.m3u8",
-      "display_name": "[07:00 12/08] Talleres Cordoba vs Club Atlético Lanús [BLV ROCKSTARĐang xem] [M3U8]",
-      "match_key": "talleres cordoba vs club atletico lanus|rockstar ang xem",
+      "display_name": "[07:00 12/08] Talleres Cordoba vs Lanus [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]",
+      "match_key": "talleres cordoba vs lanus|lich thi au cuoc vsbet tai app ho tr",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -2119,8 +2247,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/75748097.m3u8",
-      "display_name": "[07:30 12/08] Bolivar vs São Paulo - SP [BLV SPRITEĐang xem] [M3U8]",
-      "match_key": "bolivar vs sao paulo|sprite ang xem",
+      "display_name": "[07:30 12/08] Bolivar vs Sao Paulo [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]",
+      "match_key": "bolivar vs sao paulo|lich thi au cuoc vsbet tai app ho tr",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -2131,8 +2259,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/87547578.m3u8",
-      "display_name": "[07:30 12/08] Estudiantes La Plata vs Univ Catolica [BLV MOUNTAIN DEWĐang xem] [M3U8]",
-      "match_key": "estudiantes la plata vs univ catolica|mountain dew ang xem",
+      "display_name": "[07:30 12/08] Estudiantes La Plata vs U Catolica [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "estudiantes la plata vs u catolica|lich thi au cuoc vsbet tai app ta",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -2143,7 +2271,7 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/99121525.m3u8",
-      "display_name": "[07:30 12/08] Minnesota United FC vs Atlante FC [BLV BÍ ĐAOĐang xem] [M3U8]",
+      "display_name": "[07:40 12/08] Minnesota United FC vs Atlante FC [BLV BÍ ĐAOĐang xem] [M3U8]",
       "match_key": "minnesota united fc vs atlante fc|bi ao ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
@@ -2155,8 +2283,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/78905744.m3u8",
-      "display_name": "[07:52 12/08] Charlotte FC vs Pachuca [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
-      "match_key": "charlotte fc vs pachuca|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[07:52 12/08] Charlotte FC vs Pachuca [BLV 7UPĐang xem] [M3U8]",
+      "match_key": "charlotte fc vs pachuca|7up ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -2167,8 +2295,8 @@
     {
       "source": "colatv",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "display_name": "[08:30 12/08] Real Salt Lake vs Juarez [BLV 7UPĐang xem] [M3U8]",
-      "match_key": "real salt lake vs juarez|7up ang xem",
+      "display_name": "Trung Mỹ và vùng Caraibes 12/08 Real Esteli VS Alianza San Salvador BLV MONSTER [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]\" group-title=\"Bóng đá\" tvg-logo=\"https://img.gvapi.cc/football/team/5204181e7c7001736341ab9b8dd54754.png!w80\",[09:00 12/08] Giải vô địch Bắc Mỹ, Trung Mỹ và vùng Caraibes 12/08 Real Esteli VS Alianza San Salvador BLV MONSTER [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "los angeles sparks vs phoenix mercury|cozy ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
