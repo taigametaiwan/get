@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-13T03:02:14.446154+07:00",
+  "updated_at": "2026-08-13T04:21:21.381965+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1241,18 +1241,15 @@
     },
     "1542352": {
       "url": "https://live04.chuoichientv.me/live/1542352/leeds-vs-manchester-united",
-      "match_name": "Leeds vs Manchester United - Giao Hữu Câu Lạc Bộ",
-      "kickoff_iso": "2026-08-13T01:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-13T03:02:14.445986+07:00",
-      "next_scan_at": "2026-08-13T03:07:14.445986+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
+      "match_name": "leeds vs manchester united",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-13T04:21:21.381880+07:00",
+      "next_scan_at": "2026-08-13T04:31:21.381880+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     },
     "1591929": {
       "url": "https://live04.chuoichientv.me/live/1591929/arsenal-vs-como",
@@ -1302,34 +1299,34 @@
     "1530148": {
       "url": "https://live04.chuoichientv.me/live/1530148/inter-miami-vs-leon",
       "match_name": "inter miami vs leon",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-13T03:02:14.445986+07:00",
-      "next_scan_at": "2026-08-13T03:12:14.445986+07:00",
+      "kickoff_iso": "2026-08-13T06:30:00+07:00",
+      "minutes_to_kickoff": 129,
+      "last_scan_at": "2026-08-13T04:21:21.381880+07:00",
+      "next_scan_at": "2026-08-13T05:06:21.381880+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1530150": {
       "url": "https://live04.chuoichientv.me/live/1530150/monterrey-vs-nashville-sc",
       "match_name": "monterrey vs nashville sc",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-13T03:02:14.445986+07:00",
-      "next_scan_at": "2026-08-13T03:12:14.445986+07:00",
+      "kickoff_iso": "2026-08-13T07:00:00+07:00",
+      "minutes_to_kickoff": 159,
+      "last_scan_at": "2026-08-13T04:21:21.381880+07:00",
+      "next_scan_at": "2026-08-13T05:06:21.381880+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1530149": {
       "url": "https://live04.chuoichientv.me/live/1530149/los-angeles-fc-vs-club-queretaro",
       "match_name": "los angeles fc vs club queretaro",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-13T03:02:14.445986+07:00",
-      "next_scan_at": "2026-08-13T03:12:14.445986+07:00",
+      "last_scan_at": "2026-08-13T04:21:21.381880+07:00",
+      "next_scan_at": "2026-08-13T04:31:21.381880+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
