@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-13T05:04:31.129186+07:00",
+  "updated_at": "2026-08-13T05:34:52.376008+07:00",
   "matches": {
     "8b7a6f04c438": {
       "url": "https://phaohoa1.live/truc-tiep/trung-quoc-vs-mexico",
@@ -369,14 +369,12 @@
       "url": "https://phaohoa1.live/truc-tiep/tho-nhi-ki-vs-nhat-ban",
       "match_name": "Thổ Nhĩ Kì vs Nhật Bản",
       "kickoff_iso": "2026-08-13T04:00:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-08-13T05:04:31.129064+07:00",
-      "next_scan_at": "2026-08-13T05:09:31.129064+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-08-13T05:34:52.375863+07:00",
+      "next_scan_at": "2026-08-13T05:39:52.375863+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "141514": {
@@ -397,9 +395,9 @@
       "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-thai-lan",
       "match_name": "Ba Lan vs Thái Lan",
       "kickoff_iso": "2026-08-13T07:00:00+07:00",
-      "minutes_to_kickoff": 116,
-      "last_scan_at": "2026-08-13T05:04:31.129064+07:00",
-      "next_scan_at": "2026-08-13T05:24:31.129064+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-13T05:34:52.375863+07:00",
+      "next_scan_at": "2026-08-13T05:54:52.375863+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -409,9 +407,9 @@
       "url": "https://phaohoa1.live/truc-tiep/inter-miami-vs-club-leon-13-08-2026-749513",
       "match_name": "Inter Miami vs Club Leon",
       "kickoff_iso": "2026-08-13T06:30:00+07:00",
-      "minutes_to_kickoff": 86,
-      "last_scan_at": "2026-08-13T05:04:31.129064+07:00",
-      "next_scan_at": "2026-08-13T05:24:31.129064+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-08-13T05:34:52.375863+07:00",
+      "next_scan_at": "2026-08-13T05:54:52.375863+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
