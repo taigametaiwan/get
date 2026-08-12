@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-12T21:03:35.137186+07:00",
+  "updated_at": "2026-08-12T21:34:40.528429+07:00",
   "matches": {
     "795404": {
       "url": "https://phaohoa1.live/truc-tiep/karpaty-lviv-vs-lnz-cherkasy-10-08-2026-795404",
@@ -283,33 +283,37 @@
       "url": "https://phaohoa1.live/truc-tiep/east-bengal-vs-al-arabi-12-08-2026-820996",
       "match_name": "East Bengal vs Al Arabi",
       "kickoff_iso": "2026-08-12T20:30:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-12T21:03:35.137041+07:00",
-      "next_scan_at": "2026-08-12T21:08:35.137041+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-08-12T21:34:40.528166+07:00",
+      "next_scan_at": "2026-08-12T21:39:40.528166+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     },
     "820997": {
       "url": "https://phaohoa1.live/truc-tiep/arkadag-vs-goa-12-08-2026-820997",
-      "match_name": "12-08 AFC Champions League Two Arkadag VS Goa Kevin",
+      "match_name": "Arkadag vs Goa",
       "kickoff_iso": "2026-08-12T22:00:00+07:00",
-      "minutes_to_kickoff": 57,
-      "last_scan_at": "2026-08-12T21:03:35.137041+07:00",
-      "next_scan_at": "2026-08-12T21:23:35.137041+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-12T21:34:40.528166+07:00",
+      "next_scan_at": "2026-08-12T21:39:40.528166+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
       "scan_decision": "browser-fallback"
     },
     "3f924fd1fd35": {
       "url": "https://phaohoa1.live/truc-tiep/italy-vs-ukraine",
       "match_name": "12-08 Giao Hữu Italy VS Ukraine KaKa",
       "kickoff_iso": "2026-08-12T22:30:00+07:00",
-      "minutes_to_kickoff": 87,
-      "last_scan_at": "2026-08-12T21:03:35.137041+07:00",
-      "next_scan_at": "2026-08-12T21:23:35.137041+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-08-12T21:34:40.528166+07:00",
+      "next_scan_at": "2026-08-12T21:54:40.528166+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -319,37 +323,37 @@
       "url": "https://phaohoa1.live/truc-tiep/fc-copenhagen-vs-debrecen-12-08-2026-829887",
       "match_name": "12-08 UEFA Conference League FC Copenhagen VS Debrecen Ken",
       "kickoff_iso": "2026-08-12T23:00:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-08-12T21:03:35.137041+07:00",
-      "next_scan_at": "2026-08-12T21:23:35.137041+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-12T21:34:40.528166+07:00",
+      "next_scan_at": "2026-08-12T21:54:40.528166+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "829891": {
       "url": "https://phaohoa1.live/truc-tiep/sk-rapid-vs-paide-12-08-2026-829891",
       "match_name": "12-08 UEFA Conference League SK Rapid VS Paide Chim Nhỏ",
       "kickoff_iso": "2026-08-12T23:00:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-08-12T21:03:35.137041+07:00",
-      "next_scan_at": "2026-08-12T21:23:35.137041+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-12T21:34:40.528166+07:00",
+      "next_scan_at": "2026-08-12T21:54:40.528166+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "829963": {
       "url": "https://phaohoa1.live/truc-tiep/gks-katowice-vs-hapoel-tel-aviv-12-08-2026-829963",
       "match_name": "12-08 UEFA Conference League GKS Katowice VS Hapoel Tel Aviv Tày",
       "kickoff_iso": "2026-08-12T23:00:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-08-12T21:03:35.137041+07:00",
-      "next_scan_at": "2026-08-12T21:23:35.137041+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-12T21:34:40.528166+07:00",
+      "next_scan_at": "2026-08-12T21:54:40.528166+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
