@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-13T00:35:17.467106+07:00",
+  "updated_at": "2026-08-13T01:50:16.232557+07:00",
   "matches": {
     "803648": {
       "url": "https://phaohoa1.live/truc-tiep/santa-clara-vs-nacional-11-08-2026-803648",
@@ -309,62 +309,98 @@
     },
     "758918": {
       "url": "https://phaohoa1.live/truc-tiep/leeds-vs-manchester-united-13-08-2026-758918",
-      "match_name": "13-08 Club Friendlies Leeds VS Manchester United Pháo Thủ",
+      "match_name": "Leeds vs Manchester United",
       "kickoff_iso": "2026-08-13T01:30:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-08-13T00:35:17.466730+07:00",
-      "next_scan_at": "2026-08-13T00:55:17.466730+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -19,
+      "last_scan_at": "2026-08-13T01:50:16.232270+07:00",
+      "next_scan_at": "2026-08-13T01:55:16.232270+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     },
     "770674": {
       "url": "https://phaohoa1.live/truc-tiep/arsenal-vs-como-13-08-2026-770674",
-      "match_name": "13-08 Club Friendlies Arsenal VS Como Chim Nhỏ",
+      "match_name": "Arsenal vs Como",
       "kickoff_iso": "2026-08-13T01:30:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-08-13T00:35:17.466730+07:00",
-      "next_scan_at": "2026-08-13T00:55:17.466730+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -19,
+      "last_scan_at": "2026-08-13T01:50:16.232270+07:00",
+      "next_scan_at": "2026-08-13T01:55:16.232270+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     },
     "a8c3f0070d52": {
       "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-phap",
-      "match_name": "13-08 Giao Hữu Ba Lan VS Pháp KaKa",
+      "match_name": "Ba Lan vs Pháp",
       "kickoff_iso": "2026-08-13T01:30:00+07:00",
-      "minutes_to_kickoff": 55,
-      "last_scan_at": "2026-08-13T00:35:17.466730+07:00",
-      "next_scan_at": "2026-08-13T00:55:17.466730+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -19,
+      "last_scan_at": "2026-08-13T01:50:16.232270+07:00",
+      "next_scan_at": "2026-08-13T01:55:16.232270+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     },
     "775706": {
       "url": "https://phaohoa1.live/truc-tiep/dep-la-coruna-vs-real-madrid-13-08-2026-775706",
-      "match_name": "13-08 Club Friendlies Dep. La Coruna VS Real Madrid Tày",
+      "match_name": "Dep. La Coruna vs Real Madrid",
       "kickoff_iso": "2026-08-13T02:00:00+07:00",
-      "minutes_to_kickoff": 85,
-      "last_scan_at": "2026-08-13T00:35:17.466730+07:00",
-      "next_scan_at": "2026-08-13T00:55:17.466730+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 10,
+      "last_scan_at": "2026-08-13T01:50:16.232270+07:00",
+      "next_scan_at": "2026-08-13T01:55:16.232270+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     },
     "794451": {
       "url": "https://phaohoa1.live/truc-tiep/psg-vs-aston-villa-13-08-2026-794451",
-      "match_name": "13-08 UEFA Super Cup PSG VS Aston Villa Ken",
+      "match_name": "Psg vs Aston Villa",
       "kickoff_iso": "2026-08-13T02:00:00+07:00",
-      "minutes_to_kickoff": 85,
-      "last_scan_at": "2026-08-13T00:35:17.466730+07:00",
-      "next_scan_at": "2026-08-13T00:55:17.466730+07:00",
+      "minutes_to_kickoff": 10,
+      "last_scan_at": "2026-08-13T01:50:16.232270+07:00",
+      "next_scan_at": "2026-08-13T01:55:16.232270+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "48027a99c995": {
+      "url": "https://phaohoa1.live/truc-tiep/tho-nhi-ki-vs-nhat-ban",
+      "match_name": "13-08 U17 World Championship Thổ Nhĩ Kì VS Nhật Bản Tày",
+      "kickoff_iso": "2026-08-13T04:00:00+07:00",
+      "minutes_to_kickoff": 131,
+      "last_scan_at": "2026-08-13T01:50:16.232270+07:00",
+      "next_scan_at": "2026-08-13T02:35:16.232270+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "141514": {
+      "url": "https://phaohoa1.live/truc-tiep/psg-vs-aston-villa-11-08-2026-141514",
+      "match_name": "Psg vs Aston Villa",
+      "kickoff_iso": "2026-08-13T02:00:00+07:00",
+      "minutes_to_kickoff": 10,
+      "last_scan_at": "2026-08-13T01:50:16.232270+07:00",
+      "next_scan_at": "2026-08-13T01:55:16.232270+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
