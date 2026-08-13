@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-13T19:31:31.051882+07:00",
+  "updated_at": "2026-08-13T20:47:10.645676+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1276,33 +1276,39 @@
       "url": "https://live04.chuoichientv.me/live/1516097/andijan-vs-neftchi",
       "match_name": "Andijan vs Neftchi - VĐQG Uzbekistan",
       "kickoff_iso": "2026-08-13T21:00:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-08-13T19:31:31.051722+07:00",
-      "next_scan_at": "2026-08-13T19:51:31.051722+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 13,
+      "last_scan_at": "2026-08-13T20:47:10.645516+07:00",
+      "next_scan_at": "2026-08-13T20:52:10.645516+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoidahd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoida/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1516104": {
       "url": "https://live04.chuoichientv.me/live/1516104/surkhon-vs-sogdiana",
       "match_name": "Surkhon vs Sogdiana - VĐQG Uzbekistan",
       "kickoff_iso": "2026-08-13T21:00:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-08-13T19:31:31.051722+07:00",
-      "next_scan_at": "2026-08-13T19:51:31.051722+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 13,
+      "last_scan_at": "2026-08-13T20:47:10.645516+07:00",
+      "next_scan_at": "2026-08-13T20:52:10.645516+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitieuhd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitieu/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1560916": {
       "url": "https://live04.chuoichientv.me/live/1560916/spartak-nalchik-vs-alaniya-vladikavkaz",
       "match_name": "Spartak Nalchik vs Alaniya Vladikavkaz - Cúp Nga",
       "kickoff_iso": "2026-08-13T21:00:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-08-13T19:31:31.051722+07:00",
-      "next_scan_at": "2026-08-13T19:51:31.051722+07:00",
+      "minutes_to_kickoff": 13,
+      "last_scan_at": "2026-08-13T20:47:10.645516+07:00",
+      "next_scan_at": "2026-08-13T20:52:10.645516+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1311,74 +1317,74 @@
     "1607627": {
       "url": "https://live04.chuoichientv.me/live/1607627/fk-tobol-kostanay-vs-fk-partizan",
       "match_name": "fk tobol kostanay vs fk partizan",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-13T19:31:31.051722+07:00",
-      "next_scan_at": "2026-08-13T19:41:31.051722+07:00",
+      "kickoff_iso": "2026-08-13T22:00:00+07:00",
+      "minutes_to_kickoff": 73,
+      "last_scan_at": "2026-08-13T20:47:10.645516+07:00",
+      "next_scan_at": "2026-08-13T21:07:10.645516+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "browser-fallback"
     },
     "1607613": {
       "url": "https://live04.chuoichientv.me/live/1607613/ilves-vs-hnk-rijeka",
       "match_name": "ilves vs hnk rijeka",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-13T19:31:31.051722+07:00",
-      "next_scan_at": "2026-08-13T19:41:31.051722+07:00",
+      "kickoff_iso": "2026-08-13T23:00:00+07:00",
+      "minutes_to_kickoff": 134,
+      "last_scan_at": "2026-08-13T20:47:10.645516+07:00",
+      "next_scan_at": "2026-08-13T21:32:10.645516+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1607614": {
       "url": "https://live04.chuoichientv.me/live/1607614/flora-tallinn-vs-inter-club-descaldes",
       "match_name": "flora tallinn vs inter club descaldes",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-13T19:31:31.051722+07:00",
-      "next_scan_at": "2026-08-13T19:41:31.051722+07:00",
+      "kickoff_iso": "2026-08-13T23:00:00+07:00",
+      "minutes_to_kickoff": 134,
+      "last_scan_at": "2026-08-13T20:47:10.645516+07:00",
+      "next_scan_at": "2026-08-13T21:32:10.645516+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1607620": {
       "url": "https://live04.chuoichientv.me/live/1607620/qarabag-vs-dynamo-kyiv",
       "match_name": "qarabag vs dynamo kyiv",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-13T19:31:31.051722+07:00",
-      "next_scan_at": "2026-08-13T19:41:31.051722+07:00",
+      "kickoff_iso": "2026-08-13T23:00:00+07:00",
+      "minutes_to_kickoff": 134,
+      "last_scan_at": "2026-08-13T20:47:10.645516+07:00",
+      "next_scan_at": "2026-08-13T21:32:10.645516+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1602972": {
       "url": "https://live04.chuoichientv.me/live/1602972/abha-vs-al-hazm",
       "match_name": "abha vs al hazm",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-13T19:31:31.051722+07:00",
-      "next_scan_at": "2026-08-13T19:41:31.051722+07:00",
+      "kickoff_iso": "2026-08-13T23:15:00+07:00",
+      "minutes_to_kickoff": 149,
+      "last_scan_at": "2026-08-13T20:47:10.645516+07:00",
+      "next_scan_at": "2026-08-13T21:32:10.645516+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1607621": {
       "url": "https://live04.chuoichientv.me/live/1607621/rgas-fs-vs-fk-jablonec",
       "match_name": "rgas fs vs fk jablonec",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-13T19:31:31.051722+07:00",
-      "next_scan_at": "2026-08-13T19:41:31.051722+07:00",
+      "kickoff_iso": "2026-08-13T23:30:00+07:00",
+      "minutes_to_kickoff": 164,
+      "last_scan_at": "2026-08-13T20:47:10.645516+07:00",
+      "next_scan_at": "2026-08-13T21:32:10.645516+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
