@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-13T13:03:47.484900+07:00",
+  "generated_at": "2026-08-13T13:34:06.969549+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -140,16 +140,25 @@
   "last_good_suppressed_by_fresh_count": 0,
   "last_good_audit": [
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel66.flv?auth_key=3000001786599129-0-0-31ca67af499bdc4eb8f7ad973c1cc1c5",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786601023-0-0-bd780450757e15a04f0cb39319c9662c",
       "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-13T10:30:00+07:00",
-      "minutes_to_kickoff": -153.79,
-      "filtered_before_probe": true
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
     },
     {
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001786599201-0-0-d2d143334cf58c9064b541afeeb29b1f",
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786601011-0-0-195aecfcb6bea05b0625be8cd9f31319",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001786600993-0-0-0d4eef46582c590e7e74731824bfc17d",
+      "kept": false,
+      "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001786600964-0-0-08d98612c0adc0183ff9a81aa911a7b6",
       "kept": false,
       "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
       "source": "xoilac"
@@ -179,7 +188,7 @@
       "source_label": "Gà Vàng",
       "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
       "match_key": "launion vs aucas|",
-      "display_name": "Launion VS Aucas [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
+      "display_name": "Launion VS Aucas [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
       "group": "Gà Vàng",
       "sport_group": "Gà Vàng",
       "quality": "SD",
@@ -214,12 +223,12 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 206; m3u8=True",
-      "prior_generated_at": "2026-08-13T12:33:39.218900+07:00"
+      "prior_generated_at": "2026-08-13T13:03:47.484900+07:00"
     },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001786600964-0-0-08d98612c0adc0183ff9a81aa911a7b6",
+      "url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001786602743-0-0-9fe1f37841148e4c318cc48a20c6f748",
       "match_key": "manila batang quiapo vs marikina shoemasters|hd step",
       "display_name": "[14:00 13/08/2026] Manila Batang Quiapo vs Marikina Shoemasters [BLV HD STEP] [FLV]",
       "group": "Xôi Lạc",
@@ -240,7 +249,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-13T14:00:00+07:00",
-      "minutes_to_kickoff": 56.21,
+      "minutes_to_kickoff": 25.88,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -250,7 +259,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001786600964-0-0-08d98612c0adc0183ff9a81aa911a7b6",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001786602743-0-0-9fe1f37841148e4c318cc48a20c6f748",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/ednm9ktkl7wryox/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/l5ergytojo8r8k0/image/small",
       "blv": null,
@@ -264,7 +273,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001786600993-0-0-0d4eef46582c590e7e74731824bfc17d",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001786602781-0-0-2002375b066a027de9ae3d5d227b185e",
       "match_key": "kiwoom drx vs bnk fearx|hd marty",
       "display_name": "[15:00 13/08/2026] Kiwoom Drx vs Bnk Fearx [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -285,7 +294,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-13T15:00:00+07:00",
-      "minutes_to_kickoff": 116.21,
+      "minutes_to_kickoff": 85.88,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -295,7 +304,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001786600993-0-0-0d4eef46582c590e7e74731824bfc17d",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001786602781-0-0-2002375b066a027de9ae3d5d227b185e",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/y0or59wblpd4mwz/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/965mk6zt7jezq1g/image/small",
       "blv": null,
@@ -309,7 +318,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786601011-0-0-195aecfcb6bea05b0625be8cd9f31319",
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786602801-0-0-48a10b966dece1ac4868ad283d024340",
       "match_key": "lllawarra hawks vs st marys college|hd alan",
       "display_name": "[16:00 13/08/2026] Lllawarra Hawks vs St Marys College [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -330,7 +339,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-13T16:00:00+07:00",
-      "minutes_to_kickoff": 176.21,
+      "minutes_to_kickoff": 145.88,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -340,7 +349,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786601011-0-0-195aecfcb6bea05b0625be8cd9f31319",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786602801-0-0-48a10b966dece1ac4868ad283d024340",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/56ypq3ktjjomd7o/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/965mk8t3nd9m1ge/image/small",
       "blv": null,
@@ -354,7 +363,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786601023-0-0-bd780450757e15a04f0cb39319c9662c",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786602816-0-0-80a5c3a5a5e47382252e6f456e90fa1f",
       "match_key": "shanxi loongs fenjiu vs qingdao guoxin|hd tommy",
       "display_name": "[16:00 13/08/2026] Shanxi Loongs Fenjiu vs Qingdao Guoxin [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -375,7 +384,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-13T16:00:00+07:00",
-      "minutes_to_kickoff": 176.21,
+      "minutes_to_kickoff": 145.88,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -385,7 +394,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786601023-0-0-bd780450757e15a04f0cb39319c9662c",
+      "page_url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786602816-0-0-80a5c3a5a5e47382252e6f456e90fa1f",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/kn54ql7t63drvy9/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/8y39mp4t878mojx/image/small",
       "blv": null,
@@ -400,7 +409,7 @@
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001786600964-0-0-08d98612c0adc0183ff9a81aa911a7b6",
+      "url": "https://live3.procdnlive.com/livecdn/channel16.flv?auth_key=3000001786602743-0-0-9fe1f37841148e4c318cc48a20c6f748",
       "display_name": "[14:00 13/08/2026] Manila Batang Quiapo vs Marikina Shoemasters [BLV HD STEP] [FLV]",
       "match_key": "manila batang quiapo vs marikina shoemasters|hd step",
       "quality": "HD",
@@ -412,7 +421,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001786600993-0-0-0d4eef46582c590e7e74731824bfc17d",
+      "url": "https://live3.procdnlive.com/livecdn/channel30.flv?auth_key=3000001786602781-0-0-2002375b066a027de9ae3d5d227b185e",
       "display_name": "[15:00 13/08/2026] Kiwoom Drx vs Bnk Fearx [BLV HD MARTY] [FLV]",
       "match_key": "kiwoom drx vs bnk fearx|hd marty",
       "quality": "HD",
@@ -424,7 +433,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786601011-0-0-195aecfcb6bea05b0625be8cd9f31319",
+      "url": "https://live3.procdnlive.com/livecdn/channel25.flv?auth_key=3000001786602801-0-0-48a10b966dece1ac4868ad283d024340",
       "display_name": "[16:00 13/08/2026] Lllawarra Hawks vs St Marys College [BLV HD ALAN] [FLV]",
       "match_key": "lllawarra hawks vs st marys college|hd alan",
       "quality": "HD",
@@ -436,7 +445,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786601023-0-0-bd780450757e15a04f0cb39319c9662c",
+      "url": "https://live3.procdnlive.com/livecdn/channel29.flv?auth_key=3000001786602816-0-0-80a5c3a5a5e47382252e6f456e90fa1f",
       "display_name": "[16:00 13/08/2026] Shanxi Loongs Fenjiu vs Qingdao Guoxin [BLV HD TOMMY] [FLV]",
       "match_key": "shanxi loongs fenjiu vs qingdao guoxin|hd tommy",
       "quality": "HD",
