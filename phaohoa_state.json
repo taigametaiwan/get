@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-13T19:02:46.728743+07:00",
+  "updated_at": "2026-08-13T19:34:02.434797+07:00",
   "matches": {
     "829345": {
       "url": "https://phaohoa1.live/truc-tiep/kairat-almaty-vs-levski-sofia-11-08-2026-829345",
@@ -367,13 +367,13 @@
       "url": "https://phaohoa1.live/truc-tiep/andijan-vs-neftchi-fargona-13-08-2026-736670",
       "match_name": "13-08 Super League Andijan VS Neftchi Fargona Chim Nhỏ",
       "kickoff_iso": "2026-08-13T21:00:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-08-13T19:02:46.728643+07:00",
-      "next_scan_at": "2026-08-13T19:22:46.728643+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-13T19:34:02.434697+07:00",
+      "next_scan_at": "2026-08-13T19:54:02.434697+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "f6a4ac5638a6": {
       "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-italy",
@@ -382,6 +382,18 @@
       "minutes_to_kickoff": 177,
       "last_scan_at": "2026-08-13T19:02:46.728643+07:00",
       "next_scan_at": "2026-08-13T19:47:46.728643+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "829977": {
+      "url": "https://phaohoa1.live/truc-tiep/tobol-vs-partizan-13-08-2026-829977",
+      "match_name": "13-08 UEFA Conference League Tobol VS Partizan Pháo Thủ",
+      "kickoff_iso": "2026-08-13T22:30:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-08-13T19:34:02.434697+07:00",
+      "next_scan_at": "2026-08-13T20:19:02.434697+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
