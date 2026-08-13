@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-13T17:31:57.777126+07:00",
+  "updated_at": "2026-08-13T18:02:33.406867+07:00",
   "matches": {
     "829345": {
       "url": "https://phaohoa1.live/truc-tiep/kairat-almaty-vs-levski-sofia-11-08-2026-829345",
@@ -362,6 +362,18 @@
         "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "736670": {
+      "url": "https://phaohoa1.live/truc-tiep/andijan-vs-neftchi-fargona-13-08-2026-736670",
+      "match_name": "13-08 Super League Andijan VS Neftchi Fargona Chim Nhỏ",
+      "kickoff_iso": "2026-08-13T21:00:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-13T18:02:33.406807+07:00",
+      "next_scan_at": "2026-08-13T18:47:33.406807+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
