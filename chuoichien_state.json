@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-14T01:31:36.950341+07:00",
+  "updated_at": "2026-08-14T02:31:54.256317+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -891,21 +891,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1598828": {
-      "url": "https://live04.chuoichientv.me/live/1598828/lyon-vs-sparta-praha",
-      "match_name": "Lyon vs Sparta Praha - UEFA Champions League",
-      "kickoff_iso": "2026-08-12T02:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-12T03:31:36.729705+07:00",
-      "next_scan_at": "2026-08-12T03:36:36.729705+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitieuhd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitieu/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1547760": {
       "url": "https://live04.chuoichientv.me/live/1547760/fluminense-vs-independ-rivadavia",
       "match_name": "Fluminense vs Independ. Rivadavia - CONMEBOL Libertadores",
@@ -1351,11 +1336,91 @@
     },
     "1607568": {
       "url": "https://live04.chuoichientv.me/live/1607568/cska-sofia-vs-maccabi-tel-aviv",
-      "match_name": "cska sofia vs maccabi tel aviv",
+      "match_name": "CSKA Sofia vs Maccabi Tel Aviv - UEFA Europa League",
+      "kickoff_iso": "2026-08-14T01:00:00+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-14T02:31:54.256209+07:00",
+      "next_scan_at": "2026-08-14T02:36:54.256209+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angao/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1598831": {
+      "url": "https://live04.chuoichientv.me/live/1598831/rangers-vs-jagiellonia",
+      "match_name": "Rangers vs Jagiellonia - UEFA Europa League",
+      "kickoff_iso": "2026-08-14T01:30:00+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-14T02:31:54.256209+07:00",
+      "next_scan_at": "2026-08-14T02:36:54.256209+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1606076": {
+      "url": "https://live04.chuoichientv.me/live/1606076/santos-vs-macara",
+      "match_name": "santos vs macara",
+      "kickoff_iso": "2026-08-14T05:00:00+07:00",
+      "minutes_to_kickoff": 149,
+      "last_scan_at": "2026-08-14T02:31:54.256209+07:00",
+      "next_scan_at": "2026-08-14T03:16:54.256209+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1607570": {
+      "url": "https://live04.chuoichientv.me/live/1607570/heart-of-midlothian-vs-benfica",
+      "match_name": "Heart Of Midlothian vs Benfica - UEFA Europa League",
+      "kickoff_iso": "2026-08-14T01:45:00+07:00",
+      "minutes_to_kickoff": -46,
+      "last_scan_at": "2026-08-14T02:31:54.256209+07:00",
+      "next_scan_at": "2026-08-14T02:36:54.256209+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoito/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1530158": {
+      "url": "https://live04.chuoichientv.me/live/1530158/philadelphia-union-vs-santos-laguna",
+      "match_name": "philadelphia union vs santos laguna",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-14T01:31:36.950171+07:00",
-      "next_scan_at": "2026-08-14T01:41:36.950171+07:00",
+      "last_scan_at": "2026-08-14T02:31:54.256209+07:00",
+      "next_scan_at": "2026-08-14T02:41:54.256209+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1530155": {
+      "url": "https://live04.chuoichientv.me/live/1530155/club-america-vs-austin",
+      "match_name": "club america vs austin",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-14T02:31:54.256209+07:00",
+      "next_scan_at": "2026-08-14T02:41:54.256209+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1530159": {
+      "url": "https://live04.chuoichientv.me/live/1530159/portland-timbers-vs-club-tijuana",
+      "match_name": "portland timbers vs club tijuana",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-14T02:31:54.256209+07:00",
+      "next_scan_at": "2026-08-14T02:41:54.256209+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
