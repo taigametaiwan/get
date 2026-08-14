@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-15T03:32:19.279277+07:00",
+  "updated_at": "2026-08-15T04:01:54.279897+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1415,11 +1415,11 @@
     },
     "1575463": {
       "url": "https://live04.chuoichientv.me/live/1575463/sporting-cp-vs-guimaraes",
-      "match_name": "Sporting CP vs Guimaraes - VĐQG Bồ Đào Nha",
+      "match_name": "sporting cp vs guimaraes",
       "kickoff_iso": "2026-08-15T02:15:00+07:00",
-      "minutes_to_kickoff": -76,
-      "last_scan_at": "2026-08-15T03:32:19.279103+07:00",
-      "next_scan_at": "2026-08-15T03:37:19.279103+07:00",
+      "minutes_to_kickoff": -106,
+      "last_scan_at": "2026-08-15T04:01:54.279724+07:00",
+      "next_scan_at": "2026-08-15T04:06:54.279724+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1432,9 +1432,9 @@
       "url": "https://live04.chuoichientv.me/live/1513281/atlanta-united-ii-vs-new-york-rb-ii",
       "match_name": "Atlanta United II vs New York RB II - MLS Next Pro",
       "kickoff_iso": "2026-08-15T03:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-15T03:32:19.279103+07:00",
-      "next_scan_at": "2026-08-15T03:37:19.279103+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-15T04:01:54.279724+07:00",
+      "next_scan_at": "2026-08-15T04:06:54.279724+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1446,22 +1446,22 @@
     "1493072": {
       "url": "https://live04.chuoichientv.me/live/1493072/racing-club-vs-banfield",
       "match_name": "racing club vs banfield",
-      "kickoff_iso": "2026-08-15T06:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-15T03:32:19.279103+07:00",
-      "next_scan_at": "2026-08-15T04:17:19.279103+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-15T04:01:54.279724+07:00",
+      "next_scan_at": "2026-08-15T04:11:54.279724+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1581389": {
       "url": "https://live04.chuoichientv.me/live/1581389/correcaminos-uat-vs-tapato",
       "match_name": "correcaminos uat vs tapato",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-15T03:32:19.279103+07:00",
-      "next_scan_at": "2026-08-15T03:42:19.279103+07:00",
+      "last_scan_at": "2026-08-15T04:01:54.279724+07:00",
+      "next_scan_at": "2026-08-15T04:11:54.279724+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1472,8 +1472,8 @@
       "match_name": "ca la paz vs piratas",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-15T03:32:19.279103+07:00",
-      "next_scan_at": "2026-08-15T03:42:19.279103+07:00",
+      "last_scan_at": "2026-08-15T04:01:54.279724+07:00",
+      "next_scan_at": "2026-08-15T04:11:54.279724+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1482,14 +1482,14 @@
     "1505498": {
       "url": "https://live04.chuoichientv.me/live/1505498/universidad-de-concepcion-vs-d-la-serena",
       "match_name": "universidad de concepcion vs d la serena",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-15T03:32:19.279103+07:00",
-      "next_scan_at": "2026-08-15T03:42:19.279103+07:00",
+      "kickoff_iso": "2026-08-15T06:00:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-15T04:01:54.279724+07:00",
+      "next_scan_at": "2026-08-15T04:21:54.279724+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
