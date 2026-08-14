@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-14T17:33:03.598395+07:00",
+  "updated_at": "2026-08-14T18:03:10.829788+07:00",
   "matches": {
     "820996": {
       "url": "https://phaohoa1.live/truc-tiep/east-bengal-vs-al-arabi-12-08-2026-820996",
@@ -355,9 +355,9 @@
       "url": "https://phaohoa1.live/truc-tiep/verdy-vs-kashiwa-reysol-14-08-2026-807483",
       "match_name": "Verdy vs Kashiwa Reysol",
       "kickoff_iso": "2026-08-14T17:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-14T17:33:03.598221+07:00",
-      "next_scan_at": "2026-08-14T17:38:03.598221+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-08-14T18:03:10.829635+07:00",
+      "next_scan_at": "2026-08-14T18:08:10.829635+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -369,9 +369,9 @@
       "url": "https://phaohoa1.live/truc-tiep/shandong-taishan-vs-qingdao-hainiu-14-08-2026-742946",
       "match_name": "14-08 Chinese Super League Shandong Taishan VS Qingdao Hainiu Chim Nhỏ",
       "kickoff_iso": "2026-08-14T18:35:00+07:00",
-      "minutes_to_kickoff": 63,
-      "last_scan_at": "2026-08-14T17:33:03.598221+07:00",
-      "next_scan_at": "2026-08-14T17:53:03.598221+07:00",
+      "minutes_to_kickoff": 32,
+      "last_scan_at": "2026-08-14T18:03:10.829635+07:00",
+      "next_scan_at": "2026-08-14T18:13:10.829635+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -381,13 +381,25 @@
       "url": "https://phaohoa1.live/truc-tiep/wuhan-three-towns-vs-shanghai-port-14-08-2026-742947",
       "match_name": "14-08 Chinese Super League Wuhan Three Towns VS Shanghai Port Pháo Thủ",
       "kickoff_iso": "2026-08-14T18:35:00+07:00",
-      "minutes_to_kickoff": 63,
-      "last_scan_at": "2026-08-14T17:33:03.598221+07:00",
-      "next_scan_at": "2026-08-14T17:53:03.598221+07:00",
+      "minutes_to_kickoff": 32,
+      "last_scan_at": "2026-08-14T18:03:10.829635+07:00",
+      "next_scan_at": "2026-08-14T18:13:10.829635+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "781406": {
+      "url": "https://phaohoa1.live/truc-tiep/orenburg-vs-lokomotiv-moscow-14-08-2026-781406",
+      "match_name": "14-08 Premier League Orenburg VS Lokomotiv Moscow Tày",
+      "kickoff_iso": "2026-08-14T21:00:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-14T18:03:10.829635+07:00",
+      "next_scan_at": "2026-08-14T18:48:10.829635+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
