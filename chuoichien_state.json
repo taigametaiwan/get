@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-15T05:31:27.036129+07:00",
+  "updated_at": "2026-08-15T06:01:43.306776+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1444,9 +1444,9 @@
       "url": "https://live04.chuoichientv.me/live/1493072/racing-club-vs-banfield",
       "match_name": "Racing Club vs Banfield - VĐQG Argentina",
       "kickoff_iso": "2026-08-15T06:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-08-15T05:31:27.036028+07:00",
-      "next_scan_at": "2026-08-15T05:51:27.036028+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-15T06:01:43.306672+07:00",
+      "next_scan_at": "2026-08-15T06:11:43.306672+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1455,22 +1455,22 @@
     "1581389": {
       "url": "https://live04.chuoichientv.me/live/1581389/correcaminos-uat-vs-tapato",
       "match_name": "correcaminos uat vs tapato",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-15T05:31:27.036028+07:00",
-      "next_scan_at": "2026-08-15T05:41:27.036028+07:00",
+      "kickoff_iso": "2026-08-15T08:00:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-15T06:01:43.306672+07:00",
+      "next_scan_at": "2026-08-15T06:21:43.306672+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1581473": {
       "url": "https://live04.chuoichientv.me/live/1581473/ca-la-paz-vs-piratas",
       "match_name": "ca la paz vs piratas",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-15T05:31:27.036028+07:00",
-      "next_scan_at": "2026-08-15T05:41:27.036028+07:00",
+      "last_scan_at": "2026-08-15T06:01:43.306672+07:00",
+      "next_scan_at": "2026-08-15T06:11:43.306672+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1480,12 +1480,15 @@
       "url": "https://live04.chuoichientv.me/live/1505498/universidad-de-concepcion-vs-d-la-serena",
       "match_name": "Universidad de Concepcion vs D. La Serena - VĐQG Chile",
       "kickoff_iso": "2026-08-15T06:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-15T05:31:27.036028+07:00",
-      "next_scan_at": "2026-08-15T05:41:27.036028+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-15T06:01:43.306672+07:00",
+      "next_scan_at": "2026-08-15T06:06:43.306672+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitay/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
