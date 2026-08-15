@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-15T17:03:02.896888+07:00",
+  "updated_at": "2026-08-15T17:33:20.504684+07:00",
   "matches": {
     "736670": {
       "url": "https://phaohoa1.live/truc-tiep/andijan-vs-neftchi-fargona-13-08-2026-736670",
@@ -355,9 +355,9 @@
       "url": "https://phaohoa1.live/truc-tiep/mito-vs-gamba-osaka-15-08-2026-807485",
       "match_name": "Mito vs Gamba Osaka",
       "kickoff_iso": "2026-08-15T16:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-15T17:03:02.896651+07:00",
-      "next_scan_at": "2026-08-15T17:08:02.896651+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-15T17:33:20.501456+07:00",
+      "next_scan_at": "2026-08-15T17:38:20.501456+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -369,9 +369,9 @@
       "url": "https://phaohoa1.live/truc-tiep/vissel-kobe-vs-fc-tokyo-15-08-2026-807492",
       "match_name": "Vissel Kobe vs FC Tokyo",
       "kickoff_iso": "2026-08-15T17:00:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-08-15T17:03:02.896651+07:00",
-      "next_scan_at": "2026-08-15T17:08:02.896651+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-15T17:33:20.501456+07:00",
+      "next_scan_at": "2026-08-15T17:38:20.501456+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -383,9 +383,9 @@
       "url": "https://phaohoa1.live/truc-tiep/urawa-reds-vs-sanfrecce-hiroshima-15-08-2026-807491",
       "match_name": "Urawa Reds vs Sanfrecce Hiroshima",
       "kickoff_iso": "2026-08-15T17:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-15T17:03:02.896651+07:00",
-      "next_scan_at": "2026-08-15T17:08:02.896651+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-15T17:33:20.501456+07:00",
+      "next_scan_at": "2026-08-15T17:38:20.501456+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -397,13 +397,13 @@
       "url": "https://phaohoa1.live/truc-tiep/zhejiang-professional-vs-chengdu-rongcheng-15-08-2026-742951",
       "match_name": "15-08 Chinese Super League Zhejiang Professional VS Chengdu Rongcheng Văn Minh",
       "kickoff_iso": "2026-08-15T18:35:00+07:00",
-      "minutes_to_kickoff": 93,
-      "last_scan_at": "2026-08-15T17:03:02.896651+07:00",
-      "next_scan_at": "2026-08-15T17:23:02.896651+07:00",
+      "minutes_to_kickoff": 62,
+      "last_scan_at": "2026-08-15T17:33:20.501456+07:00",
+      "next_scan_at": "2026-08-15T17:53:20.501456+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "821408": {
       "url": "https://phaohoa1.live/truc-tiep/chelsea-vs-real-sociedad-15-08-2026-821408",
@@ -424,6 +424,18 @@
       "minutes_to_kickoff": 178,
       "last_scan_at": "2026-08-15T17:03:02.896651+07:00",
       "next_scan_at": "2026-08-15T17:48:02.896651+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "764903": {
+      "url": "https://phaohoa1.live/truc-tiep/bayern-munich-vs-rb-leipzig-15-08-2026-764903",
+      "match_name": "15-08 Club Friendlies Bayern Munich VS RB Leipzig Pháo Thủ",
+      "kickoff_iso": "2026-08-15T20:30:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-15T17:33:20.501456+07:00",
+      "next_scan_at": "2026-08-15T18:18:20.501456+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
