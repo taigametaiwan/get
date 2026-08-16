@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-16T01:31:31.698564+07:00",
+  "updated_at": "2026-08-16T07:01:34.795847+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -987,51 +987,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1606076": {
-      "url": "https://live04.chuoichientv.me/live/1606076/santos-vs-macara",
-      "match_name": "Santos vs Macara - CONMEBOL Sudamericana",
-      "kickoff_iso": "2026-08-14T05:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-14T07:01:41.150544+07:00",
-      "next_scan_at": "2026-08-14T07:06:41.150544+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitay/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1607570": {
-      "url": "https://live04.chuoichientv.me/live/1607570/heart-of-midlothian-vs-benfica",
-      "match_name": "Heart Of Midlothian vs Benfica - UEFA Europa League",
-      "kickoff_iso": "2026-08-14T01:45:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-08-14T03:31:44.269949+07:00",
-      "next_scan_at": "2026-08-14T03:36:44.269949+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoito/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1530158": {
-      "url": "https://live04.chuoichientv.me/live/1530158/philadelphia-union-vs-santos-laguna",
-      "match_name": "Philadelphia Union vs Santos Laguna - Leagues Cup",
-      "kickoff_iso": "2026-08-14T06:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-14T08:01:50.893963+07:00",
-      "next_scan_at": "2026-08-14T08:06:50.893963+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoito/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1530155": {
       "url": "https://live04.chuoichientv.me/live/1530155/club-america-vs-austin",
       "match_name": "Club America vs Austin - Leagues Cup",
@@ -1558,39 +1513,42 @@
     },
     "1490377": {
       "url": "https://live04.chuoichientv.me/live/1490377/atlanta-united-fc-vs-new-york-red-bulls",
-      "match_name": "atlanta united fc vs new york red bulls",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-16T01:31:31.698397+07:00",
-      "next_scan_at": "2026-08-16T01:41:31.698397+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Atlanta United FC vs New York Red Bulls - Major League Soccer",
+      "kickoff_iso": "2026-08-16T06:30:00+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-16T07:01:34.791643+07:00",
+      "next_scan_at": "2026-08-16T07:06:34.791643+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1490381": {
       "url": "https://live04.chuoichientv.me/live/1490381/nashville-sc-vs-inter-miami",
-      "match_name": "nashville sc vs inter miami",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-16T01:31:31.698397+07:00",
-      "next_scan_at": "2026-08-16T01:41:31.698397+07:00",
+      "match_name": "Nashville SC vs Inter Miami - Major League Soccer",
+      "kickoff_iso": "2026-08-16T07:30:00+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-16T07:01:34.791643+07:00",
+      "next_scan_at": "2026-08-16T07:11:34.791643+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "browser-fallback"
     },
     "1490386": {
       "url": "https://live04.chuoichientv.me/live/1490386/los-angeles-fc-vs-san-diego",
       "match_name": "los angeles fc vs san diego",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-16T01:31:31.698397+07:00",
-      "next_scan_at": "2026-08-16T01:41:31.698397+07:00",
+      "kickoff_iso": "2026-08-16T09:30:00+07:00",
+      "minutes_to_kickoff": 149,
+      "last_scan_at": "2026-08-16T07:01:34.791643+07:00",
+      "next_scan_at": "2026-08-16T07:46:34.791643+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
