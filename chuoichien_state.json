@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-16T07:31:38.105185+07:00",
+  "updated_at": "2026-08-16T08:01:37.673294+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1408,18 +1408,15 @@
     },
     "1598622": {
       "url": "https://live04.chuoichientv.me/live/1598622/tottenham-vs-1899-hoffenheim",
-      "match_name": "Tottenham vs 1899 Hoffenheim - Giao Hữu Câu Lạc Bộ",
-      "kickoff_iso": "2026-08-15T21:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-15T22:31:55.335040+07:00",
-      "next_scan_at": "2026-08-15T22:36:55.335040+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoidahd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoida/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
+      "match_name": "tottenham vs 1899 hoffenheim",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-16T08:01:37.673108+07:00",
+      "next_scan_at": "2026-08-16T08:11:37.673108+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     },
     "1542353": {
       "url": "https://live04.chuoichientv.me/live/1542353/manchester-united-vs-ac-milan",
@@ -1500,9 +1497,9 @@
       "url": "https://live04.chuoichientv.me/live/1490377/atlanta-united-fc-vs-new-york-red-bulls",
       "match_name": "Atlanta United FC vs New York Red Bulls - Major League Soccer",
       "kickoff_iso": "2026-08-16T06:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-16T07:31:38.105075+07:00",
-      "next_scan_at": "2026-08-16T07:36:38.105075+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-16T08:01:37.673108+07:00",
+      "next_scan_at": "2026-08-16T08:06:37.673108+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1515,9 +1512,9 @@
       "url": "https://live04.chuoichientv.me/live/1490381/nashville-sc-vs-inter-miami",
       "match_name": "Nashville SC vs Inter Miami - Major League Soccer",
       "kickoff_iso": "2026-08-16T07:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-16T07:31:38.105075+07:00",
-      "next_scan_at": "2026-08-16T07:36:38.105075+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-16T08:01:37.673108+07:00",
+      "next_scan_at": "2026-08-16T08:06:37.673108+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1528,23 +1525,71 @@
     },
     "1490386": {
       "url": "https://live04.chuoichientv.me/live/1490386/los-angeles-fc-vs-san-diego",
-      "match_name": "los angeles fc vs san diego",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-16T07:31:38.105075+07:00",
-      "next_scan_at": "2026-08-16T07:41:38.105075+07:00",
+      "match_name": "Los Angeles FC vs San Diego - Major League Soccer",
+      "kickoff_iso": "2026-08-16T09:30:00+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-08-16T08:01:37.673108+07:00",
+      "next_scan_at": "2026-08-16T08:21:37.673108+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "browser-fallback"
     },
     "1606614": {
       "url": "https://live04.chuoichientv.me/live/1606614/yokohama-fc-vs-jubilo-iwata",
       "match_name": "yokohama fc vs jubilo iwata",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-16T07:31:38.105075+07:00",
-      "next_scan_at": "2026-08-16T07:41:38.105075+07:00",
+      "last_scan_at": "2026-08-16T08:01:37.673108+07:00",
+      "next_scan_at": "2026-08-16T08:11:37.673108+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1507031": {
+      "url": "https://live04.chuoichientv.me/live/1507031/bucheon-fc-1995-vs-jeonbuk-motors",
+      "match_name": "bucheon fc 1995 vs jeonbuk motors",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-16T08:01:37.673108+07:00",
+      "next_scan_at": "2026-08-16T08:11:37.673108+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1576146": {
+      "url": "https://live04.chuoichientv.me/live/1576146/hannover-96-vs-vfl-wolfsburg",
+      "match_name": "hannover 96 vs vfl wolfsburg",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-16T08:01:37.673108+07:00",
+      "next_scan_at": "2026-08-16T08:11:37.673108+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1576150": {
+      "url": "https://live04.chuoichientv.me/live/1576150/dynamo-dresden-vs-sv-darmstadt-98",
+      "match_name": "dynamo dresden vs sv darmstadt 98",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-16T08:01:37.673108+07:00",
+      "next_scan_at": "2026-08-16T08:11:37.673108+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1563092": {
+      "url": "https://live04.chuoichientv.me/live/1563092/watford-vs-southampton",
+      "match_name": "watford vs southampton",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-16T08:01:37.673108+07:00",
+      "next_scan_at": "2026-08-16T08:11:37.673108+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-16T07:02:30.874332+07:00",
+  "updated_at": "2026-08-16T08:02:31.996966+07:00",
   "matches": {
     "807483": {
       "url": "https://phaohoa1.live/truc-tiep/verdy-vs-kashiwa-reysol-14-08-2026-807483",
@@ -449,11 +449,11 @@
     },
     "80c1cdfefe0a": {
       "url": "https://phaohoa1.live/truc-tiep/dai-loan-vs-tho-nhi-ki",
-      "match_name": "Đài Loan vs Thổ Nhĩ Kì",
+      "match_name": "Dai Loan vs Tho Nhi Ki",
       "kickoff_iso": "2026-08-16T07:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-16T07:02:30.874195+07:00",
-      "next_scan_at": "2026-08-16T07:07:30.874195+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-08-16T08:02:31.996823+07:00",
+      "next_scan_at": "2026-08-16T08:07:31.996823+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -463,14 +463,16 @@
     },
     "711564": {
       "url": "https://phaohoa1.live/truc-tiep/nashville-sc-vs-inter-miami-16-08-2026-711564",
-      "match_name": "16-08 MLS Nashville SC VS Inter Miami A Heo",
+      "match_name": "Nashville SC vs Inter Miami",
       "kickoff_iso": "2026-08-16T07:30:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-16T07:02:30.874195+07:00",
-      "next_scan_at": "2026-08-16T07:12:30.874195+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-16T08:02:31.996823+07:00",
+      "next_scan_at": "2026-08-16T08:07:31.996823+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
