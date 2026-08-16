@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-17T05:32:31.540807+07:00",
+  "updated_at": "2026-08-17T06:02:32.990248+07:00",
   "matches": {
     "2177a6c6d3d7": {
       "url": "https://phaohoa1.live/truc-tiep/tho-nhi-ki-vs-han-quoc",
@@ -515,15 +515,29 @@
     },
     "c15418233172": {
       "url": "https://phaohoa1.live/truc-tiep/my-vs-tho-nhi-ki",
-      "match_name": "My vs Tho Nhi Ki",
+      "match_name": "Mỹ vs Thổ Nhĩ Kì",
       "kickoff_iso": "2026-08-17T06:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-17T05:32:31.540717+07:00",
-      "next_scan_at": "2026-08-17T05:42:31.540717+07:00",
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-17T06:02:32.990119+07:00",
+      "next_scan_at": "2026-08-17T06:07:32.990119+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "e744b93e5164": {
+      "url": "https://phaohoa1.live/truc-tiep/my-vs-canada",
+      "match_name": "17-08 Giao Hữu Mỹ VS Canada KaKa",
+      "kickoff_iso": "2026-08-17T09:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-17T06:02:32.990119+07:00",
+      "next_scan_at": "2026-08-17T06:47:32.990119+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
