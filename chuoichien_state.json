@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-16T07:01:34.795847+07:00",
+  "updated_at": "2026-08-16T07:31:38.105185+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -987,21 +987,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1530155": {
-      "url": "https://live04.chuoichientv.me/live/1530155/club-america-vs-austin",
-      "match_name": "Club America vs Austin - Leagues Cup",
-      "kickoff_iso": "2026-08-14T07:30:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-14T09:31:47.790548+07:00",
-      "next_scan_at": "2026-08-14T09:36:47.790548+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitieuhd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitieu/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1530159": {
       "url": "https://live04.chuoichientv.me/live/1530159/portland-timbers-vs-club-tijuana",
       "match_name": "Portland Timbers vs Club Tijuana - Leagues Cup",
@@ -1515,9 +1500,9 @@
       "url": "https://live04.chuoichientv.me/live/1490377/atlanta-united-fc-vs-new-york-red-bulls",
       "match_name": "Atlanta United FC vs New York Red Bulls - Major League Soccer",
       "kickoff_iso": "2026-08-16T06:30:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-16T07:01:34.791643+07:00",
-      "next_scan_at": "2026-08-16T07:06:34.791643+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-16T07:31:38.105075+07:00",
+      "next_scan_at": "2026-08-16T07:36:38.105075+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1530,25 +1515,40 @@
       "url": "https://live04.chuoichientv.me/live/1490381/nashville-sc-vs-inter-miami",
       "match_name": "Nashville SC vs Inter Miami - Major League Soccer",
       "kickoff_iso": "2026-08-16T07:30:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-16T07:01:34.791643+07:00",
-      "next_scan_at": "2026-08-16T07:11:34.791643+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-16T07:31:38.105075+07:00",
+      "next_scan_at": "2026-08-16T07:36:38.105075+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctru/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1490386": {
       "url": "https://live04.chuoichientv.me/live/1490386/los-angeles-fc-vs-san-diego",
       "match_name": "los angeles fc vs san diego",
-      "kickoff_iso": "2026-08-16T09:30:00+07:00",
-      "minutes_to_kickoff": 149,
-      "last_scan_at": "2026-08-16T07:01:34.791643+07:00",
-      "next_scan_at": "2026-08-16T07:46:34.791643+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-16T07:31:38.105075+07:00",
+      "next_scan_at": "2026-08-16T07:41:38.105075+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
+    },
+    "1606614": {
+      "url": "https://live04.chuoichientv.me/live/1606614/yokohama-fc-vs-jubilo-iwata",
+      "match_name": "yokohama fc vs jubilo iwata",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-16T07:31:38.105075+07:00",
+      "next_scan_at": "2026-08-16T07:41:38.105075+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
