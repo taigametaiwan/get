@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-18T01:02:21.996405+07:00",
+  "updated_at": "2026-08-18T01:32:20.374984+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1568,51 +1568,62 @@
     },
     "1493067": {
       "url": "https://live04.chuoichientv.me/live/1493067/estudiantes-de-rio-cuarto-vs-atletico-tucuman",
-      "match_name": "estudiantes de rio cuarto vs atletico tucuman",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-18T01:02:21.992979+07:00",
-      "next_scan_at": "2026-08-18T01:12:21.992979+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Estudiantes de Rio Cuarto vs Atletico Tucuman - VĐQG Argentina",
+      "kickoff_iso": "2026-08-18T00:45:00+07:00",
+      "minutes_to_kickoff": -46,
+      "last_scan_at": "2026-08-18T01:32:20.374821+07:00",
+      "next_scan_at": "2026-08-18T01:37:20.374821+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angao/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1551755": {
       "url": "https://live04.chuoichientv.me/live/1551755/jong-ajax-vs-emmen",
-      "match_name": "jong ajax vs emmen",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-18T01:02:21.992979+07:00",
-      "next_scan_at": "2026-08-18T01:12:21.992979+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Jong Ajax vs Emmen - Eerste Divisie",
+      "kickoff_iso": "2026-08-18T01:00:00+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-18T01:32:20.374821+07:00",
+      "next_scan_at": "2026-08-18T01:37:20.374821+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1561580": {
       "url": "https://live04.chuoichientv.me/live/1561580/al-raed-vs-al-hilal-saudi-fc",
-      "match_name": "al raed vs al hilal saudi fc",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-18T01:02:21.992979+07:00",
-      "next_scan_at": "2026-08-18T01:12:21.992979+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Al-Raed vs Al-Hilal Saudi FC - King's Cup",
+      "kickoff_iso": "2026-08-18T01:00:00+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-18T01:32:20.374821+07:00",
+      "next_scan_at": "2026-08-18T01:37:20.374821+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoidahd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoida/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1564804": {
       "url": "https://live04.chuoichientv.me/live/1564804/cremonese-vs-sampdoria",
       "match_name": "cremonese vs sampdoria",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-18T01:02:21.992979+07:00",
-      "next_scan_at": "2026-08-18T01:12:21.992979+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "kickoff_iso": "2026-08-18T01:45:00+07:00",
+      "minutes_to_kickoff": 13,
+      "last_scan_at": "2026-08-18T01:32:20.374821+07:00",
+      "next_scan_at": "2026-08-18T01:37:20.374821+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichao/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1561581": {
       "url": "https://live04.chuoichientv.me/live/1561581/al-taee-vs-al-qadisiyah-fc",
@@ -1632,10 +1643,58 @@
     "1563094": {
       "url": "https://live04.chuoichientv.me/live/1563094/cardiff-vs-wrexham",
       "match_name": "cardiff vs wrexham",
+      "kickoff_iso": "2026-08-18T02:00:00+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-18T01:32:20.374821+07:00",
+      "next_scan_at": "2026-08-18T01:42:20.374821+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "1570337": {
+      "url": "https://live04.chuoichientv.me/live/1570337/deportivo-la-coruna-vs-elche",
+      "match_name": "deportivo la coruna vs elche",
+      "kickoff_iso": "2026-08-18T02:00:00+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-18T01:32:20.374821+07:00",
+      "next_scan_at": "2026-08-18T01:42:20.374821+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "1493069": {
+      "url": "https://live04.chuoichientv.me/live/1493069/lanus-vs-independiente",
+      "match_name": "lanus vs independiente",
+      "kickoff_iso": "2026-08-18T03:00:00+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-18T01:32:20.374821+07:00",
+      "next_scan_at": "2026-08-18T01:52:20.374821+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "1493076": {
+      "url": "https://live04.chuoichientv.me/live/1493076/velez-sarsfield-vs-defensa-y-justicia",
+      "match_name": "velez sarsfield vs defensa y justicia",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-18T01:02:21.992979+07:00",
-      "next_scan_at": "2026-08-18T01:12:21.992979+07:00",
+      "last_scan_at": "2026-08-18T01:32:20.374821+07:00",
+      "next_scan_at": "2026-08-18T01:42:20.374821+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1492335": {
+      "url": "https://live04.chuoichientv.me/live/1492335/internacional-vs-remo",
+      "match_name": "internacional vs remo",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-18T01:32:20.374821+07:00",
+      "next_scan_at": "2026-08-18T01:42:20.374821+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
