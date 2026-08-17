@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-17T07:02:34.209696+07:00",
+  "updated_at": "2026-08-17T07:32:26.473414+07:00",
   "matches": {
     "807485": {
       "url": "https://phaohoa1.live/truc-tiep/mito-vs-gamba-osaka-15-08-2026-807485",
@@ -503,9 +503,9 @@
       "url": "https://phaohoa1.live/truc-tiep/my-vs-tho-nhi-ki",
       "match_name": "Mỹ vs Thổ Nhĩ Kì",
       "kickoff_iso": "2026-08-17T06:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-17T07:02:34.209501+07:00",
-      "next_scan_at": "2026-08-17T07:07:34.209501+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-17T07:32:26.473278+07:00",
+      "next_scan_at": "2026-08-17T07:37:26.473278+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -517,13 +517,13 @@
       "url": "https://phaohoa1.live/truc-tiep/my-vs-canada",
       "match_name": "17-08 Giao Hữu Mỹ VS Canada KaKa",
       "kickoff_iso": "2026-08-17T09:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-17T07:02:34.209501+07:00",
-      "next_scan_at": "2026-08-17T07:22:34.209501+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-17T07:32:26.473278+07:00",
+      "next_scan_at": "2026-08-17T07:52:26.473278+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
