@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-17T20:01:52.968062+07:00",
+  "updated_at": "2026-08-17T20:32:16.081006+07:00",
   "matches": {
-    "764903": {
-      "url": "https://phaohoa1.live/truc-tiep/bayern-munich-vs-rb-leipzig-15-08-2026-764903",
-      "match_name": "Bayern Munich vs Rb Leipzig",
-      "kickoff_iso": "2026-08-15T20:30:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-15T22:03:13.817420+07:00",
-      "next_scan_at": "2026-08-15T22:08:13.817420+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "758919": {
       "url": "https://phaohoa1.live/truc-tiep/manchester-united-vs-ac-milan-15-08-2026-758919",
       "match_name": "Manchester United vs AC Milan",
@@ -443,21 +429,33 @@
       "url": "https://phaohoa1.live/truc-tiep/gnistan-vs-ilves-17-08-2026-718676",
       "match_name": "17-08 Veikkausliiga Gnistan VS Ilves Văn Minh",
       "kickoff_iso": "2026-08-17T22:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-17T20:01:52.967887+07:00",
-      "next_scan_at": "2026-08-17T20:21:52.967887+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-17T20:32:16.080863+07:00",
+      "next_scan_at": "2026-08-17T20:52:16.080863+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "795415": {
       "url": "https://phaohoa1.live/truc-tiep/polissya-zhytomyr-vs-fk-zorya-luhansk-17-08-2026-795415",
       "match_name": "17-08 Premier League Polissya Zhytomyr VS FK Zorya Luhansk Pháo Thủ",
       "kickoff_iso": "2026-08-17T22:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-17T20:01:52.967887+07:00",
-      "next_scan_at": "2026-08-17T20:21:52.967887+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-17T20:32:16.080863+07:00",
+      "next_scan_at": "2026-08-17T20:52:16.080863+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "791884": {
+      "url": "https://phaohoa1.live/truc-tiep/al-taee-vs-al-qadsiah-17-08-2026-791884",
+      "match_name": "17-08 King's Cup Al Taee VS Al Qadsiah Chim Nhỏ",
+      "kickoff_iso": "2026-08-17T23:15:00+07:00",
+      "minutes_to_kickoff": 163,
+      "last_scan_at": "2026-08-17T20:32:16.080863+07:00",
+      "next_scan_at": "2026-08-17T21:17:16.080863+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
