@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-17T17:31:44.369649+07:00",
+  "updated_at": "2026-08-17T18:01:45.704700+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1047,18 +1047,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1576147": {
-      "url": "https://live04.chuoichientv.me/live/1576147/hertha-bsc-vs-1-fc-heidenheim",
-      "match_name": "Hertha BSC vs 1. FC Heidenheim - Bundesliga 2",
-      "kickoff_iso": "2026-08-15T18:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-15T20:02:02.155079+07:00",
-      "next_scan_at": "2026-08-15T20:07:02.155079+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "1619316": {
       "url": "https://live04.chuoichientv.me/live/1619316/singapore-vs-thailand",
       "match_name": "Singapore vs Thailand - AFF Championship",
@@ -1543,9 +1531,9 @@
       "url": "https://live04.chuoichientv.me/live/1578029/etihad-club-w-vs-al-nassr-w",
       "match_name": "Etihad Club W vs Al Nassr W - AFC Women's Champions League",
       "kickoff_iso": "2026-08-17T19:00:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-08-17T17:31:44.369470+07:00",
-      "next_scan_at": "2026-08-17T17:51:44.369470+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-08-17T18:01:45.704486+07:00",
+      "next_scan_at": "2026-08-17T18:21:45.704486+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1554,22 +1542,22 @@
     "1578031": {
       "url": "https://live04.chuoichientv.me/live/1578031/kaya-w-vs-ilbirs-w",
       "match_name": "kaya w vs ilbirs w",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-17T17:31:44.369470+07:00",
-      "next_scan_at": "2026-08-17T17:41:44.369470+07:00",
+      "kickoff_iso": "2026-08-17T21:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-17T18:01:45.704486+07:00",
+      "next_scan_at": "2026-08-17T18:46:45.704486+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1561572": {
       "url": "https://live04.chuoichientv.me/live/1561572/al-anwar-vs-al-ahli-jeddah",
       "match_name": "al anwar vs al ahli jeddah",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-17T17:31:44.369470+07:00",
-      "next_scan_at": "2026-08-17T17:41:44.369470+07:00",
+      "last_scan_at": "2026-08-17T18:01:45.704486+07:00",
+      "next_scan_at": "2026-08-17T18:11:45.704486+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1580,8 +1568,8 @@
       "match_name": "pisa vs empoli",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-17T17:31:44.369470+07:00",
-      "next_scan_at": "2026-08-17T17:41:44.369470+07:00",
+      "last_scan_at": "2026-08-17T18:01:45.704486+07:00",
+      "next_scan_at": "2026-08-17T18:11:45.704486+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1592,8 +1580,8 @@
       "match_name": "al zulfi vs al riyadh",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-17T17:31:44.369470+07:00",
-      "next_scan_at": "2026-08-17T17:41:44.369470+07:00",
+      "last_scan_at": "2026-08-17T18:01:45.704486+07:00",
+      "next_scan_at": "2026-08-17T18:11:45.704486+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1604,8 +1592,8 @@
       "match_name": "sassuolo vs cesena",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-17T17:31:44.369470+07:00",
-      "next_scan_at": "2026-08-17T17:41:44.369470+07:00",
+      "last_scan_at": "2026-08-17T18:01:45.704486+07:00",
+      "next_scan_at": "2026-08-17T18:11:45.704486+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1613,11 +1601,11 @@
     },
     "1578027": {
       "url": "https://live04.chuoichientv.me/live/1578027/bgc-asian-scholars-w-vs-samuser-w",
-      "match_name": "BGC Asian Scholars W vs S'Amuser W - AFC Women's Champions League",
+      "match_name": "bgc asian scholars w vs samuser w",
       "kickoff_iso": "2026-08-17T19:00:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-08-17T17:31:44.369470+07:00",
-      "next_scan_at": "2026-08-17T17:51:44.369470+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-08-17T18:01:45.704486+07:00",
+      "next_scan_at": "2026-08-17T18:21:45.704486+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1627,9 +1615,9 @@
       "url": "https://live04.chuoichientv.me/live/1578024/ayeyawady-w-vs-jurong-w",
       "match_name": "Ayeyawady W vs Jurong W - AFC Women's Champions League",
       "kickoff_iso": "2026-08-17T16:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-17T17:31:44.369470+07:00",
-      "next_scan_at": "2026-08-17T17:36:44.369470+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-17T18:01:45.704486+07:00",
+      "next_scan_at": "2026-08-17T18:06:45.704486+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1637,6 +1625,18 @@
         "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoito/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "1493067": {
+      "url": "https://live04.chuoichientv.me/live/1493067/estudiantes-de-rio-cuarto-vs-atletico-tucuman",
+      "match_name": "estudiantes de rio cuarto vs atletico tucuman",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-17T18:01:45.704486+07:00",
+      "next_scan_at": "2026-08-17T18:11:45.704486+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
