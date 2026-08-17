@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-17T17:05:19.082972+07:00",
+  "generated_at": "2026-08-17T17:35:36.540524+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -19,13 +19,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 9,
-      "playlist_blocks": 2,
+      "playlist_blocks": 4,
       "catalog_placeholders": 0,
       "metadata_references": 9,
       "included": true,
-      "fresh_stream_blocks": 2,
-      "fresh_verified_blocks": 2,
-      "fresh_selected": 2,
+      "fresh_stream_blocks": 4,
+      "fresh_verified_blocks": 4,
+      "fresh_selected": 4,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -78,10 +78,10 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 78,
+      "debug_rows": 81,
       "playlist_blocks": 0,
       "catalog_placeholders": 0,
-      "metadata_references": 78,
+      "metadata_references": 81,
       "included": true,
       "fresh_stream_blocks": 0,
       "fresh_verified_blocks": 0,
@@ -98,14 +98,14 @@
       "label": "ColaTV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 105,
-      "playlist_blocks": 2,
+      "debug_rows": 0,
+      "playlist_blocks": 0,
       "catalog_placeholders": 0,
-      "metadata_references": 100,
-      "included": true,
-      "fresh_stream_blocks": 2,
-      "fresh_verified_blocks": 2,
-      "fresh_selected": 2,
+      "metadata_references": 0,
+      "included": false,
+      "fresh_stream_blocks": 0,
+      "fresh_verified_blocks": 0,
+      "fresh_selected": 0,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -118,10 +118,10 @@
       "label": "Pháo Hoa TV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 9,
-      "playlist_blocks": 9,
+      "debug_rows": 7,
+      "playlist_blocks": 7,
       "catalog_placeholders": 0,
-      "metadata_references": 9,
+      "metadata_references": 7,
       "included": true,
       "fresh_stream_blocks": 0,
       "fresh_verified_blocks": 0,
@@ -134,16 +134,46 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 17,
-  "metadata_reference_count": 196,
+  "input_candidates": 15,
+  "metadata_reference_count": 97,
   "last_good_recovered_count": 4,
-  "last_good_suppressed_by_fresh_count": 2,
+  "last_good_suppressed_by_fresh_count": 4,
   "last_good_audit": [
     {
       "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
       "kept": true,
       "reason": "HTTP 206; m3u8=True",
       "source": "gavang"
+    },
+    {
+      "url": "https://live05.meung.app/live/59444581.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "chuoichien"
+    },
+    {
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoito/playlist.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "chuoichien"
+    },
+    {
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitay/playlist.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "chuoichien"
+    },
+    {
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "chuoichien"
     },
     {
       "url": "https://colatv88xi.cc/video2/output.m3u8",
@@ -158,38 +188,32 @@
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/59444581.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "chuoichien"
     },
     {
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoito/playlist.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
       "source": "chuoichien"
     },
     {
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitay/playlist.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
       "source": "chuoichien"
     },
     {
-      "url": "https://live05.meung.app/live/41943555.m3u8",
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/59444581.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
+      "source": "chuoichien"
     }
   ],
   "selected_count": 8,
-  "dropped_count": 9,
+  "dropped_count": 7,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 1,
@@ -208,7 +232,7 @@
       "match_key": "april w vs kharaatsai w|",
       "display_name": "[16:00 17/08] April W vs Kharaatsai W - AFC Women's Champions League [FHD M3U8]",
       "group": "Chuối Chiên",
-      "sport_group": "Chuối Chiên",
+      "sport_group": "Bóng đá",
       "quality": "FHD",
       "kind": "m3u8",
       "playability": "verified",
@@ -218,9 +242,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 415,
+      "score": 469,
       "kickoff_iso": "2026-08-17T16:00:00+07:00",
-      "minutes_to_kickoff": -65.32,
+      "minutes_to_kickoff": -95.61,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -234,12 +258,12 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "",
-      "recovered_last_good": true,
+      "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": "HTTP 200; m3u8=True",
-      "prior_generated_at": "2026-08-17T16:35:34.034948+07:00"
+      "last_good_probe": null,
+      "prior_generated_at": null
     },
     {
       "source": "chuoichien",
@@ -248,7 +272,7 @@
       "match_key": "april w vs kharaatsai w|",
       "display_name": "[16:00 17/08] April W vs Kharaatsai W - AFC Women's Champions League [HD M3U8]",
       "group": "Chuối Chiên",
-      "sport_group": "Chuối Chiên",
+      "sport_group": "Bóng đá",
       "quality": "HD",
       "kind": "m3u8",
       "playability": "verified",
@@ -258,9 +282,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 405,
+      "score": 459,
       "kickoff_iso": "2026-08-17T16:00:00+07:00",
-      "minutes_to_kickoff": -65.32,
+      "minutes_to_kickoff": -95.61,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -274,12 +298,12 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "",
-      "recovered_last_good": true,
+      "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": "HTTP 200; m3u8=True",
-      "prior_generated_at": "2026-08-17T16:35:34.034948+07:00"
+      "last_good_probe": null,
+      "prior_generated_at": null
     },
     {
       "source": "chuoichien",
@@ -300,7 +324,7 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-08-17T16:30:00+07:00",
-      "minutes_to_kickoff": -35.32,
+      "minutes_to_kickoff": -65.61,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -340,7 +364,7 @@
       "pending_reason": null,
       "score": 459,
       "kickoff_iso": "2026-08-17T16:30:00+07:00",
-      "minutes_to_kickoff": -35.32,
+      "minutes_to_kickoff": -65.61,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -366,7 +390,7 @@
       "source_label": "Gà Vàng",
       "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
       "match_key": "uratu vs syunik|",
-      "display_name": "Uratu VS Syunik [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
+      "display_name": "Uratu VS Syunik [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
       "group": "Gà Vàng",
       "sport_group": "Gà Vàng",
       "quality": "SD",
@@ -401,7 +425,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 206; m3u8=True",
-      "prior_generated_at": "2026-08-17T16:35:34.034948+07:00"
+      "prior_generated_at": "2026-08-17T17:05:19.082972+07:00"
     },
     {
       "source": "colatv",
@@ -410,7 +434,7 @@
       "match_key": "ayeyawady utd w vs fc jurong women|pepsi ang xem",
       "display_name": "[16:30 17/08] Ayeyawady Utd (W) vs FC Jurong Women [BLV PEPSIĐang xem] [M3U8]",
       "group": "ColaTV",
-      "sport_group": "Bóng đá",
+      "sport_group": "ColaTV",
       "quality": "UNKNOWN",
       "kind": "m3u8",
       "playability": "verified",
@@ -420,9 +444,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 439,
+      "score": 385,
       "kickoff_iso": "2026-08-17T16:30:00+07:00",
-      "minutes_to_kickoff": -35.32,
+      "minutes_to_kickoff": -65.61,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -436,12 +460,12 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "PEPSIĐang xem",
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 200; m3u8=True",
+      "prior_generated_at": "2026-08-17T17:05:19.082972+07:00"
     },
     {
       "source": "colatv",
@@ -462,7 +486,7 @@
       "pending_reason": null,
       "score": 385,
       "kickoff_iso": "2026-08-17T17:00:00+07:00",
-      "minutes_to_kickoff": -5.32,
+      "minutes_to_kickoff": -35.61,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -481,7 +505,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 206; m3u8=True",
-      "prior_generated_at": "2026-08-17T16:35:34.034948+07:00"
+      "prior_generated_at": "2026-08-17T17:05:19.082972+07:00"
     },
     {
       "source": "colatv",
@@ -490,7 +514,7 @@
       "match_key": "tsl fc women vs phnom penh crown w|khong o ang xem",
       "display_name": "[17:00 17/08] TSL FC Women vs Phnom Penh Crown (W) [BLV KHÔNG ĐỘĐang xem] [M3U8]",
       "group": "ColaTV",
-      "sport_group": "Bóng đá",
+      "sport_group": "ColaTV",
       "quality": "UNKNOWN",
       "kind": "m3u8",
       "playability": "verified",
@@ -500,9 +524,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 439,
+      "score": 385,
       "kickoff_iso": "2026-08-17T17:00:00+07:00",
-      "minutes_to_kickoff": -5.32,
+      "minutes_to_kickoff": -35.61,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -516,15 +540,39 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "KHÔNG ĐỘĐang xem",
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 200; m3u8=True",
+      "prior_generated_at": "2026-08-17T17:05:19.082972+07:00"
     }
   ],
   "fresh_input_decisions": [
+    {
+      "source": "chuoichien",
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
+      "display_name": "[16:00 17/08] April W vs Kharaatsai W - AFC Women's Champions League [FHD M3U8]",
+      "match_key": "april w vs kharaatsai w|",
+      "quality": "FHD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "chuoichien",
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitay/playlist.m3u8",
+      "display_name": "[16:00 17/08] April W vs Kharaatsai W - AFC Women's Champions League [HD M3U8]",
+      "match_key": "april w vs kharaatsai w|",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
     {
       "source": "chuoichien",
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
@@ -548,64 +596,10 @@
       "metadata_link_reason": null,
       "decision": "selected-fresh",
       "reason": "selected"
-    },
-    {
-      "source": "colatv",
-      "url": "https://live05.meung.app/live/59444581.m3u8",
-      "display_name": "[16:30 17/08] Ayeyawady Utd (W) vs FC Jurong Women [BLV PEPSIĐang xem] [M3U8]",
-      "match_key": "ayeyawady utd w vs fc jurong women|pepsi ang xem",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "colatv",
-      "url": "https://live05.meung.app/live/41943555.m3u8",
-      "display_name": "[17:00 17/08] TSL FC Women vs Phnom Penh Crown (W) [BLV KHÔNG ĐỘĐang xem] [M3U8]",
-      "match_key": "tsl fc women vs phnom penh crown w|khong o ang xem",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
     }
   ],
   "fresh_preservation_ok": true,
   "dropped": [
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791875.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791883.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791884.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791887.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/779580.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/798811.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
     {
       "url": "http://127.0.0.1:9/__phaohoa_metadata__/718676.m3u8",
       "reason": "not-verified-or-not-upcoming",
@@ -617,7 +611,27 @@
       "source": "phaohoa"
     },
     {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791875.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791884.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/779580.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
       "url": "http://127.0.0.1:9/__phaohoa_metadata__/795640.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791887.m3u8",
       "reason": "not-verified-or-not-upcoming",
       "source": "phaohoa"
     }
