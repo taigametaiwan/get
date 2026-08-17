@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-17T18:31:55.379194+07:00",
+  "updated_at": "2026-08-17T19:02:15.212056+07:00",
   "matches": {
-    "742951": {
-      "url": "https://phaohoa1.live/truc-tiep/zhejiang-professional-vs-chengdu-rongcheng-15-08-2026-742951",
-      "match_name": "Zhejiang Professional vs Chengdu Rongcheng",
-      "kickoff_iso": "2026-08-15T18:35:00+07:00",
-      "minutes_to_kickoff": -117,
-      "last_scan_at": "2026-08-15T20:33:23.817740+07:00",
-      "next_scan_at": "2026-08-15T20:38:23.817740+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "821408": {
       "url": "https://phaohoa1.live/truc-tiep/chelsea-vs-real-sociedad-15-08-2026-821408",
       "match_name": "Chelsea vs Real Sociedad",
@@ -480,6 +466,30 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "718676": {
+      "url": "https://phaohoa1.live/truc-tiep/gnistan-vs-ilves-17-08-2026-718676",
+      "match_name": "Gnistan vs Ilves",
+      "kickoff_iso": "2026-08-17T22:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-17T19:02:15.211960+07:00",
+      "next_scan_at": "2026-08-17T19:47:15.211960+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "795415": {
+      "url": "https://phaohoa1.live/truc-tiep/polissya-zhytomyr-vs-fk-zorya-luhansk-17-08-2026-795415",
+      "match_name": "17-08 Premier League Polissya Zhytomyr VS FK Zorya Luhansk Pháo Thủ",
+      "kickoff_iso": "2026-08-17T22:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-17T19:02:15.211960+07:00",
+      "next_scan_at": "2026-08-17T19:47:15.211960+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
