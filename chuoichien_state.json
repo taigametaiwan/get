@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-18T04:31:48.722812+07:00",
+  "updated_at": "2026-08-18T05:01:31.657350+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1672,36 +1672,36 @@
       "url": "https://live04.chuoichientv.me/live/1493069/lanus-vs-independiente",
       "match_name": "Lanus vs Independiente - VĐQG Argentina",
       "kickoff_iso": "2026-08-18T03:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-18T04:31:48.722722+07:00",
-      "next_scan_at": "2026-08-18T04:36:48.722722+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angao/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-18T05:01:31.657229+07:00",
+      "next_scan_at": "2026-08-18T05:06:31.657229+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "1493076": {
       "url": "https://live04.chuoichientv.me/live/1493076/velez-sarsfield-vs-defensa-y-justicia",
       "match_name": "Velez Sarsfield vs Defensa Y Justicia - VĐQG Argentina",
       "kickoff_iso": "2026-08-18T05:15:00+07:00",
-      "minutes_to_kickoff": 44,
-      "last_scan_at": "2026-08-18T04:31:48.722722+07:00",
-      "next_scan_at": "2026-08-18T04:41:48.722722+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 14,
+      "last_scan_at": "2026-08-18T05:01:31.657229+07:00",
+      "next_scan_at": "2026-08-18T05:06:31.657229+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctru/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1492335": {
       "url": "https://live04.chuoichientv.me/live/1492335/internacional-vs-remo",
       "match_name": "Internacional vs remo - VĐQG Brazil",
       "kickoff_iso": "2026-08-18T06:00:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-08-18T04:31:48.722722+07:00",
-      "next_scan_at": "2026-08-18T04:51:48.722722+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-08-18T05:01:31.657229+07:00",
+      "next_scan_at": "2026-08-18T05:21:31.657229+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1710,22 +1710,22 @@
     "1550928": {
       "url": "https://live04.chuoichientv.me/live/1550928/necaxa-vs-leon",
       "match_name": "necaxa vs leon",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-18T04:31:48.722722+07:00",
-      "next_scan_at": "2026-08-18T04:41:48.722722+07:00",
+      "kickoff_iso": "2026-08-18T08:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-18T05:01:31.657229+07:00",
+      "next_scan_at": "2026-08-18T05:46:31.657229+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1550929": {
       "url": "https://live04.chuoichientv.me/live/1550929/pachuca-vs-puebla",
       "match_name": "pachuca vs puebla",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-18T04:31:48.722722+07:00",
-      "next_scan_at": "2026-08-18T04:41:48.722722+07:00",
+      "last_scan_at": "2026-08-18T05:01:31.657229+07:00",
+      "next_scan_at": "2026-08-18T05:11:31.657229+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
