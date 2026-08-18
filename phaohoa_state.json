@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-19T03:32:55.415356+07:00",
+  "updated_at": "2026-08-19T04:03:39.675051+07:00",
   "matches": {
     "c15418233172": {
       "url": "https://phaohoa1.live/truc-tiep/my-vs-tho-nhi-ki",
@@ -223,14 +223,12 @@
       "url": "https://phaohoa1.live/truc-tiep/din-zagreb-vs-viking-19-08-2026-841013",
       "match_name": "Din Zagreb vs Viking",
       "kickoff_iso": "2026-08-19T02:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-19T03:32:55.415231+07:00",
-      "next_scan_at": "2026-08-19T03:37:55.415231+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
+      "minutes_to_kickoff": -123,
+      "last_scan_at": "2026-08-19T04:03:39.674973+07:00",
+      "next_scan_at": "2026-08-19T04:08:39.674973+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "841017": {
