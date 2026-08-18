@@ -1,64 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-18T20:32:22.045223+07:00",
+  "updated_at": "2026-08-18T22:02:50.875201+07:00",
   "matches": {
-    "794450": {
-      "url": "https://phaohoa1.live/truc-tiep/arsenal-vs-manchester-city-16-08-2026-794450",
-      "match_name": "Arsenal vs Manchester City",
-      "kickoff_iso": "2026-08-16T21:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-16T22:33:58.401505+07:00",
-      "next_scan_at": "2026-08-16T22:38:58.401505+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "838175": {
-      "url": "https://phaohoa1.live/truc-tiep/basel-vs-barcelona-16-08-2026-838175",
-      "match_name": "Basel vs Barcelona",
-      "kickoff_iso": "2026-08-16T21:30:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-16T23:03:41.667061+07:00",
-      "next_scan_at": "2026-08-16T23:08:41.667061+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "798808": {
-      "url": "https://phaohoa1.live/truc-tiep/racing-santander-vs-villarreal-16-08-2026-798808",
-      "match_name": "Racing Santander vs Villarreal",
-      "kickoff_iso": "2026-08-16T22:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-16T23:32:58.709523+07:00",
-      "next_scan_at": "2026-08-16T23:37:58.709523+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "829878": {
-      "url": "https://phaohoa1.live/truc-tiep/schalke-vs-real-madrid-16-08-2026-829878",
-      "match_name": "Schalke vs Real Madrid",
-      "kickoff_iso": "2026-08-16T22:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-16T23:32:58.709523+07:00",
-      "next_scan_at": "2026-08-16T23:37:58.709523+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "819140": {
       "url": "https://phaohoa1.live/truc-tiep/kv-mechelen-vs-st-liege-16-08-2026-819140",
       "match_name": "Kv Mechelen vs St Liege",
@@ -315,11 +259,11 @@
     },
     "791879": {
       "url": "https://phaohoa1.live/truc-tiep/al-jabalain-vs-al-ettifaq-18-08-2026-791879",
-      "match_name": "18-08 King's Cup Al Jabalain VS Al Ettifaq Tày",
-      "kickoff_iso": "2026-08-18T23:15:00+07:00",
-      "minutes_to_kickoff": 163,
-      "last_scan_at": "2026-08-18T20:32:22.045051+07:00",
-      "next_scan_at": "2026-08-18T21:17:22.045051+07:00",
+      "match_name": "19-08 King's Cup Al Diriyah VS Al Nassr Kevin",
+      "kickoff_iso": "2026-08-19T01:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-18T22:02:50.875085+07:00",
+      "next_scan_at": "2026-08-18T22:47:50.875085+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -327,23 +271,37 @@
     },
     "836774": {
       "url": "https://phaohoa1.live/truc-tiep/heidenheim-vs-bayern-munich-18-08-2026-836774",
-      "match_name": "18-08 King's Cup Al Najma VS Al Ittihad Văn Minh",
-      "kickoff_iso": "2026-08-18T23:15:00+07:00",
-      "minutes_to_kickoff": 163,
-      "last_scan_at": "2026-08-18T20:32:22.045051+07:00",
-      "next_scan_at": "2026-08-18T21:17:22.045051+07:00",
+      "match_name": "18-08 Club Friendlies Heidenheim VS Bayern Munich Chim Nhỏ",
+      "kickoff_iso": "2026-08-18T23:00:00+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-18T22:02:50.875085+07:00",
+      "next_scan_at": "2026-08-18T22:22:50.875085+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "736679": {
       "url": "https://phaohoa1.live/truc-tiep/buxoro-vs-neftchi-fargona-18-08-2026-736679",
-      "match_name": "18-08 Super League Buxoro VS Neftchi Fargona Kevin",
+      "match_name": "Buxoro vs Neftchi Fargona",
       "kickoff_iso": "2026-08-18T22:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-18T20:32:22.045051+07:00",
-      "next_scan_at": "2026-08-18T20:52:22.045051+07:00",
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-18T22:02:50.875085+07:00",
+      "next_scan_at": "2026-08-18T22:07:50.875085+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "791880": {
+      "url": "https://phaohoa1.live/truc-tiep/al-najma-vs-al-ittihad-18-08-2026-791880",
+      "match_name": "18-08 King's Cup Al Najma VS Al Ittihad Văn Minh",
+      "kickoff_iso": "2026-08-18T23:15:00+07:00",
+      "minutes_to_kickoff": 73,
+      "last_scan_at": "2026-08-18T22:02:50.875085+07:00",
+      "next_scan_at": "2026-08-18T22:22:50.875085+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
