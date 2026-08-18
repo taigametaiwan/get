@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-19T01:18:30.489356+07:00",
+  "updated_at": "2026-08-19T02:19:52.564364+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1095,36 +1095,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1546791": {
-      "url": "https://live04.chuoichientv.me/live/1546791/lens-vs-paris-saint-germain",
-      "match_name": "Lens vs Paris Saint Germain - Trophée des Champions",
-      "kickoff_iso": "2026-08-17T01:45:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-08-17T03:31:38.014852+07:00",
-      "next_scan_at": "2026-08-17T03:36:38.014852+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1564801": {
-      "url": "https://live04.chuoichientv.me/live/1564801/lazio-vs-mantova",
-      "match_name": "Lazio vs Mantova - Coppa Italia",
-      "kickoff_iso": "2026-08-17T02:15:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-08-17T04:01:45.130629+07:00",
-      "next_scan_at": "2026-08-17T04:06:45.130629+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoidahd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoida/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1492339": {
       "url": "https://live04.chuoichientv.me/live/1492339/vitoria-vs-botafogo",
       "match_name": "vitoria vs botafogo",
@@ -1606,9 +1576,9 @@
       "url": "https://live04.chuoichientv.me/live/1561574/al-diriyah-vs-al-nassr",
       "match_name": "Al Diriyah vs Al-Nassr - King's Cup",
       "kickoff_iso": "2026-08-19T01:00:00+07:00",
-      "minutes_to_kickoff": -18,
-      "last_scan_at": "2026-08-19T01:18:30.489245+07:00",
-      "next_scan_at": "2026-08-19T01:23:30.489245+07:00",
+      "minutes_to_kickoff": -79,
+      "last_scan_at": "2026-08-19T02:19:52.564239+07:00",
+      "next_scan_at": "2026-08-19T02:24:52.564239+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1621,57 +1591,63 @@
       "url": "https://live04.chuoichientv.me/live/1622620/dinamo-zagreb-vs-viking",
       "match_name": "Dinamo Zagreb vs Viking - UEFA Champions League",
       "kickoff_iso": "2026-08-19T02:00:00+07:00",
-      "minutes_to_kickoff": 42,
-      "last_scan_at": "2026-08-19T01:18:30.489245+07:00",
-      "next_scan_at": "2026-08-19T01:28:30.489245+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -19,
+      "last_scan_at": "2026-08-19T02:19:52.564239+07:00",
+      "next_scan_at": "2026-08-19T02:24:52.564239+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoito/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1622621": {
       "url": "https://live04.chuoichientv.me/live/1622621/fenerbahce-vs-lyon",
       "match_name": "Fenerbahce vs Lyon - UEFA Champions League",
       "kickoff_iso": "2026-08-19T02:00:00+07:00",
-      "minutes_to_kickoff": 42,
-      "last_scan_at": "2026-08-19T01:18:30.489245+07:00",
-      "next_scan_at": "2026-08-19T01:28:30.489245+07:00",
+      "minutes_to_kickoff": -19,
+      "last_scan_at": "2026-08-19T02:19:52.564239+07:00",
+      "next_scan_at": "2026-08-19T02:24:52.564239+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1598011": {
+      "url": "https://live04.chuoichientv.me/live/1598011/deportivo-riestra-vs-gimnasia-lp",
+      "match_name": "Deportivo Riestra vs Gimnasia L.P. - Copa Argentina",
+      "kickoff_iso": "2026-08-19T03:00:00+07:00",
+      "minutes_to_kickoff": 40,
+      "last_scan_at": "2026-08-19T02:19:52.564239+07:00",
+      "next_scan_at": "2026-08-19T02:29:52.564239+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
-    "1598011": {
-      "url": "https://live04.chuoichientv.me/live/1598011/deportivo-riestra-vs-gimnasia-lp",
-      "match_name": "deportivo riestra vs gimnasia lp",
-      "kickoff_iso": "2026-08-19T03:00:00+07:00",
-      "minutes_to_kickoff": 102,
-      "last_scan_at": "2026-08-19T01:18:30.489245+07:00",
-      "next_scan_at": "2026-08-19T01:38:30.489245+07:00",
+    "1607651": {
+      "url": "https://live04.chuoichientv.me/live/1607651/deportivo-recoleta-vs-boca-juniors",
+      "match_name": "deportivo recoleta vs boca juniors",
+      "kickoff_iso": "2026-08-19T05:00:00+07:00",
+      "minutes_to_kickoff": 161,
+      "last_scan_at": "2026-08-19T02:19:52.564239+07:00",
+      "next_scan_at": "2026-08-19T03:04:52.564239+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
-    },
-    "1607651": {
-      "url": "https://live04.chuoichientv.me/live/1607651/deportivo-recoleta-vs-boca-juniors",
-      "match_name": "deportivo recoleta vs boca juniors",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-19T01:18:30.489245+07:00",
-      "next_scan_at": "2026-08-19T01:28:30.489245+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
     },
     "1607653": {
       "url": "https://live04.chuoichientv.me/live/1607653/sao-paulo-vs-bolvar",
       "match_name": "sao paulo vs bolvar",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-19T01:18:30.489245+07:00",
-      "next_scan_at": "2026-08-19T01:28:30.489245+07:00",
+      "last_scan_at": "2026-08-19T02:19:52.564239+07:00",
+      "next_scan_at": "2026-08-19T02:29:52.564239+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1682,8 +1658,8 @@
       "match_name": "cs cartagines vs verdes",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-19T01:18:30.489245+07:00",
-      "next_scan_at": "2026-08-19T01:28:30.489245+07:00",
+      "last_scan_at": "2026-08-19T02:19:52.564239+07:00",
+      "next_scan_at": "2026-08-19T02:29:52.564239+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1694,8 +1670,8 @@
       "match_name": "real estel vs cs herediano",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-19T01:18:30.489245+07:00",
-      "next_scan_at": "2026-08-19T01:28:30.489245+07:00",
+      "last_scan_at": "2026-08-19T02:19:52.564239+07:00",
+      "next_scan_at": "2026-08-19T02:29:52.564239+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
