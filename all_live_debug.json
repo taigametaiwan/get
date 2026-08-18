@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-18T14:05:04.334791+07:00",
+  "generated_at": "2026-08-18T14:34:47.503939+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -18,11 +18,11 @@
       "label": "Chuối Chiên",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 0,
+      "debug_rows": 9,
       "playlist_blocks": 0,
       "catalog_placeholders": 0,
-      "metadata_references": 0,
-      "included": false,
+      "metadata_references": 9,
+      "included": true,
       "fresh_stream_blocks": 0,
       "fresh_verified_blocks": 0,
       "fresh_selected": 0,
@@ -134,38 +134,44 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 16,
-  "metadata_reference_count": 221,
-  "last_good_recovered_count": 4,
+  "input_candidates": 17,
+  "metadata_reference_count": 230,
+  "last_good_recovered_count": 5,
   "last_good_suppressed_by_fresh_count": 0,
   "last_good_audit": [
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787034738-0-0-d7f7346594d75f307f0ffa01f9a6e7ac",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787036573-0-0-693e905e966080d31e8e49de4cd14ed5",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787025799-0-0-9818099022d3c70d55cf5ca4b464c4bd",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787036625-0-0-3a4ec8dd245ec60f5b72f005608a6f7f",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787034849-0-0-76d8eab7d52611da87f71100e101f5ae",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787036485-0-0-10b90848246be0d7eab2a06018170d92",
       "kept": true,
-      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787034779-0-0-9348f790f4387db324b28ee3703d97b3",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787036694-0-0-3755251ed9d894a53903c5475b6f5d08",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787036686-0-0-fa12e3597b04641fd46dbacbdf5d7e13",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     }
   ],
   "selected_count": 5,
-  "dropped_count": 11,
+  "dropped_count": 12,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -180,7 +186,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787036485-0-0-10b90848246be0d7eab2a06018170d92",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787038301-0-0-2680a5680efc0b8a9b8d2d6fefaa1273",
       "match_key": "nhat ban jones vs strong group athletics|hd alan",
       "display_name": "[14:00 18/08/2026] Nhat Ban Jones vs Strong Group Athletics [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -201,7 +207,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T14:00:00+07:00",
-      "minutes_to_kickoff": -5.07,
+      "minutes_to_kickoff": -34.79,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -211,7 +217,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787036485-0-0-10b90848246be0d7eab2a06018170d92",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787038301-0-0-2680a5680efc0b8a9b8d2d6fefaa1273",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/8yomovt22k7q0j6/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/965mk8t4pvwm1ge/image/small",
       "blv": null,
@@ -225,7 +231,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787036573-0-0-693e905e966080d31e8e49de4cd14ed5",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787038343-0-0-92e5a0161c5797142cbd6dd528ca18d2",
       "match_key": "dn soopers challengers vs nongshim esports academy|hd marty",
       "display_name": "[15:00 18/08/2026] Dn Soopers Challengers vs Nongshim Esports Academy [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -246,7 +252,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T15:00:00+07:00",
-      "minutes_to_kickoff": 54.93,
+      "minutes_to_kickoff": 25.21,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -256,7 +262,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787036573-0-0-693e905e966080d31e8e49de4cd14ed5",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787038343-0-0-92e5a0161c5797142cbd6dd528ca18d2",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/pxwrx81ug6xzqyk/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/jw2r08kuloxpqz8/image/small",
       "blv": null,
@@ -270,7 +276,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787036625-0-0-3a4ec8dd245ec60f5b72f005608a6f7f",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787038389-0-0-ed422fa3ef5e49bc1715c2f3f7cb503d",
       "match_key": "imus agimat vs sarangani|hd tommy",
       "display_name": "[16:00 18/08/2026] Imus Agimat vs Sarangani [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -291,7 +297,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T16:00:00+07:00",
-      "minutes_to_kickoff": 114.93,
+      "minutes_to_kickoff": 85.21,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -301,7 +307,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787036625-0-0-3a4ec8dd245ec60f5b72f005608a6f7f",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787038389-0-0-ed422fa3ef5e49bc1715c2f3f7cb503d",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/y39mp4t5l7pmojx/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/n54ql7tejglrvy9/image/small",
       "blv": null,
@@ -315,7 +321,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787036686-0-0-fa12e3597b04641fd46dbacbdf5d7e13",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787038435-0-0-7d1ae16a8df67866e8f81b37f83dc845",
       "match_key": "sydney fc vs sd raiders fc|hd johan",
       "display_name": "[16:30 18/08/2026] Sydney Fc vs Sd Raiders Fc [BLV HD JOHAN] [FLV]",
       "group": "Xôi Lạc",
@@ -336,7 +342,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T16:30:00+07:00",
-      "minutes_to_kickoff": 144.93,
+      "minutes_to_kickoff": 115.21,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -346,7 +352,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787036686-0-0-fa12e3597b04641fd46dbacbdf5d7e13",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787038435-0-0-7d1ae16a8df67866e8f81b37f83dc845",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlh650ryk0/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh4ve0qwzv/image/small",
       "blv": null,
@@ -360,7 +366,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787036694-0-0-3755251ed9d894a53903c5475b6f5d08",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787038442-0-0-fabe62854847553ad4dc61388a95f208",
       "match_key": "gen g challengers vs fredit brion challengers|hd marty",
       "display_name": "[17:00 18/08/2026] Gen G Challengers vs Fredit Brion Challengers [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -381,7 +387,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T17:00:00+07:00",
-      "minutes_to_kickoff": 174.93,
+      "minutes_to_kickoff": 145.21,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -391,7 +397,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787036694-0-0-3755251ed9d894a53903c5475b6f5d08",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787038442-0-0-fabe62854847553ad4dc61388a95f208",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/k82repjtv7y9qep/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/l7oqd9kbn54dm51/image/small",
       "blv": null,
@@ -406,7 +412,7 @@
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787036485-0-0-10b90848246be0d7eab2a06018170d92",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787038301-0-0-2680a5680efc0b8a9b8d2d6fefaa1273",
       "display_name": "[14:00 18/08/2026] Nhat Ban Jones vs Strong Group Athletics [BLV HD ALAN] [FLV]",
       "match_key": "nhat ban jones vs strong group athletics|hd alan",
       "quality": "HD",
@@ -418,7 +424,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787036573-0-0-693e905e966080d31e8e49de4cd14ed5",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787038343-0-0-92e5a0161c5797142cbd6dd528ca18d2",
       "display_name": "[15:00 18/08/2026] Dn Soopers Challengers vs Nongshim Esports Academy [BLV HD MARTY] [FLV]",
       "match_key": "dn soopers challengers vs nongshim esports academy|hd marty",
       "quality": "HD",
@@ -430,7 +436,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787036625-0-0-3a4ec8dd245ec60f5b72f005608a6f7f",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787038389-0-0-ed422fa3ef5e49bc1715c2f3f7cb503d",
       "display_name": "[16:00 18/08/2026] Imus Agimat vs Sarangani [BLV HD TOMMY] [FLV]",
       "match_key": "imus agimat vs sarangani|hd tommy",
       "quality": "HD",
@@ -442,7 +448,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787036686-0-0-fa12e3597b04641fd46dbacbdf5d7e13",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787038435-0-0-7d1ae16a8df67866e8f81b37f83dc845",
       "display_name": "[16:30 18/08/2026] Sydney Fc vs Sd Raiders Fc [BLV HD JOHAN] [FLV]",
       "match_key": "sydney fc vs sd raiders fc|hd johan",
       "quality": "HD",
@@ -454,7 +460,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787036694-0-0-3755251ed9d894a53903c5475b6f5d08",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787038442-0-0-fabe62854847553ad4dc61388a95f208",
       "display_name": "[17:00 18/08/2026] Gen G Challengers vs Fredit Brion Challengers [BLV HD MARTY] [FLV]",
       "match_key": "gen g challengers vs fredit brion challengers|hd marty",
       "quality": "HD",
@@ -503,28 +509,34 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787034738-0-0-d7f7346594d75f307f0ffa01f9a6e7ac",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787036485-0-0-10b90848246be0d7eab2a06018170d92",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "nhat ban jones vs strong group athletics|hd alan"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787034779-0-0-9348f790f4387db324b28ee3703d97b3",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787036573-0-0-693e905e966080d31e8e49de4cd14ed5",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "dn soopers challengers vs nongshim esports academy|hd marty"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787025799-0-0-9818099022d3c70d55cf5ca4b464c4bd",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787036625-0-0-3a4ec8dd245ec60f5b72f005608a6f7f",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "imus agimat vs sarangani|hd tommy"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787034849-0-0-76d8eab7d52611da87f71100e101f5ae",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787036686-0-0-fa12e3597b04641fd46dbacbdf5d7e13",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "sydney fc vs sd raiders fc|hd johan"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787036694-0-0-3755251ed9d894a53903c5475b6f5d08",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "gen g challengers vs fredit brion challengers|hd marty"
     }
   ],
   "outputs_written": true
