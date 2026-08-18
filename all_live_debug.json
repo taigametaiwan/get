@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-18T06:49:10.549419+07:00",
+  "generated_at": "2026-08-18T07:03:33.658484+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -134,43 +134,25 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 37,
+  "input_candidates": 40,
   "metadata_reference_count": 189,
-  "last_good_recovered_count": 12,
+  "last_good_recovered_count": 15,
   "last_good_suppressed_by_fresh_count": 4,
   "last_good_audit": [
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-26.flv?auth_key=3000001787005928-0-0-bf09f8f4749836da3ba74d731e3361af",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-18T03:45:00+07:00",
-      "minutes_to_kickoff": -184.18,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-76.flv?auth_key=3000001787005920-0-0-b7fa0cb6cc1c596bf2dd1f7c38fe6ac8",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-18T04:00:00+07:00",
-      "minutes_to_kickoff": -169.18,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-17.flv?auth_key=3000001787005876-0-0-353f1d8dbaabc89352cab49bb4369b39",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-13.flv?auth_key=3000001787010454-0-0-3d0ecf3fa344c10672fc50bd8feb3584",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-9.flv?auth_key=3000001787005950-0-0-3933333cfa4200dc6d3e84ed568fba4e",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-17.flv?auth_key=3000001787010462-0-0-fcf4c659a6c35223eeba6f246b7e7031",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-13.flv?auth_key=3000001787005958-0-0-976f6645ba703934356c9caf5b7f2b0c",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-9.flv?auth_key=3000001787010445-0-0-0fcbf2a0090b88ff786463b6b74c1a22",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -182,7 +164,7 @@
       "source": "gavang"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787005939-0-0-8db8e3238fc18b527d769533937bcf23",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787010428-0-0-420475f48c39b0024283472990a92dd2",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -200,46 +182,46 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787005976-0-0-8ac04210e191f9b145b90cbead58e8e9",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787010503-0-0-d5d63f63fcd0a45dac2c0c631595ad9c",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-19.flv?auth_key=3000001787005968-0-0-9589a08c4dd8aeea4c060f2860a5eaaf",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-10.flv?auth_key=3000001787010485-0-0-55c67774134be1b77420163c5c08fd3a",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787005960-0-0-541572f3d22cb92c0029f1193a4a5231",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787010396-0-0-a89a21bc3acf812afba86dc218b76910",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-10.flv?auth_key=3000001787005967-0-0-be0a6d16fe496547d9aa272535a6f239",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-19.flv?auth_key=3000001787010493-0-0-506126cb40349da52769721a63fb03f2",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-18.flv?auth_key=3000001787005989-0-0-65046b86996deaf612c1f435a70b3339",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-18.flv?auth_key=3000001787010510-0-0-b64d3854b0f171c2bd9f2d09e6f17672",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787005998-0-0-b723a528065268179ba1d4ce139e72f9",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787010518-0-0-3c4cf1a94da39d3353ee09a307382e80",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-11.flv?auth_key=3000001787010531-0-0-972e4342e670f84b3a08cb0cdb7ac38f",
       "kept": true,
-      "reason": "HTTP 206; m3u8=True",
-      "source": "colatv"
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
     },
     {
       "url": "https://live05.meung.app/live/41943555.m3u8",
@@ -248,7 +230,25 @@
       "source": "colatv"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-5.flv?auth_key=3000001787005999-0-0-47c7040671957cc069ec3e0bc8488c2f",
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "kept": true,
+      "reason": "HTTP 206; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787010543-0-0-c93b9b1dc562311e70ca7243ad0b8c4e",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787010538-0-0-5a4e164ac0fd4c097f41b1723a605ffc",
+      "kept": true,
+      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-5.flv?auth_key=3000001787010523-0-0-a37d980da620beb86aead124ad906c3f",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
@@ -266,20 +266,20 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "url": "https://live05.meung.app/live/41943555.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/41943555.m3u8",
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     }
   ],
   "selected_count": 19,
-  "dropped_count": 18,
+  "dropped_count": 21,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 1,
@@ -295,8 +295,8 @@
       "source": "chuoichien",
       "source_label": "Chuối Chiên",
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-      "match_key": "velez sarsfield vs defensa y justicia|troc tru",
-      "display_name": "[05:15 18/08] Velez Sarsfield vs Defensa Y Justicia - VĐQG Argentina [BLV Trốc Tru] [FHD M3U8]",
+      "match_key": "velez sarsfield vs defensa y justicia|truc tiep troc tru tran au velez sarsf",
+      "display_name": "[05:15 18/08] Velez Sarsfield vs Defensa Y Justicia - VĐQG Argentina [BLV trực tiếp: Trốc Tru Trận đấu Velez Sarsf] [FHD M3U8]",
       "group": "Chuối Chiên",
       "sport_group": "Bóng đá",
       "quality": "FHD",
@@ -310,12 +310,12 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-08-18T05:15:00+07:00",
-      "minutes_to_kickoff": -94.18,
+      "minutes_to_kickoff": -108.56,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
       "stream_key_tokens": null,
-      "logo": "https://media.chuoichientv.net/media/uploads/20250623_132718_b8de955c.png",
+      "logo": "https://media.chuoichientv.net/media/uploads/20250623_132720_ed25e7e8.png",
       "logo_source": null,
       "logo_enriched_from": null,
       "logo_is_fallback": null,
@@ -323,7 +323,7 @@
       "page_url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Trốc Tru",
+      "blv": "trực tiếp: Trốc Tru Trận đấu Velez Sarsf",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -335,8 +335,8 @@
       "source": "chuoichien",
       "source_label": "Chuối Chiên",
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctru/playlist.m3u8",
-      "match_key": "velez sarsfield vs defensa y justicia|troc tru",
-      "display_name": "[05:15 18/08] Velez Sarsfield vs Defensa Y Justicia - VĐQG Argentina [BLV Trốc Tru] [HD M3U8]",
+      "match_key": "velez sarsfield vs defensa y justicia|truc tiep troc tru tran au velez sarsf",
+      "display_name": "[05:15 18/08] Velez Sarsfield vs Defensa Y Justicia - VĐQG Argentina [BLV trực tiếp: Trốc Tru Trận đấu Velez Sarsf] [HD M3U8]",
       "group": "Chuối Chiên",
       "sport_group": "Bóng đá",
       "quality": "HD",
@@ -350,12 +350,12 @@
       "pending_reason": null,
       "score": 459,
       "kickoff_iso": "2026-08-18T05:15:00+07:00",
-      "minutes_to_kickoff": -94.18,
+      "minutes_to_kickoff": -108.56,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
       "stream_key_tokens": null,
-      "logo": "https://media.chuoichientv.net/media/uploads/20250623_132718_b8de955c.png",
+      "logo": "https://media.chuoichientv.net/media/uploads/20250623_132720_ed25e7e8.png",
       "logo_source": null,
       "logo_enriched_from": null,
       "logo_is_fallback": null,
@@ -363,7 +363,7 @@
       "page_url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctru/playlist.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Trốc Tru",
+      "blv": "trực tiếp: Trốc Tru Trận đấu Velez Sarsf",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -376,7 +376,7 @@
       "source_label": "Gà Vàng",
       "url": "https://live-bong.s3.ap-southeast-1.amazonaws.com/New+folder/hls_abr/copy_CE1198F2-AD34-4956-822A-1F66706D2422/360p/index.m3u8",
       "match_key": "uratu vs syunik|",
-      "display_name": "Uratu VS Syunik [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
+      "display_name": "Uratu VS Syunik [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8] [SD M3U8]",
       "group": "Gà Vàng",
       "sport_group": "Gà Vàng",
       "quality": "SD",
@@ -411,12 +411,12 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 206; m3u8=True",
-      "prior_generated_at": "2026-08-18T05:33:35.399227+07:00"
+      "prior_generated_at": "2026-08-18T06:49:10.549419+07:00"
     },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-17.flv?auth_key=3000001787010462-0-0-fcf4c659a6c35223eeba6f246b7e7031",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-17.flv?auth_key=3000001787011337-0-0-bbbfec5c4533dc262cb9e06452cd55e3",
       "match_key": "velez sarsfield vs defensa y justicia|hd nemo",
       "display_name": "[05:15 18/08/2026] Velez Sarsfield vs Defensa Y Justicia [BLV HD NEMO] [FLV]",
       "group": "Xôi Lạc",
@@ -437,7 +437,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T05:15:00+07:00",
-      "minutes_to_kickoff": -94.18,
+      "minutes_to_kickoff": -108.56,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -447,7 +447,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-17.flv?auth_key=3000001787010462-0-0-fcf4c659a6c35223eeba6f246b7e7031",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-17.flv?auth_key=3000001787011337-0-0-bbbfec5c4533dc262cb9e06452cd55e3",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/8y39mp1h8zjmojx/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/8y39mp1h8xnmojx/image/small",
       "blv": null,
@@ -461,7 +461,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-9.flv?auth_key=3000001787010445-0-0-0fcbf2a0090b88ff786463b6b74c1a22",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-9.flv?auth_key=3000001787011349-0-0-d58999f0e972c41b5f2340ebd47ee891",
       "match_key": "internacional rs vs remo belem|hd toni",
       "display_name": "[06:00 18/08/2026] Internacional Rs vs Remo Belem [BLV HD TONI] [FLV]",
       "group": "Xôi Lạc",
@@ -482,7 +482,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T06:00:00+07:00",
-      "minutes_to_kickoff": -49.18,
+      "minutes_to_kickoff": -63.56,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -492,7 +492,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-9.flv?auth_key=3000001787010445-0-0-0fcbf2a0090b88ff786463b6b74c1a22",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-9.flv?auth_key=3000001787011349-0-0-d58999f0e972c41b5f2340ebd47ee891",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyhxxxr1ge/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhnoxqg8n/image/small",
       "blv": null,
@@ -506,7 +506,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-13.flv?auth_key=3000001787010454-0-0-3d0ecf3fa344c10672fc50bd8feb3584",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-13.flv?auth_key=3000001787011357-0-0-4b8097c493b2b388feb67fbfeeafc9e2",
       "match_key": "nu leon vs nu queretaro|hd xmen",
       "display_name": "[06:00 18/08/2026] Nu Leon vs Nu Queretaro [BLV HD XMEN] [FLV]",
       "group": "Xôi Lạc",
@@ -527,7 +527,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T06:00:00+07:00",
-      "minutes_to_kickoff": -49.18,
+      "minutes_to_kickoff": -63.56,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -537,7 +537,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-13.flv?auth_key=3000001787010454-0-0-3d0ecf3fa344c10672fc50bd8feb3584",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-13.flv?auth_key=3000001787011357-0-0-4b8097c493b2b388feb67fbfeeafc9e2",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jh3062qwzv/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whzg77ryox/image/small",
       "blv": null,
@@ -551,7 +551,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787010428-0-0-420475f48c39b0024283472990a92dd2",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787011325-0-0-092509d050909b048c34e2be145960a5",
       "match_key": "alexander zverev vs terence atmane|hd lucas",
       "display_name": "USA Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/2y8m4vfgnooml07/image/small\",[06:00 18/08/2026] Alexander Zverev vs Terence Atmane [BLV HD LUCAS] [FLV]",
       "group": "Xôi Lạc",
@@ -572,7 +572,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T06:00:00+07:00",
-      "minutes_to_kickoff": -49.18,
+      "minutes_to_kickoff": -63.56,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -582,7 +582,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787010428-0-0-420475f48c39b0024283472990a92dd2",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787011325-0-0-092509d050909b048c34e2be145960a5",
       "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/2y8m4vfgnooml07/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/l7oqdwfloy2r510/image/small",
       "blv": null,
@@ -596,7 +596,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787010396-0-0-a89a21bc3acf812afba86dc218b76910",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787011296-0-0-428704b6bd44c54004ab5bbc6f462675",
       "match_key": "nu canada vs nu senegal|hd tommy",
       "display_name": "[06:30 18/08/2026] Nu Canada vs Nu Senegal [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -617,7 +617,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T06:30:00+07:00",
-      "minutes_to_kickoff": -19.18,
+      "minutes_to_kickoff": -33.56,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -627,7 +627,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787010396-0-0-a89a21bc3acf812afba86dc218b76910",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787011296-0-0-428704b6bd44c54004ab5bbc6f462675",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/j1l4rjzt09xm7vx/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/4zp5rzktvnvr82w/image/small",
       "blv": null,
@@ -641,7 +641,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-10.flv?auth_key=3000001787010485-0-0-55c67774134be1b77420163c5c08fd3a",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-10.flv?auth_key=3000001787011279-0-0-cf96a9c432cdb29a3abfeff3a8d6949d",
       "match_key": "macara vs universidad catolica|hd polo",
       "display_name": "[07:00 18/08/2026] Macara vs Universidad Catolica [BLV HD POLO] [FLV]",
       "group": "Xôi Lạc",
@@ -662,7 +662,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T07:00:00+07:00",
-      "minutes_to_kickoff": 10.82,
+      "minutes_to_kickoff": -3.56,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -672,7 +672,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-10.flv?auth_key=3000001787010485-0-0-55c67774134be1b77420163c5c08fd3a",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-10.flv?auth_key=3000001787011279-0-0-cf96a9c432cdb29a3abfeff3a8d6949d",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hwlojqdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jhldpkqwzv/image/small",
       "blv": null,
@@ -686,7 +686,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-19.flv?auth_key=3000001787010493-0-0-506126cb40349da52769721a63fb03f2",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-19.flv?auth_key=3000001787011280-0-0-1a24c5b4fb0db340be3ca1d4c1f591a9",
       "match_key": "nu toluca vs nu atlas|hd filip",
       "display_name": "[07:00 18/08/2026] Nu Toluca vs Nu Atlas [BLV HD FILIP] [FLV]",
       "group": "Xôi Lạc",
@@ -707,7 +707,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T07:00:00+07:00",
-      "minutes_to_kickoff": 10.82,
+      "minutes_to_kickoff": -3.56,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -717,7 +717,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-19.flv?auth_key=3000001787010493-0-0-506126cb40349da52769721a63fb03f2",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-19.flv?auth_key=3000001787011280-0-0-1a24c5b4fb0db340be3ca1d4c1f591a9",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1ghnvyemoep/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hjjwzqdyj/image/small",
       "blv": null,
@@ -731,7 +731,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-18.flv?auth_key=3000001787010510-0-0-b64d3854b0f171c2bd9f2d09e6f17672",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-18.flv?auth_key=3000001787011368-0-0-3bc8a6c8669a6c474842ffe67af5c7d0",
       "match_key": "gimnasia mendoza vs talleres cordoba|hd ken",
       "display_name": "[07:30 18/08/2026] Gimnasia Mendoza vs Talleres Cordoba [BLV HD KEN] [FLV]",
       "group": "Xôi Lạc",
@@ -752,7 +752,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T07:30:00+07:00",
-      "minutes_to_kickoff": 40.82,
+      "minutes_to_kickoff": 26.44,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -762,7 +762,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-18.flv?auth_key=3000001787010510-0-0-b64d3854b0f171c2bd9f2d09e6f17672",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-18.flv?auth_key=3000001787011368-0-0-3bc8a6c8669a6c474842ffe67af5c7d0",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hlkldrz84/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/965mkyh7gl3r1ge/image/small",
       "blv": null,
@@ -776,7 +776,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787010518-0-0-3c4cf1a94da39d3353ee09a307382e80",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787011378-0-0-bb5fccafb92f95009272b9490180fe61",
       "match_key": "palestino vs huachipato|hd jean",
       "display_name": "[07:30 18/08/2026] Palestino vs Huachipato [BLV HD JEAN] [FLV]",
       "group": "Xôi Lạc",
@@ -797,7 +797,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T07:30:00+07:00",
-      "minutes_to_kickoff": 40.82,
+      "minutes_to_kickoff": 26.44,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -807,7 +807,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787010518-0-0-3c4cf1a94da39d3353ee09a307382e80",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787011378-0-0-bb5fccafb92f95009272b9490180fe61",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh00exmd7o/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllhgp9qvy9/image/small",
       "blv": null,
@@ -821,7 +821,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787010503-0-0-d5d63f63fcd0a45dac2c0c631595ad9c",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787011361-0-0-b21e3d080b9061b8fc09125c950bf60f",
       "match_key": "alexandra eala vs amanda anisimova|hd lucas",
       "display_name": "USA Women Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fg7zxr1zp/image/small\",[07:30 18/08/2026] Alexandra Eala vs Amanda Anisimova [BLV HD LUCAS] [FLV]",
       "group": "Xôi Lạc",
@@ -842,7 +842,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T07:30:00+07:00",
-      "minutes_to_kickoff": 40.82,
+      "minutes_to_kickoff": 26.44,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -852,7 +852,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787010503-0-0-d5d63f63fcd0a45dac2c0c631595ad9c",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787011361-0-0-b21e3d080b9061b8fc09125c950bf60f",
       "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fg7zxr1zp/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/x7lm7nfon7lq2wd/image/small",
       "blv": null,
@@ -866,7 +866,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-5.flv?auth_key=3000001787010523-0-0-a37d980da620beb86aead124ad906c3f",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-5.flv?auth_key=3000001787011381-0-0-6638b74d0ecdd15e59f88cd22c7aa08b",
       "match_key": "necaxa vs club leon|hd nick",
       "display_name": "[08:00 18/08/2026] Necaxa vs Club Leon [BLV HD NICK] [FLV]",
       "group": "Xôi Lạc",
@@ -887,7 +887,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T08:00:00+07:00",
-      "minutes_to_kickoff": 70.82,
+      "minutes_to_kickoff": 56.44,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -897,7 +897,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-5.flv?auth_key=3000001787010523-0-0-a37d980da620beb86aead124ad906c3f",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-5.flv?auth_key=3000001787011381-0-0-6638b74d0ecdd15e59f88cd22c7aa08b",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h8d52q86p/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghjkxvq82w/image/small",
       "blv": null,
@@ -911,7 +911,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-11.flv?auth_key=3000001787010531-0-0-972e4342e670f84b3a08cb0cdb7ac38f",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-11.flv?auth_key=3000001787011390-0-0-04eab1311946d28e560e58d09c32f674",
       "match_key": "nu santos laguna vs nu monterrey|hd astra",
       "display_name": "[08:06 18/08/2026] Nu Santos Laguna vs Nu Monterrey [BLV HD ASTRA] [FLV]",
       "group": "Xôi Lạc",
@@ -932,7 +932,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T08:06:00+07:00",
-      "minutes_to_kickoff": 76.82,
+      "minutes_to_kickoff": 62.44,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -942,7 +942,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-11.flv?auth_key=3000001787010531-0-0-972e4342e670f84b3a08cb0cdb7ac38f",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-11.flv?auth_key=3000001787011390-0-0-04eab1311946d28e560e58d09c32f674",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhxjw7qvy9/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jheg51qwzv/image/small",
       "blv": null,
@@ -956,7 +956,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787010538-0-0-5a4e164ac0fd4c097f41b1723a605ffc",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787011397-0-0-fe913a1c8896f8f0f5d964b15dac41af",
       "match_key": "nu golden state vs nu dallas wings|hd alan",
       "display_name": "[09:00 18/08/2026] Nu Golden State vs Nu Dallas Wings [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -977,7 +977,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T09:00:00+07:00",
-      "minutes_to_kickoff": 130.82,
+      "minutes_to_kickoff": 116.44,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -987,7 +987,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787010538-0-0-5a4e164ac0fd4c097f41b1723a605ffc",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787011397-0-0-fe913a1c8896f8f0f5d964b15dac41af",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/dj2ry7tjyxjr1zp/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/jednm9ktljoryox/image/small",
       "blv": null,
@@ -1001,7 +1001,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787010543-0-0-c93b9b1dc562311e70ca7243ad0b8c4e",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787011402-0-0-ac75b8d91a05cac6d2a80a799b044606",
       "match_key": "nu mexico vs nu philippines|hd tommy",
       "display_name": "[09:30 18/08/2026] Nu Mexico vs Nu Philippines [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -1022,7 +1022,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T09:30:00+07:00",
-      "minutes_to_kickoff": 160.82,
+      "minutes_to_kickoff": 146.44,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1032,7 +1032,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787010543-0-0-c93b9b1dc562311e70ca7243ad0b8c4e",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787011402-0-0-ac75b8d91a05cac6d2a80a799b044606",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/9k82re8t4g6repz/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/gx7lm73ty9yr2wd/image/small",
       "blv": null,
@@ -1062,7 +1062,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-18T05:15:00+07:00",
-      "minutes_to_kickoff": -94.18,
+      "minutes_to_kickoff": -108.56,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1087,8 +1087,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "match_key": "gimnasia y esgrima de mendoza vs talleres cordoba|khong o ang xem",
-      "display_name": "[07:30 18/08] Gimnasia y Esgrima de Mendoza vs Talleres Cordoba [BLV KHÔNG ĐỘĐang xem] [M3U8]",
+      "match_key": "giai vo ich quoc gia argentina 18 08 gimnasia mendoza vs talleres cordoba blv khong o|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[07:30 18/08] Gimnasia Mendoza vs Talleres Cordoba [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -1102,12 +1102,12 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-18T07:30:00+07:00",
-      "minutes_to_kickoff": 40.82,
+      "minutes_to_kickoff": 26.44,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
       "stream_key_tokens": null,
-      "logo": "https://img.gvapi.cc/football/team/532600afe76be2528effd5790fb51a33.png!w80",
+      "logo": null,
       "logo_source": null,
       "logo_enriched_from": null,
       "logo_is_fallback": null,
@@ -1115,7 +1115,7 @@
       "page_url": "https://colatv88xi.cc/video2/output.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "KHÔNG ĐỘĐang xem",
+      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1128,8 +1128,8 @@
     {
       "source": "chuoichien",
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-      "display_name": "[05:15 18/08] Velez Sarsfield vs Defensa Y Justicia - VĐQG Argentina [BLV Trốc Tru] [FHD M3U8]",
-      "match_key": "velez sarsfield vs defensa y justicia|troc tru",
+      "display_name": "[05:15 18/08] Velez Sarsfield vs Defensa Y Justicia - VĐQG Argentina [BLV trực tiếp: Trốc Tru Trận đấu Velez Sarsf] [FHD M3U8]",
+      "match_key": "velez sarsfield vs defensa y justicia|truc tiep troc tru tran au velez sarsf",
       "quality": "FHD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1140,8 +1140,8 @@
     {
       "source": "chuoichien",
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctru/playlist.m3u8",
-      "display_name": "[05:15 18/08] Velez Sarsfield vs Defensa Y Justicia - VĐQG Argentina [BLV Trốc Tru] [HD M3U8]",
-      "match_key": "velez sarsfield vs defensa y justicia|troc tru",
+      "display_name": "[05:15 18/08] Velez Sarsfield vs Defensa Y Justicia - VĐQG Argentina [BLV trực tiếp: Trốc Tru Trận đấu Velez Sarsf] [HD M3U8]",
+      "match_key": "velez sarsfield vs defensa y justicia|truc tiep troc tru tran au velez sarsf",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1151,67 +1151,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787010396-0-0-a89a21bc3acf812afba86dc218b76910",
-      "display_name": "[06:30 18/08/2026] Nu Canada vs Nu Senegal [BLV HD TOMMY] [FLV]",
-      "match_key": "nu canada vs nu senegal|hd tommy",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787010428-0-0-420475f48c39b0024283472990a92dd2",
-      "display_name": "USA Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/2y8m4vfgnooml07/image/small\",[06:00 18/08/2026] Alexander Zverev vs Terence Atmane [BLV HD LUCAS] [FLV]",
-      "match_key": "alexander zverev vs terence atmane|hd lucas",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-9.flv?auth_key=3000001787010445-0-0-0fcbf2a0090b88ff786463b6b74c1a22",
-      "display_name": "[06:00 18/08/2026] Internacional Rs vs Remo Belem [BLV HD TONI] [FLV]",
-      "match_key": "internacional rs vs remo belem|hd toni",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-13.flv?auth_key=3000001787010454-0-0-3d0ecf3fa344c10672fc50bd8feb3584",
-      "display_name": "[06:00 18/08/2026] Nu Leon vs Nu Queretaro [BLV HD XMEN] [FLV]",
-      "match_key": "nu leon vs nu queretaro|hd xmen",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-17.flv?auth_key=3000001787010462-0-0-fcf4c659a6c35223eeba6f246b7e7031",
-      "display_name": "[05:15 18/08/2026] Velez Sarsfield vs Defensa Y Justicia [BLV HD NEMO] [FLV]",
-      "match_key": "velez sarsfield vs defensa y justicia|hd nemo",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-10.flv?auth_key=3000001787010485-0-0-55c67774134be1b77420163c5c08fd3a",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-10.flv?auth_key=3000001787011279-0-0-cf96a9c432cdb29a3abfeff3a8d6949d",
       "display_name": "[07:00 18/08/2026] Macara vs Universidad Catolica [BLV HD POLO] [FLV]",
       "match_key": "macara vs universidad catolica|hd polo",
       "quality": "HD",
@@ -1223,7 +1163,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-19.flv?auth_key=3000001787010493-0-0-506126cb40349da52769721a63fb03f2",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-19.flv?auth_key=3000001787011280-0-0-1a24c5b4fb0db340be3ca1d4c1f591a9",
       "display_name": "[07:00 18/08/2026] Nu Toluca vs Nu Atlas [BLV HD FILIP] [FLV]",
       "match_key": "nu toluca vs nu atlas|hd filip",
       "quality": "HD",
@@ -1235,7 +1175,67 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787010503-0-0-d5d63f63fcd0a45dac2c0c631595ad9c",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787011296-0-0-428704b6bd44c54004ab5bbc6f462675",
+      "display_name": "[06:30 18/08/2026] Nu Canada vs Nu Senegal [BLV HD TOMMY] [FLV]",
+      "match_key": "nu canada vs nu senegal|hd tommy",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787011325-0-0-092509d050909b048c34e2be145960a5",
+      "display_name": "USA Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/2y8m4vfgnooml07/image/small\",[06:00 18/08/2026] Alexander Zverev vs Terence Atmane [BLV HD LUCAS] [FLV]",
+      "match_key": "alexander zverev vs terence atmane|hd lucas",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-17.flv?auth_key=3000001787011337-0-0-bbbfec5c4533dc262cb9e06452cd55e3",
+      "display_name": "[05:15 18/08/2026] Velez Sarsfield vs Defensa Y Justicia [BLV HD NEMO] [FLV]",
+      "match_key": "velez sarsfield vs defensa y justicia|hd nemo",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-9.flv?auth_key=3000001787011349-0-0-d58999f0e972c41b5f2340ebd47ee891",
+      "display_name": "[06:00 18/08/2026] Internacional Rs vs Remo Belem [BLV HD TONI] [FLV]",
+      "match_key": "internacional rs vs remo belem|hd toni",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-13.flv?auth_key=3000001787011357-0-0-4b8097c493b2b388feb67fbfeeafc9e2",
+      "display_name": "[06:00 18/08/2026] Nu Leon vs Nu Queretaro [BLV HD XMEN] [FLV]",
+      "match_key": "nu leon vs nu queretaro|hd xmen",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787011361-0-0-b21e3d080b9061b8fc09125c950bf60f",
       "display_name": "USA Women Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fg7zxr1zp/image/small\",[07:30 18/08/2026] Alexandra Eala vs Amanda Anisimova [BLV HD LUCAS] [FLV]",
       "match_key": "alexandra eala vs amanda anisimova|hd lucas",
       "quality": "HD",
@@ -1247,7 +1247,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-18.flv?auth_key=3000001787010510-0-0-b64d3854b0f171c2bd9f2d09e6f17672",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-18.flv?auth_key=3000001787011368-0-0-3bc8a6c8669a6c474842ffe67af5c7d0",
       "display_name": "[07:30 18/08/2026] Gimnasia Mendoza vs Talleres Cordoba [BLV HD KEN] [FLV]",
       "match_key": "gimnasia mendoza vs talleres cordoba|hd ken",
       "quality": "HD",
@@ -1259,7 +1259,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787010518-0-0-3c4cf1a94da39d3353ee09a307382e80",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787011378-0-0-bb5fccafb92f95009272b9490180fe61",
       "display_name": "[07:30 18/08/2026] Palestino vs Huachipato [BLV HD JEAN] [FLV]",
       "match_key": "palestino vs huachipato|hd jean",
       "quality": "HD",
@@ -1271,7 +1271,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-5.flv?auth_key=3000001787010523-0-0-a37d980da620beb86aead124ad906c3f",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-5.flv?auth_key=3000001787011381-0-0-6638b74d0ecdd15e59f88cd22c7aa08b",
       "display_name": "[08:00 18/08/2026] Necaxa vs Club Leon [BLV HD NICK] [FLV]",
       "match_key": "necaxa vs club leon|hd nick",
       "quality": "HD",
@@ -1283,7 +1283,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-11.flv?auth_key=3000001787010531-0-0-972e4342e670f84b3a08cb0cdb7ac38f",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-11.flv?auth_key=3000001787011390-0-0-04eab1311946d28e560e58d09c32f674",
       "display_name": "[08:06 18/08/2026] Nu Santos Laguna vs Nu Monterrey [BLV HD ASTRA] [FLV]",
       "match_key": "nu santos laguna vs nu monterrey|hd astra",
       "quality": "HD",
@@ -1295,7 +1295,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787010538-0-0-5a4e164ac0fd4c097f41b1723a605ffc",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787011397-0-0-fe913a1c8896f8f0f5d964b15dac41af",
       "display_name": "[09:00 18/08/2026] Nu Golden State vs Nu Dallas Wings [BLV HD ALAN] [FLV]",
       "match_key": "nu golden state vs nu dallas wings|hd alan",
       "quality": "HD",
@@ -1307,7 +1307,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787010543-0-0-c93b9b1dc562311e70ca7243ad0b8c4e",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787011402-0-0-ac75b8d91a05cac6d2a80a799b044606",
       "display_name": "[09:30 18/08/2026] Nu Mexico vs Nu Philippines [BLV HD TOMMY] [FLV]",
       "match_key": "nu mexico vs nu philippines|hd tommy",
       "quality": "HD",
@@ -1332,8 +1332,8 @@
     {
       "source": "colatv",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "display_name": "[07:30 18/08] Gimnasia y Esgrima de Mendoza vs Talleres Cordoba [BLV KHÔNG ĐỘĐang xem] [M3U8]",
-      "match_key": "gimnasia y esgrima de mendoza vs talleres cordoba|khong o ang xem",
+      "display_name": "[07:30 18/08] Gimnasia Mendoza vs Talleres Cordoba [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
+      "match_key": "giai vo ich quoc gia argentina 18 08 gimnasia mendoza vs talleres cordoba blv khong o|lich thi au cuoc vsbet tai app ta",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1380,70 +1380,88 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787005960-0-0-541572f3d22cb92c0029f1193a4a5231",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "nu canada vs nu senegal|hd tommy"
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787005939-0-0-8db8e3238fc18b527d769533937bcf23",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "alexander zverev vs terence atmane|hd lucas"
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-9.flv?auth_key=3000001787005950-0-0-3933333cfa4200dc6d3e84ed568fba4e",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "internacional rs vs remo belem|hd toni"
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-13.flv?auth_key=3000001787005958-0-0-976f6645ba703934356c9caf5b7f2b0c",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "nu leon vs nu queretaro|hd xmen"
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-17.flv?auth_key=3000001787005876-0-0-353f1d8dbaabc89352cab49bb4369b39",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "velez sarsfield vs defensa y justicia|hd nemo"
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-10.flv?auth_key=3000001787005967-0-0-be0a6d16fe496547d9aa272535a6f239",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-10.flv?auth_key=3000001787010485-0-0-55c67774134be1b77420163c5c08fd3a",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "macara vs universidad catolica|hd polo"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-19.flv?auth_key=3000001787005968-0-0-9589a08c4dd8aeea4c060f2860a5eaaf",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-19.flv?auth_key=3000001787010493-0-0-506126cb40349da52769721a63fb03f2",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "nu toluca vs nu atlas|hd filip"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787005976-0-0-8ac04210e191f9b145b90cbead58e8e9",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787010396-0-0-a89a21bc3acf812afba86dc218b76910",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "nu canada vs nu senegal|hd tommy"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787010428-0-0-420475f48c39b0024283472990a92dd2",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "alexander zverev vs terence atmane|hd lucas"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-17.flv?auth_key=3000001787010462-0-0-fcf4c659a6c35223eeba6f246b7e7031",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "velez sarsfield vs defensa y justicia|hd nemo"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-9.flv?auth_key=3000001787010445-0-0-0fcbf2a0090b88ff786463b6b74c1a22",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "internacional rs vs remo belem|hd toni"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-13.flv?auth_key=3000001787010454-0-0-3d0ecf3fa344c10672fc50bd8feb3584",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "nu leon vs nu queretaro|hd xmen"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-31.flv?auth_key=3000001787010503-0-0-d5d63f63fcd0a45dac2c0c631595ad9c",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "alexandra eala vs amanda anisimova|hd lucas"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-18.flv?auth_key=3000001787005989-0-0-65046b86996deaf612c1f435a70b3339",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-18.flv?auth_key=3000001787010510-0-0-b64d3854b0f171c2bd9f2d09e6f17672",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "gimnasia mendoza vs talleres cordoba|hd ken"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787005998-0-0-b723a528065268179ba1d4ce139e72f9",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787010518-0-0-3c4cf1a94da39d3353ee09a307382e80",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "palestino vs huachipato|hd jean"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-5.flv?auth_key=3000001787005999-0-0-47c7040671957cc069ec3e0bc8488c2f",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-5.flv?auth_key=3000001787010523-0-0-a37d980da620beb86aead124ad906c3f",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "necaxa vs club leon|hd nick"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-11.flv?auth_key=3000001787010531-0-0-972e4342e670f84b3a08cb0cdb7ac38f",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "nu santos laguna vs nu monterrey|hd astra"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787010538-0-0-5a4e164ac0fd4c097f41b1723a605ffc",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "nu golden state vs nu dallas wings|hd alan"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787010543-0-0-c93b9b1dc562311e70ca7243ad0b8c4e",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "nu mexico vs nu philippines|hd tommy"
     }
   ],
   "outputs_written": true
