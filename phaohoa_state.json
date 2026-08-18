@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-18T22:34:43.759634+07:00",
+  "updated_at": "2026-08-18T23:55:54.297002+07:00",
   "matches": {
-    "819140": {
-      "url": "https://phaohoa1.live/truc-tiep/kv-mechelen-vs-st-liege-16-08-2026-819140",
-      "match_name": "Kv Mechelen vs St Liege",
-      "kickoff_iso": "2026-08-16T23:30:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-17T01:03:19.895052+07:00",
-      "next_scan_at": "2026-08-17T01:08:19.895052+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "798809": {
       "url": "https://phaohoa1.live/truc-tiep/espanyol-vs-levante-17-08-2026-798809",
       "match_name": "Espanyol vs Levante",
@@ -260,34 +246,38 @@
     "791879": {
       "url": "https://phaohoa1.live/truc-tiep/al-jabalain-vs-al-ettifaq-18-08-2026-791879",
       "match_name": "19-08 King's Cup Al Diriyah VS Al Nassr Kevin",
-      "kickoff_iso": "2026-08-19T01:00:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-18T22:02:50.875085+07:00",
-      "next_scan_at": "2026-08-18T22:47:50.875085+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "kickoff_iso": "2026-08-18T23:15:00+07:00",
+      "minutes_to_kickoff": -40,
+      "last_scan_at": "2026-08-18T23:55:54.296732+07:00",
+      "next_scan_at": "2026-08-19T00:00:54.296732+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "836774": {
       "url": "https://phaohoa1.live/truc-tiep/heidenheim-vs-bayern-munich-18-08-2026-836774",
-      "match_name": "18-08 Club Friendlies Heidenheim VS Bayern Munich Chim Nhỏ",
+      "match_name": "Heidenheim vs Bayern Munich",
       "kickoff_iso": "2026-08-18T23:00:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-08-18T22:34:43.759464+07:00",
-      "next_scan_at": "2026-08-18T22:44:43.759464+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -55,
+      "last_scan_at": "2026-08-18T23:55:54.296732+07:00",
+      "next_scan_at": "2026-08-19T00:00:54.296732+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     },
     "736679": {
       "url": "https://phaohoa1.live/truc-tiep/buxoro-vs-neftchi-fargona-18-08-2026-736679",
       "match_name": "Buxoro vs Neftchi Fargona",
       "kickoff_iso": "2026-08-18T22:00:00+07:00",
-      "minutes_to_kickoff": -34,
-      "last_scan_at": "2026-08-18T22:34:43.759464+07:00",
-      "next_scan_at": "2026-08-18T22:39:43.759464+07:00",
+      "minutes_to_kickoff": -115,
+      "last_scan_at": "2026-08-18T23:55:54.296732+07:00",
+      "next_scan_at": "2026-08-19T00:00:54.296732+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -297,15 +287,41 @@
     },
     "791880": {
       "url": "https://phaohoa1.live/truc-tiep/al-najma-vs-al-ittihad-18-08-2026-791880",
-      "match_name": "18-08 King's Cup Al Najma VS Al Ittihad Văn Minh",
+      "match_name": "Al Najma vs Al Ittihad",
       "kickoff_iso": "2026-08-18T23:15:00+07:00",
-      "minutes_to_kickoff": 41,
-      "last_scan_at": "2026-08-18T22:34:43.759464+07:00",
-      "next_scan_at": "2026-08-18T22:44:43.759464+07:00",
+      "minutes_to_kickoff": -40,
+      "last_scan_at": "2026-08-18T23:55:54.296732+07:00",
+      "next_scan_at": "2026-08-19T00:00:54.296732+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "841013": {
+      "url": "https://phaohoa1.live/truc-tiep/din-zagreb-vs-viking-19-08-2026-841013",
+      "match_name": "19-08 UEFA Champions League Din. Zagreb VS Viking Chim Nhỏ",
+      "kickoff_iso": "2026-08-19T02:00:00+07:00",
+      "minutes_to_kickoff": 126,
+      "last_scan_at": "2026-08-18T23:55:54.296732+07:00",
+      "next_scan_at": "2026-08-19T00:40:54.296732+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "841017": {
+      "url": "https://phaohoa1.live/truc-tiep/fenerbahce-vs-lyon-19-08-2026-841017",
+      "match_name": "19-08 UEFA Champions League Fenerbahce VS Lyon Tày",
+      "kickoff_iso": "2026-08-19T02:00:00+07:00",
+      "minutes_to_kickoff": 126,
+      "last_scan_at": "2026-08-18T23:55:54.296732+07:00",
+      "next_scan_at": "2026-08-19T00:40:54.296732+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
