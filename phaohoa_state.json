@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-19T02:33:20.018630+07:00",
+  "updated_at": "2026-08-19T03:06:40.226011+07:00",
   "matches": {
     "c15418233172": {
       "url": "https://phaohoa1.live/truc-tiep/my-vs-tho-nhi-ki",
@@ -221,11 +221,11 @@
     },
     "841013": {
       "url": "https://phaohoa1.live/truc-tiep/din-zagreb-vs-viking-19-08-2026-841013",
-      "match_name": "Din Zagreb vs Viking",
+      "match_name": "Din. Zagreb vs Viking",
       "kickoff_iso": "2026-08-19T02:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-19T02:33:20.018491+07:00",
-      "next_scan_at": "2026-08-19T02:38:20.018491+07:00",
+      "minutes_to_kickoff": -66,
+      "last_scan_at": "2026-08-19T03:06:40.225862+07:00",
+      "next_scan_at": "2026-08-19T03:11:40.225862+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -249,14 +249,16 @@
     },
     "841014": {
       "url": "https://phaohoa1.live/truc-tiep/levski-sofia-vs-aek-athens-19-08-2026-841014",
-      "match_name": "19-08 UEFA Champions League Levski Sofia VS AEK Athens Pháo Thủ",
+      "match_name": "Levski Sofia vs Aek Athens",
       "kickoff_iso": "2026-08-19T02:00:00+07:00",
-      "minutes_to_kickoff": 41,
-      "last_scan_at": "2026-08-19T01:19:30.961743+07:00",
-      "next_scan_at": "2026-08-19T01:29:30.961743+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -66,
+      "last_scan_at": "2026-08-19T03:06:40.225862+07:00",
+      "next_scan_at": "2026-08-19T03:11:40.225862+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     },
     "791877": {
