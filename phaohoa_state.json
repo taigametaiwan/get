@@ -1,36 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-18T18:02:50.546434+07:00",
+  "updated_at": "2026-08-18T18:32:12.031128+07:00",
   "matches": {
-    "809617": {
-      "url": "https://phaohoa1.live/truc-tiep/hannover-vs-wolfsburg-16-08-2026-809617",
-      "match_name": "Hannover vs Wolfsburg",
-      "kickoff_iso": "2026-08-16T18:30:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-16T20:04:20.390693+07:00",
-      "next_scan_at": "2026-08-16T20:09:20.390693+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "809618": {
-      "url": "https://phaohoa1.live/truc-tiep/sg-dynamo-dresden-vs-darmstadt-16-08-2026-809618",
-      "match_name": "Sg Dynamo Dresden vs Darmstadt",
-      "kickoff_iso": "2026-08-16T18:30:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-16T20:04:20.390693+07:00",
-      "next_scan_at": "2026-08-16T20:09:20.390693+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "805964": {
       "url": "https://phaohoa1.live/truc-tiep/feyenoord-vs-g-a-eagles-16-08-2026-805964",
       "match_name": "Feyenoord vs G.A. Eagles",
@@ -357,27 +329,29 @@
     },
     "742909": {
       "url": "https://phaohoa1.live/truc-tiep/shanghai-shenhua-vs-beijing-guoan-11-07-2026-742909",
-      "match_name": "18-08 Chinese Super League Shanghai Shenhua VS Beijing Guoan Pháo Thủ",
+      "match_name": "Shanghai Shenhua vs Beijing Guoan",
       "kickoff_iso": "2026-08-18T18:35:00+07:00",
-      "minutes_to_kickoff": 33,
-      "last_scan_at": "2026-08-18T18:02:50.546345+07:00",
-      "next_scan_at": "2026-08-18T18:12:50.546345+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 3,
+      "last_scan_at": "2026-08-18T18:32:12.031042+07:00",
+      "next_scan_at": "2026-08-18T18:37:12.031042+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     },
     "839169": {
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-singapore-18-08-2026-839169",
       "match_name": "18-08 ASEAN Championship Thái Lan VS Singapore Kevin + Tày",
       "kickoff_iso": "2026-08-18T20:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-18T18:02:50.546345+07:00",
-      "next_scan_at": "2026-08-18T18:22:50.546345+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-18T18:32:12.031042+07:00",
+      "next_scan_at": "2026-08-18T18:52:12.031042+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
