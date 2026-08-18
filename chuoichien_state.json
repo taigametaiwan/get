@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-19T04:02:42.810223+07:00",
+  "updated_at": "2026-08-19T04:31:42.010319+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1152,21 +1152,6 @@
       ],
       "scan_decision": "browser-fallback"
     },
-    "1492336": {
-      "url": "https://live04.chuoichientv.me/live/1492336/mirassol-vs-flamengo",
-      "match_name": "Mirassol vs Flamengo - VĐQG Brazil",
-      "kickoff_iso": "2026-08-17T04:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-17T06:01:40.022998+07:00",
-      "next_scan_at": "2026-08-17T06:06:40.022998+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1578023": {
       "url": "https://live04.chuoichientv.me/live/1578023/april-w-vs-kharaatsai-w",
       "match_name": "April W vs Kharaatsai W - AFC Women's Champions League",
@@ -1620,9 +1605,9 @@
       "url": "https://live04.chuoichientv.me/live/1598011/deportivo-riestra-vs-gimnasia-lp",
       "match_name": "Deportivo Riestra vs Gimnasia L.P. - Copa Argentina",
       "kickoff_iso": "2026-08-19T03:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-19T04:02:42.798610+07:00",
-      "next_scan_at": "2026-08-19T04:07:42.798610+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-19T04:31:42.010205+07:00",
+      "next_scan_at": "2026-08-19T04:36:42.010205+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1635,9 +1620,9 @@
       "url": "https://live04.chuoichientv.me/live/1607651/deportivo-recoleta-vs-boca-juniors",
       "match_name": "Deportivo Recoleta vs Boca Juniors - CONMEBOL Sudamericana",
       "kickoff_iso": "2026-08-19T05:00:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-19T04:02:42.798610+07:00",
-      "next_scan_at": "2026-08-19T04:22:42.798610+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-19T04:31:42.010205+07:00",
+      "next_scan_at": "2026-08-19T04:41:42.010205+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1646,22 +1631,22 @@
     "1607653": {
       "url": "https://live04.chuoichientv.me/live/1607653/sao-paulo-vs-bolvar",
       "match_name": "sao paulo vs bolvar",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-19T04:02:42.798610+07:00",
-      "next_scan_at": "2026-08-19T04:12:42.798610+07:00",
+      "kickoff_iso": "2026-08-19T07:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-19T04:31:42.010205+07:00",
+      "next_scan_at": "2026-08-19T05:16:42.010205+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1548360": {
       "url": "https://live04.chuoichientv.me/live/1548360/cs-cartagines-vs-verdes",
       "match_name": "cs cartagines vs verdes",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-19T04:02:42.798610+07:00",
-      "next_scan_at": "2026-08-19T04:12:42.798610+07:00",
+      "last_scan_at": "2026-08-19T04:31:42.010205+07:00",
+      "next_scan_at": "2026-08-19T04:41:42.010205+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1672,8 +1657,8 @@
       "match_name": "real estel vs cs herediano",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-19T04:02:42.798610+07:00",
-      "next_scan_at": "2026-08-19T04:12:42.798610+07:00",
+      "last_scan_at": "2026-08-19T04:31:42.010205+07:00",
+      "next_scan_at": "2026-08-19T04:41:42.010205+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
