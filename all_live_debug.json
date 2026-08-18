@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-18T12:33:35.147002+07:00",
+  "generated_at": "2026-08-18T13:04:26.707220+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -118,10 +118,10 @@
       "label": "Pháo Hoa TV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 7,
-      "playlist_blocks": 7,
+      "debug_rows": 9,
+      "playlist_blocks": 9,
       "catalog_placeholders": 0,
-      "metadata_references": 7,
+      "metadata_references": 9,
       "included": true,
       "fresh_stream_blocks": 0,
       "fresh_verified_blocks": 0,
@@ -134,37 +134,46 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 15,
-  "metadata_reference_count": 113,
-  "last_good_recovered_count": 6,
+  "input_candidates": 14,
+  "metadata_reference_count": 115,
+  "last_good_recovered_count": 3,
   "last_good_suppressed_by_fresh_count": 0,
   "last_good_audit": [
     {
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "chuoichien"
+      "kept": false,
+      "reason": "outside-source-window",
+      "source": "chuoichien",
+      "kickoff_iso": "2026-08-18T10:06:00+07:00",
+      "minutes_to_kickoff": -178.45,
+      "filtered_before_probe": true
     },
     {
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoito/playlist.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "chuoichien"
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787029390-0-0-9dee68fcc3657c2639c6a738289c97c2",
-      "kept": true,
-      "reason": "HTTP 200; streaming body (TimeoutError)",
-      "source": "xoilac"
+      "kept": false,
+      "reason": "outside-source-window",
+      "source": "chuoichien",
+      "kickoff_iso": "2026-08-18T10:06:00+07:00",
+      "minutes_to_kickoff": -178.45,
+      "filtered_before_probe": true
     },
     {
       "url": "https://live2.deliverfluxlive.com/livecdn/channel-6.flv?auth_key=3000001787029330-0-0-683b6f507bee0b26e601d813cc00082f",
+      "kept": false,
+      "reason": "outside-source-window",
+      "source": "xoilac",
+      "kickoff_iso": "2026-08-18T10:06:00+07:00",
+      "minutes_to_kickoff": -178.45,
+      "filtered_before_probe": true
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787031142-0-0-9433e17893de57c23fb16893d7ac1057",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787029424-0-0-db4c029455119368c978fbd82e44e2e5",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787031182-0-0-9658a640f25defe6213b5728545f100d",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
@@ -174,16 +183,10 @@
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/14830711.m3u8",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
-      "source": "colatv"
     }
   ],
-  "selected_count": 6,
-  "dropped_count": 9,
+  "selected_count": 3,
+  "dropped_count": 11,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -195,131 +198,6 @@
     "repaired_invalid": 0
   },
   "channels": [
-    {
-      "source": "chuoichien",
-      "source_label": "Chuối Chiên",
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-      "match_key": "pachuca vs puebla|chuoi to",
-      "display_name": "[10:06 18/08] Pachuca vs Puebla - VĐQG Mexico [BLV Chuối To] [FHD M3U8]",
-      "group": "Chuối Chiên",
-      "sport_group": "Chuối Chiên",
-      "quality": "FHD",
-      "kind": "m3u8",
-      "playability": "verified",
-      "classification": null,
-      "classification_reason": null,
-      "has_secret": false,
-      "expiry": null,
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 415,
-      "kickoff_iso": "2026-08-18T10:06:00+07:00",
-      "minutes_to_kickoff": -147.59,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://media.chuoichientv.net/media/uploads/20250623_131434_2bc770b2.png",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-      "home_logo": null,
-      "away_logo": null,
-      "blv": "Chuối To",
-      "recovered_last_good": true,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": "HTTP 200; m3u8=True",
-      "prior_generated_at": "2026-08-18T12:04:11.822641+07:00"
-    },
-    {
-      "source": "chuoichien",
-      "source_label": "Chuối Chiên",
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoito/playlist.m3u8",
-      "match_key": "pachuca vs puebla|chuoi to",
-      "display_name": "[10:06 18/08] Pachuca vs Puebla - VĐQG Mexico [BLV Chuối To] [HD M3U8]",
-      "group": "Chuối Chiên",
-      "sport_group": "Chuối Chiên",
-      "quality": "HD",
-      "kind": "m3u8",
-      "playability": "verified",
-      "classification": null,
-      "classification_reason": null,
-      "has_secret": false,
-      "expiry": null,
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 405,
-      "kickoff_iso": "2026-08-18T10:06:00+07:00",
-      "minutes_to_kickoff": -147.59,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://media.chuoichientv.net/media/uploads/20250623_131434_2bc770b2.png",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoito/playlist.m3u8",
-      "home_logo": null,
-      "away_logo": null,
-      "blv": "Chuối To",
-      "recovered_last_good": true,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": "HTTP 200; m3u8=True",
-      "prior_generated_at": "2026-08-18T12:04:11.822641+07:00"
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-6.flv?auth_key=3000001787029330-0-0-683b6f507bee0b26e601d813cc00082f",
-      "match_key": "pachuca vs puebla|hd max",
-      "display_name": "[10:06 18/08/2026] Pachuca vs Puebla [BLV HD MAX] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "Xôi Lạc",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 405,
-      "kickoff_iso": "2026-08-18T10:06:00+07:00",
-      "minutes_to_kickoff": -147.59,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hpy5q0j6/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-6.flv?auth_key=3000001787029330-0-0-683b6f507bee0b26e601d813cc00082f",
-      "home_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hpy5q0j6/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryoh66gq1zp/image/small",
-      "blv": null,
-      "recovered_last_good": true,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
-      "prior_generated_at": "2026-08-18T12:04:11.822641+07:00"
-    },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
@@ -344,7 +222,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-18T14:00:00+07:00",
-      "minutes_to_kickoff": 86.41,
+      "minutes_to_kickoff": 55.55,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -363,12 +241,12 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
-      "prior_generated_at": "2026-08-18T12:04:11.822641+07:00"
+      "prior_generated_at": "2026-08-18T12:33:35.147002+07:00"
     },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787031142-0-0-9433e17893de57c23fb16893d7ac1057",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787032953-0-0-022e1cb5feaa62009213f27ef6f1be3f",
       "match_key": "nhat ban jones vs strong group athletics|hd alan",
       "display_name": "[14:00 18/08/2026] Nhat Ban Jones vs Strong Group Athletics [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -389,7 +267,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T14:00:00+07:00",
-      "minutes_to_kickoff": 86.41,
+      "minutes_to_kickoff": 55.55,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -399,7 +277,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787031142-0-0-9433e17893de57c23fb16893d7ac1057",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787032953-0-0-022e1cb5feaa62009213f27ef6f1be3f",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/8yomovt22k7q0j6/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/965mk8t4pvwm1ge/image/small",
       "blv": null,
@@ -413,7 +291,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787031182-0-0-9658a640f25defe6213b5728545f100d",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787033000-0-0-2558da6950f1633ed04a288814e49453",
       "match_key": "dn soopers challengers vs nongshim esports academy|hd marty",
       "display_name": "[15:00 18/08/2026] Dn Soopers Challengers vs Nongshim Esports Academy [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -434,7 +312,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-18T15:00:00+07:00",
-      "minutes_to_kickoff": 146.41,
+      "minutes_to_kickoff": 115.55,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -444,7 +322,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787031182-0-0-9658a640f25defe6213b5728545f100d",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787033000-0-0-2558da6950f1633ed04a288814e49453",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/pxwrx81ug6xzqyk/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/jw2r08kuloxpqz8/image/small",
       "blv": null,
@@ -459,7 +337,7 @@
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787031142-0-0-9433e17893de57c23fb16893d7ac1057",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787032953-0-0-022e1cb5feaa62009213f27ef6f1be3f",
       "display_name": "[14:00 18/08/2026] Nhat Ban Jones vs Strong Group Athletics [BLV HD ALAN] [FLV]",
       "match_key": "nhat ban jones vs strong group athletics|hd alan",
       "quality": "HD",
@@ -471,7 +349,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787031182-0-0-9658a640f25defe6213b5728545f100d",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787033000-0-0-2558da6950f1633ed04a288814e49453",
       "display_name": "[15:00 18/08/2026] Dn Soopers Challengers vs Nongshim Esports Academy [BLV HD MARTY] [FLV]",
       "match_key": "dn soopers challengers vs nongshim esports academy|hd marty",
       "quality": "HD",
@@ -485,6 +363,41 @@
   "fresh_preservation_ok": true,
   "dropped": [
     {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791877.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791879.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791880.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/736679.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/841013.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/836774.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/841014.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
       "url": "http://127.0.0.1:9/__phaohoa_metadata__/742909.m3u8",
       "reason": "not-verified-or-not-upcoming",
       "source": "phaohoa"
@@ -495,38 +408,13 @@
       "source": "phaohoa"
     },
     {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/836774.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/736679.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791880.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/791879.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/841013.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787029390-0-0-9dee68fcc3657c2639c6a738289c97c2",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787031142-0-0-9433e17893de57c23fb16893d7ac1057",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "nhat ban jones vs strong group athletics|hd alan"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787029424-0-0-db4c029455119368c978fbd82e44e2e5",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-30.flv?auth_key=3000001787031182-0-0-9658a640f25defe6213b5728545f100d",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "dn soopers challengers vs nongshim esports academy|hd marty"
