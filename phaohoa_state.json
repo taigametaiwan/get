@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-18T19:02:35.611166+07:00",
+  "updated_at": "2026-08-18T19:32:17.012182+07:00",
   "matches": {
-    "805964": {
-      "url": "https://phaohoa1.live/truc-tiep/feyenoord-vs-g-a-eagles-16-08-2026-805964",
-      "match_name": "Feyenoord vs G.A. Eagles",
-      "kickoff_iso": "2026-08-16T19:30:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-16T21:04:15.328254+07:00",
-      "next_scan_at": "2026-08-16T21:09:15.328254+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "839168": {
       "url": "https://phaohoa1.live/truc-tiep/malaysia-vs-viet-nam-16-08-2026-839168",
       "match_name": "Malaysia vs Việt Nam",
@@ -331,9 +317,9 @@
       "url": "https://phaohoa1.live/truc-tiep/shanghai-shenhua-vs-beijing-guoan-11-07-2026-742909",
       "match_name": "Shanghai Shenhua vs Beijing Guoan",
       "kickoff_iso": "2026-08-18T18:35:00+07:00",
-      "minutes_to_kickoff": -27,
-      "last_scan_at": "2026-08-18T19:02:35.611063+07:00",
-      "next_scan_at": "2026-08-18T19:07:35.611063+07:00",
+      "minutes_to_kickoff": -57,
+      "last_scan_at": "2026-08-18T19:32:17.012064+07:00",
+      "next_scan_at": "2026-08-18T19:37:17.012064+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -343,14 +329,16 @@
     },
     "839169": {
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-singapore-18-08-2026-839169",
-      "match_name": "18-08 ASEAN Championship Thái Lan VS Singapore Kevin + Tày",
+      "match_name": "Thái Lan vs Singapore",
       "kickoff_iso": "2026-08-18T20:00:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-18T19:02:35.611063+07:00",
-      "next_scan_at": "2026-08-18T19:22:35.611063+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-18T19:32:17.012064+07:00",
+      "next_scan_at": "2026-08-18T19:37:17.012064+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
