@@ -1,16 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-1598011-1" tvg-name="[03:00 19/08] Deportivo Riestra vs Gimnasia L.P. - Copa Argentina [BLV A Ngáo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132726_93531b0d.png",[03:00 19/08] Deportivo Riestra vs Gimnasia L.P. - Copa Argentina [BLV A Ngáo] [FHD M3U8]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8
-#EXTINF:-1 tvg-id="chuoichien-1598011-2" tvg-name="[03:00 19/08] Deportivo Riestra vs Gimnasia L.P. - Copa Argentina [BLV A Ngáo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132726_93531b0d.png",[03:00 19/08] Deportivo Riestra vs Gimnasia L.P. - Copa Argentina [BLV A Ngáo] [HD M3U8]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angao/playlist.m3u8
 #EXTINF:-1 tvg-id="chuoichien-1607651-1" tvg-name="[05:00 19/08] Deportivo Recoleta vs Boca Juniors - CONMEBOL Sudamericana [BLV Chuối Chao]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133545_13e6cdb1.png",[05:00 19/08] Deportivo Recoleta vs Boca Juniors - CONMEBOL Sudamericana [BLV Chuối Chao] [FHD M3U8]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -23,133 +11,119 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichao/playlist.m3u8
-#EXTINF:-1 tvg-id="xoilac--deportivo-riestra-vs-gimnasia-la-plata-luc-0300-ngay-19-08-2026-s1-1" tvg-name="[03:00 19/08/2026] Deportivo Riestra vs Gimnasia La Plata [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1ghe83zmoep/image/small",[03:00 19/08/2026] Deportivo Riestra vs Gimnasia La Plata [BLV HD TONI] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-9.flv?auth_key=3000001787088714-0-0-d4a341e937ead15ac31a1c3e639ec902
-#EXTINF:-1 tvg-id="xoilac-tiep-deportivo-recoleta-vs-boca-juniors-luc-0500-ngay-19-08-2026-s1-1" tvg-name="[05:00 19/08/2026] Deportivo Recoleta vs Boca Juniors [BLV HD XMEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y39mp1hy0wvmojx/image/small",[05:00 19/08/2026] Deportivo Recoleta vs Boca Juniors [BLV HD XMEN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-tiep-deportivo-recoleta-vs-boca-juniors-luc-0500-ngay-19-08-2026-s1-2" tvg-name="[05:00 19/08/2026] Deportivo Recoleta vs Boca Juniors [BLV HD XMEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y39mp1hy0wvmojx/image/small",[05:00 19/08/2026] Deportivo Recoleta vs Boca Juniors [BLV HD XMEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-13/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-13/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-13.flv?auth_key=3000001787090489-0-0-08f20a701f90867710879b14de62bcdd
-#EXTINF:-1 tvg-id="xoilac-ruc-tiep-ind-rivadavia-vs-fluminense-rj-luc-0500-ngay-19-08-2026-s1-2" tvg-name="[05:00 19/08/2026] Ind Rivadavia vs Fluminense Rj [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllh2np4qvy9/image/small",[05:00 19/08/2026] Ind Rivadavia vs Fluminense Rj [BLV HD BEE] [FLV]
+https://live2.deliverfluxlive.com/livecdn/channel-13.flv?auth_key=3000001787092298-0-0-63ca695b645ddb4a8b3866726f284009
+#EXTINF:-1 tvg-id="xoilac-ruc-tiep-ind-rivadavia-vs-fluminense-rj-luc-0500-ngay-19-08-2026-s1-3" tvg-name="[05:00 19/08/2026] Ind Rivadavia vs Fluminense Rj [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllh2np4qvy9/image/small",[05:00 19/08/2026] Ind Rivadavia vs Fluminense Rj [BLV HD BEE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-8/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-8/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-8.flv?auth_key=3000001787090507-0-0-4e8c61b2b0993f1ff3e7fffb1a4fdbc0
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-mount-pleasant-fa-vs-cibao-fc-luc-0500-ngay-19-08-2026-s1-3" tvg-name="[05:00 19/08/2026] Mount Pleasant Fa vs Cibao Fc [BLV HD OLER] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllhx78jqvy9/image/small",[05:00 19/08/2026] Mount Pleasant Fa vs Cibao Fc [BLV HD OLER] [FLV]
+https://live2.deliverfluxlive.com/livecdn/channel-8.flv?auth_key=3000001787092312-0-0-24613c3e4169d7991b7ae30216527269
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-mount-pleasant-fa-vs-cibao-fc-luc-0500-ngay-19-08-2026-s1-4" tvg-name="[05:00 19/08/2026] Mount Pleasant Fa vs Cibao Fc [BLV HD OLER] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllhx78jqvy9/image/small",[05:00 19/08/2026] Mount Pleasant Fa vs Cibao Fc [BLV HD OLER] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-28/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-28/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-28.flv?auth_key=3000001787090518-0-0-5a4c986dfea859394c44b6466d5cd016
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-londrina-pr-vs-atl-goianiense-luc-0530-ngay-19-08-2026-s1-4" tvg-name="[05:30 19/08/2026] Londrina Pr vs Atl Goianiense [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghlpkm0ve/image/small",[05:30 19/08/2026] Londrina Pr vs Atl Goianiense [BLV HD LOGAN] [FLV]
+https://live2.deliverfluxlive.com/livecdn/channel-28.flv?auth_key=3000001787092316-0-0-36b757ceabd29cae4b35179ab0ce316d
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-londrina-pr-vs-atl-goianiense-luc-0530-ngay-19-08-2026-s1-1" tvg-name="[05:30 19/08/2026] Londrina Pr vs Atl Goianiense [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghlpkm0ve/image/small",[05:30 19/08/2026] Londrina Pr vs Atl Goianiense [BLV HD LOGAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-23/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-23/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-23.flv?auth_key=3000001787090563-0-0-fda073cbd350d6abe3a8c96b0292e16c
+https://live2.deliverfluxlive.com/livecdn/channel-23.flv?auth_key=3000001787092280-0-0-45a7d5fbb6c16975ae83eaf4114a7129
 #EXTINF:-1 tvg-id="xoilac-onnecticut-sun-vs-nu-los-angeles-sparks-luc-0600-ngay-19-08-2026-s1-6" tvg-name="[06:00 19/08/2026] Nu Connecticut Sun vs Nu Los Angeles Sparks [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/z318q6ntd9ymo9j/image/small",[06:00 19/08/2026] Nu Connecticut Sun vs Nu Los Angeles Sparks [BLV HD STEP] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-26/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-26/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-26.flv?auth_key=3000001787090591-0-0-dba42ffabcfc0990589d0ce339366be4
+https://live2.deliverfluxlive.com/livecdn/channel-26.flv?auth_key=3000001787092372-0-0-15fea6737fff08c6fc5b5de2646803b8
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-aryna-sabalenka-vs-wang-xinyu-luc-0600-ngay-19-08-2026-s1-5" tvg-name="[06:00 19/08/2026] Aryna Sabalenka vs Wang Xinyu [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/8yomojf0njgq0j6/image/small",[06:00 19/08/2026] Aryna Sabalenka vs Wang Xinyu [BLV HD VIC] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-32.flv?auth_key=3000001787090570-0-0-21d7d5c17e85c2cb3d210528731740a7
+https://live2.deliverfluxlive.com/livecdn/channel-32.flv?auth_key=3000001787092341-0-0-d2b1365cb3adc44ea84cbca286062864
 #EXTINF:-1 tvg-id="xoilac-ruc-tiep-nu-south-sudan-vs-nu-argentina-luc-0630-ngay-19-08-2026-s1-7" tvg-name="[06:30 19/08/2026] Nu South Sudan vs Nu Argentina [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/pxwrx5t1ly9qyk0/image/small",[06:30 19/08/2026] Nu South Sudan vs Nu Argentina [BLV HD TOMMY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787090616-0-0-934da68dbd16c281c0bac542a5328819
+https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787092401-0-0-04a84b3179ab91e1eb130847001861ec
 #EXTINF:-1 tvg-id="xoilac-ruc-tiep-learner-tien-vs-frances-tiafoe-luc-0710-ngay-19-08-2026-s1-8" tvg-name="[07:10 19/08/2026] Learner Tien vs Frances Tiafoe [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/k82re9fdg87mepz/image/small",[07:10 19/08/2026] Learner Tien vs Frances Tiafoe [BLV HD VIC] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-32.flv?auth_key=3000001787090625-0-0-0752fa8b3839f49370447f682a4ed550
+https://live2.deliverfluxlive.com/livecdn/channel-32.flv?auth_key=3000001787092409-0-0-c7d223f7faa40102c0b591b606437255
 #EXTINF:-1 tvg-id="xoilac-tiep-ca-banfield-vs-ferrocarril-midland-luc-0715-ngay-19-08-2026-s1-9" tvg-name="[07:15 19/08/2026] Ca Banfield vs Ferrocarril Midland [BLV HD JOHAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7hevlqdyj/image/small",[07:15 19/08/2026] Ca Banfield vs Ferrocarril Midland [BLV HD JOHAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-12/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-12/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787090625-0-0-2c4bbfa026416f3e29db42cdc42095dd
+https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787092410-0-0-c1a830435abece2e1765ab8a33c34dc3
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-sao-paulo-vs-bolivar-luc-0730-ngay-19-08-2026-s1-10" tvg-name="[07:30 19/08/2026] Sao Paulo vs Bolivar [BLV HD NEMO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhjj6qg8n/image/small",[07:30 19/08/2026] Sao Paulo vs Bolivar [BLV HD NEMO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-17/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-17/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-17.flv?auth_key=3000001787090648-0-0-e38ac183390afd6f8748586bc2da5327
+https://live2.deliverfluxlive.com/livecdn/channel-17.flv?auth_key=3000001787092430-0-0-aca6420f70689a0d45dfff41b92565a4
 #EXTINF:-1 tvg-id="xoilac-uc-tiep-univ-catolica-vs-estudiantes-lp-luc-0730-ngay-19-08-2026-s1-11" tvg-name="[07:30 19/08/2026] Univ Catolica vs Estudiantes Lp [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh694r1ge/image/small",[07:30 19/08/2026] Univ Catolica vs Estudiantes Lp [BLV HD SILVA] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-20/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-20/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-20.flv?auth_key=3000001787090654-0-0-eea0a2aa044274a46825eb9aa40f8b9d
+https://live2.deliverfluxlive.com/livecdn/channel-20.flv?auth_key=3000001787092432-0-0-74484cd3515e21aebada6548032f267a
 #EXTINF:-1 tvg-id="xoilac-sporte-clube-vs-esporte-clube-juventude-luc-0735-ngay-19-08-2026-s1-12" tvg-name="[07:35 19/08/2026] Goias Esporte Clube vs Esporte Clube Juventude [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpp5m7vx/image/small",[07:35 19/08/2026] Goias Esporte Clube vs Esporte Clube Juventude [BLV HD JEAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-7/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-7/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787090657-0-0-c66c4e19f00bbd725774ab98448ea2cc
+https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787092434-0-0-a2757091b2eb86b976d18638a4d67f98
 #EXTINF:-1 tvg-id="xoilac--cartagines-deportiva-vs-hankook-verdes-luc-0800-ngay-19-08-2026-s1-13" tvg-name="[08:00 19/08/2026] Cartagines Deportiva vs Hankook Verdes [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh692pm7vx/image/small",[08:00 19/08/2026] Cartagines Deportiva vs Hankook Verdes [BLV HD ZANE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-22/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-22/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-22.flv?auth_key=3000001787090658-0-0-4e37eb583cf177600e99e4db3f4333b2
+https://live2.deliverfluxlive.com/livecdn/channel-22.flv?auth_key=3000001787092438-0-0-088c357f853416ef49d011b8c2afe820
 #EXTINF:-1 tvg-id="xoilac-p-nu-las-vegas-aces-vs-nu-atlanta-dream-luc-0800-ngay-19-08-2026-s1-14" tvg-name="[08:00 19/08/2026] Nu Las Vegas Aces vs Nu Atlanta Dream [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/8y39mp4t8x8mojx/image/small",[08:00 19/08/2026] Nu Las Vegas Aces vs Nu Atlanta Dream [BLV HD ALAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livebytexscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livebytexscore.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false","Origin":"https://xlz.livebytexscore.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787090671-0-0-1f7472b04d7c99204308788bcbc80e57
-#EXTINF:-1 tvg-id="colatv-54c92704f31d-1" tvg-name="[03:00 19/08] Dep Riestra vs Clb Gimnasia La Plata [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV",[03:00 19/08] Dep Riestra vs Clb Gimnasia La Plata [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/19919577.m3u8
-#EXTINF:-1 tvg-id="colatv-b695f989bae3-1" tvg-name="[05:00 19/08] Deportivo Recoleta vs Boca Juniors [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f7e33bab2469f4e5b80d4d47cd92b381.png!w80",[05:00 19/08] Deportivo Recoleta vs Boca Juniors [BLV MOUNTAIN DEWĐang xem] [M3U8]
+https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787092442-0-0-94779a93b4828cfd874252f9d158586e
+#EXTINF:-1 tvg-id="colatv-20deec15e907-1" tvg-name="[05:00 19/08] Deportivo Recoleta vs Boca Juniors [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f7e33bab2469f4e5b80d4d47cd92b381.png!w80",[05:00 19/08] Deportivo Recoleta vs Boca Juniors [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/87547578.m3u8
-#EXTINF:-1 tvg-id="colatv-d6e1d245e9ac-1" tvg-name="[05:00 19/08] Independiente Rivadavia vs Fluminense Rj [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/7e779bba58b944c8cfa786d857430383.png!w80",[05:00 19/08] Independiente Rivadavia vs Fluminense Rj [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
+#EXTINF:-1 tvg-id="colatv-d6e1d245e9ac-1" tvg-name="[05:00 19/08] Independiente Rivadavia vs Fluminense RJ [BLV PEPSIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/7e779bba58b944c8cfa786d857430383.png!w80",[05:00 19/08] Independiente Rivadavia vs Fluminense RJ [BLV PEPSIĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/59444581.m3u8
-#EXTINF:-1 tvg-id="colatv-3c9e56d7bfda-1" tvg-name="[06:00 19/08] Connecticut Sun vs Los Angeles Sparks [BLV POCARIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/basketball/team/616c37f8e35a1c33a4766dbc86c0ca3a.png!w80",[06:00 19/08] Connecticut Sun vs Los Angeles Sparks [BLV POCARIĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-22ba2c6b6dec-1" tvg-name="[06:00 19/08] Connecticut Sun vs Los Angeles Sparks [BLV POCARIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/basketball/team/616c37f8e35a1c33a4766dbc86c0ca3a.png!w80",[06:00 19/08] Connecticut Sun vs Los Angeles Sparks [BLV POCARIĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
