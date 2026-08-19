@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-19T20:13:06.204084+07:00",
+  "updated_at": "2026-08-19T20:42:44.016663+07:00",
   "matches": {
     "718676": {
       "url": "https://phaohoa1.live/truc-tiep/gnistan-vs-ilves-17-08-2026-718676",
@@ -253,9 +253,9 @@
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-19-08-2026-839170",
       "match_name": "Việt Nam vs Malaysia",
       "kickoff_iso": "2026-08-19T20:00:00+07:00",
-      "minutes_to_kickoff": -13,
-      "last_scan_at": "2026-08-19T20:13:06.203881+07:00",
-      "next_scan_at": "2026-08-19T20:18:06.203881+07:00",
+      "minutes_to_kickoff": -42,
+      "last_scan_at": "2026-08-19T20:42:44.016452+07:00",
+      "next_scan_at": "2026-08-19T20:47:44.016452+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -279,11 +279,11 @@
     },
     "105559": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-18-08-2026-105559",
-      "match_name": "19-08 Super League Mashal Muborak VS Andijan Văn Minh",
-      "kickoff_iso": "2026-08-19T22:00:00+07:00",
-      "minutes_to_kickoff": 108,
-      "last_scan_at": "2026-08-19T20:13:06.203881+07:00",
-      "next_scan_at": "2026-08-19T20:33:06.203881+07:00",
+      "match_name": "19-08 King's Cup Damac VS Al Taawon KaKa",
+      "kickoff_iso": "2026-08-19T23:15:00+07:00",
+      "minutes_to_kickoff": 153,
+      "last_scan_at": "2026-08-19T20:42:44.016452+07:00",
+      "next_scan_at": "2026-08-19T21:27:44.016452+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -319,17 +319,41 @@
     },
     "105558": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-18-08-2026-105558",
-      "match_name": "Việt Nam vs Malaysia",
+      "match_name": "Viet Nam vs Malaysia",
       "kickoff_iso": "2026-08-19T20:00:00+07:00",
-      "minutes_to_kickoff": -13,
-      "last_scan_at": "2026-08-19T20:13:06.203881+07:00",
-      "next_scan_at": "2026-08-19T20:18:06.203881+07:00",
+      "minutes_to_kickoff": -42,
+      "last_scan_at": "2026-08-19T20:42:44.016452+07:00",
+      "next_scan_at": "2026-08-19T20:47:44.016452+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "736680": {
+      "url": "https://phaohoa1.live/truc-tiep/mashal-muborak-vs-andijan-19-08-2026-736680",
+      "match_name": "19-08 Super League Mashal Muborak VS Andijan Văn Minh",
+      "kickoff_iso": "2026-08-19T22:00:00+07:00",
+      "minutes_to_kickoff": 78,
+      "last_scan_at": "2026-08-19T20:42:44.016452+07:00",
+      "next_scan_at": "2026-08-19T21:02:44.016452+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "791889": {
+      "url": "https://phaohoa1.live/truc-tiep/jeddah-vs-al-kholood-19-08-2026-791889",
+      "match_name": "19-08 King's Cup Jeddah VS Al Kholood Chim Nhỏ",
+      "kickoff_iso": "2026-08-19T23:30:00+07:00",
+      "minutes_to_kickoff": 168,
+      "last_scan_at": "2026-08-19T20:42:44.016452+07:00",
+      "next_scan_at": "2026-08-19T21:27:44.016452+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
