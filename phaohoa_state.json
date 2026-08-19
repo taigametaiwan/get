@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-19T17:34:46.904398+07:00",
+  "updated_at": "2026-08-19T18:41:04.612010+07:00",
   "matches": {
     "718676": {
       "url": "https://phaohoa1.live/truc-tiep/gnistan-vs-ilves-17-08-2026-718676",
@@ -253,57 +253,61 @@
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-19-08-2026-839170",
       "match_name": "19-08 ASEAN Championship Việt Nam VS Malaysia Người Lửa",
       "kickoff_iso": "2026-08-19T20:00:00+07:00",
-      "minutes_to_kickoff": 176,
-      "last_scan_at": "2026-08-19T17:04:47.178753+07:00",
-      "next_scan_at": "2026-08-19T17:49:47.178753+07:00",
+      "minutes_to_kickoff": 80,
+      "last_scan_at": "2026-08-19T18:41:04.611729+07:00",
+      "next_scan_at": "2026-08-19T19:01:04.611729+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "742913": {
       "url": "https://phaohoa1.live/truc-tiep/shanghai-port-vs-dalian-yingbo-12-07-2026-742913",
       "match_name": "19-08 ASEAN Championship Việt Nam VS Malaysia A Heo",
       "kickoff_iso": "2026-08-19T20:00:00+07:00",
-      "minutes_to_kickoff": 176,
-      "last_scan_at": "2026-08-19T17:04:47.178753+07:00",
-      "next_scan_at": "2026-08-19T17:49:47.178753+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "minutes_to_kickoff": 80,
+      "last_scan_at": "2026-08-19T18:41:04.611729+07:00",
+      "next_scan_at": "2026-08-19T18:51:04.611729+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "105559": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-18-08-2026-105559",
       "match_name": "19-08 ASEAN Championship Việt Nam VS Malaysia Kevin",
       "kickoff_iso": "2026-08-19T20:00:00+07:00",
-      "minutes_to_kickoff": 176,
-      "last_scan_at": "2026-08-19T17:04:47.178753+07:00",
-      "next_scan_at": "2026-08-19T17:49:47.178753+07:00",
+      "minutes_to_kickoff": 79,
+      "last_scan_at": "2026-08-19T18:41:04.611729+07:00",
+      "next_scan_at": "2026-08-19T19:01:04.611729+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "0723cd7a0e3a": {
       "url": "https://phaohoa1.live/truc-tiep/italy-vs-romania",
-      "match_name": "19-08 U17 World Championship Italy VS Romania KaKa",
+      "match_name": "Italy vs Romania",
       "kickoff_iso": "2026-08-19T18:30:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-08-19T17:34:46.904253+07:00",
-      "next_scan_at": "2026-08-19T17:54:46.904253+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -10,
+      "last_scan_at": "2026-08-19T18:41:04.611729+07:00",
+      "next_scan_at": "2026-08-19T18:46:04.611729+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     },
     "829601": {
       "url": "https://phaohoa1.live/truc-tiep/anyang-vs-jeju-sk-19-08-2026-829601",
       "match_name": "Anyang vs Jeju SK",
       "kickoff_iso": "2026-08-19T17:30:00+07:00",
-      "minutes_to_kickoff": -4,
-      "last_scan_at": "2026-08-19T17:34:46.904253+07:00",
-      "next_scan_at": "2026-08-19T17:39:46.904253+07:00",
+      "minutes_to_kickoff": -70,
+      "last_scan_at": "2026-08-19T18:41:04.611729+07:00",
+      "next_scan_at": "2026-08-19T18:46:04.611729+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
