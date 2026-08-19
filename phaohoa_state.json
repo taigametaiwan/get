@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-19T17:04:47.178945+07:00",
+  "updated_at": "2026-08-19T17:34:46.904398+07:00",
   "matches": {
     "718676": {
       "url": "https://phaohoa1.live/truc-tiep/gnistan-vs-ilves-17-08-2026-718676",
@@ -289,9 +289,9 @@
       "url": "https://phaohoa1.live/truc-tiep/italy-vs-romania",
       "match_name": "19-08 U17 World Championship Italy VS Romania KaKa",
       "kickoff_iso": "2026-08-19T18:30:00+07:00",
-      "minutes_to_kickoff": 86,
-      "last_scan_at": "2026-08-19T17:04:47.178753+07:00",
-      "next_scan_at": "2026-08-19T17:24:47.178753+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-08-19T17:34:46.904253+07:00",
+      "next_scan_at": "2026-08-19T17:54:46.904253+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -299,14 +299,16 @@
     },
     "829601": {
       "url": "https://phaohoa1.live/truc-tiep/anyang-vs-jeju-sk-19-08-2026-829601",
-      "match_name": "19-08 Korea Cup Anyang VS Jeju SK Tày",
+      "match_name": "Anyang vs Jeju SK",
       "kickoff_iso": "2026-08-19T17:30:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-08-19T17:04:47.178753+07:00",
-      "next_scan_at": "2026-08-19T17:14:47.178753+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-08-19T17:34:46.904253+07:00",
+      "next_scan_at": "2026-08-19T17:39:46.904253+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
