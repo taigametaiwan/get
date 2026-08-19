@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-19T23:05:32.840172+07:00",
+  "updated_at": "2026-08-20T00:20:08.741835+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1119,36 +1119,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1561584": {
-      "url": "https://live04.chuoichientv.me/live/1561584/al-zulfi-vs-al-riyadh",
-      "match_name": "Al Zulfi vs Al Riyadh - King's Cup",
-      "kickoff_iso": "2026-08-17T23:15:00+07:00",
-      "minutes_to_kickoff": 13,
-      "last_scan_at": "2026-08-17T23:02:17.406454+07:00",
-      "next_scan_at": "2026-08-17T23:07:17.406454+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitay/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1564803": {
-      "url": "https://live04.chuoichientv.me/live/1564803/sassuolo-vs-cesena",
-      "match_name": "Sassuolo vs Cesena - Coppa Italia",
-      "kickoff_iso": "2026-08-17T23:30:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-18T01:02:21.992979+07:00",
-      "next_scan_at": "2026-08-18T01:07:21.992979+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoito/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1578027": {
       "url": "https://live04.chuoichientv.me/live/1578027/bgc-asian-scholars-w-vs-samuser-w",
       "match_name": "bgc asian scholars w vs samuser w",
@@ -1218,21 +1188,6 @@
       "verified_urls": [
         "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
         "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1561581": {
-      "url": "https://live04.chuoichientv.me/live/1561581/al-taee-vs-al-qadisiyah-fc",
-      "match_name": "Al Taee vs Al-Qadisiyah FC - King's Cup",
-      "kickoff_iso": "2026-08-17T23:15:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-08-18T01:02:21.992979+07:00",
-      "next_scan_at": "2026-08-18T01:07:21.992979+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitay/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1638,23 +1593,21 @@
       "url": "https://live04.chuoichientv.me/live/1516107/mashal-vs-andijan",
       "match_name": "Mash'al vs Andijan - VĐQG Uzbekistan",
       "kickoff_iso": "2026-08-19T22:00:00+07:00",
-      "minutes_to_kickoff": -65,
-      "last_scan_at": "2026-08-19T23:05:32.840044+07:00",
-      "next_scan_at": "2026-08-19T23:10:32.840044+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitay/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -139,
+      "last_scan_at": "2026-08-20T00:20:08.741671+07:00",
+      "next_scan_at": "2026-08-20T00:25:08.741671+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "1563650": {
       "url": "https://live04.chuoichientv.me/live/1563650/rubin-vs-spartak-moscow",
-      "match_name": "Rubin vs Spartak Moscow - Cúp Nga",
+      "match_name": "rubin vs spartak moscow",
       "kickoff_iso": "2026-08-19T22:30:00+07:00",
-      "minutes_to_kickoff": -35,
-      "last_scan_at": "2026-08-19T23:05:32.840044+07:00",
-      "next_scan_at": "2026-08-19T23:10:32.840044+07:00",
+      "minutes_to_kickoff": -109,
+      "last_scan_at": "2026-08-20T00:20:08.741671+07:00",
+      "next_scan_at": "2026-08-20T00:25:08.741671+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1667,9 +1620,9 @@
       "url": "https://live04.chuoichientv.me/live/1561585/damac-vs-al-taawon",
       "match_name": "Damac vs Al Taawon - King's Cup",
       "kickoff_iso": "2026-08-19T23:15:00+07:00",
-      "minutes_to_kickoff": 10,
-      "last_scan_at": "2026-08-19T23:05:32.840044+07:00",
-      "next_scan_at": "2026-08-19T23:10:32.840044+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-08-20T00:20:08.741671+07:00",
+      "next_scan_at": "2026-08-20T00:25:08.741671+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1680,14 +1633,17 @@
     },
     "1561586": {
       "url": "https://live04.chuoichientv.me/live/1561586/jeddah-club-vs-al-kholood",
-      "match_name": "Jeddah Club vs Al Kholood - King's Cup",
+      "match_name": "jeddah club vs al kholood",
       "kickoff_iso": "2026-08-19T23:30:00+07:00",
-      "minutes_to_kickoff": 25,
-      "last_scan_at": "2026-08-19T23:05:32.840044+07:00",
-      "next_scan_at": "2026-08-19T23:15:32.840044+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -50,
+      "last_scan_at": "2026-08-20T00:20:08.741671+07:00",
+      "next_scan_at": "2026-08-20T00:25:08.741671+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctru/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1604797": {
@@ -1695,8 +1651,8 @@
       "match_name": "barcelona vs al ahly",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-19T23:05:32.840044+07:00",
-      "next_scan_at": "2026-08-19T23:15:32.840044+07:00",
+      "last_scan_at": "2026-08-20T00:20:08.741671+07:00",
+      "next_scan_at": "2026-08-20T00:30:08.741671+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1707,8 +1663,8 @@
       "match_name": "atletico madrid vs malaga",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-19T23:05:32.840044+07:00",
-      "next_scan_at": "2026-08-19T23:15:32.840044+07:00",
+      "last_scan_at": "2026-08-20T00:20:08.741671+07:00",
+      "next_scan_at": "2026-08-20T00:30:08.741671+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1719,8 +1675,8 @@
       "match_name": "celtic vs lask linz",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-19T23:05:32.840044+07:00",
-      "next_scan_at": "2026-08-19T23:15:32.840044+07:00",
+      "last_scan_at": "2026-08-20T00:20:08.741671+07:00",
+      "next_scan_at": "2026-08-20T00:30:08.741671+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1731,8 +1687,8 @@
       "match_name": "philadelphia union vs inter miami",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-19T23:05:32.840044+07:00",
-      "next_scan_at": "2026-08-19T23:15:32.840044+07:00",
+      "last_scan_at": "2026-08-20T00:20:08.741671+07:00",
+      "next_scan_at": "2026-08-20T00:30:08.741671+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1743,8 +1699,8 @@
       "match_name": "colorado rapids vs los angeles fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-19T23:05:32.840044+07:00",
-      "next_scan_at": "2026-08-19T23:15:32.840044+07:00",
+      "last_scan_at": "2026-08-20T00:20:08.741671+07:00",
+      "next_scan_at": "2026-08-20T00:30:08.741671+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
