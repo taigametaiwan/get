@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-19T13:32:38.188267+07:00",
+  "updated_at": "2026-08-19T17:04:47.178945+07:00",
   "matches": {
     "718676": {
       "url": "https://phaohoa1.live/truc-tiep/gnistan-vs-ilves-17-08-2026-718676",
@@ -247,6 +247,66 @@
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
       ],
+      "scan_decision": "browser-fallback"
+    },
+    "839170": {
+      "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-19-08-2026-839170",
+      "match_name": "19-08 ASEAN Championship Việt Nam VS Malaysia Người Lửa",
+      "kickoff_iso": "2026-08-19T20:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-08-19T17:04:47.178753+07:00",
+      "next_scan_at": "2026-08-19T17:49:47.178753+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "742913": {
+      "url": "https://phaohoa1.live/truc-tiep/shanghai-port-vs-dalian-yingbo-12-07-2026-742913",
+      "match_name": "19-08 ASEAN Championship Việt Nam VS Malaysia A Heo",
+      "kickoff_iso": "2026-08-19T20:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-08-19T17:04:47.178753+07:00",
+      "next_scan_at": "2026-08-19T17:49:47.178753+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "105559": {
+      "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-18-08-2026-105559",
+      "match_name": "19-08 ASEAN Championship Việt Nam VS Malaysia Kevin",
+      "kickoff_iso": "2026-08-19T20:00:00+07:00",
+      "minutes_to_kickoff": 176,
+      "last_scan_at": "2026-08-19T17:04:47.178753+07:00",
+      "next_scan_at": "2026-08-19T17:49:47.178753+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "0723cd7a0e3a": {
+      "url": "https://phaohoa1.live/truc-tiep/italy-vs-romania",
+      "match_name": "19-08 U17 World Championship Italy VS Romania KaKa",
+      "kickoff_iso": "2026-08-19T18:30:00+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-19T17:04:47.178753+07:00",
+      "next_scan_at": "2026-08-19T17:24:47.178753+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "829601": {
+      "url": "https://phaohoa1.live/truc-tiep/anyang-vs-jeju-sk-19-08-2026-829601",
+      "match_name": "19-08 Korea Cup Anyang VS Jeju SK Tày",
+      "kickoff_iso": "2026-08-19T17:30:00+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-19T17:04:47.178753+07:00",
+      "next_scan_at": "2026-08-19T17:14:47.178753+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     }
   }
