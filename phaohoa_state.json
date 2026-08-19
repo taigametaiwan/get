@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-19T22:36:15.499597+07:00",
+  "updated_at": "2026-08-19T23:06:33.348695+07:00",
   "matches": {
     "791884": {
       "url": "https://phaohoa1.live/truc-tiep/al-taee-vs-al-qadsiah-17-08-2026-791884",
@@ -14,20 +14,6 @@
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "791875": {
-      "url": "https://phaohoa1.live/truc-tiep/al-anwar-vs-al-ahli-sc-17-08-2026-791875",
-      "match_name": "Al Anwar vs Al Ahli SC",
-      "kickoff_iso": "2026-08-17T23:00:00+07:00",
-      "minutes_to_kickoff": -123,
-      "last_scan_at": "2026-08-18T01:04:18.207930+07:00",
-      "next_scan_at": "2026-08-18T01:09:18.207930+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -313,9 +299,9 @@
       "url": "https://phaohoa1.live/truc-tiep/mashal-muborak-vs-andijan-19-08-2026-736680",
       "match_name": "Mashal Muborak vs Andijan",
       "kickoff_iso": "2026-08-19T22:00:00+07:00",
-      "minutes_to_kickoff": -36,
-      "last_scan_at": "2026-08-19T22:36:15.499505+07:00",
-      "next_scan_at": "2026-08-19T22:41:15.499505+07:00",
+      "minutes_to_kickoff": -66,
+      "last_scan_at": "2026-08-19T23:06:33.348519+07:00",
+      "next_scan_at": "2026-08-19T23:11:33.348519+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -325,11 +311,11 @@
     },
     "791889": {
       "url": "https://phaohoa1.live/truc-tiep/jeddah-vs-al-kholood-19-08-2026-791889",
-      "match_name": "19-08 King's Cup Jeddah VS Al Kholood Chim Nhỏ",
-      "kickoff_iso": "2026-08-19T23:30:00+07:00",
-      "minutes_to_kickoff": 104,
-      "last_scan_at": "2026-08-19T21:47:07.883024+07:00",
-      "next_scan_at": "2026-08-19T22:07:07.883024+07:00",
+      "match_name": "20-08 UEFA Champions League Celtic VS LASK Pháo Thủ",
+      "kickoff_iso": "2026-08-20T02:00:00+07:00",
+      "minutes_to_kickoff": 174,
+      "last_scan_at": "2026-08-19T23:06:33.348519+07:00",
+      "next_scan_at": "2026-08-19T23:51:33.348519+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -339,9 +325,9 @@
       "url": "https://phaohoa1.live/truc-tiep/barcelona-vs-al-ahly-20-08-2026-826155",
       "match_name": "20-08 Club Friendlies Barcelona VS Al Ahly A Heo",
       "kickoff_iso": "2026-08-20T01:00:00+07:00",
-      "minutes_to_kickoff": 177,
-      "last_scan_at": "2026-08-19T22:03:14.345991+07:00",
-      "next_scan_at": "2026-08-19T22:48:14.345991+07:00",
+      "minutes_to_kickoff": 114,
+      "last_scan_at": "2026-08-19T23:06:33.348519+07:00",
+      "next_scan_at": "2026-08-19T23:26:33.348519+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -351,13 +337,37 @@
       "url": "https://phaohoa1.live/truc-tiep/damac-vs-al-taawon-19-08-2026-791888",
       "match_name": "19-08 King's Cup Damac VS Al Taawon KaKa",
       "kickoff_iso": "2026-08-19T23:15:00+07:00",
-      "minutes_to_kickoff": 39,
-      "last_scan_at": "2026-08-19T22:36:15.499505+07:00",
-      "next_scan_at": "2026-08-19T22:46:15.499505+07:00",
+      "minutes_to_kickoff": 9,
+      "last_scan_at": "2026-08-19T23:06:33.348519+07:00",
+      "next_scan_at": "2026-08-19T23:11:33.348519+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "798812": {
+      "url": "https://phaohoa1.live/truc-tiep/atl-madrid-vs-malaga-20-08-2026-798812",
+      "match_name": "20-08 La Liga Atl. Madrid VS Malaga Kevin",
+      "kickoff_iso": "2026-08-20T02:00:00+07:00",
+      "minutes_to_kickoff": 174,
+      "last_scan_at": "2026-08-19T23:06:33.348519+07:00",
+      "next_scan_at": "2026-08-19T23:51:33.348519+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "841020": {
+      "url": "https://phaohoa1.live/truc-tiep/slovan-bratislava-vs-celje-20-08-2026-841020",
+      "match_name": "20-08 UEFA Champions League Slovan Bratislava VS Celje Chim Nhỏ",
+      "kickoff_iso": "2026-08-20T02:00:00+07:00",
+      "minutes_to_kickoff": 174,
+      "last_scan_at": "2026-08-19T23:06:33.348519+07:00",
+      "next_scan_at": "2026-08-19T23:51:33.348519+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
