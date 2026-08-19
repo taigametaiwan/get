@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-20T02:36:42.805626+07:00",
+  "updated_at": "2026-08-20T04:34:12.238873+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1131,18 +1131,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1493069": {
-      "url": "https://live04.chuoichientv.me/live/1493069/lanus-vs-independiente",
-      "match_name": "Lanus vs Independiente - VĐQG Argentina",
-      "kickoff_iso": "2026-08-18T03:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-18T05:01:31.657229+07:00",
-      "next_scan_at": "2026-08-18T05:06:31.657229+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "1493076": {
       "url": "https://live04.chuoichientv.me/live/1493076/velez-sarsfield-vs-defensa-y-justicia",
       "match_name": "Velez Sarsfield vs Defensa Y Justicia - VĐQG Argentina",
@@ -1607,22 +1595,22 @@
     "1490391": {
       "url": "https://live04.chuoichientv.me/live/1490391/philadelphia-union-vs-inter-miami",
       "match_name": "philadelphia union vs inter miami",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-20T02:36:42.805520+07:00",
-      "next_scan_at": "2026-08-20T02:46:42.805520+07:00",
+      "kickoff_iso": "2026-08-20T06:30:00+07:00",
+      "minutes_to_kickoff": 116,
+      "last_scan_at": "2026-08-20T04:34:12.238805+07:00",
+      "next_scan_at": "2026-08-20T04:54:12.238805+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1490400": {
       "url": "https://live04.chuoichientv.me/live/1490400/colorado-rapids-vs-los-angeles-fc",
       "match_name": "colorado rapids vs los angeles fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-20T02:36:42.805520+07:00",
-      "next_scan_at": "2026-08-20T02:46:42.805520+07:00",
+      "last_scan_at": "2026-08-20T04:34:12.238805+07:00",
+      "next_scan_at": "2026-08-20T04:44:12.238805+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1633,8 +1621,8 @@
       "match_name": "los angeles galaxy vs san jose earthquakes",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-20T02:36:42.805520+07:00",
-      "next_scan_at": "2026-08-20T02:46:42.805520+07:00",
+      "last_scan_at": "2026-08-20T04:34:12.238805+07:00",
+      "next_scan_at": "2026-08-20T04:44:12.238805+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
