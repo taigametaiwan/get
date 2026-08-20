@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-20T19:31:33.918919+07:00",
+  "updated_at": "2026-08-20T20:01:40.562365+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1131,21 +1131,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1619318": {
-      "url": "https://live04.chuoichientv.me/live/1619318/thailand-vs-singapore",
-      "match_name": "Thailand vs Singapore - AFF Championship",
-      "kickoff_iso": "2026-08-18T20:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-18T21:31:50.569692+07:00",
-      "next_scan_at": "2026-08-18T21:36:50.569692+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1516106": {
       "url": "https://live04.chuoichientv.me/live/1516106/buxoro-vs-neftchi",
       "match_name": "Buxoro vs Neftchi - VĐQG Uzbekistan",
@@ -1587,9 +1572,9 @@
       "url": "https://live04.chuoichientv.me/live/1578035/al-nassr-w-vs-bam-khatoon-w",
       "match_name": "Al Nassr W vs Bam Khatoon W - AFC Women's Champions League",
       "kickoff_iso": "2026-08-20T19:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-20T19:31:33.918766+07:00",
-      "next_scan_at": "2026-08-20T19:36:33.918766+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-20T20:01:40.562244+07:00",
+      "next_scan_at": "2026-08-20T20:06:40.562244+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1602,9 +1587,9 @@
       "url": "https://live04.chuoichientv.me/live/1578037/ilbirs-w-vs-tsl-fc-w",
       "match_name": "Ilbirs W vs TSL FC W - AFC Women's Champions League",
       "kickoff_iso": "2026-08-20T21:00:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-08-20T19:31:33.918766+07:00",
-      "next_scan_at": "2026-08-20T19:51:33.918766+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-08-20T20:01:40.562244+07:00",
+      "next_scan_at": "2026-08-20T20:21:40.562244+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1613,34 +1598,34 @@
     "1623435": {
       "url": "https://live04.chuoichientv.me/live/1623435/kairat-almaty-vs-anderlecht",
       "match_name": "kairat almaty vs anderlecht",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-20T19:31:33.918766+07:00",
-      "next_scan_at": "2026-08-20T19:41:33.918766+07:00",
+      "kickoff_iso": "2026-08-20T22:00:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-20T20:01:40.562244+07:00",
+      "next_scan_at": "2026-08-20T20:21:40.562244+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1623436": {
       "url": "https://live04.chuoichientv.me/live/1623436/mjallby-vs-red-bull-salzburg",
       "match_name": "mjallby vs red bull salzburg",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-20T19:31:33.918766+07:00",
-      "next_scan_at": "2026-08-20T19:41:33.918766+07:00",
+      "kickoff_iso": "2026-08-20T23:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-20T20:01:40.562244+07:00",
+      "next_scan_at": "2026-08-20T20:46:40.562244+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1623432": {
       "url": "https://live04.chuoichientv.me/live/1623432/besiktas-vs-kauno-algiris",
       "match_name": "besiktas vs kauno algiris",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-20T19:31:33.918766+07:00",
-      "next_scan_at": "2026-08-20T19:41:33.918766+07:00",
+      "last_scan_at": "2026-08-20T20:01:40.562244+07:00",
+      "next_scan_at": "2026-08-20T20:11:40.562244+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1651,8 +1636,8 @@
       "match_name": "al fayha vs al hilal saudi fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-20T19:31:33.918766+07:00",
-      "next_scan_at": "2026-08-20T19:41:33.918766+07:00",
+      "last_scan_at": "2026-08-20T20:01:40.562244+07:00",
+      "next_scan_at": "2026-08-20T20:11:40.562244+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
