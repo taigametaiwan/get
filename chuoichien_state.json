@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-20T20:01:40.562365+07:00",
+  "updated_at": "2026-08-20T21:17:16.170834+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1587,33 +1587,36 @@
       "url": "https://live04.chuoichientv.me/live/1578037/ilbirs-w-vs-tsl-fc-w",
       "match_name": "Ilbirs W vs TSL FC W - AFC Women's Champions League",
       "kickoff_iso": "2026-08-20T21:00:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-08-20T20:01:40.562244+07:00",
-      "next_scan_at": "2026-08-20T20:21:40.562244+07:00",
+      "minutes_to_kickoff": -17,
+      "last_scan_at": "2026-08-20T21:17:16.170684+07:00",
+      "next_scan_at": "2026-08-20T21:22:16.170684+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctru/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1623435": {
+      "url": "https://live04.chuoichientv.me/live/1623435/kairat-almaty-vs-anderlecht",
+      "match_name": "Kairat Almaty vs Anderlecht - UEFA Europa League",
+      "kickoff_iso": "2026-08-20T22:00:00+07:00",
+      "minutes_to_kickoff": 43,
+      "last_scan_at": "2026-08-20T21:17:16.170684+07:00",
+      "next_scan_at": "2026-08-20T21:27:16.170684+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
-    "1623435": {
-      "url": "https://live04.chuoichientv.me/live/1623435/kairat-almaty-vs-anderlecht",
-      "match_name": "kairat almaty vs anderlecht",
-      "kickoff_iso": "2026-08-20T22:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-20T20:01:40.562244+07:00",
-      "next_scan_at": "2026-08-20T20:21:40.562244+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
-    },
     "1623436": {
       "url": "https://live04.chuoichientv.me/live/1623436/mjallby-vs-red-bull-salzburg",
       "match_name": "mjallby vs red bull salzburg",
       "kickoff_iso": "2026-08-20T23:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-20T20:01:40.562244+07:00",
-      "next_scan_at": "2026-08-20T20:46:40.562244+07:00",
+      "minutes_to_kickoff": 103,
+      "last_scan_at": "2026-08-20T21:17:16.170684+07:00",
+      "next_scan_at": "2026-08-20T21:37:16.170684+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1624,8 +1627,8 @@
       "match_name": "besiktas vs kauno algiris",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-20T20:01:40.562244+07:00",
-      "next_scan_at": "2026-08-20T20:11:40.562244+07:00",
+      "last_scan_at": "2026-08-20T21:17:16.170684+07:00",
+      "next_scan_at": "2026-08-20T21:27:16.170684+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1636,8 +1639,8 @@
       "match_name": "al fayha vs al hilal saudi fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-20T20:01:40.562244+07:00",
-      "next_scan_at": "2026-08-20T20:11:40.562244+07:00",
+      "last_scan_at": "2026-08-20T21:17:16.170684+07:00",
+      "next_scan_at": "2026-08-20T21:27:16.170684+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1654,6 +1657,54 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "1623392": {
+      "url": "https://live04.chuoichientv.me/live/1623392/gornik-zabrze-vs-monaco",
+      "match_name": "gornik zabrze vs monaco",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-20T21:17:16.170684+07:00",
+      "next_scan_at": "2026-08-20T21:27:16.170684+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1570351": {
+      "url": "https://live04.chuoichientv.me/live/1570351/rayo-vallecano-vs-alaves",
+      "match_name": "rayo vallecano vs alaves",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-20T21:17:16.170684+07:00",
+      "next_scan_at": "2026-08-20T21:27:16.170684+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1623431": {
+      "url": "https://live04.chuoichientv.me/live/1623431/benfica-vs-aarhus",
+      "match_name": "benfica vs aarhus",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-20T21:17:16.170684+07:00",
+      "next_scan_at": "2026-08-20T21:27:16.170684+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1606078": {
+      "url": "https://live04.chuoichientv.me/live/1606078/macara-vs-santos",
+      "match_name": "macara vs santos",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-20T21:17:16.170684+07:00",
+      "next_scan_at": "2026-08-20T21:27:16.170684+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
