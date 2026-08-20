@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-21T00:03:28.698385+07:00",
+  "updated_at": "2026-08-21T00:33:54.657515+07:00",
   "matches": {
     "791879": {
       "url": "https://phaohoa1.live/truc-tiep/al-jabalain-vs-al-ettifaq-18-08-2026-791879",
@@ -327,9 +327,9 @@
       "url": "https://phaohoa1.live/truc-tiep/inter-turku-vs-fc-copenhagen-21-08-2026-844915",
       "match_name": "Inter Turku vs FC Copenhagen",
       "kickoff_iso": "2026-08-20T23:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-21T00:03:28.698176+07:00",
-      "next_scan_at": "2026-08-21T00:08:28.698176+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-21T00:33:54.657263+07:00",
+      "next_scan_at": "2026-08-21T00:38:54.657263+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -341,9 +341,9 @@
       "url": "https://phaohoa1.live/truc-tiep/mjallby-vs-salzburg-21-08-2026-844764",
       "match_name": "Mjallby vs Salzburg",
       "kickoff_iso": "2026-08-20T23:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-21T00:03:28.698176+07:00",
-      "next_scan_at": "2026-08-21T00:08:28.698176+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-21T00:33:54.657263+07:00",
+      "next_scan_at": "2026-08-21T00:38:54.657263+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -355,9 +355,9 @@
       "url": "https://phaohoa1.live/truc-tiep/tromso-vs-brighton-21-08-2026-844919",
       "match_name": "Tromso vs Brighton",
       "kickoff_iso": "2026-08-21T00:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-21T00:03:28.698176+07:00",
-      "next_scan_at": "2026-08-21T00:08:28.698176+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-21T00:33:54.657263+07:00",
+      "next_scan_at": "2026-08-21T00:38:54.657263+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -369,9 +369,9 @@
       "url": "https://phaohoa1.live/truc-tiep/atalanta-vs-hapoel-tel-aviv-21-08-2026-841817",
       "match_name": "21-08 UEFA Conference League Atalanta VS Hapoel Tel Aviv Kevin",
       "kickoff_iso": "2026-08-21T01:30:00+07:00",
-      "minutes_to_kickoff": 87,
-      "last_scan_at": "2026-08-21T00:03:28.698176+07:00",
-      "next_scan_at": "2026-08-21T00:23:28.698176+07:00",
+      "minutes_to_kickoff": 57,
+      "last_scan_at": "2026-08-21T00:33:54.657263+07:00",
+      "next_scan_at": "2026-08-21T00:53:54.657263+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -381,9 +381,9 @@
       "url": "https://phaohoa1.live/truc-tiep/besiktas-vs-kauno-zalgiris-21-08-2026-844763",
       "match_name": "21-08 Saudi Pro League Al Fayha VS Al Hilal Pháo Thủ",
       "kickoff_iso": "2026-08-21T00:00:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-08-21T00:03:28.698176+07:00",
-      "next_scan_at": "2026-08-21T00:08:28.698176+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-08-21T00:33:54.657263+07:00",
+      "next_scan_at": "2026-08-21T00:38:54.657263+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -417,15 +417,15 @@
     },
     "844986": {
       "url": "https://phaohoa1.live/truc-tiep/benfica-vs-aarhus-21-08-2026-844986",
-      "match_name": "21-08 UEFA Europa League Benfica VS Aarhus Chim Nhỏ",
+      "match_name": "Benfica vs Aarhus",
       "kickoff_iso": "2026-08-21T02:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-21T00:03:28.698176+07:00",
-      "next_scan_at": "2026-08-21T00:23:28.698176+07:00",
+      "minutes_to_kickoff": 87,
+      "last_scan_at": "2026-08-21T00:33:54.657263+07:00",
+      "next_scan_at": "2026-08-21T00:53:54.657263+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
