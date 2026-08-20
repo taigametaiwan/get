@@ -1,95 +1,128 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="xoilac-c-tiep-nu-new-zealand-vs-nu-south-sudan-luc-0345-ngay-21-08-2026-s1-1" tvg-name="[03:45 21/08/2026] Nu New Zealand vs Nu South Sudan [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/jednm9kt34gryox/image/small",[03:45 21/08/2026] Nu New Zealand vs Nu South Sudan [BLV HD STEP] [FLV]
+#EXTINF:-1 tvg-id="chuoichien-1606078-1" tvg-name="[05:00 21/08] Macara vs Santos - CONMEBOL Sudamericana" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125543_aea83401.png",[05:00 21/08] Macara vs Santos - CONMEBOL Sudamericana [FHD M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="chuoichien-1606078-2" tvg-name="[05:00 21/08] Macara vs Santos - CONMEBOL Sudamericana" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125543_aea83401.png",[05:00 21/08] Macara vs Santos - CONMEBOL Sudamericana [HD M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angao/playlist.m3u8
+#EXTINF:-1 tvg-id="xoilac-c-tiep-nu-new-zealand-vs-nu-south-sudan-luc-0345-ngay-21-08-2026-s1-5" tvg-name="[03:45 21/08/2026] Nu New Zealand vs Nu South Sudan [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/jednm9kt34gryox/image/small",[03:45 21/08/2026] Nu New Zealand vs Nu South Sudan [BLV HD STEP] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-26/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-26/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-26.flv?auth_key=3000001787261503-0-0-6b2293f16d4158b4e7bc67d7b26750e9
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-ldu-quito-vs-mirassol-sp-luc-0500-ngay-21-08-2026-s1-2" tvg-name="[05:00 21/08/2026] Ldu Quito vs Mirassol Sp [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hd49q0j6/image/small",[05:00 21/08/2026] Ldu Quito vs Mirassol Sp [BLV HD ZANE] [FLV]
+https://live2.deliverfluxlive.com/livecdn/channel-26.flv?auth_key=3000001787263323-0-0-3d5c7a6ff33027ceadeca3acada0fad7
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-ldu-quito-vs-mirassol-sp-luc-0500-ngay-21-08-2026-s1-1" tvg-name="[05:00 21/08/2026] Ldu Quito vs Mirassol Sp [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hd49q0j6/image/small",[05:00 21/08/2026] Ldu Quito vs Mirassol Sp [BLV HD ZANE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-22/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-22/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-22.flv?auth_key=3000001787261565-0-0-c539ae010d73fc79591d35c111ac3d4a
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-macara-vs-santos-luc-0500-ngay-21-08-2026-s1-3" tvg-name="[05:00 21/08/2026] Macara vs Santos [BLV HD MAX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwlojqdyj/image/small",[05:00 21/08/2026] Macara vs Santos [BLV HD MAX] [FLV]
+https://live2.deliverfluxlive.com/livecdn/channel-22.flv?auth_key=3000001787263274-0-0-b04982bd1660c273d794850f82c07a0f
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-macara-vs-santos-luc-0500-ngay-21-08-2026-s1-2" tvg-name="[05:00 21/08/2026] Macara vs Santos [BLV HD MAX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwlojqdyj/image/small",[05:00 21/08/2026] Macara vs Santos [BLV HD MAX] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-6/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-6/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-6.flv?auth_key=3000001787261571-0-0-6ac628733ac739d977993d96ef7e971b
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-national-defense-vs-broki-luc-0500-ngay-21-08-2026-s1-4" tvg-name="[05:00 21/08/2026] National Defense vs Broki [BLV HD HIRO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4jwq2ghkj0vm0ve/image/small",[05:00 21/08/2026] National Defense vs Broki [BLV HD HIRO] [FLV]
+https://live2.deliverfluxlive.com/livecdn/channel-6.flv?auth_key=3000001787263275-0-0-f737b3c83cc2629f43734b3afaeb6144
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-national-defense-vs-broki-luc-0500-ngay-21-08-2026-s1-3" tvg-name="[05:00 21/08/2026] National Defense vs Broki [BLV HD HIRO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4jwq2ghkj0vm0ve/image/small",[05:00 21/08/2026] National Defense vs Broki [BLV HD HIRO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-14/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-14/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-14.flv?auth_key=3000001787261573-0-0-3f1cc4572b2ad4e617ae09615b901964
-#EXTINF:-1 tvg-id="xoilac--tiep-olimpia-asuncion-vs-vasco-da-gama-luc-0500-ngay-21-08-2026-s1-5" tvg-name="[05:00 21/08/2026] Olimpia Asuncion vs Vasco Da Gama [BLV HD KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh421dr6od/image/small",[05:00 21/08/2026] Olimpia Asuncion vs Vasco Da Gama [BLV HD KEN] [FLV]
+https://live2.deliverfluxlive.com/livecdn/channel-14.flv?auth_key=3000001787263276-0-0-f9c4996f05bbd815f22556d11d7b9c04
+#EXTINF:-1 tvg-id="xoilac--tiep-olimpia-asuncion-vs-vasco-da-gama-luc-0500-ngay-21-08-2026-s1-4" tvg-name="[05:00 21/08/2026] Olimpia Asuncion vs Vasco Da Gama [BLV HD KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh421dr6od/image/small",[05:00 21/08/2026] Olimpia Asuncion vs Vasco Da Gama [BLV HD KEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-18/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-18/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-18.flv?auth_key=3000001787261573-0-0-5cd37f394d987eff1ebe02c1d2f67393
+https://live2.deliverfluxlive.com/livecdn/channel-18.flv?auth_key=3000001787263294-0-0-9e532b14fcfd04503b07942263004f95
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-iga-swiatek-vs-elena-rybakina-luc-0600-ngay-21-08-2026-s1-6" tvg-name="[06:00 21/08/2026] Iga Swiatek vs Elena Rybakina [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/2y8m4vfjjg8ml07/image/small",[06:00 21/08/2026] Iga Swiatek vs Elena Rybakina [BLV HD VIC] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-32.flv?auth_key=3000001787261597-0-0-0c56d40d45b9beee96241fe9f21b2054
+https://live2.deliverfluxlive.com/livecdn/channel-32.flv?auth_key=3000001787263391-0-0-8c1b3615944fa454af0745b65303eac1
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-venados-fc-yucatan-vs-dorados-luc-0600-ngay-21-08-2026-s1-7" tvg-name="[06:00 21/08/2026] Venados Fc Yucatan vs Dorados [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phk20vm2wd/image/small",[06:00 21/08/2026] Venados Fc Yucatan vs Dorados [BLV HD TONI] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-9.flv?auth_key=3000001787261598-0-0-05ae4a1403a74fcc099c585d291d1629
+https://live2.deliverfluxlive.com/livecdn/channel-9.flv?auth_key=3000001787263399-0-0-8e7ce38224b765b3ea4559735d51d7f3
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-philippines-vs-nu-senegal-luc-0630-ngay-21-08-2026-s1-8" tvg-name="[06:30 21/08/2026] Nu Philippines vs Nu Senegal [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/gx7lm73ty9yr2wd/image/small",[06:30 21/08/2026] Nu Philippines vs Nu Senegal [BLV HD TOMMY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787261606-0-0-d46941ecb3ccba290e1dd3433b5c32e0
+https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787263407-0-0-5ede5e34ba0df2b26a090e5e742e453a
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-cavalier-fc-vs-salcedo-fc-luc-0700-ngay-21-08-2026-s1-9" tvg-name="[07:00 21/08/2026] Cavalier Fc vs Salcedo Fc [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y39mp1h3j9gmojx/image/small",[07:00 21/08/2026] Cavalier Fc vs Salcedo Fc [BLV HD POLO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-10/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-10/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-10.flv?auth_key=3000001787261613-0-0-036c700ef248c4ac18053784d8cefd77
+https://live2.deliverfluxlive.com/livecdn/channel-10.flv?auth_key=3000001787263408-0-0-ec1d2cbc61afc99ef2ca4aeaddcc6023
 #EXTINF:-1 tvg-id="xoilac-iep-nu-dallas-wings-vs-nu-indiana-fever-luc-0700-ngay-21-08-2026-s1-10" tvg-name="[07:00 21/08/2026] Nu Dallas Wings vs Nu Indiana Fever [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/jednm9ktljoryox/image/small",[07:00 21/08/2026] Nu Dallas Wings vs Nu Indiana Fever [BLV HD ALAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787261613-0-0-1d46b8d1768d06e2a303de34a8e9f80a
+https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787263413-0-0-8ccceafd8f36447b4eaf292ccfc36804
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-botafogo-rj-vs-cienciano-luc-0730-ngay-21-08-2026-s1-11" tvg-name="[07:30 21/08/2026] Botafogo Rj vs Cienciano [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhdkymd7o/image/small",[07:30 21/08/2026] Botafogo Rj vs Cienciano [BLV HD LOGAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-23/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-23/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-23.flv?auth_key=3000001787261621-0-0-502f68444aa3d602030916687d8327ba
+https://live2.deliverfluxlive.com/livecdn/channel-23.flv?auth_key=3000001787263417-0-0-07c10557b74c3470112f4f76844ecb4a
 #EXTINF:-1 tvg-id="xoilac-ep-corinthians-sp-vs-ca-rosario-central-luc-0730-ngay-21-08-2026-s1-12" tvg-name="[07:30 21/08/2026] Corinthians Sp vs Ca Rosario Central [BLV HD RIO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zh9znql07/image/small",[07:30 21/08/2026] Corinthians Sp vs Ca Rosario Central [BLV HD RIO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-16/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-16/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-16.flv?auth_key=3000001787261621-0-0-0c6da8b5e99bbbde5eb81acb5d4d83ea
+https://live2.deliverfluxlive.com/livecdn/channel-16.flv?auth_key=3000001787263417-0-0-9e08bb677be0cef007a5c520b7d5785a
 #EXTINF:-1 tvg-id="xoilac-p-thiago-agustin-tirante-vs-arthur-fils-luc-0730-ngay-21-08-2026-s1-13" tvg-name="[07:30 21/08/2026] Thiago Agustin Tirante vs Arthur Fils [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/1l4rjwf3024m7vx/image/small",[07:30 21/08/2026] Thiago Agustin Tirante vs Arthur Fils [BLV HD VIC] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
-https://live2.deliverfluxlive.com/livecdn/channel-32.flv?auth_key=3000001787261622-0-0-a26cb283d62bcdf6c26f948f1c362a9d
+https://live2.deliverfluxlive.com/livecdn/channel-32.flv?auth_key=3000001787263422-0-0-e0b4dc8485cb5ed68f9ae1c47f43ad08
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-alianza-fc-pan-vs-cd-olimpia-luc-0800-ngay-21-08-2026-s1-14" tvg-name="[08:00 21/08/2026] Alianza Fc Pan vs Cd Olimpia [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nh5d51md7o/image/small",[08:00 21/08/2026] Alianza Fc Pan vs Cd Olimpia [BLV HD JEAN] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-7/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-7/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
+https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787263425-0-0-84f587ba3444793308401455fff04b0e
+#EXTINF:-1 tvg-id="xoilac-ico-morelia-vs-correcaminos-de-la-u-a-t-luc-0800-ngay-21-08-2026-s1-15" tvg-name="[08:00 21/08/2026] Club Atletico Morelia vs Correcaminos De La U A T [BLV HD ASTRA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhjjvdryk0/image/small",[08:00 21/08/2026] Club Atletico Morelia vs Correcaminos De La U A T [BLV HD ASTRA] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
+https://live2.deliverfluxlive.com/livecdn/channel-11.flv?auth_key=3000001787263426-0-0-5b96d9464b56bf7d91330128c6beecb5
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-tepatitlan-fc-vs-tlaxcala-fc-luc-0800-ngay-21-08-2026-s1-16" tvg-name="[08:00 21/08/2026] Tepatitlan Fc vs Tlaxcala Fc [BLV HD TOM] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekh94wwrepz/image/small",[08:00 21/08/2026] Tepatitlan Fc vs Tlaxcala Fc [BLV HD TOM] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-4/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-4/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
+https://live2.deliverfluxlive.com/livecdn/channel-4.flv?auth_key=3000001787263431-0-0-8fac673d60a3a829f149ab59571de591
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-samuser-vs-nu-april-25-luc-1600-ngay-20-08-2026-2-s1-1" tvg-name="Nữ S`Amuser vs Nữ April 25 [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphp172r8k0/image/small",Nữ S`Amuser vs Nữ April 25 [BLV HD FELIX] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-24/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.edgevaultmedia.com
@@ -104,7 +137,21 @@ https://live2.deliverfluxlive.com/livecdn/channel-24.flv?auth_key=30000017872218
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.edgevaultmedia.com/ajax/chanel/type/5/link/channel-24/off-tvc?is_off_add=false","Origin":"https://xlz.edgevaultmedia.com"}
 https://live2.deliverfluxlive.com/livecdn/channel-24.flv?auth_key=3000001787224000-0-0-4618a68d9b1e271180c08c0b071b3ccf
-#EXTINF:-1 tvg-id="colatv-f15b553a4ad4-1" tvg-name="[05:00 21/08] Ldu Quito vs Clb Mirassol [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV",[05:00 21/08] Ldu Quito vs Clb Mirassol [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
+#EXTINF:-1 tvg-id="colatv-f58310221da2-1" tvg-name="[05:00 21/08] Ldu Quito vs Clb Mirassol [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/b20645448c644b701286477f55b11e24.png!w80",[05:00 21/08] Ldu Quito vs Clb Mirassol [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/87379114.m3u8
+#EXTINF:-1 tvg-id="colatv-5f29d725b3fc-1" tvg-name="[05:00 21/08] Macara vs Santos Fc - SP [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/d138a4d0829205be8e477b43d95b138d.png!w80",[05:00 21/08] Macara vs Santos Fc - SP [BLV MOUNTAIN DEWĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/87547578.m3u8
+#EXTINF:-1 tvg-id="colatv-2ec7f5bf01bc-1" tvg-name="[05:30 21/08] Athletic Club vs CRB AL [BLV KHÔNG ĐỘĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/ed16dd3c5970174b77eb04b0ea5b0960.png!w80",[05:30 21/08] Athletic Club vs CRB AL [BLV KHÔNG ĐỘĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
