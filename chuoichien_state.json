@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-21T01:32:32.842039+07:00",
+  "updated_at": "2026-08-21T02:02:40.708056+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1131,35 +1131,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1622620": {
-      "url": "https://live04.chuoichientv.me/live/1622620/dinamo-zagreb-vs-viking",
-      "match_name": "Dinamo Zagreb vs Viking - UEFA Champions League",
-      "kickoff_iso": "2026-08-19T02:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-19T03:31:54.329285+07:00",
-      "next_scan_at": "2026-08-19T03:36:54.329285+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoito/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1622621": {
-      "url": "https://live04.chuoichientv.me/live/1622621/fenerbahce-vs-lyon",
-      "match_name": "Fenerbahce vs Lyon - UEFA Champions League",
-      "kickoff_iso": "2026-08-19T02:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-19T03:31:54.329285+07:00",
-      "next_scan_at": "2026-08-19T03:36:54.329285+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1598011": {
       "url": "https://live04.chuoichientv.me/live/1598011/deportivo-riestra-vs-gimnasia-lp",
       "match_name": "Deportivo Riestra vs Gimnasia L.P. - Copa Argentina",
@@ -1587,9 +1558,9 @@
       "url": "https://live04.chuoichientv.me/live/1602981/al-fayha-vs-al-hilal-saudi-fc",
       "match_name": "Al-Fayha vs Al-Hilal Saudi FC - Saudi Pro League",
       "kickoff_iso": "2026-08-21T01:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-21T01:32:32.841865+07:00",
-      "next_scan_at": "2026-08-21T01:37:32.841865+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-21T02:02:40.707777+07:00",
+      "next_scan_at": "2026-08-21T02:07:40.707777+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1614,9 +1585,9 @@
       "url": "https://live04.chuoichientv.me/live/1623392/gornik-zabrze-vs-monaco",
       "match_name": "Gornik Zabrze vs Monaco - UEFA Europa Conference League",
       "kickoff_iso": "2026-08-21T01:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-21T01:32:32.841865+07:00",
-      "next_scan_at": "2026-08-21T01:37:32.841865+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-21T02:02:40.707777+07:00",
+      "next_scan_at": "2026-08-21T02:07:40.707777+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1629,9 +1600,9 @@
       "url": "https://live04.chuoichientv.me/live/1570351/rayo-vallecano-vs-alaves",
       "match_name": "Rayo Vallecano vs Alaves - La Liga",
       "kickoff_iso": "2026-08-21T02:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-21T01:32:32.841865+07:00",
-      "next_scan_at": "2026-08-21T01:37:32.841865+07:00",
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-21T02:02:40.707777+07:00",
+      "next_scan_at": "2026-08-21T02:07:40.707777+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1642,11 +1613,11 @@
     },
     "1623431": {
       "url": "https://live04.chuoichientv.me/live/1623431/benfica-vs-aarhus",
-      "match_name": "Benfica vs Aarhus - UEFA Europa League",
+      "match_name": "benfica vs aarhus",
       "kickoff_iso": "2026-08-21T02:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-21T01:32:32.841865+07:00",
-      "next_scan_at": "2026-08-21T01:37:32.841865+07:00",
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-21T02:02:40.707777+07:00",
+      "next_scan_at": "2026-08-21T02:07:40.707777+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1658,22 +1629,22 @@
     "1606078": {
       "url": "https://live04.chuoichientv.me/live/1606078/macara-vs-santos",
       "match_name": "macara vs santos",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-21T01:32:32.841865+07:00",
-      "next_scan_at": "2026-08-21T01:42:32.841865+07:00",
+      "kickoff_iso": "2026-08-21T05:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-21T02:02:40.707777+07:00",
+      "next_scan_at": "2026-08-21T02:47:40.707777+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1581394": {
       "url": "https://live04.chuoichientv.me/live/1581394/venados-fc-vs-dorados",
       "match_name": "venados fc vs dorados",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-21T01:32:32.841865+07:00",
-      "next_scan_at": "2026-08-21T01:42:32.841865+07:00",
+      "last_scan_at": "2026-08-21T02:02:40.707777+07:00",
+      "next_scan_at": "2026-08-21T02:12:40.707777+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1683,15 +1654,12 @@
       "url": "https://live04.chuoichientv.me/live/1623439/trabzonspor-vs-ferencvarosi-tc",
       "match_name": "Trabzonspor vs Ferencvarosi TC - UEFA Europa League",
       "kickoff_iso": "2026-08-21T00:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-21T01:32:32.841865+07:00",
-      "next_scan_at": "2026-08-21T01:37:32.841865+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichao/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -122,
+      "last_scan_at": "2026-08-21T02:02:40.707777+07:00",
+      "next_scan_at": "2026-08-21T02:07:40.707777+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "1547767": {
@@ -1699,8 +1667,20 @@
       "match_name": "corinthians vs rosario central",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-21T01:32:32.841865+07:00",
-      "next_scan_at": "2026-08-21T01:42:32.841865+07:00",
+      "last_scan_at": "2026-08-21T02:02:40.707777+07:00",
+      "next_scan_at": "2026-08-21T02:12:40.707777+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1548367": {
+      "url": "https://live04.chuoichientv.me/live/1548367/firpo-vs-ld-alajuelense",
+      "match_name": "firpo vs ld alajuelense",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-21T02:02:40.707777+07:00",
+      "next_scan_at": "2026-08-21T02:12:40.707777+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

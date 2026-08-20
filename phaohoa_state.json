@@ -1,48 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-21T01:33:23.425938+07:00",
+  "updated_at": "2026-08-21T02:03:51.578453+07:00",
   "matches": {
-    "841013": {
-      "url": "https://phaohoa1.live/truc-tiep/din-zagreb-vs-viking-19-08-2026-841013",
-      "match_name": "Din Zagreb vs Viking",
-      "kickoff_iso": "2026-08-19T02:00:00+07:00",
-      "minutes_to_kickoff": -123,
-      "last_scan_at": "2026-08-19T04:03:39.674973+07:00",
-      "next_scan_at": "2026-08-19T04:08:39.674973+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
-    "841017": {
-      "url": "https://phaohoa1.live/truc-tiep/fenerbahce-vs-lyon-19-08-2026-841017",
-      "match_name": "Fenerbahce vs Lyon",
-      "kickoff_iso": "2026-08-19T02:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-19T02:33:20.018491+07:00",
-      "next_scan_at": "2026-08-19T02:38:20.018491+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "841014": {
-      "url": "https://phaohoa1.live/truc-tiep/levski-sofia-vs-aek-athens-19-08-2026-841014",
-      "match_name": "Levski Sofia vs Aek Athens",
-      "kickoff_iso": "2026-08-19T02:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-19T03:32:55.415231+07:00",
-      "next_scan_at": "2026-08-19T03:37:55.415231+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "839170": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-19-08-2026-839170",
       "match_name": "Việt Nam vs Malaysia",
@@ -341,9 +301,9 @@
       "url": "https://phaohoa1.live/truc-tiep/atalanta-vs-hapoel-tel-aviv-21-08-2026-841817",
       "match_name": "Atalanta vs Hapoel Tel Aviv",
       "kickoff_iso": "2026-08-21T01:30:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-21T01:33:23.425729+07:00",
-      "next_scan_at": "2026-08-21T01:38:23.425729+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-08-21T02:03:51.578362+07:00",
+      "next_scan_at": "2026-08-21T02:08:51.578362+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -380,10 +340,10 @@
     "825107": {
       "url": "https://phaohoa1.live/truc-tiep/al-fayha-vs-al-hilal-21-08-2026-825107",
       "match_name": "Al Fayha vs Al Hilal",
-      "kickoff_iso": "2026-08-21T02:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-21T01:33:23.425729+07:00",
-      "next_scan_at": "2026-08-21T01:38:23.425729+07:00",
+      "kickoff_iso": "2026-08-21T01:00:00+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-08-21T02:03:51.578362+07:00",
+      "next_scan_at": "2026-08-21T02:08:51.578362+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -393,14 +353,16 @@
     },
     "844986": {
       "url": "https://phaohoa1.live/truc-tiep/benfica-vs-aarhus-21-08-2026-844986",
-      "match_name": "21-08 UEFA Europa League Benfica VS Aarhus Chim Nhỏ",
+      "match_name": "Benfica vs Aarhus",
       "kickoff_iso": "2026-08-21T02:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-21T01:33:23.425729+07:00",
-      "next_scan_at": "2026-08-21T01:43:23.425729+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-08-21T02:03:51.578362+07:00",
+      "next_scan_at": "2026-08-21T02:08:51.578362+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
