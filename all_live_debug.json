@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-21T10:33:30.701676+07:00",
+  "generated_at": "2026-08-21T11:04:19.303088+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -78,14 +78,14 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 126,
-      "playlist_blocks": 6,
+      "debug_rows": 124,
+      "playlist_blocks": 5,
       "catalog_placeholders": 0,
-      "metadata_references": 126,
+      "metadata_references": 124,
       "included": true,
-      "fresh_stream_blocks": 6,
-      "fresh_verified_blocks": 6,
-      "fresh_selected": 6,
+      "fresh_stream_blocks": 5,
+      "fresh_verified_blocks": 5,
+      "fresh_selected": 5,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -99,13 +99,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 104,
-      "playlist_blocks": 4,
+      "playlist_blocks": 3,
       "catalog_placeholders": 0,
       "metadata_references": 98,
       "included": true,
-      "fresh_stream_blocks": 4,
-      "fresh_verified_blocks": 4,
-      "fresh_selected": 4,
+      "fresh_stream_blocks": 3,
+      "fresh_verified_blocks": 3,
+      "fresh_selected": 3,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -123,9 +123,9 @@
       "catalog_placeholders": 0,
       "metadata_references": 7,
       "included": true,
-      "fresh_stream_blocks": 1,
-      "fresh_verified_blocks": 1,
-      "fresh_selected": 1,
+      "fresh_stream_blocks": 0,
+      "fresh_verified_blocks": 0,
+      "fresh_selected": 0,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -134,68 +134,11 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 27,
-  "metadata_reference_count": 240,
+  "input_candidates": 25,
+  "metadata_reference_count": 238,
   "last_good_recovered_count": 8,
-  "last_good_suppressed_by_fresh_count": 7,
+  "last_good_suppressed_by_fresh_count": 5,
   "last_good_audit": [
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-7.flv?auth_key=3000001787281387-0-0-e50ea36849f68f816826b83ae1a28434",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-21T08:00:00+07:00",
-      "minutes_to_kickoff": -153.51,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-11.flv?auth_key=3000001787281374-0-0-2f2b42ef6b6e4860d8dbc44e2a7edc79",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-21T08:00:00+07:00",
-      "minutes_to_kickoff": -153.51,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-13.flv?auth_key=3000001787270642-0-0-0ba2e535c3fdf7fb47b53a1921059695",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-21T08:00:00+07:00",
-      "minutes_to_kickoff": -153.51,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-4.flv?auth_key=3000001787281375-0-0-986855213ec6b766fa2d9e4c52398cd0",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-21T08:00:00+07:00",
-      "minutes_to_kickoff": -153.51,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live05.meung.app/live/41943555.m3u8",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "colatv",
-      "kickoff_iso": "2026-08-21T08:00:00+07:00",
-      "minutes_to_kickoff": -153.51,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-21.flv?auth_key=3000001787281378-0-0-f69a0fee9b82e596582da8a41ff74efd",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787281281-0-0-5255f7244221e3b2b52adce11ec5e478",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
     {
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichao/playlist.m3u8",
       "kept": true,
@@ -209,25 +152,25 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787281294-0-0-59cc953d250faae1b11e1d9a92bf78c4",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787283085-0-0-fb32ba9d5fff208945baf347c4532828",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787281337-0-0-f933d74653e97dabf9789daec038a5fc",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-21.flv?auth_key=3000001787283131-0-0-6f7aad7b122e085f00a1178ab2bfabb6",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787281435-0-0-a854e6064b9cd5e7959e40a47b6cd526",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787283071-0-0-c1ec86f2fed105b3546f9cc28833cdf0",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787281280-0-0-f72d1f8cc587c794a49375ce8729ef17",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787283072-0-0-62a1cef90651d430b399b40ab8ef13f5",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -245,28 +188,28 @@
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/97885009.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
       "url": "https://live05.meung.app/live/14830711.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
     },
     {
-      "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-      "kept": true,
-      "reason": "HTTP 206; m3u8=True",
-      "source": "phaohoa"
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-24.flv?auth_key=3000001787224000-0-0-4618a68d9b1e271180c08c0b071b3ccf",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787283141-0-0-f4962ed168df1df1ac2426994ef8a78a",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787283192-0-0-03667f2b79dc4c70f48356542913215d",
+      "kept": true,
+      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+      "kept": false,
+      "reason": "HTTP 404",
+      "source": "phaohoa"
     },
     {
       "url": "https://live2.deliverfluxlive.com/livecdn/channel-24.flv?auth_key=3000001787221879-0-0-866ec5ccb7c183521b1afd616b4c3c15",
@@ -275,6 +218,18 @@
       "source": "xoilac"
     },
     {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-24.flv?auth_key=3000001787224000-0-0-4618a68d9b1e271180c08c0b071b3ccf",
+      "kept": true,
+      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live05.meung.app/live/97885009.m3u8",
+      "kept": false,
+      "reason": "TimeoutError: The read operation timed out",
+      "source": "colatv"
+    },
+    {
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichao/playlist.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
@@ -299,25 +254,13 @@
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/97885009.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
-    },
-    {
       "url": "https://live05.meung.app/live/14830711.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
-    },
-    {
-      "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "phaohoa"
     }
   ],
-  "selected_count": 15,
+  "selected_count": 13,
   "dropped_count": 12,
   "gavang_metadata": {
     "enriched": 0,
@@ -349,7 +292,7 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-08-21T10:00:00+07:00",
-      "minutes_to_kickoff": -33.51,
+      "minutes_to_kickoff": -64.32,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -389,7 +332,7 @@
       "pending_reason": null,
       "score": 459,
       "kickoff_iso": "2026-08-21T10:00:00+07:00",
-      "minutes_to_kickoff": -33.51,
+      "minutes_to_kickoff": -64.32,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -413,7 +356,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-21.flv?auth_key=3000001787283131-0-0-6f7aad7b122e085f00a1178ab2bfabb6",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-21.flv?auth_key=3000001787284978-0-0-b17241826f8a727dde796fe1757bf136",
       "match_key": "los angeles fc ii vs sporting kansas r|hd raven",
       "display_name": "[09:00 21/08/2026] Los Angeles Fc Ii vs Sporting Kansas R [BLV HD RAVEN] [FLV]",
       "group": "Xôi Lạc",
@@ -434,7 +377,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-21T09:00:00+07:00",
-      "minutes_to_kickoff": -93.51,
+      "minutes_to_kickoff": -124.32,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -444,7 +387,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-21.flv?auth_key=3000001787283131-0-0-6f7aad7b122e085f00a1178ab2bfabb6",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-21.flv?auth_key=3000001787284978-0-0-b17241826f8a727dde796fe1757bf136",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4hv22vq86p/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7pho9z2m2wd/image/small",
       "blv": null,
@@ -462,7 +405,7 @@
       "match_key": "nu dai loan vs nu iran|hd tyson",
       "display_name": "[09:00 21/08/2026] Nu Dai Loan vs Nu Iran [BLV HD TYSON] [FLV]",
       "group": "Xôi Lạc",
-      "sport_group": "Asian Championship Women",
+      "sport_group": "Xôi Lạc",
       "quality": "HD",
       "kind": "flv",
       "playability": "verified",
@@ -477,9 +420,9 @@
       },
       "derived_pending": false,
       "pending_reason": null,
-      "score": 456,
+      "score": 405,
       "kickoff_iso": "2026-08-21T09:00:00+07:00",
-      "minutes_to_kickoff": -93.51,
+      "minutes_to_kickoff": -124.32,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -493,17 +436,17 @@
       "home_logo": "https://imgts.sportpulseapiz.com/volleyball/team/9k82redh702qepz/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/volleyball/team/kjw2r0nho15qz84/image/small",
       "blv": null,
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
+      "prior_generated_at": "2026-08-21T10:33:30.701676+07:00"
     },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787283085-0-0-fb32ba9d5fff208945baf347c4532828",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787284923-0-0-658b1955944216bcc7bfb86d3e0fbe1e",
       "match_key": "nu canada vs nu mexico|hd tommy",
       "display_name": "[09:30 21/08/2026] Nu Canada vs Nu Mexico [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -524,7 +467,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-21T09:30:00+07:00",
-      "minutes_to_kickoff": -63.51,
+      "minutes_to_kickoff": -94.32,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -534,7 +477,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787283085-0-0-fb32ba9d5fff208945baf347c4532828",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787284923-0-0-658b1955944216bcc7bfb86d3e0fbe1e",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/j1l4rjzt09xm7vx/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/9k82re8t4g6repz/image/small",
       "blv": null,
@@ -548,7 +491,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787283071-0-0-c1ec86f2fed105b3546f9cc28833cdf0",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787284969-0-0-85d70b6d7fd40154509a60f792ba2bce",
       "match_key": "luis angel firpo vs ld alajuelense|hd johan",
       "display_name": "[10:00 21/08/2026] Luis Angel Firpo vs Ld Alajuelense [BLV HD JOHAN] [FLV]",
       "group": "Xôi Lạc",
@@ -569,7 +512,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-21T10:00:00+07:00",
-      "minutes_to_kickoff": -33.51,
+      "minutes_to_kickoff": -64.32,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -579,7 +522,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787283071-0-0-c1ec86f2fed105b3546f9cc28833cdf0",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787284969-0-0-85d70b6d7fd40154509a60f792ba2bce",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/vl7oqdehwezr510/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdehn232r510/image/small",
       "blv": null,
@@ -593,7 +536,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787283072-0-0-62a1cef90651d430b399b40ab8ef13f5",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787284889-0-0-cfee24ad0db44d39cedf8339ee5e36e0",
       "match_key": "soles de mexicali vs mineros de zacatecas|hd alan",
       "display_name": "[10:00 21/08/2026] Soles De Mexicali vs Mineros De Zacatecas [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -614,7 +557,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-21T10:00:00+07:00",
-      "minutes_to_kickoff": -33.51,
+      "minutes_to_kickoff": -64.32,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -624,7 +567,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787283072-0-0-62a1cef90651d430b399b40ab8ef13f5",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787284889-0-0-cfee24ad0db44d39cedf8339ee5e36e0",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/p3glrwyt24jqdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/318q6ntog38mo9j/image/small",
       "blv": null,
@@ -638,7 +581,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787283192-0-0-03667f2b79dc4c70f48356542913215d",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787285014-0-0-c06a070f56d4aafcc65aa496662a82a7",
       "match_key": "nu thai lan vs nu australia|hd tyson",
       "display_name": "[13:00 21/08/2026] Nu Thai Lan vs Nu Australia [BLV HD TYSON] [FLV]",
       "group": "Xôi Lạc",
@@ -659,7 +602,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-21T13:00:00+07:00",
-      "minutes_to_kickoff": 146.49,
+      "minutes_to_kickoff": 115.68,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -669,7 +612,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787283192-0-0-03667f2b79dc4c70f48356542913215d",
+      "page_url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787285014-0-0-c06a070f56d4aafcc65aa496662a82a7",
       "home_logo": "https://imgts.sportpulseapiz.com/volleyball/team/kdj2rydhz29r1zp/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/volleyball/team/z8yomoxhdzom0j6/image/small",
       "blv": null,
@@ -723,7 +666,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
-      "prior_generated_at": "2026-08-21T10:04:05.845713+07:00"
+      "prior_generated_at": "2026-08-21T10:33:30.701676+07:00"
     },
     {
       "source": "xoilac",
@@ -768,54 +711,14 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
-      "prior_generated_at": "2026-08-21T10:04:05.845713+07:00"
-    },
-    {
-      "source": "colatv",
-      "source_label": "ColaTV",
-      "url": "https://live05.meung.app/live/97885009.m3u8",
-      "match_key": "los angeles fc ii vs sporting kansas cityreserves|warrior ang xem",
-      "display_name": "[09:00 21/08] Los Angeles FC II vs Sporting Kansas CityReserves [BLV WARRIORĐang xem] [M3U8]",
-      "group": "ColaTV",
-      "sport_group": "Bóng đá",
-      "quality": "UNKNOWN",
-      "kind": "m3u8",
-      "playability": "verified",
-      "classification": null,
-      "classification_reason": null,
-      "has_secret": false,
-      "expiry": null,
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 439,
-      "kickoff_iso": "2026-08-21T09:00:00+07:00",
-      "minutes_to_kickoff": -93.51,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://img.gvapi.cc/football/team/5d34bc7cb1b44bb5889dc4548c8e3b24.png!w80",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live05.meung.app/live/97885009.m3u8",
-      "home_logo": null,
-      "away_logo": null,
-      "blv": "WARRIORĐang xem",
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "prior_generated_at": "2026-08-21T10:33:30.701676+07:00"
     },
     {
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/82054853.m3u8",
-      "match_key": "los angeles sparks vs atlanta dream|lich thi au cuoc vsbet nhan km ho tro k",
-      "display_name": "[09:00 21/08] Los Angeles Sparks vs Atlanta Dream [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
+      "match_key": "los angeles sparks vs atlanta dream|rockstar ang xem",
+      "display_name": "[09:00 21/08] Los Angeles Sparks vs Atlanta Dream [BLV ROCKSTARĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng rổ",
       "quality": "UNKNOWN",
@@ -829,7 +732,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-21T09:00:00+07:00",
-      "minutes_to_kickoff": -93.51,
+      "minutes_to_kickoff": -124.32,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -842,7 +745,7 @@
       "page_url": "https://live05.meung.app/live/82054853.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k",
+      "blv": "ROCKSTARĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -869,7 +772,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-21T09:30:00+07:00",
-      "minutes_to_kickoff": -63.51,
+      "minutes_to_kickoff": -94.32,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -909,7 +812,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-21T10:00:00+07:00",
-      "minutes_to_kickoff": -33.51,
+      "minutes_to_kickoff": -64.32,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -923,46 +826,6 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k",
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
-    {
-      "source": "phaohoa",
-      "source_label": "Pháo Hoa TV",
-      "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-      "match_key": "dai loan vs iran|",
-      "display_name": "[09:00 21/08] Dai Loan vs Iran [M3U8]",
-      "group": "Pháo Hoa TV",
-      "sport_group": "Bóng chuyền",
-      "quality": "UNKNOWN",
-      "kind": "m3u8",
-      "playability": "verified",
-      "classification": null,
-      "classification_reason": null,
-      "has_secret": false,
-      "expiry": null,
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 439,
-      "kickoff_iso": "2026-08-21T09:00:00+07:00",
-      "minutes_to_kickoff": -93.51,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://phaohoa1.live/media-thumb/team/teams/logos/OIP_xjljaQl.jpg",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://phaohoa1.live/truc-tiep/dai-loan-vs-iran",
-      "home_logo": "",
-      "away_logo": "https://phaohoa1.live/media-thumb/team/teams/logos/OIP_xjljaQl.jpg",
-      "blv": "",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -998,19 +861,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787283071-0-0-c1ec86f2fed105b3546f9cc28833cdf0",
-      "display_name": "[10:00 21/08/2026] Luis Angel Firpo vs Ld Alajuelense [BLV HD JOHAN] [FLV]",
-      "match_key": "luis angel firpo vs ld alajuelense|hd johan",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787283072-0-0-62a1cef90651d430b399b40ab8ef13f5",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787284889-0-0-cfee24ad0db44d39cedf8339ee5e36e0",
       "display_name": "[10:00 21/08/2026] Soles De Mexicali vs Mineros De Zacatecas [BLV HD ALAN] [FLV]",
       "match_key": "soles de mexicali vs mineros de zacatecas|hd alan",
       "quality": "HD",
@@ -1022,7 +873,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787283085-0-0-fb32ba9d5fff208945baf347c4532828",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787284923-0-0-658b1955944216bcc7bfb86d3e0fbe1e",
       "display_name": "[09:30 21/08/2026] Nu Canada vs Nu Mexico [BLV HD TOMMY] [FLV]",
       "match_key": "nu canada vs nu mexico|hd tommy",
       "quality": "HD",
@@ -1034,7 +885,19 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-21.flv?auth_key=3000001787283131-0-0-6f7aad7b122e085f00a1178ab2bfabb6",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787284969-0-0-85d70b6d7fd40154509a60f792ba2bce",
+      "display_name": "[10:00 21/08/2026] Luis Angel Firpo vs Ld Alajuelense [BLV HD JOHAN] [FLV]",
+      "match_key": "luis angel firpo vs ld alajuelense|hd johan",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-21.flv?auth_key=3000001787284978-0-0-b17241826f8a727dde796fe1757bf136",
       "display_name": "[09:00 21/08/2026] Los Angeles Fc Ii vs Sporting Kansas R [BLV HD RAVEN] [FLV]",
       "match_key": "los angeles fc ii vs sporting kansas r|hd raven",
       "quality": "HD",
@@ -1046,34 +909,10 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787283141-0-0-f4962ed168df1df1ac2426994ef8a78a",
-      "display_name": "[09:00 21/08/2026] Nu Dai Loan vs Nu Iran [BLV HD TYSON] [FLV]",
-      "match_key": "nu dai loan vs nu iran|hd tyson",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787283192-0-0-03667f2b79dc4c70f48356542913215d",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787285014-0-0-c06a070f56d4aafcc65aa496662a82a7",
       "display_name": "[13:00 21/08/2026] Nu Thai Lan vs Nu Australia [BLV HD TYSON] [FLV]",
       "match_key": "nu thai lan vs nu australia|hd tyson",
       "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "colatv",
-      "url": "https://live05.meung.app/live/97885009.m3u8",
-      "display_name": "[09:00 21/08] Los Angeles FC II vs Sporting Kansas CityReserves [BLV WARRIORĐang xem] [M3U8]",
-      "match_key": "los angeles fc ii vs sporting kansas cityreserves|warrior ang xem",
-      "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
@@ -1095,8 +934,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/82054853.m3u8",
-      "display_name": "[09:00 21/08] Los Angeles Sparks vs Atlanta Dream [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
-      "match_key": "los angeles sparks vs atlanta dream|lich thi au cuoc vsbet nhan km ho tro k",
+      "display_name": "[09:00 21/08] Los Angeles Sparks vs Atlanta Dream [BLV ROCKSTARĐang xem] [M3U8]",
+      "match_key": "los angeles sparks vs atlanta dream|rockstar ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1115,24 +954,17 @@
       "metadata_link_reason": null,
       "decision": "selected-fresh",
       "reason": "selected"
-    },
-    {
-      "source": "phaohoa",
-      "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-      "display_name": "[09:00 21/08] Dai Loan vs Iran [M3U8]",
-      "match_key": "dai loan vs iran|",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
     }
   ],
   "fresh_preservation_ok": true,
   "dropped": [
     {
       "url": "http://127.0.0.1:9/__phaohoa_metadata__/803270.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/066e75c4ae21.m3u8",
       "reason": "not-verified-or-not-upcoming",
       "source": "phaohoa"
     },
@@ -1162,37 +994,31 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787281281-0-0-5255f7244221e3b2b52adce11ec5e478",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "luis angel firpo vs ld alajuelense|hd johan"
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787281280-0-0-f72d1f8cc587c794a49375ce8729ef17",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-25.flv?auth_key=3000001787283072-0-0-62a1cef90651d430b399b40ab8ef13f5",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "soles de mexicali vs mineros de zacatecas|hd alan"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787281294-0-0-59cc953d250faae1b11e1d9a92bf78c4",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-29.flv?auth_key=3000001787283085-0-0-fb32ba9d5fff208945baf347c4532828",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "nu canada vs nu mexico|hd tommy"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-21.flv?auth_key=3000001787281378-0-0-f69a0fee9b82e596582da8a41ff74efd",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-12.flv?auth_key=3000001787283071-0-0-c1ec86f2fed105b3546f9cc28833cdf0",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "luis angel firpo vs ld alajuelense|hd johan"
+    },
+    {
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-21.flv?auth_key=3000001787283131-0-0-6f7aad7b122e085f00a1178ab2bfabb6",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "los angeles fc ii vs sporting kansas r|hd raven"
     },
     {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787281337-0-0-f933d74653e97dabf9789daec038a5fc",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "nu dai loan vs nu iran|hd tyson"
-    },
-    {
-      "url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787281435-0-0-a854e6064b9cd5e7959e40a47b6cd526",
+      "url": "https://live2.deliverfluxlive.com/livecdn/channel-33.flv?auth_key=3000001787283192-0-0-03667f2b79dc4c70f48356542913215d",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "nu thai lan vs nu australia|hd tyson"
