@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-21T20:33:11.043521+07:00",
+  "updated_at": "2026-08-21T21:02:38.438301+07:00",
   "matches": {
     "105559": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-18-08-2026-105559",
@@ -379,26 +379,30 @@
     },
     "254eb01731e4": {
       "url": "https://phaohoa1.live/truc-tiep/croatia-vs-italy",
-      "match_name": "21-08 Vô Địch Châu Âu Croatia VS Italy KaKa",
+      "match_name": "Croatia vs Italy",
       "kickoff_iso": "2026-08-21T21:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-21T20:33:11.043258+07:00",
-      "next_scan_at": "2026-08-21T20:43:11.043258+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-21T21:02:38.438148+07:00",
+      "next_scan_at": "2026-08-21T21:07:38.438148+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     },
     "803270": {
       "url": "https://phaohoa1.live/truc-tiep/al-gharafa-vs-al-shahaniya-21-08-2026-803270",
-      "match_name": "21-08 Stars League Al-Gharafa VS Al-Shahaniya Pháo Thủ",
+      "match_name": "Al Gharafa vs Al Shahaniya",
       "kickoff_iso": "2026-08-21T21:15:00+07:00",
-      "minutes_to_kickoff": 42,
-      "last_scan_at": "2026-08-21T20:33:11.043258+07:00",
-      "next_scan_at": "2026-08-21T20:43:11.043258+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 13,
+      "last_scan_at": "2026-08-21T21:02:38.438148+07:00",
+      "next_scan_at": "2026-08-21T21:07:38.438148+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1aa286a91458": {
