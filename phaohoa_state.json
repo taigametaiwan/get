@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-21T14:02:14.303685+07:00",
+  "updated_at": "2026-08-21T14:32:42.782850+07:00",
   "matches": {
     "839170": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-19-08-2026-839170",
@@ -383,14 +383,12 @@
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-uc",
       "match_name": "Thái Lan vs Úc",
       "kickoff_iso": "2026-08-21T13:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-21T14:02:14.303568+07:00",
-      "next_scan_at": "2026-08-21T14:07:14.303568+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-21T14:32:42.782750+07:00",
+      "next_scan_at": "2026-08-21T14:37:42.782750+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "807493": {
