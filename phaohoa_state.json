@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-21T07:02:05.728091+07:00",
+  "updated_at": "2026-08-21T07:32:22.583727+07:00",
   "matches": {
     "839170": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-19-08-2026-839170",
@@ -371,13 +371,13 @@
       "url": "https://phaohoa1.live/truc-tiep/dai-loan-vs-iran",
       "match_name": "Dai Loan vs Iran",
       "kickoff_iso": "2026-08-21T09:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-21T07:02:05.727988+07:00",
-      "next_scan_at": "2026-08-21T07:22:05.727988+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-21T07:32:22.583633+07:00",
+      "next_scan_at": "2026-08-21T07:52:22.583633+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
