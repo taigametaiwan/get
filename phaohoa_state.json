@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-21T19:33:01.484441+07:00",
+  "updated_at": "2026-08-21T20:02:44.318757+07:00",
   "matches": {
-    "839170": {
-      "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-19-08-2026-839170",
-      "match_name": "Việt Nam vs Malaysia",
-      "kickoff_iso": "2026-08-19T20:00:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-08-19T21:47:07.883024+07:00",
-      "next_scan_at": "2026-08-19T21:52:07.883024+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "105559": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-18-08-2026-105559",
       "match_name": "19-08 King's Cup Damac VS Al Taawon KaKa",
@@ -28,20 +14,6 @@
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "105558": {
-      "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-18-08-2026-105558",
-      "match_name": "Viet Nam vs Malaysia",
-      "kickoff_iso": "2026-08-19T20:00:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-08-19T21:47:07.883024+07:00",
-      "next_scan_at": "2026-08-19T21:52:07.883024+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -379,11 +351,11 @@
     },
     "f20b5ff67814": {
       "url": "https://phaohoa1.live/truc-tiep/ao-vs-serbia",
-      "match_name": "Ao vs Serbia",
+      "match_name": "Áo vs Serbia",
       "kickoff_iso": "2026-08-21T19:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-21T19:33:01.484316+07:00",
-      "next_scan_at": "2026-08-21T19:38:01.484316+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-08-21T20:02:44.318567+07:00",
+      "next_scan_at": "2026-08-21T20:07:44.318567+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -409,9 +381,9 @@
       "url": "https://phaohoa1.live/truc-tiep/croatia-vs-italy",
       "match_name": "21-08 Vô Địch Châu Âu Croatia VS Italy KaKa",
       "kickoff_iso": "2026-08-21T21:00:00+07:00",
-      "minutes_to_kickoff": 87,
-      "last_scan_at": "2026-08-21T19:33:01.484316+07:00",
-      "next_scan_at": "2026-08-21T19:53:01.484316+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-21T20:02:44.318567+07:00",
+      "next_scan_at": "2026-08-21T20:22:44.318567+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -419,11 +391,11 @@
     },
     "803270": {
       "url": "https://phaohoa1.live/truc-tiep/al-gharafa-vs-al-shahaniya-21-08-2026-803270",
-      "match_name": "21-08 Stars League Al-Gharafa VS Al-Shahaniya Pháo Thủ",
-      "kickoff_iso": "2026-08-21T21:15:00+07:00",
-      "minutes_to_kickoff": 163,
-      "last_scan_at": "2026-08-21T18:33:10.975489+07:00",
-      "next_scan_at": "2026-08-21T19:18:10.975489+07:00",
+      "match_name": "21-08 Saudi Pro League Al Riyadh VS Al Nassr Kevin",
+      "kickoff_iso": "2026-08-21T23:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-21T20:02:44.318567+07:00",
+      "next_scan_at": "2026-08-21T20:47:44.318567+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -433,9 +405,21 @@
       "url": "https://phaohoa1.live/truc-tiep/bulgaria-vs-ukraine",
       "match_name": "21-08 Vô Địch Châu Âu Bulgaria VS Ukraine Văn Minh",
       "kickoff_iso": "2026-08-21T22:00:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-21T20:02:44.318567+07:00",
+      "next_scan_at": "2026-08-21T20:22:44.318567+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "ced1c58db812": {
+      "url": "https://phaohoa1.live/truc-tiep/tho-nhi-ki-vs-latvia",
+      "match_name": "21-08 Vô Địch Châu Âu Thổ Nhĩ Kì VS Latvia KaKa",
+      "kickoff_iso": "2026-08-21T23:00:00+07:00",
       "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-21T19:02:57.052886+07:00",
-      "next_scan_at": "2026-08-21T19:47:57.052886+07:00",
+      "last_scan_at": "2026-08-21T20:02:44.318567+07:00",
+      "next_scan_at": "2026-08-21T20:47:44.318567+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
