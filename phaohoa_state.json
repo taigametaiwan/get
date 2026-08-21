@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-21T18:33:10.975671+07:00",
+  "updated_at": "2026-08-21T19:02:57.053103+07:00",
   "matches": {
     "839170": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-19-08-2026-839170",
@@ -14,20 +14,6 @@
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "742913": {
-      "url": "https://phaohoa1.live/truc-tiep/shanghai-port-vs-dalian-yingbo-12-07-2026-742913",
-      "match_name": "Shanghai Port vs Dalian Yingbo",
-      "kickoff_iso": "2026-08-19T18:35:00+07:00",
-      "minutes_to_kickoff": -98,
-      "last_scan_at": "2026-08-19T20:13:06.203881+07:00",
-      "next_scan_at": "2026-08-19T20:18:06.203881+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -367,9 +353,9 @@
       "url": "https://phaohoa1.live/truc-tiep/kashiwa-reysol-vs-v-varen-nagasaki-21-08-2026-807493",
       "match_name": "Kashiwa Reysol vs V Varen Nagasaki",
       "kickoff_iso": "2026-08-21T17:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-21T18:33:10.975489+07:00",
-      "next_scan_at": "2026-08-21T18:38:10.975489+07:00",
+      "minutes_to_kickoff": -122,
+      "last_scan_at": "2026-08-21T19:02:57.052886+07:00",
+      "next_scan_at": "2026-08-21T19:07:57.052886+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -381,9 +367,9 @@
       "url": "https://phaohoa1.live/truc-tiep/phap-vs-slovakia",
       "match_name": "Pháp vs Slovakia",
       "kickoff_iso": "2026-08-21T18:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-21T18:33:10.975489+07:00",
-      "next_scan_at": "2026-08-21T18:38:10.975489+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-08-21T19:02:57.052886+07:00",
+      "next_scan_at": "2026-08-21T19:07:57.052886+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -393,15 +379,15 @@
     },
     "f20b5ff67814": {
       "url": "https://phaohoa1.live/truc-tiep/ao-vs-serbia",
-      "match_name": "21-08 Vô Địch Châu Âu Áo VS Serbia A Heo",
-      "kickoff_iso": "2026-08-21T19:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-21T18:33:10.975489+07:00",
-      "next_scan_at": "2026-08-21T18:43:10.975489+07:00",
+      "match_name": "21-08 Stars League Al-Gharafa VS Al-Shahaniya Pháo Thủ",
+      "kickoff_iso": "2026-08-21T21:15:00+07:00",
+      "minutes_to_kickoff": 133,
+      "last_scan_at": "2026-08-21T19:02:57.052886+07:00",
+      "next_scan_at": "2026-08-21T19:47:57.052886+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "http-only-far-upcoming"
     },
     "eb525b80a66a": {
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-hong-kong",
@@ -436,6 +422,18 @@
       "minutes_to_kickoff": 163,
       "last_scan_at": "2026-08-21T18:33:10.975489+07:00",
       "next_scan_at": "2026-08-21T19:18:10.975489+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1aa286a91458": {
+      "url": "https://phaohoa1.live/truc-tiep/bulgaria-vs-ukraine",
+      "match_name": "21-08 Vô Địch Châu Âu Bulgaria VS Ukraine Văn Minh",
+      "kickoff_iso": "2026-08-21T22:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-21T19:02:57.052886+07:00",
+      "next_scan_at": "2026-08-21T19:47:57.052886+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
