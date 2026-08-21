@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-21T15:32:10.590333+07:00",
+  "updated_at": "2026-08-21T16:02:37.864103+07:00",
   "matches": {
     "839170": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-19-08-2026-839170",
@@ -395,9 +395,9 @@
       "url": "https://phaohoa1.live/truc-tiep/kashiwa-reysol-vs-v-varen-nagasaki-21-08-2026-807493",
       "match_name": "21-08 J1 League Kashiwa Reysol VS V-Varen Nagasaki Tày",
       "kickoff_iso": "2026-08-21T17:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-21T15:32:10.589968+07:00",
-      "next_scan_at": "2026-08-21T15:52:10.589968+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-21T16:02:37.863912+07:00",
+      "next_scan_at": "2026-08-21T16:22:37.863912+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -414,6 +414,30 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
+    },
+    "f20b5ff67814": {
+      "url": "https://phaohoa1.live/truc-tiep/ao-vs-serbia",
+      "match_name": "21-08 Vô Địch Châu Âu Áo VS Serbia A Heo",
+      "kickoff_iso": "2026-08-21T19:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-21T16:02:37.863912+07:00",
+      "next_scan_at": "2026-08-21T16:47:37.863912+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "eb525b80a66a": {
+      "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-hong-kong",
+      "match_name": "21-08 Vô Địch Châu Á Nhật Bản VS Hong Kong KaKa",
+      "kickoff_iso": "2026-08-21T17:30:00+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-21T16:02:37.863912+07:00",
+      "next_scan_at": "2026-08-21T16:22:37.863912+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
     }
   }
 }
