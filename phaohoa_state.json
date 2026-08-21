@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-21T16:32:39.748898+07:00",
+  "updated_at": "2026-08-21T17:02:59.604488+07:00",
   "matches": {
     "839170": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-19-08-2026-839170",
@@ -393,14 +393,16 @@
     },
     "807493": {
       "url": "https://phaohoa1.live/truc-tiep/kashiwa-reysol-vs-v-varen-nagasaki-21-08-2026-807493",
-      "match_name": "21-08 J1 League Kashiwa Reysol VS V-Varen Nagasaki Tày",
+      "match_name": "Kashiwa Reysol vs V Varen Nagasaki",
       "kickoff_iso": "2026-08-21T17:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-21T16:32:39.748768+07:00",
-      "next_scan_at": "2026-08-21T16:42:39.748768+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-21T17:02:59.604318+07:00",
+      "next_scan_at": "2026-08-21T17:07:59.604318+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     },
     "4de9185af20d": {
@@ -419,9 +421,9 @@
       "url": "https://phaohoa1.live/truc-tiep/ao-vs-serbia",
       "match_name": "21-08 Vô Địch Châu Âu Áo VS Serbia A Heo",
       "kickoff_iso": "2026-08-21T19:00:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-21T16:02:37.863912+07:00",
-      "next_scan_at": "2026-08-21T16:47:37.863912+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-21T17:02:59.604318+07:00",
+      "next_scan_at": "2026-08-21T17:22:59.604318+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -431,9 +433,9 @@
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-hong-kong",
       "match_name": "21-08 Vô Địch Châu Á Nhật Bản VS Hong Kong KaKa",
       "kickoff_iso": "2026-08-21T17:30:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-21T16:32:39.748768+07:00",
-      "next_scan_at": "2026-08-21T16:52:39.748768+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-21T17:02:59.604318+07:00",
+      "next_scan_at": "2026-08-21T17:12:59.604318+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
