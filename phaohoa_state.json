@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-21T13:32:23.862278+07:00",
+  "updated_at": "2026-08-21T14:02:14.303685+07:00",
   "matches": {
     "839170": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-19-08-2026-839170",
@@ -383,15 +383,27 @@
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-uc",
       "match_name": "Thái Lan vs Úc",
       "kickoff_iso": "2026-08-21T13:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-21T13:32:23.862200+07:00",
-      "next_scan_at": "2026-08-21T13:37:23.862200+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-08-21T14:02:14.303568+07:00",
+      "next_scan_at": "2026-08-21T14:07:14.303568+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "807493": {
+      "url": "https://phaohoa1.live/truc-tiep/kashiwa-reysol-vs-v-varen-nagasaki-21-08-2026-807493",
+      "match_name": "21-08 J1 League Kashiwa Reysol VS V-Varen Nagasaki Tày",
+      "kickoff_iso": "2026-08-21T17:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-21T14:02:14.303568+07:00",
+      "next_scan_at": "2026-08-21T14:47:14.303568+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
