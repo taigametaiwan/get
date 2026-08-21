@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-22T03:31:45.293424+07:00",
+  "updated_at": "2026-08-22T04:01:42.917957+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1617,15 +1617,12 @@
       "url": "https://live04.chuoichientv.me/live/1557367/arsenal-vs-coventry",
       "match_name": "Arsenal vs Coventry - Ngoại Hạng Anh",
       "kickoff_iso": "2026-08-22T02:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-22T03:31:45.293341+07:00",
-      "next_scan_at": "2026-08-22T03:36:45.293341+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichao/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-22T04:01:42.912884+07:00",
+      "next_scan_at": "2026-08-22T04:06:42.912884+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "1570345": {
@@ -1643,22 +1640,22 @@
     "1493081": {
       "url": "https://live04.chuoichientv.me/live/1493081/estudiantes-de-rio-cuarto-vs-san-lorenzo",
       "match_name": "estudiantes de rio cuarto vs san lorenzo",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-22T03:31:45.293341+07:00",
-      "next_scan_at": "2026-08-22T03:41:45.293341+07:00",
+      "kickoff_iso": "2026-08-22T06:00:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-22T04:01:42.912884+07:00",
+      "next_scan_at": "2026-08-22T04:21:42.912884+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1550936": {
       "url": "https://live04.chuoichientv.me/live/1550936/tigres-uanl-vs-atlante-fc",
       "match_name": "tigres uanl vs atlante fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-22T03:31:45.293341+07:00",
-      "next_scan_at": "2026-08-22T03:41:45.293341+07:00",
+      "last_scan_at": "2026-08-22T04:01:42.912884+07:00",
+      "next_scan_at": "2026-08-22T04:11:42.912884+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
