@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-21T14:32:42.782850+07:00",
+  "updated_at": "2026-08-21T15:02:35.825903+07:00",
   "matches": {
     "839170": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-malaysia-19-08-2026-839170",
@@ -381,11 +381,11 @@
     },
     "b60eb863683b": {
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-uc",
-      "match_name": "Thái Lan vs Úc",
+      "match_name": "Thai Lan vs Uc",
       "kickoff_iso": "2026-08-21T13:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-21T14:32:42.782750+07:00",
-      "next_scan_at": "2026-08-21T14:37:42.782750+07:00",
+      "minutes_to_kickoff": -122,
+      "last_scan_at": "2026-08-21T15:02:35.825680+07:00",
+      "next_scan_at": "2026-08-21T15:07:35.825680+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -395,9 +395,21 @@
       "url": "https://phaohoa1.live/truc-tiep/kashiwa-reysol-vs-v-varen-nagasaki-21-08-2026-807493",
       "match_name": "21-08 J1 League Kashiwa Reysol VS V-Varen Nagasaki Tày",
       "kickoff_iso": "2026-08-21T17:00:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-21T15:02:35.825680+07:00",
+      "next_scan_at": "2026-08-21T15:22:35.825680+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "4de9185af20d": {
+      "url": "https://phaohoa1.live/truc-tiep/phap-vs-slovakia",
+      "match_name": "21-08 Vô Địch Châu Âu Pháp VS Slovakia Chim Nhỏ",
+      "kickoff_iso": "2026-08-21T18:00:00+07:00",
       "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-21T14:02:14.303568+07:00",
-      "next_scan_at": "2026-08-21T14:47:14.303568+07:00",
+      "last_scan_at": "2026-08-21T15:02:35.825680+07:00",
+      "next_scan_at": "2026-08-21T15:47:35.825680+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
