@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-22T06:01:36.822997+07:00",
+  "updated_at": "2026-08-22T06:31:35.094910+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1155,21 +1155,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1490391": {
-      "url": "https://live04.chuoichientv.me/live/1490391/philadelphia-union-vs-inter-miami",
-      "match_name": "Philadelphia Union vs Inter Miami - Major League Soccer",
-      "kickoff_iso": "2026-08-20T06:30:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-20T08:31:58.130097+07:00",
-      "next_scan_at": "2026-08-20T08:36:58.130097+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1490400": {
       "url": "https://live04.chuoichientv.me/live/1490400/colorado-rapids-vs-los-angeles-fc",
       "match_name": "Colorado Rapids vs Los Angeles FC - Major League Soccer",
@@ -1641,9 +1626,9 @@
       "url": "https://live04.chuoichientv.me/live/1493081/estudiantes-de-rio-cuarto-vs-san-lorenzo",
       "match_name": "Estudiantes de Rio Cuarto vs San Lorenzo - VĐQG Argentina",
       "kickoff_iso": "2026-08-22T06:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-22T06:01:36.822928+07:00",
-      "next_scan_at": "2026-08-22T06:06:36.822928+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-22T06:31:35.094845+07:00",
+      "next_scan_at": "2026-08-22T06:36:35.094845+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1654,15 +1639,15 @@
     },
     "1550936": {
       "url": "https://live04.chuoichientv.me/live/1550936/tigres-uanl-vs-atlante-fc",
-      "match_name": "tigres uanl vs atlante fc",
+      "match_name": "Tigres UANL vs Atlante FC - VĐQG Mexico",
       "kickoff_iso": "2026-08-22T08:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-22T06:01:36.822928+07:00",
-      "next_scan_at": "2026-08-22T06:21:36.822928+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-08-22T06:31:35.094845+07:00",
+      "next_scan_at": "2026-08-22T06:51:35.094845+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1550931": {
       "url": "https://live04.chuoichientv.me/live/1550931/fc-juarez-vs-club-america",
