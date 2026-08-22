@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-23T03:02:10.440903+07:00",
+  "updated_at": "2026-08-23T03:32:04.222723+07:00",
   "matches": {
     "066e75c4ae21": {
       "url": "https://phaohoa1.live/truc-tiep/dai-loan-vs-iran",
@@ -485,9 +485,9 @@
       "url": "https://phaohoa1.live/truc-tiep/genoa-vs-napoli-23-08-2026-807855",
       "match_name": "Genoa vs Napoli",
       "kickoff_iso": "2026-08-23T01:45:00+07:00",
-      "minutes_to_kickoff": -77,
-      "last_scan_at": "2026-08-23T03:02:10.440817+07:00",
-      "next_scan_at": "2026-08-23T03:07:10.440817+07:00",
+      "minutes_to_kickoff": -107,
+      "last_scan_at": "2026-08-23T03:32:04.222617+07:00",
+      "next_scan_at": "2026-08-23T03:37:04.222617+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -527,15 +527,27 @@
       "url": "https://phaohoa1.live/truc-tiep/toulouse-vs-lyon-23-08-2026-809911",
       "match_name": "Toulouse vs Lyon",
       "kickoff_iso": "2026-08-23T01:45:00+07:00",
-      "minutes_to_kickoff": -17,
-      "last_scan_at": "2026-08-23T02:03:03.276894+07:00",
-      "next_scan_at": "2026-08-23T02:08:03.276894+07:00",
+      "minutes_to_kickoff": -107,
+      "last_scan_at": "2026-08-23T03:32:04.222617+07:00",
+      "next_scan_at": "2026-08-23T03:37:04.222617+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "711590": {
+      "url": "https://phaohoa1.live/truc-tiep/inter-miami-vs-toronto-fc-23-08-2026-711590",
+      "match_name": "23-08 MLS Inter Miami VS Toronto FC A Heo",
+      "kickoff_iso": "2026-08-23T06:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-23T03:32:04.222617+07:00",
+      "next_scan_at": "2026-08-23T04:17:04.222617+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
