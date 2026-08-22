@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-22T07:31:33.915327+07:00",
+  "updated_at": "2026-08-22T08:01:46.980350+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1665,16 +1665,109 @@
       "url": "https://live04.chuoichientv.me/live/991750/estudiantes-de-rio-cuarto-vs-san-lorenzo",
       "match_name": "Estudiantes de Rio Cuarto vs San Lorenzo - VĐQG Argentina",
       "kickoff_iso": "2026-08-22T06:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-22T07:31:33.915278+07:00",
-      "next_scan_at": "2026-08-22T07:36:33.915278+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctru/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-22T08:01:46.980219+07:00",
+      "next_scan_at": "2026-08-22T08:06:46.980219+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "998552": {
+      "url": "https://live04.chuoichientv.me/live/998552/vit-nam-vs-south-korea",
+      "match_name": "Việt Nam vs South Korea - Bóng chuyền nữ Châu Á 2026",
+      "kickoff_iso": "2026-08-22T09:00:00+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-08-22T08:01:46.980219+07:00",
+      "next_scan_at": "2026-08-22T08:21:46.980219+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "991676": {
+      "url": "https://live04.chuoichientv.me/live/991676/kazakhstan-vs-indonesia",
+      "match_name": "kazakhstan vs indonesia",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-22T08:01:46.980219+07:00",
+      "next_scan_at": "2026-08-22T08:11:46.980219+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1601117": {
+      "url": "https://live04.chuoichientv.me/live/1601117/negeri-sembilan-vs-kuala-lumpur-fa",
+      "match_name": "negeri sembilan vs kuala lumpur fa",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-22T08:01:46.980219+07:00",
+      "next_scan_at": "2026-08-22T08:11:46.980219+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1557368": {
+      "url": "https://live04.chuoichientv.me/live/1557368/hull-city-vs-manchester-united",
+      "match_name": "hull city vs manchester united",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-22T08:01:46.980219+07:00",
+      "next_scan_at": "2026-08-22T08:11:46.980219+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "999134": {
+      "url": "https://live04.chuoichientv.me/live/999134/china-vs-iraq",
+      "match_name": "china vs iraq",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-22T08:01:46.980219+07:00",
+      "next_scan_at": "2026-08-22T08:11:46.980219+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1630225": {
+      "url": "https://live04.chuoichientv.me/live/1630225/thailand-vs-vit-nam",
+      "match_name": "thailand vs vit nam",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-22T08:01:46.980219+07:00",
+      "next_scan_at": "2026-08-22T08:11:46.980219+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1557369": {
+      "url": "https://live04.chuoichientv.me/live/1557369/everton-vs-crystal-palace",
+      "match_name": "everton vs crystal palace",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-22T08:01:46.980219+07:00",
+      "next_scan_at": "2026-08-22T08:11:46.980219+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1557371": {
+      "url": "https://live04.chuoichientv.me/live/1557371/nottingham-forest-vs-leeds",
+      "match_name": "nottingham forest vs leeds",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-22T08:01:46.980219+07:00",
+      "next_scan_at": "2026-08-22T08:11:46.980219+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
