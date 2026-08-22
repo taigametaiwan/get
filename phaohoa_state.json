@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-22T17:32:55.836803+07:00",
+  "updated_at": "2026-08-22T18:02:53.737383+07:00",
   "matches": {
-    "f56f5ab4c9db": {
-      "url": "https://phaohoa1.live/truc-tiep/brazil-vs-mexico",
-      "match_name": "Brazil vs Mexico",
-      "kickoff_iso": "2026-08-20T18:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-20T19:02:24.518193+07:00",
-      "next_scan_at": "2026-08-20T19:07:24.518193+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "803268": {
       "url": "https://phaohoa1.live/truc-tiep/al-wakra-vs-qatar-sc-20-08-2026-803268",
       "match_name": "Al Wakra vs Qatar SC",
@@ -419,23 +405,23 @@
     },
     "812651": {
       "url": "https://phaohoa1.live/truc-tiep/hull-vs-manchester-united-22-08-2026-812651",
-      "match_name": "22-08 Vô Địch Châu Âu Italy VS Montenegro Chim Nhỏ",
-      "kickoff_iso": "2026-08-22T19:59:00+07:00",
-      "minutes_to_kickoff": 177,
-      "last_scan_at": "2026-08-22T17:02:47.200118+07:00",
-      "next_scan_at": "2026-08-22T17:47:47.200118+07:00",
+      "match_name": "22-08 Premier League Hull City VS Manchester United A Heo",
+      "kickoff_iso": "2026-08-22T18:30:00+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-22T18:02:53.737088+07:00",
+      "next_scan_at": "2026-08-22T18:12:53.737088+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "807501": {
       "url": "https://phaohoa1.live/truc-tiep/yokohama-f-marinos-vs-vissel-kobe-22-08-2026-807501",
-      "match_name": "Yokohama F. Marinos vs Vissel Kobe",
+      "match_name": "Yokohama F Marinos vs Vissel Kobe",
       "kickoff_iso": "2026-08-22T17:30:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-22T17:32:55.836627+07:00",
-      "next_scan_at": "2026-08-22T17:37:55.836627+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-22T18:02:53.737088+07:00",
+      "next_scan_at": "2026-08-22T18:07:53.737088+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -445,23 +431,59 @@
     },
     "e177b6b49930": {
       "url": "https://phaohoa1.live/truc-tiep/trung-quoc-vs-iraq",
-      "match_name": "22-08 Vô Địch Châu Á Trung Quốc VS Iraq KaKa",
-      "kickoff_iso": "2026-08-22T18:30:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-22T17:32:55.836627+07:00",
-      "next_scan_at": "2026-08-22T17:52:55.836627+07:00",
+      "match_name": "22-08 ASEAN Championship Thái Lan VS Việt Nam Người Lửa",
+      "kickoff_iso": "2026-08-22T20:00:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-22T18:02:53.737088+07:00",
+      "next_scan_at": "2026-08-22T18:22:53.737088+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "http-only-far-upcoming"
     },
     "849234": {
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-viet-nam-22-08-2026-849234",
-      "match_name": "22-08 ASEAN Championship Thái Lan VS Việt Nam Người Lửa",
-      "kickoff_iso": "2026-08-22T20:00:00+07:00",
+      "match_name": "22-08 Premier League Nottingham VS Leeds Tày",
+      "kickoff_iso": "2026-08-22T21:00:00+07:00",
       "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-22T17:02:47.200118+07:00",
-      "next_scan_at": "2026-08-22T17:47:47.200118+07:00",
+      "last_scan_at": "2026-08-22T18:02:53.737088+07:00",
+      "next_scan_at": "2026-08-22T18:47:53.737088+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "3d08d77fdd4d": {
+      "url": "https://phaohoa1.live/truc-tiep/italy-vs-montenegro",
+      "match_name": "22-08 Vô Địch Châu Âu Italy VS Montenegro Chim Nhỏ",
+      "kickoff_iso": "2026-08-22T19:59:00+07:00",
+      "minutes_to_kickoff": 117,
+      "last_scan_at": "2026-08-22T18:02:53.737088+07:00",
+      "next_scan_at": "2026-08-22T18:22:53.737088+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "172419": {
+      "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-viet-nam-20-08-2026-172419",
+      "match_name": "22-08 ASEAN Championship Thái Lan VS Việt Nam Kevin",
+      "kickoff_iso": "2026-08-22T20:00:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-22T18:02:53.737088+07:00",
+      "next_scan_at": "2026-08-22T18:22:53.737088+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "812653": {
+      "url": "https://phaohoa1.live/truc-tiep/ipswich-vs-sunderland-22-08-2026-812653",
+      "match_name": "22-08 Premier League Ipswich VS Sunderland Pháo Thủ",
+      "kickoff_iso": "2026-08-22T21:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-22T18:02:53.737088+07:00",
+      "next_scan_at": "2026-08-22T18:47:53.737088+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
