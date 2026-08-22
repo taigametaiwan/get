@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-23T06:01:45.327930+07:00",
+  "updated_at": "2026-08-23T06:32:02.728059+07:00",
   "matches": {
     "066e75c4ae21": {
       "url": "https://phaohoa1.live/truc-tiep/dai-loan-vs-iran",
@@ -539,14 +539,16 @@
     },
     "711590": {
       "url": "https://phaohoa1.live/truc-tiep/inter-miami-vs-toronto-fc-23-08-2026-711590",
-      "match_name": "23-08 MLS Inter Miami VS Toronto FC A Heo",
+      "match_name": "Inter Miami vs Toronto FC",
       "kickoff_iso": "2026-08-23T06:30:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-23T06:01:45.326144+07:00",
-      "next_scan_at": "2026-08-23T06:11:45.326144+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-23T06:32:02.727986+07:00",
+      "next_scan_at": "2026-08-23T06:37:02.727986+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     },
     "b393769485b1": {
