@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-22T21:03:53.586821+07:00",
+  "updated_at": "2026-08-22T21:33:51.742211+07:00",
   "matches": {
-    "803268": {
-      "url": "https://phaohoa1.live/truc-tiep/al-wakra-vs-qatar-sc-20-08-2026-803268",
-      "match_name": "Al Wakra vs Qatar SC",
-      "kickoff_iso": "2026-08-20T21:15:00+07:00",
-      "minutes_to_kickoff": -107,
-      "last_scan_at": "2026-08-20T23:03:46.980162+07:00",
-      "next_scan_at": "2026-08-20T23:08:46.980162+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "844989": {
       "url": "https://phaohoa1.live/truc-tiep/kairat-almaty-vs-anderlecht-21-08-2026-844989",
       "match_name": "Kairat Almaty vs Anderlecht",
@@ -447,9 +433,9 @@
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-viet-nam-22-08-2026-849234",
       "match_name": "Thái Lan vs Việt Nam",
       "kickoff_iso": "2026-08-22T20:00:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-22T21:03:53.586511+07:00",
-      "next_scan_at": "2026-08-22T21:08:53.586511+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-08-22T21:33:51.742006+07:00",
+      "next_scan_at": "2026-08-22T21:38:51.742006+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -487,11 +473,11 @@
     },
     "812653": {
       "url": "https://phaohoa1.live/truc-tiep/ipswich-vs-sunderland-22-08-2026-812653",
-      "match_name": "Ipswich vs Sunderland",
-      "kickoff_iso": "2026-08-22T21:00:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-08-22T21:03:53.586511+07:00",
-      "next_scan_at": "2026-08-22T21:08:53.586511+07:00",
+      "match_name": "22-08 La Liga Ath Bilbao VS Sevilla Kevin",
+      "kickoff_iso": "2026-08-22T22:00:00+07:00",
+      "minutes_to_kickoff": 27,
+      "last_scan_at": "2026-08-22T21:33:51.742006+07:00",
+      "next_scan_at": "2026-08-22T21:38:51.742006+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -503,9 +489,9 @@
       "url": "https://phaohoa1.live/truc-tiep/everton-vs-crystal-palace-22-08-2026-812652",
       "match_name": "Everton vs Crystal Palace",
       "kickoff_iso": "2026-08-22T21:00:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-08-22T21:03:53.586511+07:00",
-      "next_scan_at": "2026-08-22T21:08:53.586511+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-08-22T21:33:51.742006+07:00",
+      "next_scan_at": "2026-08-22T21:38:51.742006+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -515,27 +501,29 @@
     },
     "812654": {
       "url": "https://phaohoa1.live/truc-tiep/nottingham-vs-leeds-22-08-2026-812654",
-      "match_name": "22-08 Serie A Inter VS Monza Chim Nhỏ",
+      "match_name": "Nottingham vs Leeds",
+      "kickoff_iso": "2026-08-22T21:00:00+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-08-22T21:33:51.742006+07:00",
+      "next_scan_at": "2026-08-22T21:38:51.742006+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "798818": {
+      "url": "https://phaohoa1.live/truc-tiep/ath-bilbao-vs-sevilla-22-08-2026-798818",
+      "match_name": "22-08 Premier League Brentford VS Tottenham Người Lửa",
       "kickoff_iso": "2026-08-22T23:30:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-22T20:34:09.067115+07:00",
-      "next_scan_at": "2026-08-22T21:19:09.067115+07:00",
+      "minutes_to_kickoff": 117,
+      "last_scan_at": "2026-08-22T21:33:51.742006+07:00",
+      "next_scan_at": "2026-08-22T21:53:51.742006+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
-    },
-    "798818": {
-      "url": "https://phaohoa1.live/truc-tiep/ath-bilbao-vs-sevilla-22-08-2026-798818",
-      "match_name": "22-08 La Liga Ath Bilbao VS Sevilla Kevin",
-      "kickoff_iso": "2026-08-22T22:00:00+07:00",
-      "minutes_to_kickoff": 57,
-      "last_scan_at": "2026-08-22T21:03:53.586511+07:00",
-      "next_scan_at": "2026-08-22T21:23:53.586511+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
     },
     "5b1d5994e98f": {
       "url": "https://phaohoa1.live/truc-tiep/hungary-vs-ba-lan",
@@ -548,6 +536,30 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
+    },
+    "807853": {
+      "url": "https://phaohoa1.live/truc-tiep/inter-vs-monza-22-08-2026-807853",
+      "match_name": "22-08 Serie A Inter VS Monza Chim Nhỏ",
+      "kickoff_iso": "2026-08-22T23:30:00+07:00",
+      "minutes_to_kickoff": 117,
+      "last_scan_at": "2026-08-22T21:33:51.742006+07:00",
+      "next_scan_at": "2026-08-22T21:53:51.742006+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "809908": {
+      "url": "https://phaohoa1.live/truc-tiep/lens-vs-auxerre-22-08-2026-809908",
+      "match_name": "22-08 Ligue 1 Lens VS Auxerre Văn Minh",
+      "kickoff_iso": "2026-08-22T22:15:00+07:00",
+      "minutes_to_kickoff": 42,
+      "last_scan_at": "2026-08-22T21:33:51.742006+07:00",
+      "next_scan_at": "2026-08-22T21:43:51.742006+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
     }
   }
 }
