@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-22T08:02:31.480235+07:00",
+  "updated_at": "2026-08-22T08:32:00.936993+07:00",
   "matches": {
     "f56f5ab4c9db": {
       "url": "https://phaohoa1.live/truc-tiep/brazil-vs-mexico",
@@ -379,14 +379,16 @@
     },
     "2025e6771bf6": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-han-quoc",
-      "match_name": "22-08 Vô Địch Châu Á Việt Nam VS Hàn Quốc KaKa",
+      "match_name": "Viet Nam vs Han Quoc",
       "kickoff_iso": "2026-08-22T09:00:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-22T08:02:31.480137+07:00",
-      "next_scan_at": "2026-08-22T08:22:31.480137+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-22T08:32:00.936883+07:00",
+      "next_scan_at": "2026-08-22T08:37:00.936883+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
