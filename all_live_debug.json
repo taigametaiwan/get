@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-23T11:03:35.272540+07:00",
+  "generated_at": "2026-08-23T11:33:17.527228+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -78,10 +78,10 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 48,
+      "debug_rows": 84,
       "playlist_blocks": 1,
       "catalog_placeholders": 0,
-      "metadata_references": 48,
+      "metadata_references": 84,
       "included": true,
       "fresh_stream_blocks": 1,
       "fresh_verified_blocks": 1,
@@ -134,11 +134,38 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 13,
-  "metadata_reference_count": 152,
-  "last_good_recovered_count": 0,
-  "last_good_suppressed_by_fresh_count": 5,
+  "input_candidates": 14,
+  "metadata_reference_count": 188,
+  "last_good_recovered_count": 1,
+  "last_good_suppressed_by_fresh_count": 4,
   "last_good_audit": [
+    {
+      "url": "https://live05.meung.app/live/87379114.m3u8",
+      "kept": false,
+      "reason": "outside-source-window",
+      "source": "colatv",
+      "kickoff_iso": "2026-08-23T09:00:00+07:00",
+      "minutes_to_kickoff": -153.29,
+      "filtered_before_probe": true
+    },
+    {
+      "url": "https://live05.meung.app/live/41943555.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/14707124.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/75915087.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
     {
       "url": "https://colatv88xi.cc/video2/output.m3u8",
       "kept": true,
@@ -146,33 +173,27 @@
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/14707124.m3u8",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787457805-0-0-4e03fe036340f8207b8115b5bb258177",
       "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
+      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "source": "xoilac"
     },
     {
       "url": "https://live05.meung.app/live/41943555.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/14707124.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     },
     {
       "url": "https://live05.meung.app/live/75915087.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/87379114.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/19919577.m3u8",
       "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
+      "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     },
     {
@@ -180,34 +201,10 @@
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/14707124.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/41943555.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/75915087.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/87379114.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
     }
   ],
   "selected_count": 6,
-  "dropped_count": 7,
+  "dropped_count": 8,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -222,7 +219,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787457805-0-0-4e03fe036340f8207b8115b5bb258177",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787459578-0-0-f064141156264f475381a067be66e596",
       "match_key": "nu dai loan vs nu iraq|hd tyson",
       "display_name": "[13:00 23/08/2026] Nu Dai Loan vs Nu Iraq [BLV HD TYSON] [FLV]",
       "group": "Xôi Lạc",
@@ -243,7 +240,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-23T13:00:00+07:00",
-      "minutes_to_kickoff": 116.41,
+      "minutes_to_kickoff": 86.71,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -253,7 +250,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787457805-0-0-4e03fe036340f8207b8115b5bb258177",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787459578-0-0-f064141156264f475381a067be66e596",
       "home_logo": "https://imgts.sportpulseapiz.com/volleyball/team/9k82redh702qepz/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/volleyball/team/l5ergdhone9or8k/image/small",
       "blv": null,
@@ -267,49 +264,9 @@
     {
       "source": "colatv",
       "source_label": "ColaTV",
-      "url": "https://live05.meung.app/live/87379114.m3u8",
-      "match_key": "phoenix mercury vs atlanta dream|lich thi au cuoc vsbet nhan km ho tro k",
-      "display_name": "[09:00 23/08] Phoenix Mercury vs Atlanta Dream [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
-      "group": "ColaTV",
-      "sport_group": "Bóng rổ",
-      "quality": "UNKNOWN",
-      "kind": "m3u8",
-      "playability": "verified",
-      "classification": null,
-      "classification_reason": null,
-      "has_secret": false,
-      "expiry": null,
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 439,
-      "kickoff_iso": "2026-08-23T09:00:00+07:00",
-      "minutes_to_kickoff": -123.59,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://img.gvapi.cc/basketball/team/b48443679dd0356cc64abce373f763e1.png!w80",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live05.meung.app/live/87379114.m3u8",
-      "home_logo": null,
-      "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k",
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
-    {
-      "source": "colatv",
-      "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/14707124.m3u8",
-      "match_key": "los angeles fc vs portland timbers|lich thi au cuoc vsbet nhan km ho tro k",
-      "display_name": "[09:40 23/08] Los Angeles FC vs Portland Timbers [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
+      "match_key": "los angeles fc vs portland timbers|sting ang xem",
+      "display_name": "[09:40 23/08] Los Angeles FC vs Portland Timbers [BLV STINGĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -323,7 +280,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-23T09:40:00+07:00",
-      "minutes_to_kickoff": -83.59,
+      "minutes_to_kickoff": -113.29,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -336,7 +293,7 @@
       "page_url": "https://live05.meung.app/live/14707124.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k",
+      "blv": "STINGĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -363,7 +320,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-23T09:40:00+07:00",
-      "minutes_to_kickoff": -83.59,
+      "minutes_to_kickoff": -113.29,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -388,8 +345,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/41943555.m3u8",
-      "match_key": "cruz azul vs atlas|lich thi au cuoc vsbet nhan km ho tro k",
-      "display_name": "[10:00 23/08] Cruz Azul vs Atlas [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
+      "match_key": "cruz azul vs atlas|khong o ang xem",
+      "display_name": "[10:00 23/08] Cruz Azul vs Atlas [BLV KHÔNG ĐỘĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -403,7 +360,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-23T10:00:00+07:00",
-      "minutes_to_kickoff": -63.59,
+      "minutes_to_kickoff": -93.29,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -416,7 +373,7 @@
       "page_url": "https://live05.meung.app/live/41943555.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k",
+      "blv": "KHÔNG ĐỘĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -427,9 +384,9 @@
     {
       "source": "colatv",
       "source_label": "ColaTV",
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "match_key": "giai hang nhat new south wales cua uc 23 08 sydney utd vs apia tigers blv 7up|lich thi au cuoc vsbet tai app ho tr",
-      "display_name": "[11:30 23/08] Giải Hạng nhất New South Wales của Úc 23/08 Sydney Utd VS APIA Tigers BLV 7UP [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]",
+      "url": "https://live05.meung.app/live/78905744.m3u8",
+      "match_key": "sydney united 58 fc vs apia leichhardt tigers|7up ang xem",
+      "display_name": "[11:30 23/08] Sydney United 58 FC vs APIA Leichhardt Tigers [BLV 7UPĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -443,12 +400,52 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-23T11:30:00+07:00",
-      "minutes_to_kickoff": 26.41,
+      "minutes_to_kickoff": -3.29,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
       "stream_key_tokens": null,
-      "logo": "https://img.gvapi.cc/football/team/5e7f98b3e6dba2955758797b84e94868.png!w80",
+      "logo": "https://img.gvapi.cc/football/team/a2f47271892fb491ffab880158419ca0.png!w80",
+      "logo_source": null,
+      "logo_enriched_from": null,
+      "logo_is_fallback": null,
+      "entry_mode": "stream",
+      "page_url": "https://live05.meung.app/live/78905744.m3u8",
+      "home_logo": null,
+      "away_logo": null,
+      "blv": "7UPĐang xem",
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
+    },
+    {
+      "source": "colatv",
+      "source_label": "ColaTV",
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "match_key": "south melbourne vs heidelberg united|soda ang xem",
+      "display_name": "[12:30 23/08] South Melbourne vs Heidelberg United [BLV SODAĐang xem] [M3U8]",
+      "group": "ColaTV",
+      "sport_group": "Bóng đá",
+      "quality": "UNKNOWN",
+      "kind": "m3u8",
+      "playability": "verified",
+      "classification": null,
+      "classification_reason": null,
+      "has_secret": false,
+      "expiry": null,
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 439,
+      "kickoff_iso": "2026-08-23T12:30:00+07:00",
+      "minutes_to_kickoff": 56.71,
+      "metadata_audit": null,
+      "metadata_enriched_from": null,
+      "metadata_warning": null,
+      "stream_key_tokens": null,
+      "logo": "https://img.gvapi.cc/football/team/3728683390847f335552d077cf0b8752.png!w80",
       "logo_source": null,
       "logo_enriched_from": null,
       "logo_is_fallback": null,
@@ -456,7 +453,7 @@
       "page_url": "https://colatv88xi.cc/video2/output.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr",
+      "blv": "SODAĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -468,7 +465,7 @@
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787457805-0-0-4e03fe036340f8207b8115b5bb258177",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787459578-0-0-f064141156264f475381a067be66e596",
       "display_name": "[13:00 23/08/2026] Nu Dai Loan vs Nu Iraq [BLV HD TYSON] [FLV]",
       "match_key": "nu dai loan vs nu iraq|hd tyson",
       "quality": "HD",
@@ -481,8 +478,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/14707124.m3u8",
-      "display_name": "[09:40 23/08] Los Angeles FC vs Portland Timbers [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
-      "match_key": "los angeles fc vs portland timbers|lich thi au cuoc vsbet nhan km ho tro k",
+      "display_name": "[09:40 23/08] Los Angeles FC vs Portland Timbers [BLV STINGĐang xem] [M3U8]",
+      "match_key": "los angeles fc vs portland timbers|sting ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -505,8 +502,20 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/41943555.m3u8",
-      "display_name": "[10:00 23/08] Cruz Azul vs Atlas [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
-      "match_key": "cruz azul vs atlas|lich thi au cuoc vsbet nhan km ho tro k",
+      "display_name": "[10:00 23/08] Cruz Azul vs Atlas [BLV KHÔNG ĐỘĐang xem] [M3U8]",
+      "match_key": "cruz azul vs atlas|khong o ang xem",
+      "quality": "UNKNOWN",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "colatv",
+      "url": "https://live05.meung.app/live/78905744.m3u8",
+      "display_name": "[11:30 23/08] Sydney United 58 FC vs APIA Leichhardt Tigers [BLV 7UPĐang xem] [M3U8]",
+      "match_key": "sydney united 58 fc vs apia leichhardt tigers|7up ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -517,20 +526,8 @@
     {
       "source": "colatv",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "display_name": "[11:30 23/08] Giải Hạng nhất New South Wales của Úc 23/08 Sydney Utd VS APIA Tigers BLV 7UP [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]",
-      "match_key": "giai hang nhat new south wales cua uc 23 08 sydney utd vs apia tigers blv 7up|lich thi au cuoc vsbet tai app ho tr",
-      "quality": "UNKNOWN",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "colatv",
-      "url": "https://live05.meung.app/live/87379114.m3u8",
-      "display_name": "[09:00 23/08] Phoenix Mercury vs Atlanta Dream [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]",
-      "match_key": "phoenix mercury vs atlanta dream|lich thi au cuoc vsbet nhan km ho tro k",
+      "display_name": "[12:30 23/08] South Melbourne vs Heidelberg United [BLV SODAĐang xem] [M3U8]",
+      "match_key": "south melbourne vs heidelberg united|soda ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -542,27 +539,12 @@
   "fresh_preservation_ok": true,
   "dropped": [
     {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/b393769485b1.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/805972.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/f83c55e88423.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/812656.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
       "url": "http://127.0.0.1:9/__phaohoa_metadata__/01b402aa9e46.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/807502.m3u8",
       "reason": "not-verified-or-not-upcoming",
       "source": "phaohoa"
     },
@@ -572,9 +554,30 @@
       "source": "phaohoa"
     },
     {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/807502.m3u8",
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/809913.m3u8",
       "reason": "not-verified-or-not-upcoming",
       "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/812657.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/f83c55e88423.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/805972.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787457805-0-0-4e03fe036340f8207b8115b5bb258177",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "nu dai loan vs nu iraq|hd tyson"
     }
   ],
   "outputs_written": true
