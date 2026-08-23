@@ -1,20 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-23T12:31:49.025379+07:00",
+  "updated_at": "2026-08-23T13:02:07.602763+07:00",
   "matches": {
-    "b60eb863683b": {
-      "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-uc",
-      "match_name": "Thai Lan vs Uc",
-      "kickoff_iso": "2026-08-21T13:00:00+07:00",
-      "minutes_to_kickoff": -122,
-      "last_scan_at": "2026-08-21T15:02:35.825680+07:00",
-      "next_scan_at": "2026-08-21T15:07:35.825680+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "807493": {
       "url": "https://phaohoa1.live/truc-tiep/kashiwa-reysol-vs-v-varen-nagasaki-21-08-2026-807493",
       "match_name": "Kashiwa Reysol vs V Varen Nagasaki",
@@ -553,14 +541,16 @@
     },
     "01b402aa9e46": {
       "url": "https://phaohoa1.live/truc-tiep/dai-loan-vs-iraq",
-      "match_name": "Đài Loan vs Iraq",
+      "match_name": "Dai Loan vs Iraq",
       "kickoff_iso": "2026-08-23T13:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-23T12:31:49.025288+07:00",
-      "next_scan_at": "2026-08-23T12:41:49.025288+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-23T13:02:07.602646+07:00",
+      "next_scan_at": "2026-08-23T13:07:07.602646+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
