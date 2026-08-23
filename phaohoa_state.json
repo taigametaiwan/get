@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-24T00:03:43.744189+07:00",
+  "updated_at": "2026-08-24T00:33:56.313138+07:00",
   "matches": {
     "825111": {
       "url": "https://phaohoa1.live/truc-tiep/al-qadsiah-vs-al-ittihad-22-08-2026-825111",
@@ -569,9 +569,9 @@
       "url": "https://phaohoa1.live/truc-tiep/slovenia-vs-tho-nhi-ki",
       "match_name": "Slovenia vs Thổ Nhĩ Kì",
       "kickoff_iso": "2026-08-23T23:00:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-24T00:03:43.743895+07:00",
-      "next_scan_at": "2026-08-24T00:08:43.743895+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-24T00:33:56.312732+07:00",
+      "next_scan_at": "2026-08-24T00:38:56.312732+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -597,9 +597,9 @@
       "url": "https://phaohoa1.live/truc-tiep/frosinone-vs-juventus-23-08-2026-807857",
       "match_name": "Frosinone vs Juventus",
       "kickoff_iso": "2026-08-23T23:30:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-24T00:03:43.743895+07:00",
-      "next_scan_at": "2026-08-24T00:08:43.743895+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-08-24T00:33:56.312732+07:00",
+      "next_scan_at": "2026-08-24T00:38:56.312732+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -621,39 +621,67 @@
     },
     "b416a8336ada": {
       "url": "https://phaohoa1.live/truc-tiep/serbia-vs-cong-hoa-sec",
-      "match_name": "24-08 Vô Địch Châu Âu Serbia VS Cộng Hoà Séc Chim Nhỏ",
+      "match_name": "24-08 Serie A Atalanta VS Sassuolo Pháo Thủ",
       "kickoff_iso": "2026-08-24T00:00:00+07:00",
-      "minutes_to_kickoff": 87,
-      "last_scan_at": "2026-08-23T22:33:36.465683+07:00",
-      "next_scan_at": "2026-08-23T22:53:36.465683+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-08-24T00:33:56.312732+07:00",
+      "next_scan_at": "2026-08-24T00:38:56.312732+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     },
     "798822": {
       "url": "https://phaohoa1.live/truc-tiep/getafe-vs-racing-santander-24-08-2026-798822",
-      "match_name": "24-08 La Liga Getafe VS Racing Santander Văn Minh",
+      "match_name": "Getafe vs Racing Santander",
       "kickoff_iso": "2026-08-24T00:30:00+07:00",
-      "minutes_to_kickoff": 57,
-      "last_scan_at": "2026-08-23T23:34:02.914666+07:00",
-      "next_scan_at": "2026-08-23T23:54:02.914666+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-24T00:33:56.312732+07:00",
+      "next_scan_at": "2026-08-24T00:38:56.312732+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
+      ],
       "scan_decision": "browser-fallback"
     },
     "807859": {
       "url": "https://phaohoa1.live/truc-tiep/atalanta-vs-sassuolo-24-08-2026-807859",
-      "match_name": "24-08 Serie A Atalanta VS Sassuolo Pháo Thủ",
-      "kickoff_iso": "2026-08-24T01:45:00+07:00",
-      "minutes_to_kickoff": 103,
-      "last_scan_at": "2026-08-24T00:03:43.743895+07:00",
-      "next_scan_at": "2026-08-24T00:23:43.743895+07:00",
+      "match_name": "24-08 La Liga Elche VS Barcelona Chim Nhỏ",
+      "kickoff_iso": "2026-08-24T02:30:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-24T00:33:56.312732+07:00",
+      "next_scan_at": "2026-08-24T00:53:56.312732+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
+    },
+    "798823": {
+      "url": "https://phaohoa1.live/truc-tiep/elche-vs-barcelona-24-08-2026-798823",
+      "match_name": "24-08 La Liga Elche VS Barcelona A Heo",
+      "kickoff_iso": "2026-08-24T02:30:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-24T00:33:56.312732+07:00",
+      "next_scan_at": "2026-08-24T00:53:56.312732+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "807860": {
+      "url": "https://phaohoa1.live/truc-tiep/torino-vs-ac-milan-24-08-2026-807860",
+      "match_name": "24-08 Serie A Torino VS AC Milan Tày",
+      "kickoff_iso": "2026-08-24T01:45:00+07:00",
+      "minutes_to_kickoff": 72,
+      "last_scan_at": "2026-08-24T00:33:56.312732+07:00",
+      "next_scan_at": "2026-08-24T00:53:56.312732+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
     }
   }
 }
