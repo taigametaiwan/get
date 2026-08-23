@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-24T01:03:46.092117+07:00",
+  "updated_at": "2026-08-24T01:33:32.340104+07:00",
   "matches": {
     "798817": {
       "url": "https://phaohoa1.live/truc-tiep/real-betis-vs-real-sociedad-22-08-2026-798817",
@@ -583,9 +583,9 @@
       "url": "https://phaohoa1.live/truc-tiep/frosinone-vs-juventus-23-08-2026-807857",
       "match_name": "Frosinone vs Juventus",
       "kickoff_iso": "2026-08-23T23:30:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-24T01:03:46.087491+07:00",
-      "next_scan_at": "2026-08-24T01:08:46.087491+07:00",
+      "minutes_to_kickoff": -122,
+      "last_scan_at": "2026-08-24T01:33:32.339872+07:00",
+      "next_scan_at": "2026-08-24T01:38:32.339872+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -607,11 +607,11 @@
     },
     "b416a8336ada": {
       "url": "https://phaohoa1.live/truc-tiep/serbia-vs-cong-hoa-sec",
-      "match_name": "24-08 Serie A Atalanta VS Sassuolo Pháo Thủ",
+      "match_name": "Serbia vs Cộng Hoà Séc",
       "kickoff_iso": "2026-08-24T00:00:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-24T01:03:46.087491+07:00",
-      "next_scan_at": "2026-08-24T01:08:46.087491+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-24T01:33:32.339872+07:00",
+      "next_scan_at": "2026-08-24T01:38:32.339872+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -623,9 +623,9 @@
       "url": "https://phaohoa1.live/truc-tiep/getafe-vs-racing-santander-24-08-2026-798822",
       "match_name": "Getafe vs Racing Santander",
       "kickoff_iso": "2026-08-24T00:30:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-24T01:03:46.087491+07:00",
-      "next_scan_at": "2026-08-24T01:08:46.087491+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-08-24T01:33:32.339872+07:00",
+      "next_scan_at": "2026-08-24T01:38:32.339872+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -635,14 +635,16 @@
     },
     "807859": {
       "url": "https://phaohoa1.live/truc-tiep/atalanta-vs-sassuolo-24-08-2026-807859",
-      "match_name": "24-08 La Liga Elche VS Barcelona Chim Nhỏ",
+      "match_name": "Atalanta vs Sassuolo",
       "kickoff_iso": "2026-08-24T01:45:00+07:00",
-      "minutes_to_kickoff": 42,
-      "last_scan_at": "2026-08-24T01:03:46.087491+07:00",
-      "next_scan_at": "2026-08-24T01:13:46.087491+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 13,
+      "last_scan_at": "2026-08-24T01:33:32.339872+07:00",
+      "next_scan_at": "2026-08-24T01:38:32.339872+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     },
     "798823": {
@@ -664,6 +666,30 @@
       "minutes_to_kickoff": 42,
       "last_scan_at": "2026-08-24T01:03:46.087491+07:00",
       "next_scan_at": "2026-08-24T01:13:46.087491+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "809915": {
+      "url": "https://phaohoa1.live/truc-tiep/psg-vs-rennes-24-08-2026-809915",
+      "match_name": "24-08 Ligue 1 PSG VS Rennes Kevin",
+      "kickoff_iso": "2026-08-24T01:45:00+07:00",
+      "minutes_to_kickoff": 12,
+      "last_scan_at": "2026-08-24T01:33:32.339872+07:00",
+      "next_scan_at": "2026-08-24T01:38:32.339872+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "014220": {
+      "url": "https://phaohoa1.live/truc-tiep/elche-vs-barcelona-22-08-2026-014220",
+      "match_name": "24-08 La Liga Elche VS Barcelona Chim Nhỏ",
+      "kickoff_iso": "2026-08-24T02:30:00+07:00",
+      "minutes_to_kickoff": 57,
+      "last_scan_at": "2026-08-24T01:33:32.339872+07:00",
+      "next_scan_at": "2026-08-24T01:53:32.339872+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
