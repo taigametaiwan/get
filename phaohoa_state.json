@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-23T21:03:51.008674+07:00",
+  "updated_at": "2026-08-23T21:34:18.178583+07:00",
   "matches": {
-    "803270": {
-      "url": "https://phaohoa1.live/truc-tiep/al-gharafa-vs-al-shahaniya-21-08-2026-803270",
-      "match_name": "Al Gharafa vs Al Shahaniya",
-      "kickoff_iso": "2026-08-21T21:15:00+07:00",
-      "minutes_to_kickoff": -107,
-      "last_scan_at": "2026-08-21T23:03:01.558951+07:00",
-      "next_scan_at": "2026-08-21T23:08:01.558951+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1aa286a91458": {
       "url": "https://phaohoa1.live/truc-tiep/bulgaria-vs-ukraine",
       "match_name": "Bulgaria vs Ukraine",
@@ -541,9 +527,9 @@
       "url": "https://phaohoa1.live/truc-tiep/brighton-vs-aston-villa-23-08-2026-812656",
       "match_name": "Brighton vs Aston Villa",
       "kickoff_iso": "2026-08-23T20:00:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-23T21:03:51.008195+07:00",
-      "next_scan_at": "2026-08-23T21:08:51.008195+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-23T21:34:18.178300+07:00",
+      "next_scan_at": "2026-08-23T21:39:18.178300+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -553,23 +539,25 @@
     },
     "2a6ebe411dd9": {
       "url": "https://phaohoa1.live/truc-tiep/latvia-vs-duc",
-      "match_name": "23-08 Vô Địch Châu Âu Slovenia VS Thổ Nhĩ Kì Tày",
-      "kickoff_iso": "2026-08-23T23:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-23T21:03:51.008195+07:00",
-      "next_scan_at": "2026-08-23T21:23:51.008195+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "match_name": "Latvia vs Đức",
+      "kickoff_iso": "2026-08-23T20:00:00+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-23T21:34:18.178300+07:00",
+      "next_scan_at": "2026-08-23T21:39:18.178300+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "809913": {
       "url": "https://phaohoa1.live/truc-tiep/angers-vs-lille-23-08-2026-809913",
       "match_name": "Angers vs Lille",
       "kickoff_iso": "2026-08-23T20:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-23T21:03:51.008195+07:00",
-      "next_scan_at": "2026-08-23T21:08:51.008195+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-23T21:34:18.178300+07:00",
+      "next_scan_at": "2026-08-23T21:39:18.178300+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -579,23 +567,25 @@
     },
     "809914": {
       "url": "https://phaohoa1.live/truc-tiep/le-havre-vs-monaco-23-08-2026-809914",
-      "match_name": "23-08 Ligue 1 Le Havre VS Monaco Pháo Thủ",
+      "match_name": "Le Havre vs Monaco",
       "kickoff_iso": "2026-08-23T22:15:00+07:00",
-      "minutes_to_kickoff": 163,
-      "last_scan_at": "2026-08-23T19:33:15.921212+07:00",
-      "next_scan_at": "2026-08-23T20:18:15.921212+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "minutes_to_kickoff": 42,
+      "last_scan_at": "2026-08-23T21:34:18.178300+07:00",
+      "next_scan_at": "2026-08-23T21:44:18.178300+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "812657": {
       "url": "https://phaohoa1.live/truc-tiep/manchester-city-vs-bournemouth-23-08-2026-812657",
       "match_name": "Manchester City vs Bournemouth",
-      "kickoff_iso": "2026-08-23T20:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-23T21:03:51.008195+07:00",
-      "next_scan_at": "2026-08-23T21:08:51.008195+07:00",
+      "kickoff_iso": "2026-08-23T21:00:00+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-08-23T21:34:18.178300+07:00",
+      "next_scan_at": "2026-08-23T21:39:18.178300+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -617,16 +607,28 @@
     },
     "7df3aef45a66": {
       "url": "https://phaohoa1.live/truc-tiep/nga-vs-cuba",
-      "match_name": "Nga vs Cuba",
-      "kickoff_iso": "2026-08-23T21:00:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-08-23T21:03:51.008195+07:00",
-      "next_scan_at": "2026-08-23T21:08:51.008195+07:00",
+      "match_name": "23-08 Vô Địch Châu Âu Thuỵ Điển VS Italy KaKa",
+      "kickoff_iso": "2026-08-23T23:00:00+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-23T21:34:18.178300+07:00",
+      "next_scan_at": "2026-08-23T21:44:18.178300+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
       ],
+      "scan_decision": "browser-fallback"
+    },
+    "d61a967e42b9": {
+      "url": "https://phaohoa1.live/truc-tiep/slovenia-vs-tho-nhi-ki",
+      "match_name": "23-08 Vô Địch Châu Âu Slovenia VS Thổ Nhĩ Kì Tày",
+      "kickoff_iso": "2026-08-23T23:00:00+07:00",
+      "minutes_to_kickoff": 87,
+      "last_scan_at": "2026-08-23T21:34:18.178300+07:00",
+      "next_scan_at": "2026-08-23T21:54:18.178300+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     }
   }
