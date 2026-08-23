@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-23T19:31:24.822642+07:00",
+  "updated_at": "2026-08-23T20:01:48.689038+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1191,21 +1191,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1601116": {
-      "url": "https://live04.chuoichientv.me/live/1601116/johor-darul-takzim-fc-vs-kuching-fa",
-      "match_name": "johor darul takzim fc vs kuching fa",
-      "kickoff_iso": "2026-08-21T20:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-21T21:31:31.876322+07:00",
-      "next_scan_at": "2026-08-21T21:36:31.876322+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctru/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1516108": {
       "url": "https://live04.chuoichientv.me/live/1516108/navbahor-vs-nasaf",
       "match_name": "Navbahor vs Nasaf - VĐQG Uzbekistan",
@@ -1584,49 +1569,54 @@
     "1570344": {
       "url": "https://live04.chuoichientv.me/live/1570344/atletico-madrid-vs-villarreal",
       "match_name": "atletico madrid vs villarreal",
-      "kickoff_iso": "2026-08-23T22:00:00+07:00",
-      "minutes_to_kickoff": 149,
-      "last_scan_at": "2026-08-23T19:31:24.822500+07:00",
-      "next_scan_at": "2026-08-23T20:16:24.822500+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-23T20:01:48.688908+07:00",
+      "next_scan_at": "2026-08-23T20:11:48.688908+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1557375": {
       "url": "https://live04.chuoichientv.me/live/1557375/newcastle-vs-liverpool",
       "match_name": "newcastle vs liverpool",
-      "kickoff_iso": "2026-08-23T22:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-23T19:31:24.822500+07:00",
-      "next_scan_at": "2026-08-23T20:16:24.822500+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-23T20:01:48.688908+07:00",
+      "next_scan_at": "2026-08-23T20:11:48.688908+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1557374": {
       "url": "https://live04.chuoichientv.me/live/1557374/manchester-city-vs-bournemouth",
       "match_name": "Manchester City vs Bournemouth - Ngoại Hạng Anh",
       "kickoff_iso": "2026-08-23T20:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-23T19:31:24.822500+07:00",
-      "next_scan_at": "2026-08-23T19:41:24.822500+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-23T20:01:48.688908+07:00",
+      "next_scan_at": "2026-08-23T20:06:48.688908+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1557373": {
       "url": "https://live04.chuoichientv.me/live/1557373/brighton-vs-aston-villa",
       "match_name": "Brighton vs Aston Villa - Ngoại Hạng Anh",
       "kickoff_iso": "2026-08-23T20:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-23T19:31:24.822500+07:00",
-      "next_scan_at": "2026-08-23T19:41:24.822500+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-23T20:01:48.688908+07:00",
+      "next_scan_at": "2026-08-23T20:06:48.688908+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1550090": {
@@ -1634,8 +1624,8 @@
       "match_name": "frosinone vs juventus",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-23T19:31:24.822500+07:00",
-      "next_scan_at": "2026-08-23T19:41:24.822500+07:00",
+      "last_scan_at": "2026-08-23T20:01:48.688908+07:00",
+      "next_scan_at": "2026-08-23T20:11:48.688908+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1646,8 +1636,8 @@
       "match_name": "getafe vs racing santander",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-23T19:31:24.822500+07:00",
-      "next_scan_at": "2026-08-23T19:41:24.822500+07:00",
+      "last_scan_at": "2026-08-23T20:01:48.688908+07:00",
+      "next_scan_at": "2026-08-23T20:11:48.688908+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
