@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-23T23:39:39.467613+07:00",
+  "generated_at": "2026-08-24T00:09:45.065365+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -19,13 +19,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 8,
-      "playlist_blocks": 5,
+      "playlist_blocks": 0,
       "catalog_placeholders": 0,
       "metadata_references": 8,
       "included": true,
-      "fresh_stream_blocks": 5,
-      "fresh_verified_blocks": 5,
-      "fresh_selected": 5,
+      "fresh_stream_blocks": 0,
+      "fresh_verified_blocks": 0,
+      "fresh_selected": 0,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -78,10 +78,10 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 77,
+      "debug_rows": 76,
       "playlist_blocks": 0,
       "catalog_placeholders": 0,
-      "metadata_references": 77,
+      "metadata_references": 76,
       "included": true,
       "fresh_stream_blocks": 0,
       "fresh_verified_blocks": 0,
@@ -101,7 +101,7 @@
       "debug_rows": 109,
       "playlist_blocks": 11,
       "catalog_placeholders": 0,
-      "metadata_references": 98,
+      "metadata_references": 96,
       "included": true,
       "fresh_stream_blocks": 11,
       "fresh_verified_blocks": 11,
@@ -134,34 +134,28 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 40,
-  "metadata_reference_count": 190,
-  "last_good_recovered_count": 17,
-  "last_good_suppressed_by_fresh_count": 18,
+  "input_candidates": 38,
+  "metadata_reference_count": 187,
+  "last_good_recovered_count": 20,
+  "last_good_suppressed_by_fresh_count": 15,
   "last_good_audit": [
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-10.flv?auth_key=3000001787501072-0-0-8f5727564aeb31cb15494a576ac71fde",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-17.flv?auth_key=3000001787500976-0-0-07314ad7681e5b99dcec5f1d859574a1",
       "kept": false,
       "reason": "outside-source-window",
       "source": "xoilac",
-      "kickoff_iso": "2026-08-23T21:00:00+07:00",
-      "minutes_to_kickoff": -159.66,
+      "kickoff_iso": "2026-08-23T21:30:00+07:00",
+      "minutes_to_kickoff": -159.75,
       "filtered_before_probe": true
     },
     {
-      "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-24.flv?auth_key=3000001787501026-0-0-bda0755631116c8dc2c3c4bd69b19193",
       "kept": false,
       "reason": "outside-source-window",
-      "source": "phaohoa",
-      "kickoff_iso": "2026-08-23T21:00:00+07:00",
-      "minutes_to_kickoff": -159.66,
+      "source": "xoilac",
+      "kickoff_iso": "2026-08-23T21:30:00+07:00",
+      "minutes_to_kickoff": -159.75,
       "filtered_before_probe": true
-    },
-    {
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-      "kept": true,
-      "reason": "HTTP 206; m3u8=True",
-      "source": "chuoichien"
     },
     {
       "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
@@ -170,15 +164,15 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
       "kept": true,
-      "reason": "HTTP 200; m3u8=True",
+      "reason": "HTTP 206; m3u8=True",
       "source": "chuoichien"
     },
     {
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
+      "url": "https://tfyo0gr4uqmtt8y41hcjw8yzdnpjufiusg45dgy4urpjqci1gq3mpcfhgg3dq.100ycdn.com/gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8?wsSession=23189ca43fd95c46e2252f3f-178750270497305&wsIPSercert=546552a8a0901a8a81c71e34576c8363&wsBindIP=2&wsserid=1168202333420231774",
       "kept": true,
-      "reason": "HTTP 200; m3u8=True",
+      "reason": "HTTP 206; m3u8=True",
       "source": "chuoichien"
     },
     {
@@ -194,6 +188,18 @@
       "source": "xoilac"
     },
     {
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "chuoichien"
+    },
+    {
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "chuoichien"
+    },
+    {
       "url": "https://push2.m3u8delivery.com/livecdn/channel-15.flv?auth_key=3000001787500908-0-0-aff7c86956ee5785aaf83e7cebaedfce",
       "kept": true,
       "reason": "HTTP 200; flv=True",
@@ -206,37 +212,7 @@
       "source": "xoilac"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787500923-0-0-9fb30726e3f33f2397e44d18da361103",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-17.flv?auth_key=3000001787500976-0-0-07314ad7681e5b99dcec5f1d859574a1",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-24.flv?auth_key=3000001787501026-0-0-bda0755631116c8dc2c3c4bd69b19193",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787501042-0-0-e42e7b2cb75f3e296034e34fdc3a440b",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
       "url": "https://push2.m3u8delivery.com/livecdn/channel-11.flv?auth_key=3000001787500941-0-0-9072c661987107af9e027ce9d538badc",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-21.flv?auth_key=3000001787501070-0-0-ddf0ca665d2909e338121f7b984a5c92",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -254,25 +230,7 @@
       "source": "xoilac"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-15.flv?auth_key=3000001787501106-0-0-77d4315cd72233b24087fa5e530b30a8",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/75748097.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/19919577.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787500890-0-0-ac5ef5d9bd4770d19be616e9ad969e14",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-21.flv?auth_key=3000001787501070-0-0-ddf0ca665d2909e338121f7b984a5c92",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -284,6 +242,30 @@
       "source": "xoilac"
     },
     {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-15.flv?auth_key=3000001787501106-0-0-77d4315cd72233b24087fa5e530b30a8",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787500890-0-0-ac5ef5d9bd4770d19be616e9ad969e14",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live05.meung.app/live/19919577.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-20.flv?auth_key=3000001787483179-0-0-ce55c6cdbd467bb77a00a659a72f98ab",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
       "url": "https://live05.meung.app/live/78905744.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
@@ -296,13 +278,7 @@
       "source": "colatv"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-20.flv?auth_key=3000001787483179-0-0-ce55c6cdbd467bb77a00a659a72f98ab",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/87379114.m3u8",
+      "url": "https://live05.meung.app/live/02456966.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
@@ -314,13 +290,13 @@
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/02456966.m3u8",
+      "url": "https://live05.meung.app/live/07808742.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/07808742.m3u8",
+      "url": "https://live05.meung.app/live/87379114.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
@@ -332,16 +308,28 @@
       "source": "colatv"
     },
     {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787500923-0-0-9fb30726e3f33f2397e44d18da361103",
+      "kept": true,
+      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787501042-0-0-e42e7b2cb75f3e296034e34fdc3a440b",
+      "kept": true,
+      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live05.meung.app/live/75915087.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
       "url": "https://colatv88xi.cc/video2/output.m3u8",
       "kept": true,
       "reason": "HTTP 206; m3u8=True",
       "source": "colatv"
-    },
-    {
-      "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-      "kept": true,
-      "reason": "HTTP 206; m3u8=True",
-      "source": "phaohoa"
     },
     {
       "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
@@ -350,7 +338,7 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+      "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
       "kept": true,
       "reason": "HTTP 206; m3u8=True",
       "source": "phaohoa"
@@ -362,39 +350,27 @@
       "source": "phaohoa"
     },
     {
+      "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+      "kept": true,
+      "reason": "HTTP 206; m3u8=True",
+      "source": "phaohoa"
+    },
+    {
+      "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+      "kept": true,
+      "reason": "HTTP 206; m3u8=True",
+      "source": "phaohoa"
+    },
+    {
       "url": "https://push2.m3u8delivery.com/livecdn/channel-31.flv?auth_key=3000001787501098-0-0-ce41d200da7e28418488f56afa228ebb",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     },
     {
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "chuoichien"
-    },
-    {
-      "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "chuoichien"
-    },
-    {
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "chuoichien"
-    },
-    {
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "chuoichien"
-    },
-    {
       "url": "https://live05.meung.app/live/75748097.m3u8",
       "kept": false,
-      "reason": "fresh-source-replaces-last-good",
+      "reason": "TimeoutError: The read operation timed out",
       "source": "colatv"
     },
     {
@@ -416,7 +392,7 @@
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/87379114.m3u8",
+      "url": "https://live05.meung.app/live/02456966.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
@@ -428,13 +404,13 @@
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/02456966.m3u8",
+      "url": "https://live05.meung.app/live/07808742.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/07808742.m3u8",
+      "url": "https://live05.meung.app/live/87379114.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
@@ -446,10 +422,22 @@
       "source": "colatv"
     },
     {
+      "url": "https://live05.meung.app/live/75915087.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "colatv"
+    },
+    {
       "url": "https://colatv88xi.cc/video2/output.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
+    },
+    {
+      "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "phaohoa"
     },
     {
       "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
@@ -458,7 +446,7 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+      "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "phaohoa"
@@ -470,13 +458,13 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+      "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "phaohoa"
     }
   ],
-  "selected_count": 38,
+  "selected_count": 36,
   "dropped_count": 2,
   "gavang_metadata": {
     "enriched": 0,
@@ -496,7 +484,7 @@
       "match_key": "atletico madrid vs villarreal|",
       "display_name": "[22:00 23/08] atletico madrid vs villarreal [FHD M3U8]",
       "group": "Chuối Chiên",
-      "sport_group": "Bóng đá",
+      "sport_group": "Chuối Chiên",
       "quality": "FHD",
       "kind": "m3u8",
       "playability": "verified",
@@ -506,9 +494,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 469,
+      "score": 415,
       "kickoff_iso": "2026-08-23T22:00:00+07:00",
-      "minutes_to_kickoff": -99.66,
+      "minutes_to_kickoff": -129.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -522,12 +510,12 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "",
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 200; m3u8=True",
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "chuoichien",
@@ -536,7 +524,7 @@
       "match_key": "atletico madrid vs villarreal|",
       "display_name": "[22:00 23/08] atletico madrid vs villarreal [HD M3U8]",
       "group": "Chuối Chiên",
-      "sport_group": "Bóng đá",
+      "sport_group": "Chuối Chiên",
       "quality": "HD",
       "kind": "m3u8",
       "playability": "verified",
@@ -546,9 +534,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 459,
+      "score": 405,
       "kickoff_iso": "2026-08-23T22:00:00+07:00",
-      "minutes_to_kickoff": -99.66,
+      "minutes_to_kickoff": -129.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -562,12 +550,12 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "",
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 206; m3u8=True",
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "chuoichien",
@@ -576,7 +564,7 @@
       "match_key": "newcastle vs liverpool|truc tiep troc tru tran au newcastle v",
       "display_name": "[22:30 23/08] Newcastle vs Liverpool - Ngoại Hạng Anh [BLV trực tiếp: Trốc Tru Trận đấu Newcastle v] [FHD M3U8]",
       "group": "Chuối Chiên",
-      "sport_group": "Bóng đá",
+      "sport_group": "Chuối Chiên",
       "quality": "FHD",
       "kind": "m3u8",
       "playability": "verified",
@@ -586,9 +574,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 469,
+      "score": 415,
       "kickoff_iso": "2026-08-23T22:30:00+07:00",
-      "minutes_to_kickoff": -69.66,
+      "minutes_to_kickoff": -99.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -602,12 +590,12 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "trực tiếp: Trốc Tru Trận đấu Newcastle v",
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 200; m3u8=True",
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "chuoichien",
@@ -616,7 +604,7 @@
       "match_key": "newcastle vs liverpool|truc tiep troc tru tran au newcastle v",
       "display_name": "[22:30 23/08] Newcastle vs Liverpool - Ngoại Hạng Anh [BLV trực tiếp: Trốc Tru Trận đấu Newcastle v] [HD M3U8]",
       "group": "Chuối Chiên",
-      "sport_group": "Bóng đá",
+      "sport_group": "Chuối Chiên",
       "quality": "HD",
       "kind": "m3u8",
       "playability": "verified",
@@ -626,9 +614,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 459,
+      "score": 405,
       "kickoff_iso": "2026-08-23T22:30:00+07:00",
-      "minutes_to_kickoff": -69.66,
+      "minutes_to_kickoff": -99.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -642,12 +630,12 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "trực tiếp: Trốc Tru Trận đấu Newcastle v",
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 206; m3u8=True",
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "chuoichien",
@@ -656,7 +644,7 @@
       "match_key": "frosinone vs juventus|truc tiep chuoi tay tran au frosinone",
       "display_name": "[23:30 23/08] Frosinone vs Juventus - Serie A [BLV trực tiếp: Chuối Tây Trận đấu Frosinone] [HD M3U8]",
       "group": "Chuối Chiên",
-      "sport_group": "Bóng đá",
+      "sport_group": "Chuối Chiên",
       "quality": "HD",
       "kind": "m3u8",
       "playability": "verified",
@@ -666,9 +654,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 459,
+      "score": 405,
       "kickoff_iso": "2026-08-23T23:30:00+07:00",
-      "minutes_to_kickoff": -9.66,
+      "minutes_to_kickoff": -39.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -682,102 +670,12 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "trực tiếp: Chuối Tây Trận đấu Frosinone",
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-17.flv?auth_key=3000001787500976-0-0-07314ad7681e5b99dcec5f1d859574a1",
-      "match_key": "dynamo makhachkala vs fk krasnodar|hd nemo",
-      "display_name": "[21:30 23/08/2026] Dynamo Makhachkala vs Fk Krasnodar [BLV HD NEMO] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "Xôi Lạc",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 405,
-      "kickoff_iso": "2026-08-23T21:30:00+07:00",
-      "minutes_to_kickoff": -129.66,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghz9dyq82w/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-17.flv?auth_key=3000001787500976-0-0-07314ad7681e5b99dcec5f1d859574a1",
-      "home_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghz9dyq82w/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4hn20q86p/image/small",
-      "blv": null,
       "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-24.flv?auth_key=3000001787501026-0-0-bda0755631116c8dc2c3c4bd69b19193",
-      "match_key": "vitoria guimaraes vs cd nacional|hd felix",
-      "display_name": "[21:30 23/08/2026] Vitoria Guimaraes vs Cd Nacional [BLV HD FELIX] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "Xôi Lạc",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 405,
-      "kickoff_iso": "2026-08-23T21:30:00+07:00",
-      "minutes_to_kickoff": -129.66,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryoh021q1zp/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-24.flv?auth_key=3000001787501026-0-0-bda0755631116c8dc2c3c4bd69b19193",
-      "home_logo": "https://imgts.sportpulseapiz.com/football/team/kdj2ryoh021q1zp/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/football/team/gy0or5jhydnqwzv/image/small",
-      "blv": null,
-      "recovered_last_good": true,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "last_good_probe": "HTTP 206; m3u8=True",
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -803,7 +701,7 @@
       "pending_reason": null,
       "score": 415,
       "kickoff_iso": "2026-08-23T22:00:00+07:00",
-      "minutes_to_kickoff": -99.66,
+      "minutes_to_kickoff": -129.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -822,7 +720,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -848,7 +746,7 @@
       "pending_reason": null,
       "score": 385,
       "kickoff_iso": "2026-08-23T22:00:00+07:00",
-      "minutes_to_kickoff": -99.66,
+      "minutes_to_kickoff": -129.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -867,7 +765,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -893,7 +791,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-23T22:00:00+07:00",
-      "minutes_to_kickoff": -99.66,
+      "minutes_to_kickoff": -129.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -911,8 +809,8 @@
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -938,7 +836,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-23T22:00:00+07:00",
-      "minutes_to_kickoff": -99.66,
+      "minutes_to_kickoff": -129.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -956,8 +854,8 @@
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -983,7 +881,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-23T22:00:00+07:00",
-      "minutes_to_kickoff": -99.66,
+      "minutes_to_kickoff": -129.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1002,7 +900,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -1028,7 +926,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-23T22:15:00+07:00",
-      "minutes_to_kickoff": -84.66,
+      "minutes_to_kickoff": -114.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1047,7 +945,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -1073,7 +971,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-23T22:30:00+07:00",
-      "minutes_to_kickoff": -69.66,
+      "minutes_to_kickoff": -99.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1092,7 +990,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -1118,7 +1016,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-23T22:30:00+07:00",
-      "minutes_to_kickoff": -69.66,
+      "minutes_to_kickoff": -99.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1137,7 +1035,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -1163,7 +1061,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-23T23:00:00+07:00",
-      "minutes_to_kickoff": -39.66,
+      "minutes_to_kickoff": -69.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1182,7 +1080,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -1208,7 +1106,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-23T23:00:00+07:00",
-      "minutes_to_kickoff": -39.66,
+      "minutes_to_kickoff": -69.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1227,7 +1125,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -1253,7 +1151,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-23T23:30:00+07:00",
-      "minutes_to_kickoff": -9.66,
+      "minutes_to_kickoff": -39.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1272,7 +1170,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -1298,7 +1196,7 @@
       "pending_reason": null,
       "score": 385,
       "kickoff_iso": "2026-08-24T00:00:00+07:00",
-      "minutes_to_kickoff": 20.34,
+      "minutes_to_kickoff": -9.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1317,7 +1215,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -1343,7 +1241,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-24T01:00:00+07:00",
-      "minutes_to_kickoff": 80.34,
+      "minutes_to_kickoff": 50.25,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1362,7 +1260,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -1388,7 +1286,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-24T01:45:00+07:00",
-      "minutes_to_kickoff": 125.34,
+      "minutes_to_kickoff": 95.25,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1407,7 +1305,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "xoilac",
@@ -1452,14 +1350,14 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-23T23:05:17.582716+07:00"
+      "prior_generated_at": "2026-08-23T23:39:39.467613+07:00"
     },
     {
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/75748097.m3u8",
-      "match_key": "atletico madrid vs cau lac bo bong da villarreal|lich thi au cuoc vsbet tai app ta",
-      "display_name": "[22:00 23/08] Atletico Madrid vs Cau Lac Bo Bong Da Villarreal [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "atletico madrid vs villarreal cf|sprite ang xem",
+      "display_name": "[22:00 23/08] Atletico Madrid vs Villarreal CF [BLV SPRITEĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -1473,7 +1371,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-23T22:00:00+07:00",
-      "minutes_to_kickoff": -99.66,
+      "minutes_to_kickoff": -129.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1486,7 +1384,7 @@
       "page_url": "https://live05.meung.app/live/75748097.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
+      "blv": "SPRITEĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1498,7 +1396,7 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/19919577.m3u8",
-      "match_key": "le havre vs as monaco|lich thi au cuoc vsbet tai app ta",
+      "match_key": "havre athletic club vs as monaco|pocari ang xem",
       "display_name": "[22:15 23/08] Havre Athletic Club vs AS Monaco [BLV POCARIĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
@@ -1513,7 +1411,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-23T22:15:00+07:00",
-      "minutes_to_kickoff": -84.66,
+      "minutes_to_kickoff": -114.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1526,7 +1424,7 @@
       "page_url": "https://live05.meung.app/live/19919577.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
+      "blv": "POCARIĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1553,7 +1451,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-23T22:30:00+07:00",
-      "minutes_to_kickoff": -69.66,
+      "minutes_to_kickoff": -99.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1593,7 +1491,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-23T22:30:00+07:00",
-      "minutes_to_kickoff": -69.66,
+      "minutes_to_kickoff": -99.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1633,7 +1531,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-23T22:30:00+07:00",
-      "minutes_to_kickoff": -69.66,
+      "minutes_to_kickoff": -99.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1673,7 +1571,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-23T23:00:00+07:00",
-      "minutes_to_kickoff": -39.66,
+      "minutes_to_kickoff": -69.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1713,7 +1611,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-23T23:30:00+07:00",
-      "minutes_to_kickoff": -9.66,
+      "minutes_to_kickoff": -39.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1738,7 +1636,7 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/87379114.m3u8",
-      "match_key": "frosinone vs juventus fc|lich thi au cuoc vsbet tai app ta",
+      "match_key": "frosinone vs juventus fc|lich thi au cuoc vsbet tai app ho tr",
       "display_name": "[23:30 23/08] Frosinone vs Juventus [BLV CozyĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
@@ -1753,7 +1651,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-23T23:30:00+07:00",
-      "minutes_to_kickoff": -9.66,
+      "minutes_to_kickoff": -39.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1766,7 +1664,7 @@
       "page_url": "https://live05.meung.app/live/87379114.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
+      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1793,7 +1691,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-23T23:30:00+07:00",
-      "minutes_to_kickoff": -9.66,
+      "minutes_to_kickoff": -39.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1818,8 +1716,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/75915087.m3u8",
-      "match_key": "giai vo ich quoc gia bo ao nha 24 08 santa clara vs famalicao blv monster|lich thi au cuoc vsbet tai app ta",
-      "display_name": "[00:00 24/08] Giải Vô địch Quốc gia Bồ Đào Nha 24/08 Santa Clara VS Famalicao BLV MONSTER [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "santa clara vs famalicao|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[00:00 24/08] Santa Clara vs Famalicao [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -1833,7 +1731,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-24T00:00:00+07:00",
-      "minutes_to_kickoff": 20.34,
+      "minutes_to_kickoff": -9.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1858,7 +1756,7 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "match_key": "giai vo ich quoc gia tay ban nha 24 08 getafe cf vs clb racing santander blv fanta|lich thi au cuoc vsbet tai app ta",
+      "match_key": "getafe vs racing santander|fanta ang xem",
       "display_name": "[00:30 24/08] Getafe vs Racing Santander [BLV FANTAĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
@@ -1873,7 +1771,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-24T00:30:00+07:00",
-      "minutes_to_kickoff": 50.34,
+      "minutes_to_kickoff": 20.25,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1886,7 +1784,7 @@
       "page_url": "https://colatv88xi.cc/video2/output.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
+      "blv": "FANTAĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1898,8 +1796,8 @@
       "source": "phaohoa",
       "source_label": "Pháo Hoa TV",
       "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-      "match_key": "atl madrid vs villarreal|",
-      "display_name": "[22:00 23/08] Atl Madrid vs Villarreal [FHD M3U8]",
+      "match_key": "atl madrid vs villarreal|kaka 1 phut truoc ben nay cang the tay m",
+      "display_name": "[22:00 23/08] Atl Madrid vs Villarreal [BLV KaKa 1 phút trước bên này căng thế Tày m] [FHD M3U8]",
       "group": "Pháo Hoa TV",
       "sport_group": "Bóng đá",
       "quality": "FHD",
@@ -1913,7 +1811,7 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-08-23T22:00:00+07:00",
-      "minutes_to_kickoff": -99.66,
+      "minutes_to_kickoff": -129.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1926,7 +1824,7 @@
       "page_url": "https://phaohoa1.live/truc-tiep/atl-madrid-vs-villarreal-23-08-2026-798821",
       "home_logo": "https://phaohoa1.live/media-thumb/team/teams/logos/atletico-madrid.0e6714cc.png",
       "away_logo": "https://phaohoa1.live/media/tournaments/icons/tournament_302.png",
-      "blv": "",
+      "blv": "KaKa 1 phút trước bên này căng thế Tày m",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -1953,7 +1851,7 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-08-23T22:15:00+07:00",
-      "minutes_to_kickoff": -84.66,
+      "minutes_to_kickoff": -114.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -1978,11 +1876,11 @@
       "source": "phaohoa",
       "source_label": "Pháo Hoa TV",
       "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-      "match_key": "newcastle vs liverpool|",
-      "display_name": "[22:30 23/08] Newcastle vs Liverpool [M3U8]",
+      "match_key": "newcastle vs liverpool|kaka 1 phut truoc haha tho i r kien f",
+      "display_name": "[22:30 23/08] Newcastle vs Liverpool [BLV KaKa 1 phút trước haha thổ đi r Kiên - F] [FHD M3U8]",
       "group": "Pháo Hoa TV",
       "sport_group": "Bóng đá",
-      "quality": "UNKNOWN",
+      "quality": "FHD",
       "kind": "m3u8",
       "playability": "verified",
       "classification": null,
@@ -1991,9 +1889,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 439,
+      "score": 469,
       "kickoff_iso": "2026-08-23T22:30:00+07:00",
-      "minutes_to_kickoff": -69.66,
+      "minutes_to_kickoff": -99.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -2006,7 +1904,7 @@
       "page_url": "https://phaohoa1.live/truc-tiep/newcastle-vs-liverpool-23-08-2026-812658",
       "home_logo": "https://phaohoa1.live/media-thumb/team/teams/logos/team_3100.jpg",
       "away_logo": "https://phaohoa1.live/media-thumb/team/teams/logos/nGfV05dipbAc7zzojivKew_96x96_Gvkafg4.png",
-      "blv": "",
+      "blv": "KaKa 1 phút trước haha thổ đi r Kiên - F",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -2033,7 +1931,7 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-08-23T23:00:00+07:00",
-      "minutes_to_kickoff": -39.66,
+      "minutes_to_kickoff": -69.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -2073,7 +1971,7 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-08-23T23:30:00+07:00",
-      "minutes_to_kickoff": -9.66,
+      "minutes_to_kickoff": -39.75,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -2097,70 +1995,10 @@
   ],
   "fresh_input_decisions": [
     {
-      "source": "chuoichien",
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
-      "display_name": "[22:00 23/08] atletico madrid vs villarreal [FHD M3U8]",
-      "match_key": "atletico madrid vs villarreal|",
-      "quality": "FHD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "chuoichien",
-      "url": "https://tfyo0gr4uqmtt8y41hcjw8yzdnpjufiusg45dgy4urpjqci1gq3mpcfhgg3dq.100ycdn.com/gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8?wsSession=23189ca43fd95c46e2252f3f-178750270497305&wsIPSercert=546552a8a0901a8a81c71e34576c8363&wsBindIP=2&wsserid=1168202333420231774",
-      "display_name": "[22:00 23/08] atletico madrid vs villarreal [HD M3U8]",
-      "match_key": "atletico madrid vs villarreal|",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "chuoichien",
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-      "display_name": "[22:30 23/08] Newcastle vs Liverpool - Ngoại Hạng Anh [BLV trực tiếp: Trốc Tru Trận đấu Newcastle v] [FHD M3U8]",
-      "match_key": "newcastle vs liverpool|truc tiep troc tru tran au newcastle v",
-      "quality": "FHD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "chuoichien",
-      "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
-      "display_name": "[22:30 23/08] Newcastle vs Liverpool - Ngoại Hạng Anh [BLV trực tiếp: Trốc Tru Trận đấu Newcastle v] [HD M3U8]",
-      "match_key": "newcastle vs liverpool|truc tiep troc tru tran au newcastle v",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "chuoichien",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-      "display_name": "[23:30 23/08] Frosinone vs Juventus - Serie A [BLV trực tiếp: Chuối Tây Trận đấu Frosinone] [HD M3U8]",
-      "match_key": "frosinone vs juventus|truc tiep chuoi tay tran au frosinone",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
       "source": "colatv",
       "url": "https://live05.meung.app/live/75915087.m3u8",
-      "display_name": "[00:00 24/08] Giải Vô địch Quốc gia Bồ Đào Nha 24/08 Santa Clara VS Famalicao BLV MONSTER [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
-      "match_key": "giai vo ich quoc gia bo ao nha 24 08 santa clara vs famalicao blv monster|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[00:00 24/08] Santa Clara vs Famalicao [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "santa clara vs famalicao|lich thi au cuoc vsbet tai app ta",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -2172,7 +2010,7 @@
       "source": "colatv",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
       "display_name": "[00:30 24/08] Getafe vs Racing Santander [BLV FANTAĐang xem] [M3U8]",
-      "match_key": "giai vo ich quoc gia tay ban nha 24 08 getafe cf vs clb racing santander blv fanta|lich thi au cuoc vsbet tai app ta",
+      "match_key": "getafe vs racing santander|fanta ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -2183,8 +2021,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/75748097.m3u8",
-      "display_name": "[22:00 23/08] Atletico Madrid vs Cau Lac Bo Bong Da Villarreal [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
-      "match_key": "atletico madrid vs cau lac bo bong da villarreal|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[22:00 23/08] Atletico Madrid vs Villarreal CF [BLV SPRITEĐang xem] [M3U8]",
+      "match_key": "atletico madrid vs villarreal cf|sprite ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -2196,7 +2034,7 @@
       "source": "colatv",
       "url": "https://live05.meung.app/live/19919577.m3u8",
       "display_name": "[22:15 23/08] Havre Athletic Club vs AS Monaco [BLV POCARIĐang xem] [M3U8]",
-      "match_key": "le havre vs as monaco|lich thi au cuoc vsbet tai app ta",
+      "match_key": "havre athletic club vs as monaco|pocari ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -2268,7 +2106,7 @@
       "source": "colatv",
       "url": "https://live05.meung.app/live/87379114.m3u8",
       "display_name": "[23:30 23/08] Frosinone vs Juventus [BLV CozyĐang xem] [M3U8]",
-      "match_key": "frosinone vs juventus fc|lich thi au cuoc vsbet tai app ta",
+      "match_key": "frosinone vs juventus fc|lich thi au cuoc vsbet tai app ho tr",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -2291,8 +2129,8 @@
     {
       "source": "phaohoa",
       "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-      "display_name": "[22:00 23/08] Atl Madrid vs Villarreal [FHD M3U8]",
-      "match_key": "atl madrid vs villarreal|",
+      "display_name": "[22:00 23/08] Atl Madrid vs Villarreal [BLV KaKa 1 phút trước bên này căng thế Tày m] [FHD M3U8]",
+      "match_key": "atl madrid vs villarreal|kaka 1 phut truoc ben nay cang the tay m",
       "quality": "FHD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -2315,9 +2153,9 @@
     {
       "source": "phaohoa",
       "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-      "display_name": "[22:30 23/08] Newcastle vs Liverpool [M3U8]",
-      "match_key": "newcastle vs liverpool|",
-      "quality": "UNKNOWN",
+      "display_name": "[22:30 23/08] Newcastle vs Liverpool [BLV KaKa 1 phút trước haha thổ đi r Kiên - F] [FHD M3U8]",
+      "match_key": "newcastle vs liverpool|kaka 1 phut truoc haha tho i r kien f",
+      "quality": "FHD",
       "playability": "verified",
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
@@ -2352,12 +2190,12 @@
   "fresh_preservation_ok": true,
   "dropped": [
     {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/798822.m3u8",
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/fcae87a8f6fb.m3u8",
       "reason": "not-verified-or-not-upcoming",
       "source": "phaohoa"
     },
     {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/fcae87a8f6fb.m3u8",
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/807859.m3u8",
       "reason": "not-verified-or-not-upcoming",
       "source": "phaohoa"
     }
