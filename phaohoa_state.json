@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-23T16:01:56.957387+07:00",
+  "updated_at": "2026-08-23T16:31:58.020409+07:00",
   "matches": {
     "807493": {
       "url": "https://phaohoa1.live/truc-tiep/kashiwa-reysol-vs-v-varen-nagasaki-21-08-2026-807493",
@@ -555,9 +555,9 @@
       "url": "https://phaohoa1.live/truc-tiep/machida-vs-urawa-reds-23-08-2026-807502",
       "match_name": "23-08 J1 League Machida VS Urawa Reds Văn Minh",
       "kickoff_iso": "2026-08-23T17:30:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-23T16:01:56.957277+07:00",
-      "next_scan_at": "2026-08-23T16:21:56.957277+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-23T16:31:58.020228+07:00",
+      "next_scan_at": "2026-08-23T16:51:58.020228+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -567,13 +567,25 @@
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-han-quoc",
       "match_name": "23-08 Vô Địch Châu Á Nhật Bản VS Hàn Quốc KaKa",
       "kickoff_iso": "2026-08-23T17:30:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-08-23T16:01:56.957277+07:00",
-      "next_scan_at": "2026-08-23T16:21:56.957277+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-23T16:31:58.020228+07:00",
+      "next_scan_at": "2026-08-23T16:51:58.020228+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "805972": {
+      "url": "https://phaohoa1.live/truc-tiep/psv-vs-groningen-23-08-2026-805972",
+      "match_name": "23-08 Eredivisie PSV VS Groningen Pháo Thủ",
+      "kickoff_iso": "2026-08-23T19:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-23T16:31:58.020228+07:00",
+      "next_scan_at": "2026-08-23T17:16:58.020228+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
