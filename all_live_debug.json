@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-24T09:32:51.607490+07:00",
+  "generated_at": "2026-08-24T10:02:30.236516+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -79,13 +79,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 65,
-      "playlist_blocks": 7,
+      "playlist_blocks": 4,
       "catalog_placeholders": 0,
       "metadata_references": 65,
       "included": true,
-      "fresh_stream_blocks": 7,
-      "fresh_verified_blocks": 7,
-      "fresh_selected": 7,
+      "fresh_stream_blocks": 4,
+      "fresh_verified_blocks": 4,
+      "fresh_selected": 4,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -98,14 +98,14 @@
       "label": "ColaTV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 89,
-      "playlist_blocks": 2,
+      "debug_rows": 88,
+      "playlist_blocks": 1,
       "catalog_placeholders": 0,
-      "metadata_references": 86,
+      "metadata_references": 85,
       "included": true,
-      "fresh_stream_blocks": 2,
-      "fresh_verified_blocks": 2,
-      "fresh_selected": 2,
+      "fresh_stream_blocks": 1,
+      "fresh_verified_blocks": 1,
+      "fresh_selected": 1,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -118,14 +118,14 @@
       "label": "Pháo Hoa TV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 7,
-      "playlist_blocks": 7,
+      "debug_rows": 0,
+      "playlist_blocks": 0,
       "catalog_placeholders": 0,
-      "metadata_references": 7,
-      "included": true,
-      "fresh_stream_blocks": 1,
-      "fresh_verified_blocks": 1,
-      "fresh_selected": 1,
+      "metadata_references": 0,
+      "included": false,
+      "fresh_stream_blocks": 0,
+      "fresh_verified_blocks": 0,
+      "fresh_selected": 0,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -134,11 +134,29 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 27,
-  "metadata_reference_count": 167,
-  "last_good_recovered_count": 9,
-  "last_good_suppressed_by_fresh_count": 5,
+  "input_candidates": 15,
+  "metadata_reference_count": 159,
+  "last_good_recovered_count": 8,
+  "last_good_suppressed_by_fresh_count": 3,
   "last_good_audit": [
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-28.flv?auth_key=3000001787536971-0-0-855d35b5de32a30272a612f19f9202b2",
+      "kept": false,
+      "reason": "outside-source-window",
+      "source": "xoilac",
+      "kickoff_iso": "2026-08-24T07:06:00+07:00",
+      "minutes_to_kickoff": -176.5,
+      "filtered_before_probe": true
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-23.flv?auth_key=3000001787538757-0-0-1a9246dfbf4f4a7f5b04a9bec00e4c5a",
+      "kept": false,
+      "reason": "outside-source-window",
+      "source": "xoilac",
+      "kickoff_iso": "2026-08-24T07:30:00+07:00",
+      "minutes_to_kickoff": -152.5,
+      "filtered_before_probe": true
+    },
     {
       "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
       "kept": true,
@@ -146,7 +164,25 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-24.flv?auth_key=3000001787537011-0-0-845db1565bf3a7bdc72d3dc1466a8cc1",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787538726-0-0-57744a1a25e8caa6f7c5cbeedf56815a",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-32.flv?auth_key=3000001787538697-0-0-2e903136441cbee6cd91b48699746bba",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-7.flv?auth_key=3000001787538709-0-0-975d9340856c5ae3950a06635e31d2ab",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787538698-0-0-c55a606736bfa3a748d49dccadbadb22",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -156,42 +192,6 @@
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "chuoichien"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787537013-0-0-576f134925873b223ddfce8a137345e7",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-32.flv?auth_key=3000001787536914-0-0-995655480cbadf5c72b35f2097fb48bb",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787536914-0-0-0da3f390096fd90e5f65a0790f9f25bb",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787536912-0-0-40b986ea709ca6214356297993ed1b33",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/75748097.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-7.flv?auth_key=3000001787536927-0-0-7b78698ccf35bb2c5654105f17434fba",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
     },
     {
       "url": "https://live05.meung.app/live/16226575.m3u8",
@@ -206,19 +206,19 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-23.flv?auth_key=3000001787536954-0-0-e4e3e0259470595ebcaf9bdb82197809",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-24.flv?auth_key=3000001787538717-0-0-819a12f22e7ce29d28334bd14ea225a4",
       "kept": true,
-      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-28.flv?auth_key=3000001787536971-0-0-855d35b5de32a30272a612f19f9202b2",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787538699-0-0-8a798fbf24f698098f090160b3eabe2a",
       "kept": true,
-      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live05.meung.app/live/87547578.m3u8",
+      "url": "https://live05.meung.app/live/75748097.m3u8",
       "kept": false,
       "reason": "TimeoutError: The read operation timed out",
       "source": "colatv"
@@ -242,26 +242,14 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://live05.meung.app/live/75748097.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "colatv"
-    },
-    {
       "url": "https://live05.meung.app/live/16226575.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
-    },
-    {
-      "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "phaohoa"
     }
   ],
-  "selected_count": 14,
-  "dropped_count": 13,
+  "selected_count": 11,
+  "dropped_count": 4,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -292,7 +280,7 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-08-24T09:00:00+07:00",
-      "minutes_to_kickoff": -32.86,
+      "minutes_to_kickoff": -62.5,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -332,7 +320,7 @@
       "pending_reason": null,
       "score": 459,
       "kickoff_iso": "2026-08-24T09:00:00+07:00",
-      "minutes_to_kickoff": -32.86,
+      "minutes_to_kickoff": -62.5,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -356,9 +344,9 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-28.flv?auth_key=3000001787536971-0-0-855d35b5de32a30272a612f19f9202b2",
-      "match_key": "nu club necaxa vs nu club america|hd oler",
-      "display_name": "[07:06 24/08/2026] Nu Club Necaxa vs Nu Club America [BLV HD OLER] [FLV]",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-24.flv?auth_key=3000001787538717-0-0-819a12f22e7ce29d28334bd14ea225a4",
+      "match_key": "chivas tapatio vs m zacatecas|hd felix",
+      "display_name": "[08:00 24/08/2026] Chivas Tapatio vs M Zacatecas [BLV HD FELIX] [FLV]",
       "group": "Xôi Lạc",
       "sport_group": "Xôi Lạc",
       "quality": "HD",
@@ -376,98 +364,8 @@
       "derived_pending": false,
       "pending_reason": null,
       "score": 405,
-      "kickoff_iso": "2026-08-24T07:06:00+07:00",
-      "minutes_to_kickoff": -146.86,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hjz9jqdyj/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-28.flv?auth_key=3000001787536971-0-0-855d35b5de32a30272a612f19f9202b2",
-      "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hjz9jqdyj/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hjk57qdyj/image/small",
-      "blv": null,
-      "recovered_last_good": true,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
-      "prior_generated_at": "2026-08-24T09:04:04.527630+07:00"
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-23.flv?auth_key=3000001787538757-0-0-1a9246dfbf4f4a7f5b04a9bec00e4c5a",
-      "match_key": "racing club vs boca juniors|hd logan",
-      "display_name": "[07:30 24/08/2026] Racing Club vs Boca Juniors [BLV HD LOGAN] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "VĐQG Argentina",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 456,
-      "kickoff_iso": "2026-08-24T07:30:00+07:00",
-      "minutes_to_kickoff": -122.86,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnhp9xm7vx/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-23.flv?auth_key=3000001787538757-0-0-1a9246dfbf4f4a7f5b04a9bec00e4c5a",
-      "home_logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnhp9xm7vx/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hj31q0j6/image/small",
-      "blv": null,
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-24.flv?auth_key=3000001787538717-0-0-819a12f22e7ce29d28334bd14ea225a4",
-      "match_key": "chivas tapatio vs m zacatecas|hd felix",
-      "display_name": "[08:00 24/08/2026] Chivas Tapatio vs M Zacatecas [BLV HD FELIX] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "Hạng 2 Mexico",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 456,
       "kickoff_iso": "2026-08-24T08:00:00+07:00",
-      "minutes_to_kickoff": -92.86,
+      "minutes_to_kickoff": -122.5,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -481,12 +379,12 @@
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh4x3nm0ve/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh4dylm0ve/image/small",
       "blv": null,
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 200; flv=True",
+      "prior_generated_at": "2026-08-24T09:32:51.607490+07:00"
     },
     {
       "source": "xoilac",
@@ -495,7 +393,7 @@
       "match_key": "pumas u n a m vs necaxa|hd johan",
       "display_name": "[08:00 24/08/2026] Pumas U N A M vs Necaxa [BLV HD JOHAN] [FLV]",
       "group": "Xôi Lạc",
-      "sport_group": "VĐQG Mexico",
+      "sport_group": "Xôi Lạc",
       "quality": "HD",
       "kind": "flv",
       "playability": "verified",
@@ -510,9 +408,9 @@
       },
       "derived_pending": false,
       "pending_reason": null,
-      "score": 456,
+      "score": 405,
       "kickoff_iso": "2026-08-24T08:00:00+07:00",
-      "minutes_to_kickoff": -92.86,
+      "minutes_to_kickoff": -122.5,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -526,17 +424,17 @@
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4hjknq86p/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h8d52q86p/image/small",
       "blv": null,
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 200; flv=True",
+      "prior_generated_at": "2026-08-24T09:32:51.607490+07:00"
     },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-7.flv?auth_key=3000001787538709-0-0-975d9340856c5ae3950a06635e31d2ab",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-7.flv?auth_key=3000001787540521-0-0-c851de94b1d686f2db2acb57d7525e65",
       "match_key": "atletico junior vs once caldas|hd jean",
       "display_name": "[08:15 24/08/2026] Atletico Junior vs Once Caldas [BLV HD JEAN] [FLV]",
       "group": "Xôi Lạc",
@@ -557,7 +455,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-24T08:15:00+07:00",
-      "minutes_to_kickoff": -77.86,
+      "minutes_to_kickoff": -107.5,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -567,7 +465,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-7.flv?auth_key=3000001787538709-0-0-975d9340856c5ae3950a06635e31d2ab",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-7.flv?auth_key=3000001787540521-0-0-c851de94b1d686f2db2acb57d7525e65",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlh887ryk0/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhgp2oryk0/image/small",
       "blv": null,
@@ -581,7 +479,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-32.flv?auth_key=3000001787538697-0-0-2e903136441cbee6cd91b48699746bba",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-32.flv?auth_key=3000001787540514-0-0-54e2dcc8ec10ef259b86dd7d9132278a",
       "match_key": "lilli tagger vs yulia starodubtseva|hd vic",
       "display_name": "Mexico Women Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/8yomojfoe6lq0j6/image/small\",[08:30 24/08/2026] Lilli Tagger vs Yulia Starodubtseva [BLV HD VIC] [FLV]",
       "group": "Xôi Lạc",
@@ -602,7 +500,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-24T08:30:00+07:00",
-      "minutes_to_kickoff": -62.86,
+      "minutes_to_kickoff": -92.5,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -612,7 +510,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-32.flv?auth_key=3000001787538697-0-0-2e903136441cbee6cd91b48699746bba",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-32.flv?auth_key=3000001787540514-0-0-54e2dcc8ec10ef259b86dd7d9132278a",
       "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/8yomojfoe6lq0j6/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/x7lm7nf500wq2wd/image/small",
       "blv": null,
@@ -626,7 +524,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787538698-0-0-c55a606736bfa3a748d49dccadbadb22",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787540511-0-0-64262e15abf26e830d5b94c77d5df273",
       "match_key": "nu viet nam vs nu hong kong|hd tyson",
       "display_name": "[09:00 24/08/2026] Nu Viet Nam vs Nu Hong Kong [BLV HD TYSON] [FLV]",
       "group": "Xôi Lạc",
@@ -647,7 +545,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-24T09:00:00+07:00",
-      "minutes_to_kickoff": -32.86,
+      "minutes_to_kickoff": -62.5,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -657,7 +555,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787538698-0-0-c55a606736bfa3a748d49dccadbadb22",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787540511-0-0-64262e15abf26e830d5b94c77d5df273",
       "home_logo": "https://imgts.sportpulseapiz.com/volleyball/team/kn54qldhok2rvy9/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/volleyball/team/z318q67h561ro9j/image/small",
       "blv": null,
@@ -671,7 +569,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787538699-0-0-8a798fbf24f698098f090160b3eabe2a",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787540529-0-0-847dad7283d933dab73151414fe14b90",
       "match_key": "ventura county fc vs portland timbers r|hd xmen",
       "display_name": "[09:00 24/08/2026] Ventura County Fc vs Portland Timbers R [BLV HD XMEN] [FLV]",
       "group": "Xôi Lạc",
@@ -692,7 +590,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-24T09:00:00+07:00",
-      "minutes_to_kickoff": -32.86,
+      "minutes_to_kickoff": -62.5,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -702,7 +600,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787538699-0-0-8a798fbf24f698098f090160b3eabe2a",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787540529-0-0-847dad7283d933dab73151414fe14b90",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whekxzryox/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7phogkgm2wd/image/small",
       "blv": null,
@@ -756,47 +654,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
-      "prior_generated_at": "2026-08-24T09:04:04.527630+07:00"
-    },
-    {
-      "source": "colatv",
-      "source_label": "ColaTV",
-      "url": "https://live05.meung.app/live/75748097.m3u8",
-      "match_key": "pumas u n a m vs necaxa|sprite ang xem",
-      "display_name": "[08:00 24/08] Pumas U.N.A.M. vs Necaxa [BLV SPRITEĐang xem] [M3U8]",
-      "group": "ColaTV",
-      "sport_group": "Bóng đá",
-      "quality": "UNKNOWN",
-      "kind": "m3u8",
-      "playability": "verified",
-      "classification": null,
-      "classification_reason": null,
-      "has_secret": false,
-      "expiry": null,
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 439,
-      "kickoff_iso": "2026-08-24T08:00:00+07:00",
-      "minutes_to_kickoff": -92.86,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://img.gvapi.cc/football/team/7654a95374767f93f6bec6a3d4819f76.png!w80",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live05.meung.app/live/75748097.m3u8",
-      "home_logo": null,
-      "away_logo": null,
-      "blv": "SPRITEĐang xem",
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "prior_generated_at": "2026-08-24T09:32:51.607490+07:00"
     },
     {
       "source": "colatv",
@@ -817,7 +675,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-24T09:00:00+07:00",
-      "minutes_to_kickoff": -32.86,
+      "minutes_to_kickoff": -62.5,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -845,7 +703,7 @@
       "match_key": "viet nam vs hong kong|",
       "display_name": "[09:00 24/08] Viet Nam vs Hong Kong [FHD M3U8]",
       "group": "Pháo Hoa TV",
-      "sport_group": "Bóng chuyền",
+      "sport_group": "Pháo Hoa TV",
       "quality": "FHD",
       "kind": "m3u8",
       "playability": "verified",
@@ -855,9 +713,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 469,
+      "score": 415,
       "kickoff_iso": "2026-08-24T09:00:00+07:00",
-      "minutes_to_kickoff": -32.86,
+      "minutes_to_kickoff": -62.5,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -871,12 +729,12 @@
       "home_logo": "https://phaohoa1.live/media-thumb/team/teams/logos/OIP_hdpF9Rm.jpg",
       "away_logo": "https://phaohoa1.live/media-thumb/team/teams/logos/OIP_y52YJOU.jpg",
       "blv": "",
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 206; m3u8=True",
+      "prior_generated_at": "2026-08-24T09:32:51.607490+07:00"
     }
   ],
   "fresh_input_decisions": [
@@ -906,7 +764,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787538698-0-0-c55a606736bfa3a748d49dccadbadb22",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787540511-0-0-64262e15abf26e830d5b94c77d5df273",
       "display_name": "[09:00 24/08/2026] Nu Viet Nam vs Nu Hong Kong [BLV HD TYSON] [FLV]",
       "match_key": "nu viet nam vs nu hong kong|hd tyson",
       "quality": "HD",
@@ -918,19 +776,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787538699-0-0-8a798fbf24f698098f090160b3eabe2a",
-      "display_name": "[09:00 24/08/2026] Ventura County Fc vs Portland Timbers R [BLV HD XMEN] [FLV]",
-      "match_key": "ventura county fc vs portland timbers r|hd xmen",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-32.flv?auth_key=3000001787538697-0-0-2e903136441cbee6cd91b48699746bba",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-32.flv?auth_key=3000001787540514-0-0-54e2dcc8ec10ef259b86dd7d9132278a",
       "display_name": "Mexico Women Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/8yomojfoe6lq0j6/image/small\",[08:30 24/08/2026] Lilli Tagger vs Yulia Starodubtseva [BLV HD VIC] [FLV]",
       "match_key": "lilli tagger vs yulia starodubtseva|hd vic",
       "quality": "HD",
@@ -942,7 +788,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-7.flv?auth_key=3000001787538709-0-0-975d9340856c5ae3950a06635e31d2ab",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-7.flv?auth_key=3000001787540521-0-0-c851de94b1d686f2db2acb57d7525e65",
       "display_name": "[08:15 24/08/2026] Atletico Junior vs Once Caldas [BLV HD JEAN] [FLV]",
       "match_key": "atletico junior vs once caldas|hd jean",
       "quality": "HD",
@@ -954,46 +800,10 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-24.flv?auth_key=3000001787538717-0-0-819a12f22e7ce29d28334bd14ea225a4",
-      "display_name": "[08:00 24/08/2026] Chivas Tapatio vs M Zacatecas [BLV HD FELIX] [FLV]",
-      "match_key": "chivas tapatio vs m zacatecas|hd felix",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787540529-0-0-847dad7283d933dab73151414fe14b90",
+      "display_name": "[09:00 24/08/2026] Ventura County Fc vs Portland Timbers R [BLV HD XMEN] [FLV]",
+      "match_key": "ventura county fc vs portland timbers r|hd xmen",
       "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787538726-0-0-57744a1a25e8caa6f7c5cbeedf56815a",
-      "display_name": "[08:00 24/08/2026] Pumas U N A M vs Necaxa [BLV HD JOHAN] [FLV]",
-      "match_key": "pumas u n a m vs necaxa|hd johan",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-23.flv?auth_key=3000001787538757-0-0-1a9246dfbf4f4a7f5b04a9bec00e4c5a",
-      "display_name": "[07:30 24/08/2026] Racing Club vs Boca Juniors [BLV HD LOGAN] [FLV]",
-      "match_key": "racing club vs boca juniors|hd logan",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "colatv",
-      "url": "https://live05.meung.app/live/75748097.m3u8",
-      "display_name": "[08:00 24/08] Pumas U.N.A.M. vs Necaxa [BLV SPRITEĐang xem] [M3U8]",
-      "match_key": "pumas u n a m vs necaxa|sprite ang xem",
-      "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
@@ -1011,93 +821,33 @@
       "metadata_link_reason": null,
       "decision": "selected-fresh",
       "reason": "selected"
-    },
-    {
-      "source": "phaohoa",
-      "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
-      "display_name": "[09:00 24/08] Viet Nam vs Hong Kong [FHD M3U8]",
-      "match_key": "viet nam vs hong kong|",
-      "quality": "FHD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
     }
   ],
   "fresh_preservation_ok": true,
   "dropped": [
     {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/736688.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/807861.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/47f983fc2ab9.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/e9a8be850222.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/c93e4dd41fdb.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/440fd6d9736f.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787536914-0-0-0da3f390096fd90e5f65a0790f9f25bb",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787538698-0-0-c55a606736bfa3a748d49dccadbadb22",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "nu viet nam vs nu hong kong|hd tyson"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787536912-0-0-40b986ea709ca6214356297993ed1b33",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "ventura county fc vs portland timbers r|hd xmen"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-32.flv?auth_key=3000001787536914-0-0-995655480cbadf5c72b35f2097fb48bb",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-32.flv?auth_key=3000001787538697-0-0-2e903136441cbee6cd91b48699746bba",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "lilli tagger vs yulia starodubtseva|hd vic"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-7.flv?auth_key=3000001787536927-0-0-7b78698ccf35bb2c5654105f17434fba",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-7.flv?auth_key=3000001787538709-0-0-975d9340856c5ae3950a06635e31d2ab",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "atletico junior vs once caldas|hd jean"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-24.flv?auth_key=3000001787537011-0-0-845db1565bf3a7bdc72d3dc1466a8cc1",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787538699-0-0-8a798fbf24f698098f090160b3eabe2a",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
-      "match_key": "chivas tapatio vs m zacatecas|hd felix"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787537013-0-0-576f134925873b223ddfce8a137345e7",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "pumas u n a m vs necaxa|hd johan"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-23.flv?auth_key=3000001787536954-0-0-e4e3e0259470595ebcaf9bdb82197809",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "racing club vs boca juniors|hd logan"
+      "match_key": "ventura county fc vs portland timbers r|hd xmen"
     }
   ],
   "outputs_written": true
