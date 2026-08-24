@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-24T19:02:37.870850+07:00",
+  "updated_at": "2026-08-24T19:32:41.725850+07:00",
   "matches": {
     "e177b6b49930": {
       "url": "https://phaohoa1.live/truc-tiep/trung-quoc-vs-iraq",
@@ -635,9 +635,9 @@
       "url": "https://phaohoa1.live/truc-tiep/trung-quoc-vs-iran",
       "match_name": "Trung Quốc vs Iran",
       "kickoff_iso": "2026-08-24T18:30:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-24T19:02:37.870737+07:00",
-      "next_scan_at": "2026-08-24T19:07:37.870737+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-08-24T19:32:41.725702+07:00",
+      "next_scan_at": "2026-08-24T19:37:41.725702+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -661,9 +661,9 @@
       "url": "https://phaohoa1.live/truc-tiep/ha-lan-vs-bo-dao-nha",
       "match_name": "Hà Lan vs Bồ Đào Nha",
       "kickoff_iso": "2026-08-24T18:30:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-24T19:02:37.870737+07:00",
-      "next_scan_at": "2026-08-24T19:07:37.870737+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-08-24T19:32:41.725702+07:00",
+      "next_scan_at": "2026-08-24T19:37:41.725702+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -675,13 +675,13 @@
       "url": "https://phaohoa1.live/truc-tiep/kokand-1912-vs-buxoro-24-08-2026-736688",
       "match_name": "24-08 Super League Kokand 1912 VS Buxoro Văn Minh",
       "kickoff_iso": "2026-08-24T21:00:00+07:00",
-      "minutes_to_kickoff": 148,
-      "last_scan_at": "2026-08-24T18:32:34.023131+07:00",
-      "next_scan_at": "2026-08-24T19:17:34.023131+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-24T19:32:41.725702+07:00",
+      "next_scan_at": "2026-08-24T19:52:41.725702+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
