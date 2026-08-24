@@ -11,20 +11,6 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-chivas-tapatio-vs-m-zacatecas-luc-0800-ngay-24-08-2026-s1-5" tvg-name="[08:00 24/08/2026] Chivas Tapatio vs M Zacatecas [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4jwq2gh4x3nm0ve/image/small",[08:00 24/08/2026] Chivas Tapatio vs M Zacatecas [BLV HD FELIX] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-24/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.livecarriercdn.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-24/off-tvc?is_off_add=false","Origin":"https://xlz.livecarriercdn.com"}
-https://push2.m3u8delivery.com/livecdn/channel-24.flv?auth_key=3000001787538717-0-0-819a12f22e7ce29d28334bd14ea225a4
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-pumas-u-n-a-m-vs-necaxa-luc-0800-ngay-24-08-2026-s1-6" tvg-name="[08:00 24/08/2026] Pumas U N A M vs Necaxa [BLV HD JOHAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/e4wyrn4hjknq86p/image/small",[08:00 24/08/2026] Pumas U N A M vs Necaxa [BLV HD JOHAN] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-12/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.livecarriercdn.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-12/off-tvc?is_off_add=false","Origin":"https://xlz.livecarriercdn.com"}
-https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787538726-0-0-57744a1a25e8caa6f7c5cbeedf56815a
 #EXTINF:-1 tvg-id="xoilac-ruc-tiep-atletico-junior-vs-once-caldas-luc-0815-ngay-24-08-2026-s1-3" tvg-name="[08:15 24/08/2026] Atletico Junior vs Once Caldas [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlh887ryk0/image/small",[08:15 24/08/2026] Atletico Junior vs Once Caldas [BLV HD JEAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-7/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livecarriercdn.com
@@ -46,13 +32,27 @@ https://push2.m3u8delivery.com/livecdn/channel-32.flv?auth_key=3000001787540514-
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false","Origin":"https://xlz.livecarriercdn.com"}
 https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787540511-0-0-64262e15abf26e830d5b94c77d5df273
-#EXTINF:-1 tvg-id="xoilac-ventura-county-fc-vs-portland-timbers-r-luc-0900-ngay-24-08-2026-s1-4" tvg-name="[09:00 24/08/2026] Ventura County Fc vs Portland Timbers R [BLV HD XMEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whekxzryox/image/small",[09:00 24/08/2026] Ventura County Fc vs Portland Timbers R [BLV HD XMEN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-ventura-county-fc-vs-portland-timbers-r-luc-0900-ngay-24-08-2026-s1-2" tvg-name="[09:00 24/08/2026] Ventura County Fc vs Portland Timbers R [BLV HD XMEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whekxzryox/image/small",[09:00 24/08/2026] Ventura County Fc vs Portland Timbers R [BLV HD XMEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-13/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livecarriercdn.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-13/off-tvc?is_off_add=false","Origin":"https://xlz.livecarriercdn.com"}
-https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787540529-0-0-847dad7283d933dab73151414fe14b90
+https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787542304-0-0-5493b662742ed9d8498df8889fd031ec
+#EXTINF:-1 tvg-id="xoilac-p-mayar-sherif-vs-oleksandra-oliynykova-luc-1030-ngay-24-08-2026-s1-1" tvg-name="[10:30 24/08/2026] Mayar Sherif vs Oleksandra Oliynykova [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/ednm9efvg64ryox/image/small",[10:30 24/08/2026] Mayar Sherif vs Oleksandra Oliynykova [BLV HD VIC] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.livecarriercdn.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.livecarriercdn.com"}
+https://push2.m3u8delivery.com/livecdn/channel-32.flv?auth_key=3000001787542277-0-0-81c71b79882e9d7b45a957b78fdc6144
+#EXTINF:-1 tvg-id="xoilac-ep-nu-beijing-ducks-vs-nu-hefei-culture-luc-1300-ngay-24-08-2026-s1-3" tvg-name="[13:00 24/08/2026] Nu Beijing Ducks vs Nu Hefei Culture [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/p3glrwyteewqdyj/image/small",[13:00 24/08/2026] Nu Beijing Ducks vs Nu Hefei Culture [BLV HD ALAN] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.livecarriercdn.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false","Origin":"https://xlz.livecarriercdn.com"}
+https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787542315-0-0-631152486f8f8e5eff5dfa44d483c97b
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-kharaatsai-vs-nu-samuser-luc-1600-ngay-23-08-2026-3-s1-17" tvg-name="Phát trực tiếp Nữ Kharaatsai vs Nữ SAmuser [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh8pllr6od/image/small",Phát trực tiếp Nữ Kharaatsai vs Nữ SAmuser [BLV HD SILVA] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.morvexstream.com/ajax/chanel/type/5/link/channel-20/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.morvexstream.com
@@ -67,7 +67,7 @@ https://push2.m3u8delivery.com/livecdn/channel-20.flv?auth_key=3000001787483179-
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/16226575.m3u8
-#EXTINF:-1 tvg-id="phaohoa-443acc92a43c-1" tvg-name="[09:00 24/08] Viet Nam vs Hong Kong" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/viet-nam-vs-hong-kong" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_hdpF9Rm.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_hdpF9Rm.jpg" phaohoa-away-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_y52YJOU.jpg",[09:00 24/08] Viet Nam vs Hong Kong [FHD M3U8]
+#EXTINF:-1 tvg-id="phaohoa-443acc92a43c-1" tvg-name="[09:00 24/08] Viet Nam vs Hong Kong [BLV thấy ấm áp và dễ chịu ạ 0 Trả lời Phaoho]" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/viet-nam-vs-hong-kong" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_hdpF9Rm.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_hdpF9Rm.jpg" phaohoa-away-logo="https://phaohoa1.live/media-thumb/team/teams/logos/OIP_y52YJOU.jpg" phaohoa-blv="thấy ấm áp và dễ chịu ạ 0 Trả lời Phaoho",[09:00 24/08] Viet Nam vs Hong Kong [BLV thấy ấm áp và dễ chịu ạ 0 Trả lời Phaoho] [FHD M3U8]
 #EXTVLCOPT:http-referrer=https://phaohoa1.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://phaohoa1.live
