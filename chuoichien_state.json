@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-24T20:31:46.522449+07:00",
+  "updated_at": "2026-08-24T21:02:10.938450+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1215,33 +1215,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1557369": {
-      "url": "https://live04.chuoichientv.me/live/1557369/everton-vs-crystal-palace",
-      "match_name": "Everton vs Crystal Palace - Ngoại Hạng Anh",
-      "kickoff_iso": "2026-08-22T21:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-22T20:32:05.678124+07:00",
-      "next_scan_at": "2026-08-22T20:42:05.678124+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
-    "1557371": {
-      "url": "https://live04.chuoichientv.me/live/1557371/nottingham-forest-vs-leeds",
-      "match_name": "Nottingham Forest vs Leeds - Ngoại Hạng Anh",
-      "kickoff_iso": "2026-08-22T21:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-22T22:31:55.568101+07:00",
-      "next_scan_at": "2026-08-22T22:36:55.568101+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1570343": {
       "url": "https://live04.chuoichientv.me/live/1570343/athletic-club-vs-sevilla",
       "match_name": "Athletic Club vs Sevilla - La Liga",
@@ -1291,20 +1264,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1557370": {
-      "url": "https://live04.chuoichientv.me/live/1557370/ipswich-vs-sunderland",
-      "match_name": "Ipswich vs Sunderland - Ngoại Hạng Anh",
-      "kickoff_iso": "2026-08-22T21:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-22T22:31:55.568101+07:00",
-      "next_scan_at": "2026-08-22T22:36:55.568101+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1550091": {
       "url": "https://live04.chuoichientv.me/live/1550091/genoa-vs-napoli",
@@ -1517,13 +1476,14 @@
       "url": "https://live04.chuoichientv.me/live/1601121/sabah-fa-vs-imigresen",
       "match_name": "Sabah FA vs Imigresen - VĐQG Malaysia",
       "kickoff_iso": "2026-08-24T19:15:00+07:00",
-      "minutes_to_kickoff": -76,
-      "last_scan_at": "2026-08-24T20:31:46.522292+07:00",
-      "next_scan_at": "2026-08-24T20:36:46.522292+07:00",
+      "minutes_to_kickoff": -107,
+      "last_scan_at": "2026-08-24T21:02:10.938321+07:00",
+      "next_scan_at": "2026-08-24T21:07:10.938321+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1546,21 +1506,23 @@
       "url": "https://live04.chuoichientv.me/live/1516115/kokand-1912-vs-buxoro",
       "match_name": "Kokand-1912 vs Buxoro - VĐQG Uzbekistan",
       "kickoff_iso": "2026-08-24T21:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-24T20:31:46.522292+07:00",
-      "next_scan_at": "2026-08-24T20:41:46.522292+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-24T21:02:10.938321+07:00",
+      "next_scan_at": "2026-08-24T21:07:10.938321+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1577495": {
       "url": "https://live04.chuoichientv.me/live/1577495/kamaz-vs-fc-sochi",
-      "match_name": "kamaz vs fc sochi",
+      "match_name": "KAMAZ vs FC Sochi - FNL Nga",
       "kickoff_iso": "2026-08-24T21:30:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-24T20:31:46.522292+07:00",
-      "next_scan_at": "2026-08-24T20:51:46.522292+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-24T21:02:10.938321+07:00",
+      "next_scan_at": "2026-08-24T21:12:10.938321+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1569,34 +1531,34 @@
     "1550703": {
       "url": "https://live04.chuoichientv.me/live/1550703/wrzburger-kickers-vs-1fc-kln",
       "match_name": "wrzburger kickers vs 1fc kln",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-24T20:31:46.522292+07:00",
-      "next_scan_at": "2026-08-24T20:41:46.522292+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
-    },
-    "1550089": {
-      "url": "https://live04.chuoichientv.me/live/1550089/bologna-vs-lazio",
-      "match_name": "bologna vs lazio",
-      "kickoff_iso": "2026-08-24T23:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-24T20:31:46.522292+07:00",
-      "next_scan_at": "2026-08-24T21:16:46.522292+07:00",
+      "kickoff_iso": "2026-08-24T23:00:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-24T21:02:10.938321+07:00",
+      "next_scan_at": "2026-08-24T21:22:10.938321+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
+    },
+    "1550089": {
+      "url": "https://live04.chuoichientv.me/live/1550089/bologna-vs-lazio",
+      "match_name": "bologna vs lazio",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-24T21:02:10.938321+07:00",
+      "next_scan_at": "2026-08-24T21:12:10.938321+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     },
     "1570350": {
       "url": "https://live04.chuoichientv.me/live/1570350/osasuna-vs-levante",
       "match_name": "osasuna vs levante",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-24T20:31:46.522292+07:00",
-      "next_scan_at": "2026-08-24T20:41:46.522292+07:00",
+      "last_scan_at": "2026-08-24T21:02:10.938321+07:00",
+      "next_scan_at": "2026-08-24T21:12:10.938321+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1607,8 +1569,8 @@
       "match_name": "al ittihad fc vs al hazm",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-24T20:31:46.522292+07:00",
-      "next_scan_at": "2026-08-24T20:41:46.522292+07:00",
+      "last_scan_at": "2026-08-24T21:02:10.938321+07:00",
+      "next_scan_at": "2026-08-24T21:12:10.938321+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1619,8 +1581,20 @@
       "match_name": "as roma vs fiorentina",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-24T20:31:46.522292+07:00",
-      "next_scan_at": "2026-08-24T20:41:46.522292+07:00",
+      "last_scan_at": "2026-08-24T21:02:10.938321+07:00",
+      "next_scan_at": "2026-08-24T21:12:10.938321+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1557376": {
+      "url": "https://live04.chuoichientv.me/live/1557376/fulham-vs-chelsea",
+      "match_name": "fulham vs chelsea",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-24T21:02:10.938321+07:00",
+      "next_scan_at": "2026-08-24T21:12:10.938321+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
