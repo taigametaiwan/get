@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-24T13:03:07.967438+07:00",
+  "generated_at": "2026-08-24T13:32:58.554138+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -78,10 +78,10 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 102,
+      "debug_rows": 103,
       "playlist_blocks": 6,
       "catalog_placeholders": 0,
-      "metadata_references": 102,
+      "metadata_references": 103,
       "included": true,
       "fresh_stream_blocks": 6,
       "fresh_verified_blocks": 6,
@@ -134,40 +134,43 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 19,
-  "metadata_reference_count": 118,
-  "last_good_recovered_count": 6,
+  "input_candidates": 20,
+  "metadata_reference_count": 119,
+  "last_good_recovered_count": 7,
   "last_good_suppressed_by_fresh_count": 0,
   "last_good_audit": [
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-32.flv?auth_key=3000001787547680-0-0-8d98474e4c10e663d0fab43c38a30b84",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-24T10:30:00+07:00",
-      "minutes_to_kickoff": -153.13,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787547690-0-0-26fe9125a7834158526af45dbd129d2d",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787551281-0-0-ffea18bfe3c0da96ab59336803b25042",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787549484-0-0-5f4f9d8a87fc57d3915a6919df33a3f7",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787551365-0-0-58ae7a09d1f34367c49b63947127fab3",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787549541-0-0-066268a08061205466c7011c23ed418f",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787551314-0-0-8be2df0318bd7f2dd10c9aca58224ebd",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787549518-0-0-8aaf39803968a97fbea14b0d62ca7293",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787551292-0-0-bfc2deeae3f0bc348336497ede3d3d8a",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787551332-0-0-91dc5210b1c6b4181a19a23c3f0d6db0",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787551356-0-0-807c945cc0a78894db255c7ef7d7741e",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
@@ -177,16 +180,10 @@
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787549559-0-0-2a1dc7c6e3bce8357dabdf3a1df613f8",
-      "kept": true,
-      "reason": "HTTP 200; streaming body (TimeoutError)",
-      "source": "xoilac"
     }
   ],
   "selected_count": 7,
-  "dropped_count": 12,
+  "dropped_count": 13,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -201,7 +198,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787551292-0-0-bfc2deeae3f0bc348336497ede3d3d8a",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787553082-0-0-1220ecb83cc180cd0d14eac2f1c706ee",
       "match_key": "dn soopers challengers vs kiwoom drx challengers|hd marty",
       "display_name": "[12:00 24/08/2026] Dn Soopers Challengers vs Kiwoom Drx Challengers [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -222,7 +219,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-24T12:00:00+07:00",
-      "minutes_to_kickoff": -63.13,
+      "minutes_to_kickoff": -92.98,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -232,7 +229,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787551292-0-0-bfc2deeae3f0bc348336497ede3d3d8a",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787553082-0-0-1220ecb83cc180cd0d14eac2f1c706ee",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/pxwrx81ug6xzqyk/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/318q6g8to5vvro9/image/small",
       "blv": null,
@@ -246,7 +243,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787551281-0-0-ffea18bfe3c0da96ab59336803b25042",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787553074-0-0-2248c4447cd16b31bccc3193efc2d9c8",
       "match_key": "nu beijing ducks vs nu hefei culture|hd alan",
       "display_name": "[13:00 24/08/2026] Nu Beijing Ducks vs Nu Hefei Culture [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -267,7 +264,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-24T13:00:00+07:00",
-      "minutes_to_kickoff": -3.13,
+      "minutes_to_kickoff": -32.98,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -277,7 +274,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787551281-0-0-ffea18bfe3c0da96ab59336803b25042",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787553074-0-0-2248c4447cd16b31bccc3193efc2d9c8",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/p3glrwyteewqdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/y0or5gtexn3qwzv/image/small",
       "blv": null,
@@ -291,7 +288,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787551314-0-0-8be2df0318bd7f2dd10c9aca58224ebd",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787553100-0-0-9afc188f2dcebd1433a35a4ea33b296c",
       "match_key": "nu thai lan vs nu indonesia|hd tyson",
       "display_name": "[14:00 24/08/2026] Nu Thai Lan vs Nu Indonesia [BLV HD TYSON] [FLV]",
       "group": "Xôi Lạc",
@@ -312,7 +309,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-24T14:00:00+07:00",
-      "minutes_to_kickoff": 56.87,
+      "minutes_to_kickoff": 27.02,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -322,7 +319,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787551314-0-0-8be2df0318bd7f2dd10c9aca58224ebd",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787553100-0-0-9afc188f2dcebd1433a35a4ea33b296c",
       "home_logo": "https://imgts.sportpulseapiz.com/volleyball/team/kdj2rydhz29r1zp/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/volleyball/team/yl5ergdh9p4r8k0/image/small",
       "blv": null,
@@ -336,7 +333,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787551332-0-0-91dc5210b1c6b4181a19a23c3f0d6db0",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787553112-0-0-deabdb171bbbeee715ec2dfcafeb86ad",
       "match_key": "bnk fearx youth vs hanwha life esports challengers|hd marty",
       "display_name": "[15:00 24/08/2026] Bnk Fearx Youth vs Hanwha Life Esports Challengers [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -357,7 +354,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-24T15:00:00+07:00",
-      "minutes_to_kickoff": 116.87,
+      "minutes_to_kickoff": 87.02,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -367,7 +364,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787551332-0-0-91dc5210b1c6b4181a19a23c3f0d6db0",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787553112-0-0-deabdb171bbbeee715ec2dfcafeb86ad",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/y39mp8xu3xykqoj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/dn1m1eku4wn3qoe/image/small",
       "blv": null,
@@ -381,7 +378,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787551356-0-0-807c945cc0a78894db255c7ef7d7741e",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787553131-0-0-28b38906f6327a1c13f4ff4e3b6bbf74",
       "match_key": "morocco u21 vs tunisia u21|hd xmen",
       "display_name": "[15:30 24/08/2026] Morocco U21 vs Tunisia U21 [BLV HD XMEN] [FLV]",
       "group": "Xôi Lạc",
@@ -402,7 +399,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-24T15:30:00+07:00",
-      "minutes_to_kickoff": 146.87,
+      "minutes_to_kickoff": 117.02,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -412,7 +409,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787551356-0-0-807c945cc0a78894db255c7ef7d7741e",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787553131-0-0-28b38906f6327a1c13f4ff4e3b6bbf74",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hwp0vqdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4helnoq86p/image/small",
       "blv": null,
@@ -426,7 +423,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787551365-0-0-58ae7a09d1f34367c49b63947127fab3",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787553141-0-0-e08cfeb2eb3120d443110d7faf8ec62a",
       "match_key": "negros muscovados vs mindoro tamaraws|hd alan",
       "display_name": "[16:00 24/08/2026] Negros Muscovados vs Mindoro Tamaraws [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -447,7 +444,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-24T16:00:00+07:00",
-      "minutes_to_kickoff": 176.87,
+      "minutes_to_kickoff": 147.02,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -457,7 +454,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787551365-0-0-58ae7a09d1f34367c49b63947127fab3",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787553141-0-0-e08cfeb2eb3120d443110d7faf8ec62a",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/3glrwyt188gqdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/4wyrn1teek8q86p/image/small",
       "blv": null,
@@ -511,13 +508,13 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
-      "prior_generated_at": "2026-08-24T12:32:53.368368+07:00"
+      "prior_generated_at": "2026-08-24T13:03:07.967438+07:00"
     }
   ],
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787551281-0-0-ffea18bfe3c0da96ab59336803b25042",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787553074-0-0-2248c4447cd16b31bccc3193efc2d9c8",
       "display_name": "[13:00 24/08/2026] Nu Beijing Ducks vs Nu Hefei Culture [BLV HD ALAN] [FLV]",
       "match_key": "nu beijing ducks vs nu hefei culture|hd alan",
       "quality": "HD",
@@ -529,7 +526,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787551292-0-0-bfc2deeae3f0bc348336497ede3d3d8a",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787553082-0-0-1220ecb83cc180cd0d14eac2f1c706ee",
       "display_name": "[12:00 24/08/2026] Dn Soopers Challengers vs Kiwoom Drx Challengers [BLV HD MARTY] [FLV]",
       "match_key": "dn soopers challengers vs kiwoom drx challengers|hd marty",
       "quality": "HD",
@@ -541,7 +538,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787551314-0-0-8be2df0318bd7f2dd10c9aca58224ebd",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787553100-0-0-9afc188f2dcebd1433a35a4ea33b296c",
       "display_name": "[14:00 24/08/2026] Nu Thai Lan vs Nu Indonesia [BLV HD TYSON] [FLV]",
       "match_key": "nu thai lan vs nu indonesia|hd tyson",
       "quality": "HD",
@@ -553,7 +550,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787551332-0-0-91dc5210b1c6b4181a19a23c3f0d6db0",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787553112-0-0-deabdb171bbbeee715ec2dfcafeb86ad",
       "display_name": "[15:00 24/08/2026] Bnk Fearx Youth vs Hanwha Life Esports Challengers [BLV HD MARTY] [FLV]",
       "match_key": "bnk fearx youth vs hanwha life esports challengers|hd marty",
       "quality": "HD",
@@ -565,7 +562,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787551356-0-0-807c945cc0a78894db255c7ef7d7741e",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787553131-0-0-28b38906f6327a1c13f4ff4e3b6bbf74",
       "display_name": "[15:30 24/08/2026] Morocco U21 vs Tunisia U21 [BLV HD XMEN] [FLV]",
       "match_key": "morocco u21 vs tunisia u21|hd xmen",
       "quality": "HD",
@@ -577,7 +574,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787551365-0-0-58ae7a09d1f34367c49b63947127fab3",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787553141-0-0-e08cfeb2eb3120d443110d7faf8ec62a",
       "display_name": "[16:00 24/08/2026] Negros Muscovados vs Mindoro Tamaraws [BLV HD ALAN] [FLV]",
       "match_key": "negros muscovados vs mindoro tamaraws|hd alan",
       "quality": "HD",
@@ -626,34 +623,40 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787547690-0-0-26fe9125a7834158526af45dbd129d2d",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787551281-0-0-ffea18bfe3c0da96ab59336803b25042",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "nu beijing ducks vs nu hefei culture|hd alan"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787549484-0-0-5f4f9d8a87fc57d3915a6919df33a3f7",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787551292-0-0-bfc2deeae3f0bc348336497ede3d3d8a",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "dn soopers challengers vs kiwoom drx challengers|hd marty"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787549518-0-0-8aaf39803968a97fbea14b0d62ca7293",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787551314-0-0-8be2df0318bd7f2dd10c9aca58224ebd",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "nu thai lan vs nu indonesia|hd tyson"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787549541-0-0-066268a08061205466c7011c23ed418f",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787551332-0-0-91dc5210b1c6b4181a19a23c3f0d6db0",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "bnk fearx youth vs hanwha life esports challengers|hd marty"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787549559-0-0-2a1dc7c6e3bce8357dabdf3a1df613f8",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-13.flv?auth_key=3000001787551356-0-0-807c945cc0a78894db255c7ef7d7741e",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "morocco u21 vs tunisia u21|hd xmen"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787551365-0-0-58ae7a09d1f34367c49b63947127fab3",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "negros muscovados vs mindoro tamaraws|hd alan"
     }
   ],
   "outputs_written": true
