@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-25T02:03:00.501147+07:00",
+  "updated_at": "2026-08-25T02:32:14.946144+07:00",
   "matches": {
-    "798820": {
-      "url": "https://phaohoa1.live/truc-tiep/espanyol-vs-real-madrid-23-08-2026-798820",
-      "match_name": "Espanyol vs Real Madrid",
-      "kickoff_iso": "2026-08-23T02:30:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-23T04:02:02.690959+07:00",
-      "next_scan_at": "2026-08-23T04:07:02.690959+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "711590": {
       "url": "https://phaohoa1.live/truc-tiep/inter-miami-vs-toronto-fc-23-08-2026-711590",
       "match_name": "Inter Miami vs Toronto FC",
@@ -501,9 +487,9 @@
       "url": "https://phaohoa1.live/truc-tiep/al-ittihad-vs-al-hazem-25-08-2026-825117",
       "match_name": "Al Ittihad vs Al Hazem",
       "kickoff_iso": "2026-08-25T01:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-25T02:03:00.500962+07:00",
-      "next_scan_at": "2026-08-25T02:08:00.500962+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-25T02:32:14.946017+07:00",
+      "next_scan_at": "2026-08-25T02:37:14.946017+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -555,23 +541,25 @@
     },
     "798825": {
       "url": "https://phaohoa1.live/truc-tiep/malaga-vs-dep-la-coruna-25-08-2026-798825",
-      "match_name": "25-08 La Liga Malaga VS Dep. La Coruna Kevin",
+      "match_name": "Malaga vs Dep. La Coruna",
       "kickoff_iso": "2026-08-25T02:30:00+07:00",
-      "minutes_to_kickoff": 57,
-      "last_scan_at": "2026-08-25T01:33:34.977442+07:00",
-      "next_scan_at": "2026-08-25T01:53:34.977442+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-25T02:32:14.946017+07:00",
+      "next_scan_at": "2026-08-25T02:37:14.946017+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
       "scan_decision": "browser-fallback"
     },
     "807862": {
       "url": "https://phaohoa1.live/truc-tiep/as-roma-vs-fiorentina-25-08-2026-807862",
       "match_name": "As Roma vs Fiorentina",
       "kickoff_iso": "2026-08-25T01:45:00+07:00",
-      "minutes_to_kickoff": -17,
-      "last_scan_at": "2026-08-25T02:03:00.500962+07:00",
-      "next_scan_at": "2026-08-25T02:08:00.500962+07:00",
+      "minutes_to_kickoff": -47,
+      "last_scan_at": "2026-08-25T02:32:14.946017+07:00",
+      "next_scan_at": "2026-08-25T02:37:14.946017+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
