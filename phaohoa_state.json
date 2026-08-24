@@ -1,62 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-24T19:32:41.725850+07:00",
+  "updated_at": "2026-08-24T20:03:06.425764+07:00",
   "matches": {
-    "e177b6b49930": {
-      "url": "https://phaohoa1.live/truc-tiep/trung-quoc-vs-iraq",
-      "match_name": "22-08 ASEAN Championship Thái Lan VS Việt Nam Người Lửa",
-      "kickoff_iso": "2026-08-22T20:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-22T18:02:53.737088+07:00",
-      "next_scan_at": "2026-08-22T18:22:53.737088+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
-    },
-    "849234": {
-      "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-viet-nam-22-08-2026-849234",
-      "match_name": "Thái Lan vs Việt Nam",
-      "kickoff_iso": "2026-08-22T20:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-22T21:33:51.742006+07:00",
-      "next_scan_at": "2026-08-22T21:38:51.742006+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "3d08d77fdd4d": {
-      "url": "https://phaohoa1.live/truc-tiep/italy-vs-montenegro",
-      "match_name": "Italy vs Montenegro",
-      "kickoff_iso": "2026-08-22T19:59:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-08-22T21:03:53.586511+07:00",
-      "next_scan_at": "2026-08-22T21:08:53.586511+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "172419": {
-      "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-viet-nam-20-08-2026-172419",
-      "match_name": "Thái Lan vs Việt Nam",
-      "kickoff_iso": "2026-08-22T20:00:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-08-22T20:03:42.210589+07:00",
-      "next_scan_at": "2026-08-22T20:08:42.210589+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "812653": {
       "url": "https://phaohoa1.live/truc-tiep/ipswich-vs-sunderland-22-08-2026-812653",
       "match_name": "Ipswich vs Sunderland",
@@ -647,23 +593,25 @@
     },
     "47f983fc2ab9": {
       "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-latvia",
-      "match_name": "24-08 Vô Địch Châu Âu Ba Lan VS Latvia KaKa",
+      "match_name": "Ba Lan vs Latvia",
       "kickoff_iso": "2026-08-24T20:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-24T18:02:25.040693+07:00",
-      "next_scan_at": "2026-08-24T18:22:25.040693+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-08-24T20:03:06.425596+07:00",
+      "next_scan_at": "2026-08-24T20:08:06.425596+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "c93e4dd41fdb": {
       "url": "https://phaohoa1.live/truc-tiep/ha-lan-vs-bo-dao-nha",
       "match_name": "Hà Lan vs Bồ Đào Nha",
       "kickoff_iso": "2026-08-24T18:30:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-24T19:32:41.725702+07:00",
-      "next_scan_at": "2026-08-24T19:37:41.725702+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-08-24T20:03:06.425596+07:00",
+      "next_scan_at": "2026-08-24T20:08:06.425596+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -682,6 +630,18 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "f8ba6b1e6087": {
+      "url": "https://phaohoa1.live/truc-tiep/tho-nhi-ki-vs-hungary",
+      "match_name": "24-08 Vô Địch Châu Âu Thổ Nhĩ Kì VS Hungary Tày",
+      "kickoff_iso": "2026-08-24T23:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-24T20:03:06.425596+07:00",
+      "next_scan_at": "2026-08-24T20:48:06.425596+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
