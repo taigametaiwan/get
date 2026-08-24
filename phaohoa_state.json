@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-25T01:33:34.977651+07:00",
+  "updated_at": "2026-08-25T02:03:00.501147+07:00",
   "matches": {
-    "807855": {
-      "url": "https://phaohoa1.live/truc-tiep/genoa-vs-napoli-23-08-2026-807855",
-      "match_name": "Genoa vs Napoli",
-      "kickoff_iso": "2026-08-23T01:45:00+07:00",
-      "minutes_to_kickoff": -107,
-      "last_scan_at": "2026-08-23T03:32:04.222617+07:00",
-      "next_scan_at": "2026-08-23T03:37:04.222617+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "798820": {
       "url": "https://phaohoa1.live/truc-tiep/espanyol-vs-real-madrid-23-08-2026-798820",
       "match_name": "Espanyol vs Real Madrid",
@@ -28,20 +14,6 @@
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "809911": {
-      "url": "https://phaohoa1.live/truc-tiep/toulouse-vs-lyon-23-08-2026-809911",
-      "match_name": "Toulouse vs Lyon",
-      "kickoff_iso": "2026-08-23T01:45:00+07:00",
-      "minutes_to_kickoff": -107,
-      "last_scan_at": "2026-08-23T03:32:04.222617+07:00",
-      "next_scan_at": "2026-08-23T03:37:04.222617+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -527,11 +499,11 @@
     },
     "825117": {
       "url": "https://phaohoa1.live/truc-tiep/al-ittihad-vs-al-hazem-25-08-2026-825117",
-      "match_name": "25-08 Serie A AS Roma VS Fiorentina Pháo Thủ",
+      "match_name": "Al Ittihad vs Al Hazem",
       "kickoff_iso": "2026-08-25T01:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-25T01:33:34.977442+07:00",
-      "next_scan_at": "2026-08-25T01:38:34.977442+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-08-25T02:03:00.500962+07:00",
+      "next_scan_at": "2026-08-25T02:08:00.500962+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -543,9 +515,9 @@
       "url": "https://phaohoa1.live/truc-tiep/fulham-vs-chelsea-25-08-2026-812659",
       "match_name": "Fulham vs Chelsea",
       "kickoff_iso": "2026-08-25T02:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-25T01:33:34.977442+07:00",
-      "next_scan_at": "2026-08-25T01:38:34.977442+07:00",
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-25T02:03:00.500962+07:00",
+      "next_scan_at": "2026-08-25T02:08:00.500962+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -571,9 +543,9 @@
       "url": "https://phaohoa1.live/truc-tiep/osasuna-vs-levante-25-08-2026-798824",
       "match_name": "Osasuna vs Levante",
       "kickoff_iso": "2026-08-25T00:30:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-25T01:33:34.977442+07:00",
-      "next_scan_at": "2026-08-25T01:38:34.977442+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-25T02:03:00.500962+07:00",
+      "next_scan_at": "2026-08-25T02:08:00.500962+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -595,14 +567,16 @@
     },
     "807862": {
       "url": "https://phaohoa1.live/truc-tiep/as-roma-vs-fiorentina-25-08-2026-807862",
-      "match_name": "25-08 Serie A AS Roma VS Fiorentina Pháo Thủ",
+      "match_name": "As Roma vs Fiorentina",
       "kickoff_iso": "2026-08-25T01:45:00+07:00",
-      "minutes_to_kickoff": 42,
-      "last_scan_at": "2026-08-25T01:03:47.514232+07:00",
-      "next_scan_at": "2026-08-25T01:13:47.514232+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -17,
+      "last_scan_at": "2026-08-25T02:03:00.500962+07:00",
+      "next_scan_at": "2026-08-25T02:08:00.500962+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
