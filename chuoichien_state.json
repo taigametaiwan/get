@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-26T02:01:56.458180+07:00",
+  "updated_at": "2026-08-26T02:32:16.468312+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1263,20 +1263,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1570346": {
-      "url": "https://live04.chuoichientv.me/live/1570346/elche-vs-barcelona",
-      "match_name": "Elche vs Barcelona - La Liga",
-      "kickoff_iso": "2026-08-24T02:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-24T04:01:38.673785+07:00",
-      "next_scan_at": "2026-08-24T04:06:38.673785+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1492348": {
       "url": "https://live04.chuoichientv.me/live/1492348/santos-vs-mirassol",
       "match_name": "Santos vs Mirassol - VĐQG Brazil",
@@ -1655,63 +1641,72 @@
     },
     "1602994": {
       "url": "https://live04.chuoichientv.me/live/1602994/al-ettifaq-vs-al-nassr",
-      "match_name": "al ettifaq vs al nassr",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-26T02:01:56.458043+07:00",
-      "next_scan_at": "2026-08-26T02:11:56.458043+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Al-Ettifaq vs Al-Nassr - Saudi Pro League",
+      "kickoff_iso": "2026-08-26T01:00:00+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-26T02:32:16.468210+07:00",
+      "next_scan_at": "2026-08-26T02:37:16.468210+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1570342": {
       "url": "https://live04.chuoichientv.me/live/1570342/valencia-vs-real-betis",
-      "match_name": "valencia vs real betis",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-26T02:01:56.458043+07:00",
-      "next_scan_at": "2026-08-26T02:11:56.458043+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Valencia vs Real Betis - La Liga",
+      "kickoff_iso": "2026-08-26T02:00:00+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-26T02:32:16.468210+07:00",
+      "next_scan_at": "2026-08-26T02:37:16.468210+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1622627": {
       "url": "https://live04.chuoichientv.me/live/1622627/bodoglimt-vs-nec-nijmegen",
-      "match_name": "bodoglimt vs nec nijmegen",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-26T02:01:56.458043+07:00",
-      "next_scan_at": "2026-08-26T02:11:56.458043+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Bodo/Glimt vs NEC Nijmegen - UEFA Champions League",
+      "kickoff_iso": "2026-08-26T02:00:00+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-26T02:32:16.468210+07:00",
+      "next_scan_at": "2026-08-26T02:37:16.468210+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1623100": {
       "url": "https://live04.chuoichientv.me/live/1623100/nottingham-forest-vs-leeds",
-      "match_name": "nottingham forest vs leeds",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-26T02:01:56.458043+07:00",
-      "next_scan_at": "2026-08-26T02:11:56.458043+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Nottingham Forest vs Leeds - Cúp Liên đoàn Anh",
+      "kickoff_iso": "2026-08-26T02:00:00+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-26T02:32:16.468210+07:00",
+      "next_scan_at": "2026-08-26T02:37:16.468210+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1520835": {
       "url": "https://live04.chuoichientv.me/live/1520835/juventude-vs-crb",
       "match_name": "juventude vs crb",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-26T02:01:56.458043+07:00",
-      "next_scan_at": "2026-08-26T02:11:56.458043+07:00",
+      "kickoff_iso": "2026-08-26T05:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-26T02:32:16.468210+07:00",
+      "next_scan_at": "2026-08-26T03:17:16.468210+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1627497": {
       "url": "https://live04.chuoichientv.me/live/1627497/ryazan-vs-fk-spartak-tambov",
@@ -1733,8 +1728,8 @@
       "match_name": "monterrey vs chicago fire",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-26T02:01:56.458043+07:00",
-      "next_scan_at": "2026-08-26T02:11:56.458043+07:00",
+      "last_scan_at": "2026-08-26T02:32:16.468210+07:00",
+      "next_scan_at": "2026-08-26T02:42:16.468210+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
