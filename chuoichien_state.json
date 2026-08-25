@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-25T22:31:43.011615+07:00",
+  "updated_at": "2026-08-25T23:01:50.102721+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1684,15 +1684,16 @@
     },
     "1516114": {
       "url": "https://live04.chuoichientv.me/live/1516114/dinamo-samarqand-vs-pakhtakor",
-      "match_name": "dinamo samarqand vs pakhtakor",
+      "match_name": "Dinamo Samarqand vs Pakhtakor - VĐQG Uzbekistan",
       "kickoff_iso": "2026-08-25T22:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-25T22:31:43.011431+07:00",
-      "next_scan_at": "2026-08-25T22:36:43.011431+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-25T23:01:50.102550+07:00",
+      "next_scan_at": "2026-08-25T23:06:50.102550+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1700,9 +1701,9 @@
       "url": "https://live04.chuoichientv.me/live/1622626/sabah-fa-vs-hapoel-beer-sheva",
       "match_name": "sabah fa vs hapoel beer sheva",
       "kickoff_iso": "2026-08-25T23:45:00+07:00",
-      "minutes_to_kickoff": 74,
-      "last_scan_at": "2026-08-25T22:31:43.011431+07:00",
-      "next_scan_at": "2026-08-25T22:51:43.011431+07:00",
+      "minutes_to_kickoff": 44,
+      "last_scan_at": "2026-08-25T23:01:50.102550+07:00",
+      "next_scan_at": "2026-08-25T23:11:50.102550+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1713,8 +1714,8 @@
       "match_name": "al ettifaq vs al nassr",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-25T22:31:43.011431+07:00",
-      "next_scan_at": "2026-08-25T22:41:43.011431+07:00",
+      "last_scan_at": "2026-08-25T23:01:50.102550+07:00",
+      "next_scan_at": "2026-08-25T23:11:50.102550+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1725,8 +1726,8 @@
       "match_name": "valencia vs real betis",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-25T22:31:43.011431+07:00",
-      "next_scan_at": "2026-08-25T22:41:43.011431+07:00",
+      "last_scan_at": "2026-08-25T23:01:50.102550+07:00",
+      "next_scan_at": "2026-08-25T23:11:50.102550+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1737,8 +1738,8 @@
       "match_name": "bodoglimt vs nec nijmegen",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-25T22:31:43.011431+07:00",
-      "next_scan_at": "2026-08-25T22:41:43.011431+07:00",
+      "last_scan_at": "2026-08-25T23:01:50.102550+07:00",
+      "next_scan_at": "2026-08-25T23:11:50.102550+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1749,8 +1750,8 @@
       "match_name": "nottingham forest vs leeds",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-25T22:31:43.011431+07:00",
-      "next_scan_at": "2026-08-25T22:41:43.011431+07:00",
+      "last_scan_at": "2026-08-25T23:01:50.102550+07:00",
+      "next_scan_at": "2026-08-25T23:11:50.102550+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1761,8 +1762,8 @@
       "match_name": "juventude vs crb",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-25T22:31:43.011431+07:00",
-      "next_scan_at": "2026-08-25T22:41:43.011431+07:00",
+      "last_scan_at": "2026-08-25T23:01:50.102550+07:00",
+      "next_scan_at": "2026-08-25T23:11:50.102550+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1772,15 +1773,28 @@
       "url": "https://live04.chuoichientv.me/live/1627497/ryazan-vs-fk-spartak-tambov",
       "match_name": "ryazan vs fk spartak tambov",
       "kickoff_iso": "2026-08-25T21:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-25T22:31:43.011431+07:00",
-      "next_scan_at": "2026-08-25T22:36:43.011431+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-25T23:01:50.102550+07:00",
+      "next_scan_at": "2026-08-25T23:06:50.102550+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "1627558": {
+      "url": "https://live04.chuoichientv.me/live/1627558/monterrey-vs-chicago-fire",
+      "match_name": "monterrey vs chicago fire",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-25T23:01:50.102550+07:00",
+      "next_scan_at": "2026-08-25T23:11:50.102550+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
