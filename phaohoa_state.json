@@ -1,20 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-25T12:31:56.759842+07:00",
+  "updated_at": "2026-08-25T13:02:34.380241+07:00",
   "matches": {
-    "01b402aa9e46": {
-      "url": "https://phaohoa1.live/truc-tiep/dai-loan-vs-iraq",
-      "match_name": "Đài Loan vs Iraq",
-      "kickoff_iso": "2026-08-23T13:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-23T14:31:59.312399+07:00",
-      "next_scan_at": "2026-08-23T14:36:59.312399+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "807502": {
       "url": "https://phaohoa1.live/truc-tiep/machida-vs-urawa-reds-23-08-2026-807502",
       "match_name": "Machida vs Urawa Reds",
@@ -555,14 +543,16 @@
     },
     "6d24cf4bde1a": {
       "url": "https://phaohoa1.live/truc-tiep/iran-vs-iraq",
-      "match_name": "25-08 Vô Địch Châu Á Iran VS Iraq Tày",
+      "match_name": "Iran vs Iraq",
       "kickoff_iso": "2026-08-25T13:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-25T12:31:56.759769+07:00",
-      "next_scan_at": "2026-08-25T12:41:56.759769+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-25T13:02:34.380148+07:00",
+      "next_scan_at": "2026-08-25T13:07:34.380148+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
