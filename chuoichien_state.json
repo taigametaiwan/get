@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-26T03:32:06.201276+07:00",
+  "updated_at": "2026-08-26T04:01:47.472432+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1670,41 +1670,37 @@
       "url": "https://live04.chuoichientv.me/live/1622627/bodoglimt-vs-nec-nijmegen",
       "match_name": "Bodo/Glimt vs NEC Nijmegen - UEFA Champions League",
       "kickoff_iso": "2026-08-26T02:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-26T03:32:06.201148+07:00",
-      "next_scan_at": "2026-08-26T03:37:06.201148+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-26T04:01:47.472345+07:00",
+      "next_scan_at": "2026-08-26T04:06:47.472345+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "1623100": {
       "url": "https://live04.chuoichientv.me/live/1623100/nottingham-forest-vs-leeds",
       "match_name": "Nottingham Forest vs Leeds - Cúp Liên đoàn Anh",
       "kickoff_iso": "2026-08-26T02:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-26T03:32:06.201148+07:00",
-      "next_scan_at": "2026-08-26T03:37:06.201148+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-26T04:01:47.472345+07:00",
+      "next_scan_at": "2026-08-26T04:06:47.472345+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "1520835": {
       "url": "https://live04.chuoichientv.me/live/1520835/juventude-vs-crb",
-      "match_name": "juventude vs crb",
+      "match_name": "Juventude vs CRB - Serie B",
       "kickoff_iso": "2026-08-26T05:30:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-26T03:32:06.201148+07:00",
-      "next_scan_at": "2026-08-26T03:52:06.201148+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-08-26T04:01:47.472345+07:00",
+      "next_scan_at": "2026-08-26T04:21:47.472345+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1627497": {
       "url": "https://live04.chuoichientv.me/live/1627497/ryazan-vs-fk-spartak-tambov",
@@ -1726,8 +1722,8 @@
       "match_name": "monterrey vs chicago fire",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-26T03:32:06.201148+07:00",
-      "next_scan_at": "2026-08-26T03:42:06.201148+07:00",
+      "last_scan_at": "2026-08-26T04:01:47.472345+07:00",
+      "next_scan_at": "2026-08-26T04:11:47.472345+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
