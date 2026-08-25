@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-25T17:32:18.677267+07:00",
+  "updated_at": "2026-08-25T18:02:23.744614+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1654,14 +1654,13 @@
       "url": "https://live04.chuoichientv.me/live/1623385/lions-vs-north-sunshine-eagles",
       "match_name": "Lions vs North Sunshine Eagles - Australia Cup",
       "kickoff_iso": "2026-08-25T16:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-25T17:32:18.677073+07:00",
-      "next_scan_at": "2026-08-25T17:37:18.677073+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-25T18:02:23.744383+07:00",
+      "next_scan_at": "2026-08-25T18:07:23.744383+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1669,26 +1668,27 @@
       "url": "https://live04.chuoichientv.me/live/1507041/jeju-united-fc-vs-pohang-steelers",
       "match_name": "Jeju United FC vs Pohang Steelers - K League 1",
       "kickoff_iso": "2026-08-25T17:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-25T17:32:18.677073+07:00",
-      "next_scan_at": "2026-08-25T17:37:18.677073+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-25T18:02:23.744383+07:00",
+      "next_scan_at": "2026-08-25T18:07:23.744383+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1507042": {
       "url": "https://live04.chuoichientv.me/live/1507042/fc-seoul-vs-bucheon-fc-1995",
       "match_name": "FC Seoul vs Bucheon FC 1995 - K League 1",
       "kickoff_iso": "2026-08-25T17:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-25T17:32:18.677073+07:00",
-      "next_scan_at": "2026-08-25T17:37:18.677073+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-25T18:02:23.744383+07:00",
+      "next_scan_at": "2026-08-25T18:07:23.744383+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1696,9 +1696,9 @@
       "url": "https://live04.chuoichientv.me/live/992218/japan-vs-vietnam-w",
       "match_name": "Japan vs Vietnam W - Bóng chuyền nữ Châu Á 2026",
       "kickoff_iso": "2026-08-25T17:30:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-25T17:32:18.677073+07:00",
-      "next_scan_at": "2026-08-25T17:37:18.677073+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-25T18:02:23.744383+07:00",
+      "next_scan_at": "2026-08-25T18:07:23.744383+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1710,34 +1710,34 @@
     "1516113": {
       "url": "https://live04.chuoichientv.me/live/1516113/andijan-vs-xorazm",
       "match_name": "andijan vs xorazm",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-25T17:32:18.677073+07:00",
-      "next_scan_at": "2026-08-25T17:42:18.677073+07:00",
+      "kickoff_iso": "2026-08-25T21:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-25T18:02:23.744383+07:00",
+      "next_scan_at": "2026-08-25T18:47:23.744383+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1627491": {
       "url": "https://live04.chuoichientv.me/live/1627491/dinamo-kirov-vs-amkar",
       "match_name": "dinamo kirov vs amkar",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-25T17:32:18.677073+07:00",
-      "next_scan_at": "2026-08-25T17:42:18.677073+07:00",
+      "kickoff_iso": "2026-08-25T21:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-25T18:02:23.744383+07:00",
+      "next_scan_at": "2026-08-25T18:47:23.744383+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1516114": {
       "url": "https://live04.chuoichientv.me/live/1516114/dinamo-samarqand-vs-pakhtakor",
       "match_name": "dinamo samarqand vs pakhtakor",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-25T17:32:18.677073+07:00",
-      "next_scan_at": "2026-08-25T17:42:18.677073+07:00",
+      "last_scan_at": "2026-08-25T18:02:23.744383+07:00",
+      "next_scan_at": "2026-08-25T18:12:23.744383+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1748,8 +1748,8 @@
       "match_name": "sabah fa vs hapoel beer sheva",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-25T17:32:18.677073+07:00",
-      "next_scan_at": "2026-08-25T17:42:18.677073+07:00",
+      "last_scan_at": "2026-08-25T18:02:23.744383+07:00",
+      "next_scan_at": "2026-08-25T18:12:23.744383+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1760,8 +1760,8 @@
       "match_name": "al ettifaq vs al nassr",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-25T17:32:18.677073+07:00",
-      "next_scan_at": "2026-08-25T17:42:18.677073+07:00",
+      "last_scan_at": "2026-08-25T18:02:23.744383+07:00",
+      "next_scan_at": "2026-08-25T18:12:23.744383+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
