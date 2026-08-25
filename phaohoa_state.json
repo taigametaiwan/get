@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-25T09:32:38.000241+07:00",
+  "updated_at": "2026-08-25T10:02:33.234684+07:00",
   "matches": {
     "01b402aa9e46": {
       "url": "https://phaohoa1.live/truc-tiep/dai-loan-vs-iraq",
@@ -545,15 +545,27 @@
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-kazakhstan",
       "match_name": "Thái Lan vs Kazakhstan",
       "kickoff_iso": "2026-08-25T09:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-25T09:32:38.000153+07:00",
-      "next_scan_at": "2026-08-25T09:37:38.000153+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-08-25T10:02:33.234551+07:00",
+      "next_scan_at": "2026-08-25T10:07:33.234551+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "6d24cf4bde1a": {
+      "url": "https://phaohoa1.live/truc-tiep/iran-vs-iraq",
+      "match_name": "25-08 Vô Địch Châu Á Iran VS Iraq Tày",
+      "kickoff_iso": "2026-08-25T13:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-25T10:02:33.234551+07:00",
+      "next_scan_at": "2026-08-25T10:47:33.234551+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
