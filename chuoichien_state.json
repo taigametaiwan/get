@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-26T05:31:39.178348+07:00",
+  "updated_at": "2026-08-26T06:01:39.892915+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1317,21 +1317,6 @@
       ],
       "scan_decision": "browser-fallback"
     },
-    "1490420": {
-      "url": "https://live04.chuoichientv.me/live/1490420/atlanta-united-fc-vs-sporting-kansas-city",
-      "match_name": "Atlanta United FC vs Sporting Kansas City - Major League Soccer",
-      "kickoff_iso": "2026-08-24T06:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-24T08:01:49.861541+07:00",
-      "next_scan_at": "2026-08-24T08:06:49.861541+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1516115": {
       "url": "https://live04.chuoichientv.me/live/1516115/kokand-1912-vs-buxoro",
       "match_name": "kokand 1912 vs buxoro",
@@ -1679,9 +1664,9 @@
       "url": "https://live04.chuoichientv.me/live/1520835/juventude-vs-crb",
       "match_name": "Juventude vs CRB - Serie B",
       "kickoff_iso": "2026-08-26T05:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-26T05:31:39.178282+07:00",
-      "next_scan_at": "2026-08-26T05:36:39.178282+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-26T06:01:39.875508+07:00",
+      "next_scan_at": "2026-08-26T06:06:39.875508+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1707,15 +1692,99 @@
     },
     "1627558": {
       "url": "https://live04.chuoichientv.me/live/1627558/monterrey-vs-chicago-fire",
-      "match_name": "monterrey vs chicago fire",
+      "match_name": "Monterrey vs Chicago Fire - Leagues Cup",
       "kickoff_iso": "2026-08-26T07:30:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-26T05:31:39.178282+07:00",
-      "next_scan_at": "2026-08-26T05:51:39.178282+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-08-26T06:01:39.875508+07:00",
+      "next_scan_at": "2026-08-26T06:21:39.875508+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "993593": {
+      "url": "https://live04.chuoichientv.me/live/993593/hong-kong-vs-south-korea",
+      "match_name": "hong kong vs south korea",
+      "kickoff_iso": "2026-08-26T09:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-26T06:01:39.875508+07:00",
+      "next_scan_at": "2026-08-26T06:46:39.875508+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
+    },
+    "996822": {
+      "url": "https://live04.chuoichientv.me/live/996822/indonesia-vs-australia",
+      "match_name": "indonesia vs australia",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-26T06:01:39.875508+07:00",
+      "next_scan_at": "2026-08-26T06:11:39.875508+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1623386": {
+      "url": "https://live04.chuoichientv.me/live/1623386/preston-lions-vs-south-melbourne",
+      "match_name": "preston lions vs south melbourne",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-26T06:01:39.875508+07:00",
+      "next_scan_at": "2026-08-26T06:11:39.875508+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1507045": {
+      "url": "https://live04.chuoichientv.me/live/1507045/gangwon-fc-vs-gwangju-fc",
+      "match_name": "gangwon fc vs gwangju fc",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-26T06:01:39.875508+07:00",
+      "next_scan_at": "2026-08-26T06:11:39.875508+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "995071": {
+      "url": "https://live04.chuoichientv.me/live/995071/china-vs-chinese-taipei",
+      "match_name": "china vs chinese taipei",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-26T06:01:39.875508+07:00",
+      "next_scan_at": "2026-08-26T06:11:39.875508+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1601146": {
+      "url": "https://live04.chuoichientv.me/live/1601146/johor-darul-takzim-fc-vs-kelantan-red-warrior-fc",
+      "match_name": "johor darul takzim fc vs kelantan red warrior fc",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-26T06:01:39.875508+07:00",
+      "next_scan_at": "2026-08-26T06:11:39.875508+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1630226": {
+      "url": "https://live04.chuoichientv.me/live/1630226/vit-nam-vs-thailand",
+      "match_name": "vit nam vs thailand",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-26T06:01:39.875508+07:00",
+      "next_scan_at": "2026-08-26T06:11:39.875508+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
