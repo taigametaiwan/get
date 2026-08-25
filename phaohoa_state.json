@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-25T18:03:29.712873+07:00",
+  "updated_at": "2026-08-25T19:02:47.358523+07:00",
   "matches": {
     "805972": {
       "url": "https://phaohoa1.live/truc-tiep/psv-vs-groningen-23-08-2026-805972",
@@ -14,20 +14,6 @@
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "f83c55e88423": {
-      "url": "https://phaohoa1.live/truc-tiep/bo-dao-nha-vs-bi",
-      "match_name": "Bồ Đào Nha vs Bỉ",
-      "kickoff_iso": "2026-08-23T18:30:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-23T19:33:15.921212+07:00",
-      "next_scan_at": "2026-08-23T19:38:15.921212+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -541,23 +527,25 @@
     },
     "9e2a1ecd9a0e": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-nhat-ban",
-      "match_name": "25-08 Vô Địch Châu Âu Italy VS Slovakia KaKa",
-      "kickoff_iso": "2026-08-25T21:00:00+07:00",
-      "minutes_to_kickoff": 177,
-      "last_scan_at": "2026-08-25T18:03:29.712408+07:00",
-      "next_scan_at": "2026-08-25T18:48:29.712408+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "match_name": "Việt Nam vs Nhật Bản",
+      "kickoff_iso": "2026-08-25T17:30:00+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-25T19:02:47.358362+07:00",
+      "next_scan_at": "2026-08-25T19:07:47.358362+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "728377": {
       "url": "https://phaohoa1.live/truc-tiep/gimcheon-sangmu-vs-jeonbuk-25-08-2026-728377",
       "match_name": "Gimcheon Sangmu vs Jeonbuk",
       "kickoff_iso": "2026-08-25T17:30:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-25T18:03:29.712408+07:00",
-      "next_scan_at": "2026-08-25T18:08:29.712408+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-25T19:02:47.358362+07:00",
+      "next_scan_at": "2026-08-25T19:07:47.358362+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -567,11 +555,23 @@
     },
     "0bdee6a0f127": {
       "url": "https://phaohoa1.live/truc-tiep/hungary-vs-duc",
-      "match_name": "25-08 Vô Địch Châu Âu Hungary VS Đức Tày",
-      "kickoff_iso": "2026-08-25T20:00:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-08-25T18:03:29.712408+07:00",
-      "next_scan_at": "2026-08-25T18:23:29.712408+07:00",
+      "match_name": "25-08 Super League Lok. Tashkent VS Bunyodkor Văn Minh",
+      "kickoff_iso": "2026-08-25T22:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-25T19:02:47.358362+07:00",
+      "next_scan_at": "2026-08-25T19:47:47.358362+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "b065fb70bc0f": {
+      "url": "https://phaohoa1.live/truc-tiep/italy-vs-slovakia",
+      "match_name": "25-08 Vô Địch Châu Âu Italy VS Slovakia KaKa",
+      "kickoff_iso": "2026-08-25T21:00:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-25T19:02:47.358362+07:00",
+      "next_scan_at": "2026-08-25T19:22:47.358362+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
