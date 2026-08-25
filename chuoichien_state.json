@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-26T04:31:24.077715+07:00",
+  "updated_at": "2026-08-26T05:01:55.566270+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1679,9 +1679,9 @@
       "url": "https://live04.chuoichientv.me/live/1520835/juventude-vs-crb",
       "match_name": "Juventude vs CRB - Serie B",
       "kickoff_iso": "2026-08-26T05:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-08-26T04:31:24.077649+07:00",
-      "next_scan_at": "2026-08-26T04:51:24.077649+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-26T05:01:55.566195+07:00",
+      "next_scan_at": "2026-08-26T05:11:55.566195+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1705,14 +1705,14 @@
     "1627558": {
       "url": "https://live04.chuoichientv.me/live/1627558/monterrey-vs-chicago-fire",
       "match_name": "monterrey vs chicago fire",
-      "kickoff_iso": "2026-08-26T07:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-26T04:31:24.077649+07:00",
-      "next_scan_at": "2026-08-26T05:16:24.077649+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-26T05:01:55.566195+07:00",
+      "next_scan_at": "2026-08-26T05:11:55.566195+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     }
   }
 }
