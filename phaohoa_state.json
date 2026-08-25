@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-25T20:32:32.536591+07:00",
+  "updated_at": "2026-08-25T21:03:21.001983+07:00",
   "matches": {
     "809914": {
       "url": "https://phaohoa1.live/truc-tiep/le-havre-vs-monaco-23-08-2026-809914",
@@ -17,20 +17,6 @@
       ],
       "scan_decision": "browser-fallback"
     },
-    "812657": {
-      "url": "https://phaohoa1.live/truc-tiep/manchester-city-vs-bournemouth-23-08-2026-812657",
-      "match_name": "Manchester City vs Bournemouth",
-      "kickoff_iso": "2026-08-23T21:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-23T21:34:18.178300+07:00",
-      "next_scan_at": "2026-08-23T21:39:18.178300+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "812658": {
       "url": "https://phaohoa1.live/truc-tiep/newcastle-vs-liverpool-23-08-2026-812658",
       "match_name": "Newcastle vs Liverpool",
@@ -42,20 +28,6 @@
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "7df3aef45a66": {
-      "url": "https://phaohoa1.live/truc-tiep/nga-vs-cuba",
-      "match_name": "Nga vs Cuba",
-      "kickoff_iso": "2026-08-23T21:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-23T22:33:36.465683+07:00",
-      "next_scan_at": "2026-08-23T22:38:36.465683+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -499,9 +471,9 @@
       "url": "https://phaohoa1.live/truc-tiep/hungary-vs-duc",
       "match_name": "Hungary vs Đức",
       "kickoff_iso": "2026-08-25T20:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-25T20:32:32.536421+07:00",
-      "next_scan_at": "2026-08-25T20:37:32.536421+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-08-25T21:03:21.000341+07:00",
+      "next_scan_at": "2026-08-25T21:08:21.000341+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -511,14 +483,16 @@
     },
     "b065fb70bc0f": {
       "url": "https://phaohoa1.live/truc-tiep/italy-vs-slovakia",
-      "match_name": "25-08 Vô Địch Châu Âu Italy VS Slovakia KaKa",
+      "match_name": "Italy vs Slovakia",
       "kickoff_iso": "2026-08-25T21:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-25T20:32:32.536421+07:00",
-      "next_scan_at": "2026-08-25T20:42:32.536421+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-08-25T21:03:21.000341+07:00",
+      "next_scan_at": "2026-08-25T21:08:21.000341+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     },
     "736689": {
@@ -537,9 +511,33 @@
       "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-slovenia",
       "match_name": "25-08 Vô Địch Châu Âu Ba Lan VS Slovenia KaKa",
       "kickoff_iso": "2026-08-25T23:00:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-25T21:03:21.000341+07:00",
+      "next_scan_at": "2026-08-25T21:23:21.000341+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "841030": {
+      "url": "https://phaohoa1.live/truc-tiep/sabah-baku-vs-h-beer-sheva-25-08-2026-841030",
+      "match_name": "25-08 UEFA Champions League Sabah Baku VS H. Beer Sheva A Heo",
+      "kickoff_iso": "2026-08-25T23:45:00+07:00",
+      "minutes_to_kickoff": 163,
+      "last_scan_at": "2026-08-25T21:03:21.000341+07:00",
+      "next_scan_at": "2026-08-25T21:48:21.000341+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1867cd3ca638": {
+      "url": "https://phaohoa1.live/truc-tiep/cong-hoa-sec-vs-ukraine",
+      "match_name": "26-08 Vô Địch Châu Âu Cộng Hoà Séc VS Ukraine Chim Nhỏ",
+      "kickoff_iso": "2026-08-26T00:00:00+07:00",
       "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-25T20:02:42.046913+07:00",
-      "next_scan_at": "2026-08-25T20:47:42.046913+07:00",
+      "last_scan_at": "2026-08-25T21:03:21.000341+07:00",
+      "next_scan_at": "2026-08-25T21:48:21.000341+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
