@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-27T04:31:39.782858+07:00",
+  "updated_at": "2026-08-27T05:01:44.817822+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1275,20 +1275,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1603334": {
-      "url": "https://live04.chuoichientv.me/live/1603334/atlante-w-vs-toluca-w",
-      "match_name": "Atlante W vs Toluca W - VĐQG Nữ Mexico",
-      "kickoff_iso": "2026-08-25T04:45:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-08-25T06:31:41.493968+07:00",
-      "next_scan_at": "2026-08-25T06:36:41.493968+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1492340": {
       "url": "https://live04.chuoichientv.me/live/1492340/botafogo-vs-atletico-paranaense",
       "match_name": "Botafogo vs Atletico Paranaense - VĐQG Brazil",
@@ -1712,36 +1698,35 @@
       "url": "https://live04.chuoichientv.me/live/1549746/chico-vs-fortaleza-fc",
       "match_name": "Chico vs Fortaleza FC - VĐQG Colombia",
       "kickoff_iso": "2026-08-27T04:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-27T04:31:39.782496+07:00",
-      "next_scan_at": "2026-08-27T04:36:39.782496+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-27T05:01:44.817730+07:00",
+      "next_scan_at": "2026-08-27T05:06:44.817730+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1549743": {
       "url": "https://live04.chuoichientv.me/live/1549743/america-de-cali-vs-junior",
-      "match_name": "america de cali vs junior",
+      "match_name": "America de Cali vs Junior - VĐQG Colombia",
       "kickoff_iso": "2026-08-27T06:20:00+07:00",
-      "minutes_to_kickoff": 109,
-      "last_scan_at": "2026-08-27T04:31:39.782496+07:00",
-      "next_scan_at": "2026-08-27T04:51:39.782496+07:00",
+      "minutes_to_kickoff": 79,
+      "last_scan_at": "2026-08-27T05:01:44.817730+07:00",
+      "next_scan_at": "2026-08-27T05:21:44.817730+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1549744": {
       "url": "https://live04.chuoichientv.me/live/1549744/atletico-nacional-vs-deportivo-cali",
       "match_name": "atletico nacional vs deportivo cali",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-27T04:31:39.782496+07:00",
-      "next_scan_at": "2026-08-27T04:41:39.782496+07:00",
+      "last_scan_at": "2026-08-27T05:01:44.817730+07:00",
+      "next_scan_at": "2026-08-27T05:11:44.817730+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
