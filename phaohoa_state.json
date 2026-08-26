@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-26T15:03:08.880439+07:00",
+  "updated_at": "2026-08-26T15:32:26.599430+07:00",
   "matches": {
     "440fd6d9736f": {
       "url": "https://phaohoa1.live/truc-tiep/trung-quoc-vs-iran",
@@ -467,23 +467,33 @@
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-uc",
       "match_name": "Indonesia vs Úc",
       "kickoff_iso": "2026-08-26T14:00:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-26T15:03:08.880365+07:00",
-      "next_scan_at": "2026-08-26T15:08:08.880365+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-26T15:32:26.599267+07:00",
+      "next_scan_at": "2026-08-26T15:37:26.599267+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "728381": {
       "url": "https://phaohoa1.live/truc-tiep/daejeon-vs-ulsan-hd-26-08-2026-728381",
       "match_name": "26-08 K League 1 Daejeon VS Ulsan HD Tiểu Mây",
       "kickoff_iso": "2026-08-26T17:30:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-26T15:32:26.599267+07:00",
+      "next_scan_at": "2026-08-26T15:52:26.599267+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "9a3fe3d57f21": {
+      "url": "https://phaohoa1.live/truc-tiep/trung-quoc-vs-dai-loan",
+      "match_name": "26-08 Vô Địch Châu Á Trung Quốc VS Đài Loan KaKa",
+      "kickoff_iso": "2026-08-26T18:30:00+07:00",
       "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-26T14:32:45.116430+07:00",
-      "next_scan_at": "2026-08-26T15:17:45.116430+07:00",
+      "last_scan_at": "2026-08-26T15:32:26.599267+07:00",
+      "next_scan_at": "2026-08-26T16:17:26.599267+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
