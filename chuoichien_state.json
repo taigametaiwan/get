@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-27T05:31:36.601717+07:00",
+  "updated_at": "2026-08-27T06:01:27.672263+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1275,21 +1275,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1492340": {
-      "url": "https://live04.chuoichientv.me/live/1492340/botafogo-vs-atletico-paranaense",
-      "match_name": "Botafogo vs Atletico Paranaense - VĐQG Brazil",
-      "kickoff_iso": "2026-08-25T06:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-25T07:31:28.001924+07:00",
-      "next_scan_at": "2026-08-25T07:36:28.001924+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1603335": {
       "url": "https://live04.chuoichientv.me/live/1603335/atlas-w-vs-tijuana-w",
       "match_name": "Atlas W vs Tijuana W - VĐQG Nữ Mexico",
@@ -1711,11 +1696,11 @@
     },
     "1549743": {
       "url": "https://live04.chuoichientv.me/live/1549743/america-de-cali-vs-junior",
-      "match_name": "america de cali vs junior",
+      "match_name": "America de Cali vs Junior - VĐQG Colombia",
       "kickoff_iso": "2026-08-27T06:20:00+07:00",
-      "minutes_to_kickoff": 49,
-      "last_scan_at": "2026-08-27T05:31:36.601635+07:00",
-      "next_scan_at": "2026-08-27T05:51:36.601635+07:00",
+      "minutes_to_kickoff": 19,
+      "last_scan_at": "2026-08-27T06:01:27.672200+07:00",
+      "next_scan_at": "2026-08-27T06:11:27.672200+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1724,14 +1709,14 @@
     "1549744": {
       "url": "https://live04.chuoichientv.me/live/1549744/atletico-nacional-vs-deportivo-cali",
       "match_name": "atletico nacional vs deportivo cali",
-      "kickoff_iso": "2026-08-27T08:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-27T05:31:36.601635+07:00",
-      "next_scan_at": "2026-08-27T06:16:36.601635+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-27T06:01:27.672200+07:00",
+      "next_scan_at": "2026-08-27T06:11:27.672200+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     }
   }
 }
