@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-26T19:33:34.360871+07:00",
+  "updated_at": "2026-08-26T20:03:39.880151+07:00",
   "matches": {
-    "47f983fc2ab9": {
-      "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-latvia",
-      "match_name": "Ba Lan vs Latvia",
-      "kickoff_iso": "2026-08-24T20:00:00+07:00",
-      "minutes_to_kickoff": -123,
-      "last_scan_at": "2026-08-24T22:03:38.456955+07:00",
-      "next_scan_at": "2026-08-24T22:08:38.456955+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "736688": {
       "url": "https://phaohoa1.live/truc-tiep/kokand-1912-vs-buxoro-24-08-2026-736688",
       "match_name": "Kokand 1912 vs Buxoro",
@@ -493,9 +479,9 @@
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-thai-lan-26-08-2026-849235",
       "match_name": "Việt Nam vs Thái Lan",
       "kickoff_iso": "2026-08-26T20:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-26T19:33:34.360580+07:00",
-      "next_scan_at": "2026-08-26T19:38:34.360580+07:00",
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-26T20:03:39.879898+07:00",
+      "next_scan_at": "2026-08-26T20:08:39.879898+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -505,11 +491,11 @@
     },
     "162813": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-thai-lan-24-08-2026-162813",
-      "match_name": "26-08 Vô Địch Châu Âu Pháp VS Italy KaKa",
+      "match_name": "26-08 Vô Địch Châu Âu Bỉ VS Azerbaijan Tiểu Mây",
       "kickoff_iso": "2026-08-26T20:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-26T19:33:34.360580+07:00",
-      "next_scan_at": "2026-08-26T19:38:34.360580+07:00",
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-08-26T20:03:39.879898+07:00",
+      "next_scan_at": "2026-08-26T20:08:39.879898+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -531,15 +517,41 @@
     },
     "162812": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-thai-lan-24-08-2026-162812",
-      "match_name": "26-08 ASEAN Championship Việt Nam VS Thái Lan A Heo",
+      "match_name": "Việt Nam vs Thái Lan",
       "kickoff_iso": "2026-08-26T20:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-26T19:33:34.360580+07:00",
-      "next_scan_at": "2026-08-26T19:43:34.360580+07:00",
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-26T20:03:39.879898+07:00",
+      "next_scan_at": "2026-08-26T20:08:39.879898+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "a9138ac66727": {
+      "url": "https://phaohoa1.live/truc-tiep/phap-vs-italy",
+      "match_name": "26-08 Vô Địch Châu Âu Pháp VS Italy KaKa",
+      "kickoff_iso": "2026-08-26T21:00:00+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-26T20:03:39.879898+07:00",
+      "next_scan_at": "2026-08-26T20:23:39.879898+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "825122": {
+      "url": "https://phaohoa1.live/truc-tiep/al-faisaly-vs-al-fateh-26-08-2026-825122",
+      "match_name": "26-08 Saudi Pro League Al-Faisaly VS Al Fateh Pháo Thủ",
+      "kickoff_iso": "2026-08-26T23:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-26T20:03:39.879898+07:00",
+      "next_scan_at": "2026-08-26T20:48:39.879898+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
