@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-26T15:34:09.301877+07:00",
+  "generated_at": "2026-08-26T16:05:04.924754+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -19,13 +19,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 9,
-      "playlist_blocks": 1,
+      "playlist_blocks": 0,
       "catalog_placeholders": 0,
       "metadata_references": 9,
       "included": true,
-      "fresh_stream_blocks": 1,
-      "fresh_verified_blocks": 1,
-      "fresh_selected": 1,
+      "fresh_stream_blocks": 0,
+      "fresh_verified_blocks": 0,
+      "fresh_selected": 0,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -78,14 +78,14 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 93,
-      "playlist_blocks": 10,
+      "debug_rows": 94,
+      "playlist_blocks": 9,
       "catalog_placeholders": 0,
-      "metadata_references": 93,
+      "metadata_references": 94,
       "included": true,
-      "fresh_stream_blocks": 10,
-      "fresh_verified_blocks": 10,
-      "fresh_selected": 10,
+      "fresh_stream_blocks": 9,
+      "fresh_verified_blocks": 9,
+      "fresh_selected": 9,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -98,20 +98,21 @@
       "label": "ColaTV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 116,
-      "playlist_blocks": 1,
+      "debug_rows": 109,
+      "playlist_blocks": 2,
       "catalog_placeholders": 0,
-      "metadata_references": 105,
+      "metadata_references": 95,
       "included": true,
-      "fresh_stream_blocks": 1,
+      "fresh_stream_blocks": 2,
       "fresh_verified_blocks": 1,
       "fresh_selected": 1,
-      "fresh_explicitly_dropped": 0,
+      "fresh_explicitly_dropped": 1,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
       "unresolved": 0,
       "integrity_ok": true,
-      "fresh_unverified_blocks": 0
+      "fresh_unverified_blocks": 1,
+      "integrity_warning": "fresh-unverified-streams-explicitly-decided"
     },
     {
       "key": "phaohoa",
@@ -121,7 +122,7 @@
       "debug_rows": 7,
       "playlist_blocks": 7,
       "catalog_placeholders": 0,
-      "metadata_references": 7,
+      "metadata_references": 6,
       "included": true,
       "fresh_stream_blocks": 0,
       "fresh_verified_blocks": 0,
@@ -134,20 +135,11 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 31,
-  "metadata_reference_count": 214,
-  "last_good_recovered_count": 12,
-  "last_good_suppressed_by_fresh_count": 2,
+  "input_candidates": 32,
+  "metadata_reference_count": 204,
+  "last_good_recovered_count": 14,
+  "last_good_suppressed_by_fresh_count": 1,
   "last_good_audit": [
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-26.flv?auth_key=3000001787727710-0-0-c533224b320c2b10953b2b880a4eb94d",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-26T13:00:00+07:00",
-      "minutes_to_kickoff": -154.16,
-      "filtered_before_probe": true
-    },
     {
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
       "kept": true,
@@ -155,22 +147,40 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787731319-0-0-afb26135f8116124aa229f3fc8f17708",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787733117-0-0-d481be0e48c9a1679d3fa39bda27d4f5",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787733167-0-0-f797794684f31c79cd38d0dd6732f425",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-10.flv?auth_key=3000001787733174-0-0-372ecdae8d1c30c563c05aaf105d32da",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-18.flv?auth_key=3000001787733175-0-0-d6a6f73dc2426ebe316676f3cfac861f",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-4.flv?auth_key=3000001787733180-0-0-3dab4b93da53459f0d94b6c96974c104",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
       "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-      "kept": true,
-      "reason": "HTTP 206; m3u8=True",
+      "kept": false,
+      "reason": "TimeoutError: The read operation timed out",
       "source": "chuoichien"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787731403-0-0-a46b748ecd98e6fecbfe160c8510ba34",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
     },
     {
       "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787731350-0-0-23d1f377f7f5ad19efe544f494993d9c",
@@ -191,15 +201,9 @@
       "source": "xoilac"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-10.flv?auth_key=3000001787731415-0-0-69b7d7f612e1f286dccb3d8c68517952",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787733194-0-0-9df9dfde90ccad40e87abfa2e12a84fb",
       "kept": true,
-      "reason": "HTTP 200; streaming body (TimeoutError)",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-4.flv?auth_key=3000001787731416-0-0-9fff75cacaee519dc511cff9b1863fbc",
-      "kept": true,
-      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
@@ -209,40 +213,28 @@
       "source": "colatv"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787731436-0-0-0bb2feaaf282d56c8e581a20a2819b30",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-16.flv?auth_key=3000001787733200-0-0-1716caf9fd5c5059a70de0eb21bfb26f",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-26.flv?auth_key=3000001787733225-0-0-76a3389d82bba6027481d7a2dbe0b9f6",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     },
     {
-      "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-      "kept": false,
-      "reason": "HTTP 404",
-      "source": "phaohoa"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-16.flv?auth_key=3000001787731436-0-0-5a009b26d1c32cda326304da1c69f518",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787733244-0-0-3d48802278fcc3347c51f6f1f456cada",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-26.flv?auth_key=3000001787731462-0-0-8c9406c3dd4df53a84016258001b32ed",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-29.flv?auth_key=3000001787733232-0-0-dca6bbbbd3a8e9fa6e24510b2b9120b3",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
-    },
-    {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-29.flv?auth_key=3000001787731469-0-0-8e98f690a9ebd01559abc3ec2d56fbb6",
-      "kept": true,
-      "reason": "HTTP 200; streaming body (TimeoutError)",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "chuoichien"
     },
     {
       "url": "https://colatv88xi.cc/video2/output.m3u8",
@@ -251,8 +243,8 @@
       "source": "colatv"
     }
   ],
-  "selected_count": 16,
-  "dropped_count": 15,
+  "selected_count": 15,
+  "dropped_count": 17,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -264,46 +256,6 @@
     "repaired_invalid": 0
   },
   "channels": [
-    {
-      "source": "chuoichien",
-      "source_label": "Chuối Chiên",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-      "match_key": "indonesia vs australia|chuoi tay",
-      "display_name": "[14:00 26/08] Indonesia vs Australia - Bóng chuyền nữ Châu Á 2026 [BLV Chuối Tây] [HD M3U8]",
-      "group": "Chuối Chiên",
-      "sport_group": "Bóng đá",
-      "quality": "HD",
-      "kind": "m3u8",
-      "playability": "verified",
-      "classification": null,
-      "classification_reason": null,
-      "has_secret": false,
-      "expiry": null,
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 459,
-      "kickoff_iso": "2026-08-26T14:00:00+07:00",
-      "minutes_to_kickoff": -94.16,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-      "home_logo": null,
-      "away_logo": null,
-      "blv": "Chuối Tây",
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
     {
       "source": "chuoichien",
       "source_label": "Chuối Chiên",
@@ -323,7 +275,7 @@
       "pending_reason": null,
       "score": 415,
       "kickoff_iso": "2026-08-26T14:00:00+07:00",
-      "minutes_to_kickoff": -94.16,
+      "minutes_to_kickoff": -125.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -342,7 +294,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; m3u8=True",
-      "prior_generated_at": "2026-08-26T15:04:36.747957+07:00"
+      "prior_generated_at": "2026-08-26T15:34:09.301877+07:00"
     },
     {
       "source": "xoilac",
@@ -368,7 +320,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-26T14:00:00+07:00",
-      "minutes_to_kickoff": -94.16,
+      "minutes_to_kickoff": -125.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -387,7 +339,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
-      "prior_generated_at": "2026-08-26T15:04:36.747957+07:00"
+      "prior_generated_at": "2026-08-26T15:34:09.301877+07:00"
     },
     {
       "source": "xoilac",
@@ -413,7 +365,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-26T14:00:00+07:00",
-      "minutes_to_kickoff": -94.16,
+      "minutes_to_kickoff": -125.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -432,7 +384,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
-      "prior_generated_at": "2026-08-26T15:04:36.747957+07:00"
+      "prior_generated_at": "2026-08-26T15:34:09.301877+07:00"
     },
     {
       "source": "xoilac",
@@ -458,7 +410,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-26T14:00:00+07:00",
-      "minutes_to_kickoff": -94.16,
+      "minutes_to_kickoff": -125.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -477,12 +429,12 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
-      "prior_generated_at": "2026-08-26T15:04:36.747957+07:00"
+      "prior_generated_at": "2026-08-26T15:34:09.301877+07:00"
     },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787733117-0-0-d481be0e48c9a1679d3fa39bda27d4f5",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787734994-0-0-cbbf064b29e96c79915b0d892be326d7",
       "match_key": "kt rolster vs fredit brion|hd marty",
       "display_name": "[15:00 26/08/2026] Kt Rolster vs Fredit Brion [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -503,7 +455,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-26T15:00:00+07:00",
-      "minutes_to_kickoff": -34.16,
+      "minutes_to_kickoff": -65.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -513,7 +465,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787733117-0-0-d481be0e48c9a1679d3fa39bda27d4f5",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787734994-0-0-cbbf064b29e96c79915b0d892be326d7",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/dn1m1eku4j7kqoe/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/ednm926hky17ryo/image/small",
       "blv": null,
@@ -527,7 +479,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787733167-0-0-f797794684f31c79cd38d0dd6732f425",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787734922-0-0-e9bbde3a868786bf654d1e89a67a831d",
       "match_key": "rizal xentro golden vs valenzuela classic|hd alan",
       "display_name": "[16:00 26/08/2026] Rizal Xentro Golden vs Valenzuela Classic [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -548,7 +500,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-26T16:00:00+07:00",
-      "minutes_to_kickoff": 25.84,
+      "minutes_to_kickoff": -5.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -558,7 +510,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787733167-0-0-f797794684f31c79cd38d0dd6732f425",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787734922-0-0-e9bbde3a868786bf654d1e89a67a831d",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/3glrwyt1o72qdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/x7lm73toejkr2wd/image/small",
       "blv": null,
@@ -572,7 +524,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-10.flv?auth_key=3000001787733174-0-0-372ecdae8d1c30c563c05aaf105d32da",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-10.flv?auth_key=3000001787734936-0-0-34ec09460ab49e3bc8392203d729ca8e",
       "match_key": "xinjiang bingchao vs xinjiang jindun|hd polo",
       "display_name": "[16:00 26/08/2026] Xinjiang Bingchao vs Xinjiang Jindun [BLV HD POLO] [FLV]",
       "group": "Xôi Lạc",
@@ -593,7 +545,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-26T16:00:00+07:00",
-      "minutes_to_kickoff": 25.84,
+      "minutes_to_kickoff": -5.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -603,7 +555,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-10.flv?auth_key=3000001787733174-0-0-372ecdae8d1c30c563c05aaf105d32da",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-10.flv?auth_key=3000001787734936-0-0-34ec09460ab49e3bc8392203d729ca8e",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7ho379qdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekh1nvorepz/image/small",
       "blv": null,
@@ -621,7 +573,7 @@
       "match_key": "cerezo osaka vs fc gifu|hd ken",
       "display_name": "[16:30 26/08/2026] Cerezo Osaka vs Fc Gifu [BLV HD KEN] [FLV]",
       "group": "Xôi Lạc",
-      "sport_group": "Cúp Hoàng Đế Nhật Bản",
+      "sport_group": "Xôi Lạc",
       "quality": "HD",
       "kind": "flv",
       "playability": "verified",
@@ -636,9 +588,9 @@
       },
       "derived_pending": false,
       "pending_reason": null,
-      "score": 456,
+      "score": 405,
       "kickoff_iso": "2026-08-26T16:30:00+07:00",
-      "minutes_to_kickoff": 55.84,
+      "minutes_to_kickoff": 24.92,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -652,17 +604,17 @@
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhjdzqg8n/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh0n5emd7o/image/small",
       "blv": null,
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 200; flv=True",
+      "prior_generated_at": "2026-08-26T15:34:09.301877+07:00"
     },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-4.flv?auth_key=3000001787733180-0-0-3dab4b93da53459f0d94b6c96974c104",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-4.flv?auth_key=3000001787735023-0-0-aa7aed5933497809dac2c6155b78d44a",
       "match_key": "machida zelvia vs grulla morioka|hd tom",
       "display_name": "[16:30 26/08/2026] Machida Zelvia vs Grulla Morioka [BLV HD TOM] [FLV]",
       "group": "Xôi Lạc",
@@ -683,7 +635,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-26T16:30:00+07:00",
-      "minutes_to_kickoff": 55.84,
+      "minutes_to_kickoff": 24.92,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -693,7 +645,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-4.flv?auth_key=3000001787733180-0-0-3dab4b93da53459f0d94b6c96974c104",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-4.flv?auth_key=3000001787735023-0-0-aa7aed5933497809dac2c6155b78d44a",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hoe05qo9j/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlh1zv9ryk0/image/small",
       "blv": null,
@@ -707,7 +659,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787733194-0-0-9df9dfde90ccad40e87abfa2e12a84fb",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787735040-0-0-c80f0b148fb17cffeaf60b71515b45a5",
       "match_key": "sanfrecce hiroshima vs okinawa sv|hd johan",
       "display_name": "[16:30 26/08/2026] Sanfrecce Hiroshima vs Okinawa Sv [BLV HD JOHAN] [FLV]",
       "group": "Xôi Lạc",
@@ -728,7 +680,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-26T16:30:00+07:00",
-      "minutes_to_kickoff": 55.84,
+      "minutes_to_kickoff": 24.92,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -738,7 +690,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787733194-0-0-9df9dfde90ccad40e87abfa2e12a84fb",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787735040-0-0-c80f0b148fb17cffeaf60b71515b45a5",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/9dn1m1ghdp1moep/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhywl6repz/image/small",
       "blv": null,
@@ -752,7 +704,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-16.flv?auth_key=3000001787733200-0-0-1716caf9fd5c5059a70de0eb21bfb26f",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-16.flv?auth_key=3000001787735046-0-0-0bf397e600d5cac351131246729669d6",
       "match_key": "tokyo verdy vs thespa gunma|hd rio",
       "display_name": "[16:30 26/08/2026] Tokyo Verdy vs Thespa Gunma [BLV HD RIO] [FLV]",
       "group": "Xôi Lạc",
@@ -773,7 +725,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-26T16:30:00+07:00",
-      "minutes_to_kickoff": 55.84,
+      "minutes_to_kickoff": 24.92,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -783,7 +735,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-16.flv?auth_key=3000001787733200-0-0-1716caf9fd5c5059a70de0eb21bfb26f",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-16.flv?auth_key=3000001787735046-0-0-0bf397e600d5cac351131246729669d6",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7hexlqdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllho62qvy9/image/small",
       "blv": null,
@@ -797,7 +749,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-26.flv?auth_key=3000001787733225-0-0-76a3389d82bba6027481d7a2dbe0b9f6",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-26.flv?auth_key=3000001787735067-0-0-59d0214303703f1835025121a03d4eb3",
       "match_key": "batangas rum masters vs san juan knights|hd step",
       "display_name": "[18:00 26/08/2026] Batangas Rum Masters vs San Juan Knights [BLV HD STEP] [FLV]",
       "group": "Xôi Lạc",
@@ -818,7 +770,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-26T18:00:00+07:00",
-      "minutes_to_kickoff": 145.84,
+      "minutes_to_kickoff": 114.92,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -828,7 +780,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-26.flv?auth_key=3000001787733225-0-0-76a3389d82bba6027481d7a2dbe0b9f6",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-26.flv?auth_key=3000001787735067-0-0-59d0214303703f1835025121a03d4eb3",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/8yomovt706kq0j6/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/l5ergytojglr8k0/image/small",
       "blv": null,
@@ -842,7 +794,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-29.flv?auth_key=3000001787733232-0-0-dca6bbbbd3a8e9fa6e24510b2b9120b3",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-29.flv?auth_key=3000001787735073-0-0-25d187fda6e654e5ce13d5861f8c6eb4",
       "match_key": "maldives vs sri lanka|hd tommy",
       "display_name": "[18:00 26/08/2026] Maldives vs Sri Lanka [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -863,7 +815,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-26T18:00:00+07:00",
-      "minutes_to_kickoff": 145.84,
+      "minutes_to_kickoff": 114.92,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -873,7 +825,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-29.flv?auth_key=3000001787733232-0-0-dca6bbbbd3a8e9fa6e24510b2b9120b3",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-29.flv?auth_key=3000001787735073-0-0-25d187fda6e654e5ce13d5861f8c6eb4",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/9vjxm8xtzl5q6od/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/9k82re8tp33repz/image/small",
       "blv": null,
@@ -887,7 +839,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787733244-0-0-3d48802278fcc3347c51f6f1f456cada",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787735090-0-0-b135b4b4b48a207bcfef63f227581698",
       "match_key": "nu trung quoc vs nu dai loan|hd tyson",
       "display_name": "[18:30 26/08/2026] Nu Trung Quoc vs Nu Dai Loan [BLV HD TYSON] [FLV]",
       "group": "Xôi Lạc",
@@ -908,7 +860,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-26T18:30:00+07:00",
-      "minutes_to_kickoff": 175.84,
+      "minutes_to_kickoff": 144.92,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -918,7 +870,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787733244-0-0-3d48802278fcc3347c51f6f1f456cada",
+      "page_url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787735090-0-0-b135b4b4b48a207bcfef63f227581698",
       "home_logo": "https://imgts.sportpulseapiz.com/volleyball/team/gpxwrxdhkv4myk0/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/volleyball/team/9k82redh702qepz/image/small",
       "blv": null,
@@ -933,8 +885,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "match_key": "machida zelvia vs iwate grulla morioka|bi ao ang xem",
-      "display_name": "[16:30 26/08] Machida Zelvia vs Iwate Grulla Morioka [BLV BÍ ĐAOĐang xem] [M3U8]",
+      "match_key": "preston lions vs south melbourne|sprite ang xem",
+      "display_name": "[16:30 26/08] Preston Lions vs South Melbourne [BLV SPRITEĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -948,12 +900,12 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-26T16:30:00+07:00",
-      "minutes_to_kickoff": 55.84,
+      "minutes_to_kickoff": 24.92,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
       "stream_key_tokens": null,
-      "logo": "https://img.gvapi.cc/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png!w80",
+      "logo": "https://img.gvapi.cc/football/team/6dff2291fe2e822de2e8068a182c4759.jpg!w80",
       "logo_source": null,
       "logo_enriched_from": null,
       "logo_is_fallback": null,
@@ -961,7 +913,7 @@
       "page_url": "https://colatv88xi.cc/video2/output.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "BÍ ĐAOĐang xem",
+      "blv": "SPRITEĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -972,32 +924,8 @@
   ],
   "fresh_input_decisions": [
     {
-      "source": "chuoichien",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-      "display_name": "[14:00 26/08] Indonesia vs Australia - Bóng chuyền nữ Châu Á 2026 [BLV Chuối Tây] [HD M3U8]",
-      "match_key": "indonesia vs australia|chuoi tay",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787733117-0-0-d481be0e48c9a1679d3fa39bda27d4f5",
-      "display_name": "[15:00 26/08/2026] Kt Rolster vs Fredit Brion [BLV HD MARTY] [FLV]",
-      "match_key": "kt rolster vs fredit brion|hd marty",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787733167-0-0-f797794684f31c79cd38d0dd6732f425",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787734922-0-0-e9bbde3a868786bf654d1e89a67a831d",
       "display_name": "[16:00 26/08/2026] Rizal Xentro Golden vs Valenzuela Classic [BLV HD ALAN] [FLV]",
       "match_key": "rizal xentro golden vs valenzuela classic|hd alan",
       "quality": "HD",
@@ -1009,7 +937,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-10.flv?auth_key=3000001787733174-0-0-372ecdae8d1c30c563c05aaf105d32da",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-10.flv?auth_key=3000001787734936-0-0-34ec09460ab49e3bc8392203d729ca8e",
       "display_name": "[16:00 26/08/2026] Xinjiang Bingchao vs Xinjiang Jindun [BLV HD POLO] [FLV]",
       "match_key": "xinjiang bingchao vs xinjiang jindun|hd polo",
       "quality": "HD",
@@ -1021,9 +949,9 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-18.flv?auth_key=3000001787733175-0-0-d6a6f73dc2426ebe316676f3cfac861f",
-      "display_name": "[16:30 26/08/2026] Cerezo Osaka vs Fc Gifu [BLV HD KEN] [FLV]",
-      "match_key": "cerezo osaka vs fc gifu|hd ken",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787734994-0-0-cbbf064b29e96c79915b0d892be326d7",
+      "display_name": "[15:00 26/08/2026] Kt Rolster vs Fredit Brion [BLV HD MARTY] [FLV]",
+      "match_key": "kt rolster vs fredit brion|hd marty",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1033,7 +961,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-4.flv?auth_key=3000001787733180-0-0-3dab4b93da53459f0d94b6c96974c104",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-4.flv?auth_key=3000001787735023-0-0-aa7aed5933497809dac2c6155b78d44a",
       "display_name": "[16:30 26/08/2026] Machida Zelvia vs Grulla Morioka [BLV HD TOM] [FLV]",
       "match_key": "machida zelvia vs grulla morioka|hd tom",
       "quality": "HD",
@@ -1045,7 +973,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787733194-0-0-9df9dfde90ccad40e87abfa2e12a84fb",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787735040-0-0-c80f0b148fb17cffeaf60b71515b45a5",
       "display_name": "[16:30 26/08/2026] Sanfrecce Hiroshima vs Okinawa Sv [BLV HD JOHAN] [FLV]",
       "match_key": "sanfrecce hiroshima vs okinawa sv|hd johan",
       "quality": "HD",
@@ -1057,7 +985,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-16.flv?auth_key=3000001787733200-0-0-1716caf9fd5c5059a70de0eb21bfb26f",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-16.flv?auth_key=3000001787735046-0-0-0bf397e600d5cac351131246729669d6",
       "display_name": "[16:30 26/08/2026] Tokyo Verdy vs Thespa Gunma [BLV HD RIO] [FLV]",
       "match_key": "tokyo verdy vs thespa gunma|hd rio",
       "quality": "HD",
@@ -1069,7 +997,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-26.flv?auth_key=3000001787733225-0-0-76a3389d82bba6027481d7a2dbe0b9f6",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-26.flv?auth_key=3000001787735067-0-0-59d0214303703f1835025121a03d4eb3",
       "display_name": "[18:00 26/08/2026] Batangas Rum Masters vs San Juan Knights [BLV HD STEP] [FLV]",
       "match_key": "batangas rum masters vs san juan knights|hd step",
       "quality": "HD",
@@ -1081,7 +1009,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-29.flv?auth_key=3000001787733232-0-0-dca6bbbbd3a8e9fa6e24510b2b9120b3",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-29.flv?auth_key=3000001787735073-0-0-25d187fda6e654e5ce13d5861f8c6eb4",
       "display_name": "[18:00 26/08/2026] Maldives vs Sri Lanka [BLV HD TOMMY] [FLV]",
       "match_key": "maldives vs sri lanka|hd tommy",
       "quality": "HD",
@@ -1093,7 +1021,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787733244-0-0-3d48802278fcc3347c51f6f1f456cada",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787735090-0-0-b135b4b4b48a207bcfef63f227581698",
       "display_name": "[18:30 26/08/2026] Nu Trung Quoc vs Nu Dai Loan [BLV HD TYSON] [FLV]",
       "match_key": "nu trung quoc vs nu dai loan|hd tyson",
       "quality": "HD",
@@ -1105,9 +1033,21 @@
     },
     {
       "source": "colatv",
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "url": "https://live05.meung.app/live/99121525.m3u8",
       "display_name": "[16:30 26/08] Machida Zelvia vs Iwate Grulla Morioka [BLV BÍ ĐAOĐang xem] [M3U8]",
       "match_key": "machida zelvia vs iwate grulla morioka|bi ao ang xem",
+      "quality": "UNKNOWN",
+      "playability": "upcoming-pending",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "dropped-explicitly",
+      "reason": "not-verified-or-not-upcoming"
+    },
+    {
+      "source": "colatv",
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "display_name": "[16:30 26/08] Preston Lions vs South Melbourne [BLV SPRITEĐang xem] [M3U8]",
+      "match_key": "preston lions vs south melbourne|sprite ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1119,9 +1059,9 @@
   "fresh_preservation_ok": true,
   "dropped": [
     {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/180d2e23d042.m3u8",
+      "url": "https://live05.meung.app/live/99121525.m3u8",
       "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
+      "source": "colatv"
     },
     {
       "url": "http://127.0.0.1:9/__phaohoa_metadata__/728381.m3u8",
@@ -1134,17 +1074,7 @@
       "source": "phaohoa"
     },
     {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/162812.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
       "url": "http://127.0.0.1:9/__phaohoa_metadata__/9a3fe3d57f21.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "phaohoa"
-    },
-    {
-      "url": "http://127.0.0.1:9/__phaohoa_metadata__/a9138ac66727.m3u8",
       "reason": "not-verified-or-not-upcoming",
       "source": "phaohoa"
     },
@@ -1154,52 +1084,73 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787731319-0-0-afb26135f8116124aa229f3fc8f17708",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "kt rolster vs fredit brion|hd marty"
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/162813.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787731403-0-0-a46b748ecd98e6fecbfe160c8510ba34",
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/162812.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "http://127.0.0.1:9/__phaohoa_metadata__/fdc890d987c8.m3u8",
+      "reason": "not-verified-or-not-upcoming",
+      "source": "phaohoa"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-25.flv?auth_key=3000001787733167-0-0-f797794684f31c79cd38d0dd6732f425",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "rizal xentro golden vs valenzuela classic|hd alan"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-10.flv?auth_key=3000001787731415-0-0-69b7d7f612e1f286dccb3d8c68517952",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-10.flv?auth_key=3000001787733174-0-0-372ecdae8d1c30c563c05aaf105d32da",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "xinjiang bingchao vs xinjiang jindun|hd polo"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-4.flv?auth_key=3000001787731416-0-0-9fff75cacaee519dc511cff9b1863fbc",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-30.flv?auth_key=3000001787733117-0-0-d481be0e48c9a1679d3fa39bda27d4f5",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "kt rolster vs fredit brion|hd marty"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-4.flv?auth_key=3000001787733180-0-0-3dab4b93da53459f0d94b6c96974c104",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "machida zelvia vs grulla morioka|hd tom"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787731436-0-0-0bb2feaaf282d56c8e581a20a2819b30",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-12.flv?auth_key=3000001787733194-0-0-9df9dfde90ccad40e87abfa2e12a84fb",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "sanfrecce hiroshima vs okinawa sv|hd johan"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-16.flv?auth_key=3000001787731436-0-0-5a009b26d1c32cda326304da1c69f518",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-16.flv?auth_key=3000001787733200-0-0-1716caf9fd5c5059a70de0eb21bfb26f",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "tokyo verdy vs thespa gunma|hd rio"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-26.flv?auth_key=3000001787731462-0-0-8c9406c3dd4df53a84016258001b32ed",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-26.flv?auth_key=3000001787733225-0-0-76a3389d82bba6027481d7a2dbe0b9f6",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "batangas rum masters vs san juan knights|hd step"
     },
     {
-      "url": "https://push2.m3u8delivery.com/livecdn/channel-29.flv?auth_key=3000001787731469-0-0-8e98f690a9ebd01559abc3ec2d56fbb6",
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-29.flv?auth_key=3000001787733232-0-0-dca6bbbbd3a8e9fa6e24510b2b9120b3",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "maldives vs sri lanka|hd tommy"
+    },
+    {
+      "url": "https://push2.m3u8delivery.com/livecdn/channel-33.flv?auth_key=3000001787733244-0-0-3d48802278fcc3347c51f6f1f456cada",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "nu trung quoc vs nu dai loan|hd tyson"
     }
   ],
   "outputs_written": true
