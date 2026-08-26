@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-26T10:32:38.952126+07:00",
+  "updated_at": "2026-08-26T11:02:42.458950+07:00",
   "matches": {
     "e9a8be850222": {
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-indonesia",
@@ -467,15 +467,25 @@
       "url": "https://phaohoa1.live/truc-tiep/han-quoc-vs-hong-kong",
       "match_name": "Hàn Quốc vs Hong Kong",
       "kickoff_iso": "2026-08-26T09:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-26T10:32:38.952024+07:00",
-      "next_scan_at": "2026-08-26T10:37:38.952024+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
+      "minutes_to_kickoff": -122,
+      "last_scan_at": "2026-08-26T11:02:42.458796+07:00",
+      "next_scan_at": "2026-08-26T11:07:42.458796+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "180d2e23d042": {
+      "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-uc",
+      "match_name": "26-08 Vô Địch Châu Á Indonesia VS Úc Chim Nhỏ",
+      "kickoff_iso": "2026-08-26T14:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-26T11:02:42.458796+07:00",
+      "next_scan_at": "2026-08-26T11:47:42.458796+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
