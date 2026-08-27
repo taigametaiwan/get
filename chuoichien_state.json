@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-28T05:31:42.720090+07:00",
+  "updated_at": "2026-08-28T06:01:43.047216+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1779,37 +1779,38 @@
     },
     "1549147": {
       "url": "https://live04.chuoichientv.me/live/1549147/estudiantes-lp-vs-barracas-central",
-      "match_name": "estudiantes lp vs barracas central",
+      "match_name": "Estudiantes L.P. vs Barracas Central - Copa Argentina",
       "kickoff_iso": "2026-08-28T05:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-28T05:31:42.720010+07:00",
-      "next_scan_at": "2026-08-28T05:36:42.720010+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-28T06:01:43.047124+07:00",
+      "next_scan_at": "2026-08-28T06:06:43.047124+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1549148": {
       "url": "https://live04.chuoichientv.me/live/1549148/platense-vs-instituto-cordoba",
-      "match_name": "platense vs instituto cordoba",
+      "match_name": "Platense vs Instituto Cordoba - Copa Argentina",
       "kickoff_iso": "2026-08-28T07:15:00+07:00",
-      "minutes_to_kickoff": 104,
-      "last_scan_at": "2026-08-28T05:31:42.720010+07:00",
-      "next_scan_at": "2026-08-28T05:51:42.720010+07:00",
+      "minutes_to_kickoff": 74,
+      "last_scan_at": "2026-08-28T06:01:43.047124+07:00",
+      "next_scan_at": "2026-08-28T06:21:43.047124+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1548374": {
       "url": "https://live04.chuoichientv.me/live/1548374/mixco-vs-alianza-fc",
       "match_name": "mixco vs alianza fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-28T05:31:42.720010+07:00",
-      "next_scan_at": "2026-08-28T05:41:42.720010+07:00",
+      "last_scan_at": "2026-08-28T06:01:43.047124+07:00",
+      "next_scan_at": "2026-08-28T06:11:43.047124+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
