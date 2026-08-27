@@ -1,20 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-27T12:32:02.559211+07:00",
+  "updated_at": "2026-08-27T13:02:12.378963+07:00",
   "matches": {
-    "6d24cf4bde1a": {
-      "url": "https://phaohoa1.live/truc-tiep/iran-vs-iraq",
-      "match_name": "Iran vs Iraq",
-      "kickoff_iso": "2026-08-25T13:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-25T14:32:12.852345+07:00",
-      "next_scan_at": "2026-08-25T14:37:12.852345+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "ef477f40489f": {
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-brazil",
       "match_name": "Nhật Bản vs Brazil",
@@ -521,12 +509,14 @@
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-han-quoc",
       "match_name": "Thái Lan vs Hàn Quốc",
       "kickoff_iso": "2026-08-27T13:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-27T12:32:02.559129+07:00",
-      "next_scan_at": "2026-08-27T12:42:02.559129+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-27T13:02:12.378863+07:00",
+      "next_scan_at": "2026-08-27T13:07:12.378863+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
