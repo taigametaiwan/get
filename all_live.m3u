@@ -1,17 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-999850-1" tvg-name="[13:00 27/08] Thailand vs South Korea - Bóng chuyền nữ Châu Á 2026 [BLV Chuối Kem]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png",[13:00 27/08] Thailand vs South Korea - Bóng chuyền nữ Châu Á 2026 [BLV Chuối Kem] [FHD M3U8]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-thai-lan-vs-nu-han-quoc-luc-1300-ngay-27-08-2026-s1-2" tvg-name="[13:00 27/08/2026] Nu Thai Lan vs Nu Han Quoc [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/kdj2rydhz29r1zp/image/small",[13:00 27/08/2026] Nu Thai Lan vs Nu Han Quoc [BLV HD TYSON] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.livecarriercdn.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false","Origin":"https://xlz.livecarriercdn.com"}
-https://live2.cachefluxlive.com/livecdn/channel-33.flv?auth_key=3000001787815914-0-0-9735314d747d753fb03c76f42eb32da6
 #EXTINF:-1 tvg-id="xoilac-tiep-quezon-toda-aksyon-vs-abra-weavers-luc-1400-ngay-27-08-2026-s1-2" tvg-name="[14:00 27/08/2026] Quezon Toda Aksyon vs Abra Weavers [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/3glrwyt1d16qdyj/image/small",[14:00 27/08/2026] Quezon Toda Aksyon vs Abra Weavers [BLV HD STEP] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-26/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livecarriercdn.com
@@ -25,25 +12,32 @@ https://live2.cachefluxlive.com/livecdn/channel-26.flv?auth_key=3000001787817726
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-30/off-tvc?is_off_add=false","Origin":"https://xlz.livecarriercdn.com"}
-https://live2.cachefluxlive.com/livecdn/channel-30.flv?auth_key=3000001787817685-0-0-5fc0afa65baee6b6c7cb9c73a772328f
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-sem-phoenix-vs-cairns-taipans-luc-1600-ngay-27-08-2026-s1-3" tvg-name="[16:00 27/08/2026] Sem Phoenix vs Cairns Taipans [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/2y8m4ptj8wgml07/image/small",[16:00 27/08/2026] Sem Phoenix vs Cairns Taipans [BLV HD ALAN] [FLV]
+https://live2.cachefluxlive.com/livecdn/channel-30.flv?auth_key=3000001787819493-0-0-23fa0874493c49461b659b483a6b1e25
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-sem-phoenix-vs-cairns-taipans-luc-1600-ngay-27-08-2026-s1-2" tvg-name="[16:00 27/08/2026] Sem Phoenix vs Cairns Taipans [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/2y8m4ptj8wgml07/image/small",[16:00 27/08/2026] Sem Phoenix vs Cairns Taipans [BLV HD ALAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livecarriercdn.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false","Origin":"https://xlz.livecarriercdn.com"}
-https://live2.cachefluxlive.com/livecdn/channel-25.flv?auth_key=3000001787817780-0-0-f1ac4f989a9c2ff367557a0e6e60cc7c
-#EXTINF:-1 tvg-id="xoilac-c-tiep-dinamo-barnaul-vs-fc-irtysh-omsk-luc-1730-ngay-27-08-2026-s1-4" tvg-name="[17:30 27/08/2026] Dinamo Barnaul vs Fc Irtysh Omsk [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whk5enryox/image/small",[17:30 27/08/2026] Dinamo Barnaul vs Fc Irtysh Omsk [BLV HD FELIX] [FLV]
+https://live2.cachefluxlive.com/livecdn/channel-25.flv?auth_key=3000001787819570-0-0-27908cae8e84f91ee3db20b3ca8e2d27
+#EXTINF:-1 tvg-id="xoilac-c-tiep-dinamo-barnaul-vs-fc-irtysh-omsk-luc-1730-ngay-27-08-2026-s1-3" tvg-name="[17:30 27/08/2026] Dinamo Barnaul vs Fc Irtysh Omsk [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whk5enryox/image/small",[17:30 27/08/2026] Dinamo Barnaul vs Fc Irtysh Omsk [BLV HD FELIX] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-24/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livecarriercdn.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-24/off-tvc?is_off_add=false","Origin":"https://xlz.livecarriercdn.com"}
-https://live2.cachefluxlive.com/livecdn/channel-24.flv?auth_key=3000001787817823-0-0-fc6195192b4cb1a31ab027b81bed45c8
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-nhat-ban-vs-nu-dai-loan-luc-1730-ngay-27-08-2026-s1-5" tvg-name="[17:30 27/08/2026] Nu Nhat Ban vs Nu Dai Loan [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/vl7oqddh51xq510/image/small",[17:30 27/08/2026] Nu Nhat Ban vs Nu Dai Loan [BLV HD TYSON] [FLV]
+https://live2.cachefluxlive.com/livecdn/channel-24.flv?auth_key=3000001787819610-0-0-47f1cd1d29d5e82794d2457cc268e7b0
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-nhat-ban-vs-nu-dai-loan-luc-1730-ngay-27-08-2026-s1-4" tvg-name="[17:30 27/08/2026] Nu Nhat Ban vs Nu Dai Loan [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/vl7oqddh51xq510/image/small",[17:30 27/08/2026] Nu Nhat Ban vs Nu Dai Loan [BLV HD TYSON] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.livecarriercdn.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false","Origin":"https://xlz.livecarriercdn.com"}
-https://live2.cachefluxlive.com/livecdn/channel-33.flv?auth_key=3000001787817828-0-0-e86adffa3b9acb5ff4dc97de95ab1d05
+https://live2.cachefluxlive.com/livecdn/channel-33.flv?auth_key=3000001787819610-0-0-7a2152f0491e83772f36de2d06da7108
+#EXTINF:-1 tvg-id="xoilac--mobei-miners-vs-shaanxi-united-soaring-luc-1830-ngay-27-08-2026-s1-5" tvg-name="[18:30 27/08/2026] Yulin Mobei Miners vs Shaanxi United Soaring [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/965mkyhz174r1ge/image/small",[18:30 27/08/2026] Yulin Mobei Miners vs Shaanxi United Soaring [BLV HD ZANE] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-22/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.livecarriercdn.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.livecarriercdn.com/ajax/chanel/type/5/link/channel-22/off-tvc?is_off_add=false","Origin":"https://xlz.livecarriercdn.com"}
+https://live2.cachefluxlive.com/livecdn/channel-22.flv?auth_key=3000001787819660-0-0-a9d5f437877b3709659513b171a7b0b8
