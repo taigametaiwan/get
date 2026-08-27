@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-27T19:32:58.087815+07:00",
+  "updated_at": "2026-08-27T20:02:57.538287+07:00",
   "matches": {
-    "0bdee6a0f127": {
-      "url": "https://phaohoa1.live/truc-tiep/hungary-vs-duc",
-      "match_name": "Hungary vs Đức",
-      "kickoff_iso": "2026-08-25T20:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-25T21:32:54.696621+07:00",
-      "next_scan_at": "2026-08-25T21:37:54.696621+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "b065fb70bc0f": {
       "url": "https://phaohoa1.live/truc-tiep/italy-vs-slovakia",
       "match_name": "Italy vs Slovakia",
@@ -495,9 +481,9 @@
       "url": "https://phaohoa1.live/truc-tiep/ha-lan-vs-bi",
       "match_name": "Hà Lan vs Bỉ",
       "kickoff_iso": "2026-08-27T18:30:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-27T19:32:58.087645+07:00",
-      "next_scan_at": "2026-08-27T19:37:58.087645+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-27T20:02:57.538093+07:00",
+      "next_scan_at": "2026-08-27T20:07:57.538093+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -507,11 +493,11 @@
     },
     "0d48809c439a": {
       "url": "https://phaohoa1.live/truc-tiep/ukraine-vs-serbia",
-      "match_name": "27-08 Vô Địch Châu Âu Ukraine VS Serbia Tày",
-      "kickoff_iso": "2026-08-27T21:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-27T19:03:02.497722+07:00",
-      "next_scan_at": "2026-08-27T19:23:02.497722+07:00",
+      "match_name": "27-08 UEFA Europa League Ararat-Armenia VS Univ. Craiova Tiểu Mây",
+      "kickoff_iso": "2026-08-27T23:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-27T20:02:57.538093+07:00",
+      "next_scan_at": "2026-08-27T20:47:57.538093+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -519,14 +505,16 @@
     },
     "04b9cfd9c79f": {
       "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-duc",
-      "match_name": "27-08 Vô Địch Châu Âu Ba Lan VS Đức Chim Nhỏ",
+      "match_name": "Ba Lan vs Đức",
       "kickoff_iso": "2026-08-27T20:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-27T19:32:58.087645+07:00",
-      "next_scan_at": "2026-08-27T19:42:58.087645+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-27T20:02:57.538093+07:00",
+      "next_scan_at": "2026-08-27T20:07:57.538093+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     },
     "845099": {
@@ -536,6 +524,18 @@
       "minutes_to_kickoff": 148,
       "last_scan_at": "2026-08-27T19:32:58.087645+07:00",
       "next_scan_at": "2026-08-27T20:17:58.087645+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "845098": {
+      "url": "https://phaohoa1.live/truc-tiep/jablonec-vs-rangers-27-08-2026-845098",
+      "match_name": "27-08 UEFA Conference League Jablonec VS Rangers Pháo Thủ",
+      "kickoff_iso": "2026-08-27T23:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-27T20:02:57.538093+07:00",
+      "next_scan_at": "2026-08-27T20:47:57.538093+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
