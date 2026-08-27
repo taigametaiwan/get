@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-27T22:33:52.626233+07:00",
+  "updated_at": "2026-08-27T23:04:30.255103+07:00",
   "matches": {
     "736689": {
       "url": "https://phaohoa1.live/truc-tiep/lok-tashkent-vs-bunyodkor-25-08-2026-736689",
@@ -14,20 +14,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
-    },
-    "4e7f38350a36": {
-      "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-slovenia",
-      "match_name": "Ba Lan vs Slovenia",
-      "kickoff_iso": "2026-08-25T23:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-26T00:34:15.177653+07:00",
-      "next_scan_at": "2026-08-26T00:39:15.177653+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "841030": {
       "url": "https://phaohoa1.live/truc-tiep/sabah-baku-vs-h-beer-sheva-25-08-2026-841030",
@@ -495,9 +481,9 @@
       "url": "https://phaohoa1.live/truc-tiep/kups-vs-shamrock-rovers-27-08-2026-845099",
       "match_name": "Kups vs Shamrock Rovers",
       "kickoff_iso": "2026-08-27T22:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-27T22:33:52.625810+07:00",
-      "next_scan_at": "2026-08-27T22:38:52.625810+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-08-27T23:04:30.254767+07:00",
+      "next_scan_at": "2026-08-27T23:09:30.254767+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -507,63 +493,69 @@
     },
     "845098": {
       "url": "https://phaohoa1.live/truc-tiep/jablonec-vs-rangers-27-08-2026-845098",
-      "match_name": "27-08 UEFA Conference League Jablonec VS Rangers Pháo Thủ",
+      "match_name": "27-08 UEFA Conference League Monaco VS Gornik Zabrze Chim Nhỏ",
       "kickoff_iso": "2026-08-27T23:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-27T22:33:52.625810+07:00",
-      "next_scan_at": "2026-08-27T22:43:52.625810+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-08-27T23:04:30.254767+07:00",
+      "next_scan_at": "2026-08-27T23:09:30.254767+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     },
     "844768": {
       "url": "https://phaohoa1.live/truc-tiep/ararat-armenia-vs-univ-craiova-27-08-2026-844768",
-      "match_name": "27-08 UEFA Champions League Bốc Thăm VS Bốc Thăm Người Lửa",
+      "match_name": "Ararat-Armenia vs Univ. Craiova",
       "kickoff_iso": "2026-08-27T23:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-27T22:33:52.625810+07:00",
-      "next_scan_at": "2026-08-27T22:43:52.625810+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-08-27T23:04:30.254767+07:00",
+      "next_scan_at": "2026-08-27T23:09:30.254767+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     },
     "ea7b1bd9114e": {
       "url": "https://phaohoa1.live/truc-tiep/boc-tham-vs-boc-tham",
-      "match_name": "28-08 La Liga Celta Vigo VS Osasuna Tiểu Mây",
-      "kickoff_iso": "2026-08-28T01:30:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-27T22:33:52.625810+07:00",
-      "next_scan_at": "2026-08-27T23:18:52.625810+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "match_name": "Bốc Thăm vs Bốc Thăm",
+      "kickoff_iso": "2026-08-27T23:00:00+07:00",
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-08-27T23:04:30.254767+07:00",
+      "next_scan_at": "2026-08-27T23:09:30.254767+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "9ca48fc8ac10": {
       "url": "https://phaohoa1.live/truc-tiep/thuy-dien-vs-phap",
       "match_name": "28-08 Vô Địch Châu Âu Thuỵ Điển VS Pháp Tày",
       "kickoff_iso": "2026-08-28T00:00:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-27T21:03:09.183546+07:00",
-      "next_scan_at": "2026-08-27T21:48:09.183546+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
-    },
-    "844925": {
-      "url": "https://phaohoa1.live/truc-tiep/monaco-vs-gornik-zabrze-27-08-2026-844925",
-      "match_name": "27-08 UEFA Conference League Monaco VS Gornik Zabrze Chim Nhỏ",
-      "kickoff_iso": "2026-08-27T23:45:00+07:00",
-      "minutes_to_kickoff": 71,
-      "last_scan_at": "2026-08-27T22:33:52.625810+07:00",
-      "next_scan_at": "2026-08-27T22:53:52.625810+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-08-27T23:04:30.254767+07:00",
+      "next_scan_at": "2026-08-27T23:24:30.254767+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "844925": {
+      "url": "https://phaohoa1.live/truc-tiep/monaco-vs-gornik-zabrze-27-08-2026-844925",
+      "match_name": "28-08 League Cup Chelsea VS Luton Kevin",
+      "kickoff_iso": "2026-08-28T01:30:00+07:00",
+      "minutes_to_kickoff": 147,
+      "last_scan_at": "2026-08-27T23:04:30.254767+07:00",
+      "next_scan_at": "2026-08-27T23:49:30.254767+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     },
     "845020": {
       "url": "https://phaohoa1.live/truc-tiep/aarhus-vs-benfica-28-08-2026-845020",
@@ -572,6 +564,18 @@
       "minutes_to_kickoff": 178,
       "last_scan_at": "2026-08-27T22:03:47.425040+07:00",
       "next_scan_at": "2026-08-27T22:48:47.425040+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "798810": {
+      "url": "https://phaohoa1.live/truc-tiep/celta-vigo-vs-osasuna-17-08-2026-798810",
+      "match_name": "28-08 La Liga Celta Vigo VS Osasuna Tiểu Mây",
+      "kickoff_iso": "2026-08-28T01:30:00+07:00",
+      "minutes_to_kickoff": 147,
+      "last_scan_at": "2026-08-27T23:04:30.254767+07:00",
+      "next_scan_at": "2026-08-27T23:49:30.254767+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
