@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-27T13:32:10.663002+07:00",
+  "updated_at": "2026-08-27T14:32:21.002000+07:00",
   "matches": {
     "ef477f40489f": {
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-brazil",
@@ -507,17 +507,27 @@
     },
     "f011ffa82fb5": {
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-vs-han-quoc",
-      "match_name": "Thái Lan vs Hàn Quốc",
+      "match_name": "Thai Lan vs Han Quoc",
       "kickoff_iso": "2026-08-27T13:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-27T13:32:10.662920+07:00",
-      "next_scan_at": "2026-08-27T13:37:10.662920+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-27T14:32:20.999814+07:00",
+      "next_scan_at": "2026-08-27T14:37:20.999814+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "49465623955d": {
+      "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-dai-loan",
+      "match_name": "27-08 Vô Địch Châu Á Nhật Bản VS Đài Loan KaKa",
+      "kickoff_iso": "2026-08-27T17:30:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-27T14:32:20.999814+07:00",
+      "next_scan_at": "2026-08-27T15:17:20.999814+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
