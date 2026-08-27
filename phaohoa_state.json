@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-27T16:32:10.295948+07:00",
+  "updated_at": "2026-08-27T17:02:22.068687+07:00",
   "matches": {
     "9e2a1ecd9a0e": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-nhat-ban",
@@ -507,9 +507,9 @@
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-dai-loan",
       "match_name": "27-08 Vô Địch Châu Á Nhật Bản VS Đài Loan KaKa",
       "kickoff_iso": "2026-08-27T17:30:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-27T16:32:10.295800+07:00",
-      "next_scan_at": "2026-08-27T16:52:10.295800+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-27T17:02:22.068549+07:00",
+      "next_scan_at": "2026-08-27T17:12:22.068549+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -519,13 +519,13 @@
       "url": "https://phaohoa1.live/truc-tiep/ha-lan-vs-bi",
       "match_name": "27-08 Vô Địch Châu Âu Hà Lan VS Bỉ Tày",
       "kickoff_iso": "2026-08-27T18:30:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-27T16:32:10.295800+07:00",
-      "next_scan_at": "2026-08-27T16:52:10.295800+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-27T17:02:22.068549+07:00",
+      "next_scan_at": "2026-08-27T17:22:22.068549+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
