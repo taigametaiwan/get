@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-28T04:33:56.323605+07:00",
+  "generated_at": "2026-08-28T05:03:54.676070+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -78,14 +78,14 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 66,
-      "playlist_blocks": 9,
+      "debug_rows": 64,
+      "playlist_blocks": 10,
       "catalog_placeholders": 0,
-      "metadata_references": 66,
+      "metadata_references": 64,
       "included": true,
-      "fresh_stream_blocks": 9,
-      "fresh_verified_blocks": 9,
-      "fresh_selected": 9,
+      "fresh_stream_blocks": 10,
+      "fresh_verified_blocks": 10,
+      "fresh_selected": 10,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -104,15 +104,14 @@
       "metadata_references": 100,
       "included": true,
       "fresh_stream_blocks": 2,
-      "fresh_verified_blocks": 1,
-      "fresh_selected": 1,
-      "fresh_explicitly_dropped": 1,
+      "fresh_verified_blocks": 2,
+      "fresh_selected": 2,
+      "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
       "unresolved": 0,
       "integrity_ok": true,
-      "fresh_unverified_blocks": 1,
-      "integrity_warning": "fresh-unverified-streams-explicitly-decided"
+      "fresh_unverified_blocks": 0
     },
     {
       "key": "phaohoa",
@@ -135,109 +134,40 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 20,
-  "metadata_reference_count": 176,
-  "last_good_recovered_count": 2,
+  "input_candidates": 28,
+  "metadata_reference_count": 174,
+  "last_good_recovered_count": 9,
   "last_good_suppressed_by_fresh_count": 1,
   "last_good_audit": [
     {
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "chuoichien",
-      "kickoff_iso": "2026-08-28T02:00:00+07:00",
-      "minutes_to_kickoff": -153.94,
-      "filtered_before_probe": true
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-13.flv?auth_key=3000001787866366-0-0-5cc3ba1a11b6a39d036f789d89ed681d",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
     },
     {
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "chuoichien",
-      "kickoff_iso": "2026-08-28T02:00:00+07:00",
-      "minutes_to_kickoff": -153.94,
-      "filtered_before_probe": true
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-8.flv?auth_key=3000001787866391-0-0-19fec95880ac259e5242190b18bb79dc",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
     },
     {
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "chuoichien",
-      "kickoff_iso": "2026-08-28T02:00:00+07:00",
-      "minutes_to_kickoff": -153.94,
-      "filtered_before_probe": true
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-26.flv?auth_key=3000001787866375-0-0-ce437517625c4b23305442e7444fc581",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
     },
     {
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-34.flv?auth_key=3000001787860917-0-0-3fe562be9b5c66d9778c8d363f494891",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-28T01:45:00+07:00",
-      "minutes_to_kickoff": -168.94,
-      "filtered_before_probe": true
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787866406-0-0-2fd1dee33d424526c1b32531e03c7d45",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
     },
     {
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-6.flv?auth_key=3000001787861048-0-0-ddce10846c58d4082a3c09c1b596a165",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-28T02:00:00+07:00",
-      "minutes_to_kickoff": -153.94,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-12.flv?auth_key=3000001787860884-0-0-768013787464c2d7facd07629b194974",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-28T02:00:00+07:00",
-      "minutes_to_kickoff": -153.94,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-4.flv?auth_key=3000001787861051-0-0-bf843a445c87d4800e957254037e34ad",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-28T02:00:00+07:00",
-      "minutes_to_kickoff": -153.94,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live05.meung.app/live/33982309.m3u8",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "colatv",
-      "kickoff_iso": "2026-08-28T02:00:00+07:00",
-      "minutes_to_kickoff": -153.94,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live05.meung.app/live/97885009.m3u8",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "colatv",
-      "kickoff_iso": "2026-08-28T02:00:00+07:00",
-      "minutes_to_kickoff": -153.94,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live05.meung.app/live/49572724.m3u8",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "colatv",
-      "kickoff_iso": "2026-08-28T02:00:00+07:00",
-      "minutes_to_kickoff": -153.94,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "phaohoa",
-      "kickoff_iso": "2026-08-28T02:00:00+07:00",
-      "minutes_to_kickoff": -153.94,
-      "filtered_before_probe": true
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787866383-0-0-f11952fb25c0db7b0ebe54472cae47fd",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
     },
     {
       "url": "https://colatv88xi.cc/video2/output.m3u8",
@@ -246,13 +176,25 @@
       "source": "colatv"
     },
     {
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-26.flv?auth_key=3000001787861078-0-0-a31692b1540c7b02b20be71170475abb",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-25.flv?auth_key=3000001787866404-0-0-b7bb29ee85e33506edf05bf250dd9d53",
       "kept": true,
-      "reason": "HTTP 200; flv=True",
+      "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787861083-0-0-74b802741595856baf512a9eac6e7d18",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-29.flv?auth_key=3000001787866398-0-0-ad6e181f655da588ea49bbf90f47c860",
+      "kept": true,
+      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-10.flv?auth_key=3000001787866398-0-0-7b43af94aec93067e72541d6f153a85f",
+      "kept": true,
+      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-21.flv?auth_key=3000001787866419-0-0-61f3bfa57882c04fdd65193423d9870c",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
@@ -264,8 +206,8 @@
       "source": "colatv"
     }
   ],
-  "selected_count": 10,
-  "dropped_count": 10,
+  "selected_count": 12,
+  "dropped_count": 16,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -280,7 +222,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-13.flv?auth_key=3000001787866366-0-0-5cc3ba1a11b6a39d036f789d89ed681d",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-13.flv?auth_key=3000001787868076-0-0-78343b026c5478b21b7b7a25d29b3b5a",
       "match_key": "estudiantes lp vs ca barracas central|hd xmen",
       "display_name": "[05:00 28/08/2026] Estudiantes Lp vs Ca Barracas Central [BLV HD XMEN] [FLV]",
       "group": "Xôi Lạc",
@@ -301,7 +243,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-28T05:00:00+07:00",
-      "minutes_to_kickoff": 26.06,
+      "minutes_to_kickoff": -3.91,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -311,7 +253,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-13.flv?auth_key=3000001787866366-0-0-5cc3ba1a11b6a39d036f789d89ed681d",
+      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-13.flv?auth_key=3000001787868076-0-0-78343b026c5478b21b7b7a25d29b3b5a",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7pheg8m2wd/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghgj2nr6od/image/small",
       "blv": null,
@@ -325,7 +267,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-26.flv?auth_key=3000001787866375-0-0-ce437517625c4b23305442e7444fc581",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-26.flv?auth_key=3000001787868160-0-0-e8fd2a494cafcf1a7837ffdc29dfaaa0",
       "match_key": "argentina vs puerto rico|hd step",
       "display_name": "[05:10 28/08/2026] Argentina vs Puerto Rico [BLV HD STEP] [FLV]",
       "group": "Xôi Lạc",
@@ -346,7 +288,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-28T05:10:00+07:00",
-      "minutes_to_kickoff": 36.06,
+      "minutes_to_kickoff": 6.09,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -356,7 +298,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-26.flv?auth_key=3000001787866375-0-0-ce437517625c4b23305442e7444fc581",
+      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-26.flv?auth_key=3000001787868160-0-0-e8fd2a494cafcf1a7837ffdc29dfaaa0",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/kn54ql7t6z2rvy9/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/9vjxm8xt63nq6od/image/small",
       "blv": null,
@@ -370,7 +312,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787866383-0-0-f11952fb25c0db7b0ebe54472cae47fd",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787868160-0-0-745be227153dd9c53d31f1b98b4c9ee8",
       "match_key": "arthur fery vs aleksandar kovacevic|hd vic",
       "display_name": "USA Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/965mk4f3j64r1ge/image/small\",[05:30 28/08/2026] Arthur Fery vs Aleksandar Kovacevic [BLV HD VIC] [FLV]",
       "group": "Xôi Lạc",
@@ -391,7 +333,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-28T05:30:00+07:00",
-      "minutes_to_kickoff": 56.06,
+      "minutes_to_kickoff": 26.09,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -401,7 +343,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787866383-0-0-f11952fb25c0db7b0ebe54472cae47fd",
+      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787868160-0-0-745be227153dd9c53d31f1b98b4c9ee8",
       "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/965mk4f3j64r1ge/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/6ypq3pf1vnord7o/image/small",
       "blv": null,
@@ -415,7 +357,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-8.flv?auth_key=3000001787866391-0-0-19fec95880ac259e5242190b18bb79dc",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-8.flv?auth_key=3000001787868188-0-0-dfefec56a2977e585d821d12caa269bc",
       "match_key": "internacional rs vs gremio rs|hd bee",
       "display_name": "[06:00 28/08/2026] Internacional Rs vs Gremio Rs [BLV HD BEE] [FLV]",
       "group": "Xôi Lạc",
@@ -436,7 +378,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-28T06:00:00+07:00",
-      "minutes_to_kickoff": 86.06,
+      "minutes_to_kickoff": 56.09,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -446,7 +388,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-8.flv?auth_key=3000001787866391-0-0-19fec95880ac259e5242190b18bb79dc",
+      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-8.flv?auth_key=3000001787868188-0-0-dfefec56a2977e585d821d12caa269bc",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyhxxxr1ge/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghdd9m0ve/image/small",
       "blv": null,
@@ -460,7 +402,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-29.flv?auth_key=3000001787866398-0-0-ad6e181f655da588ea49bbf90f47c860",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-29.flv?auth_key=3000001787868194-0-0-d6f3a7837facceee54068f4355cf17b6",
       "match_key": "brazil vs dominican republic|hd tommy",
       "display_name": "[06:10 28/08/2026] Brazil vs Dominican Republic [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -481,7 +423,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-28T06:10:00+07:00",
-      "minutes_to_kickoff": 96.06,
+      "minutes_to_kickoff": 66.09,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -491,7 +433,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-29.flv?auth_key=3000001787866398-0-0-ad6e181f655da588ea49bbf90f47c860",
+      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-29.flv?auth_key=3000001787868194-0-0-d6f3a7837facceee54068f4355cf17b6",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/gy0or5gtk6yqwzv/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/v2y8m4ptyz5ml07/image/small",
       "blv": null,
@@ -505,7 +447,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-25.flv?auth_key=3000001787866404-0-0-b7bb29ee85e33506edf05bf250dd9d53",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-25.flv?auth_key=3000001787868193-0-0-870f458b2205ca337594afca193fafaa",
       "match_key": "chile vs usa|hd alan",
       "display_name": "[06:10 28/08/2026] Chile vs Usa [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -526,7 +468,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-28T06:10:00+07:00",
-      "minutes_to_kickoff": 96.06,
+      "minutes_to_kickoff": 66.09,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -536,7 +478,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-25.flv?auth_key=3000001787866404-0-0-b7bb29ee85e33506edf05bf250dd9d53",
+      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-25.flv?auth_key=3000001787868193-0-0-870f458b2205ca337594afca193fafaa",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/vl7oqd4tkzpq510/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/gy0or5gtkoxqwzv/image/small",
       "blv": null,
@@ -550,7 +492,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-10.flv?auth_key=3000001787866398-0-0-7b43af94aec93067e72541d6f153a85f",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-10.flv?auth_key=3000001787868194-0-0-bc5528e7f72e5e1d79befb595afdd364",
       "match_key": "llaneros fc vs millonarios|hd polo",
       "display_name": "[06:10 28/08/2026] Llaneros Fc vs Millonarios [BLV HD POLO] [FLV]",
       "group": "Xôi Lạc",
@@ -571,7 +513,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-28T06:10:00+07:00",
-      "minutes_to_kickoff": 96.06,
+      "minutes_to_kickoff": 66.09,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -581,7 +523,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-10.flv?auth_key=3000001787866398-0-0-7b43af94aec93067e72541d6f153a85f",
+      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-10.flv?auth_key=3000001787868194-0-0-bc5528e7f72e5e1d79befb595afdd364",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/n54qllhe8p7qvy9/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhg9x5ryk0/image/small",
       "blv": null,
@@ -595,7 +537,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787866406-0-0-2fd1dee33d424526c1b32531e03c7d45",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787868202-0-0-d686a291100421262f34b2a97a7df059",
       "match_key": "fabian marozsan vs james duckworth|hd vic",
       "display_name": "USA Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/ednm9efdp57ryox/image/small\",[06:40 28/08/2026] Fabian Marozsan vs James Duckworth [BLV HD VIC] [FLV]",
       "group": "Xôi Lạc",
@@ -616,7 +558,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-28T06:40:00+07:00",
-      "minutes_to_kickoff": 126.06,
+      "minutes_to_kickoff": 96.09,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -626,7 +568,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787866406-0-0-2fd1dee33d424526c1b32531e03c7d45",
+      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787868202-0-0-d686a291100421262f34b2a97a7df059",
       "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/ednm9efdp57ryox/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/y0or5of4yn4mwzv/image/small",
       "blv": null,
@@ -640,7 +582,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-21.flv?auth_key=3000001787866419-0-0-61f3bfa57882c04fdd65193423d9870c",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-21.flv?auth_key=3000001787868213-0-0-027fd1f1387cb9514116b86a932a0d08",
       "match_key": "ca platense vs instituto|hd raven",
       "display_name": "[07:15 28/08/2026] Ca Platense vs Instituto [BLV HD RAVEN] [FLV]",
       "group": "Xôi Lạc",
@@ -661,7 +603,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-28T07:15:00+07:00",
-      "minutes_to_kickoff": 161.06,
+      "minutes_to_kickoff": 131.09,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -671,10 +613,95 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-21.flv?auth_key=3000001787866419-0-0-61f3bfa57882c04fdd65193423d9870c",
+      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-21.flv?auth_key=3000001787868213-0-0-027fd1f1387cb9514116b86a932a0d08",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66howpvqo9j/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7ph40vm2wd/image/small",
       "blv": null,
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
+    },
+    {
+      "source": "xoilac",
+      "source_label": "Xôi Lạc",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-9.flv?auth_key=3000001787868225-0-0-3fcc96e52627473c172d699509474611",
+      "match_key": "cancun fc vs club atletico la paz|hd toni",
+      "display_name": "[08:00 28/08/2026] Cancun Fc vs Club Atletico La Paz [BLV HD TONI] [FLV]",
+      "group": "Xôi Lạc",
+      "sport_group": "Hạng 2 Mexico",
+      "quality": "HD",
+      "kind": "flv",
+      "playability": "verified",
+      "classification": "verified_unsigned",
+      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
+      "has_secret": false,
+      "expiry": {
+        "timestamp": null,
+        "utc": "",
+        "vietnam": "",
+        "seconds_left": null
+      },
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 456,
+      "kickoff_iso": "2026-08-28T08:00:00+07:00",
+      "minutes_to_kickoff": 176.09,
+      "metadata_audit": null,
+      "metadata_enriched_from": null,
+      "metadata_warning": null,
+      "stream_key_tokens": null,
+      "logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h58pvmojx/image/small",
+      "logo_source": null,
+      "logo_enriched_from": null,
+      "logo_is_fallback": null,
+      "entry_mode": "stream",
+      "page_url": "https://live2.cachefluxlive.com/livecdn/channel-9.flv?auth_key=3000001787868225-0-0-3fcc96e52627473c172d699509474611",
+      "home_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1h58pvmojx/image/small",
+      "away_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdehl4w5r510/image/small",
+      "blv": null,
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
+    },
+    {
+      "source": "colatv",
+      "source_label": "ColaTV",
+      "url": "https://live05.meung.app/live/87547578.m3u8",
+      "match_key": "estudiantes la plata vs ca barracas central|mountain dew ang xem",
+      "display_name": "[05:00 28/08] Estudiantes La Plata vs CA Barracas Central [BLV MOUNTAIN DEWĐang xem] [M3U8]",
+      "group": "ColaTV",
+      "sport_group": "Bóng đá",
+      "quality": "UNKNOWN",
+      "kind": "m3u8",
+      "playability": "verified",
+      "classification": null,
+      "classification_reason": null,
+      "has_secret": false,
+      "expiry": null,
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 439,
+      "kickoff_iso": "2026-08-28T05:00:00+07:00",
+      "minutes_to_kickoff": -3.91,
+      "metadata_audit": null,
+      "metadata_enriched_from": null,
+      "metadata_warning": null,
+      "stream_key_tokens": null,
+      "logo": "https://img.gvapi.cc/football/team/815c22bf4ba2ec7ac989fe89c0dd6ecc.png!w80",
+      "logo_source": null,
+      "logo_enriched_from": null,
+      "logo_is_fallback": null,
+      "entry_mode": "stream",
+      "page_url": "https://live05.meung.app/live/87547578.m3u8",
+      "home_logo": null,
+      "away_logo": null,
+      "blv": "MOUNTAIN DEWĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -701,7 +728,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-28T06:00:00+07:00",
-      "minutes_to_kickoff": 86.06,
+      "minutes_to_kickoff": 56.09,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -726,7 +753,7 @@
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-13.flv?auth_key=3000001787866366-0-0-5cc3ba1a11b6a39d036f789d89ed681d",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-13.flv?auth_key=3000001787868076-0-0-78343b026c5478b21b7b7a25d29b3b5a",
       "display_name": "[05:00 28/08/2026] Estudiantes Lp vs Ca Barracas Central [BLV HD XMEN] [FLV]",
       "match_key": "estudiantes lp vs ca barracas central|hd xmen",
       "quality": "HD",
@@ -738,7 +765,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-26.flv?auth_key=3000001787866375-0-0-ce437517625c4b23305442e7444fc581",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-26.flv?auth_key=3000001787868160-0-0-e8fd2a494cafcf1a7837ffdc29dfaaa0",
       "display_name": "[05:10 28/08/2026] Argentina vs Puerto Rico [BLV HD STEP] [FLV]",
       "match_key": "argentina vs puerto rico|hd step",
       "quality": "HD",
@@ -750,7 +777,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787866383-0-0-f11952fb25c0db7b0ebe54472cae47fd",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787868160-0-0-745be227153dd9c53d31f1b98b4c9ee8",
       "display_name": "USA Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/965mk4f3j64r1ge/image/small\",[05:30 28/08/2026] Arthur Fery vs Aleksandar Kovacevic [BLV HD VIC] [FLV]",
       "match_key": "arthur fery vs aleksandar kovacevic|hd vic",
       "quality": "HD",
@@ -762,7 +789,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-8.flv?auth_key=3000001787866391-0-0-19fec95880ac259e5242190b18bb79dc",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-8.flv?auth_key=3000001787868188-0-0-dfefec56a2977e585d821d12caa269bc",
       "display_name": "[06:00 28/08/2026] Internacional Rs vs Gremio Rs [BLV HD BEE] [FLV]",
       "match_key": "internacional rs vs gremio rs|hd bee",
       "quality": "HD",
@@ -774,7 +801,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-29.flv?auth_key=3000001787866398-0-0-ad6e181f655da588ea49bbf90f47c860",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-29.flv?auth_key=3000001787868194-0-0-d6f3a7837facceee54068f4355cf17b6",
       "display_name": "[06:10 28/08/2026] Brazil vs Dominican Republic [BLV HD TOMMY] [FLV]",
       "match_key": "brazil vs dominican republic|hd tommy",
       "quality": "HD",
@@ -786,7 +813,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-25.flv?auth_key=3000001787866404-0-0-b7bb29ee85e33506edf05bf250dd9d53",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-25.flv?auth_key=3000001787868193-0-0-870f458b2205ca337594afca193fafaa",
       "display_name": "[06:10 28/08/2026] Chile vs Usa [BLV HD ALAN] [FLV]",
       "match_key": "chile vs usa|hd alan",
       "quality": "HD",
@@ -798,7 +825,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-10.flv?auth_key=3000001787866398-0-0-7b43af94aec93067e72541d6f153a85f",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-10.flv?auth_key=3000001787868194-0-0-bc5528e7f72e5e1d79befb595afdd364",
       "display_name": "[06:10 28/08/2026] Llaneros Fc vs Millonarios [BLV HD POLO] [FLV]",
       "match_key": "llaneros fc vs millonarios|hd polo",
       "quality": "HD",
@@ -810,7 +837,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787866406-0-0-2fd1dee33d424526c1b32531e03c7d45",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787868202-0-0-d686a291100421262f34b2a97a7df059",
       "display_name": "USA Men Singles\" tvg-logo=\"https://imgts.sportpulseapiz.com/tennis/team/ednm9efdp57ryox/image/small\",[06:40 28/08/2026] Fabian Marozsan vs James Duckworth [BLV HD VIC] [FLV]",
       "match_key": "fabian marozsan vs james duckworth|hd vic",
       "quality": "HD",
@@ -822,9 +849,21 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-21.flv?auth_key=3000001787866419-0-0-61f3bfa57882c04fdd65193423d9870c",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-21.flv?auth_key=3000001787868213-0-0-027fd1f1387cb9514116b86a932a0d08",
       "display_name": "[07:15 28/08/2026] Ca Platense vs Instituto [BLV HD RAVEN] [FLV]",
       "match_key": "ca platense vs instituto|hd raven",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-9.flv?auth_key=3000001787868225-0-0-3fcc96e52627473c172d699509474611",
+      "display_name": "[08:00 28/08/2026] Cancun Fc vs Club Atletico La Paz [BLV HD TONI] [FLV]",
+      "match_key": "cancun fc vs club atletico la paz|hd toni",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -838,11 +877,11 @@
       "display_name": "[05:00 28/08] Estudiantes La Plata vs CA Barracas Central [BLV MOUNTAIN DEWĐang xem] [M3U8]",
       "match_key": "estudiantes la plata vs ca barracas central|mountain dew ang xem",
       "quality": "UNKNOWN",
-      "playability": "upcoming-pending",
+      "playability": "verified",
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "decision": "dropped-explicitly",
-      "reason": "not-verified-or-not-upcoming"
+      "decision": "selected-fresh",
+      "reason": "selected"
     },
     {
       "source": "colatv",
@@ -859,11 +898,6 @@
   ],
   "fresh_preservation_ok": true,
   "dropped": [
-    {
-      "url": "https://live05.meung.app/live/87547578.m3u8",
-      "reason": "not-verified-or-not-upcoming",
-      "source": "colatv"
-    },
     {
       "url": "http://127.0.0.1:9/__phaohoa_metadata__/742963.m3u8",
       "reason": "not-verified-or-not-upcoming",
@@ -900,16 +934,58 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-26.flv?auth_key=3000001787861078-0-0-a31692b1540c7b02b20be71170475abb",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-13.flv?auth_key=3000001787866366-0-0-5cc3ba1a11b6a39d036f789d89ed681d",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "estudiantes lp vs ca barracas central|hd xmen"
+    },
+    {
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-26.flv?auth_key=3000001787866375-0-0-ce437517625c4b23305442e7444fc581",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "argentina vs puerto rico|hd step"
     },
     {
-      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787861083-0-0-74b802741595856baf512a9eac6e7d18",
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787866383-0-0-f11952fb25c0db7b0ebe54472cae47fd",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "arthur fery vs aleksandar kovacevic|hd vic"
+    },
+    {
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-8.flv?auth_key=3000001787866391-0-0-19fec95880ac259e5242190b18bb79dc",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "internacional rs vs gremio rs|hd bee"
+    },
+    {
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-29.flv?auth_key=3000001787866398-0-0-ad6e181f655da588ea49bbf90f47c860",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "brazil vs dominican republic|hd tommy"
+    },
+    {
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-25.flv?auth_key=3000001787866404-0-0-b7bb29ee85e33506edf05bf250dd9d53",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "chile vs usa|hd alan"
+    },
+    {
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-10.flv?auth_key=3000001787866398-0-0-7b43af94aec93067e72541d6f153a85f",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "llaneros fc vs millonarios|hd polo"
+    },
+    {
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787866406-0-0-2fd1dee33d424526c1b32531e03c7d45",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "fabian marozsan vs james duckworth|hd vic"
+    },
+    {
+      "url": "https://live2.cachefluxlive.com/livecdn/channel-21.flv?auth_key=3000001787866419-0-0-61f3bfa57882c04fdd65193423d9870c",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "ca platense vs instituto|hd raven"
     }
   ],
   "outputs_written": true
