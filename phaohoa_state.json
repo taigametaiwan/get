@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-27T17:32:49.641762+07:00",
+  "updated_at": "2026-08-27T18:03:23.855805+07:00",
   "matches": {
     "0bdee6a0f127": {
       "url": "https://phaohoa1.live/truc-tiep/hungary-vs-duc",
@@ -481,9 +481,9 @@
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-dai-loan",
       "match_name": "Nhật Bản vs Đài Loan",
       "kickoff_iso": "2026-08-27T17:30:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-27T17:32:49.641689+07:00",
-      "next_scan_at": "2026-08-27T17:37:49.641689+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-08-27T18:03:23.855648+07:00",
+      "next_scan_at": "2026-08-27T18:08:23.855648+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -495,13 +495,25 @@
       "url": "https://phaohoa1.live/truc-tiep/ha-lan-vs-bi",
       "match_name": "27-08 Vô Địch Châu Âu Hà Lan VS Bỉ Tày",
       "kickoff_iso": "2026-08-27T18:30:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-27T17:32:49.641689+07:00",
-      "next_scan_at": "2026-08-27T17:52:49.641689+07:00",
+      "minutes_to_kickoff": 27,
+      "last_scan_at": "2026-08-27T18:03:23.855648+07:00",
+      "next_scan_at": "2026-08-27T18:13:23.855648+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "0d48809c439a": {
+      "url": "https://phaohoa1.live/truc-tiep/ukraine-vs-serbia",
+      "match_name": "27-08 Vô Địch Châu Âu Ukraine VS Serbia Tày",
+      "kickoff_iso": "2026-08-27T21:00:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-08-27T18:03:23.855648+07:00",
+      "next_scan_at": "2026-08-27T18:48:23.855648+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
