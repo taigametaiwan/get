@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-27T06:31:36.034473+07:00",
+  "updated_at": "2026-08-27T07:01:44.544387+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1698,9 +1698,9 @@
       "url": "https://live04.chuoichientv.me/live/1549743/america-de-cali-vs-junior",
       "match_name": "America de Cali vs Junior - VĐQG Colombia",
       "kickoff_iso": "2026-08-27T06:20:00+07:00",
-      "minutes_to_kickoff": -11,
-      "last_scan_at": "2026-08-27T06:31:36.034407+07:00",
-      "next_scan_at": "2026-08-27T06:36:36.034407+07:00",
+      "minutes_to_kickoff": -41,
+      "last_scan_at": "2026-08-27T07:01:44.544323+07:00",
+      "next_scan_at": "2026-08-27T07:06:44.544323+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1710,15 +1710,15 @@
     },
     "1549744": {
       "url": "https://live04.chuoichientv.me/live/1549744/atletico-nacional-vs-deportivo-cali",
-      "match_name": "atletico nacional vs deportivo cali",
+      "match_name": "Atletico Nacional vs Deportivo Cali - VĐQG Colombia",
       "kickoff_iso": "2026-08-27T08:30:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-27T06:31:36.034407+07:00",
-      "next_scan_at": "2026-08-27T06:51:36.034407+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-08-27T07:01:44.544323+07:00",
+      "next_scan_at": "2026-08-27T07:21:44.544323+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
