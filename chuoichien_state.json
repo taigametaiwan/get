@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-27T23:02:20.828466+07:00",
+  "updated_at": "2026-08-27T23:32:24.829480+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1683,9 +1683,9 @@
       "url": "https://live04.chuoichientv.me/live/1623420/kups-vs-shamrock-rovers",
       "match_name": "KuPS vs Shamrock Rovers - UEFA Europa Conference League",
       "kickoff_iso": "2026-08-27T22:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-27T23:02:20.828269+07:00",
-      "next_scan_at": "2026-08-27T23:07:20.828269+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-27T23:32:24.829305+07:00",
+      "next_scan_at": "2026-08-27T23:37:24.829305+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1709,9 +1709,9 @@
       "url": "https://live04.chuoichientv.me/live/993361/trc-tip-vs-l-bc-thm-c1",
       "match_name": "vs Lễ Bốc Thăm C1 - Bốc Thăm C1",
       "kickoff_iso": "2026-08-27T23:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-27T23:02:20.828269+07:00",
-      "next_scan_at": "2026-08-27T23:07:20.828269+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-27T23:32:24.829305+07:00",
+      "next_scan_at": "2026-08-27T23:37:24.829305+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1722,11 +1722,11 @@
     },
     "1603977": {
       "url": "https://live04.chuoichientv.me/live/1603977/jeddah-club-vs-al-najma",
-      "match_name": "jeddah club vs al najma",
+      "match_name": "Jeddah Club vs Al Najma - Hạng Nhất Ả Rập",
       "kickoff_iso": "2026-08-27T23:20:00+07:00",
-      "minutes_to_kickoff": 18,
-      "last_scan_at": "2026-08-27T23:02:20.828269+07:00",
-      "next_scan_at": "2026-08-27T23:12:20.828269+07:00",
+      "minutes_to_kickoff": -12,
+      "last_scan_at": "2026-08-27T23:32:24.829305+07:00",
+      "next_scan_at": "2026-08-27T23:37:24.829305+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1736,12 +1736,14 @@
       "url": "https://live04.chuoichientv.me/live/1623423/monaco-vs-gornik-zabrze",
       "match_name": "monaco vs gornik zabrze",
       "kickoff_iso": "2026-08-27T23:45:00+07:00",
-      "minutes_to_kickoff": 43,
-      "last_scan_at": "2026-08-27T23:02:20.828269+07:00",
-      "next_scan_at": "2026-08-27T23:12:20.828269+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 13,
+      "last_scan_at": "2026-08-27T23:32:24.829305+07:00",
+      "next_scan_at": "2026-08-27T23:37:24.829305+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1623447": {
@@ -1749,8 +1751,8 @@
       "match_name": "kauno algiris vs besiktas",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-27T23:02:20.828269+07:00",
-      "next_scan_at": "2026-08-27T23:12:20.828269+07:00",
+      "last_scan_at": "2026-08-27T23:32:24.829305+07:00",
+      "next_scan_at": "2026-08-27T23:42:24.829305+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1775,8 +1777,8 @@
       "match_name": "aarhus vs benfica",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-27T23:02:20.828269+07:00",
-      "next_scan_at": "2026-08-27T23:12:20.828269+07:00",
+      "last_scan_at": "2026-08-27T23:32:24.829305+07:00",
+      "next_scan_at": "2026-08-27T23:42:24.829305+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1787,8 +1789,8 @@
       "match_name": "celta vigo vs osasuna",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-27T23:02:20.828269+07:00",
-      "next_scan_at": "2026-08-27T23:12:20.828269+07:00",
+      "last_scan_at": "2026-08-27T23:32:24.829305+07:00",
+      "next_scan_at": "2026-08-27T23:42:24.829305+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1798,15 +1800,27 @@
       "url": "https://live04.chuoichientv.me/live/1623446/saburtalo-vs-jagiellonia",
       "match_name": "saburtalo vs jagiellonia",
       "kickoff_iso": "2026-08-27T23:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-27T23:02:20.828269+07:00",
-      "next_scan_at": "2026-08-27T23:07:20.828269+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-27T23:32:24.829305+07:00",
+      "next_scan_at": "2026-08-27T23:37:24.829305+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "1623102": {
+      "url": "https://live04.chuoichientv.me/live/1623102/chelsea-vs-luton",
+      "match_name": "chelsea vs luton",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-27T23:32:24.829305+07:00",
+      "next_scan_at": "2026-08-27T23:42:24.829305+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
