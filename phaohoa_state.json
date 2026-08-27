@@ -1,76 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-28T01:33:08.727854+07:00",
+  "updated_at": "2026-08-28T02:04:19.610771+07:00",
   "matches": {
-    "841030": {
-      "url": "https://phaohoa1.live/truc-tiep/sabah-baku-vs-h-beer-sheva-25-08-2026-841030",
-      "match_name": "26-08 League Cup Southampton VS West Ham Văn Minh",
-      "kickoff_iso": "2026-08-26T01:45:00+07:00",
-      "minutes_to_kickoff": 163,
-      "last_scan_at": "2026-08-25T23:03:43.324728+07:00",
-      "next_scan_at": "2026-08-25T23:48:43.324728+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
-    },
-    "798813": {
-      "url": "https://phaohoa1.live/truc-tiep/valencia-vs-real-betis-26-08-2026-798813",
-      "match_name": "Valencia vs Real Betis",
-      "kickoff_iso": "2026-08-26T02:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-26T03:33:23.267766+07:00",
-      "next_scan_at": "2026-08-26T03:38:23.267766+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "841803": {
-      "url": "https://phaohoa1.live/truc-tiep/southampton-vs-west-ham-26-08-2026-841803",
-      "match_name": "Southampton vs West Ham",
-      "kickoff_iso": "2026-08-26T01:45:00+07:00",
-      "minutes_to_kickoff": -108,
-      "last_scan_at": "2026-08-26T03:33:23.267766+07:00",
-      "next_scan_at": "2026-08-26T03:38:23.267766+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "841031": {
-      "url": "https://phaohoa1.live/truc-tiep/bodo-glimt-vs-nijmegen-26-08-2026-841031",
-      "match_name": "Bodo Glimt vs Nijmegen",
-      "kickoff_iso": "2026-08-26T02:00:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-08-26T02:03:57.226987+07:00",
-      "next_scan_at": "2026-08-26T02:08:57.226987+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "841813": {
-      "url": "https://phaohoa1.live/truc-tiep/nottingham-vs-leeds-26-08-2026-841813",
-      "match_name": "Nottingham vs Leeds",
-      "kickoff_iso": "2026-08-26T02:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-26T03:33:23.267766+07:00",
-      "next_scan_at": "2026-08-26T03:38:23.267766+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "e75600b230af": {
       "url": "https://phaohoa1.live/truc-tiep/cong-hoa-dominica-vs-my",
       "match_name": "Cộng hòa Dominica vs Mỹ",
@@ -469,9 +401,9 @@
       "url": "https://phaohoa1.live/truc-tiep/thuy-dien-vs-phap",
       "match_name": "Thuỵ Điển vs Pháp",
       "kickoff_iso": "2026-08-28T00:00:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-28T01:03:34.865994+07:00",
-      "next_scan_at": "2026-08-28T01:08:34.865994+07:00",
+      "minutes_to_kickoff": -123,
+      "last_scan_at": "2026-08-28T02:04:19.610524+07:00",
+      "next_scan_at": "2026-08-28T02:09:19.610524+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -495,38 +427,44 @@
     },
     "845020": {
       "url": "https://phaohoa1.live/truc-tiep/aarhus-vs-benfica-28-08-2026-845020",
-      "match_name": "28-08 La Liga Barcelona VS Ath Bilbao Chim Nhỏ",
+      "match_name": "Aarhus vs Benfica",
       "kickoff_iso": "2026-08-28T01:00:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-08-28T00:34:28.667220+07:00",
-      "next_scan_at": "2026-08-28T00:44:28.667220+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-08-28T02:04:19.610524+07:00",
+      "next_scan_at": "2026-08-28T02:09:19.610524+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
+      ],
       "scan_decision": "browser-fallback"
     },
     "798810": {
       "url": "https://phaohoa1.live/truc-tiep/celta-vigo-vs-osasuna-17-08-2026-798810",
-      "match_name": "28-08 La Liga Celta Vigo VS Osasuna Tiểu Mây",
+      "match_name": "Celta Vigo vs Osasuna",
       "kickoff_iso": "2026-08-28T01:30:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-28T01:03:34.865994+07:00",
-      "next_scan_at": "2026-08-28T01:13:34.865994+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -34,
+      "last_scan_at": "2026-08-28T02:04:19.610524+07:00",
+      "next_scan_at": "2026-08-28T02:09:19.610524+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     },
     "841815": {
       "url": "https://phaohoa1.live/truc-tiep/chelsea-vs-luton-28-08-2026-841815",
-      "match_name": "28-08 League Cup Chelsea VS Luton Kevin",
+      "match_name": "Chelsea vs Luton",
       "kickoff_iso": "2026-08-28T01:30:00+07:00",
-      "minutes_to_kickoff": 86,
-      "last_scan_at": "2026-08-28T00:05:17.915063+07:00",
-      "next_scan_at": "2026-08-28T00:25:17.915063+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-08-28T02:04:19.610524+07:00",
+      "next_scan_at": "2026-08-28T02:09:19.610524+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
       "scan_decision": "browser-fallback"
     },
     "844921": {
@@ -543,14 +481,16 @@
     },
     "798815": {
       "url": "https://phaohoa1.live/truc-tiep/barcelona-vs-ath-bilbao-28-08-2026-798815",
-      "match_name": "28-08 La Liga Barcelona VS Ath Bilbao Chim Nhỏ",
+      "match_name": "Barcelona vs Ath Bilbao",
       "kickoff_iso": "2026-08-28T02:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-28T01:33:08.727787+07:00",
-      "next_scan_at": "2026-08-28T01:43:08.727787+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-08-28T02:04:19.610524+07:00",
+      "next_scan_at": "2026-08-28T02:09:19.610524+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
