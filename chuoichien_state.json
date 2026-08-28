@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-28T07:31:54.151527+07:00",
+  "updated_at": "2026-08-28T08:02:09.163578+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1779,9 +1779,9 @@
       "url": "https://live04.chuoichientv.me/live/1549148/platense-vs-instituto-cordoba",
       "match_name": "Platense vs Instituto Cordoba - Copa Argentina",
       "kickoff_iso": "2026-08-28T07:15:00+07:00",
-      "minutes_to_kickoff": -16,
-      "last_scan_at": "2026-08-28T07:31:54.151463+07:00",
-      "next_scan_at": "2026-08-28T07:36:54.151463+07:00",
+      "minutes_to_kickoff": -47,
+      "last_scan_at": "2026-08-28T08:02:09.163507+07:00",
+      "next_scan_at": "2026-08-28T08:07:09.163507+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1794,13 +1794,13 @@
       "url": "https://live04.chuoichientv.me/live/1548374/mixco-vs-alianza-fc",
       "match_name": "mixco vs alianza fc",
       "kickoff_iso": "2026-08-28T09:30:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-28T07:31:54.151463+07:00",
-      "next_scan_at": "2026-08-28T07:51:54.151463+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-28T08:02:09.163507+07:00",
+      "next_scan_at": "2026-08-28T08:22:09.163507+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
