@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-28T09:01:40.247585+07:00",
+  "updated_at": "2026-08-28T09:31:36.055425+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1779,14 +1779,17 @@
     },
     "1548374": {
       "url": "https://live04.chuoichientv.me/live/1548374/mixco-vs-alianza-fc",
-      "match_name": "mixco vs alianza fc",
+      "match_name": "Mixco vs Alianza FC - Concacaf Central American Cup",
       "kickoff_iso": "2026-08-28T09:30:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-28T09:01:40.247507+07:00",
-      "next_scan_at": "2026-08-28T09:11:40.247507+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-28T09:31:36.055372+07:00",
+      "next_scan_at": "2026-08-28T09:36:36.055372+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
