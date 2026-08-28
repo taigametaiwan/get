@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-28T19:03:32.947645+07:00",
+  "updated_at": "2026-08-28T19:33:19.436850+07:00",
   "matches": {
     "849235": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-vs-thai-lan-26-08-2026-849235",
@@ -435,9 +435,9 @@
       "url": "https://phaohoa1.live/truc-tiep/trung-quoc-vs-viet-nam",
       "match_name": "Trung Quốc vs Việt Nam",
       "kickoff_iso": "2026-08-28T18:30:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-28T19:03:32.947478+07:00",
-      "next_scan_at": "2026-08-28T19:08:32.947478+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-08-28T19:33:19.436646+07:00",
+      "next_scan_at": "2026-08-28T19:38:19.436646+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -449,9 +449,9 @@
       "url": "https://phaohoa1.live/truc-tiep/shenzhen-xinpengcheng-vs-shanghai-port-28-08-2026-742963",
       "match_name": "28-08 Stars League Al Ahli Doha VS Lusail Văn Minh",
       "kickoff_iso": "2026-08-28T21:15:00+07:00",
-      "minutes_to_kickoff": 163,
-      "last_scan_at": "2026-08-28T18:33:13.669594+07:00",
-      "next_scan_at": "2026-08-28T19:18:13.669594+07:00",
+      "minutes_to_kickoff": 103,
+      "last_scan_at": "2026-08-28T19:33:19.436646+07:00",
+      "next_scan_at": "2026-08-28T19:53:19.436646+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -461,9 +461,9 @@
       "url": "https://phaohoa1.live/truc-tiep/shanghai-shenhua-vs-shandong-taishan-28-08-2026-742967",
       "match_name": "Shanghai Shenhua vs Shandong Taishan",
       "kickoff_iso": "2026-08-28T18:35:00+07:00",
-      "minutes_to_kickoff": -28,
-      "last_scan_at": "2026-08-28T19:03:32.947478+07:00",
-      "next_scan_at": "2026-08-28T19:08:32.947478+07:00",
+      "minutes_to_kickoff": -58,
+      "last_scan_at": "2026-08-28T19:33:19.436646+07:00",
+      "next_scan_at": "2026-08-28T19:38:19.436646+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -475,13 +475,25 @@
       "url": "https://phaohoa1.live/truc-tiep/slovenia-vs-hungary",
       "match_name": "28-08 Vô Địch Châu Âu Slovenia VS Hungary Tiểu Mây",
       "kickoff_iso": "2026-08-28T20:00:00+07:00",
-      "minutes_to_kickoff": 57,
-      "last_scan_at": "2026-08-28T19:03:32.947478+07:00",
-      "next_scan_at": "2026-08-28T19:23:32.947478+07:00",
+      "minutes_to_kickoff": 27,
+      "last_scan_at": "2026-08-28T19:33:19.436646+07:00",
+      "next_scan_at": "2026-08-28T19:43:19.436646+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "37884876ef13": {
+      "url": "https://phaohoa1.live/truc-tiep/my-vs-phap",
+      "match_name": "28-08 Hubert Wagner Memorial Mỹ VS Pháp Tày",
+      "kickoff_iso": "2026-08-28T22:30:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-28T19:33:19.436646+07:00",
+      "next_scan_at": "2026-08-28T20:18:19.436646+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
