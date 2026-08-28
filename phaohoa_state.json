@@ -1,20 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-28T13:32:12.239758+07:00",
+  "updated_at": "2026-08-28T14:02:40.850045+07:00",
   "matches": {
-    "180d2e23d042": {
-      "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-uc",
-      "match_name": "Indonesia vs Úc",
-      "kickoff_iso": "2026-08-26T14:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-26T15:32:26.599267+07:00",
-      "next_scan_at": "2026-08-26T15:37:26.599267+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "728381": {
       "url": "https://phaohoa1.live/truc-tiep/daejeon-vs-ulsan-hd-26-08-2026-728381",
       "match_name": "Daejeon vs Ulsan Hd",
@@ -473,14 +461,16 @@
     },
     "8d9fdfbb520d": {
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-iran",
-      "match_name": "28-08 Vô Địch Châu Á Indonesia VS Iran KaKa",
+      "match_name": "Indonesia vs Iran",
       "kickoff_iso": "2026-08-28T14:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-28T13:32:12.239669+07:00",
-      "next_scan_at": "2026-08-28T13:42:12.239669+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-28T14:02:40.849967+07:00",
+      "next_scan_at": "2026-08-28T14:07:40.849967+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
