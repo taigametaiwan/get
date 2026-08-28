@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-28T20:02:32.796203+07:00",
+  "updated_at": "2026-08-28T20:32:28.410572+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1754,16 +1754,14 @@
     },
     "1601122": {
       "url": "https://live04.chuoichientv.me/live/1601122/sabah-fa-vs-penang",
-      "match_name": "sabah fa vs penang",
+      "match_name": "Sabah FA vs Penang - VĐQG Malaysia",
       "kickoff_iso": "2026-08-28T18:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-28T20:02:32.796038+07:00",
-      "next_scan_at": "2026-08-28T20:07:32.796038+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-28T20:32:28.410318+07:00",
+      "next_scan_at": "2026-08-28T20:37:28.410318+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "992651": {
@@ -1783,11 +1781,11 @@
     },
     "1523252": {
       "url": "https://live04.chuoichientv.me/live/1523252/sichuan-jiuniu-vs-shanghai-sipg",
-      "match_name": "Sichuan Jiuniu vs SHANGHAI SIPG - Ngoại Hạng Trung Quốc",
+      "match_name": "sichuan jiuniu vs shanghai sipg",
       "kickoff_iso": "2026-08-28T19:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-28T20:02:32.796038+07:00",
-      "next_scan_at": "2026-08-28T20:07:32.796038+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-28T20:32:28.410318+07:00",
+      "next_scan_at": "2026-08-28T20:37:28.410318+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1797,11 +1795,11 @@
     },
     "1601123": {
       "url": "https://live04.chuoichientv.me/live/1601123/terengganu-vs-selangor",
-      "match_name": "Terengganu vs Selangor - VĐQG Malaysia",
+      "match_name": "terengganu vs selangor",
       "kickoff_iso": "2026-08-28T20:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-28T20:02:32.796038+07:00",
-      "next_scan_at": "2026-08-28T20:07:32.796038+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-28T20:32:28.410318+07:00",
+      "next_scan_at": "2026-08-28T20:37:28.410318+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1811,37 +1809,38 @@
     },
     "991830": {
       "url": "https://live04.chuoichientv.me/live/991830/slovenia-vs-hungary-w",
-      "match_name": "Slovenia vs Hungary W - Vô địch bóng chuyền Nữ Châu Âu",
+      "match_name": "slovenia vs hungary w",
       "kickoff_iso": "2026-08-28T20:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-28T20:02:32.796038+07:00",
-      "next_scan_at": "2026-08-28T20:07:32.796038+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-28T20:32:28.410318+07:00",
+      "next_scan_at": "2026-08-28T20:37:28.410318+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1602999": {
       "url": "https://live04.chuoichientv.me/live/1602999/al-fayha-vs-abha",
       "match_name": "al fayha vs abha",
-      "kickoff_iso": "2026-08-28T23:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-28T20:02:32.796038+07:00",
-      "next_scan_at": "2026-08-28T20:47:32.796038+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-28T20:32:28.410318+07:00",
+      "next_scan_at": "2026-08-28T20:42:28.410318+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "999371": {
       "url": "https://live04.chuoichientv.me/live/999371/azerbaijan-w-vs-netherlands-w",
       "match_name": "azerbaijan w vs netherlands w",
       "kickoff_iso": "2026-08-28T21:30:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-28T20:02:32.796038+07:00",
-      "next_scan_at": "2026-08-28T20:22:32.796038+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-28T20:32:28.410318+07:00",
+      "next_scan_at": "2026-08-28T20:52:28.410318+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1851,21 +1850,21 @@
       "url": "https://live04.chuoichientv.me/live/1561372/akron-vs-cska-moscow",
       "match_name": "akron vs cska moscow",
       "kickoff_iso": "2026-08-28T22:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-28T20:02:32.796038+07:00",
-      "next_scan_at": "2026-08-28T20:22:32.796038+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-28T20:32:28.410318+07:00",
+      "next_scan_at": "2026-08-28T20:52:28.410318+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1603001": {
       "url": "https://live04.chuoichientv.me/live/1603001/al-nassr-vs-al-taawon",
       "match_name": "al nassr vs al taawon",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-28T20:02:32.796038+07:00",
-      "next_scan_at": "2026-08-28T20:12:32.796038+07:00",
+      "last_scan_at": "2026-08-28T20:32:28.410318+07:00",
+      "next_scan_at": "2026-08-28T20:42:28.410318+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1876,8 +1875,8 @@
       "match_name": "bayern mnchen vs vfb stuttgart",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-28T20:02:32.796038+07:00",
-      "next_scan_at": "2026-08-28T20:12:32.796038+07:00",
+      "last_scan_at": "2026-08-28T20:32:28.410318+07:00",
+      "next_scan_at": "2026-08-28T20:42:28.410318+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
