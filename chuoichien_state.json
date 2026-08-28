@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-29T04:01:48.045705+07:00",
+  "updated_at": "2026-08-29T04:31:12.198649+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1871,8 +1871,8 @@
       "match_name": "necaxa vs cruz azul",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T04:01:48.042488+07:00",
-      "next_scan_at": "2026-08-29T04:11:48.042488+07:00",
+      "last_scan_at": "2026-08-29T04:31:12.198578+07:00",
+      "next_scan_at": "2026-08-29T04:41:12.198578+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1883,8 +1883,8 @@
       "match_name": "club tijuana vs unam pumas",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T04:01:48.042488+07:00",
-      "next_scan_at": "2026-08-29T04:11:48.042488+07:00",
+      "last_scan_at": "2026-08-29T04:31:12.198578+07:00",
+      "next_scan_at": "2026-08-29T04:41:12.198578+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1893,14 +1893,14 @@
     "1493095": {
       "url": "https://live05.chuoichientv.me/live/1493095/boca-juniors-vs-lanus",
       "match_name": "boca juniors vs lanus",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T04:01:48.042488+07:00",
-      "next_scan_at": "2026-08-29T04:11:48.042488+07:00",
+      "kickoff_iso": "2026-08-29T07:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-29T04:31:12.198578+07:00",
+      "next_scan_at": "2026-08-29T05:16:12.198578+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
