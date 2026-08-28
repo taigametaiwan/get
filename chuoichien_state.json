@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-28T10:01:41.075127+07:00",
+  "updated_at": "2026-08-28T10:31:39.243165+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1779,18 +1779,113 @@
     },
     "1548374": {
       "url": "https://live04.chuoichientv.me/live/1548374/mixco-vs-alianza-fc",
-      "match_name": "Mixco vs Alianza FC - Concacaf Central American Cup",
+      "match_name": "mixco vs alianza fc",
       "kickoff_iso": "2026-08-28T09:30:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-28T10:01:41.075078+07:00",
-      "next_scan_at": "2026-08-28T10:06:41.075078+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-28T10:31:39.243005+07:00",
+      "next_scan_at": "2026-08-28T10:36:39.243005+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "993970": {
+      "url": "https://live04.chuoichientv.me/live/993970/indonesia-vs-iran",
+      "match_name": "indonesia vs iran",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-28T10:31:39.243005+07:00",
+      "next_scan_at": "2026-08-28T10:41:39.243005+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1510427": {
+      "url": "https://live04.chuoichientv.me/live/1510427/ansan-greeners-vs-daegu-fc",
+      "match_name": "ansan greeners vs daegu fc",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-28T10:31:39.243005+07:00",
+      "next_scan_at": "2026-08-28T10:41:39.243005+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1601122": {
+      "url": "https://live04.chuoichientv.me/live/1601122/sabah-fa-vs-penang",
+      "match_name": "sabah fa vs penang",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-28T10:31:39.243005+07:00",
+      "next_scan_at": "2026-08-28T10:41:39.243005+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "992651": {
+      "url": "https://live04.chuoichientv.me/live/992651/china-vs-vietnam-w",
+      "match_name": "china vs vietnam w",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-28T10:31:39.243005+07:00",
+      "next_scan_at": "2026-08-28T10:41:39.243005+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1523252": {
+      "url": "https://live04.chuoichientv.me/live/1523252/sichuan-jiuniu-vs-shanghai-sipg",
+      "match_name": "sichuan jiuniu vs shanghai sipg",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-28T10:31:39.243005+07:00",
+      "next_scan_at": "2026-08-28T10:41:39.243005+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1601123": {
+      "url": "https://live04.chuoichientv.me/live/1601123/terengganu-vs-selangor",
+      "match_name": "terengganu vs selangor",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-28T10:31:39.243005+07:00",
+      "next_scan_at": "2026-08-28T10:41:39.243005+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "991830": {
+      "url": "https://live04.chuoichientv.me/live/991830/slovenia-vs-hungary-w",
+      "match_name": "slovenia vs hungary w",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-28T10:31:39.243005+07:00",
+      "next_scan_at": "2026-08-28T10:41:39.243005+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1602999": {
+      "url": "https://live04.chuoichientv.me/live/1602999/al-fayha-vs-abha",
+      "match_name": "al fayha vs abha",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-28T10:31:39.243005+07:00",
+      "next_scan_at": "2026-08-28T10:41:39.243005+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
