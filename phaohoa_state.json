@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-28T15:32:45.678098+07:00",
+  "updated_at": "2026-08-28T16:02:42.972036+07:00",
   "matches": {
     "728381": {
       "url": "https://phaohoa1.live/truc-tiep/daejeon-vs-ulsan-hd-26-08-2026-728381",
@@ -463,9 +463,9 @@
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-iran",
       "match_name": "Indonesia vs Iran",
       "kickoff_iso": "2026-08-28T14:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-28T15:32:45.677948+07:00",
-      "next_scan_at": "2026-08-28T15:37:45.677948+07:00",
+      "minutes_to_kickoff": -122,
+      "last_scan_at": "2026-08-28T16:02:42.971911+07:00",
+      "next_scan_at": "2026-08-28T16:07:42.971911+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -480,6 +480,18 @@
       "minutes_to_kickoff": 178,
       "last_scan_at": "2026-08-28T15:32:45.677948+07:00",
       "next_scan_at": "2026-08-28T16:17:45.677948+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "742963": {
+      "url": "https://phaohoa1.live/truc-tiep/shenzhen-xinpengcheng-vs-shanghai-port-28-08-2026-742963",
+      "match_name": "28-08 Chinese Super League Shenzhen Xinpengcheng VS Shanghai Port Tày",
+      "kickoff_iso": "2026-08-28T19:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-28T16:02:42.971911+07:00",
+      "next_scan_at": "2026-08-28T16:47:42.971911+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
