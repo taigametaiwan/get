@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-29T01:32:31.279177+07:00",
+  "updated_at": "2026-08-29T02:02:30.299314+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1311,47 +1311,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1623089": {
-      "url": "https://live04.chuoichientv.me/live/1623089/newcastle-vs-west-brom",
-      "match_name": "Newcastle vs West Brom - Cúp Liên đoàn Anh",
-      "kickoff_iso": "2026-08-27T01:45:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-08-27T03:31:52.748390+07:00",
-      "next_scan_at": "2026-08-27T03:36:52.748390+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1623092": {
-      "url": "https://live04.chuoichientv.me/live/1623092/tottenham-vs-charlton",
-      "match_name": "tottenham vs charlton",
-      "kickoff_iso": "2026-08-27T01:45:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-08-27T03:31:52.748390+07:00",
-      "next_scan_at": "2026-08-27T03:36:52.748390+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1570340": {
-      "url": "https://live04.chuoichientv.me/live/1570340/real-madrid-vs-real-sociedad",
-      "match_name": "Real Madrid vs Real Sociedad - La Liga",
-      "kickoff_iso": "2026-08-27T02:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-27T04:01:40.477748+07:00",
-      "next_scan_at": "2026-08-27T04:06:40.477748+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "1622630": {
       "url": "https://live04.chuoichientv.me/live/1622630/lyon-vs-fenerbahce",
       "match_name": "lyon vs fenerbahce",
@@ -1836,14 +1795,13 @@
       "url": "https://live05.chuoichientv.me/live/1603001/al-nassr-vs-al-taawon",
       "match_name": "Al-Nassr vs Al Taawon - Saudi Pro League",
       "kickoff_iso": "2026-08-29T01:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-29T01:32:31.278985+07:00",
-      "next_scan_at": "2026-08-29T01:37:31.278985+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-29T02:02:30.299142+07:00",
+      "next_scan_at": "2026-08-29T02:07:30.299142+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1851,62 +1809,63 @@
       "url": "https://live05.chuoichientv.me/live/1575140/bayern-mnchen-vs-vfb-stuttgart",
       "match_name": "Bayern München vs VfB Stuttgart - Bundesliga",
       "kickoff_iso": "2026-08-29T01:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-29T01:32:31.278985+07:00",
-      "next_scan_at": "2026-08-29T01:37:31.278985+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-29T02:02:30.299142+07:00",
+      "next_scan_at": "2026-08-29T02:07:30.299142+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "1550097": {
       "url": "https://live05.chuoichientv.me/live/1550097/ac-milan-vs-venezia",
       "match_name": "AC Milan vs Venezia - Serie A",
       "kickoff_iso": "2026-08-29T01:45:00+07:00",
-      "minutes_to_kickoff": 14,
-      "last_scan_at": "2026-08-29T01:32:31.278985+07:00",
-      "next_scan_at": "2026-08-29T01:37:31.278985+07:00",
+      "minutes_to_kickoff": -16,
+      "last_scan_at": "2026-08-29T02:02:30.299142+07:00",
+      "next_scan_at": "2026-08-29T02:07:30.299142+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1552746": {
       "url": "https://live05.chuoichientv.me/live/1552746/lille-vs-paris-saint-germain",
-      "match_name": "Lille vs Paris Saint Germain - Ligue 1",
+      "match_name": "lille vs paris saint germain",
       "kickoff_iso": "2026-08-29T01:45:00+07:00",
-      "minutes_to_kickoff": 13,
-      "last_scan_at": "2026-08-29T01:32:31.278985+07:00",
-      "next_scan_at": "2026-08-29T01:37:31.278985+07:00",
+      "minutes_to_kickoff": -17,
+      "last_scan_at": "2026-08-29T02:02:30.299142+07:00",
+      "next_scan_at": "2026-08-29T02:07:30.299142+07:00",
       "has_stream": true,
-      "has_verified": false,
-      "verified_urls": [],
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1557381": {
       "url": "https://live05.chuoichientv.me/live/1557381/crystal-palace-vs-manchester-city",
-      "match_name": "crystal palace vs manchester city",
+      "match_name": "Crystal Palace vs Manchester City - Ngoại Hạng Anh",
       "kickoff_iso": "2026-08-29T02:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-29T01:32:31.278985+07:00",
-      "next_scan_at": "2026-08-29T01:42:31.278985+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-29T02:02:30.299142+07:00",
+      "next_scan_at": "2026-08-29T02:07:30.299142+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1570353": {
       "url": "https://live05.chuoichientv.me/live/1570353/alaves-vs-villarreal",
-      "match_name": "alaves vs villarreal",
+      "match_name": "Alaves vs Villarreal - La Liga",
       "kickoff_iso": "2026-08-29T02:30:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-29T01:32:31.278985+07:00",
-      "next_scan_at": "2026-08-29T01:52:31.278985+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-29T02:02:30.299142+07:00",
+      "next_scan_at": "2026-08-29T02:12:30.299142+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1917,8 +1876,8 @@
       "match_name": "charlotte independence vs alta",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T01:32:31.278985+07:00",
-      "next_scan_at": "2026-08-29T01:42:31.278985+07:00",
+      "last_scan_at": "2026-08-29T02:02:30.299142+07:00",
+      "next_scan_at": "2026-08-29T02:12:30.299142+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1929,8 +1888,8 @@
       "match_name": "necaxa vs cruz azul",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T01:32:31.278985+07:00",
-      "next_scan_at": "2026-08-29T01:42:31.278985+07:00",
+      "last_scan_at": "2026-08-29T02:02:30.299142+07:00",
+      "next_scan_at": "2026-08-29T02:12:30.299142+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1941,8 +1900,8 @@
       "match_name": "club tijuana vs unam pumas",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T01:32:31.278985+07:00",
-      "next_scan_at": "2026-08-29T01:42:31.278985+07:00",
+      "last_scan_at": "2026-08-29T02:02:30.299142+07:00",
+      "next_scan_at": "2026-08-29T02:12:30.299142+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
