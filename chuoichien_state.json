@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-29T22:02:43.615632+07:00",
+  "updated_at": "2026-08-29T22:32:25.993370+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1859,44 +1859,39 @@
     },
     "1575143": {
       "url": "https://live05.chuoichientv.me/live/1575143/sv-elversberg-vs-bayer-leverkusen",
-      "match_name": "sv elversberg vs bayer leverkusen",
+      "match_name": "SV Elversberg vs Bayer Leverkusen - Bundesliga",
       "kickoff_iso": "2026-08-29T20:30:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-29T22:02:43.615524+07:00",
-      "next_scan_at": "2026-08-29T22:07:43.615524+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-29T22:32:25.993207+07:00",
+      "next_scan_at": "2026-08-29T22:37:25.993207+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "1575147": {
       "url": "https://live05.chuoichientv.me/live/1575147/rb-leipzig-vs-borussia-mnchengladbach",
-      "match_name": "rb leipzig vs borussia mnchengladbach",
+      "match_name": "RB Leipzig vs Borussia Mönchengladbach - Bundesliga",
       "kickoff_iso": "2026-08-29T20:30:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-29T22:02:43.615524+07:00",
-      "next_scan_at": "2026-08-29T22:07:43.615524+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-29T22:32:25.993207+07:00",
+      "next_scan_at": "2026-08-29T22:37:25.993207+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "1557378": {
       "url": "https://live05.chuoichientv.me/live/1557378/bournemouth-vs-everton",
       "match_name": "Bournemouth vs Everton - Ngoại Hạng Anh",
       "kickoff_iso": "2026-08-29T21:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-29T22:02:43.615524+07:00",
-      "next_scan_at": "2026-08-29T22:07:43.615524+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-29T22:32:25.993207+07:00",
+      "next_scan_at": "2026-08-29T22:37:25.993207+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1916,23 +1911,24 @@
       "url": "https://live05.chuoichientv.me/live/1557380/coventry-vs-hull-city",
       "match_name": "coventry vs hull city",
       "kickoff_iso": "2026-08-29T21:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-29T22:02:43.615524+07:00",
-      "next_scan_at": "2026-08-29T22:07:43.615524+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-29T22:32:25.993207+07:00",
+      "next_scan_at": "2026-08-29T22:37:25.993207+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1570357": {
       "url": "https://live05.chuoichientv.me/live/1570357/levante-vs-real-betis",
-      "match_name": "Levante vs Real Betis - La Liga",
+      "match_name": "levante vs real betis",
       "kickoff_iso": "2026-08-29T22:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-29T22:02:43.615524+07:00",
-      "next_scan_at": "2026-08-29T22:07:43.615524+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-29T22:32:25.993207+07:00",
+      "next_scan_at": "2026-08-29T22:37:25.993207+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1942,11 +1938,11 @@
     },
     "1575142": {
       "url": "https://live05.chuoichientv.me/live/1575142/borussia-dortmund-vs-hamburger-sv",
-      "match_name": "Borussia Dortmund vs Hamburger SV - Bundesliga",
+      "match_name": "borussia dortmund vs hamburger sv",
       "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-29T22:02:43.615524+07:00",
-      "next_scan_at": "2026-08-29T22:22:43.615524+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-29T22:32:25.993207+07:00",
+      "next_scan_at": "2026-08-29T22:52:25.993207+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1954,11 +1950,11 @@
     },
     "1557386": {
       "url": "https://live05.chuoichientv.me/live/1557386/tottenham-vs-newcastle",
-      "match_name": "tottenham vs newcastle",
+      "match_name": "Tottenham vs Newcastle - Ngoại Hạng Anh",
       "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": 87,
-      "last_scan_at": "2026-08-29T22:02:43.615524+07:00",
-      "next_scan_at": "2026-08-29T22:22:43.615524+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-29T22:32:25.993207+07:00",
+      "next_scan_at": "2026-08-29T22:52:25.993207+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1969,8 +1965,8 @@
       "match_name": "real sociedad vs espanyol",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T22:02:43.615524+07:00",
-      "next_scan_at": "2026-08-29T22:12:43.615524+07:00",
+      "last_scan_at": "2026-08-29T22:32:25.993207+07:00",
+      "next_scan_at": "2026-08-29T22:42:25.993207+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1981,8 +1977,8 @@
       "match_name": "juventus vs parma",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T22:02:43.615524+07:00",
-      "next_scan_at": "2026-08-29T22:12:43.615524+07:00",
+      "last_scan_at": "2026-08-29T22:32:25.993207+07:00",
+      "next_scan_at": "2026-08-29T22:42:25.993207+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

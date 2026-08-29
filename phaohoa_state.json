@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-29T22:04:53.939761+07:00",
+  "updated_at": "2026-08-29T22:34:58.448712+07:00",
   "matches": {
     "845098": {
       "url": "https://phaohoa1.live/truc-tiep/jablonec-vs-rangers-27-08-2026-845098",
@@ -491,9 +491,9 @@
       "url": "https://phaohoa1.live/truc-tiep/coventry-vs-hull-city-29-08-2026-812663",
       "match_name": "Coventry vs Hull City",
       "kickoff_iso": "2026-08-29T21:00:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-29T22:04:53.939527+07:00",
-      "next_scan_at": "2026-08-29T22:09:53.939527+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-08-29T22:34:58.448410+07:00",
+      "next_scan_at": "2026-08-29T22:39:58.448410+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -519,9 +519,9 @@
       "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-my",
       "match_name": "Ba Lan vs Mỹ",
       "kickoff_iso": "2026-08-29T22:00:00+07:00",
-      "minutes_to_kickoff": -4,
-      "last_scan_at": "2026-08-29T22:04:53.939527+07:00",
-      "next_scan_at": "2026-08-29T22:09:53.939527+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-08-29T22:34:58.448410+07:00",
+      "next_scan_at": "2026-08-29T22:39:58.448410+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -533,9 +533,9 @@
       "url": "https://phaohoa1.live/truc-tiep/bournemouth-vs-everton-29-08-2026-812662",
       "match_name": "Bournemouth vs Everton",
       "kickoff_iso": "2026-08-29T21:00:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-08-29T22:04:53.939527+07:00",
-      "next_scan_at": "2026-08-29T22:09:53.939527+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-08-29T22:34:58.448410+07:00",
+      "next_scan_at": "2026-08-29T22:39:58.448410+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -545,23 +545,25 @@
     },
     "809917": {
       "url": "https://phaohoa1.live/truc-tiep/strasbourg-vs-lens-29-08-2026-809917",
-      "match_name": "29-08 Ligue 1 Strasbourg VS Lens Tiểu Mây",
+      "match_name": "30-08 La Liga Real Sociedad VS Espanyol Tày",
       "kickoff_iso": "2026-08-29T22:15:00+07:00",
-      "minutes_to_kickoff": 103,
-      "last_scan_at": "2026-08-29T20:34:14.751298+07:00",
-      "next_scan_at": "2026-08-29T20:54:14.751298+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "minutes_to_kickoff": -19,
+      "last_scan_at": "2026-08-29T22:34:58.448410+07:00",
+      "next_scan_at": "2026-08-29T22:39:58.448410+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "798828": {
       "url": "https://phaohoa1.live/truc-tiep/levante-vs-real-betis-29-08-2026-798828",
-      "match_name": "29-08 Bundesliga Dortmund VS Hamburger SV Kevin",
+      "match_name": "Levante vs Real Betis",
       "kickoff_iso": "2026-08-29T22:00:00+07:00",
-      "minutes_to_kickoff": -4,
-      "last_scan_at": "2026-08-29T22:04:53.939527+07:00",
-      "next_scan_at": "2026-08-29T22:09:53.939527+07:00",
+      "minutes_to_kickoff": -34,
+      "last_scan_at": "2026-08-29T22:34:58.448410+07:00",
+      "next_scan_at": "2026-08-29T22:39:58.448410+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -571,11 +573,25 @@
     },
     "807864": {
       "url": "https://phaohoa1.live/truc-tiep/fiorentina-vs-frosinone-29-08-2026-807864",
-      "match_name": "29-08 Serie A Fiorentina VS Frosinone Pháo Thủ",
+      "match_name": "Fiorentina vs Frosinone",
       "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": 86,
-      "last_scan_at": "2026-08-29T22:04:53.939527+07:00",
-      "next_scan_at": "2026-08-29T22:24:53.939527+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-08-29T22:34:58.448410+07:00",
+      "next_scan_at": "2026-08-29T22:44:58.448410+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "812664": {
+      "url": "https://phaohoa1.live/truc-tiep/tottenham-vs-newcastle-29-08-2026-812664",
+      "match_name": "29-08 Premier League Tottenham VS Newcastle Người Lửa",
+      "kickoff_iso": "2026-08-29T23:30:00+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-08-29T22:34:58.448410+07:00",
+      "next_scan_at": "2026-08-29T22:54:58.448410+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
