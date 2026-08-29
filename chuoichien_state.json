@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-30T05:31:31.236741+07:00",
+  "updated_at": "2026-08-30T06:01:51.313775+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1873,9 +1873,9 @@
       "url": "https://live05.chuoichientv.me/live/1492351/atletico-mg-vs-vitoria",
       "match_name": "Atletico-MG vs Vitoria - VĐQG Brazil",
       "kickoff_iso": "2026-08-30T04:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-30T05:31:31.236671+07:00",
-      "next_scan_at": "2026-08-30T05:36:31.236671+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-30T06:01:51.313683+07:00",
+      "next_scan_at": "2026-08-30T06:06:51.313683+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1888,9 +1888,9 @@
       "url": "https://live05.chuoichientv.me/live/1490422/inter-miami-vs-cf-montreal",
       "match_name": "Inter Miami vs CF Montreal - Major League Soccer",
       "kickoff_iso": "2026-08-30T06:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-08-30T05:31:31.236671+07:00",
-      "next_scan_at": "2026-08-30T05:51:31.236671+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-30T06:01:51.313683+07:00",
+      "next_scan_at": "2026-08-30T06:11:51.313683+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1899,14 +1899,14 @@
     "1490432": {
       "url": "https://live05.chuoichientv.me/live/1490432/colorado-rapids-vs-real-salt-lake",
       "match_name": "colorado rapids vs real salt lake",
-      "kickoff_iso": "2026-08-30T08:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-30T05:31:31.236671+07:00",
-      "next_scan_at": "2026-08-30T06:16:31.236671+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-30T06:01:51.313683+07:00",
+      "next_scan_at": "2026-08-30T06:11:51.313683+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     }
   }
 }

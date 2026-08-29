@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-30T05:02:25.848513+07:00",
+  "updated_at": "2026-08-30T06:02:43.158213+07:00",
   "matches": {
     "8d9fdfbb520d": {
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-iran",
@@ -541,14 +541,16 @@
     },
     "711606": {
       "url": "https://phaohoa1.live/truc-tiep/inter-miami-vs-cf-montreal-30-08-2026-711606",
-      "match_name": "30-08 MLS Inter Miami VS CF Montreal Chim Nhỏ",
+      "match_name": "Inter Miami vs CF Montreal",
       "kickoff_iso": "2026-08-30T06:30:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-30T05:02:25.848394+07:00",
-      "next_scan_at": "2026-08-30T05:22:25.848394+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-30T06:02:43.158131+07:00",
+      "next_scan_at": "2026-08-30T06:07:43.158131+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
