@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-30T00:33:13.382327+07:00",
+  "updated_at": "2026-08-30T01:04:50.963564+07:00",
   "matches": {
-    "845020": {
-      "url": "https://phaohoa1.live/truc-tiep/aarhus-vs-benfica-28-08-2026-845020",
-      "match_name": "Aarhus vs Benfica",
-      "kickoff_iso": "2026-08-28T01:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-28T02:34:14.719647+07:00",
-      "next_scan_at": "2026-08-28T02:39:14.719647+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "798810": {
       "url": "https://phaohoa1.live/truc-tiep/celta-vigo-vs-osasuna-17-08-2026-798810",
       "match_name": "Celta Vigo vs Osasuna",
@@ -505,9 +491,9 @@
       "url": "https://phaohoa1.live/truc-tiep/fiorentina-vs-frosinone-29-08-2026-807864",
       "match_name": "Fiorentina vs Frosinone",
       "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-30T00:33:13.382098+07:00",
-      "next_scan_at": "2026-08-30T00:38:13.382098+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-08-30T01:04:50.963305+07:00",
+      "next_scan_at": "2026-08-30T01:09:50.963305+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -517,11 +503,11 @@
     },
     "812664": {
       "url": "https://phaohoa1.live/truc-tiep/tottenham-vs-newcastle-29-08-2026-812664",
-      "match_name": "30-08 Saudi Pro League Al Fateh VS Al Ittihad Văn Minh",
+      "match_name": "Tottenham vs Newcastle",
       "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-30T00:33:13.382098+07:00",
-      "next_scan_at": "2026-08-30T00:38:13.382098+07:00",
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-08-30T01:04:50.963305+07:00",
+      "next_scan_at": "2026-08-30T01:09:50.963305+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -545,9 +531,9 @@
       "url": "https://phaohoa1.live/truc-tiep/dortmund-vs-hamburger-sv-29-08-2026-809269",
       "match_name": "Dortmund vs Hamburger Sv",
       "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-30T00:33:13.382098+07:00",
-      "next_scan_at": "2026-08-30T00:38:13.382098+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-08-30T01:04:50.963305+07:00",
+      "next_scan_at": "2026-08-30T01:09:50.963305+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -559,9 +545,9 @@
       "url": "https://phaohoa1.live/truc-tiep/real-sociedad-vs-espanyol-30-08-2026-798829",
       "match_name": "Real Sociedad vs Espanyol",
       "kickoff_iso": "2026-08-30T00:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-30T00:33:13.382098+07:00",
-      "next_scan_at": "2026-08-30T00:38:13.382098+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-08-30T01:04:50.963305+07:00",
+      "next_scan_at": "2026-08-30T01:09:50.963305+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -573,21 +559,21 @@
       "url": "https://phaohoa1.live/truc-tiep/sevilla-vs-atl-madrid-30-08-2026-798830",
       "match_name": "30-08 La Liga Sevilla VS Atl. Madrid Kevin",
       "kickoff_iso": "2026-08-30T02:30:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-30T00:33:13.382098+07:00",
-      "next_scan_at": "2026-08-30T00:53:13.382098+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-30T01:04:50.963305+07:00",
+      "next_scan_at": "2026-08-30T01:24:50.963305+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "807867": {
       "url": "https://phaohoa1.live/truc-tiep/juventus-vs-parma-30-08-2026-807867",
       "match_name": "30-08 Serie A Juventus VS Parma Pháo Thủ",
       "kickoff_iso": "2026-08-30T01:45:00+07:00",
-      "minutes_to_kickoff": 72,
-      "last_scan_at": "2026-08-30T00:33:13.382098+07:00",
-      "next_scan_at": "2026-08-30T00:53:13.382098+07:00",
+      "minutes_to_kickoff": 41,
+      "last_scan_at": "2026-08-30T01:04:50.963305+07:00",
+      "next_scan_at": "2026-08-30T01:14:50.963305+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
