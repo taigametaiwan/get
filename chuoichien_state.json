@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-29T07:31:42.428970+07:00",
+  "updated_at": "2026-08-29T08:01:46.996137+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1855,39 +1855,53 @@
       "url": "https://live05.chuoichientv.me/live/1550940/necaxa-vs-cruz-azul",
       "match_name": "Necaxa vs Cruz Azul - VĐQG Mexico",
       "kickoff_iso": "2026-08-29T08:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-29T07:31:42.428868+07:00",
-      "next_scan_at": "2026-08-29T07:41:42.428868+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-29T08:01:46.996039+07:00",
+      "next_scan_at": "2026-08-29T08:06:46.996039+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1550941": {
       "url": "https://live05.chuoichientv.me/live/1550941/club-tijuana-vs-unam-pumas",
       "match_name": "club tijuana vs unam pumas",
-      "kickoff_iso": "2026-08-29T10:10:00+07:00",
-      "minutes_to_kickoff": 159,
-      "last_scan_at": "2026-08-29T07:31:42.428868+07:00",
-      "next_scan_at": "2026-08-29T08:16:42.428868+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-29T08:01:46.996039+07:00",
+      "next_scan_at": "2026-08-29T08:11:46.996039+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1493095": {
       "url": "https://live05.chuoichientv.me/live/1493095/boca-juniors-vs-lanus",
       "match_name": "Boca Juniors vs Lanus - VĐQG Argentina",
       "kickoff_iso": "2026-08-29T07:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-29T07:31:42.428868+07:00",
-      "next_scan_at": "2026-08-29T07:36:42.428868+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-29T08:01:46.996039+07:00",
+      "next_scan_at": "2026-08-29T08:06:46.996039+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "1633979": {
+      "url": "https://live05.chuoichientv.me/live/1633979/playford-city-patriots-vs-adelaide-city",
+      "match_name": "playford city patriots vs adelaide city",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-29T08:01:46.996039+07:00",
+      "next_scan_at": "2026-08-29T08:11:46.996039+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
