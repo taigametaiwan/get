@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-30T02:03:28.289040+07:00",
+  "updated_at": "2026-08-30T02:32:47.741504+07:00",
   "matches": {
     "8d9fdfbb520d": {
       "url": "https://phaohoa1.live/truc-tiep/indonesia-vs-iran",
@@ -461,9 +461,9 @@
       "url": "https://phaohoa1.live/truc-tiep/al-fateh-vs-al-ittihad-30-08-2026-825130",
       "match_name": "Al Fateh vs Al Ittihad",
       "kickoff_iso": "2026-08-30T01:00:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-30T02:03:28.288928+07:00",
-      "next_scan_at": "2026-08-30T02:08:28.288928+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-08-30T02:32:47.741373+07:00",
+      "next_scan_at": "2026-08-30T02:37:47.741373+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -499,23 +499,25 @@
     },
     "798830": {
       "url": "https://phaohoa1.live/truc-tiep/sevilla-vs-atl-madrid-30-08-2026-798830",
-      "match_name": "30-08 La Liga Sevilla VS Atl. Madrid Kevin",
+      "match_name": "Sevilla vs Atl. Madrid",
       "kickoff_iso": "2026-08-30T02:30:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-30T02:03:28.288928+07:00",
-      "next_scan_at": "2026-08-30T02:13:28.288928+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-30T02:32:47.741373+07:00",
+      "next_scan_at": "2026-08-30T02:37:47.741373+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
       "scan_decision": "browser-fallback"
     },
     "807867": {
       "url": "https://phaohoa1.live/truc-tiep/juventus-vs-parma-30-08-2026-807867",
       "match_name": "Juventus vs Parma",
       "kickoff_iso": "2026-08-30T01:45:00+07:00",
-      "minutes_to_kickoff": -18,
-      "last_scan_at": "2026-08-30T02:03:28.288928+07:00",
-      "next_scan_at": "2026-08-30T02:08:28.288928+07:00",
+      "minutes_to_kickoff": -47,
+      "last_scan_at": "2026-08-30T02:32:47.741373+07:00",
+      "next_scan_at": "2026-08-30T02:37:47.741373+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
