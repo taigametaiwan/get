@@ -1,50 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-30T01:04:50.963564+07:00",
+  "updated_at": "2026-08-30T01:33:48.356488+07:00",
   "matches": {
-    "798810": {
-      "url": "https://phaohoa1.live/truc-tiep/celta-vigo-vs-osasuna-17-08-2026-798810",
-      "match_name": "Celta Vigo vs Osasuna",
-      "kickoff_iso": "2026-08-28T01:30:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-28T03:03:35.966021+07:00",
-      "next_scan_at": "2026-08-28T03:08:35.966021+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "841815": {
-      "url": "https://phaohoa1.live/truc-tiep/chelsea-vs-luton-28-08-2026-841815",
-      "match_name": "Chelsea vs Luton",
-      "kickoff_iso": "2026-08-28T01:30:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-28T03:03:35.966021+07:00",
-      "next_scan_at": "2026-08-28T03:08:35.966021+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "844921": {
-      "url": "https://phaohoa1.live/truc-tiep/brighton-vs-tromso-28-08-2026-844921",
-      "match_name": "Brighton vs Tromso",
-      "kickoff_iso": "2026-08-28T01:30:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-28T02:34:14.719647+07:00",
-      "next_scan_at": "2026-08-28T02:39:14.719647+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "798815": {
       "url": "https://phaohoa1.live/truc-tiep/barcelona-vs-ath-bilbao-28-08-2026-798815",
       "match_name": "Barcelona vs Ath Bilbao",
@@ -491,14 +449,12 @@
       "url": "https://phaohoa1.live/truc-tiep/fiorentina-vs-frosinone-29-08-2026-807864",
       "match_name": "Fiorentina vs Frosinone",
       "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-30T01:04:50.963305+07:00",
-      "next_scan_at": "2026-08-30T01:09:50.963305+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
+      "minutes_to_kickoff": -123,
+      "last_scan_at": "2026-08-30T01:33:48.356314+07:00",
+      "next_scan_at": "2026-08-30T01:38:48.356314+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "812664": {
@@ -517,37 +473,37 @@
     },
     "825130": {
       "url": "https://phaohoa1.live/truc-tiep/al-fateh-vs-al-ittihad-30-08-2026-825130",
-      "match_name": "30-08 Saudi Pro League Al Fateh VS Al Ittihad Văn Minh",
+      "match_name": "Al Fateh vs Al Ittihad",
       "kickoff_iso": "2026-08-30T01:00:00+07:00",
-      "minutes_to_kickoff": 57,
-      "last_scan_at": "2026-08-30T00:04:06.995464+07:00",
-      "next_scan_at": "2026-08-30T00:24:06.995464+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-08-30T01:33:48.356314+07:00",
+      "next_scan_at": "2026-08-30T01:38:48.356314+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
+      ],
       "scan_decision": "browser-fallback"
     },
     "809269": {
       "url": "https://phaohoa1.live/truc-tiep/dortmund-vs-hamburger-sv-29-08-2026-809269",
       "match_name": "Dortmund vs Hamburger Sv",
       "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-30T01:04:50.963305+07:00",
-      "next_scan_at": "2026-08-30T01:09:50.963305+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
+      "minutes_to_kickoff": -123,
+      "last_scan_at": "2026-08-30T01:33:48.356314+07:00",
+      "next_scan_at": "2026-08-30T01:38:48.356314+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "798829": {
       "url": "https://phaohoa1.live/truc-tiep/real-sociedad-vs-espanyol-30-08-2026-798829",
-      "match_name": "Real Sociedad vs Espanyol",
+      "match_name": "30-08 Serie A Juventus VS Parma Pháo Thủ",
       "kickoff_iso": "2026-08-30T00:00:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-30T01:04:50.963305+07:00",
-      "next_scan_at": "2026-08-30T01:09:50.963305+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-08-30T01:33:48.356314+07:00",
+      "next_scan_at": "2026-08-30T01:38:48.356314+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -574,6 +530,18 @@
       "minutes_to_kickoff": 41,
       "last_scan_at": "2026-08-30T01:04:50.963305+07:00",
       "next_scan_at": "2026-08-30T01:14:50.963305+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "809921": {
+      "url": "https://phaohoa1.live/truc-tiep/lyon-vs-le-havre-30-08-2026-809921",
+      "match_name": "30-08 Ligue 1 Lyon VS Le Havre Chim Nhỏ",
+      "kickoff_iso": "2026-08-30T01:45:00+07:00",
+      "minutes_to_kickoff": 12,
+      "last_scan_at": "2026-08-30T01:33:48.356314+07:00",
+      "next_scan_at": "2026-08-30T01:38:48.356314+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
