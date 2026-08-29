@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-29T13:31:38.540962+07:00",
+  "updated_at": "2026-08-29T14:01:44.836446+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1873,59 +1873,60 @@
       "url": "https://live05.chuoichientv.me/live/1633979/playford-city-patriots-vs-adelaide-city",
       "match_name": "Playford City Patriots vs Adelaide City - South Australia NPL",
       "kickoff_iso": "2026-08-29T12:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-29T13:31:38.540703+07:00",
-      "next_scan_at": "2026-08-29T13:36:38.540703+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-29T14:01:44.836315+07:00",
+      "next_scan_at": "2026-08-29T14:06:44.836315+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1556031": {
       "url": "https://live05.chuoichientv.me/live/1556031/gamba-osaka-vs-sanfrecce-hiroshima",
       "match_name": "gamba osaka vs sanfrecce hiroshima",
+      "kickoff_iso": "2026-08-29T16:00:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-29T14:01:44.836315+07:00",
+      "next_scan_at": "2026-08-29T14:21:44.836315+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "992995": {
+      "url": "https://live05.chuoichientv.me/live/992995/japan-vs-thailand",
+      "match_name": "japan vs thailand",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T13:31:38.540703+07:00",
-      "next_scan_at": "2026-08-29T13:41:38.540703+07:00",
+      "last_scan_at": "2026-08-29T14:01:44.836315+07:00",
+      "next_scan_at": "2026-08-29T14:11:44.836315+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "992995": {
-      "url": "https://live05.chuoichientv.me/live/992995/japan-vs-thailand",
-      "match_name": "japan vs thailand",
-      "kickoff_iso": "2026-08-29T16:15:00+07:00",
-      "minutes_to_kickoff": 164,
-      "last_scan_at": "2026-08-29T13:31:38.540703+07:00",
-      "next_scan_at": "2026-08-29T14:16:38.540703+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
-    },
     "1556040": {
       "url": "https://live05.chuoichientv.me/live/1556040/v-varen-nagasaki-vs-fc-tokyo",
       "match_name": "v varen nagasaki vs fc tokyo",
-      "kickoff_iso": "2026-08-29T16:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-29T13:31:38.540703+07:00",
-      "next_scan_at": "2026-08-29T14:16:38.540703+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-29T14:01:44.836315+07:00",
+      "next_scan_at": "2026-08-29T14:11:44.836315+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1557383": {
       "url": "https://live05.chuoichientv.me/live/1557383/liverpool-vs-nottingham-forest",
       "match_name": "liverpool vs nottingham forest",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T13:31:38.540703+07:00",
-      "next_scan_at": "2026-08-29T13:41:38.540703+07:00",
+      "last_scan_at": "2026-08-29T14:01:44.836315+07:00",
+      "next_scan_at": "2026-08-29T14:11:44.836315+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1936,8 +1937,8 @@
       "match_name": "china vs iran",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T13:31:38.540703+07:00",
-      "next_scan_at": "2026-08-29T13:41:38.540703+07:00",
+      "last_scan_at": "2026-08-29T14:01:44.836315+07:00",
+      "next_scan_at": "2026-08-29T14:11:44.836315+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1948,8 +1949,8 @@
       "match_name": "sv elversberg vs bayer leverkusen",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T13:31:38.540703+07:00",
-      "next_scan_at": "2026-08-29T13:41:38.540703+07:00",
+      "last_scan_at": "2026-08-29T14:01:44.836315+07:00",
+      "next_scan_at": "2026-08-29T14:11:44.836315+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1960,8 +1961,8 @@
       "match_name": "rb leipzig vs borussia mnchengladbach",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T13:31:38.540703+07:00",
-      "next_scan_at": "2026-08-29T13:41:38.540703+07:00",
+      "last_scan_at": "2026-08-29T14:01:44.836315+07:00",
+      "next_scan_at": "2026-08-29T14:11:44.836315+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1978,6 +1979,20 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
+    },
+    "1628461": {
+      "url": "https://live05.chuoichientv.me/live/1628461/moreton-city-excelsior-vs-gold-coast-knights",
+      "match_name": "Moreton City Excelsior vs Gold Coast Knights - Queensland NPL",
+      "kickoff_iso": "2026-08-29T14:00:00+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-29T14:01:44.836315+07:00",
+      "next_scan_at": "2026-08-29T14:06:44.836315+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     }
   }
 }
