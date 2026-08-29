@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-29T18:32:52.974502+07:00",
+  "updated_at": "2026-08-29T19:03:01.511427+07:00",
   "matches": {
     "0d48809c439a": {
       "url": "https://phaohoa1.live/truc-tiep/ukraine-vs-serbia",
@@ -473,15 +473,17 @@
     },
     "812661": {
       "url": "https://phaohoa1.live/truc-tiep/liverpool-vs-nottingham-29-08-2026-812661",
-      "match_name": "29-08 Bundesliga Elversberg VS Bayer Leverkusen Pháo Thủ",
-      "kickoff_iso": "2026-08-29T20:30:00+07:00",
-      "minutes_to_kickoff": 148,
-      "last_scan_at": "2026-08-29T18:03:00.000615+07:00",
-      "next_scan_at": "2026-08-29T18:48:00.000615+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "match_name": "Liverpool vs Nottingham",
+      "kickoff_iso": "2026-08-29T18:30:00+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-29T19:03:01.511105+07:00",
+      "next_scan_at": "2026-08-29T19:08:01.511105+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "807512": {
       "url": "https://phaohoa1.live/truc-tiep/vissel-kobe-vs-cerezo-osaka-29-08-2026-807512",
@@ -499,35 +501,61 @@
     },
     "440fd6d9736f": {
       "url": "https://phaohoa1.live/truc-tiep/trung-quoc-vs-iran",
-      "match_name": "29-08 Vô Địch Châu Á Trung Quốc VS Iran KaKa",
+      "match_name": "Trung Quốc vs Iran",
       "kickoff_iso": "2026-08-29T19:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-29T18:32:52.974271+07:00",
-      "next_scan_at": "2026-08-29T18:42:52.974271+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-29T19:03:01.511105+07:00",
+      "next_scan_at": "2026-08-29T19:08:01.511105+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     },
     "809268": {
       "url": "https://phaohoa1.live/truc-tiep/union-berlin-vs-eintracht-frankfurt-29-08-2026-809268",
       "match_name": "29-08 Bundesliga Union Berlin VS Eintracht Frankfurt Văn Minh",
       "kickoff_iso": "2026-08-29T20:30:00+07:00",
-      "minutes_to_kickoff": 148,
-      "last_scan_at": "2026-08-29T18:03:00.000615+07:00",
-      "next_scan_at": "2026-08-29T18:48:00.000615+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-29T19:03:01.511105+07:00",
+      "next_scan_at": "2026-08-29T19:23:01.511105+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "812663": {
       "url": "https://phaohoa1.live/truc-tiep/coventry-vs-hull-city-29-08-2026-812663",
       "match_name": "29-08 Premier League Coventry VS Hull City Kevin",
       "kickoff_iso": "2026-08-29T21:00:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-29T19:03:01.511105+07:00",
+      "next_scan_at": "2026-08-29T19:23:01.511105+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "809264": {
+      "url": "https://phaohoa1.live/truc-tiep/elversberg-vs-bayer-leverkusen-29-08-2026-809264",
+      "match_name": "29-08 Premier League Bournemouth VS Everton Người Lửa",
+      "kickoff_iso": "2026-08-29T21:00:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-29T19:03:01.511105+07:00",
+      "next_scan_at": "2026-08-29T19:23:01.511105+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "314aae375bd5": {
+      "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-my",
+      "match_name": "29-08 Hubert Wagner Memorial Ba Lan VS Mỹ KaKa",
+      "kickoff_iso": "2026-08-29T22:00:00+07:00",
       "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-29T18:03:00.000615+07:00",
-      "next_scan_at": "2026-08-29T18:48:00.000615+07:00",
+      "last_scan_at": "2026-08-29T19:03:01.511105+07:00",
+      "next_scan_at": "2026-08-29T19:48:01.511105+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
