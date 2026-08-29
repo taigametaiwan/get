@@ -1,67 +1,101 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-1628461-1" tvg-name="[14:00 29/08] Moreton City Excelsior vs Gold Coast Knights - Queensland NPL [BLV trực tiếp: Chuối Kem Trận đấu Moreton Ci]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_141411_8a5dcd29.png",[14:00 29/08] Moreton City Excelsior vs Gold Coast Knights - Queensland NPL [BLV trực tiếp: Chuối Kem Trận đấu Moreton Ci] [FHD M3U8]
+#EXTINF:-1 tvg-id="chuoichien-1628461-1" tvg-name="[14:00 29/08] moreton city excelsior vs gold coast knights" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_141411_8a5dcd29.png",[14:00 29/08] moreton city excelsior vs gold coast knights [FHD M3U8]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
-#EXTINF:-1 tvg-id="xoilac--tiep-cooma-tigers-vs-canberra-juventus-luc-1300-ngay-29-08-2026-s1-3" tvg-name="[13:00 29/08/2026] Cooma Tigers vs Canberra Juventus [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/y39mp1h5jxymojx/image/small",[13:00 29/08/2026] Cooma Tigers vs Canberra Juventus [BLV HD TONI] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.streamdeliverynet.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="chuoichien-1628461-2" tvg-name="[14:00 29/08] moreton city excelsior vs gold coast knights" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_141411_8a5dcd29.png",[14:00 29/08] moreton city excelsior vs gold coast knights [HD M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false","Origin":"https://xlz.streamdeliverynet.com"}
-https://live2.cachefluxlive.com/livecdn/channel-9.flv?auth_key=3000001787990568-0-0-c50a23b20758718213a47af6133bb154
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
 #EXTINF:-1 tvg-id="xoilac-p-moreton-bay-utd-vs-gold-coast-knights-luc-1400-ngay-29-08-2026-s1-4" tvg-name="[14:00 29/08/2026] Moreton Bay Utd vs Gold Coast Knights [BLV HD KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4jwq2ghkxykm0ve/image/small",[14:00 29/08/2026] Moreton Bay Utd vs Gold Coast Knights [BLV HD KEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-18/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.streamdeliverynet.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-18/off-tvc?is_off_add=false","Origin":"https://xlz.streamdeliverynet.com"}
-https://live2.cachefluxlive.com/livecdn/channel-18.flv?auth_key=3000001787990604-0-0-c625adf0cac67aa3103960e35f14e7ef
-#EXTINF:-1 tvg-id="xoilac--brisbane-strikers-vs-broadbeach-united-luc-1500-ngay-29-08-2026-s1-1" tvg-name="[15:00 29/08/2026] Brisbane Strikers vs Broadbeach United [BLV HD RIO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh7795q82w/image/small",[15:00 29/08/2026] Brisbane Strikers vs Broadbeach United [BLV HD RIO] [FLV]
+https://live2.cachefluxlive.com/livecdn/channel-18.flv?auth_key=3000001787992393-0-0-8acafa3b325b40a85ec21712854824f1
+#EXTINF:-1 tvg-id="xoilac--brisbane-strikers-vs-broadbeach-united-luc-1500-ngay-29-08-2026-s1-2" tvg-name="[15:00 29/08/2026] Brisbane Strikers vs Broadbeach United [BLV HD RIO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh7795q82w/image/small",[15:00 29/08/2026] Brisbane Strikers vs Broadbeach United [BLV HD RIO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-16/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.streamdeliverynet.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-16/off-tvc?is_off_add=false","Origin":"https://xlz.streamdeliverynet.com"}
-https://live2.cachefluxlive.com/livecdn/channel-16.flv?auth_key=3000001787990479-0-0-ba1a9843ffb8f6e614cb3afa4965134a
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-t1-vs-bnk-fearx-luc-1500-ngay-29-08-2026-s1-2" tvg-name="[15:00 29/08/2026] T1 vs Bnk Fearx [BLV HD MARTY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/lol/team/4jwq2eku42pkq0v/image/small",[15:00 29/08/2026] T1 vs Bnk Fearx [BLV HD MARTY] [FLV]
+https://live2.cachefluxlive.com/livecdn/channel-16.flv?auth_key=3000001787992281-0-0-33da750ab8e40ece26bdd8178feca90d
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-t1-vs-bnk-fearx-luc-1500-ngay-29-08-2026-s1-3" tvg-name="[15:00 29/08/2026] T1 vs Bnk Fearx [BLV HD MARTY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/lol/team/4jwq2eku42pkq0v/image/small",[15:00 29/08/2026] T1 vs Bnk Fearx [BLV HD MARTY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-30/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.streamdeliverynet.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-30/off-tvc?is_off_add=false","Origin":"https://xlz.streamdeliverynet.com"}
-https://live2.cachefluxlive.com/livecdn/channel-30.flv?auth_key=3000001787990541-0-0-7592a9af2aea34b40e04c81a31c24d89
-#EXTINF:-1 tvg-id="xoilac-tiep-melbourne-united-vs-cairns-taipans-luc-1530-ngay-29-08-2026-s1-5" tvg-name="[15:30 29/08/2026] Melbourne United vs Cairns Taipans [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/4zp5rzkt95zr82w/image/small",[15:30 29/08/2026] Melbourne United vs Cairns Taipans [BLV HD TOMMY] [FLV]
+https://live2.cachefluxlive.com/livecdn/channel-30.flv?auth_key=3000001787992361-0-0-011e4f4109ff093f11b4e19b082fb98a
+#EXTINF:-1 tvg-id="xoilac-tiep-melbourne-united-vs-cairns-taipans-luc-1530-ngay-29-08-2026-s1-1" tvg-name="[15:30 29/08/2026] Melbourne United vs Cairns Taipans [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/4zp5rzkt95zr82w/image/small",[15:30 29/08/2026] Melbourne United vs Cairns Taipans [BLV HD TOMMY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.streamdeliverynet.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false","Origin":"https://xlz.streamdeliverynet.com"}
-https://live2.cachefluxlive.com/livecdn/channel-29.flv?auth_key=3000001787990630-0-0-40c5870110ff12b0e6c15096a3f54d20
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-nhat-ban-vs-nu-thai-lan-luc-1615-ngay-29-08-2026-s1-6" tvg-name="[16:15 29/08/2026] Nu Nhat Ban vs Nu Thai Lan [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/vl7oqddh51xq510/image/small",[16:15 29/08/2026] Nu Nhat Ban vs Nu Thai Lan [BLV HD TYSON] [FLV]
+https://live2.cachefluxlive.com/livecdn/channel-29.flv?auth_key=3000001787992282-0-0-ae94d929701c112df0fb22d76ded259f
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-nhat-ban-vs-nu-thai-lan-luc-1615-ngay-29-08-2026-s1-5" tvg-name="[16:15 29/08/2026] Nu Nhat Ban vs Nu Thai Lan [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/vl7oqddh51xq510/image/small",[16:15 29/08/2026] Nu Nhat Ban vs Nu Thai Lan [BLV HD TYSON] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.streamdeliverynet.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false","Origin":"https://xlz.streamdeliverynet.com"}
-https://live2.cachefluxlive.com/livecdn/channel-33.flv?auth_key=3000001787990652-0-0-d0a2464d6cfd61d7efaaf9313e963ba8
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-facundo-mena-vs-cezar-cretu-luc-1800-ngay-29-08-2026-s1-7" tvg-name="[18:00 29/08/2026] Facundo Mena vs Cezar Cretu [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/jw2r0jfnvolmz84/image/small",[18:00 29/08/2026] Facundo Mena vs Cezar Cretu [BLV HD VIC] [FLV]
+https://live2.cachefluxlive.com/livecdn/channel-33.flv?auth_key=3000001787992430-0-0-779118a1c7e7198c6c2b65d58406e9a7
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-facundo-mena-vs-cezar-cretu-luc-1800-ngay-29-08-2026-s1-6" tvg-name="[18:00 29/08/2026] Facundo Mena vs Cezar Cretu [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/jw2r0jfnvolmz84/image/small",[18:00 29/08/2026] Facundo Mena vs Cezar Cretu [BLV HD VIC] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.streamdeliverynet.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.streamdeliverynet.com"}
-https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787990659-0-0-3ae96c0845d7c578fed8ffe4b58ddc9d
-#EXTINF:-1 tvg-id="colatv-d22ed0cd5be2-1" tvg-name="[14:00 29/08] Moreton City Excelsior FC vs Gold Coast Knights [BLV CozyĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/a3e3ccdb89e29c21ae1908c3597c318f.png!w80",[14:00 29/08] Moreton City Excelsior FC vs Gold Coast Knights [BLV CozyĐang xem] [M3U8]
+https://live2.cachefluxlive.com/livecdn/channel-32.flv?auth_key=3000001787992436-0-0-a62fa99b24a8a3c804559d1e9676eea6
+#EXTINF:-1 tvg-id="xoilac-ruc-tiep-liverpool-vs-nottingham-forest-luc-1830-ngay-29-08-2026-s1-7" tvg-name="[18:30 29/08/2026] Liverpool vs Nottingham Forest [BLV HD ROY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhw8gryk0/image/small",[18:30 29/08/2026] Liverpool vs Nottingham Forest [BLV HD ROY] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-1/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.streamdeliverynet.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-1/off-tvc?is_off_add=false","Origin":"https://xlz.streamdeliverynet.com"}
+https://live2.cachefluxlive.com/livecdn/channel-1.flv?auth_key=3000001787992443-0-0-91273e05c903ea615034fb2073811e4b
+#EXTINF:-1 tvg-id="xoilac-ruc-tiep-liverpool-vs-nottingham-forest-luc-1830-ngay-29-08-2026-s3-8" tvg-name="[18:30 29/08/2026] Liverpool vs Nottingham Forest [BLV HD NICK] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhw8gryk0/image/small",[18:30 29/08/2026] Liverpool vs Nottingham Forest [BLV HD NICK] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-5/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.streamdeliverynet.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.streamdeliverynet.com/ajax/chanel/type/5/link/channel-5/off-tvc?is_off_add=false","Origin":"https://xlz.streamdeliverynet.com"}
+https://live2.cachefluxlive.com/livecdn/channel-5.flv?auth_key=3000001787992459-0-0-bfbb8f9c70a216485fa32fbb69437eee
+#EXTINF:-1 tvg-id="colatv-c3651d4e5bc8-1" tvg-name="[14:00 29/08] Moreton Bay Utd vs Clb Gold Coast Knights [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV",[14:00 29/08] Moreton Bay Utd vs Clb Gold Coast Knights [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/87379114.m3u8
-#EXTINF:-1 tvg-id="colatv-edaa27287aaa-1" tvg-name="[15:00 29/08] Brisbane Strikers vs Broadbeach United [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV",[15:00 29/08] Brisbane Strikers vs Broadbeach United [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
+#EXTINF:-1 tvg-id="colatv-dd2dace5d52d-1" tvg-name="[16:00 29/08] Gamba Osaka vs Sanfrecce Hiroshima [BLV ROCKSTARĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/91008a96b5de8c75376d17057f89890e.png!w80",[16:00 29/08] Gamba Osaka vs Sanfrecce Hiroshima [BLV ROCKSTARĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/82054853.m3u8
+#EXTINF:-1 tvg-id="colatv-eddcadcd2004-1" tvg-name="[16:00 29/08] Mito Hollyhock vs Machida Zelvia [BLV STINGĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/9ead844240532c4e12d3eb45d2087924.png!w80",[16:00 29/08] Mito Hollyhock vs Machida Zelvia [BLV STINGĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/14707124.m3u8
+#EXTINF:-1 tvg-id="colatv-b0ff4a1797a2-1" tvg-name="[16:00 29/08] Qingdao Hainiu FC vs Wuhan Three Towns [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/9d520898f49a46e0a00feef82240cb80.png!w80",[16:00 29/08] Qingdao Hainiu FC vs Wuhan Three Towns [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/19919577.m3u8
+#EXTINF:-1 tvg-id="colatv-a0ea166a29cd-1" tvg-name="[16:30 29/08] Shimizu S-Pulse vs Kashiwa Reysol [BLV KHÔNG ĐỘĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/fa4105f0408ef893d941e70ae003ab4c.png!w80",[16:30 29/08] Shimizu S-Pulse vs Kashiwa Reysol [BLV KHÔNG ĐỘĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live

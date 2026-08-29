@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-29T15:02:44.987749+07:00",
+  "updated_at": "2026-08-29T15:32:35.691805+07:00",
   "matches": {
     "49465623955d": {
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-dai-loan",
@@ -477,9 +477,9 @@
       "url": "https://phaohoa1.live/truc-tiep/gamba-osaka-vs-sanfrecce-hiroshima-29-08-2026-807503",
       "match_name": "29-08 J1 League Gamba Osaka VS Sanfrecce Hiroshima Tiểu Mây",
       "kickoff_iso": "2026-08-29T16:00:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-29T15:02:44.987611+07:00",
-      "next_scan_at": "2026-08-29T15:22:44.987611+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-29T15:32:35.691662+07:00",
+      "next_scan_at": "2026-08-29T15:42:35.691662+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -489,13 +489,25 @@
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-thai-lan",
       "match_name": "29-08 Vô Địch Châu Á Nhật Bản VS Thái Lan KaKa",
       "kickoff_iso": "2026-08-29T16:15:00+07:00",
-      "minutes_to_kickoff": 73,
-      "last_scan_at": "2026-08-29T15:02:44.987611+07:00",
-      "next_scan_at": "2026-08-29T15:22:44.987611+07:00",
+      "minutes_to_kickoff": 43,
+      "last_scan_at": "2026-08-29T15:32:35.691662+07:00",
+      "next_scan_at": "2026-08-29T15:42:35.691662+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "812661": {
+      "url": "https://phaohoa1.live/truc-tiep/liverpool-vs-nottingham-29-08-2026-812661",
+      "match_name": "29-08 Premier League Liverpool VS Nottingham Người Lửa",
+      "kickoff_iso": "2026-08-29T18:30:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-29T15:32:35.691662+07:00",
+      "next_scan_at": "2026-08-29T16:17:35.691662+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
