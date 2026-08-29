@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-29T19:32:01.057633+07:00",
+  "updated_at": "2026-08-29T20:01:57.739291+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1323,20 +1323,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1627493": {
-      "url": "https://live04.chuoichientv.me/live/1627493/luki-energiya-vs-cherepovets",
-      "match_name": "Luki-Energiya vs Cherepovets - Cúp Nga",
-      "kickoff_iso": "2026-08-27T20:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-27T20:01:45.736065+07:00",
-      "next_scan_at": "2026-08-27T20:06:45.736065+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1597914": {
       "url": "https://live04.chuoichientv.me/live/1597914/al-gharafa-vs-al-shamal",
       "match_name": "Al-Gharafa vs Al Shamal - VĐQG Qatar",
@@ -1432,20 +1418,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
-    },
-    "1534838": {
-      "url": "https://live04.chuoichientv.me/live/1534838/kaspij-aktau-2-vs-akademiya-ontustik",
-      "match_name": "kaspij aktau 2 vs akademiya ontustik",
-      "kickoff_iso": "2026-08-27T20:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-27T21:31:52.246933+07:00",
-      "next_scan_at": "2026-08-27T21:36:52.246933+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "1623441": {
       "url": "https://live04.chuoichientv.me/live/1623441/aarhus-vs-benfica",
@@ -1892,13 +1864,14 @@
       "url": "https://live05.chuoichientv.me/live/1557383/liverpool-vs-nottingham-forest",
       "match_name": "Liverpool vs Nottingham Forest - Ngoại Hạng Anh",
       "kickoff_iso": "2026-08-29T18:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-29T19:32:01.045757+07:00",
-      "next_scan_at": "2026-08-29T19:37:01.045757+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-29T20:01:57.739115+07:00",
+      "next_scan_at": "2026-08-29T20:06:57.739115+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1906,9 +1879,9 @@
       "url": "https://live05.chuoichientv.me/live/995132/china-vs-iran",
       "match_name": "China vs Iran - Bóng chuyền nữ Châu Á 2026",
       "kickoff_iso": "2026-08-29T19:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-29T19:32:01.045757+07:00",
-      "next_scan_at": "2026-08-29T19:37:01.045757+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-29T20:01:57.739115+07:00",
+      "next_scan_at": "2026-08-29T20:06:57.739115+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1918,11 +1891,11 @@
     },
     "1575143": {
       "url": "https://live05.chuoichientv.me/live/1575143/sv-elversberg-vs-bayer-leverkusen",
-      "match_name": "sv elversberg vs bayer leverkusen",
+      "match_name": "SV Elversberg vs Bayer Leverkusen - Bundesliga",
       "kickoff_iso": "2026-08-29T20:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-08-29T19:32:01.045757+07:00",
-      "next_scan_at": "2026-08-29T19:52:01.045757+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-29T20:01:57.739115+07:00",
+      "next_scan_at": "2026-08-29T20:11:57.739115+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1932,9 +1905,9 @@
       "url": "https://live05.chuoichientv.me/live/1575147/rb-leipzig-vs-borussia-mnchengladbach",
       "match_name": "rb leipzig vs borussia mnchengladbach",
       "kickoff_iso": "2026-08-29T20:30:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-08-29T19:32:01.045757+07:00",
-      "next_scan_at": "2026-08-29T19:52:01.045757+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-29T20:01:57.739115+07:00",
+      "next_scan_at": "2026-08-29T20:11:57.739115+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1944,9 +1917,9 @@
       "url": "https://live05.chuoichientv.me/live/1557378/bournemouth-vs-everton",
       "match_name": "bournemouth vs everton",
       "kickoff_iso": "2026-08-29T21:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-29T19:32:01.045757+07:00",
-      "next_scan_at": "2026-08-29T19:52:01.045757+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-29T20:01:57.739115+07:00",
+      "next_scan_at": "2026-08-29T20:21:57.739115+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1968,9 +1941,9 @@
       "url": "https://live05.chuoichientv.me/live/1557380/coventry-vs-hull-city",
       "match_name": "coventry vs hull city",
       "kickoff_iso": "2026-08-29T21:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-29T19:32:01.045757+07:00",
-      "next_scan_at": "2026-08-29T19:52:01.045757+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-29T20:01:57.739115+07:00",
+      "next_scan_at": "2026-08-29T20:21:57.739115+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1979,22 +1952,22 @@
     "1570357": {
       "url": "https://live05.chuoichientv.me/live/1570357/levante-vs-real-betis",
       "match_name": "levante vs real betis",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T19:32:01.045757+07:00",
-      "next_scan_at": "2026-08-29T19:42:01.045757+07:00",
+      "kickoff_iso": "2026-08-29T22:00:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-29T20:01:57.739115+07:00",
+      "next_scan_at": "2026-08-29T20:21:57.739115+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1575142": {
       "url": "https://live05.chuoichientv.me/live/1575142/borussia-dortmund-vs-hamburger-sv",
       "match_name": "borussia dortmund vs hamburger sv",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T19:32:01.045757+07:00",
-      "next_scan_at": "2026-08-29T19:42:01.045757+07:00",
+      "last_scan_at": "2026-08-29T20:01:57.739115+07:00",
+      "next_scan_at": "2026-08-29T20:11:57.739115+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2005,8 +1978,8 @@
       "match_name": "tottenham vs newcastle",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T19:32:01.045757+07:00",
-      "next_scan_at": "2026-08-29T19:42:01.045757+07:00",
+      "last_scan_at": "2026-08-29T20:01:57.739115+07:00",
+      "next_scan_at": "2026-08-29T20:11:57.739115+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
