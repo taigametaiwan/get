@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-30T00:04:06.996027+07:00",
+  "updated_at": "2026-08-30T00:33:13.382327+07:00",
   "matches": {
     "845020": {
       "url": "https://phaohoa1.live/truc-tiep/aarhus-vs-benfica-28-08-2026-845020",
@@ -505,9 +505,9 @@
       "url": "https://phaohoa1.live/truc-tiep/fiorentina-vs-frosinone-29-08-2026-807864",
       "match_name": "Fiorentina vs Frosinone",
       "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-30T00:04:06.995464+07:00",
-      "next_scan_at": "2026-08-30T00:09:06.995464+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-08-30T00:33:13.382098+07:00",
+      "next_scan_at": "2026-08-30T00:38:13.382098+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -517,11 +517,11 @@
     },
     "812664": {
       "url": "https://phaohoa1.live/truc-tiep/tottenham-vs-newcastle-29-08-2026-812664",
-      "match_name": "Tottenham vs Newcastle",
+      "match_name": "30-08 Saudi Pro League Al Fateh VS Al Ittihad Văn Minh",
       "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-30T00:04:06.995464+07:00",
-      "next_scan_at": "2026-08-30T00:09:06.995464+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-08-30T00:33:13.382098+07:00",
+      "next_scan_at": "2026-08-30T00:38:13.382098+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -543,15 +543,55 @@
     },
     "809269": {
       "url": "https://phaohoa1.live/truc-tiep/dortmund-vs-hamburger-sv-29-08-2026-809269",
-      "match_name": "30-08 Serie A Juventus VS Parma Pháo Thủ",
-      "kickoff_iso": "2026-08-30T01:45:00+07:00",
-      "minutes_to_kickoff": 103,
-      "last_scan_at": "2026-08-30T00:04:06.995464+07:00",
-      "next_scan_at": "2026-08-30T00:24:06.995464+07:00",
+      "match_name": "Dortmund vs Hamburger Sv",
+      "kickoff_iso": "2026-08-29T23:30:00+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-08-30T00:33:13.382098+07:00",
+      "next_scan_at": "2026-08-30T00:38:13.382098+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "798829": {
+      "url": "https://phaohoa1.live/truc-tiep/real-sociedad-vs-espanyol-30-08-2026-798829",
+      "match_name": "Real Sociedad vs Espanyol",
+      "kickoff_iso": "2026-08-30T00:00:00+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-30T00:33:13.382098+07:00",
+      "next_scan_at": "2026-08-30T00:38:13.382098+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "798830": {
+      "url": "https://phaohoa1.live/truc-tiep/sevilla-vs-atl-madrid-30-08-2026-798830",
+      "match_name": "30-08 La Liga Sevilla VS Atl. Madrid Kevin",
+      "kickoff_iso": "2026-08-30T02:30:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-30T00:33:13.382098+07:00",
+      "next_scan_at": "2026-08-30T00:53:13.382098+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
+    },
+    "807867": {
+      "url": "https://phaohoa1.live/truc-tiep/juventus-vs-parma-30-08-2026-807867",
+      "match_name": "30-08 Serie A Juventus VS Parma Pháo Thủ",
+      "kickoff_iso": "2026-08-30T01:45:00+07:00",
+      "minutes_to_kickoff": 72,
+      "last_scan_at": "2026-08-30T00:33:13.382098+07:00",
+      "next_scan_at": "2026-08-30T00:53:13.382098+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
     }
   }
 }
