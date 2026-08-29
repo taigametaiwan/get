@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-30T03:02:02.157118+07:00",
+  "updated_at": "2026-08-30T03:31:56.203978+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1841,23 +1841,24 @@
       "url": "https://live05.chuoichientv.me/live/1550101/juventus-vs-parma",
       "match_name": "Juventus vs Parma - Serie A",
       "kickoff_iso": "2026-08-30T01:45:00+07:00",
-      "minutes_to_kickoff": -76,
-      "last_scan_at": "2026-08-30T03:02:02.156977+07:00",
-      "next_scan_at": "2026-08-30T03:07:02.156977+07:00",
+      "minutes_to_kickoff": -106,
+      "last_scan_at": "2026-08-30T03:31:56.203855+07:00",
+      "next_scan_at": "2026-08-30T03:36:56.203855+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1552741": {
       "url": "https://live05.chuoichientv.me/live/1552741/lyon-vs-le-havre",
-      "match_name": "lyon vs le havre",
+      "match_name": "Lyon vs LE Havre - Ligue 1",
       "kickoff_iso": "2026-08-30T01:45:00+07:00",
-      "minutes_to_kickoff": -76,
-      "last_scan_at": "2026-08-30T03:02:02.156977+07:00",
-      "next_scan_at": "2026-08-30T03:07:02.156977+07:00",
+      "minutes_to_kickoff": -106,
+      "last_scan_at": "2026-08-30T03:31:56.203855+07:00",
+      "next_scan_at": "2026-08-30T03:36:56.203855+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1869,9 +1870,9 @@
       "url": "https://live05.chuoichientv.me/live/1570362/sevilla-vs-atletico-madrid",
       "match_name": "Sevilla vs Atletico Madrid - La Liga",
       "kickoff_iso": "2026-08-30T02:30:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-08-30T03:02:02.156977+07:00",
-      "next_scan_at": "2026-08-30T03:07:02.156977+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-08-30T03:31:56.203855+07:00",
+      "next_scan_at": "2026-08-30T03:36:56.203855+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1882,11 +1883,11 @@
     },
     "1492351": {
       "url": "https://live05.chuoichientv.me/live/1492351/atletico-mg-vs-vitoria",
-      "match_name": "Atletico-MG vs Vitoria - VĐQG Brazil",
+      "match_name": "atletico mg vs vitoria",
       "kickoff_iso": "2026-08-30T04:30:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-30T03:02:02.156977+07:00",
-      "next_scan_at": "2026-08-30T03:22:02.156977+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-08-30T03:31:56.203855+07:00",
+      "next_scan_at": "2026-08-30T03:51:56.203855+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1895,22 +1896,22 @@
     "1490422": {
       "url": "https://live05.chuoichientv.me/live/1490422/inter-miami-vs-cf-montreal",
       "match_name": "inter miami vs cf montreal",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-30T03:02:02.156977+07:00",
-      "next_scan_at": "2026-08-30T03:12:02.156977+07:00",
+      "kickoff_iso": "2026-08-30T06:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-30T03:31:56.203855+07:00",
+      "next_scan_at": "2026-08-30T04:16:56.203855+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1490432": {
       "url": "https://live05.chuoichientv.me/live/1490432/colorado-rapids-vs-real-salt-lake",
       "match_name": "colorado rapids vs real salt lake",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-30T03:02:02.156977+07:00",
-      "next_scan_at": "2026-08-30T03:12:02.156977+07:00",
+      "last_scan_at": "2026-08-30T03:31:56.203855+07:00",
+      "next_scan_at": "2026-08-30T03:41:56.203855+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
