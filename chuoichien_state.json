@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-30T04:01:41.651607+07:00",
+  "updated_at": "2026-08-30T04:32:03.688728+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1885,33 +1885,35 @@
       "url": "https://live05.chuoichientv.me/live/1492351/atletico-mg-vs-vitoria",
       "match_name": "Atletico-MG vs Vitoria - VĐQG Brazil",
       "kickoff_iso": "2026-08-30T04:30:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-30T04:01:41.651511+07:00",
-      "next_scan_at": "2026-08-30T04:11:41.651511+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-30T04:32:03.688638+07:00",
+      "next_scan_at": "2026-08-30T04:37:03.688638+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1490422": {
       "url": "https://live05.chuoichientv.me/live/1490422/inter-miami-vs-cf-montreal",
       "match_name": "inter miami vs cf montreal",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-30T04:01:41.651511+07:00",
-      "next_scan_at": "2026-08-30T04:11:41.651511+07:00",
+      "kickoff_iso": "2026-08-30T06:30:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-30T04:32:03.688638+07:00",
+      "next_scan_at": "2026-08-30T04:52:03.688638+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1490432": {
       "url": "https://live05.chuoichientv.me/live/1490432/colorado-rapids-vs-real-salt-lake",
       "match_name": "colorado rapids vs real salt lake",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-30T04:01:41.651511+07:00",
-      "next_scan_at": "2026-08-30T04:11:41.651511+07:00",
+      "last_scan_at": "2026-08-30T04:32:03.688638+07:00",
+      "next_scan_at": "2026-08-30T04:42:03.688638+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
