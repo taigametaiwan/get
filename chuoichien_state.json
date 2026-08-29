@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-29T23:31:47.189803+07:00",
+  "updated_at": "2026-08-30T00:01:52.533257+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1323,20 +1323,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1623423": {
-      "url": "https://live04.chuoichientv.me/live/1623423/monaco-vs-gornik-zabrze",
-      "match_name": "monaco vs gornik zabrze",
-      "kickoff_iso": "2026-08-27T23:45:00+07:00",
-      "minutes_to_kickoff": -107,
-      "last_scan_at": "2026-08-28T01:32:20.192638+07:00",
-      "next_scan_at": "2026-08-28T01:37:20.192638+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1623447": {
       "url": "https://live04.chuoichientv.me/live/1623447/kauno-algiris-vs-besiktas",
       "match_name": "kauno algiris vs besiktas",
@@ -1868,9 +1854,9 @@
       "url": "https://live05.chuoichientv.me/live/1570357/levante-vs-real-betis",
       "match_name": "Levante vs Real Betis - La Liga",
       "kickoff_iso": "2026-08-29T22:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-29T23:31:47.189669+07:00",
-      "next_scan_at": "2026-08-29T23:36:47.189669+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-08-30T00:01:52.533067+07:00",
+      "next_scan_at": "2026-08-30T00:06:52.533067+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1882,14 +1868,13 @@
       "url": "https://live05.chuoichientv.me/live/1575142/borussia-dortmund-vs-hamburger-sv",
       "match_name": "Borussia Dortmund vs Hamburger SV - Bundesliga",
       "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-29T23:31:47.189669+07:00",
-      "next_scan_at": "2026-08-29T23:36:47.189669+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-30T00:01:52.533067+07:00",
+      "next_scan_at": "2026-08-30T00:06:52.533067+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1897,13 +1882,14 @@
       "url": "https://live05.chuoichientv.me/live/1557386/tottenham-vs-newcastle",
       "match_name": "Tottenham vs Newcastle - Ngoại Hạng Anh",
       "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-29T23:31:47.189669+07:00",
-      "next_scan_at": "2026-08-29T23:36:47.189669+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-30T00:01:52.533067+07:00",
+      "next_scan_at": "2026-08-30T00:06:52.533067+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1912,8 +1898,8 @@
       "match_name": "real sociedad vs espanyol",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T23:31:47.189669+07:00",
-      "next_scan_at": "2026-08-29T23:41:47.189669+07:00",
+      "last_scan_at": "2026-08-30T00:01:52.533067+07:00",
+      "next_scan_at": "2026-08-30T00:11:52.533067+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1924,8 +1910,8 @@
       "match_name": "juventus vs parma",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T23:31:47.189669+07:00",
-      "next_scan_at": "2026-08-29T23:41:47.189669+07:00",
+      "last_scan_at": "2026-08-30T00:01:52.533067+07:00",
+      "next_scan_at": "2026-08-30T00:11:52.533067+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1936,8 +1922,8 @@
       "match_name": "lyon vs le havre",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T23:31:47.189669+07:00",
-      "next_scan_at": "2026-08-29T23:41:47.189669+07:00",
+      "last_scan_at": "2026-08-30T00:01:52.533067+07:00",
+      "next_scan_at": "2026-08-30T00:11:52.533067+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1948,8 +1934,8 @@
       "match_name": "sevilla vs atletico madrid",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T23:31:47.189669+07:00",
-      "next_scan_at": "2026-08-29T23:41:47.189669+07:00",
+      "last_scan_at": "2026-08-30T00:01:52.533067+07:00",
+      "next_scan_at": "2026-08-30T00:11:52.533067+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1960,8 +1946,8 @@
       "match_name": "atletico mg vs vitoria",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T23:31:47.189669+07:00",
-      "next_scan_at": "2026-08-29T23:41:47.189669+07:00",
+      "last_scan_at": "2026-08-30T00:01:52.533067+07:00",
+      "next_scan_at": "2026-08-30T00:11:52.533067+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1972,8 +1958,8 @@
       "match_name": "inter miami vs cf montreal",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-29T23:31:47.189669+07:00",
-      "next_scan_at": "2026-08-29T23:41:47.189669+07:00",
+      "last_scan_at": "2026-08-30T00:01:52.533067+07:00",
+      "next_scan_at": "2026-08-30T00:11:52.533067+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
