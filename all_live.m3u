@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-1628893-1" tvg-name="[15:30 30/08] SC Wanderers vs Ipswich - Queensland Premier League [BLV trực tiếp: Chuối To Trận đấu SC Wanderer]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_144202_6c8e2f4d.png",[15:30 30/08] SC Wanderers vs Ipswich - Queensland Premier League [BLV trực tiếp: Chuối To Trận đấu SC Wanderer] [FHD M3U8]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8
 #EXTINF:-1 tvg-id="chuoichien-1507051-1" tvg-name="[17:30 30/08] Gangwon FC vs Pohang Steelers - K League 1 [BLV trực tiếp: Chuối Lá Trận đấu Gangwon FC]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133412_55a77d69.png",[17:30 30/08] Gangwon FC vs Pohang Steelers - K League 1 [BLV trực tiếp: Chuối Lá Trận đấu Gangwon FC] [FHD M3U8]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -23,6 +17,12 @@ https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
+#EXTINF:-1 tvg-id="chuoichien-1636616-1" tvg-name="[18:00 30/08] Công An Hà Nội vs TP. Hồ Chí Minh - Super Cup [BLV trực tiếp: A Ngao Trận đấu Công An Hà Nộ]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/20250823_192612_72e9a551.webp",[18:00 30/08] Công An Hà Nội vs TP. Hồ Chí Minh - Super Cup [BLV trực tiếp: A Ngao Trận đấu Công An Hà Nộ] [FHD M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-fiji-vs-mong-co-luc-1600-ngay-30-08-2026-s1-1" tvg-name="[16:00 30/08/2026] Fiji vs Mong Co [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/2y8m4pt3070ml07/image/small",[16:00 30/08/2026] Fiji vs Mong Co [BLV HD STEP] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-26/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
@@ -51,84 +51,133 @@ https://live2.streamhaulcdn.com/livecdn/channel-14.flv?auth_key=3000001788085998
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-4/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
 https://live2.streamhaulcdn.com/livecdn/channel-4.flv?auth_key=3000001788086028-0-0-8e578d1df26ea9841de13f0f1aa33c21
-#EXTINF:-1 tvg-id="xoilac-uc-tiep-kochi-united-vs-roasso-kumamoto-luc-1700-ngay-30-08-2026-s1-1" tvg-name="[17:00 30/08/2026] Kochi United vs Roasso Kumamoto [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nh5p88md7o/image/small",[17:00 30/08/2026] Kochi United vs Roasso Kumamoto [BLV HD JEAN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-kochi-united-vs-roasso-kumamoto-luc-1700-ngay-30-08-2026-s1-7" tvg-name="[17:00 30/08/2026] Kochi United vs Roasso Kumamoto [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nh5p88md7o/image/small",[17:00 30/08/2026] Kochi United vs Roasso Kumamoto [BLV HD JEAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-7/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-7/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-7.flv?auth_key=3000001788085879-0-0-142ea27e5659d5c2f1087d1e1a85ea1e
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-trung-quoc-vs-nu-thai-lan-luc-1745-ngay-30-08-2026-s1-5" tvg-name="[17:45 30/08/2026] Nu Trung Quoc vs Nu Thai Lan [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/gpxwrxdhkv4myk0/image/small",[17:45 30/08/2026] Nu Trung Quoc vs Nu Thai Lan [BLV HD TYSON] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false
+https://live2.streamhaulcdn.com/livecdn/channel-7.flv?auth_key=3000001788087820-0-0-90b4886e02f4e6ffa8b3c2e3935c7065
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-z-kanazawa-vs-ehime-fc-luc-1700-ngay-30-08-2026-s1-8" tvg-name="[17:00 30/08/2026] Z Kanazawa vs Ehime Fc [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zh3wkxql07/image/small",[17:00 30/08/2026] Z Kanazawa vs Ehime Fc [BLV HD BEE] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-8/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-33.flv?auth_key=3000001788086054-0-0-e66e05f157cadeb37c2bab0c8d5599b3
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-singapore-vs-malaysia-luc-1800-ngay-30-08-2026-s1-6" tvg-name="[18:00 30/08/2026] Singapore vs Malaysia [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/z318q6ntepvmo9j/image/small",[18:00 30/08/2026] Singapore vs Malaysia [BLV HD ALAN] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788086054-0-0-d137527b74052b4fe184204faf01a992
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-shifters-vs-team-vitality-luc-1900-ngay-30-08-2026-s1-7" tvg-name="[19:00 30/08/2026] Shifters vs Team Vitality [BLV HD MARTY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/lol/team/y39mp8xu3xexqoj/image/small",[19:00 30/08/2026] Shifters vs Team Vitality [BLV HD MARTY] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-30/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-30/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788086078-0-0-e71f52f24ce84df9d9815064c4b28759
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-ha-lan-vs-croatia-luc-1930-ngay-30-08-2026-s1-8" tvg-name="[19:30 30/08/2026] Ha Lan vs Croatia [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/vl7oqd4tk23q510/image/small",[19:30 30/08/2026] Ha Lan vs Croatia [BLV HD STEP] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-26/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-26/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-26.flv?auth_key=3000001788086091-0-0-8c612fe25265c1f19e82f4af1f3dec1e
-#EXTINF:-1 tvg-id="xoilac-ruc-tiep-ha-noi-buffalo-vs-sai-gon-heat-luc-1930-ngay-30-08-2026-s1-9" tvg-name="[19:30 30/08/2026] Ha Noi Buffalo vs Sai Gon Heat [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/v2y8m4pt256ml07/image/small",[19:30 30/08/2026] Ha Noi Buffalo vs Sai Gon Heat [BLV HD TOMMY] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-29.flv?auth_key=3000001788086092-0-0-297634925422960f776ce943e2a62999
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-chelsea-vs-brighton-luc-2000-ngay-30-08-2026-s1-10" tvg-name="[20:00 30/08/2026] Chelsea vs Brighton [BLV HD ROY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpdxm7vx/image/small",[20:00 30/08/2026] Chelsea vs Brighton [BLV HD ROY] [FLV]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-8/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-8.flv?auth_key=3000001788087835-0-0-f145b2139e2291b387a2f02be91e2105
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-fc-utrecht-vs-psv-eindhoven-luc-1715-ngay-30-08-2026-s1-6" tvg-name="[17:15 30/08/2026] Fc Utrecht vs Psv Eindhoven [BLV HD ROY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhdzyqwzv/image/small",[17:15 30/08/2026] Fc Utrecht vs Psv Eindhoven [BLV HD ROY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-1/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-1/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-1.flv?auth_key=3000001788086100-0-0-a93b003379b8f48e879e17ed3c52f13a
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-leeds-united-vs-brentford-luc-2000-ngay-30-08-2026-s3-12" tvg-name="[20:00 30/08/2026] Leeds United vs Brentford [BLV FULL HD NICK] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7phdv4m2wd/image/small",[20:00 30/08/2026] Leeds United vs Brentford [BLV FULL HD NICK] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-5/off-tvc?is_off_add=false
+https://live2.streamhaulcdn.com/livecdn/channel-1.flv?auth_key=3000001788087705-0-0-b442f92c1e3e781acc6ef88090cc65d6
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-gangwon-fc-vs-pohang-steelers-luc-1730-ngay-30-08-2026-s1-3" tvg-name="[17:30 30/08/2026] Gangwon Fc vs Pohang Steelers [BLV HD ASTRA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h78n0q0j6/image/small",[17:30 30/08/2026] Gangwon Fc vs Pohang Steelers [BLV HD ASTRA] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-5/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-5.flv?auth_key=3000001788086120-0-0-ba2ba972c7c3b9e6bbb26b3e2fb41bae
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-leeds-united-vs-brentford-luc-2000-ngay-30-08-2026-s1-11" tvg-name="[20:00 30/08/2026] Leeds United vs Brentford [BLV JOHAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7phdv4m2wd/image/small",[20:00 30/08/2026] Leeds United vs Brentford [BLV JOHAN] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-12/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-12/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-12.flv?auth_key=3000001788086100-0-0-f409da30074f1f041f43c59262bfe0fb
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-sunderland-vs-fulham-luc-2000-ngay-30-08-2026-s3-14" tvg-name="[20:00 30/08/2026] Sunderland vs Fulham [BLV FULL HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7he6gqdyj/image/small",[20:00 30/08/2026] Sunderland vs Fulham [BLV FULL HD BRADY] [FLV]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-11.flv?auth_key=3000001788087681-0-0-1e1fe9508dda359d27dff53eee7995df
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-gwangju-fc-vs-seoul-fc-luc-1730-ngay-30-08-2026-s1-4" tvg-name="[17:30 30/08/2026] Gwangju Fc vs Seoul Fc [BLV HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1hn37mojx/image/small",[17:30 30/08/2026] Gwangju Fc vs Seoul Fc [BLV HD BRADY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-15/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-15/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-15.flv?auth_key=3000001788086120-0-0-25d6ee8401a0aea4a37b8fa1613a0e8f
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-sunderland-vs-fulham-luc-2000-ngay-30-08-2026-s1-13" tvg-name="[20:00 30/08/2026] Sunderland vs Fulham [BLV TOM] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7he6gqdyj/image/small",[20:00 30/08/2026] Sunderland vs Fulham [BLV TOM] [FLV]
+https://live2.streamhaulcdn.com/livecdn/channel-15.flv?auth_key=3000001788087701-0-0-ea39d553a14fb5adf9ac7be2f1505bae
+#EXTINF:-1 tvg-id="xoilac-tiep-jeju-sk-fc-vs-daejeon-hana-citizen-luc-1730-ngay-30-08-2026-s1-5" tvg-name="[17:30 30/08/2026] Jeju Sk Fc vs Daejeon Hana Citizen [BLV HD RIO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1hn57mojx/image/small",[17:30 30/08/2026] Jeju Sk Fc vs Daejeon Hana Citizen [BLV HD RIO] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-16/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-16/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-16.flv?auth_key=3000001788087704-0-0-3a1a2b747ff1b4b030c6b0979894f6fc
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-trung-quoc-vs-nu-thai-lan-luc-1745-ngay-30-08-2026-s1-2" tvg-name="[17:45 30/08/2026] Nu Trung Quoc vs Nu Thai Lan [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/gpxwrxdhkv4myk0/image/small",[17:45 30/08/2026] Nu Trung Quoc vs Nu Thai Lan [BLV HD TYSON] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-33.flv?auth_key=3000001788087681-0-0-a2a64c5a5f097fb389ee8062eb25a3b6
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-singapore-vs-malaysia-luc-1800-ngay-30-08-2026-s1-1" tvg-name="[18:00 30/08/2026] Singapore vs Malaysia [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/z318q6ntepvmo9j/image/small",[18:00 30/08/2026] Singapore vs Malaysia [BLV HD ALAN] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788087682-0-0-03f436efe1f406e04f892ebaee9746aa
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-shifters-vs-team-vitality-luc-1900-ngay-30-08-2026-s1-9" tvg-name="[19:00 30/08/2026] Shifters vs Team Vitality [BLV HD MARTY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/lol/team/y39mp8xu3xexqoj/image/small",[19:00 30/08/2026] Shifters vs Team Vitality [BLV HD MARTY] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-30/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-30/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788087862-0-0-c66c27339a235ed9d37d7bcc4209e622
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-ha-lan-vs-croatia-luc-1930-ngay-30-08-2026-s1-10" tvg-name="[19:30 30/08/2026] Ha Lan vs Croatia [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/vl7oqd4tk23q510/image/small",[19:30 30/08/2026] Ha Lan vs Croatia [BLV HD STEP] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-26/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-26/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-26.flv?auth_key=3000001788087871-0-0-ac153a2a6ebb1fbbcdf965d344f782b9
+#EXTINF:-1 tvg-id="xoilac-ruc-tiep-ha-noi-buffalo-vs-sai-gon-heat-luc-1930-ngay-30-08-2026-s1-11" tvg-name="[19:30 30/08/2026] Ha Noi Buffalo vs Sai Gon Heat [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/v2y8m4pt256ml07/image/small",[19:30 30/08/2026] Ha Noi Buffalo vs Sai Gon Heat [BLV HD TOMMY] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-29.flv?auth_key=3000001788087878-0-0-7f38db1985bc323d7e44ee88d20b920e
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-chelsea-vs-brighton-luc-2000-ngay-30-08-2026-s1-12" tvg-name="[20:00 30/08/2026] Chelsea vs Brighton [BLV HD ROY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpdxm7vx/image/small",[20:00 30/08/2026] Chelsea vs Brighton [BLV HD ROY] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-1/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-1/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-1.flv?auth_key=3000001788087884-0-0-59348510d94fb168c1f2656fbb32ab5f
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-leeds-united-vs-brentford-luc-2000-ngay-30-08-2026-s3-14" tvg-name="[20:00 30/08/2026] Leeds United vs Brentford [BLV FULL HD NICK] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7phdv4m2wd/image/small",[20:00 30/08/2026] Leeds United vs Brentford [BLV FULL HD NICK] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-5/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-5/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-5.flv?auth_key=3000001788087901-0-0-625bb9561e868c4157045d4590cd1ea8
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-leeds-united-vs-brentford-luc-2000-ngay-30-08-2026-s1-13" tvg-name="[20:00 30/08/2026] Leeds United vs Brentford [BLV JOHAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7phdv4m2wd/image/small",[20:00 30/08/2026] Leeds United vs Brentford [BLV JOHAN] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-12/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-12/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-12.flv?auth_key=3000001788087884-0-0-62cd8fa292aa6a2b016910dd74a43c2b
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-sunderland-vs-fulham-luc-2000-ngay-30-08-2026-s3-16" tvg-name="[20:00 30/08/2026] Sunderland vs Fulham [BLV FULL HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7he6gqdyj/image/small",[20:00 30/08/2026] Sunderland vs Fulham [BLV FULL HD BRADY] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-15/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-15/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-15.flv?auth_key=3000001788087904-0-0-86544e1d8eb8967628e95929f806abcf
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-sunderland-vs-fulham-luc-2000-ngay-30-08-2026-s1-15" tvg-name="[20:00 30/08/2026] Sunderland vs Fulham [BLV TOM] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7he6gqdyj/image/small",[20:00 30/08/2026] Sunderland vs Fulham [BLV TOM] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-4/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-4/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-4.flv?auth_key=3000001788086100-0-0-058b654cd60b93b3e5790cb5adf37f42
-#EXTINF:-1 tvg-id="colatv-72198df6711f-1" tvg-name="[16:00 30/08] Australia vs Jordan [BLV 247Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/basketball/team/6bf25bb8aa9416845d5932da2d3d0201.png!w80",[16:00 30/08] Australia vs Jordan [BLV 247Đang xem] [M3U8]
+https://live2.streamhaulcdn.com/livecdn/channel-4.flv?auth_key=3000001788087886-0-0-8f3c54762b78245b38b2b9f3de2de7be
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-kazakhstan-vs-kyrgyzstan-luc-2100-ngay-30-08-2026-s1-17" tvg-name="[21:00 30/08/2026] Kazakhstan vs Kyrgyzstan [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/gy0or5gtkgyqwzv/image/small",[21:00 30/08/2026] Kazakhstan vs Kyrgyzstan [BLV HD ALAN] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788087911-0-0-3898d5a39273332e9bcf522fef21ccd8
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-phap-vs-nu-hy-lap-luc-2100-ngay-30-08-2026-s1-18" tvg-name="[21:00 30/08/2026] Nu Phap vs Nu Hy Lap [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/l965mkdh6yyr1ge/image/small",[21:00 30/08/2026] Nu Phap vs Nu Hy Lap [BLV HD TYSON] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.m3u8delivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.m3u8delivery.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false","Origin":"https://xlz.m3u8delivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-33.flv?auth_key=3000001788087918-0-0-68649c1b789255678c2390d2a3cb15c2
+#EXTINF:-1 tvg-id="colatv-6b6da82c602c-1" tvg-name="[16:00 30/08] Australia vs Jordan [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/basketball/team/6bf25bb8aa9416845d5932da2d3d0201.png!w80",[16:00 30/08] Australia vs Jordan [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
@@ -142,28 +191,42 @@ https://live05.meung.app/live/90865415.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/99121525.m3u8
-#EXTINF:-1 tvg-id="colatv-0253e1d1841d-1" tvg-name="[17:30 30/08] Gwangju FC vs Seoul [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/ad010af729c420626d1865ad744168d3.png!w80",[17:30 30/08] Gwangju FC vs Seoul [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
+#EXTINF:-1 tvg-id="colatv-0253e1d1841d-1" tvg-name="[17:30 30/08] Gwangju FC vs Seoul [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2e8e1e2a893d37e3f7260e97c807c28a.png!w80",[17:30 30/08] Gwangju FC vs Seoul [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/82054853.m3u8
-#EXTINF:-1 tvg-id="colatv-0ed0705b1525-1" tvg-name="[17:30 30/08] Incheon United Club vs Jeonbuk Hyundai Motors [BLV FANTAĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/36559689046e7d1d4f597c1a0bf9c5d6.png!w80",[17:30 30/08] Incheon United Club vs Jeonbuk Hyundai Motors [BLV FANTAĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-0af71c4ba154-1" tvg-name="[17:30 30/08] Incheon United Club vs Jeonbuk Hyundai Motors [BLV FANTAĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/36559689046e7d1d4f597c1a0bf9c5d6.png!w80",[17:30 30/08] Incheon United Club vs Jeonbuk Hyundai Motors [BLV FANTAĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/16226575.m3u8
-#EXTINF:-1 tvg-id="colatv-0b4e62cf3c92-1" tvg-name="[17:30 30/08] Jeju SK FC vs Daejeon Hana Citizen [BLV KHÔNG ĐỘĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2d2abe914435bb9b7140cf2154c50de9.png!w80",[17:30 30/08] Jeju SK FC vs Daejeon Hana Citizen [BLV KHÔNG ĐỘĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-e0d98b077fba-1" tvg-name="[17:30 30/08] Jeju SK FC vs Daejeon Hana Citizen [BLV KHÔNG ĐỘĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2d2abe914435bb9b7140cf2154c50de9.png!w80",[17:30 30/08] Jeju SK FC vs Daejeon Hana Citizen [BLV KHÔNG ĐỘĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/41943555.m3u8
-#EXTINF:-1 tvg-id="colatv-be003554b0ea-1" tvg-name="[18:00 30/08] Cong An Ha Noi FC vs Cong An Ho Chi Minh City [BLV REDBULLĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f3dde7370cf875e4e657b4331b1b4a31.png!w80",[18:00 30/08] Cong An Ha Noi FC vs Cong An Ho Chi Minh City [BLV REDBULLĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-5ae0d0a23631-1" tvg-name="[18:00 30/08] Cong An Ha Noi FC vs Cong An Ho Chi Minh City [BLV REDBULLĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f3dde7370cf875e4e657b4331b1b4a31.png!w80",[18:00 30/08] Cong An Ha Noi FC vs Cong An Ho Chi Minh City [BLV REDBULLĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.miekgo.app/live/49572724.m3u8
+#EXTINF:-1 tvg-id="colatv-82a57ee1e87d-1" tvg-name="[18:30 30/08] 1. FC Magdeburg vs Holstein Kiel [BLV PEPSIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/e4dba0e2b72f3f545ece098b91b811a1.png!w80",[18:30 30/08] 1. FC Magdeburg vs Holstein Kiel [BLV PEPSIĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/59444581.m3u8
+#EXTINF:-1 tvg-id="colatv-8224cf911560-1" tvg-name="[19:30 30/08] Feyenoord vs ADO Den Haag [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/44073f2d2c979a9388f98505ac3b754d.png!w80",[19:30 30/08] Feyenoord vs ADO Den Haag [BLV MOUNTAIN DEWĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
