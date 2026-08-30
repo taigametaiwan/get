@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-30T14:02:24.981699+07:00",
+  "updated_at": "2026-08-30T14:32:36.669117+07:00",
   "matches": {
     "e9265e9da9fb": {
       "url": "https://phaohoa1.live/truc-tiep/trung-quoc-vs-viet-nam",
@@ -543,15 +543,27 @@
       "url": "https://phaohoa1.live/truc-tiep/iran-vs-nhat-ban",
       "match_name": "Iran vs Nhật Bản",
       "kickoff_iso": "2026-08-30T14:15:00+07:00",
-      "minutes_to_kickoff": 13,
-      "last_scan_at": "2026-08-30T14:02:24.981616+07:00",
-      "next_scan_at": "2026-08-30T14:07:24.981616+07:00",
+      "minutes_to_kickoff": -17,
+      "last_scan_at": "2026-08-30T14:32:36.668969+07:00",
+      "next_scan_at": "2026-08-30T14:37:36.668969+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "805980": {
+      "url": "https://phaohoa1.live/truc-tiep/utrecht-vs-psv-30-08-2026-805980",
+      "match_name": "30-08 Eredivisie Utrecht VS PSV Tiểu Mây",
+      "kickoff_iso": "2026-08-30T17:15:00+07:00",
+      "minutes_to_kickoff": 163,
+      "last_scan_at": "2026-08-30T14:32:36.668969+07:00",
+      "next_scan_at": "2026-08-30T15:17:36.668969+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
