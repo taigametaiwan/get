@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-30T07:31:45.732900+07:00",
+  "updated_at": "2026-08-30T08:01:37.517864+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1871,13 +1871,14 @@
       "url": "https://live05.chuoichientv.me/live/1490422/inter-miami-vs-cf-montreal",
       "match_name": "Inter Miami vs CF Montreal - Major League Soccer",
       "kickoff_iso": "2026-08-30T06:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-08-30T07:31:45.732829+07:00",
-      "next_scan_at": "2026-08-30T07:36:45.732829+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-30T08:01:37.517758+07:00",
+      "next_scan_at": "2026-08-30T08:06:37.517758+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1885,9 +1886,9 @@
       "url": "https://live05.chuoichientv.me/live/1490432/colorado-rapids-vs-real-salt-lake",
       "match_name": "Colorado Rapids vs Real Salt Lake - Major League Soccer",
       "kickoff_iso": "2026-08-30T08:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-08-30T07:31:45.732829+07:00",
-      "next_scan_at": "2026-08-30T07:51:45.732829+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-30T08:01:37.517758+07:00",
+      "next_scan_at": "2026-08-30T08:11:37.517758+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
