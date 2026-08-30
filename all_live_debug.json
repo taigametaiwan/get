@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-08-30T13:04:13.016227+07:00",
+  "generated_at": "2026-08-30T13:33:55.511140+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -134,55 +134,37 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 24,
+  "input_candidates": 26,
   "metadata_reference_count": 211,
-  "last_good_recovered_count": 8,
+  "last_good_recovered_count": 10,
   "last_good_suppressed_by_fresh_count": 1,
   "last_good_audit": [
     {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-4.flv?auth_key=3000001788066198-0-0-d1dba7d5cca91b120dcbb11ab6960940",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-30T10:10:00+07:00",
-      "minutes_to_kickoff": -174.22,
-      "filtered_before_probe": true
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-17.flv?auth_key=3000001788069793-0-0-81ebbc48368542bdd10166c9640f6751",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
     },
     {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-16.flv?auth_key=3000001788066200-0-0-91c38ed58aac7830db9d0f80ba9148a2",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-08-30T10:10:00+07:00",
-      "minutes_to_kickoff": -174.22,
-      "filtered_before_probe": true
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788069689-0-0-9ca74369376162f638df9664cb63f7d5",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
     },
     {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788067994-0-0-47210121744789b177f4faf3dec1b53c",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-7.flv?auth_key=3000001788069733-0-0-54d443b09485a8d0d5c9e8285e4a5709",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-29.flv?auth_key=3000001788069689-0-0-acf746fb90ccf6037eb0819e745efb74",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
       "url": "https://live2.streamhaulcdn.com/livecdn/channel-20.flv?auth_key=3000001788066172-0-0-1e695e83290cd140451f0c850387e175",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-29.flv?auth_key=3000001788068002-0-0-552a13e9851f7fa9c9777fc73ab7ef94",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-17.flv?auth_key=3000001788067971-0-0-0d504b607535fec05a1ae51810525c57",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-7.flv?auth_key=3000001788067869-0-0-a15f0b2438ee2e2a1a9fc15334eedea3",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -200,32 +182,38 @@
       "source": "colatv"
     },
     {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-33.flv?auth_key=3000001788068009-0-0-4f645f927cebceca3267c364507b9347",
+      "url": "https://live05.meung.app/live/87379114.m3u8",
       "kept": true,
-      "reason": "HTTP 200; streaming body (TimeoutError)",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788068017-0-0-7ee531c57528d35798f836db75452557",
-      "kept": true,
-      "reason": "HTTP 200; streaming body (TimeoutError)",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/07808742.m3u8",
-      "kept": false,
-      "reason": "TimeoutError: The read operation timed out",
+      "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/49572724.m3u8",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-33.flv?auth_key=3000001788069804-0-0-ac31886a13bc5dda93b259c65afb67d4",
+      "kept": true,
+      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788069809-0-0-b3b1306b7cab31782fcbf4022e790bac",
+      "kept": true,
+      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-26.flv?auth_key=3000001788069834-0-0-d2f71a85cb8050617de0c4a5086d1a04",
+      "kept": true,
+      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live05.meung.app/live/87379114.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     }
   ],
   "selected_count": 11,
-  "dropped_count": 13,
+  "dropped_count": 15,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -240,7 +228,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-7.flv?auth_key=3000001788069733-0-0-54d443b09485a8d0d5c9e8285e4a5709",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-7.flv?auth_key=3000001788071489-0-0-cffaee1366b6774908d08241a4016f35",
       "match_key": "blacktown city vs western sydney am|hd jean",
       "display_name": "[12:00 30/08/2026] Blacktown City vs Western Sydney Am [BLV HD JEAN] [FLV]",
       "group": "Xôi Lạc",
@@ -261,7 +249,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-30T12:00:00+07:00",
-      "minutes_to_kickoff": -64.22,
+      "minutes_to_kickoff": -93.93,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -271,7 +259,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-7.flv?auth_key=3000001788069733-0-0-54d443b09485a8d0d5c9e8285e4a5709",
+      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-7.flv?auth_key=3000001788071489-0-0-cffaee1366b6774908d08241a4016f35",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jhl96yqwzv/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2ghk4oem0ve/image/small",
       "blv": null,
@@ -285,7 +273,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-17.flv?auth_key=3000001788069793-0-0-81ebbc48368542bdd10166c9640f6751",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-17.flv?auth_key=3000001788071557-0-0-39f5a2f1fab6666f630f07967ec533f0",
       "match_key": "south coast wolves vs manly united|hd nemo",
       "display_name": "[12:00 30/08/2026] South Coast Wolves vs Manly United [BLV HD NEMO] [FLV]",
       "group": "Xôi Lạc",
@@ -306,7 +294,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-30T12:00:00+07:00",
-      "minutes_to_kickoff": -64.22,
+      "minutes_to_kickoff": -93.93,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -316,7 +304,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-17.flv?auth_key=3000001788069793-0-0-81ebbc48368542bdd10166c9640f6751",
+      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-17.flv?auth_key=3000001788071557-0-0-39f5a2f1fab6666f630f07967ec533f0",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66h0onvqo9j/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhgwklryk0/image/small",
       "blv": null,
@@ -351,7 +339,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-08-30T12:00:00+07:00",
-      "minutes_to_kickoff": -64.22,
+      "minutes_to_kickoff": -93.93,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -370,12 +358,12 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; flv=True",
-      "prior_generated_at": "2026-08-30T12:34:06.945957+07:00"
+      "prior_generated_at": "2026-08-30T13:04:13.016227+07:00"
     },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788069689-0-0-9ca74369376162f638df9664cb63f7d5",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788071473-0-0-dabc64da17b6b6d3ae23d23e82345667",
       "match_key": "new zealand vs syria|hd alan",
       "display_name": "[13:00 30/08/2026] New Zealand vs Syria [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -396,7 +384,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-30T13:00:00+07:00",
-      "minutes_to_kickoff": -4.22,
+      "minutes_to_kickoff": -33.93,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -406,7 +394,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788069689-0-0-9ca74369376162f638df9664cb63f7d5",
+      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788071473-0-0-dabc64da17b6b6d3ae23d23e82345667",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/z8yomovto09q0j6/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/jednm9kt4ekryox/image/small",
       "blv": null,
@@ -420,7 +408,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-29.flv?auth_key=3000001788069689-0-0-acf746fb90ccf6037eb0819e745efb74",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-29.flv?auth_key=3000001788071473-0-0-9831738b4537ccc78da3bf0640e2fc77",
       "match_key": "viet nam vs thai lan|hd tommy",
       "display_name": "[13:00 30/08/2026] Viet Nam vs Thai Lan [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -441,7 +429,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-30T13:00:00+07:00",
-      "minutes_to_kickoff": -4.22,
+      "minutes_to_kickoff": -33.93,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -451,7 +439,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-29.flv?auth_key=3000001788069689-0-0-acf746fb90ccf6037eb0819e745efb74",
+      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-29.flv?auth_key=3000001788071473-0-0-9831738b4537ccc78da3bf0640e2fc77",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/l965mk8tvxlm1ge/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/jednm9ktnl1ryox/image/small",
       "blv": null,
@@ -465,7 +453,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-33.flv?auth_key=3000001788069804-0-0-ac31886a13bc5dda93b259c65afb67d4",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-33.flv?auth_key=3000001788071589-0-0-0e09beacd966eb91199d4e7462fb2274",
       "match_key": "nu iran vs nu nhat ban|hd tyson",
       "display_name": "[14:15 30/08/2026] Nu Iran vs Nu Nhat Ban [BLV HD TYSON] [FLV]",
       "group": "Xôi Lạc",
@@ -486,7 +474,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-30T14:15:00+07:00",
-      "minutes_to_kickoff": 70.78,
+      "minutes_to_kickoff": 41.07,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -496,7 +484,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-33.flv?auth_key=3000001788069804-0-0-ac31886a13bc5dda93b259c65afb67d4",
+      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-33.flv?auth_key=3000001788071589-0-0-0e09beacd966eb91199d4e7462fb2274",
       "home_logo": "https://imgts.sportpulseapiz.com/volleyball/team/kjw2r0nho15qz84/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/volleyball/team/vl7oqddh51xq510/image/small",
       "blv": null,
@@ -510,7 +498,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788069809-0-0-b3b1306b7cab31782fcbf4022e790bac",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788071590-0-0-3882d6722e7310c92202fc7cb88e5744",
       "match_key": "dplus vs kt rolster|hd marty",
       "display_name": "[15:00 30/08/2026] Dplus vs Kt Rolster [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -531,7 +519,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-30T15:00:00+07:00",
-      "minutes_to_kickoff": 115.78,
+      "minutes_to_kickoff": 86.07,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -541,7 +529,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788069809-0-0-b3b1306b7cab31782fcbf4022e790bac",
+      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788071590-0-0-3882d6722e7310c92202fc7cb88e5744",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/23xmvxjt3nj2rg8/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/dn1m1eku4j7kqoe/image/small",
       "blv": null,
@@ -555,7 +543,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-26.flv?auth_key=3000001788069834-0-0-d2f71a85cb8050617de0c4a5086d1a04",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-26.flv?auth_key=3000001788071619-0-0-fcb2fbedfbd660c8e73e2e3311a1523e",
       "match_key": "fiji vs mong co|hd step",
       "display_name": "[16:00 30/08/2026] Fiji vs Mong Co [BLV HD STEP] [FLV]",
       "group": "Xôi Lạc",
@@ -576,7 +564,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-08-30T16:00:00+07:00",
-      "minutes_to_kickoff": 175.78,
+      "minutes_to_kickoff": 146.07,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -586,7 +574,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-26.flv?auth_key=3000001788069834-0-0-d2f71a85cb8050617de0c4a5086d1a04",
+      "page_url": "https://live2.streamhaulcdn.com/livecdn/channel-26.flv?auth_key=3000001788071619-0-0-fcb2fbedfbd660c8e73e2e3311a1523e",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/2y8m4pt3070ml07/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/e4wyrn1tp6nq86p/image/small",
       "blv": null,
@@ -600,7 +588,7 @@
     {
       "source": "colatv",
       "source_label": "ColaTV",
-      "url": "https://live05.meung.app/live/49572724.m3u8",
+      "url": "https://live05.miekgo.app/live/49572724.m3u8",
       "match_key": "apia leichhardt tigers vs st george city fa|redbull ang xem",
       "display_name": "[12:00 30/08] APIA Leichhardt Tigers vs St George City FA [BLV REDBULLĐang xem] [M3U8]",
       "group": "ColaTV",
@@ -616,7 +604,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-30T12:00:00+07:00",
-      "minutes_to_kickoff": -64.22,
+      "minutes_to_kickoff": -93.93,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -626,7 +614,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live05.meung.app/live/49572724.m3u8",
+      "page_url": "https://live05.miekgo.app/live/49572724.m3u8",
       "home_logo": null,
       "away_logo": null,
       "blv": "REDBULLĐang xem",
@@ -641,8 +629,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/87379114.m3u8",
-      "match_key": "vietnam vs thai lan|cozy ang xem",
-      "display_name": "[13:00 30/08] Vietnam vs Thái Lan [BLV CozyĐang xem] [M3U8]",
+      "match_key": "vietnam vs thai lan|lich thi au cuoc vsbet tai app ho tr",
+      "display_name": "[13:00 30/08] Vietnam vs Thai Lan [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng rổ",
       "quality": "UNKNOWN",
@@ -656,12 +644,12 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-08-30T13:00:00+07:00",
-      "minutes_to_kickoff": -4.22,
+      "minutes_to_kickoff": -33.93,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
       "stream_key_tokens": null,
-      "logo": "https://img.gvapi.cc/basketball/team/a10caeb4c8734e5288b38265c755c592.jpg!w80",
+      "logo": "https://img.gvapi.cc/basketball/team/3eb1aaf546afafbaedf7aa8298be7c9c.png!w80",
       "logo_source": null,
       "logo_enriched_from": null,
       "logo_is_fallback": null,
@@ -669,7 +657,7 @@
       "page_url": "https://live05.meung.app/live/87379114.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "CozyĐang xem",
+      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -696,7 +684,7 @@
       "pending_reason": null,
       "score": 385,
       "kickoff_iso": "2026-08-30T13:00:00+07:00",
-      "minutes_to_kickoff": -4.22,
+      "minutes_to_kickoff": -33.93,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -715,13 +703,13 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 206; m3u8=True",
-      "prior_generated_at": "2026-08-30T12:34:06.945957+07:00"
+      "prior_generated_at": "2026-08-30T13:04:13.016227+07:00"
     }
   ],
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788069689-0-0-9ca74369376162f638df9664cb63f7d5",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788071473-0-0-dabc64da17b6b6d3ae23d23e82345667",
       "display_name": "[13:00 30/08/2026] New Zealand vs Syria [BLV HD ALAN] [FLV]",
       "match_key": "new zealand vs syria|hd alan",
       "quality": "HD",
@@ -733,7 +721,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-29.flv?auth_key=3000001788069689-0-0-acf746fb90ccf6037eb0819e745efb74",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-29.flv?auth_key=3000001788071473-0-0-9831738b4537ccc78da3bf0640e2fc77",
       "display_name": "[13:00 30/08/2026] Viet Nam vs Thai Lan [BLV HD TOMMY] [FLV]",
       "match_key": "viet nam vs thai lan|hd tommy",
       "quality": "HD",
@@ -745,7 +733,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-7.flv?auth_key=3000001788069733-0-0-54d443b09485a8d0d5c9e8285e4a5709",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-7.flv?auth_key=3000001788071489-0-0-cffaee1366b6774908d08241a4016f35",
       "display_name": "[12:00 30/08/2026] Blacktown City vs Western Sydney Am [BLV HD JEAN] [FLV]",
       "match_key": "blacktown city vs western sydney am|hd jean",
       "quality": "HD",
@@ -757,7 +745,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-17.flv?auth_key=3000001788069793-0-0-81ebbc48368542bdd10166c9640f6751",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-17.flv?auth_key=3000001788071557-0-0-39f5a2f1fab6666f630f07967ec533f0",
       "display_name": "[12:00 30/08/2026] South Coast Wolves vs Manly United [BLV HD NEMO] [FLV]",
       "match_key": "south coast wolves vs manly united|hd nemo",
       "quality": "HD",
@@ -769,7 +757,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-33.flv?auth_key=3000001788069804-0-0-ac31886a13bc5dda93b259c65afb67d4",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-33.flv?auth_key=3000001788071589-0-0-0e09beacd966eb91199d4e7462fb2274",
       "display_name": "[14:15 30/08/2026] Nu Iran vs Nu Nhat Ban [BLV HD TYSON] [FLV]",
       "match_key": "nu iran vs nu nhat ban|hd tyson",
       "quality": "HD",
@@ -781,7 +769,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788069809-0-0-b3b1306b7cab31782fcbf4022e790bac",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788071590-0-0-3882d6722e7310c92202fc7cb88e5744",
       "display_name": "[15:00 30/08/2026] Dplus vs Kt Rolster [BLV HD MARTY] [FLV]",
       "match_key": "dplus vs kt rolster|hd marty",
       "quality": "HD",
@@ -793,7 +781,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-26.flv?auth_key=3000001788069834-0-0-d2f71a85cb8050617de0c4a5086d1a04",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-26.flv?auth_key=3000001788071619-0-0-fcb2fbedfbd660c8e73e2e3311a1523e",
       "display_name": "[16:00 30/08/2026] Fiji vs Mong Co [BLV HD STEP] [FLV]",
       "match_key": "fiji vs mong co|hd step",
       "quality": "HD",
@@ -805,7 +793,7 @@
     },
     {
       "source": "colatv",
-      "url": "https://live05.meung.app/live/49572724.m3u8",
+      "url": "https://live05.miekgo.app/live/49572724.m3u8",
       "display_name": "[12:00 30/08] APIA Leichhardt Tigers vs St George City FA [BLV REDBULLĐang xem] [M3U8]",
       "match_key": "apia leichhardt tigers vs st george city fa|redbull ang xem",
       "quality": "UNKNOWN",
@@ -818,8 +806,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/87379114.m3u8",
-      "display_name": "[13:00 30/08] Vietnam vs Thái Lan [BLV CozyĐang xem] [M3U8]",
-      "match_key": "vietnam vs thai lan|cozy ang xem",
+      "display_name": "[13:00 30/08] Vietnam vs Thai Lan [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]",
+      "match_key": "vietnam vs thai lan|lich thi au cuoc vsbet tai app ho tr",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -866,40 +854,52 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788067994-0-0-47210121744789b177f4faf3dec1b53c",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788069689-0-0-9ca74369376162f638df9664cb63f7d5",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "new zealand vs syria|hd alan"
     },
     {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-29.flv?auth_key=3000001788068002-0-0-552a13e9851f7fa9c9777fc73ab7ef94",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-29.flv?auth_key=3000001788069689-0-0-acf746fb90ccf6037eb0819e745efb74",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "viet nam vs thai lan|hd tommy"
     },
     {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-7.flv?auth_key=3000001788067869-0-0-a15f0b2438ee2e2a1a9fc15334eedea3",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-7.flv?auth_key=3000001788069733-0-0-54d443b09485a8d0d5c9e8285e4a5709",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "blacktown city vs western sydney am|hd jean"
     },
     {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-17.flv?auth_key=3000001788067971-0-0-0d504b607535fec05a1ae51810525c57",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-17.flv?auth_key=3000001788069793-0-0-81ebbc48368542bdd10166c9640f6751",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "south coast wolves vs manly united|hd nemo"
     },
     {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-33.flv?auth_key=3000001788068009-0-0-4f645f927cebceca3267c364507b9347",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-33.flv?auth_key=3000001788069804-0-0-ac31886a13bc5dda93b259c65afb67d4",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "nu iran vs nu nhat ban|hd tyson"
     },
     {
-      "url": "https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788068017-0-0-7ee531c57528d35798f836db75452557",
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788069809-0-0-b3b1306b7cab31782fcbf4022e790bac",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "dplus vs kt rolster|hd marty"
+    },
+    {
+      "url": "https://live2.streamhaulcdn.com/livecdn/channel-26.flv?auth_key=3000001788069834-0-0-d2f71a85cb8050617de0c4a5086d1a04",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "fiji vs mong co|hd step"
+    },
+    {
+      "url": "https://live05.meung.app/live/49572724.m3u8",
+      "reason": "duplicate-quality-UNKNOWN",
+      "source": "colatv",
+      "match_key": "apia leichhardt tigers vs st george city fa|redbull ang xem"
     }
   ],
   "outputs_written": true
