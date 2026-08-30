@@ -1,36 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-30T18:34:26.696216+07:00",
+  "updated_at": "2026-08-30T19:04:20.189935+07:00",
   "matches": {
-    "742963": {
-      "url": "https://phaohoa1.live/truc-tiep/shenzhen-xinpengcheng-vs-shanghai-port-28-08-2026-742963",
-      "match_name": "Shenzhen Xinpengcheng vs Shanghai Port",
-      "kickoff_iso": "2026-08-28T19:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-28T20:33:58.565564+07:00",
-      "next_scan_at": "2026-08-28T20:38:58.565564+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "742967": {
-      "url": "https://phaohoa1.live/truc-tiep/shanghai-shenhua-vs-shandong-taishan-28-08-2026-742967",
-      "match_name": "Shanghai Shenhua vs Shandong Taishan",
-      "kickoff_iso": "2026-08-28T18:35:00+07:00",
-      "minutes_to_kickoff": -118,
-      "last_scan_at": "2026-08-28T20:33:58.565564+07:00",
-      "next_scan_at": "2026-08-28T20:38:58.565564+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "25dbf88b27f3": {
       "url": "https://phaohoa1.live/truc-tiep/slovenia-vs-hungary",
       "match_name": "Slovenia vs Hungary",
@@ -543,9 +515,9 @@
       "url": "https://phaohoa1.live/truc-tiep/utrecht-vs-psv-30-08-2026-805980",
       "match_name": "Utrecht vs Psv",
       "kickoff_iso": "2026-08-30T17:15:00+07:00",
-      "minutes_to_kickoff": -78,
-      "last_scan_at": "2026-08-30T18:34:26.695890+07:00",
-      "next_scan_at": "2026-08-30T18:39:26.695890+07:00",
+      "minutes_to_kickoff": -108,
+      "last_scan_at": "2026-08-30T19:04:20.189634+07:00",
+      "next_scan_at": "2026-08-30T19:09:20.189634+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -557,9 +529,9 @@
       "url": "https://phaohoa1.live/truc-tiep/aberdeen-vs-rangers-30-08-2026-803088",
       "match_name": "30-08 Premier League Chelsea VS Brighton Tày",
       "kickoff_iso": "2026-08-30T18:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-08-30T18:34:26.695890+07:00",
-      "next_scan_at": "2026-08-30T18:39:26.695890+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-08-30T19:04:20.189634+07:00",
+      "next_scan_at": "2026-08-30T19:09:20.189634+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -571,9 +543,9 @@
       "url": "https://phaohoa1.live/truc-tiep/trung-quoc-vs-thai-lan",
       "match_name": "Trung Quốc vs Thái Lan",
       "kickoff_iso": "2026-08-30T17:45:00+07:00",
-      "minutes_to_kickoff": -48,
-      "last_scan_at": "2026-08-30T18:34:26.695890+07:00",
-      "next_scan_at": "2026-08-30T18:39:26.695890+07:00",
+      "minutes_to_kickoff": -78,
+      "last_scan_at": "2026-08-30T19:04:20.189634+07:00",
+      "next_scan_at": "2026-08-30T19:09:20.189634+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -607,35 +579,37 @@
     },
     "203ecd30922f": {
       "url": "https://phaohoa1.live/truc-tiep/slovenia-vs-my",
-      "match_name": "30-08 Hubert Wagner Memorial Slovenia VS Mỹ Chim Nhỏ",
+      "match_name": "Slovenia vs Mỹ",
       "kickoff_iso": "2026-08-30T19:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-30T18:34:26.695890+07:00",
-      "next_scan_at": "2026-08-30T18:44:26.695890+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-08-30T19:04:20.189634+07:00",
+      "next_scan_at": "2026-08-30T19:09:20.189634+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
       "scan_decision": "browser-fallback"
     },
     "809270": {
       "url": "https://phaohoa1.live/truc-tiep/freiburg-vs-werder-bremen-30-08-2026-809270",
       "match_name": "30-08 Bundesliga Freiburg VS Werder Bremen Văn Minh",
       "kickoff_iso": "2026-08-30T20:30:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-30T18:34:26.695890+07:00",
-      "next_scan_at": "2026-08-30T18:54:26.695890+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-30T19:04:20.189634+07:00",
+      "next_scan_at": "2026-08-30T19:24:20.189634+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "812666": {
       "url": "https://phaohoa1.live/truc-tiep/leeds-vs-brentford-30-08-2026-812666",
       "match_name": "30-08 Premier League Leeds VS Brentford Kevin",
       "kickoff_iso": "2026-08-30T20:00:00+07:00",
-      "minutes_to_kickoff": 86,
-      "last_scan_at": "2026-08-30T18:34:26.695890+07:00",
-      "next_scan_at": "2026-08-30T18:54:26.695890+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-08-30T19:04:20.189634+07:00",
+      "next_scan_at": "2026-08-30T19:24:20.189634+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
