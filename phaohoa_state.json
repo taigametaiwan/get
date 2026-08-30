@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-30T21:34:42.664967+07:00",
+  "updated_at": "2026-08-30T22:04:30.521015+07:00",
   "matches": {
     "37884876ef13": {
       "url": "https://phaohoa1.live/truc-tiep/my-vs-phap",
@@ -573,9 +573,9 @@
       "url": "https://phaohoa1.live/truc-tiep/freiburg-vs-werder-bremen-30-08-2026-809270",
       "match_name": "Freiburg vs Werder Bremen",
       "kickoff_iso": "2026-08-30T20:30:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-30T21:34:42.664693+07:00",
-      "next_scan_at": "2026-08-30T21:39:42.664693+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-08-30T22:04:30.520779+07:00",
+      "next_scan_at": "2026-08-30T22:09:30.520779+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -599,14 +599,16 @@
     },
     "798831": {
       "url": "https://phaohoa1.live/truc-tiep/real-madrid-vs-malaga-30-08-2026-798831",
-      "match_name": "30-08 La Liga Real Madrid VS Malaga Người Lửa",
+      "match_name": "Real Madrid vs Malaga",
       "kickoff_iso": "2026-08-30T22:00:00+07:00",
-      "minutes_to_kickoff": 26,
-      "last_scan_at": "2026-08-30T21:34:42.664693+07:00",
-      "next_scan_at": "2026-08-30T21:44:42.664693+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-08-30T22:04:30.520779+07:00",
+      "next_scan_at": "2026-08-30T22:09:30.520779+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
+      ],
       "scan_decision": "browser-fallback"
     },
     "809271": {
@@ -623,15 +625,67 @@
     },
     "7babcf71ca99": {
       "url": "https://phaohoa1.live/truc-tiep/phap-vs-hy-lap",
-      "match_name": "30-08 Premier League Manchester United VS ANTI MU Ipswich Kevin",
+      "match_name": "Pháp vs Hy Lạp",
       "kickoff_iso": "2026-08-30T21:00:00+07:00",
-      "minutes_to_kickoff": -34,
-      "last_scan_at": "2026-08-30T21:34:42.664693+07:00",
-      "next_scan_at": "2026-08-30T21:39:42.664693+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-08-30T22:04:30.520779+07:00",
+      "next_scan_at": "2026-08-30T22:09:30.520779+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "a8c3f0070d52": {
+      "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-phap",
+      "match_name": "Ba Lan vs Pháp",
+      "kickoff_iso": "2026-08-30T22:00:00+07:00",
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-08-30T22:04:30.520779+07:00",
+      "next_scan_at": "2026-08-30T22:09:30.520779+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "807868": {
+      "url": "https://phaohoa1.live/truc-tiep/napoli-vs-como-30-08-2026-807868",
+      "match_name": "30-08 Serie A Napoli VS Como Pháo Thủ",
+      "kickoff_iso": "2026-08-30T23:30:00+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-08-30T22:04:30.520779+07:00",
+      "next_scan_at": "2026-08-30T22:24:30.520779+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "812668": {
+      "url": "https://phaohoa1.live/truc-tiep/manchester-united-vs-ipswich-30-08-2026-812668",
+      "match_name": "31-08 Vô Địch Châu Âu Serbia VS Croatia KaKa",
+      "kickoff_iso": "2026-08-31T00:00:00+07:00",
+      "minutes_to_kickoff": 117,
+      "last_scan_at": "2026-08-30T22:04:30.520779+07:00",
+      "next_scan_at": "2026-08-30T22:24:30.520779+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "163032": {
+      "url": "https://phaohoa1.live/truc-tiep/manchester-united-vs-ipswich-28-08-2026-163032",
+      "match_name": "Manchester United vs Ipswich",
+      "kickoff_iso": "2026-08-30T22:30:00+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-30T22:04:30.520779+07:00",
+      "next_scan_at": "2026-08-30T22:09:30.520779+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
       ],
       "scan_decision": "browser-fallback"
     }
