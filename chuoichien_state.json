@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-31T04:01:47.903487+07:00",
+  "updated_at": "2026-08-31T04:31:32.786001+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1952,12 +1952,15 @@
       "url": "https://live05.chuoichientv.me/live/1492356/mirassol-vs-palmeiras",
       "match_name": "Mirassol vs Palmeiras - VĐQG Brazil",
       "kickoff_iso": "2026-08-31T04:30:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-31T04:01:47.903385+07:00",
-      "next_scan_at": "2026-08-31T04:11:47.903385+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-31T04:31:32.785882+07:00",
+      "next_scan_at": "2026-08-31T04:36:32.785882+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1603342": {
@@ -1974,35 +1977,35 @@
     },
     "1490435": {
       "url": "https://live05.chuoichientv.me/live/1490435/st-louis-city-vs-fc-dallas",
-      "match_name": "st louis city vs fc dallas",
+      "match_name": "St. Louis City vs FC Dallas - Major League Soccer",
       "kickoff_iso": "2026-08-31T06:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-31T04:01:47.903385+07:00",
-      "next_scan_at": "2026-08-31T04:21:47.903385+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-08-31T04:31:32.785882+07:00",
+      "next_scan_at": "2026-08-31T04:51:32.785882+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1550946": {
       "url": "https://live05.chuoichientv.me/live/1550946/toluca-vs-fc-juarez",
       "match_name": "toluca vs fc juarez",
-      "kickoff_iso": "2026-08-31T07:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-08-31T04:01:47.903385+07:00",
-      "next_scan_at": "2026-08-31T04:46:47.903385+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-31T04:31:32.785882+07:00",
+      "next_scan_at": "2026-08-31T04:41:32.785882+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1550947": {
       "url": "https://live05.chuoichientv.me/live/1550947/monterrey-vs-atletico-san-luis",
       "match_name": "monterrey vs atletico san luis",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T04:01:47.903385+07:00",
-      "next_scan_at": "2026-08-31T04:11:47.903385+07:00",
+      "last_scan_at": "2026-08-31T04:31:32.785882+07:00",
+      "next_scan_at": "2026-08-31T04:41:32.785882+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2013,8 +2016,8 @@
       "match_name": "vietnam u20 vs triu tin u20",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T04:01:47.903385+07:00",
-      "next_scan_at": "2026-08-31T04:11:47.903385+07:00",
+      "last_scan_at": "2026-08-31T04:31:32.785882+07:00",
+      "next_scan_at": "2026-08-31T04:41:32.785882+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
