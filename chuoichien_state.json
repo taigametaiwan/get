@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-30T20:02:30.881313+07:00",
+  "updated_at": "2026-08-30T20:31:59.871136+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1844,13 +1844,14 @@
       "url": "https://live05.chuoichientv.me/live/1557379/chelsea-vs-brighton",
       "match_name": "Chelsea vs Brighton - Ngoại Hạng Anh",
       "kickoff_iso": "2026-08-30T20:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-08-30T20:02:30.881104+07:00",
-      "next_scan_at": "2026-08-30T20:07:30.881104+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-30T20:31:59.870956+07:00",
+      "next_scan_at": "2026-08-30T20:36:59.870956+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1858,9 +1859,9 @@
       "url": "https://live05.chuoichientv.me/live/1557385/sunderland-vs-fulham",
       "match_name": "sunderland vs fulham",
       "kickoff_iso": "2026-08-30T20:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-30T20:02:30.881104+07:00",
-      "next_scan_at": "2026-08-30T20:07:30.881104+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-30T20:31:59.870956+07:00",
+      "next_scan_at": "2026-08-30T20:36:59.870956+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1900,18 +1901,15 @@
     },
     "991789": {
       "url": "https://live05.chuoichientv.me/live/991789/thailand-vs-china",
-      "match_name": "Thailand vs China - Bóng chuyền nữ Châu Á 2026",
-      "kickoff_iso": "2026-08-30T17:45:00+07:00",
-      "minutes_to_kickoff": -136,
-      "last_scan_at": "2026-08-30T20:02:30.881104+07:00",
-      "next_scan_at": "2026-08-30T20:07:30.881104+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
+      "match_name": "thailand vs china",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-30T20:31:59.870956+07:00",
+      "next_scan_at": "2026-08-30T20:41:59.870956+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     },
     "1636616": {
       "url": "https://live05.chuoichientv.me/live/1636616/cng-an-h-ni-vs-tp-h-ch-minh",
@@ -1930,11 +1928,11 @@
     },
     "1557382": {
       "url": "https://live05.chuoichientv.me/live/1557382/leeds-vs-brentford",
-      "match_name": "leeds vs brentford",
+      "match_name": "Leeds vs Brentford - Ngoại Hạng Anh",
       "kickoff_iso": "2026-08-30T20:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-30T20:02:30.881104+07:00",
-      "next_scan_at": "2026-08-30T20:07:30.881104+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-30T20:31:59.870956+07:00",
+      "next_scan_at": "2026-08-30T20:36:59.870956+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1946,45 +1944,60 @@
       "url": "https://live05.chuoichientv.me/live/1575145/sc-freiburg-vs-werder-bremen",
       "match_name": "sc freiburg vs werder bremen",
       "kickoff_iso": "2026-08-30T20:30:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-30T20:02:30.881104+07:00",
-      "next_scan_at": "2026-08-30T20:12:30.881104+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-30T20:31:59.870956+07:00",
+      "next_scan_at": "2026-08-30T20:36:59.870956+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1570360": {
       "url": "https://live05.chuoichientv.me/live/1570360/real-madrid-vs-malaga",
       "match_name": "real madrid vs malaga",
       "kickoff_iso": "2026-08-30T22:00:00+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-08-30T20:31:59.870956+07:00",
+      "next_scan_at": "2026-08-30T20:51:59.870956+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "1557384": {
+      "url": "https://live05.chuoichientv.me/live/1557384/manchester-united-vs-ipswich",
+      "match_name": "manchester united vs ipswich",
+      "kickoff_iso": "2026-08-30T22:30:00+07:00",
       "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-08-30T20:02:30.881104+07:00",
-      "next_scan_at": "2026-08-30T20:22:30.881104+07:00",
+      "last_scan_at": "2026-08-30T20:31:59.870956+07:00",
+      "next_scan_at": "2026-08-30T20:51:59.870956+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
     },
-    "1557384": {
-      "url": "https://live05.chuoichientv.me/live/1557384/manchester-united-vs-ipswich",
-      "match_name": "manchester united vs ipswich",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-30T20:02:30.881104+07:00",
-      "next_scan_at": "2026-08-30T20:12:30.881104+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
-    },
     "1550105": {
       "url": "https://live05.chuoichientv.me/live/1550105/napoli-vs-como",
       "match_name": "napoli vs como",
+      "kickoff_iso": "2026-08-30T23:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-08-30T20:31:59.870956+07:00",
+      "next_scan_at": "2026-08-30T21:16:59.870956+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "1570356": {
+      "url": "https://live05.chuoichientv.me/live/1570356/deportivo-la-coruna-vs-valencia",
+      "match_name": "deportivo la coruna vs valencia",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-30T20:02:30.881104+07:00",
-      "next_scan_at": "2026-08-30T20:12:30.881104+07:00",
+      "last_scan_at": "2026-08-30T20:31:59.870956+07:00",
+      "next_scan_at": "2026-08-30T20:41:59.870956+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

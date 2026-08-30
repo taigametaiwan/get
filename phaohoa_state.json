@@ -1,20 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-30T19:04:20.189935+07:00",
+  "updated_at": "2026-08-30T20:33:06.782485+07:00",
   "matches": {
-    "25dbf88b27f3": {
-      "url": "https://phaohoa1.live/truc-tiep/slovenia-vs-hungary",
-      "match_name": "Slovenia vs Hungary",
-      "kickoff_iso": "2026-08-28T20:00:00+07:00",
-      "minutes_to_kickoff": -123,
-      "last_scan_at": "2026-08-28T22:04:04.977532+07:00",
-      "next_scan_at": "2026-08-28T22:09:04.977532+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "37884876ef13": {
       "url": "https://phaohoa1.live/truc-tiep/my-vs-phap",
       "match_name": "Mỹ vs Pháp",
@@ -567,15 +555,17 @@
     },
     "812667": {
       "url": "https://phaohoa1.live/truc-tiep/sunderland-vs-fulham-30-08-2026-812667",
-      "match_name": "30-08 Premier League Sunderland VS Fulham Pháo Thủ",
+      "match_name": "30-08 Hubert Wagner Memorial Ba Lan VS Pháp KaKa",
       "kickoff_iso": "2026-08-30T20:00:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-30T17:02:55.276578+07:00",
-      "next_scan_at": "2026-08-30T17:47:55.276578+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-08-30T20:33:06.782364+07:00",
+      "next_scan_at": "2026-08-30T20:38:06.782364+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "203ecd30922f": {
       "url": "https://phaohoa1.live/truc-tiep/slovenia-vs-my",
@@ -610,6 +600,18 @@
       "minutes_to_kickoff": 56,
       "last_scan_at": "2026-08-30T19:04:20.189634+07:00",
       "next_scan_at": "2026-08-30T19:24:20.189634+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "798831": {
+      "url": "https://phaohoa1.live/truc-tiep/real-madrid-vs-malaga-30-08-2026-798831",
+      "match_name": "30-08 La Liga Real Madrid VS Malaga Người Lửa",
+      "kickoff_iso": "2026-08-30T22:00:00+07:00",
+      "minutes_to_kickoff": 87,
+      "last_scan_at": "2026-08-30T20:33:06.782364+07:00",
+      "next_scan_at": "2026-08-30T20:53:06.782364+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
