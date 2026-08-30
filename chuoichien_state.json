@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-31T01:32:05.088353+07:00",
+  "updated_at": "2026-08-31T02:02:21.760271+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1371,45 +1371,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1550097": {
-      "url": "https://live05.chuoichientv.me/live/1550097/ac-milan-vs-venezia",
-      "match_name": "AC Milan vs Venezia - Serie A",
-      "kickoff_iso": "2026-08-29T01:45:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-08-29T03:32:20.161499+07:00",
-      "next_scan_at": "2026-08-29T03:37:20.161499+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1552746": {
-      "url": "https://live05.chuoichientv.me/live/1552746/lille-vs-paris-saint-germain",
-      "match_name": "Lille vs Paris Saint Germain - Ligue 1",
-      "kickoff_iso": "2026-08-29T01:45:00+07:00",
-      "minutes_to_kickoff": -136,
-      "last_scan_at": "2026-08-29T04:01:48.042488+07:00",
-      "next_scan_at": "2026-08-29T04:06:48.042488+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
-    "1557381": {
-      "url": "https://live05.chuoichientv.me/live/1557381/crystal-palace-vs-manchester-city",
-      "match_name": "Crystal Palace vs Manchester City - Ngoại Hạng Anh",
-      "kickoff_iso": "2026-08-29T02:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-29T04:01:48.042488+07:00",
-      "next_scan_at": "2026-08-29T04:06:48.042488+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "1570353": {
       "url": "https://live05.chuoichientv.me/live/1570353/alaves-vs-villarreal",
       "match_name": "Alaves vs Villarreal - La Liga",
@@ -1939,74 +1900,84 @@
     "1570356": {
       "url": "https://live05.chuoichientv.me/live/1570356/deportivo-la-coruna-vs-valencia",
       "match_name": "deportivo la coruna vs valencia",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T01:32:05.088062+07:00",
-      "next_scan_at": "2026-08-31T01:42:05.088062+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "kickoff_iso": "2026-08-31T00:30:00+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-08-31T02:02:21.760066+07:00",
+      "next_scan_at": "2026-08-31T02:07:21.760066+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1550099": {
       "url": "https://live05.chuoichientv.me/live/1550099/cagliari-vs-inter",
       "match_name": "cagliari vs inter",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T01:32:05.088062+07:00",
-      "next_scan_at": "2026-08-31T01:42:05.088062+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "kickoff_iso": "2026-08-31T01:45:00+07:00",
+      "minutes_to_kickoff": -16,
+      "last_scan_at": "2026-08-31T02:02:21.760066+07:00",
+      "next_scan_at": "2026-08-31T02:07:21.760066+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1550102": {
       "url": "https://live05.chuoichientv.me/live/1550102/lazio-vs-genoa",
-      "match_name": "lazio vs genoa",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T01:32:05.088062+07:00",
-      "next_scan_at": "2026-08-31T01:42:05.088062+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Lazio vs Genoa - Serie A",
+      "kickoff_iso": "2026-08-31T01:45:00+07:00",
+      "minutes_to_kickoff": -16,
+      "last_scan_at": "2026-08-31T02:02:21.760066+07:00",
+      "next_scan_at": "2026-08-31T02:07:21.760066+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1552742": {
       "url": "https://live05.chuoichientv.me/live/1552742/monaco-vs-marseille",
-      "match_name": "monaco vs marseille",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T01:32:05.088062+07:00",
-      "next_scan_at": "2026-08-31T01:42:05.088062+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Monaco vs Marseille - Ligue 1",
+      "kickoff_iso": "2026-08-31T01:45:00+07:00",
+      "minutes_to_kickoff": -17,
+      "last_scan_at": "2026-08-31T02:02:21.760066+07:00",
+      "next_scan_at": "2026-08-31T02:07:21.760066+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1570355": {
       "url": "https://live05.chuoichientv.me/live/1570355/celta-vigo-vs-athletic-club",
       "match_name": "celta vigo vs athletic club",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T01:32:05.088062+07:00",
-      "next_scan_at": "2026-08-31T01:42:05.088062+07:00",
+      "kickoff_iso": "2026-08-31T02:30:00+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-08-31T02:02:21.760066+07:00",
+      "next_scan_at": "2026-08-31T02:12:21.760066+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "browser-fallback"
     },
     "1492356": {
       "url": "https://live05.chuoichientv.me/live/1492356/mirassol-vs-palmeiras",
       "match_name": "mirassol vs palmeiras",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T01:32:05.088062+07:00",
-      "next_scan_at": "2026-08-31T01:42:05.088062+07:00",
+      "kickoff_iso": "2026-08-31T04:30:00+07:00",
+      "minutes_to_kickoff": 149,
+      "last_scan_at": "2026-08-31T02:02:21.760066+07:00",
+      "next_scan_at": "2026-08-31T02:47:21.760066+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1603342": {
       "url": "https://live05.chuoichientv.me/live/1603342/atltico-san-luis-w-vs-atlas-w",
@@ -2025,8 +1996,8 @@
       "match_name": "st louis city vs fc dallas",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T01:32:05.088062+07:00",
-      "next_scan_at": "2026-08-31T01:42:05.088062+07:00",
+      "last_scan_at": "2026-08-31T02:02:21.760066+07:00",
+      "next_scan_at": "2026-08-31T02:12:21.760066+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2037,8 +2008,20 @@
       "match_name": "toluca vs fc juarez",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T01:32:05.088062+07:00",
-      "next_scan_at": "2026-08-31T01:42:05.088062+07:00",
+      "last_scan_at": "2026-08-31T02:02:21.760066+07:00",
+      "next_scan_at": "2026-08-31T02:12:21.760066+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1550947": {
+      "url": "https://live05.chuoichientv.me/live/1550947/monterrey-vs-atletico-san-luis",
+      "match_name": "monterrey vs atletico san luis",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-31T02:02:21.760066+07:00",
+      "next_scan_at": "2026-08-31T02:12:21.760066+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

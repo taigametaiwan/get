@@ -1,36 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-31T01:34:02.860705+07:00",
+  "updated_at": "2026-08-31T02:04:13.114578+07:00",
   "matches": {
-    "807863": {
-      "url": "https://phaohoa1.live/truc-tiep/ac-milan-vs-venezia-29-08-2026-807863",
-      "match_name": "AC Milan vs Venezia",
-      "kickoff_iso": "2026-08-29T01:45:00+07:00",
-      "minutes_to_kickoff": -108,
-      "last_scan_at": "2026-08-29T03:34:14.381134+07:00",
-      "next_scan_at": "2026-08-29T03:39:14.381134+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "812660": {
-      "url": "https://phaohoa1.live/truc-tiep/crystal-palace-vs-manchester-city-29-08-2026-812660",
-      "match_name": "Crystal Palace vs Manchester City",
-      "kickoff_iso": "2026-08-29T02:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-29T03:34:14.381134+07:00",
-      "next_scan_at": "2026-08-29T03:39:14.381134+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "798827": {
       "url": "https://phaohoa1.live/truc-tiep/alaves-vs-villarreal-29-08-2026-798827",
       "match_name": "Alaves vs Villarreal",
@@ -42,20 +14,6 @@
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "809916": {
-      "url": "https://phaohoa1.live/truc-tiep/lille-vs-psg-29-08-2026-809916",
-      "match_name": "Lille vs Psg",
-      "kickoff_iso": "2026-08-29T01:45:00+07:00",
-      "minutes_to_kickoff": -109,
-      "last_scan_at": "2026-08-29T03:34:14.381134+07:00",
-      "next_scan_at": "2026-08-29T03:39:14.381134+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -573,9 +531,9 @@
       "url": "https://phaohoa1.live/truc-tiep/dep-la-coruna-vs-valencia-31-08-2026-798832",
       "match_name": "Dep. La Coruna vs Valencia",
       "kickoff_iso": "2026-08-31T00:30:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-31T01:34:02.860440+07:00",
-      "next_scan_at": "2026-08-31T01:39:02.860440+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-08-31T02:04:13.114302+07:00",
+      "next_scan_at": "2026-08-31T02:09:13.114302+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -585,23 +543,25 @@
     },
     "807870": {
       "url": "https://phaohoa1.live/truc-tiep/lazio-vs-genoa-31-08-2026-807870",
-      "match_name": "31-08 Serie A Lazio VS Genoa Tày",
+      "match_name": "Lazio vs Genoa",
       "kickoff_iso": "2026-08-31T01:45:00+07:00",
-      "minutes_to_kickoff": 103,
-      "last_scan_at": "2026-08-31T00:03:40.318059+07:00",
-      "next_scan_at": "2026-08-31T00:23:40.318059+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "minutes_to_kickoff": -18,
+      "last_scan_at": "2026-08-31T02:04:13.114302+07:00",
+      "next_scan_at": "2026-08-31T02:09:13.114302+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "807869": {
       "url": "https://phaohoa1.live/truc-tiep/cagliari-vs-inter-31-08-2026-807869",
       "match_name": "Cagliari vs Inter",
       "kickoff_iso": "2026-08-31T01:45:00+07:00",
-      "minutes_to_kickoff": 12,
-      "last_scan_at": "2026-08-31T01:34:02.860440+07:00",
-      "next_scan_at": "2026-08-31T01:39:02.860440+07:00",
+      "minutes_to_kickoff": -19,
+      "last_scan_at": "2026-08-31T02:04:13.114302+07:00",
+      "next_scan_at": "2026-08-31T02:09:13.114302+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -613,14 +573,12 @@
       "url": "https://phaohoa1.live/truc-tiep/serbia-vs-croatia",
       "match_name": "Serbia vs Croatia",
       "kickoff_iso": "2026-08-31T00:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-31T01:34:02.860440+07:00",
-      "next_scan_at": "2026-08-31T01:39:02.860440+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
+      "minutes_to_kickoff": -123,
+      "last_scan_at": "2026-08-31T02:04:13.114302+07:00",
+      "next_scan_at": "2026-08-31T02:09:13.114302+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "809924": {
@@ -634,6 +592,20 @@
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "798833": {
+      "url": "https://phaohoa1.live/truc-tiep/celta-vigo-vs-ath-bilbao-31-08-2026-798833",
+      "match_name": "Celta Vigo vs Ath Bilbao",
+      "kickoff_iso": "2026-08-31T02:30:00+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-08-31T02:04:13.114302+07:00",
+      "next_scan_at": "2026-08-31T02:09:13.114302+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
       ],
       "scan_decision": "browser-fallback"
     }
