@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-31T15:33:04.502368+07:00",
+  "updated_at": "2026-08-31T16:02:55.979819+07:00",
   "matches": {
-    "807503": {
-      "url": "https://phaohoa1.live/truc-tiep/gamba-osaka-vs-sanfrecce-hiroshima-29-08-2026-807503",
-      "match_name": "Gamba Osaka vs Sanfrecce Hiroshima",
-      "kickoff_iso": "2026-08-29T16:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-08-29T17:03:40.045044+07:00",
-      "next_scan_at": "2026-08-29T17:08:40.045044+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "d08676131212": {
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-thai-lan",
       "match_name": "Nhật Bản vs Thái Lan",
@@ -597,27 +583,43 @@
     },
     "c5a7d95516d4": {
       "url": "https://phaohoa1.live/truc-tiep/indonesia-u20-vs-malaysia-u20",
-      "match_name": "31-08 AFC U20 Asian Cup Indonesia U20 VS Malaysia U20 Văn Minh",
+      "match_name": "Indonesia U20 vs Malaysia U20",
       "kickoff_iso": "2026-08-31T16:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-31T15:33:04.502242+07:00",
-      "next_scan_at": "2026-08-31T15:43:04.502242+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-31T16:02:55.979605+07:00",
+      "next_scan_at": "2026-08-31T16:07:55.979605+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
+      ],
       "scan_decision": "browser-fallback"
     },
     "44a04b36ba29": {
       "url": "https://phaohoa1.live/truc-tiep/japan-u20-vs-kuwait-u20",
-      "match_name": "31-08 AFC U20 Asian Cup Japan U20 VS Kuwait U20 Tày",
+      "match_name": "Japan U20 vs Kuwait U20",
       "kickoff_iso": "2026-08-31T16:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-08-31T15:33:04.502242+07:00",
-      "next_scan_at": "2026-08-31T15:43:04.502242+07:00",
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-08-31T16:02:55.979605+07:00",
+      "next_scan_at": "2026-08-31T16:07:55.979605+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "e8bf7ae073d6": {
+      "url": "https://phaohoa1.live/truc-tiep/viet-nam-u20-vs-trieu-tien-u20",
+      "match_name": "31-08 AFC U20 Asian Cup Việt Nam U20 VS Triều Tiên U20 Kevin",
+      "kickoff_iso": "2026-08-31T19:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-31T16:02:55.979605+07:00",
+      "next_scan_at": "2026-08-31T16:47:55.979605+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
