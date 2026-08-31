@@ -1,56 +1,43 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-1550947-1" tvg-name="[09:10 31/08] Monterrey vs Atletico San Luis - VĐQG Mexico [BLV Chuối Kem]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131433_e85dcdc4.png",[09:10 31/08] Monterrey vs Atletico San Luis - VĐQG Mexico [BLV Chuối Kem] [FHD M3U8]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
-#EXTINF:-1 tvg-id="xoilac-ep-rayados-de-monterrey-vs-atl-san-luis-luc-0910-ngay-31-08-2026-s1-2" tvg-name="[09:10 31/08/2026] Rayados De Monterrey vs Atl San Luis [BLV HD ROY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlh60kryk0/image/small",[09:10 31/08/2026] Rayados De Monterrey vs Atl San Luis [BLV HD ROY] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-1/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-1/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-1.flv?auth_key=3000001788148909-0-0-fb2a42b2c2e2b0beabb61b9726456da3
-#EXTINF:-1 tvg-id="xoilac-p-sj-earthquakes-r-vs-los-angeles-fc-ii-luc-0930-ngay-31-08-2026-s1-2" tvg-name="[09:30 31/08/2026] Sj Earthquakes R vs Los Angeles Fc Ii [BLV HD JOHAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zhz307ql07/image/small",[09:30 31/08/2026] Sj Earthquakes R vs Los Angeles Fc Ii [BLV HD JOHAN] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-12/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-12/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-12.flv?auth_key=3000001788150715-0-0-4cde3517aacfab18c8ce6fbd5c9706f8
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-venus-williams-vs-sofia-kenin-luc-1120-ngay-31-08-2026-s1-1" tvg-name="[11:20 31/08/2026] Venus Williams vs Sofia Kenin [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/dn1m12feo73qoep/image/small",[11:20 31/08/2026] Venus Williams vs Sofia Kenin [BLV HD VIC] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-venus-williams-vs-sofia-kenin-luc-1120-ngay-31-08-2026-s1-3" tvg-name="[11:20 31/08/2026] Venus Williams vs Sofia Kenin [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/dn1m12feo73qoep/image/small",[11:20 31/08/2026] Venus Williams vs Sofia Kenin [BLV HD VIC] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-32.flv?auth_key=3000001788150676-0-0-6528a203ad58e32f45687e6dc189658e
-#EXTINF:-1 tvg-id="xoilac-uc-tiep-bac-mariana-u20-vs-mongolia-u20-luc-1200-ngay-31-08-2026-s1-3" tvg-name="[12:00 31/08/2026] Bac Mariana U20 vs Mongolia U20 [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhzzweryk0/image/small",[12:00 31/08/2026] Bac Mariana U20 vs Mongolia U20 [BLV HD FELIX] [FLV]
+https://live2.streamhaulcdn.com/livecdn/channel-32.flv?auth_key=3000001788152488-0-0-6f5f76fb59ff20ec340c0d629b01bad7
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-bac-mariana-u20-vs-mongolia-u20-luc-1200-ngay-31-08-2026-s1-1" tvg-name="[12:00 31/08/2026] Bac Mariana U20 vs Mongolia U20 [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhzzweryk0/image/small",[12:00 31/08/2026] Bac Mariana U20 vs Mongolia U20 [BLV HD FELIX] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-24/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-24/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-24.flv?auth_key=3000001788150716-0-0-ce9755cc8af5c305d26fe4784e2b7bd8
-#EXTINF:-1 tvg-id="xoilac-r-challengers-vs-kiwoom-drx-challengers-luc-1200-ngay-31-08-2026-s1-4" tvg-name="[12:00 31/08/2026] Kt Rolster Challengers vs Kiwoom Drx Challengers [BLV HD MARTY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/lol/team/y0or59wbl2edmwz/image/small",[12:00 31/08/2026] Kt Rolster Challengers vs Kiwoom Drx Challengers [BLV HD MARTY] [FLV]
+https://live2.streamhaulcdn.com/livecdn/channel-24.flv?auth_key=3000001788152477-0-0-1b9cecc6b94caab20c58110413fde7d9
+#EXTINF:-1 tvg-id="xoilac-r-challengers-vs-kiwoom-drx-challengers-luc-1200-ngay-31-08-2026-s1-2" tvg-name="[12:00 31/08/2026] Kt Rolster Challengers vs Kiwoom Drx Challengers [BLV HD MARTY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/lol/team/y0or59wbl2edmwz/image/small",[12:00 31/08/2026] Kt Rolster Challengers vs Kiwoom Drx Challengers [BLV HD MARTY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-30/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-30/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788150723-0-0-55401c89781bd93b53857a1dd051ecf0
-#EXTINF:-1 tvg-id="colatv-08b6bb651ae1-1" tvg-name="[09:10 31/08] Giải Vô địch Quốc gia Mexico 31/08 Monterrey VS Atletico San Luis BLV MOUNTAIN DEW [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f6c489e1e71d37e301b30df37a43b8a4.png!w80",[09:10 31/08] Giải Vô địch Quốc gia Mexico 31/08 Monterrey VS Atletico San Luis BLV MOUNTAIN DEW [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
+https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788152478-0-0-34c679d55e1a8e902eee7037ec69619d
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-hong-kong-vs-singapore-luc-1500-ngay-31-08-2026-s1-4" tvg-name="[15:00 31/08/2026] Hong Kong vs Singapore [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/p4jwq25tj1oq0ve/image/small",[15:00 31/08/2026] Hong Kong vs Singapore [BLV HD ALAN] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://colatv88xi.cc/video2/output.m3u8
-#EXTINF:-1 tvg-id="colatv-a6cb95c1d1a6-1" tvg-name="[09:30 31/08] San Jose Earthquakes Reserve vs Los Angeles FC II [BLV BÍ ĐAOĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/b0d99b5e163d56f84425d465e6e11343.png!w80",[09:30 31/08] San Jose Earthquakes Reserve vs Los Angeles FC II [BLV BÍ ĐAOĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-25.flv?auth_key=3000001788152555-0-0-f20a75f689ce075504814bb0655ce2e0
+#EXTINF:-1 tvg-id="xoilac-ports-academy-vs-dn-soopers-challengers-luc-1500-ngay-31-08-2026-s1-5" tvg-name="[15:00 31/08/2026] Nongshim Esports Academy vs Dn Soopers Challengers [BLV HD MARTY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/lol/team/jw2r08kuloxpqz8/image/small",[15:00 31/08/2026] Nongshim Esports Academy vs Dn Soopers Challengers [BLV HD MARTY] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-30/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/99121525.m3u8
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-30/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-30.flv?auth_key=3000001788152562-0-0-bd708a5e77f1283b213a4d122234188f
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-viet-nam-vs-fiji-luc-1500-ngay-31-08-2026-s0-6" tvg-name="[15:00 31/08/2026] Viet Nam vs Fiji [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/l965mk8tvxlm1ge/image/small",[15:00 31/08/2026] Viet Nam vs Fiji [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-1/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-1/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
+https://live2.streamhaulcdn.com/livecdn/channel-1.flv?auth_key=3000001788152576-0-0-24896cf569e356ae72ec9fdc9a8fde94
