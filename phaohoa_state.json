@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-31T20:33:21.992450+07:00",
+  "updated_at": "2026-08-31T21:03:35.816378+07:00",
   "matches": {
-    "812663": {
-      "url": "https://phaohoa1.live/truc-tiep/coventry-vs-hull-city-29-08-2026-812663",
-      "match_name": "Coventry vs Hull City",
-      "kickoff_iso": "2026-08-29T21:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-29T22:34:58.448410+07:00",
-      "next_scan_at": "2026-08-29T22:39:58.448410+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "314aae375bd5": {
       "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-my",
       "match_name": "Ba Lan vs Mỹ",
@@ -28,20 +14,6 @@
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "812662": {
-      "url": "https://phaohoa1.live/truc-tiep/bournemouth-vs-everton-29-08-2026-812662",
-      "match_name": "Bournemouth vs Everton",
-      "kickoff_iso": "2026-08-29T21:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-29T22:34:58.448410+07:00",
-      "next_scan_at": "2026-08-29T22:39:58.448410+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -531,14 +503,12 @@
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-u20-vs-trieu-tien-u20",
       "match_name": "Việt Nam U20 vs Triều Tiên U20",
       "kickoff_iso": "2026-08-31T19:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-31T20:33:21.992303+07:00",
-      "next_scan_at": "2026-08-31T20:38:21.992303+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
-      ],
+      "minutes_to_kickoff": -123,
+      "last_scan_at": "2026-08-31T21:03:35.816172+07:00",
+      "next_scan_at": "2026-08-31T21:08:35.816172+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "801186c1f547": {
@@ -557,11 +527,11 @@
     },
     "b6f156c57e8b": {
       "url": "https://phaohoa1.live/truc-tiep/ha-lan-vs-slovenia",
-      "match_name": "31-08 Vô Địch Châu Âu Ba Lan VS Bồ Đào Nha KaKa",
+      "match_name": "31-08 AFC U20 Asian Cup Saudi Arabia U20 VS Hong Kong U20 Văn Minh",
       "kickoff_iso": "2026-08-31T23:00:00+07:00",
-      "minutes_to_kickoff": 177,
-      "last_scan_at": "2026-08-31T20:03:50.591387+07:00",
-      "next_scan_at": "2026-08-31T20:48:50.591387+07:00",
+      "minutes_to_kickoff": 117,
+      "last_scan_at": "2026-08-31T21:03:35.816172+07:00",
+      "next_scan_at": "2026-08-31T21:23:35.816172+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -571,9 +541,9 @@
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-u20-vs-united-arab-emirates-u20",
       "match_name": "Thái Lan U20 vs United Arab Emirates U20",
       "kickoff_iso": "2026-08-31T19:30:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-08-31T20:33:21.992303+07:00",
-      "next_scan_at": "2026-08-31T20:38:21.992303+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-08-31T21:03:35.816172+07:00",
+      "next_scan_at": "2026-08-31T21:08:35.816172+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -600,6 +570,30 @@
       "minutes_to_kickoff": 177,
       "last_scan_at": "2026-08-31T20:03:50.591387+07:00",
       "next_scan_at": "2026-08-31T20:48:50.591387+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "2e2aab543b2e": {
+      "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-bo-dao-nha",
+      "match_name": "31-08 Vô Địch Châu Âu Ba Lan VS Bồ Đào Nha KaKa",
+      "kickoff_iso": "2026-08-31T23:00:00+07:00",
+      "minutes_to_kickoff": 117,
+      "last_scan_at": "2026-08-31T21:03:35.816172+07:00",
+      "next_scan_at": "2026-08-31T21:23:35.816172+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "807871": {
+      "url": "https://phaohoa1.live/truc-tiep/lecce-vs-as-roma-31-08-2026-807871",
+      "match_name": "31-08 Serie A Lecce VS AS Roma Tiểu Mây",
+      "kickoff_iso": "2026-08-31T23:30:00+07:00",
+      "minutes_to_kickoff": 147,
+      "last_scan_at": "2026-08-31T21:03:35.816172+07:00",
+      "next_scan_at": "2026-08-31T21:48:35.816172+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
