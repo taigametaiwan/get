@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-31T18:31:54.526526+07:00",
+  "updated_at": "2026-08-31T19:02:05.010659+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1383,20 +1383,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "995132": {
-      "url": "https://live05.chuoichientv.me/live/995132/china-vs-iran",
-      "match_name": "China vs Iran - Bóng chuyền nữ Châu Á 2026",
-      "kickoff_iso": "2026-08-29T19:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-29T20:32:14.141814+07:00",
-      "next_scan_at": "2026-08-29T20:37:14.141814+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1575143": {
       "url": "https://live05.chuoichientv.me/live/1575143/sv-elversberg-vs-bayer-leverkusen",
       "match_name": "SV Elversberg vs Bayer Leverkusen - Bundesliga",
@@ -1910,12 +1896,14 @@
       "url": "https://live05.chuoichientv.me/live/996985/vietnam-u20-vs-triu-tin-u20",
       "match_name": "Vietnam U20 vs Triều Tiên U20 - AFC Asian Cup U20",
       "kickoff_iso": "2026-08-31T19:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-08-31T18:31:54.526374+07:00",
-      "next_scan_at": "2026-08-31T18:41:54.526374+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-31T19:02:05.010479+07:00",
+      "next_scan_at": "2026-08-31T19:07:05.010479+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "996903": {
@@ -1960,9 +1948,9 @@
       "url": "https://live05.chuoichientv.me/live/992944/thailand-u20-vs-united-arab-emirates",
       "match_name": "Thailand U20 vs United Arab Emirates - AFC Asian Cup U20",
       "kickoff_iso": "2026-08-31T19:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-08-31T18:31:54.526374+07:00",
-      "next_scan_at": "2026-08-31T18:51:54.526374+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-08-31T19:02:05.010479+07:00",
+      "next_scan_at": "2026-08-31T19:12:05.010479+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1972,9 +1960,9 @@
       "url": "https://live05.chuoichientv.me/live/995909/netherlands-w-vs-slovenia-w",
       "match_name": "netherlands w vs slovenia w",
       "kickoff_iso": "2026-08-31T20:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-08-31T18:31:54.526374+07:00",
-      "next_scan_at": "2026-08-31T18:51:54.526374+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-08-31T19:02:05.010479+07:00",
+      "next_scan_at": "2026-08-31T19:22:05.010479+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1983,34 +1971,70 @@
     "999008": {
       "url": "https://live05.chuoichientv.me/live/999008/italy-w-vs-bulgaria-w",
       "match_name": "italy w vs bulgaria w",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T18:31:54.526374+07:00",
-      "next_scan_at": "2026-08-31T18:41:54.526374+07:00",
+      "kickoff_iso": "2026-08-31T21:00:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-31T19:02:05.010479+07:00",
+      "next_scan_at": "2026-08-31T19:22:05.010479+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "993813": {
       "url": "https://live05.chuoichientv.me/live/993813/uzbekistan-u20-vs-bangladesh-u20",
       "match_name": "uzbekistan u20 vs bangladesh u20",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T18:31:54.526374+07:00",
-      "next_scan_at": "2026-08-31T18:41:54.526374+07:00",
+      "kickoff_iso": "2026-08-31T21:00:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-08-31T19:02:05.010479+07:00",
+      "next_scan_at": "2026-08-31T19:22:05.010479+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "991687": {
       "url": "https://live05.chuoichientv.me/live/991687/poland-w-vs-portugal-w",
       "match_name": "poland w vs portugal w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T18:31:54.526374+07:00",
-      "next_scan_at": "2026-08-31T18:41:54.526374+07:00",
+      "last_scan_at": "2026-08-31T19:02:05.010479+07:00",
+      "next_scan_at": "2026-08-31T19:12:05.010479+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "997440": {
+      "url": "https://live05.chuoichientv.me/live/997440/qatar-u20-vs-oman-u20",
+      "match_name": "qatar u20 vs oman u20",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-31T19:02:05.010479+07:00",
+      "next_scan_at": "2026-08-31T19:12:05.010479+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1550103": {
+      "url": "https://live05.chuoichientv.me/live/1550103/lecce-vs-as-roma",
+      "match_name": "lecce vs as roma",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-31T19:02:05.010479+07:00",
+      "next_scan_at": "2026-08-31T19:12:05.010479+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1570358": {
+      "url": "https://live05.chuoichientv.me/live/1570358/osasuna-vs-getafe",
+      "match_name": "osasuna vs getafe",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-08-31T19:02:05.010479+07:00",
+      "next_scan_at": "2026-08-31T19:12:05.010479+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

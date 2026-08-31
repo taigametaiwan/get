@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-31T18:32:59.546149+07:00",
+  "updated_at": "2026-08-31T19:03:11.180502+07:00",
   "matches": {
-    "440fd6d9736f": {
-      "url": "https://phaohoa1.live/truc-tiep/trung-quoc-vs-iran",
-      "match_name": "Trung Quốc vs Iran",
-      "kickoff_iso": "2026-08-29T19:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-29T20:34:14.751298+07:00",
-      "next_scan_at": "2026-08-29T20:39:14.751298+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "809268": {
       "url": "https://phaohoa1.live/truc-tiep/union-berlin-vs-eintracht-frankfurt-29-08-2026-809268",
       "match_name": "Union Berlin vs Eintracht Frankfurt",
@@ -571,14 +557,16 @@
     },
     "e8bf7ae073d6": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-u20-vs-trieu-tien-u20",
-      "match_name": "31-08 AFC U20 Asian Cup Việt Nam U20 VS Triều Tiên U20 Kevin",
+      "match_name": "Việt Nam U20 vs Triều Tiên U20",
       "kickoff_iso": "2026-08-31T19:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-31T18:32:59.545734+07:00",
-      "next_scan_at": "2026-08-31T18:42:59.545734+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-08-31T19:03:11.180316+07:00",
+      "next_scan_at": "2026-08-31T19:08:11.180316+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
       "scan_decision": "browser-fallback"
     },
     "801186c1f547": {
@@ -609,11 +597,23 @@
     },
     "aa919880b877": {
       "url": "https://phaohoa1.live/truc-tiep/thai-lan-u20-vs-united-arab-emirates-u20",
+      "match_name": "31-08 AFC U20 Asian Cup Thái Lan U20 VS United Arab Emirates U20 Pháo Thủ",
+      "kickoff_iso": "2026-08-31T19:30:00+07:00",
+      "minutes_to_kickoff": 27,
+      "last_scan_at": "2026-08-31T19:03:11.180316+07:00",
+      "next_scan_at": "2026-08-31T19:13:11.180316+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "1acf90565cd4": {
+      "url": "https://phaohoa1.live/truc-tiep/italy-vs-bulgaria",
       "match_name": "31-08 Vô Địch Châu Âu Italy VS Bulgaria KaKa",
       "kickoff_iso": "2026-08-31T21:00:00+07:00",
-      "minutes_to_kickoff": 177,
-      "last_scan_at": "2026-08-31T18:03:21.736305+07:00",
-      "next_scan_at": "2026-08-31T18:48:21.736305+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-08-31T19:03:11.180316+07:00",
+      "next_scan_at": "2026-08-31T19:23:11.180316+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
