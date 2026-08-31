@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-01T01:32:13.856651+07:00",
+  "updated_at": "2026-09-01T02:02:19.551977+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1395,35 +1395,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1550101": {
-      "url": "https://live05.chuoichientv.me/live/1550101/juventus-vs-parma",
-      "match_name": "Juventus vs Parma - Serie A",
-      "kickoff_iso": "2026-08-30T01:45:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-08-30T03:31:56.203855+07:00",
-      "next_scan_at": "2026-08-30T03:36:56.203855+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1552741": {
-      "url": "https://live05.chuoichientv.me/live/1552741/lyon-vs-le-havre",
-      "match_name": "Lyon vs LE Havre - Ligue 1",
-      "kickoff_iso": "2026-08-30T01:45:00+07:00",
-      "minutes_to_kickoff": -106,
-      "last_scan_at": "2026-08-30T03:31:56.203855+07:00",
-      "next_scan_at": "2026-08-30T03:36:56.203855+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1570362": {
       "url": "https://live05.chuoichientv.me/live/1570362/sevilla-vs-atletico-madrid",
       "match_name": "Sevilla vs Atletico Madrid - La Liga",
@@ -1929,14 +1900,16 @@
     "1570358": {
       "url": "https://live05.chuoichientv.me/live/1570358/osasuna-vs-getafe",
       "match_name": "osasuna vs getafe",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T01:32:13.856516+07:00",
-      "next_scan_at": "2026-09-01T01:42:13.856516+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "kickoff_iso": "2026-09-01T00:30:00+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-09-01T02:02:19.551851+07:00",
+      "next_scan_at": "2026-09-01T02:07:19.551851+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1528082": {
       "url": "https://live05.chuoichientv.me/live/1528082/yelimay-semey-vs-kairat-almaty",
@@ -1953,46 +1926,53 @@
     "1550098": {
       "url": "https://live05.chuoichientv.me/live/1550098/atalanta-vs-bologna",
       "match_name": "atalanta vs bologna",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T01:32:13.856516+07:00",
-      "next_scan_at": "2026-09-01T01:42:13.856516+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "kickoff_iso": "2026-09-01T01:45:00+07:00",
+      "minutes_to_kickoff": -16,
+      "last_scan_at": "2026-09-01T02:02:19.551851+07:00",
+      "next_scan_at": "2026-09-01T02:07:19.551851+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1557377": {
       "url": "https://live05.chuoichientv.me/live/1557377/aston-villa-vs-arsenal",
-      "match_name": "aston villa vs arsenal",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T01:32:13.856516+07:00",
-      "next_scan_at": "2026-09-01T01:42:13.856516+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Aston Villa vs Arsenal - Ngoại Hạng Anh",
+      "kickoff_iso": "2026-09-01T02:00:00+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-01T02:02:19.551851+07:00",
+      "next_scan_at": "2026-09-01T02:07:19.551851+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1570354": {
       "url": "https://live05.chuoichientv.me/live/1570354/barcelona-vs-rayo-vallecano",
-      "match_name": "barcelona vs rayo vallecano",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T01:32:13.856516+07:00",
-      "next_scan_at": "2026-09-01T01:42:13.856516+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Barcelona vs Rayo Vallecano - La Liga",
+      "kickoff_iso": "2026-09-01T02:30:00+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-09-01T02:02:19.551851+07:00",
+      "next_scan_at": "2026-09-01T02:07:19.551851+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1492357": {
       "url": "https://live05.chuoichientv.me/live/1492357/remo-vs-coritiba",
       "match_name": "remo vs coritiba",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T01:32:13.856516+07:00",
-      "next_scan_at": "2026-09-01T01:42:13.856516+07:00",
+      "last_scan_at": "2026-09-01T02:02:19.551851+07:00",
+      "next_scan_at": "2026-09-01T02:12:19.551851+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2003,8 +1983,8 @@
       "match_name": "santos laguna w vs atlante w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T01:32:13.856516+07:00",
-      "next_scan_at": "2026-09-01T01:42:13.856516+07:00",
+      "last_scan_at": "2026-09-01T02:02:19.551851+07:00",
+      "next_scan_at": "2026-09-01T02:12:19.551851+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
