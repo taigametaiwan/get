@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-31T23:33:25.815807+07:00",
+  "updated_at": "2026-09-01T00:03:49.117112+07:00",
   "matches": {
     "825130": {
       "url": "https://phaohoa1.live/truc-tiep/al-fateh-vs-al-ittihad-30-08-2026-825130",
@@ -14,20 +14,6 @@
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "798829": {
-      "url": "https://phaohoa1.live/truc-tiep/real-sociedad-vs-espanyol-30-08-2026-798829",
-      "match_name": "30-08 Serie A Juventus VS Parma Pháo Thủ",
-      "kickoff_iso": "2026-08-30T00:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-30T01:33:48.356314+07:00",
-      "next_scan_at": "2026-08-30T01:38:48.356314+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -491,9 +477,9 @@
       "url": "https://phaohoa1.live/truc-tiep/saudi-arabia-u20-vs-hong-kong-u20",
       "match_name": "Saudi Arabia U20 vs Hong Kong U20",
       "kickoff_iso": "2026-08-31T23:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-31T23:33:25.815539+07:00",
-      "next_scan_at": "2026-08-31T23:38:25.815539+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-09-01T00:03:49.116852+07:00",
+      "next_scan_at": "2026-09-01T00:08:49.116852+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -505,9 +491,9 @@
       "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-bo-dao-nha",
       "match_name": "Ba Lan vs Bồ Đào Nha",
       "kickoff_iso": "2026-08-31T23:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-08-31T23:33:25.815539+07:00",
-      "next_scan_at": "2026-08-31T23:38:25.815539+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-09-01T00:03:49.116852+07:00",
+      "next_scan_at": "2026-09-01T00:08:49.116852+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -519,9 +505,9 @@
       "url": "https://phaohoa1.live/truc-tiep/lecce-vs-as-roma-31-08-2026-807871",
       "match_name": "01-09 La Liga Osasuna VS Getafe Kevin",
       "kickoff_iso": "2026-08-31T23:30:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-08-31T23:33:25.815539+07:00",
-      "next_scan_at": "2026-08-31T23:38:25.815539+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-09-01T00:03:49.116852+07:00",
+      "next_scan_at": "2026-09-01T00:08:49.116852+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -531,23 +517,25 @@
     },
     "458201c192a9": {
       "url": "https://phaohoa1.live/truc-tiep/cong-hoa-sec-vs-thuy-dien",
-      "match_name": "01-09 Vô Địch Châu Âu Cộng Hoà Séc VS Thuỵ Điển Tày",
+      "match_name": "Cộng Hoà Séc vs Thuỵ Điển",
       "kickoff_iso": "2026-09-01T00:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-31T23:33:25.815539+07:00",
-      "next_scan_at": "2026-08-31T23:43:25.815539+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-09-01T00:03:49.116852+07:00",
+      "next_scan_at": "2026-09-01T00:08:49.116852+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     },
     "798834": {
       "url": "https://phaohoa1.live/truc-tiep/osasuna-vs-getafe-01-09-2026-798834",
       "match_name": "01-09 Premier League Aston Villa VS FAN ARSENAL Arsenal Lưu Bị",
       "kickoff_iso": "2026-09-01T02:00:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-31T23:03:43.346115+07:00",
-      "next_scan_at": "2026-08-31T23:48:43.346115+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-09-01T00:03:49.116852+07:00",
+      "next_scan_at": "2026-09-01T00:23:49.116852+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -557,21 +545,21 @@
       "url": "https://phaohoa1.live/truc-tiep/besiktas-vs-corum-01-09-2026-795652",
       "match_name": "01-09 Süper Lig Besiktas VS Corum Văn Minh",
       "kickoff_iso": "2026-09-01T01:30:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-08-31T23:33:25.815539+07:00",
-      "next_scan_at": "2026-08-31T23:53:25.815539+07:00",
+      "minutes_to_kickoff": 87,
+      "last_scan_at": "2026-09-01T00:03:49.116852+07:00",
+      "next_scan_at": "2026-09-01T00:23:49.116852+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "812669": {
       "url": "https://phaohoa1.live/truc-tiep/aston-villa-vs-arsenal-01-09-2026-812669",
       "match_name": "01-09 Premier League Aston Villa VS ANTI ARSENAL Arsenal Người Lửa",
       "kickoff_iso": "2026-09-01T02:00:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-08-31T23:03:43.346115+07:00",
-      "next_scan_at": "2026-08-31T23:48:43.346115+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-09-01T00:03:49.116852+07:00",
+      "next_scan_at": "2026-09-01T00:23:49.116852+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
