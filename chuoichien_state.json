@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-08-31T23:02:06.888631+07:00",
+  "updated_at": "2026-08-31T23:31:35.860543+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1395,35 +1395,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1575142": {
-      "url": "https://live05.chuoichientv.me/live/1575142/borussia-dortmund-vs-hamburger-sv",
-      "match_name": "Borussia Dortmund vs Hamburger SV - Bundesliga",
-      "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-30T01:02:47.285732+07:00",
-      "next_scan_at": "2026-08-30T01:07:47.285732+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1557386": {
-      "url": "https://live05.chuoichientv.me/live/1557386/tottenham-vs-newcastle",
-      "match_name": "Tottenham vs Newcastle - Ngoại Hạng Anh",
-      "kickoff_iso": "2026-08-29T23:30:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-30T01:02:47.285732+07:00",
-      "next_scan_at": "2026-08-30T01:07:47.285732+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1570361": {
       "url": "https://live05.chuoichientv.me/live/1570361/real-sociedad-vs-espanyol",
       "match_name": "Real Sociedad vs Espanyol - La Liga",
@@ -1928,11 +1899,11 @@
     },
     "991687": {
       "url": "https://live05.chuoichientv.me/live/991687/poland-w-vs-portugal-w",
-      "match_name": "Poland W vs Portugal W - Bóng chuyền Nữ Châu Âu",
+      "match_name": "poland w vs portugal w",
       "kickoff_iso": "2026-08-31T23:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-31T23:02:06.888432+07:00",
-      "next_scan_at": "2026-08-31T23:07:06.888432+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-08-31T23:31:35.860408+07:00",
+      "next_scan_at": "2026-08-31T23:36:35.860408+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1957,12 +1928,15 @@
       "url": "https://live05.chuoichientv.me/live/1550103/lecce-vs-as-roma",
       "match_name": "lecce vs as roma",
       "kickoff_iso": "2026-08-31T23:30:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-08-31T23:02:06.888432+07:00",
-      "next_scan_at": "2026-08-31T23:12:06.888432+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-08-31T23:31:35.860408+07:00",
+      "next_scan_at": "2026-08-31T23:36:35.860408+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1570358": {
@@ -1970,8 +1944,8 @@
       "match_name": "osasuna vs getafe",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T23:02:06.888432+07:00",
-      "next_scan_at": "2026-08-31T23:12:06.888432+07:00",
+      "last_scan_at": "2026-08-31T23:31:35.860408+07:00",
+      "next_scan_at": "2026-08-31T23:41:35.860408+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1994,8 +1968,8 @@
       "match_name": "atalanta vs bologna",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T23:02:06.888432+07:00",
-      "next_scan_at": "2026-08-31T23:12:06.888432+07:00",
+      "last_scan_at": "2026-08-31T23:31:35.860408+07:00",
+      "next_scan_at": "2026-08-31T23:41:35.860408+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2006,8 +1980,8 @@
       "match_name": "aston villa vs arsenal",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T23:02:06.888432+07:00",
-      "next_scan_at": "2026-08-31T23:12:06.888432+07:00",
+      "last_scan_at": "2026-08-31T23:31:35.860408+07:00",
+      "next_scan_at": "2026-08-31T23:41:35.860408+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2018,8 +1992,8 @@
       "match_name": "barcelona vs rayo vallecano",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T23:02:06.888432+07:00",
-      "next_scan_at": "2026-08-31T23:12:06.888432+07:00",
+      "last_scan_at": "2026-08-31T23:31:35.860408+07:00",
+      "next_scan_at": "2026-08-31T23:41:35.860408+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2030,8 +2004,8 @@
       "match_name": "remo vs coritiba",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T23:02:06.888432+07:00",
-      "next_scan_at": "2026-08-31T23:12:06.888432+07:00",
+      "last_scan_at": "2026-08-31T23:31:35.860408+07:00",
+      "next_scan_at": "2026-08-31T23:41:35.860408+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2042,8 +2016,8 @@
       "match_name": "santos laguna w vs atlante w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-08-31T23:02:06.888432+07:00",
-      "next_scan_at": "2026-08-31T23:12:06.888432+07:00",
+      "last_scan_at": "2026-08-31T23:31:35.860408+07:00",
+      "next_scan_at": "2026-08-31T23:41:35.860408+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
