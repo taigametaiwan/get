@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-01T04:01:50.883926+07:00",
+  "updated_at": "2026-09-01T04:31:40.260420+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1395,18 +1395,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1492351": {
-      "url": "https://live05.chuoichientv.me/live/1492351/atletico-mg-vs-vitoria",
-      "match_name": "Atletico-MG vs Vitoria - VĐQG Brazil",
-      "kickoff_iso": "2026-08-30T04:30:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-30T06:31:29.692864+07:00",
-      "next_scan_at": "2026-08-30T06:36:29.692864+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "1490422": {
       "url": "https://live05.chuoichientv.me/live/1490422/inter-miami-vs-cf-montreal",
       "match_name": "Inter Miami vs CF Montreal - Major League Soccer",
@@ -1942,9 +1930,9 @@
       "url": "https://live05.chuoichientv.me/live/1570354/barcelona-vs-rayo-vallecano",
       "match_name": "Barcelona vs Rayo Vallecano - La Liga",
       "kickoff_iso": "2026-09-01T02:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-09-01T04:01:50.883837+07:00",
-      "next_scan_at": "2026-09-01T04:06:50.883837+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-09-01T04:31:40.260345+07:00",
+      "next_scan_at": "2026-09-01T04:36:40.260345+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1955,23 +1943,23 @@
     },
     "1492357": {
       "url": "https://live05.chuoichientv.me/live/1492357/remo-vs-coritiba",
-      "match_name": "remo vs coritiba",
+      "match_name": "remo vs Coritiba - VĐQG Brazil",
       "kickoff_iso": "2026-09-01T06:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-09-01T04:01:50.883837+07:00",
-      "next_scan_at": "2026-09-01T04:21:50.883837+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-09-01T04:31:40.260345+07:00",
+      "next_scan_at": "2026-09-01T04:51:40.260345+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1603344": {
       "url": "https://live05.chuoichientv.me/live/1603344/santos-laguna-w-vs-atlante-w",
       "match_name": "santos laguna w vs atlante w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T04:01:50.883837+07:00",
-      "next_scan_at": "2026-09-01T04:11:50.883837+07:00",
+      "last_scan_at": "2026-09-01T04:31:40.260345+07:00",
+      "next_scan_at": "2026-09-01T04:41:40.260345+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
