@@ -1,20 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-08-31T16:02:55.979819+07:00",
+  "updated_at": "2026-08-31T16:32:59.850923+07:00",
   "matches": {
-    "d08676131212": {
-      "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-thai-lan",
-      "match_name": "Nhật Bản vs Thái Lan",
-      "kickoff_iso": "2026-08-29T16:15:00+07:00",
-      "minutes_to_kickoff": -137,
-      "last_scan_at": "2026-08-29T18:32:52.974271+07:00",
-      "next_scan_at": "2026-08-29T18:37:52.974271+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "812661": {
       "url": "https://phaohoa1.live/truc-tiep/liverpool-vs-nottingham-29-08-2026-812661",
       "match_name": "Liverpool vs Nottingham",
@@ -585,9 +573,9 @@
       "url": "https://phaohoa1.live/truc-tiep/indonesia-u20-vs-malaysia-u20",
       "match_name": "Indonesia U20 vs Malaysia U20",
       "kickoff_iso": "2026-08-31T16:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-31T16:02:55.979605+07:00",
-      "next_scan_at": "2026-08-31T16:07:55.979605+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-31T16:32:59.850772+07:00",
+      "next_scan_at": "2026-08-31T16:37:59.850772+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -599,9 +587,9 @@
       "url": "https://phaohoa1.live/truc-tiep/japan-u20-vs-kuwait-u20",
       "match_name": "Japan U20 vs Kuwait U20",
       "kickoff_iso": "2026-08-31T16:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-08-31T16:02:55.979605+07:00",
-      "next_scan_at": "2026-08-31T16:07:55.979605+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-08-31T16:32:59.850772+07:00",
+      "next_scan_at": "2026-08-31T16:37:59.850772+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -616,6 +604,18 @@
       "minutes_to_kickoff": 178,
       "last_scan_at": "2026-08-31T16:02:55.979605+07:00",
       "next_scan_at": "2026-08-31T16:47:55.979605+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "801186c1f547": {
+      "url": "https://phaohoa1.live/truc-tiep/south-korea-u20-vs-lebanon-u20",
+      "match_name": "31-08 AFC U20 Asian Cup Thái Lan U20 VS United Arab Emirates U20 Pháo Thủ",
+      "kickoff_iso": "2026-08-31T19:30:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-08-31T16:32:59.850772+07:00",
+      "next_scan_at": "2026-08-31T17:17:59.850772+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
