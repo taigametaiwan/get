@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-01T06:02:02.514331+07:00",
+  "updated_at": "2026-09-01T06:31:48.140040+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1395,21 +1395,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1490422": {
-      "url": "https://live05.chuoichientv.me/live/1490422/inter-miami-vs-cf-montreal",
-      "match_name": "Inter Miami vs CF Montreal - Major League Soccer",
-      "kickoff_iso": "2026-08-30T06:30:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-30T08:31:58.643380+07:00",
-      "next_scan_at": "2026-08-30T08:36:58.643380+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1490432": {
       "url": "https://live05.chuoichientv.me/live/1490432/colorado-rapids-vs-real-salt-lake",
       "match_name": "Colorado Rapids vs Real Salt Lake - Major League Soccer",
@@ -1945,9 +1930,9 @@
       "url": "https://live05.chuoichientv.me/live/1492357/remo-vs-coritiba",
       "match_name": "remo vs Coritiba - VĐQG Brazil",
       "kickoff_iso": "2026-09-01T06:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-09-01T06:02:02.514261+07:00",
-      "next_scan_at": "2026-09-01T06:07:02.514261+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-09-01T06:31:48.139974+07:00",
+      "next_scan_at": "2026-09-01T06:36:48.139974+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1958,14 +1943,14 @@
     "1603344": {
       "url": "https://live05.chuoichientv.me/live/1603344/santos-laguna-w-vs-atlante-w",
       "match_name": "santos laguna w vs atlante w",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T06:02:02.514261+07:00",
-      "next_scan_at": "2026-09-01T06:12:02.514261+07:00",
+      "kickoff_iso": "2026-09-01T08:06:00+07:00",
+      "minutes_to_kickoff": 95,
+      "last_scan_at": "2026-09-01T06:31:48.139974+07:00",
+      "next_scan_at": "2026-09-01T06:51:48.139974+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
