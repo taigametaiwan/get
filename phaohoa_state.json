@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-01T15:32:27.200431+07:00",
+  "updated_at": "2026-09-01T16:02:42.786375+07:00",
   "matches": {
     "805980": {
       "url": "https://phaohoa1.live/truc-tiep/utrecht-vs-psv-30-08-2026-805980",
@@ -541,15 +541,29 @@
     },
     "853040": {
       "url": "https://phaohoa1.live/truc-tiep/damansara-vs-johor-dt-01-09-2026-853040",
-      "match_name": "01-09 FA Cup Damansara VS Johor DT Pháo Thủ",
+      "match_name": "Damansara vs Johor Dt",
       "kickoff_iso": "2026-09-01T16:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-09-01T15:32:27.200355+07:00",
-      "next_scan_at": "2026-09-01T15:42:27.200355+07:00",
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-09-01T16:02:42.786232+07:00",
+      "next_scan_at": "2026-09-01T16:07:42.786232+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "821703": {
+      "url": "https://phaohoa1.live/truc-tiep/dalian-yingbo-vs-shanghai-shenhua-01-09-2026-821703",
+      "match_name": "01-09 FA Cup Dalian Yingbo VS Shanghai Shenhua Văn Minh",
+      "kickoff_iso": "2026-09-01T18:35:00+07:00",
+      "minutes_to_kickoff": 153,
+      "last_scan_at": "2026-09-01T16:02:42.786232+07:00",
+      "next_scan_at": "2026-09-01T16:47:42.786232+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
