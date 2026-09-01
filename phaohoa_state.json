@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-01T17:02:51.365532+07:00",
+  "updated_at": "2026-09-01T17:32:51.251439+07:00",
   "matches": {
-    "805980": {
-      "url": "https://phaohoa1.live/truc-tiep/utrecht-vs-psv-30-08-2026-805980",
-      "match_name": "Utrecht vs Psv",
-      "kickoff_iso": "2026-08-30T17:15:00+07:00",
-      "minutes_to_kickoff": -108,
-      "last_scan_at": "2026-08-30T19:04:20.189634+07:00",
-      "next_scan_at": "2026-08-30T19:09:20.189634+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "803088": {
       "url": "https://phaohoa1.live/truc-tiep/aberdeen-vs-rangers-30-08-2026-803088",
       "match_name": "30-08 Premier League Chelsea VS Brighton Tày",
@@ -543,9 +529,9 @@
       "url": "https://phaohoa1.live/truc-tiep/damansara-vs-johor-dt-01-09-2026-853040",
       "match_name": "Damansara vs Johor Dt",
       "kickoff_iso": "2026-09-01T16:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-09-01T17:02:51.365329+07:00",
-      "next_scan_at": "2026-09-01T17:07:51.365329+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-09-01T17:32:51.251337+07:00",
+      "next_scan_at": "2026-09-01T17:37:51.251337+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -557,13 +543,13 @@
       "url": "https://phaohoa1.live/truc-tiep/dalian-yingbo-vs-shanghai-shenhua-01-09-2026-821703",
       "match_name": "01-09 FA Cup Dalian Yingbo VS Shanghai Shenhua Văn Minh",
       "kickoff_iso": "2026-09-01T18:35:00+07:00",
-      "minutes_to_kickoff": 93,
-      "last_scan_at": "2026-09-01T17:02:51.365329+07:00",
-      "next_scan_at": "2026-09-01T17:22:51.365329+07:00",
+      "minutes_to_kickoff": 63,
+      "last_scan_at": "2026-09-01T17:32:51.251337+07:00",
+      "next_scan_at": "2026-09-01T17:52:51.251337+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "3c642b040cbf": {
       "url": "https://phaohoa1.live/truc-tiep/bi-vs-duc",
@@ -572,6 +558,18 @@
       "minutes_to_kickoff": 178,
       "last_scan_at": "2026-09-01T17:02:51.365329+07:00",
       "next_scan_at": "2026-09-01T17:47:51.365329+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "821704": {
+      "url": "https://phaohoa1.live/truc-tiep/shandong-taishan-vs-shanghai-port-01-09-2026-821704",
+      "match_name": "01-09 Cup Akron Togliatti VS Lokomotiv Moscow Tiểu Mây",
+      "kickoff_iso": "2026-09-01T20:15:00+07:00",
+      "minutes_to_kickoff": 163,
+      "last_scan_at": "2026-09-01T17:32:51.251337+07:00",
+      "next_scan_at": "2026-09-01T18:17:51.251337+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
