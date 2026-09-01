@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-02T00:01:53.667633+07:00",
+  "updated_at": "2026-09-02T00:32:17.734050+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1407,18 +1407,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1570356": {
-      "url": "https://live05.chuoichientv.me/live/1570356/deportivo-la-coruna-vs-valencia",
-      "match_name": "Deportivo La Coruna vs Valencia - La Liga",
-      "kickoff_iso": "2026-08-31T00:30:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-31T02:32:15.071439+07:00",
-      "next_scan_at": "2026-08-31T02:37:15.071439+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "1550099": {
       "url": "https://live05.chuoichientv.me/live/1550099/cagliari-vs-inter",
       "match_name": "Cagliari vs Inter - Serie A",
@@ -1851,29 +1839,28 @@
     },
     "1563654": {
       "url": "https://live05.chuoichientv.me/live/1563654/fakel-vs-fc-krasnodar",
-      "match_name": "Fakel vs FC Krasnodar - Cúp Nga",
+      "match_name": "fakel vs fc krasnodar",
       "kickoff_iso": "2026-09-01T22:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-09-02T00:01:53.667448+07:00",
-      "next_scan_at": "2026-09-02T00:06:53.667448+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
-      ],
+      "minutes_to_kickoff": -122,
+      "last_scan_at": "2026-09-02T00:32:17.733823+07:00",
+      "next_scan_at": "2026-09-02T00:37:17.733823+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "1629056": {
       "url": "https://live05.chuoichientv.me/live/1629056/parma-vs-cremonese",
-      "match_name": "Parma vs Cremonese - Coppa Italia",
+      "match_name": "parma vs cremonese",
       "kickoff_iso": "2026-09-01T23:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-09-02T00:01:53.667448+07:00",
-      "next_scan_at": "2026-09-02T00:06:53.667448+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-09-02T00:32:17.733823+07:00",
+      "next_scan_at": "2026-09-02T00:37:17.733823+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1891,15 +1878,16 @@
     },
     "993082": {
       "url": "https://live05.chuoichientv.me/live/993082/turkey-w-vs-azerbaijan-w",
-      "match_name": "Turkey W vs Azerbaijan W - Bóng chuyền Nữ Châu Âu",
+      "match_name": "turkey w vs azerbaijan w",
       "kickoff_iso": "2026-09-01T23:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-09-02T00:01:53.667448+07:00",
-      "next_scan_at": "2026-09-02T00:06:53.667448+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-09-02T00:32:17.733823+07:00",
+      "next_scan_at": "2026-09-02T00:37:17.733823+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
+        "https://tfyx1gr4uqmtt8y41hcjagyzdecjpc7tssa3ogw3dkmufctusk5mbxbtse5o.100ycdn.com/gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8?wsSession=6f1e811bb81d320e1cf74184-178828391244976&wsIPSercert=589f747ad169de9c9358e61614a0abb0&wsBindIP=2&wsserid=1168167351547827516"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1908,8 +1896,8 @@
       "match_name": "al najma vs al jabalain",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-02T00:01:53.667448+07:00",
-      "next_scan_at": "2026-09-02T00:11:53.667448+07:00",
+      "last_scan_at": "2026-09-02T00:32:17.733823+07:00",
+      "next_scan_at": "2026-09-02T00:42:17.733823+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1920,8 +1908,8 @@
       "match_name": "al hilal saudi fc vs al ahli jeddah",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-02T00:01:53.667448+07:00",
-      "next_scan_at": "2026-09-02T00:11:53.667448+07:00",
+      "last_scan_at": "2026-09-02T00:32:17.733823+07:00",
+      "next_scan_at": "2026-09-02T00:42:17.733823+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1932,8 +1920,8 @@
       "match_name": "lincoln vs blackburn",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-02T00:01:53.667448+07:00",
-      "next_scan_at": "2026-09-02T00:11:53.667448+07:00",
+      "last_scan_at": "2026-09-02T00:32:17.733823+07:00",
+      "next_scan_at": "2026-09-02T00:42:17.733823+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1958,8 +1946,8 @@
       "match_name": "sheffield utd vs bolton",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-02T00:01:53.667448+07:00",
-      "next_scan_at": "2026-09-02T00:11:53.667448+07:00",
+      "last_scan_at": "2026-09-02T00:32:17.733823+07:00",
+      "next_scan_at": "2026-09-02T00:42:17.733823+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1970,8 +1958,8 @@
       "match_name": "west ham vs wolves",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-02T00:01:53.667448+07:00",
-      "next_scan_at": "2026-09-02T00:11:53.667448+07:00",
+      "last_scan_at": "2026-09-02T00:32:17.733823+07:00",
+      "next_scan_at": "2026-09-02T00:42:17.733823+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1982,8 +1970,8 @@
       "match_name": "birmingham vs southampton",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-02T00:01:53.667448+07:00",
-      "next_scan_at": "2026-09-02T00:11:53.667448+07:00",
+      "last_scan_at": "2026-09-02T00:32:17.733823+07:00",
+      "next_scan_at": "2026-09-02T00:42:17.733823+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
