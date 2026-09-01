@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-01T21:34:26.906536+07:00",
+  "updated_at": "2026-09-01T22:04:32.412216+07:00",
   "matches": {
-    "798831": {
-      "url": "https://phaohoa1.live/truc-tiep/real-madrid-vs-malaga-30-08-2026-798831",
-      "match_name": "Real Madrid vs Malaga",
-      "kickoff_iso": "2026-08-30T22:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-30T23:33:39.849011+07:00",
-      "next_scan_at": "2026-08-30T23:38:39.849011+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "809271": {
       "url": "https://phaohoa1.live/truc-tiep/augsburg-vs-schalke-30-08-2026-809271",
       "match_name": "Augsburg vs Schalke",
@@ -28,20 +14,6 @@
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "a8c3f0070d52": {
-      "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-phap",
-      "match_name": "Ba Lan vs Pháp",
-      "kickoff_iso": "2026-08-30T22:00:00+07:00",
-      "minutes_to_kickoff": -123,
-      "last_scan_at": "2026-08-31T00:03:40.318059+07:00",
-      "next_scan_at": "2026-08-31T00:08:40.318059+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -445,9 +417,9 @@
       "url": "https://phaohoa1.live/truc-tiep/bi-vs-duc",
       "match_name": "Bỉ vs Đức",
       "kickoff_iso": "2026-09-01T20:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-09-01T21:34:26.903925+07:00",
-      "next_scan_at": "2026-09-01T21:39:26.903925+07:00",
+      "minutes_to_kickoff": -123,
+      "last_scan_at": "2026-09-01T22:04:32.411634+07:00",
+      "next_scan_at": "2026-09-01T22:09:32.411634+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -471,9 +443,9 @@
       "url": "https://phaohoa1.live/truc-tiep/al-sadd-vs-al-gharafa-01-09-2026-853044",
       "match_name": "01-09 Coppa Italia Parma VS Cremonese Tày",
       "kickoff_iso": "2026-09-01T21:00:00+07:00",
-      "minutes_to_kickoff": -34,
-      "last_scan_at": "2026-09-01T21:34:26.903925+07:00",
-      "next_scan_at": "2026-09-01T21:39:26.903925+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-09-01T22:04:32.411634+07:00",
+      "next_scan_at": "2026-09-01T22:09:32.411634+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -485,9 +457,9 @@
       "url": "https://phaohoa1.live/truc-tiep/akron-togliatti-vs-lokomotiv-moscow-01-09-2026-785741",
       "match_name": "Akron Togliatti vs Lokomotiv Moscow",
       "kickoff_iso": "2026-09-01T20:15:00+07:00",
-      "minutes_to_kickoff": -78,
-      "last_scan_at": "2026-09-01T21:34:26.903925+07:00",
-      "next_scan_at": "2026-09-01T21:39:26.903925+07:00",
+      "minutes_to_kickoff": -108,
+      "last_scan_at": "2026-09-01T22:04:32.411634+07:00",
+      "next_scan_at": "2026-09-01T22:09:32.411634+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -511,9 +483,9 @@
       "url": "https://phaohoa1.live/truc-tiep/fakel-voronezh-vs-krasnodar-01-09-2026-785742",
       "match_name": "01-09 Cup Fakel Voronezh VS Krasnodar Tiểu Mây",
       "kickoff_iso": "2026-09-01T22:30:00+07:00",
-      "minutes_to_kickoff": 57,
-      "last_scan_at": "2026-09-01T21:34:26.903925+07:00",
-      "next_scan_at": "2026-09-01T21:54:26.903925+07:00",
+      "minutes_to_kickoff": 27,
+      "last_scan_at": "2026-09-01T22:04:32.411634+07:00",
+      "next_scan_at": "2026-09-01T22:14:32.411634+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -523,13 +495,25 @@
       "url": "https://phaohoa1.live/truc-tiep/tho-nhi-ki-vs-azerbaijan",
       "match_name": "01-09 CEV Cup Thổ Nhĩ Kì VS Azerbaijan KaKa",
       "kickoff_iso": "2026-09-01T23:00:00+07:00",
-      "minutes_to_kickoff": 86,
-      "last_scan_at": "2026-09-01T21:34:26.903925+07:00",
-      "next_scan_at": "2026-09-01T21:54:26.903925+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-09-01T22:04:32.411634+07:00",
+      "next_scan_at": "2026-09-01T22:24:32.411634+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "825133": {
+      "url": "https://phaohoa1.live/truc-tiep/al-hilal-vs-al-ahli-sc-02-09-2026-825133",
+      "match_name": "02-09 Saudi Pro League Al Hilal VS Al Ahli SC Lưu Bị",
+      "kickoff_iso": "2026-09-02T01:00:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-09-01T22:04:32.411634+07:00",
+      "next_scan_at": "2026-09-01T22:49:32.411634+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }

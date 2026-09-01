@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-01T21:32:34.790181+07:00",
+  "updated_at": "2026-09-01T22:02:31.855313+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1407,20 +1407,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1570360": {
-      "url": "https://live05.chuoichientv.me/live/1570360/real-madrid-vs-malaga",
-      "match_name": "Real Madrid vs Malaga - La Liga",
-      "kickoff_iso": "2026-08-30T22:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-30T23:31:52.832556+07:00",
-      "next_scan_at": "2026-08-30T23:36:52.832556+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1557384": {
       "url": "https://live05.chuoichientv.me/live/1557384/manchester-united-vs-ipswich",
       "match_name": "Manchester United vs Ipswich - Ngoại Hạng Anh",
@@ -1861,11 +1847,11 @@
     },
     "992298": {
       "url": "https://live05.chuoichientv.me/live/992298/belgium-vs-germany",
-      "match_name": "Belgium vs Germany - Bóng chuyền Nữ Châu Âu",
+      "match_name": "belgium vs germany",
       "kickoff_iso": "2026-09-01T20:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-09-01T21:32:34.778008+07:00",
-      "next_scan_at": "2026-09-01T21:37:34.778008+07:00",
+      "minutes_to_kickoff": -122,
+      "last_scan_at": "2026-09-01T22:02:31.855152+07:00",
+      "next_scan_at": "2026-09-01T22:07:31.855152+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1876,15 +1862,16 @@
     },
     "1585737": {
       "url": "https://live05.chuoichientv.me/live/1585737/mraniyespor-vs-mulaspor",
-      "match_name": "Ümraniyespor vs Muğlaspor - Hạng Nhất Thổ Nhĩ Kỳ",
+      "match_name": "mraniyespor vs mulaspor",
       "kickoff_iso": "2026-09-01T21:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-09-01T21:32:34.778008+07:00",
-      "next_scan_at": "2026-09-01T21:37:34.778008+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-09-01T22:02:31.855152+07:00",
+      "next_scan_at": "2026-09-01T22:07:31.855152+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1892,9 +1879,9 @@
       "url": "https://live05.chuoichientv.me/live/1563654/fakel-vs-fc-krasnodar",
       "match_name": "fakel vs fc krasnodar",
       "kickoff_iso": "2026-09-01T22:30:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-09-01T21:32:34.778008+07:00",
-      "next_scan_at": "2026-09-01T21:52:34.778008+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-09-01T22:02:31.855152+07:00",
+      "next_scan_at": "2026-09-01T22:12:31.855152+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1902,11 +1889,11 @@
     },
     "1629056": {
       "url": "https://live05.chuoichientv.me/live/1629056/parma-vs-cremonese",
-      "match_name": "parma vs cremonese",
+      "match_name": "Parma vs Cremonese - Coppa Italia",
       "kickoff_iso": "2026-09-01T23:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-09-01T21:32:34.778008+07:00",
-      "next_scan_at": "2026-09-01T21:52:34.778008+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-09-01T22:02:31.855152+07:00",
+      "next_scan_at": "2026-09-01T22:22:31.855152+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1928,9 +1915,9 @@
       "url": "https://live05.chuoichientv.me/live/993082/turkey-w-vs-azerbaijan-w",
       "match_name": "turkey w vs azerbaijan w",
       "kickoff_iso": "2026-09-01T23:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-09-01T21:32:34.778008+07:00",
-      "next_scan_at": "2026-09-01T21:52:34.778008+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-09-01T22:02:31.855152+07:00",
+      "next_scan_at": "2026-09-01T22:22:31.855152+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1941,8 +1928,8 @@
       "match_name": "al najma vs al jabalain",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T21:32:34.778008+07:00",
-      "next_scan_at": "2026-09-01T21:42:34.778008+07:00",
+      "last_scan_at": "2026-09-01T22:02:31.855152+07:00",
+      "next_scan_at": "2026-09-01T22:12:31.855152+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1953,8 +1940,8 @@
       "match_name": "al hilal saudi fc vs al ahli jeddah",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T21:32:34.778008+07:00",
-      "next_scan_at": "2026-09-01T21:42:34.778008+07:00",
+      "last_scan_at": "2026-09-01T22:02:31.855152+07:00",
+      "next_scan_at": "2026-09-01T22:12:31.855152+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1965,8 +1952,8 @@
       "match_name": "lincoln vs blackburn",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T21:32:34.778008+07:00",
-      "next_scan_at": "2026-09-01T21:42:34.778008+07:00",
+      "last_scan_at": "2026-09-01T22:02:31.855152+07:00",
+      "next_scan_at": "2026-09-01T22:12:31.855152+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1974,16 +1961,15 @@
     },
     "1563651": {
       "url": "https://live05.chuoichientv.me/live/1563651/akron-vs-lokomotiv",
-      "match_name": "Akron vs Lokomotiv - Cúp Nga",
+      "match_name": "akron vs lokomotiv",
       "kickoff_iso": "2026-09-01T20:15:00+07:00",
-      "minutes_to_kickoff": -77,
-      "last_scan_at": "2026-09-01T21:32:34.778008+07:00",
-      "next_scan_at": "2026-09-01T21:37:34.778008+07:00",
+      "minutes_to_kickoff": -107,
+      "last_scan_at": "2026-09-01T22:02:31.855152+07:00",
+      "next_scan_at": "2026-09-01T22:07:31.855152+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     }
