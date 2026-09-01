@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-02T02:03:02.956673+07:00",
+  "updated_at": "2026-09-02T02:33:10.700189+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1407,20 +1407,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1570355": {
-      "url": "https://live05.chuoichientv.me/live/1570355/celta-vigo-vs-athletic-club",
-      "match_name": "Celta Vigo vs Athletic Club - La Liga",
-      "kickoff_iso": "2026-08-31T02:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-31T04:01:47.903385+07:00",
-      "next_scan_at": "2026-08-31T04:06:47.903385+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1492356": {
       "url": "https://live05.chuoichientv.me/live/1492356/mirassol-vs-palmeiras",
       "match_name": "Mirassol vs Palmeiras - VĐQG Brazil",
@@ -1847,11 +1833,11 @@
     },
     "1603987": {
       "url": "https://live05.chuoichientv.me/live/1603987/al-najma-vs-al-jabalain",
-      "match_name": "al najma vs al jabalain",
+      "match_name": "Al Najma vs Al Jabalain - Hạng Nhất Ả Rập",
       "kickoff_iso": "2026-09-02T00:40:00+07:00",
-      "minutes_to_kickoff": -81,
-      "last_scan_at": "2026-09-02T02:03:02.956509+07:00",
-      "next_scan_at": "2026-09-02T02:08:02.956509+07:00",
+      "minutes_to_kickoff": -112,
+      "last_scan_at": "2026-09-02T02:33:10.699999+07:00",
+      "next_scan_at": "2026-09-02T02:38:10.699999+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1861,11 +1847,11 @@
     },
     "1603007": {
       "url": "https://live05.chuoichientv.me/live/1603007/al-hilal-saudi-fc-vs-al-ahli-jeddah",
-      "match_name": "al hilal saudi fc vs al ahli jeddah",
+      "match_name": "Al-Hilal Saudi FC vs Al-Ahli Jeddah - Saudi Pro League",
       "kickoff_iso": "2026-09-02T01:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-09-02T02:03:02.956509+07:00",
-      "next_scan_at": "2026-09-02T02:08:02.956509+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-09-02T02:33:10.699999+07:00",
+      "next_scan_at": "2026-09-02T02:38:10.699999+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1901,23 +1887,25 @@
     },
     "1563123": {
       "url": "https://live05.chuoichientv.me/live/1563123/sheffield-utd-vs-bolton",
-      "match_name": "sheffield utd vs bolton",
+      "match_name": "Sheffield Utd vs Bolton - Hạng Nhất Anh",
       "kickoff_iso": "2026-09-02T01:45:00+07:00",
-      "minutes_to_kickoff": -16,
-      "last_scan_at": "2026-09-02T02:03:02.956509+07:00",
-      "next_scan_at": "2026-09-02T02:08:02.956509+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -46,
+      "last_scan_at": "2026-09-02T02:33:10.699999+07:00",
+      "next_scan_at": "2026-09-02T02:38:10.699999+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1563126": {
       "url": "https://live05.chuoichientv.me/live/1563126/west-ham-vs-wolves",
       "match_name": "west ham vs wolves",
       "kickoff_iso": "2026-09-02T01:45:00+07:00",
-      "minutes_to_kickoff": -17,
-      "last_scan_at": "2026-09-02T02:03:02.956509+07:00",
-      "next_scan_at": "2026-09-02T02:08:02.956509+07:00",
+      "minutes_to_kickoff": -47,
+      "last_scan_at": "2026-09-02T02:33:10.699999+07:00",
+      "next_scan_at": "2026-09-02T02:38:10.699999+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1929,9 +1917,9 @@
       "url": "https://live05.chuoichientv.me/live/1563119/birmingham-vs-southampton",
       "match_name": "birmingham vs southampton",
       "kickoff_iso": "2026-09-02T02:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-09-02T02:03:02.956509+07:00",
-      "next_scan_at": "2026-09-02T02:08:02.956509+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-09-02T02:33:10.699999+07:00",
+      "next_scan_at": "2026-09-02T02:38:10.699999+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1943,9 +1931,9 @@
       "url": "https://live05.chuoichientv.me/live/1628894/torino-vs-monza",
       "match_name": "torino vs monza",
       "kickoff_iso": "2026-09-02T02:00:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-09-02T02:03:02.956509+07:00",
-      "next_scan_at": "2026-09-02T02:08:02.956509+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-09-02T02:33:10.699999+07:00",
+      "next_scan_at": "2026-09-02T02:38:10.699999+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1953,11 +1941,11 @@
     },
     "1550704": {
       "url": "https://live05.chuoichientv.me/live/1550704/hebc-vs-borussia-dortmund",
-      "match_name": "hebc vs borussia dortmund",
+      "match_name": "HEBC vs Borussia Dortmund - Cúp Đức",
       "kickoff_iso": "2026-09-02T01:45:00+07:00",
-      "minutes_to_kickoff": -17,
-      "last_scan_at": "2026-09-02T02:03:02.956509+07:00",
-      "next_scan_at": "2026-09-02T02:08:02.956509+07:00",
+      "minutes_to_kickoff": -47,
+      "last_scan_at": "2026-09-02T02:33:10.699999+07:00",
+      "next_scan_at": "2026-09-02T02:38:10.699999+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1968,26 +1956,26 @@
     "1519473": {
       "url": "https://live05.chuoichientv.me/live/1519473/delfin-sc-vs-tecnico-universitario",
       "match_name": "delfin sc vs tecnico universitario",
-      "kickoff_iso": "2026-09-02T04:30:00+07:00",
-      "minutes_to_kickoff": 149,
-      "last_scan_at": "2026-09-02T02:03:02.956509+07:00",
-      "next_scan_at": "2026-09-02T02:48:02.956509+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
-    },
-    "1520846": {
-      "url": "https://live05.chuoichientv.me/live/1520846/londrina-vs-juventude",
-      "match_name": "londrina vs juventude",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-02T02:03:02.956509+07:00",
-      "next_scan_at": "2026-09-02T02:13:02.956509+07:00",
+      "last_scan_at": "2026-09-02T02:33:10.699999+07:00",
+      "next_scan_at": "2026-09-02T02:43:10.699999+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
+    },
+    "1520846": {
+      "url": "https://live05.chuoichientv.me/live/1520846/londrina-vs-juventude",
+      "match_name": "londrina vs juventude",
+      "kickoff_iso": "2026-09-02T05:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-09-02T02:33:10.699999+07:00",
+      "next_scan_at": "2026-09-02T03:18:10.699999+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }

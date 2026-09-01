@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-02T02:05:03.989362+07:00",
+  "updated_at": "2026-09-02T02:35:07.301365+07:00",
   "matches": {
-    "798833": {
-      "url": "https://phaohoa1.live/truc-tiep/celta-vigo-vs-ath-bilbao-31-08-2026-798833",
-      "match_name": "Celta Vigo vs Ath Bilbao",
-      "kickoff_iso": "2026-08-31T02:30:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-31T04:02:40.833902+07:00",
-      "next_scan_at": "2026-08-31T04:07:40.833902+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "c5a7d95516d4": {
       "url": "https://phaohoa1.live/truc-tiep/indonesia-u20-vs-malaysia-u20",
       "match_name": "Indonesia U20 vs Malaysia U20",
@@ -389,9 +375,9 @@
       "url": "https://phaohoa1.live/truc-tiep/al-hilal-vs-al-ahli-sc-02-09-2026-825133",
       "match_name": "Al Hilal vs Al Ahli SC",
       "kickoff_iso": "2026-09-02T01:00:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-09-02T02:05:03.989123+07:00",
-      "next_scan_at": "2026-09-02T02:10:03.989123+07:00",
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-09-02T02:35:07.301143+07:00",
+      "next_scan_at": "2026-09-02T02:40:07.301143+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -417,9 +403,9 @@
       "url": "https://phaohoa1.live/truc-tiep/zurich-vs-young-boys-02-09-2026-784590",
       "match_name": "Zurich vs Young Boys",
       "kickoff_iso": "2026-09-02T01:30:00+07:00",
-      "minutes_to_kickoff": -34,
-      "last_scan_at": "2026-09-02T02:05:03.989123+07:00",
-      "next_scan_at": "2026-09-02T02:10:03.989123+07:00",
+      "minutes_to_kickoff": -64,
+      "last_scan_at": "2026-09-02T02:35:07.301143+07:00",
+      "next_scan_at": "2026-09-02T02:40:07.301143+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -429,23 +415,25 @@
     },
     "812140": {
       "url": "https://phaohoa1.live/truc-tiep/west-ham-vs-wolves-02-09-2026-812140",
-      "match_name": "02-09 Championship West Ham VS Wolves Tày",
+      "match_name": "West Ham vs Wolves",
       "kickoff_iso": "2026-09-02T01:45:00+07:00",
-      "minutes_to_kickoff": 162,
-      "last_scan_at": "2026-09-01T23:03:44.087794+07:00",
-      "next_scan_at": "2026-09-01T23:48:44.087794+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "minutes_to_kickoff": -49,
+      "last_scan_at": "2026-09-02T02:35:07.301143+07:00",
+      "next_scan_at": "2026-09-02T02:40:07.301143+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "809599": {
       "url": "https://phaohoa1.live/truc-tiep/hebc-hamburg-vs-dortmund-02-09-2026-809599",
       "match_name": "Hebc Hamburg vs Dortmund",
       "kickoff_iso": "2026-09-02T01:45:00+07:00",
-      "minutes_to_kickoff": -19,
-      "last_scan_at": "2026-09-02T02:05:03.989123+07:00",
-      "next_scan_at": "2026-09-02T02:10:03.989123+07:00",
+      "minutes_to_kickoff": -50,
+      "last_scan_at": "2026-09-02T02:35:07.301143+07:00",
+      "next_scan_at": "2026-09-02T02:40:07.301143+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
