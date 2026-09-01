@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-01T12:33:27.990374+07:00",
+  "updated_at": "2026-09-01T13:01:20.940936+07:00",
   "matches": {
     "780a01382570": {
       "url": "https://phaohoa1.live/truc-tiep/iran-vs-nhat-ban",
@@ -550,6 +550,18 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "853040": {
+      "url": "https://phaohoa1.live/truc-tiep/damansara-vs-johor-dt-01-09-2026-853040",
+      "match_name": "01-09 FA Cup Damansara VS Johor DT Pháo Thủ",
+      "kickoff_iso": "2026-09-01T16:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-09-01T13:01:20.940850+07:00",
+      "next_scan_at": "2026-09-01T13:46:20.940850+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
