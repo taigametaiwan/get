@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-01T17:31:56.914178+07:00",
+  "updated_at": "2026-09-01T18:31:24.776397+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1433,21 +1433,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1636616": {
-      "url": "https://live05.chuoichientv.me/live/1636616/cng-an-h-ni-vs-tp-h-ch-minh",
-      "match_name": "Công An Hà Nội vs TP. Hồ Chí Minh - Super Cup",
-      "kickoff_iso": "2026-08-30T18:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-08-30T20:02:30.881104+07:00",
-      "next_scan_at": "2026-08-30T20:07:30.881104+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1557382": {
       "url": "https://live05.chuoichientv.me/live/1557382/leeds-vs-brentford",
       "match_name": "Leeds vs Brentford - Ngoại Hạng Anh",
@@ -1899,15 +1884,15 @@
     },
     "1635845": {
       "url": "https://live05.chuoichientv.me/live/1635845/dpmm-fc-vs-terengganu",
-      "match_name": "dpmm fc vs terengganu",
+      "match_name": "DPMM FC vs Terengganu - FA Cup Malaysia",
       "kickoff_iso": "2026-09-01T19:15:00+07:00",
-      "minutes_to_kickoff": 104,
-      "last_scan_at": "2026-09-01T17:31:56.914088+07:00",
-      "next_scan_at": "2026-09-01T17:51:56.914088+07:00",
+      "minutes_to_kickoff": 44,
+      "last_scan_at": "2026-09-01T18:31:24.776212+07:00",
+      "next_scan_at": "2026-09-01T18:41:24.776212+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "1635847": {
       "url": "https://live05.chuoichientv.me/live/1635847/perak-vs-kuala-lumpur-fa",
@@ -1923,35 +1908,35 @@
     },
     "992298": {
       "url": "https://live05.chuoichientv.me/live/992298/belgium-vs-germany",
-      "match_name": "belgium vs germany",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T17:31:56.914088+07:00",
-      "next_scan_at": "2026-09-01T17:41:56.914088+07:00",
+      "match_name": "Belgium vs Germany - Bóng chuyền Nữ Châu Âu",
+      "kickoff_iso": "2026-09-01T20:00:00+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-09-01T18:31:24.776212+07:00",
+      "next_scan_at": "2026-09-01T18:51:24.776212+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "browser-fallback"
     },
     "1585737": {
       "url": "https://live05.chuoichientv.me/live/1585737/mraniyespor-vs-mulaspor",
       "match_name": "mraniyespor vs mulaspor",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T17:31:56.914088+07:00",
-      "next_scan_at": "2026-09-01T17:41:56.914088+07:00",
+      "kickoff_iso": "2026-09-01T21:00:00+07:00",
+      "minutes_to_kickoff": 149,
+      "last_scan_at": "2026-09-01T18:31:24.776212+07:00",
+      "next_scan_at": "2026-09-01T19:16:24.776212+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1563654": {
       "url": "https://live05.chuoichientv.me/live/1563654/fakel-vs-fc-krasnodar",
       "match_name": "fakel vs fc krasnodar",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T17:31:56.914088+07:00",
-      "next_scan_at": "2026-09-01T17:41:56.914088+07:00",
+      "last_scan_at": "2026-09-01T18:31:24.776212+07:00",
+      "next_scan_at": "2026-09-01T18:41:24.776212+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1962,8 +1947,8 @@
       "match_name": "parma vs cremonese",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T17:31:56.914088+07:00",
-      "next_scan_at": "2026-09-01T17:41:56.914088+07:00",
+      "last_scan_at": "2026-09-01T18:31:24.776212+07:00",
+      "next_scan_at": "2026-09-01T18:41:24.776212+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1986,8 +1971,8 @@
       "match_name": "turkey w vs azerbaijan w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T17:31:56.914088+07:00",
-      "next_scan_at": "2026-09-01T17:41:56.914088+07:00",
+      "last_scan_at": "2026-09-01T18:31:24.776212+07:00",
+      "next_scan_at": "2026-09-01T18:41:24.776212+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -1998,8 +1983,32 @@
       "match_name": "al najma vs al jabalain",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-01T17:31:56.914088+07:00",
-      "next_scan_at": "2026-09-01T17:41:56.914088+07:00",
+      "last_scan_at": "2026-09-01T18:31:24.776212+07:00",
+      "next_scan_at": "2026-09-01T18:41:24.776212+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1603007": {
+      "url": "https://live05.chuoichientv.me/live/1603007/al-hilal-saudi-fc-vs-al-ahli-jeddah",
+      "match_name": "al hilal saudi fc vs al ahli jeddah",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-01T18:31:24.776212+07:00",
+      "next_scan_at": "2026-09-01T18:41:24.776212+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1563120": {
+      "url": "https://live05.chuoichientv.me/live/1563120/lincoln-vs-blackburn",
+      "match_name": "lincoln vs blackburn",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-01T18:31:24.776212+07:00",
+      "next_scan_at": "2026-09-01T18:41:24.776212+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

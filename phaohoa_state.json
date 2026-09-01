@@ -1,36 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-01T17:32:51.251439+07:00",
+  "updated_at": "2026-09-01T18:32:27.670860+07:00",
   "matches": {
-    "803088": {
-      "url": "https://phaohoa1.live/truc-tiep/aberdeen-vs-rangers-30-08-2026-803088",
-      "match_name": "30-08 Premier League Chelsea VS Brighton Tày",
-      "kickoff_iso": "2026-08-30T18:00:00+07:00",
-      "minutes_to_kickoff": -64,
-      "last_scan_at": "2026-08-30T19:04:20.189634+07:00",
-      "next_scan_at": "2026-08-30T19:09:20.189634+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "3c69431fbf51": {
-      "url": "https://phaohoa1.live/truc-tiep/trung-quoc-vs-thai-lan",
-      "match_name": "Trung Quốc vs Thái Lan",
-      "kickoff_iso": "2026-08-30T17:45:00+07:00",
-      "minutes_to_kickoff": -78,
-      "last_scan_at": "2026-08-30T19:04:20.189634+07:00",
-      "next_scan_at": "2026-08-30T19:09:20.189634+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "812665": {
       "url": "https://phaohoa1.live/truc-tiep/chelsea-vs-brighton-30-08-2026-812665",
       "match_name": "Chelsea vs Brighton",
@@ -541,27 +513,29 @@
     },
     "821703": {
       "url": "https://phaohoa1.live/truc-tiep/dalian-yingbo-vs-shanghai-shenhua-01-09-2026-821703",
-      "match_name": "01-09 FA Cup Dalian Yingbo VS Shanghai Shenhua Văn Minh",
+      "match_name": "Dalian Yingbo vs Shanghai Shenhua",
       "kickoff_iso": "2026-09-01T18:35:00+07:00",
-      "minutes_to_kickoff": 63,
-      "last_scan_at": "2026-09-01T17:32:51.251337+07:00",
-      "next_scan_at": "2026-09-01T17:52:51.251337+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 3,
+      "last_scan_at": "2026-09-01T18:32:27.670705+07:00",
+      "next_scan_at": "2026-09-01T18:37:27.670705+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
+      ],
       "scan_decision": "browser-fallback"
     },
     "3c642b040cbf": {
       "url": "https://phaohoa1.live/truc-tiep/bi-vs-duc",
       "match_name": "01-09 CEV Cup Bỉ VS Đức Tày",
       "kickoff_iso": "2026-09-01T20:00:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-09-01T17:02:51.365329+07:00",
-      "next_scan_at": "2026-09-01T17:47:51.365329+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-09-01T18:32:27.670705+07:00",
+      "next_scan_at": "2026-09-01T18:52:27.670705+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "821704": {
       "url": "https://phaohoa1.live/truc-tiep/shandong-taishan-vs-shanghai-port-01-09-2026-821704",
@@ -570,6 +544,18 @@
       "minutes_to_kickoff": 163,
       "last_scan_at": "2026-09-01T17:32:51.251337+07:00",
       "next_scan_at": "2026-09-01T18:17:51.251337+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "853044": {
+      "url": "https://phaohoa1.live/truc-tiep/al-sadd-vs-al-gharafa-01-09-2026-853044",
+      "match_name": "01-09 Qatar Cup Al-Sadd VS Al-Gharafa Lưu Bị",
+      "kickoff_iso": "2026-09-01T21:00:00+07:00",
+      "minutes_to_kickoff": 148,
+      "last_scan_at": "2026-09-01T18:32:27.670705+07:00",
+      "next_scan_at": "2026-09-01T19:17:27.670705+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
