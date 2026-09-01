@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-01T23:03:44.087995+07:00",
+  "updated_at": "2026-09-01T23:33:51.736312+07:00",
   "matches": {
-    "807868": {
-      "url": "https://phaohoa1.live/truc-tiep/napoli-vs-como-30-08-2026-807868",
-      "match_name": "Napoli vs Como",
-      "kickoff_iso": "2026-08-30T23:30:00+07:00",
-      "minutes_to_kickoff": -123,
-      "last_scan_at": "2026-08-31T01:34:02.860440+07:00",
-      "next_scan_at": "2026-08-31T01:39:02.860440+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "798832": {
       "url": "https://phaohoa1.live/truc-tiep/dep-la-coruna-vs-valencia-31-08-2026-798832",
       "match_name": "Dep. La Coruna vs Valencia",
@@ -429,9 +415,9 @@
       "url": "https://phaohoa1.live/truc-tiep/parma-vs-cremonese-01-09-2026-847877",
       "match_name": "Parma vs Cremonese",
       "kickoff_iso": "2026-09-01T23:00:00+07:00",
-      "minutes_to_kickoff": -3,
-      "last_scan_at": "2026-09-01T23:03:44.087794+07:00",
-      "next_scan_at": "2026-09-01T23:08:44.087794+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-09-01T23:33:51.736136+07:00",
+      "next_scan_at": "2026-09-01T23:38:51.736136+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -443,9 +429,9 @@
       "url": "https://phaohoa1.live/truc-tiep/fakel-voronezh-vs-krasnodar-01-09-2026-785742",
       "match_name": "Fakel Voronezh vs Krasnodar",
       "kickoff_iso": "2026-09-01T22:00:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-09-01T23:03:44.087794+07:00",
-      "next_scan_at": "2026-09-01T23:08:44.087794+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-09-01T23:33:51.736136+07:00",
+      "next_scan_at": "2026-09-01T23:38:51.736136+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -456,14 +442,16 @@
     "8b579321ff0d": {
       "url": "https://phaohoa1.live/truc-tiep/tho-nhi-ki-vs-azerbaijan",
       "match_name": "02-09 Saudi Pro League Al Hilal VS Al Ahli SC Lưu Bị",
-      "kickoff_iso": "2026-09-02T01:00:00+07:00",
-      "minutes_to_kickoff": 117,
-      "last_scan_at": "2026-09-01T23:03:44.087794+07:00",
-      "next_scan_at": "2026-09-01T23:23:44.087794+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "kickoff_iso": "2026-09-01T23:00:00+07:00",
+      "minutes_to_kickoff": -33,
+      "last_scan_at": "2026-09-01T23:33:51.736136+07:00",
+      "next_scan_at": "2026-09-01T23:38:51.736136+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "825133": {
       "url": "https://phaohoa1.live/truc-tiep/al-hilal-vs-al-ahli-sc-02-09-2026-825133",
@@ -481,9 +469,9 @@
       "url": "https://phaohoa1.live/truc-tiep/wolfsberger-ac-vs-lask-02-09-2026-819457",
       "match_name": "02-09 Bundesliga Wolfsberger AC VS LASK Pháo Thủ",
       "kickoff_iso": "2026-09-02T00:30:00+07:00",
-      "minutes_to_kickoff": 87,
-      "last_scan_at": "2026-09-01T23:03:44.087794+07:00",
-      "next_scan_at": "2026-09-01T23:23:44.087794+07:00",
+      "minutes_to_kickoff": 57,
+      "last_scan_at": "2026-09-01T23:33:51.736136+07:00",
+      "next_scan_at": "2026-09-01T23:53:51.736136+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -493,9 +481,9 @@
       "url": "https://phaohoa1.live/truc-tiep/zurich-vs-young-boys-02-09-2026-784590",
       "match_name": "02-09 Super League Zurich VS Young Boys Văn Minh",
       "kickoff_iso": "2026-09-02T01:30:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-09-01T22:33:11.916316+07:00",
-      "next_scan_at": "2026-09-01T23:18:11.916316+07:00",
+      "minutes_to_kickoff": 117,
+      "last_scan_at": "2026-09-01T23:33:51.736136+07:00",
+      "next_scan_at": "2026-09-01T23:53:51.736136+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
