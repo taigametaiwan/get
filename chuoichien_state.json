@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-03T05:01:25.387891+07:00",
+  "updated_at": "2026-09-03T05:31:50.988395+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1995,12 +1995,14 @@
       "url": "https://live05.chuoichientv.me/live/1492145/flamengo-vs-mirassol",
       "match_name": "Flamengo vs Mirassol - VĐQG Brazil",
       "kickoff_iso": "2026-09-03T05:30:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-09-03T05:01:25.387805+07:00",
-      "next_scan_at": "2026-09-03T05:11:25.387805+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-03T05:31:50.988286+07:00",
+      "next_scan_at": "2026-09-03T05:36:50.988286+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1551080": {
@@ -2020,34 +2022,34 @@
     "1623075": {
       "url": "https://live05.chuoichientv.me/live/1623075/santos-vs-palmeiras",
       "match_name": "santos vs palmeiras",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T05:01:25.387805+07:00",
-      "next_scan_at": "2026-09-03T05:11:25.387805+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
-    },
-    "1635863": {
-      "url": "https://live05.chuoichientv.me/live/1635863/toluca-vs-leon",
-      "match_name": "toluca vs leon",
-      "kickoff_iso": "2026-09-03T08:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-09-03T05:01:25.387805+07:00",
-      "next_scan_at": "2026-09-03T05:46:25.387805+07:00",
+      "kickoff_iso": "2026-09-03T07:30:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-09-03T05:31:50.988286+07:00",
+      "next_scan_at": "2026-09-03T05:51:50.988286+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
+    },
+    "1635863": {
+      "url": "https://live05.chuoichientv.me/live/1635863/toluca-vs-leon",
+      "match_name": "toluca vs leon",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-03T05:31:50.988286+07:00",
+      "next_scan_at": "2026-09-03T05:41:50.988286+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     },
     "1635864": {
       "url": "https://live05.chuoichientv.me/live/1635864/club-america-vs-monterrey",
       "match_name": "club america vs monterrey",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T05:01:25.387805+07:00",
-      "next_scan_at": "2026-09-03T05:11:25.387805+07:00",
+      "last_scan_at": "2026-09-03T05:31:50.988286+07:00",
+      "next_scan_at": "2026-09-03T05:41:50.988286+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

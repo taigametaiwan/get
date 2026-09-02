@@ -1,39 +1,52 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="xoilac-tiep-deportivo-cuenca-vs-guayaquil-city-luc-0430-ngay-03-09-2026-s1-1" tvg-name="[04:30 03/09/2026] Deportivo Cuenca vs Guayaquil City [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h7w1mojx/image/small",[04:30 03/09/2026] Deportivo Cuenca vs Guayaquil City [BLV HD ZANE] [FLV]
+#EXTINF:-1 tvg-id="chuoichien-1492145-1" tvg-name="[05:30 03/09] Flamengo vs Mirassol - VĐQG Brazil [BLV trực tiếp: Chuối Tây Trận đấu Flamengo v]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125544_da876ca4.png",[05:30 03/09] Flamengo vs Mirassol - VĐQG Brazil [BLV trực tiếp: Chuối Tây Trận đấu Flamengo v] [FHD M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8
+#EXTINF:-1 tvg-id="xoilac-tiep-deportivo-cuenca-vs-guayaquil-city-luc-0430-ngay-03-09-2026-s1-2" tvg-name="[04:30 03/09/2026] Deportivo Cuenca vs Guayaquil City [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h7w1mojx/image/small",[04:30 03/09/2026] Deportivo Cuenca vs Guayaquil City [BLV HD ZANE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-22/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-22/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788386524-0-0-c022f14d1c6ae033d281501564bcc7ae
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-flamengo-rj-vs-mirassol-sp-luc-0530-ngay-03-09-2026-s1-2" tvg-name="[05:30 03/09/2026] Flamengo Rj vs Mirassol Sp [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/yl5ergphj44r8k0/image/small",[05:30 03/09/2026] Flamengo Rj vs Mirassol Sp [BLV HD LOGAN] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788388369-0-0-5c629c2148c9bfc84bc431d3e04ab76a
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-flamengo-rj-vs-mirassol-sp-luc-0530-ngay-03-09-2026-s1-1" tvg-name="[05:30 03/09/2026] Flamengo Rj vs Mirassol Sp [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/yl5ergphj44r8k0/image/small",[05:30 03/09/2026] Flamengo Rj vs Mirassol Sp [BLV HD LOGAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-23/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-23/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788386576-0-0-786cd46320ab5ff4b371a9fc746bebca
+https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788388277-0-0-7ad2b6589fb104b562c9235198a5d03d
 #EXTINF:-1 tvg-id="xoilac-tiep-aryna-sabalenka-vs-polina-iatcenko-luc-0600-ngay-03-09-2026-s1-3" tvg-name="[06:00 03/09/2026] Aryna Sabalenka vs Polina Iatcenko [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/8yomojf0njgq0j6/image/small",[06:00 03/09/2026] Aryna Sabalenka vs Polina Iatcenko [BLV HD VIC] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788386584-0-0-c3381687dfd620baf536b3a47fac2e78
+https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788388385-0-0-e6aa6553df28e2cdd6aa17a7111ad511
 #EXTINF:-1 tvg-id="xoilac-charleston-battery-vs-hartford-athletic-luc-0600-ngay-03-09-2026-s1-4" tvg-name="[06:00 03/09/2026] Charleston Battery vs Hartford Athletic [BLV HD TAGE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h800zq86p/image/small",[06:00 03/09/2026] Charleston Battery vs Hartford Athletic [BLV HD TAGE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-27/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-27/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-27.flv?auth_key=3000001788386593-0-0-716987f27c3343fee81d127487cefdac
+https://live2.domaincdn.cc/livecdn/channel-27.flv?auth_key=3000001788388392-0-0-dbf7c3528a915a38d0972a246121c614
 #EXTINF:-1 tvg-id="xoilac-ep-jaime-faria-vs-carlos-alcaraz-garfia-luc-0710-ngay-03-09-2026-s1-5" tvg-name="[07:10 03/09/2026] Jaime Faria vs Carlos Alcaraz Garfia [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/n54ql4fd5x8rvy9/image/small",[07:10 03/09/2026] Jaime Faria vs Carlos Alcaraz Garfia [BLV HD VIC] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788386638-0-0-1a5afc742a44c2e267757277cb68fd55
+https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788388437-0-0-dcf2922923903e347a268eb2055dd079
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-puerto-montt-vs-colo-colo-luc-0830-ngay-03-09-2026-s1-6" tvg-name="[08:30 03/09/2026] Puerto Montt vs Colo Colo [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/vjxm8xt4gznq6od/image/small",[08:30 03/09/2026] Puerto Montt vs Colo Colo [BLV HD ALAN] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
+https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788388458-0-0-cd9e7a7d8592d5f146e89df117dfcb59
 #EXTINF:-1 tvg-id="colatv-18e293d41e8a-1" tvg-name="[05:30 03/09] Flamengo - RJ vs Mirassol - SP [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f19b2f9fa5b0c72acc262bc4f0d2cd77.png!w80",[05:30 03/09] Flamengo - RJ vs Mirassol - SP [BLV MOUNTAIN DEWĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -41,7 +54,7 @@ https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788386638-0-0-
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/87547578.m3u8
-#EXTINF:-1 tvg-id="colatv-e9d63a7c6e3b-1" tvg-name="[06:00 03/09] Charleston Battery vs Hartford Athletic [BLV 247Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/d6c87740307bf1edfc79b4b09a2dc3bf.png!w80",[06:00 03/09] Charleston Battery vs Hartford Athletic [BLV 247Đang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-d13070385dd0-1" tvg-name="[06:00 03/09] Charleston Battery vs Hartford Athletic [BLV 247Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/d6c87740307bf1edfc79b4b09a2dc3bf.png!w80",[06:00 03/09] Charleston Battery vs Hartford Athletic [BLV 247Đang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
