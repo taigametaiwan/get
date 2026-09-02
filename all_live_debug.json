@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-09-02T12:04:17.608733+07:00",
+  "generated_at": "2026-09-02T12:33:42.637255+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -78,10 +78,10 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 119,
+      "debug_rows": 112,
       "playlist_blocks": 5,
       "catalog_placeholders": 0,
-      "metadata_references": 119,
+      "metadata_references": 112,
       "included": true,
       "fresh_stream_blocks": 5,
       "fresh_verified_blocks": 5,
@@ -134,38 +134,53 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 16,
-  "metadata_reference_count": 126,
-  "last_good_recovered_count": 4,
+  "input_candidates": 17,
+  "metadata_reference_count": 119,
+  "last_good_recovered_count": 5,
   "last_good_suppressed_by_fresh_count": 0,
   "last_good_audit": [
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788323569-0-0-72e7d4f6d6493b560b1fdb9edd1b867c",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788318084-0-0-dddbdf607b8325527f8311ec952d21d9",
+      "kept": false,
+      "reason": "outside-source-window",
+      "source": "xoilac",
+      "kickoff_iso": "2026-09-02T10:00:00+07:00",
+      "minutes_to_kickoff": -153.71,
+      "filtered_before_probe": true
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788325346-0-0-7b831c92701acd25c4abf72c8ab2be52",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788318084-0-0-dddbdf607b8325527f8311ec952d21d9",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788325419-0-0-0137a9be7e4a654904835d66c934829e",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788323624-0-0-79979511e2b12b4d3b2bc8d4b601ad87",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788325419-0-0-c5d94564e9a5ee10e92d62bf8fd4f19a",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788323619-0-0-6987bf9c1c7bc31b7bd28a5b942df7a6",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788325441-0-0-c808607473c2d98f403779cacf26b104",
+      "kept": true,
+      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788325442-0-0-29e402257ce0dfc004c3cb4658550ec6",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     }
   ],
-  "selected_count": 6,
-  "dropped_count": 10,
+  "selected_count": 5,
+  "dropped_count": 12,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -180,52 +195,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788318084-0-0-dddbdf607b8325527f8311ec952d21d9",
-      "match_key": "liaoning flying vs fujian jinjiang tourism|hd tommy",
-      "display_name": "[10:00 02/09/2026] Liaoning Flying vs Fujian Jinjiang Tourism [BLV HD TOMMY] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "Xôi Lạc",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 405,
-      "kickoff_iso": "2026-09-02T10:00:00+07:00",
-      "minutes_to_kickoff": -124.29,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/basketball/team/56ypq3kto86md7o/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788318084-0-0-dddbdf607b8325527f8311ec952d21d9",
-      "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/56ypq3kto86md7o/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/gx7lm73tevwr2wd/image/small",
-      "blv": null,
-      "recovered_last_good": true,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
-      "prior_generated_at": "2026-09-02T11:33:48.132146+07:00"
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788325346-0-0-7b831c92701acd25c4abf72c8ab2be52",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788327084-0-0-74c1d88d9d5ce45b1f9fa9a91483614d",
       "match_key": "shanxi loongs fenjiu vs tianjin pioneers|hd step",
       "display_name": "[12:30 02/09/2026] Shanxi Loongs Fenjiu vs Tianjin Pioneers [BLV HD STEP] [FLV]",
       "group": "Xôi Lạc",
@@ -246,7 +216,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-02T12:30:00+07:00",
-      "minutes_to_kickoff": 25.71,
+      "minutes_to_kickoff": -3.71,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -256,7 +226,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788325346-0-0-7b831c92701acd25c4abf72c8ab2be52",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788327084-0-0-74c1d88d9d5ce45b1f9fa9a91483614d",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/kn54ql7t63drvy9/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/l965mk8t9p0m1ge/image/small",
       "blv": null,
@@ -270,7 +240,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788325419-0-0-c5d94564e9a5ee10e92d62bf8fd4f19a",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788327171-0-0-e3d870376172a91fada1449e89c91709",
       "match_key": "bay olympic vs birkenhead united|hd zane",
       "display_name": "[14:15 02/09/2026] Bay Olympic vs Birkenhead United [BLV HD ZANE] [FLV]",
       "group": "Xôi Lạc",
@@ -291,7 +261,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-02T14:15:00+07:00",
-      "minutes_to_kickoff": 130.71,
+      "minutes_to_kickoff": 101.29,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -301,7 +271,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788325419-0-0-c5d94564e9a5ee10e92d62bf8fd4f19a",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788327171-0-0-e3d870376172a91fada1449e89c91709",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/l5ergph346or8k0/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkho629qg8n/image/small",
       "blv": null,
@@ -315,7 +285,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788325419-0-0-0137a9be7e4a654904835d66c934829e",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788327176-0-0-01dc2cba84ff801561bc32e89cd5b85e",
       "match_key": "cairns taipans vs perth wildcats|hd tommy",
       "display_name": "[14:30 02/09/2026] Cairns Taipans vs Perth Wildcats [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -336,7 +306,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-02T14:30:00+07:00",
-      "minutes_to_kickoff": 145.71,
+      "minutes_to_kickoff": 116.29,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -346,7 +316,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788325419-0-0-0137a9be7e4a654904835d66c934829e",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788327176-0-0-01dc2cba84ff801561bc32e89cd5b85e",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/p4jwq25tje7q0ve/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/9dn1m17tz2pmoep/image/small",
       "blv": null,
@@ -360,7 +330,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788325441-0-0-c808607473c2d98f403779cacf26b104",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788327191-0-0-c7a2efae7baf91a8418d2a407fa9f691",
       "match_key": "guangzhou zhicheng vs guangdong chenxingjuli|hd jean",
       "display_name": "[15:00 02/09/2026] Guangzhou Zhicheng vs Guangdong Chenxingjuli [BLV HD JEAN] [FLV]",
       "group": "Xôi Lạc",
@@ -381,7 +351,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-02T15:00:00+07:00",
-      "minutes_to_kickoff": 175.71,
+      "minutes_to_kickoff": 146.29,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -391,7 +361,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788325441-0-0-c808607473c2d98f403779cacf26b104",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788327191-0-0-c7a2efae7baf91a8418d2a407fa9f691",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7hoe1lqdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhvw1vryk0/image/small",
       "blv": null,
@@ -405,7 +375,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788325442-0-0-29e402257ce0dfc004c3cb4658550ec6",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788327195-0-0-79a74c1f8a77f28c37be5732efce3325",
       "match_key": "hanwha life esports vs t1|hd marty",
       "display_name": "[15:00 02/09/2026] Hanwha Life Esports vs T1 [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -426,7 +396,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-02T15:00:00+07:00",
-      "minutes_to_kickoff": 175.71,
+      "minutes_to_kickoff": 146.29,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -436,7 +406,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788325442-0-0-29e402257ce0dfc004c3cb4658550ec6",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788327195-0-0-79a74c1f8a77f28c37be5732efce3325",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/965mk6zt7d5jq1g/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/4jwq2eku42pkq0v/image/small",
       "blv": null,
@@ -451,7 +421,7 @@
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788325346-0-0-7b831c92701acd25c4abf72c8ab2be52",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788327084-0-0-74c1d88d9d5ce45b1f9fa9a91483614d",
       "display_name": "[12:30 02/09/2026] Shanxi Loongs Fenjiu vs Tianjin Pioneers [BLV HD STEP] [FLV]",
       "match_key": "shanxi loongs fenjiu vs tianjin pioneers|hd step",
       "quality": "HD",
@@ -463,7 +433,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788325419-0-0-c5d94564e9a5ee10e92d62bf8fd4f19a",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788327171-0-0-e3d870376172a91fada1449e89c91709",
       "display_name": "[14:15 02/09/2026] Bay Olympic vs Birkenhead United [BLV HD ZANE] [FLV]",
       "match_key": "bay olympic vs birkenhead united|hd zane",
       "quality": "HD",
@@ -475,7 +445,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788325419-0-0-0137a9be7e4a654904835d66c934829e",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788327176-0-0-01dc2cba84ff801561bc32e89cd5b85e",
       "display_name": "[14:30 02/09/2026] Cairns Taipans vs Perth Wildcats [BLV HD TOMMY] [FLV]",
       "match_key": "cairns taipans vs perth wildcats|hd tommy",
       "quality": "HD",
@@ -487,7 +457,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788325441-0-0-c808607473c2d98f403779cacf26b104",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788327191-0-0-c7a2efae7baf91a8418d2a407fa9f691",
       "display_name": "[15:00 02/09/2026] Guangzhou Zhicheng vs Guangdong Chenxingjuli [BLV HD JEAN] [FLV]",
       "match_key": "guangzhou zhicheng vs guangdong chenxingjuli|hd jean",
       "quality": "HD",
@@ -499,7 +469,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788325442-0-0-29e402257ce0dfc004c3cb4658550ec6",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788327195-0-0-79a74c1f8a77f28c37be5732efce3325",
       "display_name": "[15:00 02/09/2026] Hanwha Life Esports vs T1 [BLV HD MARTY] [FLV]",
       "match_key": "hanwha life esports vs t1|hd marty",
       "quality": "HD",
@@ -548,22 +518,34 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788323569-0-0-72e7d4f6d6493b560b1fdb9edd1b867c",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788325346-0-0-7b831c92701acd25c4abf72c8ab2be52",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "shanxi loongs fenjiu vs tianjin pioneers|hd step"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788323619-0-0-6987bf9c1c7bc31b7bd28a5b942df7a6",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788325419-0-0-c5d94564e9a5ee10e92d62bf8fd4f19a",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "bay olympic vs birkenhead united|hd zane"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788323624-0-0-79979511e2b12b4d3b2bc8d4b601ad87",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788325419-0-0-0137a9be7e4a654904835d66c934829e",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "cairns taipans vs perth wildcats|hd tommy"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788325441-0-0-c808607473c2d98f403779cacf26b104",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "guangzhou zhicheng vs guangdong chenxingjuli|hd jean"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788325442-0-0-29e402257ce0dfc004c3cb4658550ec6",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "hanwha life esports vs t1|hd marty"
     }
   ],
   "outputs_written": true
