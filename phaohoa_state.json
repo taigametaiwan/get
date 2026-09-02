@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-02T19:33:10.223445+07:00",
+  "updated_at": "2026-09-02T20:03:39.734389+07:00",
   "matches": {
-    "b6f156c57e8b": {
-      "url": "https://phaohoa1.live/truc-tiep/ha-lan-vs-slovenia",
-      "match_name": "31-08 Vô Địch Châu Âu Ba Lan VS Bồ Đào Nha KaKa",
-      "kickoff_iso": "2026-08-31T20:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-08-31T21:33:40.527887+07:00",
-      "next_scan_at": "2026-08-31T21:38:40.527887+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1acf90565cd4": {
       "url": "https://phaohoa1.live/truc-tiep/italy-vs-bulgaria",
       "match_name": "31-08 AFC U20 Asian Cup Saudi Arabia U20 VS Hong Kong U20 Văn Minh",
@@ -413,9 +399,9 @@
       "url": "https://phaohoa1.live/truc-tiep/yunnan-yukun-vs-chongqing-tonglianglong-02-09-2026-821705",
       "match_name": "Yunnan Yukun vs Chongqing Tonglianglong",
       "kickoff_iso": "2026-09-02T19:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-09-02T19:33:10.223334+07:00",
-      "next_scan_at": "2026-09-02T19:38:10.223334+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-09-02T20:03:39.734250+07:00",
+      "next_scan_at": "2026-09-02T20:08:39.734250+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -437,15 +423,15 @@
     },
     "237ade6b38ee": {
       "url": "https://phaohoa1.live/truc-tiep/Serbia-vs-HyLap-",
-      "match_name": "02-09 Vô Địch Châu Âu Serbia VS Hy Lạp KaKa",
-      "kickoff_iso": "2026-09-02T20:00:00+07:00",
-      "minutes_to_kickoff": 56,
-      "last_scan_at": "2026-09-02T19:03:58.028690+07:00",
-      "next_scan_at": "2026-09-02T19:23:58.028690+07:00",
+      "match_name": "02-09 Coppa Italia Udinese VS Venezia Kevin",
+      "kickoff_iso": "2026-09-02T23:00:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-09-02T20:03:39.734250+07:00",
+      "next_scan_at": "2026-09-02T20:48:39.734250+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "http-only-far-upcoming"
     },
     "785745": {
       "url": "https://phaohoa1.live/truc-tiep/zenit-vs-dynamo-makhachkala-02-09-2026-785745",
@@ -461,14 +447,16 @@
     },
     "847880": {
       "url": "https://phaohoa1.live/truc-tiep/sassuolo-vs-frosinone-02-09-2026-847880",
-      "match_name": "02-09 Coppa Italia Sassuolo VS Frosinone Pháo Thủ",
+      "match_name": "Sassuolo vs Frosinone",
       "kickoff_iso": "2026-09-02T20:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-09-02T19:33:10.223334+07:00",
-      "next_scan_at": "2026-09-02T19:43:10.223334+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-09-02T20:03:39.734250+07:00",
+      "next_scan_at": "2026-09-02T20:08:39.734250+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
+      ],
       "scan_decision": "browser-fallback"
     }
   }

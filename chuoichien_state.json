@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-02T19:32:15.758850+07:00",
+  "updated_at": "2026-09-02T20:02:26.045990+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1939,16 +1939,15 @@
     },
     "1635848": {
       "url": "https://live05.chuoichientv.me/live/1635848/sabah-fa-vs-selangor",
-      "match_name": "Sabah FA vs Selangor - FA Cup Malaysia",
+      "match_name": "sabah fa vs selangor",
       "kickoff_iso": "2026-09-02T18:30:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-09-02T19:32:15.758727+07:00",
-      "next_scan_at": "2026-09-02T19:37:15.758727+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-09-02T20:02:26.045818+07:00",
+      "next_scan_at": "2026-09-02T20:07:26.045818+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1968,9 +1967,9 @@
       "url": "https://live05.chuoichientv.me/live/1600224/yunnan-yukun-vs-chongqing-tongliang-long",
       "match_name": "Yunnan Yukun vs Chongqing Tongliang Long - Cúp FA Trung Quốc",
       "kickoff_iso": "2026-09-02T19:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-09-02T19:32:15.758727+07:00",
-      "next_scan_at": "2026-09-02T19:37:15.758727+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-09-02T20:02:26.045818+07:00",
+      "next_scan_at": "2026-09-02T20:07:26.045818+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1994,47 +1993,51 @@
     },
     "1629059": {
       "url": "https://live05.chuoichientv.me/live/1629059/sassuolo-vs-frosinone",
-      "match_name": "sassuolo vs frosinone",
+      "match_name": "Sassuolo vs Frosinone - Coppa Italia",
       "kickoff_iso": "2026-09-02T20:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-09-02T19:32:15.758727+07:00",
-      "next_scan_at": "2026-09-02T19:42:15.758727+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-02T20:02:26.045818+07:00",
+      "next_scan_at": "2026-09-02T20:07:26.045818+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1563656": {
       "url": "https://live05.chuoichientv.me/live/1563656/fc-orenburg-vs-rubin",
       "match_name": "FC Orenburg vs Rubin - Cúp Nga",
       "kickoff_iso": "2026-09-02T20:15:00+07:00",
-      "minutes_to_kickoff": 43,
-      "last_scan_at": "2026-09-02T19:32:15.758727+07:00",
-      "next_scan_at": "2026-09-02T19:42:15.758727+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 13,
+      "last_scan_at": "2026-09-02T20:02:26.045818+07:00",
+      "next_scan_at": "2026-09-02T20:07:26.045818+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1563658": {
       "url": "https://live05.chuoichientv.me/live/1563658/zenit-vs-makhachkala",
       "match_name": "zenit vs makhachkala",
-      "kickoff_iso": "2026-09-02T22:30:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-09-02T19:32:15.758727+07:00",
-      "next_scan_at": "2026-09-02T20:17:15.758727+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-02T20:02:26.045818+07:00",
+      "next_scan_at": "2026-09-02T20:12:26.045818+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1623469": {
       "url": "https://live05.chuoichientv.me/live/1623469/real-sociedad-w-vs-chelsea-w",
       "match_name": "real sociedad w vs chelsea w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-02T19:32:15.758727+07:00",
-      "next_scan_at": "2026-09-02T19:42:15.758727+07:00",
+      "last_scan_at": "2026-09-02T20:02:26.045818+07:00",
+      "next_scan_at": "2026-09-02T20:12:26.045818+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2045,8 +2048,8 @@
       "match_name": "real madrid w vs ajax w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-02T19:32:15.758727+07:00",
-      "next_scan_at": "2026-09-02T19:42:15.758727+07:00",
+      "last_scan_at": "2026-09-02T20:02:26.045818+07:00",
+      "next_scan_at": "2026-09-02T20:12:26.045818+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2057,8 +2060,8 @@
       "match_name": "red bull salzburg vs rapid vienna",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-02T19:32:15.758727+07:00",
-      "next_scan_at": "2026-09-02T19:42:15.758727+07:00",
+      "last_scan_at": "2026-09-02T20:02:26.045818+07:00",
+      "next_scan_at": "2026-09-02T20:12:26.045818+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2075,6 +2078,18 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "scanned"
+    },
+    "1628895": {
+      "url": "https://live05.chuoichientv.me/live/1628895/udinese-vs-venezia",
+      "match_name": "udinese vs venezia",
+      "kickoff_iso": "2026-09-02T23:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-09-02T20:02:26.045818+07:00",
+      "next_scan_at": "2026-09-02T20:47:26.045818+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
