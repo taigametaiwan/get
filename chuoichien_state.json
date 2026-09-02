@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-03T01:01:53.407286+07:00",
+  "updated_at": "2026-09-03T01:32:24.900317+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1956,39 +1956,45 @@
     },
     "1623475": {
       "url": "https://live05.chuoichientv.me/live/1623475/real-madrid-w-vs-ajax-w",
-      "match_name": "real madrid w vs ajax w",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T01:01:53.407121+07:00",
-      "next_scan_at": "2026-09-03T01:11:53.407121+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Real Madrid W vs Ajax W - UEFA Champions League Women",
+      "kickoff_iso": "2026-09-03T01:00:00+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-09-03T01:32:24.900185+07:00",
+      "next_scan_at": "2026-09-03T01:37:24.900185+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1561917": {
       "url": "https://live05.chuoichientv.me/live/1561917/red-bull-salzburg-vs-rapid-vienna",
       "match_name": "red bull salzburg vs rapid vienna",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T01:01:53.407121+07:00",
-      "next_scan_at": "2026-09-03T01:11:53.407121+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "kickoff_iso": "2026-09-03T01:30:00+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-03T01:32:24.900185+07:00",
+      "next_scan_at": "2026-09-03T01:37:24.900185+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1550705": {
       "url": "https://live05.chuoichientv.me/live/1550705/vfl-osnabrck-vs-bayern-mnchen",
-      "match_name": "vfl osnabrck vs bayern mnchen",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T01:01:53.407121+07:00",
-      "next_scan_at": "2026-09-03T01:11:53.407121+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "VfL Osnabrück vs Bayern München - Cúp Đức",
+      "kickoff_iso": "2026-09-03T01:45:00+07:00",
+      "minutes_to_kickoff": 13,
+      "last_scan_at": "2026-09-03T01:32:24.900185+07:00",
+      "next_scan_at": "2026-09-03T01:37:24.900185+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1628895": {
       "url": "https://live05.chuoichientv.me/live/1628895/udinese-vs-venezia",
@@ -2004,35 +2010,37 @@
     },
     "1563128": {
       "url": "https://live05.chuoichientv.me/live/1563128/millwall-vs-wrexham",
-      "match_name": "millwall vs wrexham",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T01:01:53.407121+07:00",
-      "next_scan_at": "2026-09-03T01:11:53.407121+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Millwall vs Wrexham - Hạng Nhất Anh",
+      "kickoff_iso": "2026-09-03T01:45:00+07:00",
+      "minutes_to_kickoff": 13,
+      "last_scan_at": "2026-09-03T01:32:24.900185+07:00",
+      "next_scan_at": "2026-09-03T01:37:24.900185+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1563127": {
       "url": "https://live05.chuoichientv.me/live/1563127/burnley-vs-middlesbrough",
       "match_name": "burnley vs middlesbrough",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T01:01:53.407121+07:00",
-      "next_scan_at": "2026-09-03T01:11:53.407121+07:00",
+      "kickoff_iso": "2026-09-03T02:00:00+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-09-03T01:32:24.900185+07:00",
+      "next_scan_at": "2026-09-03T01:42:24.900185+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "browser-fallback"
     },
     "1492145": {
       "url": "https://live05.chuoichientv.me/live/1492145/flamengo-vs-mirassol",
       "match_name": "flamengo vs mirassol",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T01:01:53.407121+07:00",
-      "next_scan_at": "2026-09-03T01:11:53.407121+07:00",
+      "last_scan_at": "2026-09-03T01:32:24.900185+07:00",
+      "next_scan_at": "2026-09-03T01:42:24.900185+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2041,22 +2049,36 @@
     "1551080": {
       "url": "https://live05.chuoichientv.me/live/1551080/slavia-sofia-vs-levski-sofia",
       "match_name": "slavia sofia vs levski sofia",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T01:01:53.407121+07:00",
-      "next_scan_at": "2026-09-03T01:11:53.407121+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "kickoff_iso": "2026-09-03T00:00:00+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-09-03T01:32:24.900185+07:00",
+      "next_scan_at": "2026-09-03T01:37:24.900185+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1623075": {
       "url": "https://live05.chuoichientv.me/live/1623075/santos-vs-palmeiras",
       "match_name": "santos vs palmeiras",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T01:01:53.407121+07:00",
-      "next_scan_at": "2026-09-03T01:11:53.407121+07:00",
+      "last_scan_at": "2026-09-03T01:32:24.900185+07:00",
+      "next_scan_at": "2026-09-03T01:42:24.900185+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1635863": {
+      "url": "https://live05.chuoichientv.me/live/1635863/toluca-vs-leon",
+      "match_name": "toluca vs leon",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-03T01:32:24.900185+07:00",
+      "next_scan_at": "2026-09-03T01:42:24.900185+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
