@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-02T06:31:54.199743+07:00",
+  "updated_at": "2026-09-02T07:01:50.940008+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1419,20 +1419,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1550946": {
-      "url": "https://live05.chuoichientv.me/live/1550946/toluca-vs-fc-juarez",
-      "match_name": "Toluca vs FC Juarez - VĐQG Mexico",
-      "kickoff_iso": "2026-08-31T07:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-31T08:31:38.180754+07:00",
-      "next_scan_at": "2026-08-31T08:36:38.180754+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1550947": {
       "url": "https://live05.chuoichientv.me/live/1550947/monterrey-vs-atletico-san-luis",
       "match_name": "Monterrey vs Atletico San Luis - VĐQG Mexico",
@@ -1938,11 +1924,11 @@
     },
     "1520846": {
       "url": "https://live05.chuoichientv.me/live/1520846/londrina-vs-juventude",
-      "match_name": "londrina vs juventude",
+      "match_name": "Londrina vs Juventude - Serie B",
       "kickoff_iso": "2026-09-02T05:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-09-02T06:31:54.199657+07:00",
-      "next_scan_at": "2026-09-02T06:36:54.199657+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-09-02T07:01:50.939953+07:00",
+      "next_scan_at": "2026-09-02T07:06:50.939953+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1952,14 +1938,17 @@
     },
     "1623073": {
       "url": "https://live05.chuoichientv.me/live/1623073/atletico-mg-vs-cruzeiro",
-      "match_name": "atletico mg vs cruzeiro",
+      "match_name": "Atletico-MG vs Cruzeiro - Cúp Brazil",
       "kickoff_iso": "2026-09-02T07:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-09-02T06:31:54.199657+07:00",
-      "next_scan_at": "2026-09-02T06:41:54.199657+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-02T07:01:50.939953+07:00",
+      "next_scan_at": "2026-09-02T07:06:50.939953+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
