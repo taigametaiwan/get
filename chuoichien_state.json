@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-02T08:31:38.964049+07:00",
+  "updated_at": "2026-09-02T09:01:38.904696+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1940,13 +1940,14 @@
       "url": "https://live05.chuoichientv.me/live/1623073/atletico-mg-vs-cruzeiro",
       "match_name": "Atletico-MG vs Cruzeiro - Cúp Brazil",
       "kickoff_iso": "2026-09-02T07:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-09-02T08:31:38.964001+07:00",
-      "next_scan_at": "2026-09-02T08:36:38.964001+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-09-02T09:01:38.904650+07:00",
+      "next_scan_at": "2026-09-02T09:06:38.904650+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     }
