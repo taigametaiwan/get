@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-09-02T10:33:46.826569+07:00",
+  "generated_at": "2026-09-02T11:04:25.505918+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -140,22 +140,13 @@
   "last_good_suppressed_by_fresh_count": 0,
   "last_good_audit": [
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788316320-0-0-e31e91f7c58cdf28ace309085b0a07a9",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-09-02T08:00:00+07:00",
-      "minutes_to_kickoff": -153.78,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788318206-0-0-ff6931cf8a6d31980a41b4e3bb206f88",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788318084-0-0-dddbdf607b8325527f8311ec952d21d9",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788318084-0-0-dddbdf607b8325527f8311ec952d21d9",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788319990-0-0-6855e4415862cfddba77c514462d1223",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
@@ -198,7 +189,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-09-02T10:00:00+07:00",
-      "minutes_to_kickoff": -33.78,
+      "minutes_to_kickoff": -64.43,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -217,12 +208,12 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 200; streaming body (TimeoutError)",
-      "prior_generated_at": "2026-09-02T10:04:02.692589+07:00"
+      "prior_generated_at": "2026-09-02T10:33:46.826569+07:00"
     },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788319990-0-0-6855e4415862cfddba77c514462d1223",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788321791-0-0-1c87c9952f434eb381593ab35f357776",
       "match_key": "shanxi loongs fenjiu vs tianjin pioneers|hd step",
       "display_name": "[12:30 02/09/2026] Shanxi Loongs Fenjiu vs Tianjin Pioneers [BLV HD STEP] [FLV]",
       "group": "Xôi Lạc",
@@ -243,7 +234,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-02T12:30:00+07:00",
-      "minutes_to_kickoff": 116.22,
+      "minutes_to_kickoff": 85.57,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -253,7 +244,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788319990-0-0-6855e4415862cfddba77c514462d1223",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788321791-0-0-1c87c9952f434eb381593ab35f357776",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/kn54ql7t63drvy9/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/l965mk8t9p0m1ge/image/small",
       "blv": null,
@@ -268,7 +259,7 @@
   "fresh_input_decisions": [
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788319990-0-0-6855e4415862cfddba77c514462d1223",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788321791-0-0-1c87c9952f434eb381593ab35f357776",
       "display_name": "[12:30 02/09/2026] Shanxi Loongs Fenjiu vs Tianjin Pioneers [BLV HD STEP] [FLV]",
       "match_key": "shanxi loongs fenjiu vs tianjin pioneers|hd step",
       "quality": "HD",
@@ -317,7 +308,7 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788318206-0-0-ff6931cf8a6d31980a41b4e3bb206f88",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788319990-0-0-6855e4415862cfddba77c514462d1223",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "shanxi loongs fenjiu vs tianjin pioneers|hd step"
