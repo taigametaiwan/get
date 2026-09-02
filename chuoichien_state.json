@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-02T16:31:44.610608+07:00",
+  "updated_at": "2026-09-02T17:02:02.360962+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1455,20 +1455,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "991634": {
-      "url": "https://live05.chuoichientv.me/live/991634/lebanon-u20-vs-south-korea",
-      "match_name": "Lebanon U20 vs South Korea - AFC Asian Cup U20",
-      "kickoff_iso": "2026-08-31T17:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-08-31T18:31:54.526374+07:00",
-      "next_scan_at": "2026-08-31T18:36:54.526374+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "992944": {
       "url": "https://live05.chuoichientv.me/live/992944/thailand-u20-vs-united-arab-emirates",
       "match_name": "thailand u20 vs united arab emirates",
@@ -1941,57 +1927,61 @@
       "url": "https://live05.chuoichientv.me/live/1556041/avispa-fukuoka-vs-urawa",
       "match_name": "avispa fukuoka vs urawa",
       "kickoff_iso": "2026-09-02T17:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-09-02T16:31:44.610401+07:00",
-      "next_scan_at": "2026-09-02T16:41:44.610401+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-02T17:02:02.360753+07:00",
+      "next_scan_at": "2026-09-02T17:07:02.360753+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1635848": {
+      "url": "https://live05.chuoichientv.me/live/1635848/sabah-fa-vs-selangor",
+      "match_name": "Sabah FA vs Selangor - FA Cup Malaysia",
+      "kickoff_iso": "2026-09-02T18:30:00+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-09-02T17:02:02.360753+07:00",
+      "next_scan_at": "2026-09-02T17:22:02.360753+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
-    "1635848": {
-      "url": "https://live05.chuoichientv.me/live/1635848/sabah-fa-vs-selangor",
-      "match_name": "sabah fa vs selangor",
-      "kickoff_iso": "2026-09-02T18:30:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-09-02T16:31:44.610401+07:00",
-      "next_scan_at": "2026-09-02T16:51:44.610401+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
-    },
     "1556044": {
       "url": "https://live05.chuoichientv.me/live/1556044/machida-zelvia-vs-kawasaki-frontale",
-      "match_name": "machida zelvia vs kawasaki frontale",
+      "match_name": "Machida Zelvia vs Kawasaki Frontale - J1 League",
       "kickoff_iso": "2026-09-02T17:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-09-02T16:31:44.610401+07:00",
-      "next_scan_at": "2026-09-02T16:41:44.610401+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-02T17:02:02.360753+07:00",
+      "next_scan_at": "2026-09-02T17:07:02.360753+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1600224": {
       "url": "https://live05.chuoichientv.me/live/1600224/yunnan-yukun-vs-chongqing-tongliang-long",
       "match_name": "yunnan yukun vs chongqing tongliang long",
-      "kickoff_iso": "2026-09-02T19:00:00+07:00",
-      "minutes_to_kickoff": 149,
-      "last_scan_at": "2026-09-02T16:31:44.610401+07:00",
-      "next_scan_at": "2026-09-02T17:16:44.610401+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-02T17:02:02.360753+07:00",
+      "next_scan_at": "2026-09-02T17:12:02.360753+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1567424": {
       "url": "https://live05.chuoichientv.me/live/1567424/sagamihara-vs-jubilo-iwata",
       "match_name": "Sagamihara vs Jubilo Iwata - J-League Cup",
       "kickoff_iso": "2026-09-02T16:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-09-02T16:31:44.610401+07:00",
-      "next_scan_at": "2026-09-02T16:36:44.610401+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-09-02T17:02:02.360753+07:00",
+      "next_scan_at": "2026-09-02T17:07:02.360753+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -2002,22 +1992,22 @@
     "1629059": {
       "url": "https://live05.chuoichientv.me/live/1629059/sassuolo-vs-frosinone",
       "match_name": "sassuolo vs frosinone",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-02T16:31:44.610401+07:00",
-      "next_scan_at": "2026-09-02T16:41:44.610401+07:00",
+      "kickoff_iso": "2026-09-02T20:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-09-02T17:02:02.360753+07:00",
+      "next_scan_at": "2026-09-02T17:47:02.360753+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1563656": {
       "url": "https://live05.chuoichientv.me/live/1563656/fc-orenburg-vs-rubin",
       "match_name": "fc orenburg vs rubin",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-02T16:31:44.610401+07:00",
-      "next_scan_at": "2026-09-02T16:41:44.610401+07:00",
+      "last_scan_at": "2026-09-02T17:02:02.360753+07:00",
+      "next_scan_at": "2026-09-02T17:12:02.360753+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2028,8 +2018,20 @@
       "match_name": "zenit vs makhachkala",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-02T16:31:44.610401+07:00",
-      "next_scan_at": "2026-09-02T16:41:44.610401+07:00",
+      "last_scan_at": "2026-09-02T17:02:02.360753+07:00",
+      "next_scan_at": "2026-09-02T17:12:02.360753+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1623469": {
+      "url": "https://live05.chuoichientv.me/live/1623469/real-sociedad-w-vs-chelsea-w",
+      "match_name": "real sociedad w vs chelsea w",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-02T17:02:02.360753+07:00",
+      "next_scan_at": "2026-09-02T17:12:02.360753+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
