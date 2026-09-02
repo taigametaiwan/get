@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-02T23:33:21.184329+07:00",
+  "updated_at": "2026-09-03T00:04:07.408699+07:00",
   "matches": {
-    "458201c192a9": {
-      "url": "https://phaohoa1.live/truc-tiep/cong-hoa-sec-vs-thuy-dien",
-      "match_name": "Cộng Hoà Séc vs Thuỵ Điển",
-      "kickoff_iso": "2026-09-01T00:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-09-01T01:34:33.268145+07:00",
-      "next_scan_at": "2026-09-01T01:39:33.268145+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "798834": {
       "url": "https://phaohoa1.live/truc-tiep/osasuna-vs-getafe-01-09-2026-798834",
       "match_name": "Osasuna vs Getafe",
@@ -381,9 +367,9 @@
       "url": "https://phaohoa1.live/truc-tiep/zenit-vs-dynamo-makhachkala-02-09-2026-785745",
       "match_name": "Zenit vs Dynamo Makhachkala",
       "kickoff_iso": "2026-09-02T22:30:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-09-02T23:33:21.184084+07:00",
-      "next_scan_at": "2026-09-02T23:38:21.184084+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-09-03T00:04:07.408458+07:00",
+      "next_scan_at": "2026-09-03T00:09:07.408458+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -409,9 +395,9 @@
       "url": "https://phaohoa1.live/truc-tiep/udinese-vs-venezia-02-09-2026-847340",
       "match_name": "Udinese vs Venezia",
       "kickoff_iso": "2026-09-02T23:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-09-02T23:33:21.184084+07:00",
-      "next_scan_at": "2026-09-02T23:38:21.184084+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-09-03T00:04:07.408458+07:00",
+      "next_scan_at": "2026-09-03T00:09:07.408458+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -421,14 +407,16 @@
     },
     "655a5f8672a9": {
       "url": "https://phaohoa1.live/truc-tiep/italy-vs-thuy-dien",
-      "match_name": "03-09 CEV Cup Italy VS Thuỵ Điển KaKa",
+      "match_name": "03-09 First Division A St. Truiden VS Royale Union SG Văn Minh",
       "kickoff_iso": "2026-09-03T00:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-09-02T23:33:21.184084+07:00",
-      "next_scan_at": "2026-09-02T23:43:21.184084+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-09-03T00:04:07.408458+07:00",
+      "next_scan_at": "2026-09-03T00:09:07.408458+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     },
     "846175": {
@@ -445,35 +433,35 @@
     },
     "846181": {
       "url": "https://phaohoa1.live/truc-tiep/real-madrid-w-vs-ajax-w-03-09-2026-846181",
-      "match_name": "03-09 DFB Pokal VfL Osnabruck VS Bayern Munich Lưu Bị",
-      "kickoff_iso": "2026-09-03T01:45:00+07:00",
-      "minutes_to_kickoff": 133,
-      "last_scan_at": "2026-09-02T23:33:21.184084+07:00",
-      "next_scan_at": "2026-09-03T00:18:21.184084+07:00",
+      "match_name": "03-09 UEFA Women's Champions League Real Madrid W VS Ajax W Tiểu Mây",
+      "kickoff_iso": "2026-09-03T01:00:00+07:00",
+      "minutes_to_kickoff": 57,
+      "last_scan_at": "2026-09-03T00:04:07.408458+07:00",
+      "next_scan_at": "2026-09-03T00:24:07.408458+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "819459": {
       "url": "https://phaohoa1.live/truc-tiep/salzburg-vs-sk-rapid-03-09-2026-819459",
       "match_name": "03-09 Bundesliga Salzburg VS SK Rapid Tày",
       "kickoff_iso": "2026-09-03T01:30:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-09-02T22:33:21.288314+07:00",
-      "next_scan_at": "2026-09-02T23:18:21.288314+07:00",
+      "minutes_to_kickoff": 86,
+      "last_scan_at": "2026-09-03T00:04:07.408458+07:00",
+      "next_scan_at": "2026-09-03T00:24:07.408458+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "819150": {
       "url": "https://phaohoa1.live/truc-tiep/st-truiden-vs-royale-union-sg-03-09-2026-819150",
-      "match_name": "03-09 First Division A St. Truiden VS Royale Union SG Văn Minh",
-      "kickoff_iso": "2026-09-03T01:30:00+07:00",
-      "minutes_to_kickoff": 147,
-      "last_scan_at": "2026-09-02T23:03:19.629147+07:00",
-      "next_scan_at": "2026-09-02T23:48:19.629147+07:00",
+      "match_name": "03-09 Championship Burnley VS Middlesbrough Chim Nhỏ",
+      "kickoff_iso": "2026-09-03T02:00:00+07:00",
+      "minutes_to_kickoff": 117,
+      "last_scan_at": "2026-09-03T00:04:07.408458+07:00",
+      "next_scan_at": "2026-09-03T00:24:07.408458+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -486,6 +474,18 @@
       "minutes_to_kickoff": 162,
       "last_scan_at": "2026-09-02T23:03:19.629147+07:00",
       "next_scan_at": "2026-09-02T23:48:19.629147+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "809600": {
+      "url": "https://phaohoa1.live/truc-tiep/vfl-osnabruck-vs-bayern-munich-03-09-2026-809600",
+      "match_name": "03-09 DFB Pokal VfL Osnabruck VS Bayern Munich Lưu Bị",
+      "kickoff_iso": "2026-09-03T01:45:00+07:00",
+      "minutes_to_kickoff": 102,
+      "last_scan_at": "2026-09-03T00:04:07.408458+07:00",
+      "next_scan_at": "2026-09-03T00:24:07.408458+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
