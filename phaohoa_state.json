@@ -1,36 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-02T15:32:33.731635+07:00",
+  "updated_at": "2026-09-02T16:02:40.659761+07:00",
   "matches": {
-    "c5a7d95516d4": {
-      "url": "https://phaohoa1.live/truc-tiep/indonesia-u20-vs-malaysia-u20",
-      "match_name": "Indonesia U20 vs Malaysia U20",
-      "kickoff_iso": "2026-08-31T16:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-31T17:33:01.313863+07:00",
-      "next_scan_at": "2026-08-31T17:38:01.313863+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "44a04b36ba29": {
-      "url": "https://phaohoa1.live/truc-tiep/japan-u20-vs-kuwait-u20",
-      "match_name": "Japan U20 vs Kuwait U20",
-      "kickoff_iso": "2026-08-31T16:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-08-31T17:33:01.313863+07:00",
-      "next_scan_at": "2026-08-31T17:38:01.313863+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "e8bf7ae073d6": {
       "url": "https://phaohoa1.live/truc-tiep/viet-nam-u20-vs-trieu-tien-u20",
       "match_name": "Việt Nam U20 vs Triều Tiên U20",
@@ -457,9 +429,9 @@
       "url": "https://phaohoa1.live/truc-tiep/sanfrecce-hiroshima-vs-nagoya-grampus-02-09-2026-807518",
       "match_name": "02-09 J1 League Sanfrecce Hiroshima VS Nagoya Grampus Tày",
       "kickoff_iso": "2026-09-02T17:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-09-02T15:32:33.731525+07:00",
-      "next_scan_at": "2026-09-02T15:52:33.731525+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-09-02T16:02:40.656288+07:00",
+      "next_scan_at": "2026-09-02T16:22:40.656288+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -469,13 +441,25 @@
       "url": "https://phaohoa1.live/truc-tiep/cerezo-osaka-vs-kashiwa-reysol-02-09-2026-807514",
       "match_name": "02-09 J1 League Cerezo Osaka VS Kashiwa Reysol Lưu Bị",
       "kickoff_iso": "2026-09-02T17:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-09-02T15:32:33.731525+07:00",
-      "next_scan_at": "2026-09-02T15:52:33.731525+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-09-02T16:02:40.656288+07:00",
+      "next_scan_at": "2026-09-02T16:22:40.656288+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "821705": {
+      "url": "https://phaohoa1.live/truc-tiep/yunnan-yukun-vs-chongqing-tonglianglong-02-09-2026-821705",
+      "match_name": "02-09 FA Cup Yunnan Yukun VS Chongqing Tonglianglong Văn Minh",
+      "kickoff_iso": "2026-09-02T19:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-09-02T16:02:40.656288+07:00",
+      "next_scan_at": "2026-09-02T16:47:40.656288+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
