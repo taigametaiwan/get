@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-04T05:31:42.577564+07:00",
+  "updated_at": "2026-09-04T06:01:44.343777+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1967,11 +1967,11 @@
     },
     "1519476": {
       "url": "https://live05.chuoichientv.me/live/1519476/leones-del-norte-vs-orense-sc",
-      "match_name": "Leones del Norte vs Orense SC - VĐQG Ecuador",
+      "match_name": "leones del norte vs orense sc",
       "kickoff_iso": "2026-09-04T04:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-09-04T05:31:42.577489+07:00",
-      "next_scan_at": "2026-09-04T05:36:42.577489+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-09-04T06:01:44.343685+07:00",
+      "next_scan_at": "2026-09-04T06:06:44.343685+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1981,27 +1981,29 @@
     },
     "1623074": {
       "url": "https://live05.chuoichientv.me/live/1623074/gremio-vs-internacional",
-      "match_name": "gremio vs internacional",
+      "match_name": "Gremio vs Internacional - Cúp Brazil",
       "kickoff_iso": "2026-09-04T06:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-09-04T05:31:42.577489+07:00",
-      "next_scan_at": "2026-09-04T05:41:42.577489+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-04T06:01:44.343685+07:00",
+      "next_scan_at": "2026-09-04T06:06:44.343685+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1549751": {
       "url": "https://live05.chuoichientv.me/live/1549751/deportivo-pereira-vs-independiente-medellin",
       "match_name": "deportivo pereira vs independiente medellin",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T05:31:42.577489+07:00",
-      "next_scan_at": "2026-09-04T05:41:42.577489+07:00",
+      "kickoff_iso": "2026-09-04T08:00:00+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-09-04T06:01:44.343685+07:00",
+      "next_scan_at": "2026-09-04T06:21:44.343685+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
