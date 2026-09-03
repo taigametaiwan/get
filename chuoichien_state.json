@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-04T06:01:44.343777+07:00",
+  "updated_at": "2026-09-04T06:32:47.250865+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1981,11 +1981,11 @@
     },
     "1623074": {
       "url": "https://live05.chuoichientv.me/live/1623074/gremio-vs-internacional",
-      "match_name": "Gremio vs Internacional - Cúp Brazil",
+      "match_name": "gremio vs internacional",
       "kickoff_iso": "2026-09-04T06:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-09-04T06:01:44.343685+07:00",
-      "next_scan_at": "2026-09-04T06:06:44.343685+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-09-04T06:32:47.250797+07:00",
+      "next_scan_at": "2026-09-04T06:37:47.250797+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1997,13 +1997,13 @@
       "url": "https://live05.chuoichientv.me/live/1549751/deportivo-pereira-vs-independiente-medellin",
       "match_name": "deportivo pereira vs independiente medellin",
       "kickoff_iso": "2026-09-04T08:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-09-04T06:01:44.343685+07:00",
-      "next_scan_at": "2026-09-04T06:21:44.343685+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-09-04T06:32:47.250797+07:00",
+      "next_scan_at": "2026-09-04T06:52:47.250797+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
