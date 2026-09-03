@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-03T16:02:33.738647+07:00",
+  "updated_at": "2026-09-03T16:32:40.953269+07:00",
   "matches": {
     "821703": {
       "url": "https://phaohoa1.live/truc-tiep/dalian-yingbo-vs-shanghai-shenhua-01-09-2026-821703",
@@ -411,9 +411,9 @@
       "url": "https://phaohoa1.live/truc-tiep/united-arab-emirates-u20-vs-iraq-u20-03-09-2026-854259",
       "match_name": "United Arab Emirates U20 vs Iraq U20",
       "kickoff_iso": "2026-09-03T15:30:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-09-03T16:02:33.738512+07:00",
-      "next_scan_at": "2026-09-03T16:07:33.738512+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-09-03T16:32:40.953064+07:00",
+      "next_scan_at": "2026-09-03T16:37:40.953064+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -425,9 +425,9 @@
       "url": "https://phaohoa1.live/truc-tiep/malaysia-u20-vs-australia-u20-03-09-2026-854262",
       "match_name": "Malaysia U20 vs Australia U20",
       "kickoff_iso": "2026-09-03T16:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-09-03T16:02:33.738512+07:00",
-      "next_scan_at": "2026-09-03T16:07:33.738512+07:00",
+      "minutes_to_kickoff": -32,
+      "last_scan_at": "2026-09-03T16:32:40.953064+07:00",
+      "next_scan_at": "2026-09-03T16:37:40.953064+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -442,6 +442,18 @@
       "minutes_to_kickoff": 178,
       "last_scan_at": "2026-09-03T16:02:33.738512+07:00",
       "next_scan_at": "2026-09-03T16:47:33.738512+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "854267": {
+      "url": "https://phaohoa1.live/truc-tiep/cambodia-u20-vs-japan-u20-03-09-2026-854267",
+      "match_name": "03-09 AFC U20 Asian Cup Turkmenistan U20 VS Thailand U20 Tày",
+      "kickoff_iso": "2026-09-03T19:30:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-09-03T16:32:40.953064+07:00",
+      "next_scan_at": "2026-09-03T17:17:40.953064+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
