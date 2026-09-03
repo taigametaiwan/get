@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-09-03T11:03:56.919433+07:00",
+  "generated_at": "2026-09-03T11:34:04.724610+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -19,13 +19,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 9,
-      "playlist_blocks": 2,
+      "playlist_blocks": 1,
       "catalog_placeholders": 0,
       "metadata_references": 9,
       "included": true,
-      "fresh_stream_blocks": 2,
-      "fresh_verified_blocks": 2,
-      "fresh_selected": 2,
+      "fresh_stream_blocks": 1,
+      "fresh_verified_blocks": 1,
+      "fresh_selected": 1,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -79,13 +79,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 120,
-      "playlist_blocks": 5,
+      "playlist_blocks": 6,
       "catalog_placeholders": 0,
       "metadata_references": 120,
       "included": true,
-      "fresh_stream_blocks": 5,
-      "fresh_verified_blocks": 5,
-      "fresh_selected": 5,
+      "fresh_stream_blocks": 6,
+      "fresh_verified_blocks": 6,
+      "fresh_selected": 6,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -134,31 +134,13 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 20,
+  "input_candidates": 22,
   "metadata_reference_count": 233,
-  "last_good_recovered_count": 5,
-  "last_good_suppressed_by_fresh_count": 3,
+  "last_good_recovered_count": 7,
+  "last_good_suppressed_by_fresh_count": 2,
   "last_good_audit": [
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001788404516-0-0-464b4c0f26ba15f6765641c19b39d300",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-09-03T08:25:00+07:00",
-      "minutes_to_kickoff": -158.95,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788406330-0-0-c70a2411c1c4c8581e9717b9cc616df5",
-      "kept": false,
-      "reason": "outside-source-window",
-      "source": "xoilac",
-      "kickoff_iso": "2026-09-03T08:30:00+07:00",
-      "minutes_to_kickoff": -153.95,
-      "filtered_before_probe": true
-    },
-    {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788406277-0-0-b8eb13811a85695898607d96a87c029a",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788408092-0-0-e4b384703d9f794b6bea0c151d7287c1",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -170,16 +152,22 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788408131-0-0-6967828b441e25279e1b410872c75e4b",
       "kept": true,
-      "reason": "HTTP 206; m3u8=True",
-      "source": "chuoichien"
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
     },
     {
-      "url": "https://live05.meung.app/live/90865415.m3u8",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001788408144-0-0-b4c8cf7a7e5a72bf34e8192bee1d8b69",
       "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788408177-0-0-5e6a3a284eb91d75d7d9957f655e4f4e",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
     },
     {
       "url": "https://colatv88xi.cc/video2/output.m3u8",
@@ -188,19 +176,19 @@
       "source": "colatv"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788406300-0-0-41575d744aa196f89d1a7bab4eb16414",
+      "url": "https://live05.meung.app/live/90865415.m3u8",
       "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001788406352-0-0-572ecf35921d0bf4224c436689b40aed",
+      "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
       "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
+      "reason": "HTTP 206; m3u8=True",
+      "source": "chuoichien"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788406389-0-0-a86212c008f7b17cde599270c9adccef",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788408221-0-0-00c6539af20bba3a36b3be45ca632758",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
@@ -212,20 +200,14 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
-      "kept": false,
-      "reason": "fresh-source-replaces-last-good",
-      "source": "chuoichien"
-    },
-    {
       "url": "https://live05.meung.app/live/90865415.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     }
   ],
-  "selected_count": 9,
-  "dropped_count": 11,
+  "selected_count": 10,
+  "dropped_count": 12,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -241,8 +223,8 @@
       "source": "chuoichien",
       "source_label": "Chuối Chiên",
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
-      "match_key": "club america vs monterrey|truc tiep chuoi kem tran au club ameri",
-      "display_name": "[10:30 03/09] Club America vs Monterrey - Leagues Cup [BLV trực tiếp: Chuối Kem Trận đấu Club Ameri] [FHD M3U8]",
+      "match_key": "club america vs monterrey|chuoi kem",
+      "display_name": "[10:30 03/09] Club America vs Monterrey - Leagues Cup [BLV Chuối Kem] [FHD M3U8]",
       "group": "Chuối Chiên",
       "sport_group": "Bóng đá",
       "quality": "FHD",
@@ -256,12 +238,12 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-09-03T10:30:00+07:00",
-      "minutes_to_kickoff": -33.95,
+      "minutes_to_kickoff": -64.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
       "stream_key_tokens": null,
-      "logo": "https://media.chuoichientv.net/media/uploads/20250623_131433_e85dcdc4.png",
+      "logo": "https://media.chuoichientv.net/media/uploads/20250623_133407_faa908b8.png",
       "logo_source": null,
       "logo_enriched_from": null,
       "logo_is_fallback": null,
@@ -269,7 +251,7 @@
       "page_url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "trực tiếp: Chuối Kem Trận đấu Club Ameri",
+      "blv": "Chuối Kem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -284,7 +266,7 @@
       "match_key": "club america vs monterrey|truc tiep chuoi kem tran au club ameri",
       "display_name": "[10:30 03/09] Club America vs Monterrey - Leagues Cup [BLV trực tiếp: Chuối Kem Trận đấu Club Ameri] [HD M3U8]",
       "group": "Chuối Chiên",
-      "sport_group": "Bóng đá",
+      "sport_group": "Chuối Chiên",
       "quality": "HD",
       "kind": "m3u8",
       "playability": "verified",
@@ -294,9 +276,9 @@
       "expiry": null,
       "derived_pending": false,
       "pending_reason": null,
-      "score": 459,
+      "score": 405,
       "kickoff_iso": "2026-09-03T10:30:00+07:00",
-      "minutes_to_kickoff": -33.95,
+      "minutes_to_kickoff": -64.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -310,17 +292,17 @@
       "home_logo": null,
       "away_logo": null,
       "blv": "trực tiếp: Chuối Kem Trận đấu Club Ameri",
-      "recovered_last_good": false,
+      "recovered_last_good": true,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
+      "last_good_probe": "HTTP 206; m3u8=True",
+      "prior_generated_at": "2026-09-03T11:03:56.919433+07:00"
     },
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788408131-0-0-6967828b441e25279e1b410872c75e4b",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788409929-0-0-dd3ec23e7d5fc4eb6d00a92b96736461",
       "match_key": "shandong hi speed vs liaoning flying|hd tommy",
       "display_name": "[10:00 03/09/2026] Shandong Hi Speed vs Liaoning Flying [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -341,7 +323,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-03T10:00:00+07:00",
-      "minutes_to_kickoff": -63.95,
+      "minutes_to_kickoff": -94.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -351,7 +333,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788408131-0-0-6967828b441e25279e1b410872c75e4b",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788409929-0-0-dd3ec23e7d5fc4eb6d00a92b96736461",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/z8yomovtoynq0j6/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/56ypq3kto86md7o/image/small",
       "blv": null,
@@ -365,7 +347,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788408092-0-0-e4b384703d9f794b6bea0c151d7287c1",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788409957-0-0-26f3ada064fc2cab770ee113aeff0f36",
       "match_key": "club america vs rayados de monterrey|hd nick",
       "display_name": "[10:30 03/09/2026] Club America vs Rayados De Monterrey [BLV HD NICK] [FLV]",
       "group": "Xôi Lạc",
@@ -386,7 +368,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-03T10:30:00+07:00",
-      "minutes_to_kickoff": -33.95,
+      "minutes_to_kickoff": -64.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -396,7 +378,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788408092-0-0-e4b384703d9f794b6bea0c151d7287c1",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788409957-0-0-26f3ada064fc2cab770ee113aeff0f36",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkh189qg8n/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlh60kryk0/image/small",
       "blv": null,
@@ -410,7 +392,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001788408144-0-0-b4c8cf7a7e5a72bf34e8192bee1d8b69",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001788409953-0-0-a4983f0f87b8578a5aa60038a89a7c39",
       "match_key": "guam u20 vs bac mariana u20|hd raven",
       "display_name": "[11:00 03/09/2026] Guam U20 vs Bac Mariana U20 [BLV HD RAVEN] [FLV]",
       "group": "Xôi Lạc",
@@ -431,7 +413,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-03T11:00:00+07:00",
-      "minutes_to_kickoff": -3.95,
+      "minutes_to_kickoff": -34.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -441,7 +423,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001788408144-0-0-b4c8cf7a7e5a72bf34e8192bee1d8b69",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001788409953-0-0-a4983f0f87b8578a5aa60038a89a7c39",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/6ypq3nhlldzmd7o/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhzzweryk0/image/small",
       "blv": null,
@@ -455,7 +437,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788408177-0-0-5e6a3a284eb91d75d7d9957f655e4f4e",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788409973-0-0-566987f6af7dc78ccd7caf1bc1b528e8",
       "match_key": "guangsha lions vs shanxi loongs fenjiu|hd alan",
       "display_name": "[12:30 03/09/2026] Guangsha Lions vs Shanxi Loongs Fenjiu [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -476,7 +458,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-03T12:30:00+07:00",
-      "minutes_to_kickoff": 86.05,
+      "minutes_to_kickoff": 55.92,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -486,7 +468,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788408177-0-0-5e6a3a284eb91d75d7d9957f655e4f4e",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788409973-0-0-566987f6af7dc78ccd7caf1bc1b528e8",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/gpxwrx5tongqyk0/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/kn54ql7t63drvy9/image/small",
       "blv": null,
@@ -500,7 +482,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788408221-0-0-00c6539af20bba3a36b3be45ca632758",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788410025-0-0-2077ae27fbdb6d2bcf90107c96c8a917",
       "match_key": "negros muscovados vs imus agimat|hd step",
       "display_name": "[14:00 03/09/2026] Negros Muscovados vs Imus Agimat [BLV HD STEP] [FLV]",
       "group": "Xôi Lạc",
@@ -521,7 +503,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-03T14:00:00+07:00",
-      "minutes_to_kickoff": 176.05,
+      "minutes_to_kickoff": 145.92,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -531,9 +513,54 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788408221-0-0-00c6539af20bba3a36b3be45ca632758",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788410025-0-0-2077ae27fbdb6d2bcf90107c96c8a917",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/3glrwyt188gqdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/y39mp4t5l7pmojx/image/small",
+      "blv": null,
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
+    },
+    {
+      "source": "xoilac",
+      "source_label": "Xôi Lạc",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788410040-0-0-59b6bc47c0c9a8c60216d4d9fedb9254",
+      "match_key": "brisbane bullets vs tasmania jackjumpers|hd tommy",
+      "display_name": "[14:30 03/09/2026] Brisbane Bullets vs Tasmania Jackjumpers [BLV HD TOMMY] [FLV]",
+      "group": "Xôi Lạc",
+      "sport_group": "National Basketball League",
+      "quality": "HD",
+      "kind": "flv",
+      "playability": "verified",
+      "classification": "verified_unsigned",
+      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
+      "has_secret": false,
+      "expiry": {
+        "timestamp": null,
+        "utc": "",
+        "vietnam": "",
+        "seconds_left": null
+      },
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 456,
+      "kickoff_iso": "2026-09-03T14:30:00+07:00",
+      "minutes_to_kickoff": 175.92,
+      "metadata_audit": null,
+      "metadata_enriched_from": null,
+      "metadata_warning": null,
+      "stream_key_tokens": null,
+      "logo": "https://imgts.sportpulseapiz.com/basketball/team/kn54ql7t672rvy9/image/small",
+      "logo_source": null,
+      "logo_enriched_from": null,
+      "logo_is_fallback": null,
+      "entry_mode": "stream",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788410040-0-0-59b6bc47c0c9a8c60216d4d9fedb9254",
+      "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/kn54ql7t672rvy9/image/small",
+      "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/jw2r02tn33xqz84/image/small",
       "blv": null,
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
@@ -561,7 +588,7 @@
       "pending_reason": null,
       "score": 385,
       "kickoff_iso": "2026-09-03T10:30:00+07:00",
-      "minutes_to_kickoff": -33.95,
+      "minutes_to_kickoff": -64.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -580,7 +607,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 206; m3u8=True",
-      "prior_generated_at": "2026-09-03T10:33:51.900409+07:00"
+      "prior_generated_at": "2026-09-03T11:03:56.919433+07:00"
     },
     {
       "source": "colatv",
@@ -601,7 +628,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-09-03T10:40:00+07:00",
-      "minutes_to_kickoff": -23.95,
+      "minutes_to_kickoff": -54.08,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -627,8 +654,8 @@
     {
       "source": "chuoichien",
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
-      "display_name": "[10:30 03/09] Club America vs Monterrey - Leagues Cup [BLV trực tiếp: Chuối Kem Trận đấu Club Ameri] [FHD M3U8]",
-      "match_key": "club america vs monterrey|truc tiep chuoi kem tran au club ameri",
+      "display_name": "[10:30 03/09] Club America vs Monterrey - Leagues Cup [BLV Chuối Kem] [FHD M3U8]",
+      "match_key": "club america vs monterrey|chuoi kem",
       "quality": "FHD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -637,32 +664,8 @@
       "reason": "selected"
     },
     {
-      "source": "chuoichien",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
-      "display_name": "[10:30 03/09] Club America vs Monterrey - Leagues Cup [BLV trực tiếp: Chuối Kem Trận đấu Club Ameri] [HD M3U8]",
-      "match_key": "club america vs monterrey|truc tiep chuoi kem tran au club ameri",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788408092-0-0-e4b384703d9f794b6bea0c151d7287c1",
-      "display_name": "[10:30 03/09/2026] Club America vs Rayados De Monterrey [BLV HD NICK] [FLV]",
-      "match_key": "club america vs rayados de monterrey|hd nick",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788408131-0-0-6967828b441e25279e1b410872c75e4b",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788409929-0-0-dd3ec23e7d5fc4eb6d00a92b96736461",
       "display_name": "[10:00 03/09/2026] Shandong Hi Speed vs Liaoning Flying [BLV HD TOMMY] [FLV]",
       "match_key": "shandong hi speed vs liaoning flying|hd tommy",
       "quality": "HD",
@@ -674,7 +677,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001788408144-0-0-b4c8cf7a7e5a72bf34e8192bee1d8b69",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001788409953-0-0-a4983f0f87b8578a5aa60038a89a7c39",
       "display_name": "[11:00 03/09/2026] Guam U20 vs Bac Mariana U20 [BLV HD RAVEN] [FLV]",
       "match_key": "guam u20 vs bac mariana u20|hd raven",
       "quality": "HD",
@@ -686,7 +689,19 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788408177-0-0-5e6a3a284eb91d75d7d9957f655e4f4e",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788409957-0-0-26f3ada064fc2cab770ee113aeff0f36",
+      "display_name": "[10:30 03/09/2026] Club America vs Rayados De Monterrey [BLV HD NICK] [FLV]",
+      "match_key": "club america vs rayados de monterrey|hd nick",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788409973-0-0-566987f6af7dc78ccd7caf1bc1b528e8",
       "display_name": "[12:30 03/09/2026] Guangsha Lions vs Shanxi Loongs Fenjiu [BLV HD ALAN] [FLV]",
       "match_key": "guangsha lions vs shanxi loongs fenjiu|hd alan",
       "quality": "HD",
@@ -698,9 +713,21 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788408221-0-0-00c6539af20bba3a36b3be45ca632758",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788410025-0-0-2077ae27fbdb6d2bcf90107c96c8a917",
       "display_name": "[14:00 03/09/2026] Negros Muscovados vs Imus Agimat [BLV HD STEP] [FLV]",
       "match_key": "negros muscovados vs imus agimat|hd step",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788410040-0-0-59b6bc47c0c9a8c60216d4d9fedb9254",
+      "display_name": "[14:30 03/09/2026] Brisbane Bullets vs Tasmania Jackjumpers [BLV HD TOMMY] [FLV]",
+      "match_key": "brisbane bullets vs tasmania jackjumpers|hd tommy",
       "quality": "HD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -759,28 +786,34 @@
       "source": "phaohoa"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788406277-0-0-b8eb13811a85695898607d96a87c029a",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "club america vs rayados de monterrey|hd nick"
-    },
-    {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788406300-0-0-41575d744aa196f89d1a7bab4eb16414",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788408131-0-0-6967828b441e25279e1b410872c75e4b",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "shandong hi speed vs liaoning flying|hd tommy"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001788406352-0-0-572ecf35921d0bf4224c436689b40aed",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001788408144-0-0-b4c8cf7a7e5a72bf34e8192bee1d8b69",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "guam u20 vs bac mariana u20|hd raven"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788406389-0-0-a86212c008f7b17cde599270c9adccef",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788408092-0-0-e4b384703d9f794b6bea0c151d7287c1",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "club america vs rayados de monterrey|hd nick"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788408177-0-0-5e6a3a284eb91d75d7d9957f655e4f4e",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "guangsha lions vs shanxi loongs fenjiu|hd alan"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788408221-0-0-00c6539af20bba3a36b3be45ca632758",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "negros muscovados vs imus agimat|hd step"
     }
   ],
   "outputs_written": true
