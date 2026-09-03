@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-03T22:03:34.126430+07:00",
+  "updated_at": "2026-09-03T22:33:28.589283+07:00",
   "matches": {
     "847877": {
       "url": "https://phaohoa1.live/truc-tiep/parma-vs-cremonese-01-09-2026-847877",
@@ -411,11 +411,11 @@
     },
     "854273": {
       "url": "https://phaohoa1.live/truc-tiep/india-u20-vs-uzbekistan-u20-03-09-2026-854273",
-      "match_name": "03-09 AFC U20 Asian Cup Oman U20 VS Saudi Arabia U20 Tiểu Mây",
+      "match_name": "India U20 vs Uzbekistan U20",
       "kickoff_iso": "2026-09-03T21:00:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-09-03T22:03:34.126145+07:00",
-      "next_scan_at": "2026-09-03T22:08:34.126145+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-09-03T22:33:28.588842+07:00",
+      "next_scan_at": "2026-09-03T22:38:28.588842+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -425,23 +425,23 @@
     },
     "854276": {
       "url": "https://phaohoa1.live/truc-tiep/oman-u20-vs-saudi-arabia-u20-03-09-2026-854276",
-      "match_name": "04-09 Superliga FC Copenhagen VS Nordsjaelland Tiểu Mây",
-      "kickoff_iso": "2026-09-04T01:00:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-09-03T22:03:34.126145+07:00",
-      "next_scan_at": "2026-09-03T22:48:34.126145+07:00",
+      "match_name": "03-09 AFC U20 Asian Cup Oman U20 VS Saudi Arabia U20 Tiểu Mây",
+      "kickoff_iso": "2026-09-03T23:00:00+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-09-03T22:33:28.588842+07:00",
+      "next_scan_at": "2026-09-03T22:43:28.588842+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "803280": {
       "url": "https://phaohoa1.live/truc-tiep/al-ahli-doha-vs-qatar-sc-03-09-2026-803280",
       "match_name": "Al Ahli Doha vs Qatar SC",
       "kickoff_iso": "2026-09-03T21:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-09-03T22:03:34.126145+07:00",
-      "next_scan_at": "2026-09-03T22:08:34.126145+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-09-03T22:33:28.588842+07:00",
+      "next_scan_at": "2026-09-03T22:38:28.588842+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -453,24 +453,26 @@
       "url": "https://phaohoa1.live/truc-tiep/neom-sc-vs-al-khaleej-03-09-2026-825135",
       "match_name": "03-09 Saudi Pro League Neom SC VS Al Khaleej Văn Minh",
       "kickoff_iso": "2026-09-03T23:30:00+07:00",
-      "minutes_to_kickoff": 148,
-      "last_scan_at": "2026-09-03T21:03:07.605589+07:00",
-      "next_scan_at": "2026-09-03T21:48:07.605589+07:00",
+      "minutes_to_kickoff": 57,
+      "last_scan_at": "2026-09-03T22:33:28.588842+07:00",
+      "next_scan_at": "2026-09-03T22:53:28.588842+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "825134": {
       "url": "https://phaohoa1.live/truc-tiep/al-fayha-vs-al-kholood-03-09-2026-825134",
-      "match_name": "03-09 Saudi Pro League Al Fayha VS Al Kholood Lưu Bị",
+      "match_name": "03-09 CEV Cup Đức VS Thổ Nhĩ Kì Tày",
       "kickoff_iso": "2026-09-03T22:55:00+07:00",
-      "minutes_to_kickoff": 53,
-      "last_scan_at": "2026-09-03T22:03:34.126145+07:00",
-      "next_scan_at": "2026-09-03T22:23:34.126145+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": 22,
+      "last_scan_at": "2026-09-03T22:33:28.588842+07:00",
+      "next_scan_at": "2026-09-03T22:38:28.588842+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
       "scan_decision": "browser-fallback"
     },
     "715526": {
@@ -487,15 +489,27 @@
     },
     "0ff0e860e391": {
       "url": "https://phaohoa1.live/truc-tiep/duc-vs-tho-nhi-ki",
-      "match_name": "03-09 CEV Cup Đức VS Thổ Nhĩ Kì Tày",
-      "kickoff_iso": "2026-09-03T23:00:00+07:00",
-      "minutes_to_kickoff": 57,
-      "last_scan_at": "2026-09-03T22:03:34.126145+07:00",
-      "next_scan_at": "2026-09-03T22:23:34.126145+07:00",
+      "match_name": "04-09 Saudi Pro League Al Diriyah VS Al Qadsiah Pháo Thủ",
+      "kickoff_iso": "2026-09-04T01:00:00+07:00",
+      "minutes_to_kickoff": 148,
+      "last_scan_at": "2026-09-03T22:33:28.588842+07:00",
+      "next_scan_at": "2026-09-03T23:18:28.588842+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "779574": {
+      "url": "https://phaohoa1.live/truc-tiep/fc-copenhagen-vs-nordsjaelland-04-09-2026-779574",
+      "match_name": "04-09 Superliga FC Copenhagen VS Nordsjaelland Tiểu Mây",
+      "kickoff_iso": "2026-09-04T01:00:00+07:00",
+      "minutes_to_kickoff": 148,
+      "last_scan_at": "2026-09-03T22:33:28.588842+07:00",
+      "next_scan_at": "2026-09-03T23:18:28.588842+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
