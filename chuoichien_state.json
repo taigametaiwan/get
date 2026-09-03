@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-03T15:31:26.995984+07:00",
+  "updated_at": "2026-09-03T16:01:38.624485+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1479,20 +1479,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1635844": {
-      "url": "https://live05.chuoichientv.me/live/1635844/kedzierzyn-kozle-vs-johor-darul-takzim-fc",
-      "match_name": "Kedzierzyn-Kozle vs Johor Darul Takzim FC - FA Cup Malaysia",
-      "kickoff_iso": "2026-09-01T16:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-09-01T17:31:56.914088+07:00",
-      "next_scan_at": "2026-09-01T17:36:56.914088+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1635845": {
       "url": "https://live05.chuoichientv.me/live/1635845/dpmm-fc-vs-terengganu",
       "match_name": "DPMM FC vs Terengganu - FA Cup Malaysia",
@@ -2039,22 +2025,22 @@
     "997295": {
       "url": "https://live05.chuoichientv.me/live/997295/campuchia-u20-vs-japan-u20",
       "match_name": "campuchia u20 vs japan u20",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T15:31:26.995826+07:00",
-      "next_scan_at": "2026-09-03T15:41:26.995826+07:00",
+      "kickoff_iso": "2026-09-03T19:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-09-03T16:01:38.624362+07:00",
+      "next_scan_at": "2026-09-03T16:46:38.624362+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1603008": {
       "url": "https://live05.chuoichientv.me/live/1603008/al-fayha-vs-al-kholood",
       "match_name": "al fayha vs al kholood",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T15:31:26.995826+07:00",
-      "next_scan_at": "2026-09-03T15:41:26.995826+07:00",
+      "last_scan_at": "2026-09-03T16:01:38.624362+07:00",
+      "next_scan_at": "2026-09-03T16:11:38.624362+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2063,34 +2049,34 @@
     "992150": {
       "url": "https://live05.chuoichientv.me/live/992150/bangladesh-u20-vs-syria-u20",
       "match_name": "bangladesh u20 vs syria u20",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T15:31:26.995826+07:00",
-      "next_scan_at": "2026-09-03T15:41:26.995826+07:00",
+      "kickoff_iso": "2026-09-03T18:00:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-09-03T16:01:38.624362+07:00",
+      "next_scan_at": "2026-09-03T16:21:38.624362+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "995059": {
       "url": "https://live05.chuoichientv.me/live/995059/palestine-u20-vs-vietnam-u20",
       "match_name": "palestine u20 vs vietnam u20",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T15:31:26.995826+07:00",
-      "next_scan_at": "2026-09-03T15:41:26.995826+07:00",
+      "kickoff_iso": "2026-09-03T19:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-09-03T16:01:38.624362+07:00",
+      "next_scan_at": "2026-09-03T16:46:38.624362+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "999331": {
       "url": "https://live05.chuoichientv.me/live/999331/turkmenistan-u20-vs-thailand-u20",
       "match_name": "turkmenistan u20 vs thailand u20",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T15:31:26.995826+07:00",
-      "next_scan_at": "2026-09-03T15:41:26.995826+07:00",
+      "last_scan_at": "2026-09-03T16:01:38.624362+07:00",
+      "next_scan_at": "2026-09-03T16:11:38.624362+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2101,8 +2087,8 @@
       "match_name": "al ahli doha vs qatar sc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T15:31:26.995826+07:00",
-      "next_scan_at": "2026-09-03T15:41:26.995826+07:00",
+      "last_scan_at": "2026-09-03T16:01:38.624362+07:00",
+      "next_scan_at": "2026-09-03T16:11:38.624362+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2125,8 +2111,32 @@
       "match_name": "al neom vs al khaleej saihat",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T15:31:26.995826+07:00",
-      "next_scan_at": "2026-09-03T15:41:26.995826+07:00",
+      "last_scan_at": "2026-09-03T16:01:38.624362+07:00",
+      "next_scan_at": "2026-09-03T16:11:38.624362+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1494190": {
+      "url": "https://live05.chuoichientv.me/live/1494190/mjallby-vs-djurgardens-if",
+      "match_name": "mjallby vs djurgardens if",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-03T16:01:38.624362+07:00",
+      "next_scan_at": "2026-09-03T16:11:38.624362+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1552754": {
+      "url": "https://live05.chuoichientv.me/live/1552754/toulouse-vs-lille",
+      "match_name": "toulouse vs lille",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-03T16:01:38.624362+07:00",
+      "next_scan_at": "2026-09-03T16:11:38.624362+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
