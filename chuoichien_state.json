@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-03T07:01:38.779918+07:00",
+  "updated_at": "2026-09-03T07:31:45.266171+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -2012,21 +2012,23 @@
       "url": "https://live05.chuoichientv.me/live/1623075/santos-vs-palmeiras",
       "match_name": "Santos vs Palmeiras - Cúp Brazil",
       "kickoff_iso": "2026-09-03T07:30:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-09-03T07:01:38.779808+07:00",
-      "next_scan_at": "2026-09-03T07:11:38.779808+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-03T07:31:45.265846+07:00",
+      "next_scan_at": "2026-09-03T07:36:45.265846+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1635863": {
       "url": "https://live05.chuoichientv.me/live/1635863/toluca-vs-leon",
       "match_name": "Toluca vs Leon - Leagues Cup",
       "kickoff_iso": "2026-09-03T08:00:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-09-03T07:01:38.779808+07:00",
-      "next_scan_at": "2026-09-03T07:21:38.779808+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-09-03T07:31:45.265846+07:00",
+      "next_scan_at": "2026-09-03T07:41:45.265846+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2035,14 +2037,14 @@
     "1635864": {
       "url": "https://live05.chuoichientv.me/live/1635864/club-america-vs-monterrey",
       "match_name": "club america vs monterrey",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-03T07:01:38.779808+07:00",
-      "next_scan_at": "2026-09-03T07:11:38.779808+07:00",
+      "kickoff_iso": "2026-09-03T10:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-09-03T07:31:45.265846+07:00",
+      "next_scan_at": "2026-09-03T08:16:45.265846+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
