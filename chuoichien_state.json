@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-04T00:32:07.739819+07:00",
+  "updated_at": "2026-09-04T01:01:49.631258+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1491,34 +1491,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1603987": {
-      "url": "https://live05.chuoichientv.me/live/1603987/al-najma-vs-al-jabalain",
-      "match_name": "Al Najma vs Al Jabalain - Hạng Nhất Ả Rập",
-      "kickoff_iso": "2026-09-02T00:40:00+07:00",
-      "minutes_to_kickoff": -112,
-      "last_scan_at": "2026-09-02T02:33:10.699999+07:00",
-      "next_scan_at": "2026-09-02T02:38:10.699999+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1603007": {
-      "url": "https://live05.chuoichientv.me/live/1603007/al-hilal-saudi-fc-vs-al-ahli-jeddah",
-      "match_name": "Al-Hilal Saudi FC vs Al-Ahli Jeddah - Saudi Pro League",
-      "kickoff_iso": "2026-09-02T01:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-09-02T02:33:10.699999+07:00",
-      "next_scan_at": "2026-09-02T02:38:10.699999+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1563120": {
       "url": "https://live05.chuoichientv.me/live/1563120/lincoln-vs-blackburn",
       "match_name": "lincoln vs blackburn",
@@ -2009,16 +1981,15 @@
     },
     "1629057": {
       "url": "https://live05.chuoichientv.me/live/1629057/palermo-vs-mantova",
-      "match_name": "palermo vs mantova",
+      "match_name": "Palermo vs Mantova - Coppa Italia",
       "kickoff_iso": "2026-09-03T23:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-09-04T00:32:07.739651+07:00",
-      "next_scan_at": "2026-09-04T00:37:07.739651+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-09-04T01:01:49.631113+07:00",
+      "next_scan_at": "2026-09-04T01:06:49.631113+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -2039,8 +2010,8 @@
       "match_name": "mjallby vs djurgardens if",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T00:32:07.739651+07:00",
-      "next_scan_at": "2026-09-04T00:42:07.739651+07:00",
+      "last_scan_at": "2026-09-04T01:01:49.631113+07:00",
+      "next_scan_at": "2026-09-04T01:11:49.631113+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2051,8 +2022,8 @@
       "match_name": "toulouse vs lille",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T00:32:07.739651+07:00",
-      "next_scan_at": "2026-09-04T00:42:07.739651+07:00",
+      "last_scan_at": "2026-09-04T01:01:49.631113+07:00",
+      "next_scan_at": "2026-09-04T01:11:49.631113+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2063,8 +2034,8 @@
       "match_name": "real sociedad vs celta vigo",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T00:32:07.739651+07:00",
-      "next_scan_at": "2026-09-04T00:42:07.739651+07:00",
+      "last_scan_at": "2026-09-04T01:01:49.631113+07:00",
+      "next_scan_at": "2026-09-04T01:11:49.631113+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2075,8 +2046,8 @@
       "match_name": "cagliari vs verona",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T00:32:07.739651+07:00",
-      "next_scan_at": "2026-09-04T00:42:07.739651+07:00",
+      "last_scan_at": "2026-09-04T01:01:49.631113+07:00",
+      "next_scan_at": "2026-09-04T01:11:49.631113+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2087,8 +2058,8 @@
       "match_name": "leones del norte vs orense sc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T00:32:07.739651+07:00",
-      "next_scan_at": "2026-09-04T00:42:07.739651+07:00",
+      "last_scan_at": "2026-09-04T01:01:49.631113+07:00",
+      "next_scan_at": "2026-09-04T01:11:49.631113+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2099,8 +2070,8 @@
       "match_name": "gremio vs internacional",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T00:32:07.739651+07:00",
-      "next_scan_at": "2026-09-04T00:42:07.739651+07:00",
+      "last_scan_at": "2026-09-04T01:01:49.631113+07:00",
+      "next_scan_at": "2026-09-04T01:11:49.631113+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2111,8 +2082,8 @@
       "match_name": "deportivo pereira vs independiente medellin",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T00:32:07.739651+07:00",
-      "next_scan_at": "2026-09-04T00:42:07.739651+07:00",
+      "last_scan_at": "2026-09-04T01:01:49.631113+07:00",
+      "next_scan_at": "2026-09-04T01:11:49.631113+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
