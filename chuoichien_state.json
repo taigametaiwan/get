@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-04T04:31:36.829665+07:00",
+  "updated_at": "2026-09-04T05:01:42.487370+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1983,9 +1983,9 @@
       "url": "https://live05.chuoichientv.me/live/1519476/leones-del-norte-vs-orense-sc",
       "match_name": "Leones del Norte vs Orense SC - VĐQG Ecuador",
       "kickoff_iso": "2026-09-04T04:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-09-04T04:31:36.829579+07:00",
-      "next_scan_at": "2026-09-04T04:36:36.829579+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-09-04T05:01:42.487278+07:00",
+      "next_scan_at": "2026-09-04T05:06:42.487278+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1997,9 +1997,9 @@
       "url": "https://live05.chuoichientv.me/live/1623074/gremio-vs-internacional",
       "match_name": "Gremio vs Internacional - Cúp Brazil",
       "kickoff_iso": "2026-09-04T06:00:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-09-04T04:31:36.829579+07:00",
-      "next_scan_at": "2026-09-04T04:51:36.829579+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-09-04T05:01:42.487278+07:00",
+      "next_scan_at": "2026-09-04T05:21:42.487278+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2008,14 +2008,14 @@
     "1549751": {
       "url": "https://live05.chuoichientv.me/live/1549751/deportivo-pereira-vs-independiente-medellin",
       "match_name": "deportivo pereira vs independiente medellin",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T04:31:36.829579+07:00",
-      "next_scan_at": "2026-09-04T04:41:36.829579+07:00",
+      "kickoff_iso": "2026-09-04T08:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-09-04T05:01:42.487278+07:00",
+      "next_scan_at": "2026-09-04T05:46:42.487278+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
