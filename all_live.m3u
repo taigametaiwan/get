@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-1623075-1" tvg-name="[07:30 03/09] Santos vs Palmeiras - Cúp Brazil" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125536_9879fc79.png",[07:30 03/09] Santos vs Palmeiras - Cúp Brazil [FHD M3U8]
+#EXTINF:-1 tvg-id="chuoichien-1623075-1" tvg-name="[07:30 03/09] santos vs palmeiras" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125536_9879fc79.png",[07:30 03/09] santos vs palmeiras [FHD M3U8]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
@@ -11,20 +11,12 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8
-#EXTINF:-1 tvg-id="xoilac-tiep-aryna-sabalenka-vs-polina-iatcenko-luc-0600-ngay-03-09-2026-s1-2" tvg-name="[06:00 03/09/2026] Aryna Sabalenka vs Polina Iatcenko [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/8yomojf0njgq0j6/image/small",[06:00 03/09/2026] Aryna Sabalenka vs Polina Iatcenko [BLV HD VIC] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="chuoichien-1635863-2" tvg-name="[08:00 03/09] Toluca vs Leon - Leagues Cup [BLV Chuối Tây]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/20250921_010707_d23dff4c.png",[08:00 03/09] Toluca vs Leon - Leagues Cup [BLV Chuối Tây] [HD M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788393779-0-0-f78cc8a5a04603d077c6bf4378414f3d
-#EXTINF:-1 tvg-id="xoilac-charleston-battery-vs-hartford-athletic-luc-0600-ngay-03-09-2026-s1-6" tvg-name="[06:00 03/09/2026] Charleston Battery vs Hartford Athletic [BLV HD TAGE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h800zq86p/image/small",[06:00 03/09/2026] Charleston Battery vs Hartford Athletic [BLV HD TAGE] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-27/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-27/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-27.flv?auth_key=3000001788397419-0-0-3d6599db64c70c742dcd9e3419b9ea65
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-barcelona-sc-vs-ind-del-valle-luc-0700-ngay-03-09-2026-s1-1" tvg-name="[07:00 03/09/2026] Barcelona Sc vs Ind Del Valle [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh4gvnr6od/image/small",[07:00 03/09/2026] Barcelona Sc vs Ind Del Valle [BLV HD JEAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-7/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
@@ -38,84 +30,91 @@ https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788393678-0-0-f
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788397375-0-0-d65934622381cd8ad363c5004f09c5fe
+https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788399152-0-0-ada011640b380d55c54548c015159287
 #EXTINF:-1 tvg-id="xoilac-uc-tiep-velez-sarsfield-vs-boca-juniors-luc-0715-ngay-03-09-2026-s1-4" tvg-name="[07:15 03/09/2026] Velez Sarsfield vs Boca Juniors [BLV HD NEMO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h8zjmojx/image/small",[07:15 03/09/2026] Velez Sarsfield vs Boca Juniors [BLV HD NEMO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-17/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-17/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-17.flv?auth_key=3000001788397367-0-0-21b4e61d69d15513d1fe3d375b2fdd63
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-santos-vs-palmeiras-luc-0730-ngay-03-09-2026-s1-2" tvg-name="[07:30 03/09/2026] Santos vs Palmeiras [BLV HD HIRO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyhvd7r1ge/image/small",[07:30 03/09/2026] Santos vs Palmeiras [BLV HD HIRO] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-17.flv?auth_key=3000001788399144-0-0-3763db357fce8174c0abd3f87aef41c9
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-santos-vs-palmeiras-luc-0730-ngay-03-09-2026-s1-6" tvg-name="[07:30 03/09/2026] Santos vs Palmeiras [BLV HD HIRO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyhvd7r1ge/image/small",[07:30 03/09/2026] Santos vs Palmeiras [BLV HD HIRO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-14/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-14/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788397350-0-0-e50acc125e863bf6e52446a1854aabc3
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-vitoria-ba-vs-vasco-da-gama-luc-0730-ngay-03-09-2026-s1-3" tvg-name="[07:30 03/09/2026] Vitoria Ba vs Vasco Da Gama [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhddgqwzv/image/small",[07:30 03/09/2026] Vitoria Ba vs Vasco Da Gama [BLV HD POLO] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788399206-0-0-38e3e0a4fae95e695d62de359c37a893
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-vitoria-ba-vs-vasco-da-gama-luc-0730-ngay-03-09-2026-s1-7" tvg-name="[07:30 03/09/2026] Vitoria Ba vs Vasco Da Gama [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhddgqwzv/image/small",[07:30 03/09/2026] Vitoria Ba vs Vasco Da Gama [BLV HD POLO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-10/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-10/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788397363-0-0-b4f4f63f1e20c22e9e58be3af3daee01
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-toluca-vs-club-leon-luc-0800-ngay-03-09-2026-s1-1" tvg-name="[08:00 03/09/2026] Toluca vs Club Leon [BLV HD KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66h9p6qo9j/image/small",[08:00 03/09/2026] Toluca vs Club Leon [BLV HD KEN] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788399209-0-0-ec861e6a4d095616fa9ae68ea5fb2c92
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-toluca-vs-club-leon-luc-0800-ngay-03-09-2026-s1-3" tvg-name="[08:00 03/09/2026] Toluca vs Club Leon [BLV HD KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66h9p6qo9j/image/small",[08:00 03/09/2026] Toluca vs Club Leon [BLV HD KEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-18/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-18/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001788397313-0-0-3543dea110312ecd8518cfcdf16210c6
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-ind-santa-fe-vs-millonarios-luc-0825-ngay-03-09-2026-s1-7" tvg-name="[08:25 03/09/2026] Ind Santa Fe vs Millonarios [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jednm9wh30nryox/image/small",[08:25 03/09/2026] Ind Santa Fe vs Millonarios [BLV HD SILVA] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001788399110-0-0-29ddd3fd7d9db466a848a18d7ab9d35f
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-ind-santa-fe-vs-millonarios-luc-0825-ngay-03-09-2026-s1-2" tvg-name="[08:25 03/09/2026] Ind Santa Fe vs Millonarios [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/jednm9wh30nryox/image/small",[08:25 03/09/2026] Ind Santa Fe vs Millonarios [BLV HD SILVA] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-20/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-20/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001788397455-0-0-74304318d41c19972f454f3496987d24
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-puerto-montt-vs-colo-colo-luc-0830-ngay-03-09-2026-s1-8" tvg-name="[08:30 03/09/2026] Puerto Montt vs Colo Colo [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/vjxm8xt4gznq6od/image/small",[08:30 03/09/2026] Puerto Montt vs Colo Colo [BLV HD ALAN] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001788399084-0-0-bbb6a86f6e2f2b01b733fd81319c05f2
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-puerto-montt-vs-colo-colo-luc-0830-ngay-03-09-2026-s1-1" tvg-name="[08:30 03/09/2026] Puerto Montt vs Colo Colo [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/vjxm8xt4gznq6od/image/small",[08:30 03/09/2026] Puerto Montt vs Colo Colo [BLV HD ALAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788397465-0-0-abc2eb6a76f2e22b13960f024d9379b9
-#EXTINF:-1 tvg-id="xoilac-ep-shandong-hi-speed-vs-liaoning-flying-luc-1000-ngay-03-09-2026-s1-9" tvg-name="[10:00 03/09/2026] Shandong Hi Speed vs Liaoning Flying [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/z8yomovtoynq0j6/image/small",[10:00 03/09/2026] Shandong Hi Speed vs Liaoning Flying [BLV HD TOMMY] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788399085-0-0-f613dabb26e56d17ba4130ffbd495ae6
+#EXTINF:-1 tvg-id="xoilac-ep-shandong-hi-speed-vs-liaoning-flying-luc-1000-ngay-03-09-2026-s1-8" tvg-name="[10:00 03/09/2026] Shandong Hi Speed vs Liaoning Flying [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/z8yomovtoynq0j6/image/small",[10:00 03/09/2026] Shandong Hi Speed vs Liaoning Flying [BLV HD TOMMY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
-https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788397509-0-0-eaf5e8046fab9e51b5def18e83dbb8a7
-#EXTINF:-1 tvg-id="colatv-6cce8beb335b-1" tvg-name="[06:00 03/09] Charleston Battery vs Hartford Athletic [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/d6c87740307bf1edfc79b4b09a2dc3bf.png!w80",[06:00 03/09] Charleston Battery vs Hartford Athletic [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
+https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788399260-0-0-bbe3f54fe060c0c709d7d96c8e0d34d3
+#EXTINF:-1 tvg-id="xoilac-ep-club-america-vs-rayados-de-monterrey-luc-1030-ngay-03-09-2026-s1-9" tvg-name="[10:30 03/09/2026] Club America vs Rayados De Monterrey [BLV HD NICK] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkh189qg8n/image/small",[10:30 03/09/2026] Club America vs Rayados De Monterrey [BLV HD NICK] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-5/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/90865415.m3u8
-#EXTINF:-1 tvg-id="colatv-da7fdf71b82a-1" tvg-name="[07:15 03/09] Clb Velez Sarsfield vs Boca Juniors [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2e02d3f27830c7f3642e6592e6b922dd.png!w80",[07:15 03/09] Clb Velez Sarsfield vs Boca Juniors [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-5/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
+https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788399265-0-0-2fcbe100bfbc0f58b5911a6c64491254
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-guam-u20-vs-bac-mariana-u20-luc-1100-ngay-03-09-2026-s1-10" tvg-name="[11:00 03/09/2026] Guam U20 vs Bac Mariana U20 [BLV HD RAVEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nhlldzmd7o/image/small",[11:00 03/09/2026] Guam U20 vs Bac Mariana U20 [BLV HD RAVEN] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-21/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.drovaxcontentdelivery.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.drovaxcontentdelivery.com/ajax/chanel/type/5/link/channel-21/off-tvc?is_off_add=false","Origin":"https://xlz.drovaxcontentdelivery.com"}
+https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001788399280-0-0-97701afa25fbcf0eac57286a6cbb9437
+#EXTINF:-1 tvg-id="colatv-da7fdf71b82a-1" tvg-name="[07:15 03/09] CLB Velez Sarsfield vs Boca Juniors [BLV ROCKSTARĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2e02d3f27830c7f3642e6592e6b922dd.png!w80",[07:15 03/09] CLB Velez Sarsfield vs Boca Juniors [BLV ROCKSTARĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/82054853.m3u8
-#EXTINF:-1 tvg-id="colatv-9fcd20fe5f02-1" tvg-name="[07:30 03/09] Deportes Limache vs Nublense [BLV CozyĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/cac9460a93766d0f63c33b15003d9572.png!w80",[07:30 03/09] Deportes Limache vs Nublense [BLV CozyĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/87379114.m3u8
-#EXTINF:-1 tvg-id="colatv-f5fef5fb4ac0-1" tvg-name="[07:30 03/09] Santos FC - SP vs Palmeiras - SP [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/0840bace9b911b3f0dbadb710ea20316.png!w80",[07:30 03/09] Santos FC - SP vs Palmeiras - SP [BLV MOUNTAIN DEWĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-f5fef5fb4ac0-1" tvg-name="[07:30 03/09] Clb Santos vs Palmeiras [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/e6a85b64d28f448601e90857eb799140.png!w80",[07:30 03/09] Clb Santos vs Palmeiras [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/87547578.m3u8
+#EXTINF:-1 tvg-id="colatv-9fcd20fe5f02-1" tvg-name="[07:30 03/09] Deportes Limache vs Nublense [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/cac9460a93766d0f63c33b15003d9572.png!w80",[07:30 03/09] Deportes Limache vs Nublense [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/87379114.m3u8
 #EXTINF:-1 tvg-id="colatv-6e602c262d0c-1" tvg-name="[08:00 03/09] Cúp Liên đoàn 03/09 Toluca VS Club Leon BLV SODA [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/4695f653aca6ac49ff2baa4a961fa67b.png!w80",[08:00 03/09] Cúp Liên đoàn 03/09 Toluca VS Club Leon BLV SODA [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -123,7 +122,7 @@ https://live05.meung.app/live/87547578.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://colatv88xi.cc/video2/output.m3u8
-#EXTINF:-1 tvg-id="colatv-bb8287bcfa13-1" tvg-name="[08:00 03/09] Toluca vs Club Leon [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/725ccd5793be6b4f8dd917170dd17d04.png!w80",[08:00 03/09] Toluca vs Club Leon [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
+#EXTINF:-1 tvg-id="colatv-fa1a2f3c6a72-1" tvg-name="[08:10 03/09] Toluca vs Club Leon [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/725ccd5793be6b4f8dd917170dd17d04.png!w80",[08:10 03/09] Toluca vs Club Leon [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
