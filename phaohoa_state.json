@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-03T14:02:12.781041+07:00",
+  "updated_at": "2026-09-03T14:32:18.679844+07:00",
   "matches": {
     "853040": {
       "url": "https://phaohoa1.live/truc-tiep/damansara-vs-johor-dt-01-09-2026-853040",
@@ -425,9 +425,9 @@
       "url": "https://phaohoa1.live/truc-tiep/united-arab-emirates-u20-vs-iraq-u20-03-09-2026-854259",
       "match_name": "03-09 AFC U20 Asian Cup United Arab Emirates U20 VS Iraq U20 Tiểu Mây",
       "kickoff_iso": "2026-09-03T15:30:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-09-03T14:02:12.780940+07:00",
-      "next_scan_at": "2026-09-03T14:22:12.780940+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-09-03T14:32:18.679758+07:00",
+      "next_scan_at": "2026-09-03T14:52:18.679758+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -437,13 +437,13 @@
       "url": "https://phaohoa1.live/truc-tiep/malaysia-u20-vs-australia-u20-03-09-2026-854262",
       "match_name": "03-09 AFC U20 Asian Cup Malaysia U20 VS Australia U20 Kevin",
       "kickoff_iso": "2026-09-03T16:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-09-03T14:02:12.780940+07:00",
-      "next_scan_at": "2026-09-03T14:22:12.780940+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-09-03T14:32:18.679758+07:00",
+      "next_scan_at": "2026-09-03T14:52:18.679758+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }
