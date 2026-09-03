@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-04T05:01:42.487370+07:00",
+  "updated_at": "2026-09-04T05:31:42.577564+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1503,20 +1503,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1520846": {
-      "url": "https://live05.chuoichientv.me/live/1520846/londrina-vs-juventude",
-      "match_name": "Londrina vs Juventude - Serie B",
-      "kickoff_iso": "2026-09-02T05:30:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-09-02T07:01:50.939953+07:00",
-      "next_scan_at": "2026-09-02T07:06:50.939953+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1623073": {
       "url": "https://live05.chuoichientv.me/live/1623073/atletico-mg-vs-cruzeiro",
       "match_name": "Atletico-MG vs Cruzeiro - Cúp Brazil",
@@ -1983,9 +1969,9 @@
       "url": "https://live05.chuoichientv.me/live/1519476/leones-del-norte-vs-orense-sc",
       "match_name": "Leones del Norte vs Orense SC - VĐQG Ecuador",
       "kickoff_iso": "2026-09-04T04:30:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-09-04T05:01:42.487278+07:00",
-      "next_scan_at": "2026-09-04T05:06:42.487278+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-09-04T05:31:42.577489+07:00",
+      "next_scan_at": "2026-09-04T05:36:42.577489+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1995,11 +1981,11 @@
     },
     "1623074": {
       "url": "https://live05.chuoichientv.me/live/1623074/gremio-vs-internacional",
-      "match_name": "Gremio vs Internacional - Cúp Brazil",
+      "match_name": "gremio vs internacional",
       "kickoff_iso": "2026-09-04T06:00:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-09-04T05:01:42.487278+07:00",
-      "next_scan_at": "2026-09-04T05:21:42.487278+07:00",
+      "minutes_to_kickoff": 29,
+      "last_scan_at": "2026-09-04T05:31:42.577489+07:00",
+      "next_scan_at": "2026-09-04T05:41:42.577489+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2008,14 +1994,14 @@
     "1549751": {
       "url": "https://live05.chuoichientv.me/live/1549751/deportivo-pereira-vs-independiente-medellin",
       "match_name": "deportivo pereira vs independiente medellin",
-      "kickoff_iso": "2026-09-04T08:00:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-09-04T05:01:42.487278+07:00",
-      "next_scan_at": "2026-09-04T05:46:42.487278+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-04T05:31:42.577489+07:00",
+      "next_scan_at": "2026-09-04T05:41:42.577489+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     }
   }
 }
