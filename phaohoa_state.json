@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-03T17:02:23.763493+07:00",
+  "updated_at": "2026-09-03T17:32:41.384888+07:00",
   "matches": {
     "821703": {
       "url": "https://phaohoa1.live/truc-tiep/dalian-yingbo-vs-shanghai-shenhua-01-09-2026-821703",
@@ -425,9 +425,9 @@
       "url": "https://phaohoa1.live/truc-tiep/malaysia-u20-vs-australia-u20-03-09-2026-854262",
       "match_name": "Malaysia U20 vs Australia U20",
       "kickoff_iso": "2026-09-03T16:00:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-09-03T17:02:23.763287+07:00",
-      "next_scan_at": "2026-09-03T17:07:23.763287+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-09-03T17:32:41.384715+07:00",
+      "next_scan_at": "2026-09-03T17:37:41.384715+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -437,11 +437,11 @@
     },
     "854269": {
       "url": "https://phaohoa1.live/truc-tiep/palestine-u20-vs-vietnam-u20-03-09-2026-854269",
-      "match_name": "03-09 AFC U20 Asian Cup Palestine U20 VS Vietnam U20 Lưu Bị",
-      "kickoff_iso": "2026-09-03T19:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-09-03T17:02:23.763287+07:00",
-      "next_scan_at": "2026-09-03T17:22:23.763287+07:00",
+      "match_name": "03-09 CEV Cup Ba Lan VS Hà Lan KaKa",
+      "kickoff_iso": "2026-09-03T20:00:00+07:00",
+      "minutes_to_kickoff": 148,
+      "last_scan_at": "2026-09-03T17:32:41.384715+07:00",
+      "next_scan_at": "2026-09-03T18:17:41.384715+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -449,15 +449,15 @@
     },
     "854267": {
       "url": "https://phaohoa1.live/truc-tiep/cambodia-u20-vs-japan-u20-03-09-2026-854267",
-      "match_name": "03-09 AFC U20 Asian Cup Turkmenistan U20 VS Thailand U20 Tày",
-      "kickoff_iso": "2026-09-03T19:30:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-09-03T16:32:40.953064+07:00",
-      "next_scan_at": "2026-09-03T17:17:40.953064+07:00",
+      "match_name": "03-09 AFC U20 Asian Cup Cambodia U20 VS Japan U20 Chim Nhỏ",
+      "kickoff_iso": "2026-09-03T19:00:00+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-09-03T17:32:41.384715+07:00",
+      "next_scan_at": "2026-09-03T17:52:41.384715+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "14289208e5c1": {
       "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-ha-lan",
@@ -466,6 +466,18 @@
       "minutes_to_kickoff": 178,
       "last_scan_at": "2026-09-03T17:02:23.763287+07:00",
       "next_scan_at": "2026-09-03T17:47:23.763287+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "854271": {
+      "url": "https://phaohoa1.live/truc-tiep/turkmenistan-u20-vs-thailand-u20-03-09-2026-854271",
+      "match_name": "03-09 AFC U20 Asian Cup Turkmenistan U20 VS Thailand U20 Tày",
+      "kickoff_iso": "2026-09-03T19:30:00+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-09-03T17:32:41.384715+07:00",
+      "next_scan_at": "2026-09-03T17:52:41.384715+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
