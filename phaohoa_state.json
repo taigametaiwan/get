@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-04T21:32:45.675169+07:00",
+  "updated_at": "2026-09-04T22:03:06.691439+07:00",
   "matches": {
     "785745": {
       "url": "https://phaohoa1.live/truc-tiep/zenit-vs-dynamo-makhachkala-02-09-2026-785745",
@@ -485,15 +485,15 @@
     },
     "825137": {
       "url": "https://phaohoa1.live/truc-tiep/abha-vs-al-ettifaq-04-09-2026-825137",
-      "match_name": "05-09 Ligue 1 Lyon VS Auxerre Tày",
-      "kickoff_iso": "2026-09-05T00:00:00+07:00",
-      "minutes_to_kickoff": 148,
-      "last_scan_at": "2026-09-04T21:32:45.674995+07:00",
-      "next_scan_at": "2026-09-04T22:17:45.674995+07:00",
+      "match_name": "04-09 Saudi Pro League Abha VS Al Ettifaq Kevin",
+      "kickoff_iso": "2026-09-04T23:00:00+07:00",
+      "minutes_to_kickoff": 57,
+      "last_scan_at": "2026-09-04T22:03:06.691324+07:00",
+      "next_scan_at": "2026-09-04T22:23:06.691324+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "795430": {
       "url": "https://phaohoa1.live/truc-tiep/polissya-zhytomyr-vs-kudrivka-04-09-2026-795430",
@@ -511,21 +511,33 @@
       "url": "https://phaohoa1.live/truc-tiep/arminia-bielefeld-vs-st-pauli-04-09-2026-809628",
       "match_name": "04-09 2. Bundesliga Arminia Bielefeld VS St. Pauli Chim Nhỏ",
       "kickoff_iso": "2026-09-04T23:30:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-09-04T21:32:45.674995+07:00",
-      "next_scan_at": "2026-09-04T21:52:45.674995+07:00",
+      "minutes_to_kickoff": 87,
+      "last_scan_at": "2026-09-04T22:03:06.691324+07:00",
+      "next_scan_at": "2026-09-04T22:23:06.691324+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "809928": {
+      "url": "https://phaohoa1.live/truc-tiep/lyon-vs-auxerre-05-09-2026-809928",
+      "match_name": "05-09 Saudi Pro League Al Shabab VS Al Hilal Tiểu Mây",
+      "kickoff_iso": "2026-09-05T01:00:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-09-04T22:03:06.691324+07:00",
+      "next_scan_at": "2026-09-04T22:48:06.691324+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
     },
-    "809928": {
-      "url": "https://phaohoa1.live/truc-tiep/lyon-vs-auxerre-05-09-2026-809928",
-      "match_name": "05-09 Ligue 1 Lyon VS Auxerre Tày",
-      "kickoff_iso": "2026-09-05T00:00:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-09-04T21:02:45.559280+07:00",
-      "next_scan_at": "2026-09-04T21:47:45.559280+07:00",
+    "825138": {
+      "url": "https://phaohoa1.live/truc-tiep/al-ahli-sc-vs-al-riyadh-05-09-2026-825138",
+      "match_name": "05-09 Saudi Pro League Al Ahli SC VS Al Riyadh Văn Minh",
+      "kickoff_iso": "2026-09-05T01:00:00+07:00",
+      "minutes_to_kickoff": 177,
+      "last_scan_at": "2026-09-04T22:03:06.691324+07:00",
+      "next_scan_at": "2026-09-04T22:48:06.691324+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
