@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-05T04:31:18.802356+07:00",
+  "updated_at": "2026-09-05T05:01:36.713949+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1997,35 +1997,35 @@
     },
     "1490436": {
       "url": "https://live05.chuoichientv.me/live/1490436/new-york-city-fc-vs-nashville-sc",
-      "match_name": "new york city fc vs nashville sc",
+      "match_name": "New York City FC vs Nashville SC - Major League Soccer",
       "kickoff_iso": "2026-09-05T06:30:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-09-05T04:31:18.802266+07:00",
-      "next_scan_at": "2026-09-05T04:51:18.802266+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-09-05T05:01:36.713858+07:00",
+      "next_scan_at": "2026-09-05T05:21:36.713858+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "994264": {
       "url": "https://live05.chuoichientv.me/live/994264/australia-vs-bahrain",
       "match_name": "australia vs bahrain",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-05T04:31:18.802266+07:00",
-      "next_scan_at": "2026-09-05T04:41:18.802266+07:00",
+      "kickoff_iso": "2026-09-05T08:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-09-05T05:01:36.713858+07:00",
+      "next_scan_at": "2026-09-05T05:46:36.713858+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "999283": {
       "url": "https://live05.chuoichientv.me/live/999283/china-vs-india",
       "match_name": "china vs india",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-05T04:31:18.802266+07:00",
-      "next_scan_at": "2026-09-05T04:41:18.802266+07:00",
+      "last_scan_at": "2026-09-05T05:01:36.713858+07:00",
+      "next_scan_at": "2026-09-05T05:11:36.713858+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2035,12 +2035,15 @@
       "url": "https://live05.chuoichientv.me/live/1493109/belgrano-cordoba-vs-huracan",
       "match_name": "Belgrano Cordoba vs Huracan - VĐQG Argentina",
       "kickoff_iso": "2026-09-05T05:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-09-05T04:31:18.802266+07:00",
-      "next_scan_at": "2026-09-05T04:41:18.802266+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-05T05:01:36.713858+07:00",
+      "next_scan_at": "2026-09-05T05:06:36.713858+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
