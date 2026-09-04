@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-04T20:01:48.072029+07:00",
+  "updated_at": "2026-09-04T20:32:12.616596+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1503,20 +1503,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1563656": {
-      "url": "https://live05.chuoichientv.me/live/1563656/fc-orenburg-vs-rubin",
-      "match_name": "fc orenburg vs rubin",
-      "kickoff_iso": "2026-09-02T20:15:00+07:00",
-      "minutes_to_kickoff": -107,
-      "last_scan_at": "2026-09-02T22:02:11.349499+07:00",
-      "next_scan_at": "2026-09-02T22:07:11.349499+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1563658": {
       "url": "https://live05.chuoichientv.me/live/1563658/zenit-vs-makhachkala",
       "match_name": "zenit vs makhachkala",
@@ -1984,14 +1970,13 @@
       "url": "https://live05.chuoichientv.me/live/1621305/bali-united-vs-pss-sleman",
       "match_name": "Bali United vs PSS Sleman - VĐQG Indonesia",
       "kickoff_iso": "2026-09-04T19:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-09-04T20:01:48.071643+07:00",
-      "next_scan_at": "2026-09-04T20:06:48.071643+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-09-04T20:32:12.616475+07:00",
+      "next_scan_at": "2026-09-04T20:37:12.616475+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
-        "https://tfz01gr4uqmtt8y41hcjz8rzd1pbpc7tssa3ogw3dkmufctusk5mbxbtse5o.100ycdn.com/gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8?wsSession=b490633cc8f22c4b3c6a0811-178852689626058&wsIPSercert=1cc73805731d18ab9a6029413e3b1d63&wsBindIP=2&wsserid=1168176337057324681"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -2011,9 +1996,9 @@
       "url": "https://live05.chuoichientv.me/live/1516124/navbahor-vs-lokomotiv",
       "match_name": "Navbahor vs Lokomotiv - VĐQG Uzbekistan",
       "kickoff_iso": "2026-09-04T21:00:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-09-04T20:01:48.071643+07:00",
-      "next_scan_at": "2026-09-04T20:21:48.071643+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-09-04T20:32:12.616475+07:00",
+      "next_scan_at": "2026-09-04T20:42:12.616475+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2022,22 +2007,22 @@
     "1576161": {
       "url": "https://live05.chuoichientv.me/live/1576161/arminia-bielefeld-vs-fc-st-pauli",
       "match_name": "arminia bielefeld vs fc st pauli",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T20:01:48.071643+07:00",
-      "next_scan_at": "2026-09-04T20:11:48.071643+07:00",
+      "kickoff_iso": "2026-09-04T23:30:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-09-04T20:32:12.616475+07:00",
+      "next_scan_at": "2026-09-04T21:17:12.616475+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1575149": {
       "url": "https://live05.chuoichientv.me/live/1575149/vfb-stuttgart-vs-1fc-kln",
       "match_name": "vfb stuttgart vs 1fc kln",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T20:01:48.071643+07:00",
-      "next_scan_at": "2026-09-04T20:11:48.071643+07:00",
+      "last_scan_at": "2026-09-04T20:32:12.616475+07:00",
+      "next_scan_at": "2026-09-04T20:42:12.616475+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2048,8 +2033,8 @@
       "match_name": "ipswich vs liverpool",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T20:01:48.071643+07:00",
-      "next_scan_at": "2026-09-04T20:11:48.071643+07:00",
+      "last_scan_at": "2026-09-04T20:32:12.616475+07:00",
+      "next_scan_at": "2026-09-04T20:42:12.616475+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2060,8 +2045,8 @@
       "match_name": "real betis vs real madrid",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T20:01:48.071643+07:00",
-      "next_scan_at": "2026-09-04T20:11:48.071643+07:00",
+      "last_scan_at": "2026-09-04T20:32:12.616475+07:00",
+      "next_scan_at": "2026-09-04T20:42:12.616475+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2086,8 +2071,32 @@
       "match_name": "paris saint germain vs monaco",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-04T20:01:48.071643+07:00",
-      "next_scan_at": "2026-09-04T20:11:48.071643+07:00",
+      "last_scan_at": "2026-09-04T20:32:12.616475+07:00",
+      "next_scan_at": "2026-09-04T20:42:12.616475+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1618997": {
+      "url": "https://live05.chuoichientv.me/live/1618997/abb-vs-universitario-de-vinto",
+      "match_name": "abb vs universitario de vinto",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-04T20:32:12.616475+07:00",
+      "next_scan_at": "2026-09-04T20:42:12.616475+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1490436": {
+      "url": "https://live05.chuoichientv.me/live/1490436/new-york-city-fc-vs-nashville-sc",
+      "match_name": "new york city fc vs nashville sc",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-04T20:32:12.616475+07:00",
+      "next_scan_at": "2026-09-04T20:42:12.616475+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
