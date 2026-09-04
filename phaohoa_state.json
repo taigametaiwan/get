@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-04T19:33:15.717890+07:00",
+  "updated_at": "2026-09-04T20:02:56.538549+07:00",
   "matches": {
     "237ade6b38ee": {
       "url": "https://phaohoa1.live/truc-tiep/Serbia-vs-HyLap-",
@@ -26,20 +26,6 @@
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "847880": {
-      "url": "https://phaohoa1.live/truc-tiep/sassuolo-vs-frosinone-02-09-2026-847880",
-      "match_name": "Sassuolo vs Frosinone",
-      "kickoff_iso": "2026-09-02T20:00:00+07:00",
-      "minutes_to_kickoff": -123,
-      "last_scan_at": "2026-09-02T22:03:12.480796+07:00",
-      "next_scan_at": "2026-09-02T22:08:12.480796+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -443,9 +429,9 @@
       "url": "https://phaohoa1.live/truc-tiep/herrera-vs-viettel-04-09-2026-838463",
       "match_name": "Đồng Nai vs Viettel",
       "kickoff_iso": "2026-09-04T18:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-09-04T19:33:15.717300+07:00",
-      "next_scan_at": "2026-09-04T19:38:15.717300+07:00",
+      "minutes_to_kickoff": -122,
+      "last_scan_at": "2026-09-04T20:02:56.538361+07:00",
+      "next_scan_at": "2026-09-04T20:07:56.538361+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -471,9 +457,9 @@
       "url": "https://phaohoa1.live/truc-tiep/pattani-vs-pathum-united-04-09-2026-797814",
       "match_name": "Pattani vs Pathum United",
       "kickoff_iso": "2026-09-04T19:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-09-04T19:33:15.717300+07:00",
-      "next_scan_at": "2026-09-04T19:38:15.717300+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-09-04T20:02:56.538361+07:00",
+      "next_scan_at": "2026-09-04T20:07:56.538361+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -485,9 +471,9 @@
       "url": "https://phaohoa1.live/truc-tiep/kelantan-red-warrior-vs-kuala-lumpur-city-04-09-2026-824100",
       "match_name": "Kelantan Red Warrior vs Kuala Lumpur City",
       "kickoff_iso": "2026-09-04T20:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-09-04T19:33:15.717300+07:00",
-      "next_scan_at": "2026-09-04T19:38:15.717300+07:00",
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-09-04T20:02:56.538361+07:00",
+      "next_scan_at": "2026-09-04T20:07:56.538361+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -502,6 +488,18 @@
       "minutes_to_kickoff": 148,
       "last_scan_at": "2026-09-04T19:33:15.717300+07:00",
       "next_scan_at": "2026-09-04T20:18:15.717300+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "825137": {
+      "url": "https://phaohoa1.live/truc-tiep/abha-vs-al-ettifaq-04-09-2026-825137",
+      "match_name": "04-09 Saudi Pro League Abha VS Al Ettifaq Kevin",
+      "kickoff_iso": "2026-09-04T23:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-09-04T20:02:56.538361+07:00",
+      "next_scan_at": "2026-09-04T20:47:56.538361+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
