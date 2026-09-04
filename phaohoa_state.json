@@ -1,20 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-04T20:33:09.599563+07:00",
+  "updated_at": "2026-09-04T21:02:45.559442+07:00",
   "matches": {
-    "237ade6b38ee": {
-      "url": "https://phaohoa1.live/truc-tiep/Serbia-vs-HyLap-",
-      "match_name": "Serbia vs Hy Lạp",
-      "kickoff_iso": "2026-09-02T21:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-09-02T22:33:21.288314+07:00",
-      "next_scan_at": "2026-09-02T22:38:21.288314+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "785745": {
       "url": "https://phaohoa1.live/truc-tiep/zenit-vs-dynamo-makhachkala-02-09-2026-785745",
       "match_name": "Zenit vs Dynamo Makhachkala",
@@ -469,23 +457,25 @@
     },
     "824100": {
       "url": "https://phaohoa1.live/truc-tiep/kelantan-red-warrior-vs-kuala-lumpur-city-04-09-2026-824100",
-      "match_name": "04-09 Saudi Pro League Abha VS Al Ettifaq Kevin",
-      "kickoff_iso": "2026-09-04T23:00:00+07:00",
-      "minutes_to_kickoff": 148,
-      "last_scan_at": "2026-09-04T20:33:09.599417+07:00",
-      "next_scan_at": "2026-09-04T21:18:09.599417+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "match_name": "Kelantan Red Warrior vs Kuala Lumpur City",
+      "kickoff_iso": "2026-09-04T20:00:00+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-09-04T21:02:45.559280+07:00",
+      "next_scan_at": "2026-09-04T21:07:45.559280+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "824099": {
       "url": "https://phaohoa1.live/truc-tiep/dpmm-vs-johor-dt-04-09-2026-824099",
       "match_name": "Dpmm vs Johor Dt",
       "kickoff_iso": "2026-09-04T19:15:00+07:00",
-      "minutes_to_kickoff": -78,
-      "last_scan_at": "2026-09-04T20:33:09.599417+07:00",
-      "next_scan_at": "2026-09-04T20:38:09.599417+07:00",
+      "minutes_to_kickoff": -107,
+      "last_scan_at": "2026-09-04T21:02:45.559280+07:00",
+      "next_scan_at": "2026-09-04T21:07:45.559280+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -497,9 +487,9 @@
       "url": "https://phaohoa1.live/truc-tiep/abha-vs-al-ettifaq-04-09-2026-825137",
       "match_name": "04-09 Saudi Pro League Abha VS Al Ettifaq Kevin",
       "kickoff_iso": "2026-09-04T23:00:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-09-04T20:02:56.538361+07:00",
-      "next_scan_at": "2026-09-04T20:47:56.538361+07:00",
+      "minutes_to_kickoff": 118,
+      "last_scan_at": "2026-09-04T21:02:45.559280+07:00",
+      "next_scan_at": "2026-09-04T21:22:45.559280+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -507,15 +497,15 @@
     },
     "795430": {
       "url": "https://phaohoa1.live/truc-tiep/polissya-zhytomyr-vs-kudrivka-04-09-2026-795430",
-      "match_name": "04-09 Premier League Polissya Zhytomyr VS Kudrivka Pháo Thủ",
-      "kickoff_iso": "2026-09-04T22:00:00+07:00",
-      "minutes_to_kickoff": 87,
-      "last_scan_at": "2026-09-04T20:33:09.599417+07:00",
-      "next_scan_at": "2026-09-04T20:53:09.599417+07:00",
+      "match_name": "04-09 2. Bundesliga Arminia Bielefeld VS St. Pauli Chim Nhỏ",
+      "kickoff_iso": "2026-09-04T23:30:00+07:00",
+      "minutes_to_kickoff": 148,
+      "last_scan_at": "2026-09-04T21:02:45.559280+07:00",
+      "next_scan_at": "2026-09-04T21:47:45.559280+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "http-only-far-upcoming"
     },
     "809628": {
       "url": "https://phaohoa1.live/truc-tiep/arminia-bielefeld-vs-st-pauli-04-09-2026-809628",
@@ -524,6 +514,18 @@
       "minutes_to_kickoff": 178,
       "last_scan_at": "2026-09-04T20:33:09.599417+07:00",
       "next_scan_at": "2026-09-04T21:18:09.599417+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "809928": {
+      "url": "https://phaohoa1.live/truc-tiep/lyon-vs-auxerre-05-09-2026-809928",
+      "match_name": "05-09 Ligue 1 Lyon VS Auxerre Tày",
+      "kickoff_iso": "2026-09-05T00:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-09-04T21:02:45.559280+07:00",
+      "next_scan_at": "2026-09-04T21:47:45.559280+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
