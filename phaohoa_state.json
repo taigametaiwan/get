@@ -1,32 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-04T16:32:20.816002+07:00",
+  "updated_at": "2026-09-04T17:02:47.538177+07:00",
   "matches": {
-    "807518": {
-      "url": "https://phaohoa1.live/truc-tiep/sanfrecce-hiroshima-vs-nagoya-grampus-02-09-2026-807518",
-      "match_name": "Sanfrecce Hiroshima vs Nagoya Grampus",
-      "kickoff_iso": "2026-09-02T17:00:00+07:00",
-      "minutes_to_kickoff": -123,
-      "last_scan_at": "2026-09-02T19:03:58.028690+07:00",
-      "next_scan_at": "2026-09-02T19:08:58.028690+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
-    "807514": {
-      "url": "https://phaohoa1.live/truc-tiep/cerezo-osaka-vs-kashiwa-reysol-02-09-2026-807514",
-      "match_name": "Cerezo Osaka vs Kashiwa Reysol",
-      "kickoff_iso": "2026-09-02T17:00:00+07:00",
-      "minutes_to_kickoff": -123,
-      "last_scan_at": "2026-09-02T19:03:58.028690+07:00",
-      "next_scan_at": "2026-09-02T19:08:58.028690+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "821705": {
       "url": "https://phaohoa1.live/truc-tiep/yunnan-yukun-vs-chongqing-tonglianglong-02-09-2026-821705",
       "match_name": "Yunnan Yukun vs Chongqing Tonglianglong",
@@ -39,18 +15,6 @@
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
       ],
-      "scan_decision": "browser-fallback"
-    },
-    "807520": {
-      "url": "https://phaohoa1.live/truc-tiep/verdy-vs-vissel-kobe-02-09-2026-807520",
-      "match_name": "02-09 Coppa Italia Sassuolo VS Frosinone Pháo Thủ",
-      "kickoff_iso": "2026-09-02T17:00:00+07:00",
-      "minutes_to_kickoff": -123,
-      "last_scan_at": "2026-09-02T19:03:58.028690+07:00",
-      "next_scan_at": "2026-09-02T19:08:58.028690+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "237ade6b38ee": {
@@ -479,14 +443,16 @@
     },
     "795424": {
       "url": "https://phaohoa1.live/truc-tiep/ch-odesa-vs-livyi-bereg-04-09-2026-795424",
-      "match_name": "04-09 Premier League Ch. Odesa VS Livyi Bereg Văn Minh",
+      "match_name": "Ch. Odesa vs Livyi Bereg",
       "kickoff_iso": "2026-09-04T17:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-09-04T16:32:20.815804+07:00",
-      "next_scan_at": "2026-09-04T16:42:20.815804+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-09-04T17:02:47.538031+07:00",
+      "next_scan_at": "2026-09-04T17:07:47.538031+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a"
+      ],
       "scan_decision": "browser-fallback"
     },
     "838463": {
@@ -505,9 +471,9 @@
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-oman",
       "match_name": "04-09 Vô Địch Châu Á Nhật Bản VS Oman KaKa",
       "kickoff_iso": "2026-09-04T17:30:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-09-04T16:32:20.815804+07:00",
-      "next_scan_at": "2026-09-04T16:52:20.815804+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-09-04T17:02:47.538031+07:00",
+      "next_scan_at": "2026-09-04T17:12:47.538031+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -520,6 +486,18 @@
       "minutes_to_kickoff": 148,
       "last_scan_at": "2026-09-04T16:32:20.815804+07:00",
       "next_scan_at": "2026-09-04T17:17:20.815804+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "824100": {
+      "url": "https://phaohoa1.live/truc-tiep/kelantan-red-warrior-vs-kuala-lumpur-city-04-09-2026-824100",
+      "match_name": "04-09 Super League Kelantan Red Warrior VS Kuala Lumpur City Văn Minh",
+      "kickoff_iso": "2026-09-04T20:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-09-04T17:02:47.538031+07:00",
+      "next_scan_at": "2026-09-04T17:47:47.538031+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
