@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-04T10:02:38.360734+07:00",
+  "updated_at": "2026-09-04T10:32:00.680768+07:00",
   "matches": {
     "807518": {
       "url": "https://phaohoa1.live/truc-tiep/sanfrecce-hiroshima-vs-nagoya-grampus-02-09-2026-807518",
@@ -453,14 +453,16 @@
     },
     "a4a517c4ef59": {
       "url": "https://phaohoa1.live/truc-tiep/iran-vs-new-zealand",
-      "match_name": "04-09 Vô Địch Châu Á Iran VS New Zealand KaKa",
+      "match_name": "Iran vs New Zealand",
       "kickoff_iso": "2026-09-04T10:30:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-09-04T10:02:38.360661+07:00",
-      "next_scan_at": "2026-09-04T10:12:38.360661+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-09-04T10:32:00.680693+07:00",
+      "next_scan_at": "2026-09-04T10:37:00.680693+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
