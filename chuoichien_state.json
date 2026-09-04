@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-04T07:31:46.086330+07:00",
+  "updated_at": "2026-09-04T08:01:51.443503+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1982,13 +1982,87 @@
       "url": "https://live05.chuoichientv.me/live/1549751/deportivo-pereira-vs-independiente-medellin",
       "match_name": "Deportivo Pereira vs Independiente Medellin - VĐQG Colombia",
       "kickoff_iso": "2026-09-04T08:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-09-04T07:31:46.086270+07:00",
-      "next_scan_at": "2026-09-04T07:41:46.086270+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-04T08:01:51.443389+07:00",
+      "next_scan_at": "2026-09-04T08:06:51.443389+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "995477": {
+      "url": "https://live05.chuoichientv.me/live/995477/iran-vs-new-zealand",
+      "match_name": "iran vs new zealand",
+      "kickoff_iso": "2026-09-04T10:30:00+07:00",
+      "minutes_to_kickoff": 149,
+      "last_scan_at": "2026-09-04T08:01:51.443389+07:00",
+      "next_scan_at": "2026-09-04T08:46:51.443389+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "994906": {
+      "url": "https://live05.chuoichientv.me/live/994906/south-korea-vs-chinese-taipei",
+      "match_name": "south korea vs chinese taipei",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-04T08:01:51.443389+07:00",
+      "next_scan_at": "2026-09-04T08:11:51.443389+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1621304": {
+      "url": "https://live05.chuoichientv.me/live/1621304/arema-fc-vs-adhyaksa",
+      "match_name": "arema fc vs adhyaksa",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-04T08:01:51.443389+07:00",
+      "next_scan_at": "2026-09-04T08:11:51.443389+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1565465": {
+      "url": "https://live05.chuoichientv.me/live/1565465/chornomorets-vs-livyi-bereh",
+      "match_name": "chornomorets vs livyi bereh",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-04T08:01:51.443389+07:00",
+      "next_scan_at": "2026-09-04T08:11:51.443389+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1619917": {
+      "url": "https://live05.chuoichientv.me/live/1619917/trng-ti-ng-nai-vs-viettel",
+      "match_name": "trng ti ng nai vs viettel",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-04T08:01:51.443389+07:00",
+      "next_scan_at": "2026-09-04T08:11:51.443389+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1621305": {
+      "url": "https://live05.chuoichientv.me/live/1621305/bali-united-vs-pss-sleman",
+      "match_name": "bali united vs pss sleman",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-04T08:01:51.443389+07:00",
+      "next_scan_at": "2026-09-04T08:11:51.443389+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
