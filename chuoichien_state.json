@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-06T03:01:44.572518+07:00",
+  "updated_at": "2026-09-06T03:31:34.354841+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -2023,35 +2023,36 @@
       "url": "https://live05.chuoichientv.me/live/1570372/villarreal-vs-deportivo-la-coruna",
       "match_name": "Villarreal vs Deportivo La Coruna - La Liga",
       "kickoff_iso": "2026-09-06T02:00:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-09-06T03:01:44.572423+07:00",
-      "next_scan_at": "2026-09-06T03:06:44.572423+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-09-06T03:31:34.354745+07:00",
+      "next_scan_at": "2026-09-06T03:36:34.354745+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1490437": {
       "url": "https://live05.chuoichientv.me/live/1490437/inter-miami-vs-atlanta-united-fc",
       "match_name": "inter miami vs atlanta united fc",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-06T03:01:44.572423+07:00",
-      "next_scan_at": "2026-09-06T03:11:44.572423+07:00",
+      "kickoff_iso": "2026-09-06T06:30:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-09-06T03:31:34.354745+07:00",
+      "next_scan_at": "2026-09-06T04:16:34.354745+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "995019": {
       "url": "https://live05.chuoichientv.me/live/995019/iran-vs-india",
       "match_name": "iran vs india",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-06T03:01:44.572423+07:00",
-      "next_scan_at": "2026-09-06T03:11:44.572423+07:00",
+      "last_scan_at": "2026-09-06T03:31:34.354745+07:00",
+      "next_scan_at": "2026-09-06T03:41:34.354745+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2062,8 +2063,8 @@
       "match_name": "qatar vs chinese taipei",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-06T03:01:44.572423+07:00",
-      "next_scan_at": "2026-09-06T03:11:44.572423+07:00",
+      "last_scan_at": "2026-09-06T03:31:34.354745+07:00",
+      "next_scan_at": "2026-09-06T03:41:34.354745+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
