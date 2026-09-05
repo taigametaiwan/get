@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-05T17:31:41.456414+07:00",
+  "updated_at": "2026-09-05T19:32:53.114962+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1515,20 +1515,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "997295": {
-      "url": "https://live05.chuoichientv.me/live/997295/campuchia-u20-vs-japan-u20",
-      "match_name": "Campuchia U20 vs Japan U20 - AFC Asian Cup U20",
-      "kickoff_iso": "2026-09-03T19:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-09-03T20:31:59.992474+07:00",
-      "next_scan_at": "2026-09-03T20:36:59.992474+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1603008": {
       "url": "https://live05.chuoichientv.me/live/1603008/al-fayha-vs-al-kholood",
       "match_name": "al fayha vs al kholood",
@@ -1540,45 +1526,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
-    },
-    "992150": {
-      "url": "https://live05.chuoichientv.me/live/992150/bangladesh-u20-vs-syria-u20",
-      "match_name": "Bangladesh U20 vs Syria U20 - AFC Asian Cup U20",
-      "kickoff_iso": "2026-09-03T18:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-09-03T18:01:41.153908+07:00",
-      "next_scan_at": "2026-09-03T18:06:41.153908+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
-    "995059": {
-      "url": "https://live05.chuoichientv.me/live/995059/palestine-u20-vs-vietnam-u20",
-      "match_name": "Palestine U20 vs Vietnam U20 - AFC Asian Cup U20",
-      "kickoff_iso": "2026-09-03T19:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-09-03T20:31:59.992474+07:00",
-      "next_scan_at": "2026-09-03T20:36:59.992474+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "999331": {
-      "url": "https://live05.chuoichientv.me/live/999331/turkmenistan-u20-vs-thailand-u20",
-      "match_name": "Turkmenistan U20 vs Thailand U20 - AFC Asian Cup U20",
-      "kickoff_iso": "2026-09-03T19:30:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-09-03T21:31:46.924611+07:00",
-      "next_scan_at": "2026-09-03T21:36:46.924611+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
     },
     "1597920": {
       "url": "https://live05.chuoichientv.me/live/1597920/al-ahli-doha-vs-qatar-sc",
@@ -2012,93 +1959,114 @@
       "url": "https://live05.chuoichientv.me/live/1619912/hai-phong-vs-ninh-bnh-fc",
       "match_name": "Hai Phong vs Ninh Bình FC - V.League 1",
       "kickoff_iso": "2026-09-05T18:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-09-05T17:31:41.456222+07:00",
-      "next_scan_at": "2026-09-05T17:41:41.456222+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-09-05T19:32:53.114652+07:00",
+      "next_scan_at": "2026-09-05T19:37:53.114652+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1619913": {
       "url": "https://live05.chuoichientv.me/live/1619913/tp-h-ch-minh-vs-ha-noi",
       "match_name": "TP. Hồ Chí Minh vs Ha Noi - V.League 1",
       "kickoff_iso": "2026-09-05T18:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-09-05T17:31:41.456222+07:00",
-      "next_scan_at": "2026-09-05T17:41:41.456222+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-09-05T19:32:53.114652+07:00",
+      "next_scan_at": "2026-09-05T19:37:53.114652+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1557395": {
       "url": "https://live05.chuoichientv.me/live/1557395/newcastle-vs-bournemouth",
       "match_name": "Newcastle vs Bournemouth - Ngoại Hạng Anh",
       "kickoff_iso": "2026-09-05T18:30:00+07:00",
-      "minutes_to_kickoff": 59,
-      "last_scan_at": "2026-09-05T17:31:41.456222+07:00",
-      "next_scan_at": "2026-09-05T17:51:41.456222+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-09-05T19:32:53.114652+07:00",
+      "next_scan_at": "2026-09-05T19:37:53.114652+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1619911": {
+      "url": "https://live05.chuoichientv.me/live/1619911/cng-an-h-ni-vs-hng-lnh-h-tnh",
+      "match_name": "Công An Hà Nội vs Hồng Lĩnh Hà Tĩnh - V.League 1",
+      "kickoff_iso": "2026-09-05T19:15:00+07:00",
+      "minutes_to_kickoff": -17,
+      "last_scan_at": "2026-09-05T19:32:53.114652+07:00",
+      "next_scan_at": "2026-09-05T19:37:53.114652+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1557389": {
+      "url": "https://live05.chuoichientv.me/live/1557389/brighton-vs-leeds",
+      "match_name": "brighton vs leeds",
+      "kickoff_iso": "2026-09-05T21:00:00+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-09-05T19:32:53.114652+07:00",
+      "next_scan_at": "2026-09-05T19:52:53.114652+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
-    "1619911": {
-      "url": "https://live05.chuoichientv.me/live/1619911/cng-an-h-ni-vs-hng-lnh-h-tnh",
-      "match_name": "cng an h ni vs hng lnh h tnh",
-      "kickoff_iso": "2026-09-05T19:15:00+07:00",
-      "minutes_to_kickoff": 104,
-      "last_scan_at": "2026-09-05T17:31:41.456222+07:00",
-      "next_scan_at": "2026-09-05T17:51:41.456222+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
-    },
-    "1557389": {
-      "url": "https://live05.chuoichientv.me/live/1557389/brighton-vs-leeds",
-      "match_name": "brighton vs leeds",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-05T17:31:41.456222+07:00",
-      "next_scan_at": "2026-09-05T17:41:41.456222+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
-    },
     "1557394": {
       "url": "https://live05.chuoichientv.me/live/1557394/manchester-city-vs-coventry",
       "match_name": "manchester city vs coventry",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-05T17:31:41.456222+07:00",
-      "next_scan_at": "2026-09-05T17:41:41.456222+07:00",
+      "kickoff_iso": "2026-09-05T21:00:00+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-09-05T19:32:53.114652+07:00",
+      "next_scan_at": "2026-09-05T19:52:53.114652+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "browser-fallback"
     },
     "1557396": {
       "url": "https://live05.chuoichientv.me/live/1557396/nottingham-forest-vs-tottenham",
       "match_name": "nottingham forest vs tottenham",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-05T17:31:41.456222+07:00",
-      "next_scan_at": "2026-09-05T17:41:41.456222+07:00",
+      "kickoff_iso": "2026-09-05T21:00:00+07:00",
+      "minutes_to_kickoff": 87,
+      "last_scan_at": "2026-09-05T19:32:53.114652+07:00",
+      "next_scan_at": "2026-09-05T19:52:53.114652+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "browser-fallback"
     },
     "1550113": {
       "url": "https://live05.chuoichientv.me/live/1550113/inter-vs-napoli",
       "match_name": "inter vs napoli",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-05T17:31:41.456222+07:00",
-      "next_scan_at": "2026-09-05T17:41:41.456222+07:00",
+      "last_scan_at": "2026-09-05T19:32:53.114652+07:00",
+      "next_scan_at": "2026-09-05T19:42:53.114652+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1557392": {
+      "url": "https://live05.chuoichientv.me/live/1557392/hull-city-vs-aston-villa",
+      "match_name": "hull city vs aston villa",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-05T19:32:53.114652+07:00",
+      "next_scan_at": "2026-09-05T19:42:53.114652+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
