@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-05T22:34:28.438276+07:00",
+  "updated_at": "2026-09-05T23:04:49.023045+07:00",
   "matches": {
-    "854276": {
-      "url": "https://phaohoa1.live/truc-tiep/oman-u20-vs-saudi-arabia-u20-03-09-2026-854276",
-      "match_name": "Oman U20 vs Saudi Arabia U20",
-      "kickoff_iso": "2026-09-03T23:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-09-04T00:34:24.249710+07:00",
-      "next_scan_at": "2026-09-04T00:39:24.249710+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "825135": {
       "url": "https://phaohoa1.live/truc-tiep/neom-sc-vs-al-khaleej-03-09-2026-825135",
       "match_name": "Neom SC vs Al Khaleej",
@@ -31,20 +17,6 @@
       ],
       "scan_decision": "browser-fallback"
     },
-    "825134": {
-      "url": "https://phaohoa1.live/truc-tiep/al-fayha-vs-al-kholood-03-09-2026-825134",
-      "match_name": "Al Fayha vs Al Kholood",
-      "kickoff_iso": "2026-09-03T22:55:00+07:00",
-      "minutes_to_kickoff": -98,
-      "last_scan_at": "2026-09-04T00:34:24.249710+07:00",
-      "next_scan_at": "2026-09-04T00:39:24.249710+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "715526": {
       "url": "https://phaohoa1.live/truc-tiep/mjallby-vs-djurgarden-04-09-2026-715526",
       "match_name": "04-09 La Liga Real Sociedad VS Celta Vigo Lưu Bị",
@@ -56,20 +28,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
-    },
-    "0ff0e860e391": {
-      "url": "https://phaohoa1.live/truc-tiep/duc-vs-tho-nhi-ki",
-      "match_name": "Đức vs Thổ Nhĩ Kì",
-      "kickoff_iso": "2026-09-03T23:00:00+07:00",
-      "minutes_to_kickoff": -122,
-      "last_scan_at": "2026-09-04T01:03:44.785292+07:00",
-      "next_scan_at": "2026-09-04T01:08:44.785292+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "779574": {
       "url": "https://phaohoa1.live/truc-tiep/fc-copenhagen-vs-nordsjaelland-04-09-2026-779574",
@@ -389,9 +347,9 @@
       "url": "https://phaohoa1.live/truc-tiep/brentford-vs-sunderland-05-09-2026-812672",
       "match_name": "Brentford vs Sunderland",
       "kickoff_iso": "2026-09-05T21:00:00+07:00",
-      "minutes_to_kickoff": -93,
-      "last_scan_at": "2026-09-05T22:34:28.438007+07:00",
-      "next_scan_at": "2026-09-05T22:39:28.438007+07:00",
+      "minutes_to_kickoff": -123,
+      "last_scan_at": "2026-09-05T23:04:49.022765+07:00",
+      "next_scan_at": "2026-09-05T23:09:49.022765+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -473,9 +431,9 @@
       "url": "https://phaohoa1.live/truc-tiep/ath-bilbao-vs-atl-madrid-05-09-2026-798837",
       "match_name": "Ath Bilbao vs Atl. Madrid",
       "kickoff_iso": "2026-09-05T21:15:00+07:00",
-      "minutes_to_kickoff": -78,
-      "last_scan_at": "2026-09-05T22:34:28.438007+07:00",
-      "next_scan_at": "2026-09-05T22:39:28.438007+07:00",
+      "minutes_to_kickoff": -108,
+      "last_scan_at": "2026-09-05T23:04:49.022765+07:00",
+      "next_scan_at": "2026-09-05T23:09:49.022765+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -499,14 +457,70 @@
     },
     "f6a4ac5638a6": {
       "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-italy",
-      "match_name": "05-09 Vô Địch Châu Âu Ba Lan VS Italy KaKa",
+      "match_name": "Ba Lan vs Italy",
       "kickoff_iso": "2026-09-05T23:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-09-05T22:34:28.438007+07:00",
-      "next_scan_at": "2026-09-05T22:44:28.438007+07:00",
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-09-05T23:04:49.022765+07:00",
+      "next_scan_at": "2026-09-05T23:09:49.022765+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "807875": {
+      "url": "https://phaohoa1.live/truc-tiep/inter-vs-napoli-05-09-2026-807875",
+      "match_name": "Inter vs Napoli",
+      "kickoff_iso": "2026-09-05T23:00:00+07:00",
+      "minutes_to_kickoff": -4,
+      "last_scan_at": "2026-09-05T23:04:49.022765+07:00",
+      "next_scan_at": "2026-09-05T23:09:49.022765+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "812677": {
+      "url": "https://phaohoa1.live/truc-tiep/hull-city-vs-aston-villa-05-09-2026-812677",
+      "match_name": "Hull City vs Aston Villa",
+      "kickoff_iso": "2026-09-05T23:30:00+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-09-05T23:04:49.022765+07:00",
+      "next_scan_at": "2026-09-05T23:09:49.022765+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "795662": {
+      "url": "https://phaohoa1.live/truc-tiep/fenerbahce-vs-besiktas-06-09-2026-795662",
+      "match_name": "06-09 Süper Lig Fenerbahce VS Besiktas Chim Nhỏ",
+      "kickoff_iso": "2026-09-06T00:00:00+07:00",
+      "minutes_to_kickoff": 56,
+      "last_scan_at": "2026-09-05T23:04:49.022765+07:00",
+      "next_scan_at": "2026-09-05T23:24:49.022765+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
+      "scan_decision": "browser-fallback"
+    },
+    "798843": {
+      "url": "https://phaohoa1.live/truc-tiep/rayo-vallecano-vs-racing-santander-05-09-2026-798843",
+      "match_name": "06-09 Primeira Liga Maritimo VS Benfica Văn Minh",
+      "kickoff_iso": "2026-09-05T23:30:00+07:00",
+      "minutes_to_kickoff": 26,
+      "last_scan_at": "2026-09-05T23:04:49.022765+07:00",
+      "next_scan_at": "2026-09-05T23:09:49.022765+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa"
+      ],
       "scan_decision": "browser-fallback"
     }
   }
