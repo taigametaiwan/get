@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="chuoichien-999283-1" tvg-name="[11:30 05/09] china vs india" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png",[11:30 05/09] china vs india [FHD M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-nu-atlas-vs-nu-guadalajara-luc-0906-ngay-05-09-2026-s1-2" tvg-name="[09:06 05/09/2026] Nu Atlas vs Nu Guadalajara [BLV HD OLER] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hjjwzqdyj/image/small",[09:06 05/09/2026] Nu Atlas vs Nu Guadalajara [BLV HD OLER] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-28/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
@@ -12,64 +18,71 @@ https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001788580903-0-0-
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-17/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-17.flv?auth_key=3000001788580929-0-0-18938bef840175a70c1f4d26747d6e7b
+https://live2.domaincdn.cc/livecdn/channel-17.flv?auth_key=3000001788582702-0-0-48fef83c983cf80fbbe9d77bc62e90cf
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-fc-juarez-vs-pachuca-luc-1000-ngay-05-09-2026-s1-4" tvg-name="[10:00 05/09/2026] Fc Juarez vs Pachuca [BLV HD RAVEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkh386yqg8n/image/small",[10:00 05/09/2026] Fc Juarez vs Pachuca [BLV HD RAVEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-21/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-21/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001788580931-0-0-dcea1991fda1bda8ab3e5080083e7cfd
+https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001788582712-0-0-8ec399a07e986c315e5ed8af8c14ee99
 #EXTINF:-1 tvg-id="xoilac-c-tiep-nu-unam-pumas-vs-nu-club-america-luc-1000-ngay-05-09-2026-s1-5" tvg-name="[10:00 05/09/2026] Nu Unam Pumas vs Nu Club America [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hvzyoqo9j/image/small",[10:00 05/09/2026] Nu Unam Pumas vs Nu Club America [BLV HD SILVA] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-20/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-20/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001788580938-0-0-bcc01ae2a67027dd79259ef68547ee3f
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-avondale-fc-vs-preston-lions-luc-1100-ngay-05-09-2026-s1-1" tvg-name="[11:00 05/09/2026] Avondale Fc vs Preston Lions [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zhj3w7ql07/image/small",[11:00 05/09/2026] Avondale Fc vs Preston Lions [BLV HD ZANE] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001788582718-0-0-2c5f7b003c0e78463c0ca0275352faca
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-avondale-fc-vs-preston-lions-luc-1100-ngay-05-09-2026-s1-2" tvg-name="[11:00 05/09/2026] Avondale Fc vs Preston Lions [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zhj3w7ql07/image/small",[11:00 05/09/2026] Avondale Fc vs Preston Lions [BLV HD ZANE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-22/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-22/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788580873-0-0-6a39680a6e85115012a304bc096522e5
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-trung-quoc-vs-an-do-luc-1130-ngay-05-09-2026-s1-6" tvg-name="[11:30 05/09/2026] Trung Quoc vs An Do [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/d23xmvzhnxoqg8n/image/small",[11:30 05/09/2026] Trung Quoc vs An Do [BLV HD TYSON] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788582685-0-0-85e81d063dac9d878c32865cf5f1117d
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-trung-quoc-vs-an-do-luc-1130-ngay-05-09-2026-s1-1" tvg-name="[11:30 05/09/2026] Trung Quoc vs An Do [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/d23xmvzhnxoqg8n/image/small",[11:30 05/09/2026] Trung Quoc vs An Do [BLV HD TYSON] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788580955-0-0-cdefb1d0900a01236bd5abb8e63afab5
-#EXTINF:-1 tvg-id="xoilac--tiep-broadbeach-united-vs-wanderers-fc-luc-1200-ngay-05-09-2026-s1-7" tvg-name="[12:00 05/09/2026] Broadbeach United vs Wanderers Fc [BLV HD HIRO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh7wx6q82w/image/small",[12:00 05/09/2026] Broadbeach United vs Wanderers Fc [BLV HD HIRO] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788582669-0-0-4ee8549558418696cdbfb320d4b82250
+#EXTINF:-1 tvg-id="xoilac--tiep-broadbeach-united-vs-wanderers-fc-luc-1200-ngay-05-09-2026-s1-6" tvg-name="[12:00 05/09/2026] Broadbeach United vs Wanderers Fc [BLV HD HIRO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh7wx6q82w/image/small",[12:00 05/09/2026] Broadbeach United vs Wanderers Fc [BLV HD HIRO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-14/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-14/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788580961-0-0-256a683a52b6bb1e263996bf990536cc
-#EXTINF:-1 tvg-id="xoilac-ruc-tiep-canberra-fc-vs-queanbeyan-city-luc-1300-ngay-05-09-2026-s1-8" tvg-name="[13:00 05/09/2026] Canberra Fc vs Queanbeyan City [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhve0xrepz/image/small",[13:00 05/09/2026] Canberra Fc vs Queanbeyan City [BLV HD JEAN] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788582734-0-0-ab2a1b7f90e59b7ff920d4c73b55d799
+#EXTINF:-1 tvg-id="xoilac-ruc-tiep-canberra-fc-vs-queanbeyan-city-luc-1300-ngay-05-09-2026-s1-7" tvg-name="[13:00 05/09/2026] Canberra Fc vs Queanbeyan City [BLV HD JEAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhve0xrepz/image/small",[13:00 05/09/2026] Canberra Fc vs Queanbeyan City [BLV HD JEAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-7/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-7/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788580985-0-0-53a5a65d57e21812f6c8bdb26714dba0
-#EXTINF:-1 tvg-id="xoilac--bulleen-lions-fc-vs-nu-south-melbourne-luc-1300-ngay-05-09-2026-s1-9" tvg-name="[13:00 05/09/2026] Nu Bulleen Lions Fc vs Nu South Melbourne [BLV HD OLER] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohkz6nq1zp/image/small",[13:00 05/09/2026] Nu Bulleen Lions Fc vs Nu South Melbourne [BLV HD OLER] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788582759-0-0-799fb3fd52cd3f6da51801d516f29cf0
+#EXTINF:-1 tvg-id="xoilac--bulleen-lions-fc-vs-nu-south-melbourne-luc-1300-ngay-05-09-2026-s1-8" tvg-name="[13:00 05/09/2026] Nu Bulleen Lions Fc vs Nu South Melbourne [BLV HD OLER] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohkz6nq1zp/image/small",[13:00 05/09/2026] Nu Bulleen Lions Fc vs Nu South Melbourne [BLV HD OLER] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-28/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-28/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001788581000-0-0-30548661485af8b2f1deafc1e61d0fa2
-#EXTINF:-1 tvg-id="colatv-f5e0e076d522-1" tvg-name="[10:00 05/09] FC Juarez vs Pachuca [BLV GIÀ LÀNGĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2ef06350057f561b5dce57c7fca99a74.png!w80",[10:00 05/09] FC Juarez vs Pachuca [BLV GIÀ LÀNGĐang xem] [M3U8]
+https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001788582770-0-0-43e06f9de47bcbc695489886f7ed063b
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-sem-phoenix-vs-brisbane-bullets-luc-1430-ngay-05-09-2026-s1-9" tvg-name="[14:30 05/09/2026] Sem Phoenix vs Brisbane Bullets [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/2y8m4ptj8wgml07/image/small",[14:30 05/09/2026] Sem Phoenix vs Brisbane Bullets [BLV HD TOMMY] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
+https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788582813-0-0-ffce06c41217576fcad467d6624c4674
+#EXTINF:-1 tvg-id="colatv-e3d09736d134-1" tvg-name="[10:00 05/09] FC Juarez vs Pachuca [BLV GIÀ LÀNGĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2ef06350057f561b5dce57c7fca99a74.png!w80",[10:00 05/09] FC Juarez vs Pachuca [BLV GIÀ LÀNGĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/14830711.m3u8
-#EXTINF:-1 tvg-id="colatv-b3dd9bac7c0f-1" tvg-name="[12:30 05/09] Giải Hạng nhất Miền Nam Úc 05/09 Modbury Jets VS Adelaide Olympic BLV MONSTER [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/9ec8abde2081344ac4ef464503aea714.png!w80",[12:30 05/09] Giải Hạng nhất Miền Nam Úc 05/09 Modbury Jets VS Adelaide Olympic BLV MONSTER [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
+#EXTINF:-1 tvg-id="colatv-b3dd9bac7c0f-1" tvg-name="[12:30 05/09] Giải Hạng nhất Miền Nam Úc 05/09 Modbury Jets VS Adelaide Olympic BLV MONSTER [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/948720aa6f0b0afe89e06e9bbf703e64.png!w80",[12:30 05/09] Giải Hạng nhất Miền Nam Úc 05/09 Modbury Jets VS Adelaide Olympic BLV MONSTER [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
