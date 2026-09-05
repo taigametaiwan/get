@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-06T06:02:15.108983+07:00",
+  "updated_at": "2026-09-06T06:32:36.741776+07:00",
   "matches": {
     "a4a517c4ef59": {
       "url": "https://phaohoa1.live/truc-tiep/iran-vs-new-zealand",
@@ -517,11 +517,11 @@
     },
     "711621": {
       "url": "https://phaohoa1.live/truc-tiep/inter-miami-vs-atlanta-utd-06-09-2026-711621",
-      "match_name": "06-09 MLS Inter Miami VS Atlanta Utd Chim Nhỏ",
+      "match_name": "Inter Miami vs Atlanta Utd",
       "kickoff_iso": "2026-09-06T06:30:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-09-06T06:02:15.108852+07:00",
-      "next_scan_at": "2026-09-06T06:12:15.108852+07:00",
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-09-06T06:32:36.741631+07:00",
+      "next_scan_at": "2026-09-06T06:37:36.741631+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -531,13 +531,13 @@
       "url": "https://phaohoa1.live/truc-tiep/iran-vs-an-do",
       "match_name": "06-09 Vô Địch Châu Á Iran VS Ấn Độ Tày",
       "kickoff_iso": "2026-09-06T08:00:00+07:00",
-      "minutes_to_kickoff": 118,
-      "last_scan_at": "2026-09-06T06:02:15.108852+07:00",
-      "next_scan_at": "2026-09-06T06:22:15.108852+07:00",
+      "minutes_to_kickoff": 88,
+      "last_scan_at": "2026-09-06T06:32:36.741631+07:00",
+      "next_scan_at": "2026-09-06T06:52:36.741631+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     }
   }
 }

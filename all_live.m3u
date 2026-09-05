@@ -1,11 +1,16 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-boyaca-chico-vs-once-caldas-luc-0400-ngay-06-09-2026-s1-2" tvg-name="[04:00 06/09/2026] Boyaca Chico vs Once Caldas [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kdj2ryoh825q1zp/image/small",[04:00 06/09/2026] Boyaca Chico vs Once Caldas [BLV HD TONI] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="chuoichien-1490437-1" tvg-name="[06:30 06/09] Inter Miami vs Atlanta United FC - Major League Soccer [BLV Chuối Chao]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131436_8ba487aa.png",[06:30 06/09] Inter Miami vs Atlanta United FC - Major League Soccer [BLV Chuối Chao] [FHD M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788647514-0-0-28395326797c17a832752d6e8a9a5a36
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-id="chuoichien-1490437-2" tvg-name="[06:30 06/09] Inter Miami vs Atlanta United FC - Major League Soccer [BLV Chuối Chao]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131436_8ba487aa.png",[06:30 06/09] Inter Miami vs Atlanta United FC - Major League Soccer [BLV Chuối Chao] [HD M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-sao-paulo-vs-atletico-mineiro-luc-0430-ngay-06-09-2026-s1-3" tvg-name="[04:30 06/09/2026] Sao Paulo vs Atletico Mineiro [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhjj6qg8n/image/small",[04:30 06/09/2026] Sao Paulo vs Atletico Mineiro [BLV HD FELIX] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-24/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
@@ -13,56 +18,63 @@ https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788647514-0-0-2
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-24/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
 https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001788649401-0-0-3e25a2db4d05cca344e936dae5d6c615
-#EXTINF:-1 tvg-id="xoilac-tiep-ca-san-lorenzo-vs-talleres-cordoba-luc-0500-ngay-06-09-2026-s1-4" tvg-name="[05:00 06/09/2026] Ca San Lorenzo vs Talleres Cordoba [BLV HD XMEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlh836ryk0/image/small",[05:00 06/09/2026] Ca San Lorenzo vs Talleres Cordoba [BLV HD XMEN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-tiep-ca-san-lorenzo-vs-talleres-cordoba-luc-0500-ngay-06-09-2026-s1-6" tvg-name="[05:00 06/09/2026] Ca San Lorenzo vs Talleres Cordoba [BLV HD XMEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlh836ryk0/image/small",[05:00 06/09/2026] Ca San Lorenzo vs Talleres Cordoba [BLV HD XMEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-13/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-13/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001788649437-0-0-e7db5361e4ff9b0adcb53decde4f6136
-#EXTINF:-1 tvg-id="xoilac-c-tiep-atl-san-luis-vs-club-guadalajara-luc-0600-ngay-06-09-2026-s1-1" tvg-name="[06:00 06/09/2026] Atl San Luis vs Club Guadalajara [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh6x41m7vx/image/small",[06:00 06/09/2026] Atl San Luis vs Club Guadalajara [BLV HD ALAN] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001788651211-0-0-00c8ddff88b46c56a2d77fb16a0aa812
+#EXTINF:-1 tvg-id="xoilac-c-tiep-atl-san-luis-vs-club-guadalajara-luc-0600-ngay-06-09-2026-s1-4" tvg-name="[06:00 06/09/2026] Atl San Luis vs Club Guadalajara [BLV HD ALAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh6x41m7vx/image/small",[06:00 06/09/2026] Atl San Luis vs Club Guadalajara [BLV HD ALAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-25/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788649277-0-0-b2215eb7f805262df70c1045fd1fb361
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-iva-jovic-vs-alexandra-eala-luc-0600-ngay-06-09-2026-s1-2" tvg-name="[06:00 06/09/2026] Iva Jovic vs Alexandra Eala [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/3glrw2f5ovzrdyj/image/small",[06:00 06/09/2026] Iva Jovic vs Alexandra Eala [BLV HD VIC] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788651091-0-0-4e8be6ac8cca544545b8de61b90a8dad
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-iva-jovic-vs-alexandra-eala-luc-0600-ngay-06-09-2026-s1-5" tvg-name="[06:00 06/09/2026] Iva Jovic vs Alexandra Eala [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/3glrw2f5ovzrdyj/image/small",[06:00 06/09/2026] Iva Jovic vs Alexandra Eala [BLV HD VIC] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788649309-0-0-939120dc7e758f3856c35ec08daa9517
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-inter-miami-vs-atlanta-united-luc-0630-ngay-06-09-2026-s1-5" tvg-name="[06:30 06/09/2026] Inter Miami vs Atlanta United [BLV HD KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghjyd1r6od/image/small",[06:30 06/09/2026] Inter Miami vs Atlanta United [BLV HD KEN] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788651153-0-0-7d08427c9151765fed8314e93a55b3f7
+#EXTINF:-1 tvg-id="xoilac-c-tiep-columbus-crew-vs-colorado-rapids-luc-0630-ngay-06-09-2026-s1-1" tvg-name="[06:30 06/09/2026] Columbus Crew vs Colorado Rapids [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h86pmojx/image/small",[06:30 06/09/2026] Columbus Crew vs Colorado Rapids [BLV HD POLO] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-10/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-10/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
+https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788651072-0-0-0a4a659ff5f3d0ac943a3cde0af821fb
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-inter-miami-vs-atlanta-united-luc-0630-ngay-06-09-2026-s1-2" tvg-name="[06:30 06/09/2026] Inter Miami vs Atlanta United [BLV HD KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghjyd1r6od/image/small",[06:30 06/09/2026] Inter Miami vs Atlanta United [BLV HD KEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-18/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-18/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001788649459-0-0-fe47876b85d299cecc63d3ef319e8dff
-#EXTINF:-1 tvg-id="xoilac-ep-alexander-zverev-vs-alejandro-tabilo-luc-0710-ngay-06-09-2026-s1-6" tvg-name="[07:10 06/09/2026] Alexander Zverev vs Alejandro Tabilo [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/2y8m4vfgnooml07/image/small",[07:10 06/09/2026] Alexander Zverev vs Alejandro Tabilo [BLV HD VIC] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001788651072-0-0-ebae719fcfcf2a6fc8953c1aba570376
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-orlando-city-vs-san-diego-fc-luc-0630-ngay-06-09-2026-s1-3" tvg-name="[06:30 06/09/2026] Orlando City vs San Diego Fc [BLV HD HIRO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kjw2r09hoxvrz84/image/small",[06:30 06/09/2026] Orlando City vs San Diego Fc [BLV HD HIRO] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-14/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-14/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
+https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788651071-0-0-c46e04d256b58791dc858867bdc882c2
+#EXTINF:-1 tvg-id="xoilac-ep-alexander-zverev-vs-alejandro-tabilo-luc-0710-ngay-06-09-2026-s1-7" tvg-name="[07:10 06/09/2026] Alexander Zverev vs Alejandro Tabilo [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/2y8m4vfgnooml07/image/small",[07:10 06/09/2026] Alexander Zverev vs Alejandro Tabilo [BLV HD VIC] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788649459-0-0-71b914fd432635e7c2494def1db171e6
-#EXTINF:-1 tvg-id="colatv-cf0ebeba8edb-1" tvg-name="[04:30 06/09] Clb Sao Paulo vs Clb Atletico Mineiro [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/31f5171de0e1404fdebcef19cd7cd409.png!w80",[04:30 06/09] Clb Sao Paulo vs Clb Atletico Mineiro [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/87547578.m3u8
-#EXTINF:-1 tvg-id="colatv-d4dbce3e196b-1" tvg-name="[05:00 06/09] CA San Lorenzo vs Talleres Cordoba [BLV PEPSIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/65d05eaf7edc601ae236107417b01cbf.png!w80",[05:00 06/09] CA San Lorenzo vs Talleres Cordoba [BLV PEPSIĐang xem] [M3U8]
+https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788651257-0-0-81dfb2f1080531995788c6a655305e28
+#EXTINF:-1 tvg-id="colatv-995d4e39353c-1" tvg-name="[05:00 06/09] CA San Lorenzo vs Talleres Cordoba [BLV PEPSIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/65d05eaf7edc601ae236107417b01cbf.png!w80",[05:00 06/09] CA San Lorenzo vs Talleres Cordoba [BLV PEPSIĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/59444581.m3u8
-#EXTINF:-1 tvg-id="colatv-7159259d9a11-1" tvg-name="[06:00 06/09] Atletico San Luis vs Chivas Guadalajara [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f6c489e1e71d37e301b30df37a43b8a4.png!w80",[06:00 06/09] Atletico San Luis vs Chivas Guadalajara [BLV Lịch thi đấu Cược VSBET 📲 Tải App Hỗ tr] [M3U8]
+#EXTINF:-1 tvg-id="colatv-c922e4d16700-1" tvg-name="[06:00 06/09] Atletico San Luis vs Club Deportivo Guadalajara [BLV SPRITEĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/f6c489e1e71d37e301b30df37a43b8a4.png!w80",[06:00 06/09] Atletico San Luis vs Club Deportivo Guadalajara [BLV SPRITEĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
@@ -76,7 +88,14 @@ https://live05.meung.app/live/75748097.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/90865415.m3u8
-#EXTINF:-1 tvg-id="colatv-2e2f4f2efa96-1" tvg-name="[06:30 06/09] Toronto FC vs Chicago Fire [BLV 7UPĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/a6f6290d4b7699729dc19349484841bf.png!w80",[06:30 06/09] Toronto FC vs Chicago Fire [BLV 7UPĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-983cfe754cc2-1" tvg-name="[06:30 06/09] Inter Miami CF vs Atlanta United [BLV CozyĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/976fe1d29c112f4baeb844cdda2f04cb.png!w80",[06:30 06/09] Inter Miami CF vs Atlanta United [BLV CozyĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/87379114.m3u8
+#EXTINF:-1 tvg-id="colatv-538e0d3d5480-1" tvg-name="[06:30 06/09] Toronto FC vs Chicago Fire [BLV 7UPĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/a6f6290d4b7699729dc19349484841bf.png!w80",[06:30 06/09] Toronto FC vs Chicago Fire [BLV 7UPĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
