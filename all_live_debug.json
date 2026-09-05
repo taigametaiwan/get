@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-09-05T06:35:33.642475+07:00",
+  "generated_at": "2026-09-05T07:04:38.781993+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -78,14 +78,14 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 97,
-      "playlist_blocks": 7,
+      "debug_rows": 95,
+      "playlist_blocks": 6,
       "catalog_placeholders": 0,
-      "metadata_references": 97,
+      "metadata_references": 95,
       "included": true,
-      "fresh_stream_blocks": 7,
-      "fresh_verified_blocks": 7,
-      "fresh_selected": 7,
+      "fresh_stream_blocks": 6,
+      "fresh_verified_blocks": 6,
+      "fresh_selected": 6,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -98,7 +98,7 @@
       "label": "ColaTV",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 117,
+      "debug_rows": 116,
       "playlist_blocks": 4,
       "catalog_placeholders": 0,
       "metadata_references": 99,
@@ -134,64 +134,19 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 21,
-  "metadata_reference_count": 200,
-  "last_good_recovered_count": 8,
-  "last_good_suppressed_by_fresh_count": 4,
+  "input_candidates": 19,
+  "metadata_reference_count": 198,
+  "last_good_recovered_count": 7,
+  "last_good_suppressed_by_fresh_count": 6,
   "last_good_audit": [
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001788563041-0-0-912c0d4001af6aca2e034911c89d0430",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788563102-0-0-6ad0c0b06082a9245c92624fb617849b",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "chuoichien"
-    },
-    {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001788563003-0-0-7e515c394939b7b2ba6f6ff9f840e473",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001788563032-0-0-1dd4b51a126437e4bcb9963f30097e38",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788562924-0-0-006f2a722e7d7ba3a33c512c96a0d74c",
-      "kept": true,
-      "reason": "HTTP 200; flv=True",
-      "source": "xoilac"
-    },
-    {
-      "url": "https://live05.meung.app/live/16226575.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "kept": true,
-      "reason": "HTTP 206; m3u8=True",
-      "source": "colatv"
-    },
-    {
-      "url": "https://live05.meung.app/live/99121525.m3u8",
-      "kept": true,
-      "reason": "HTTP 200; m3u8=True",
-      "source": "colatv"
+      "url": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001788564854-0-0-6cb8e358d6ed20e18e36b77ffa9d1e9a",
+      "kept": false,
+      "reason": "outside-source-window",
+      "source": "xoilac",
+      "kickoff_iso": "2026-09-05T04:30:00+07:00",
+      "minutes_to_kickoff": -154.65,
+      "filtered_before_probe": true
     },
     {
       "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8",
@@ -200,16 +155,82 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788563111-0-0-48587a749b6045aaf92985d97ac913ed",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788564671-0-0-b19c4df6695488cc6a0b9b6d1f443437",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "chuoichien"
+    },
+    {
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "chuoichien"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788564703-0-0-1694d07ea122e396de33f86427932e35",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live05.meung.app/live/16226575.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788564875-0-0-b17d625c17f4f84eeda6709644c84858",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live05.meung.app/live/99121525.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/75748097.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "kept": true,
+      "reason": "HTTP 206; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001788564796-0-0-68cdaf2d1c3646635dde8b42528cf7f4",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788563119-0-0-972568557c911cd785179511b56aa026",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001788564802-0-0-db257e0819c0eb4bc4deea9723ebda61",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788564882-0-0-8259ae5a1f2e8e03b89d0d37c75cf9a9",
+      "kept": true,
+      "reason": "HTTP 200; streaming body (TimeoutError)",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "chuoichien"
     },
     {
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
@@ -224,20 +245,26 @@
       "source": "colatv"
     },
     {
-      "url": "https://colatv88xi.cc/video2/output.m3u8",
+      "url": "https://live05.meung.app/live/99121525.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     },
     {
-      "url": "https://live05.meung.app/live/99121525.m3u8",
+      "url": "https://live05.meung.app/live/75748097.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "colatv"
+    },
+    {
+      "url": "https://colatv88xi.cc/video2/output.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     }
   ],
-  "selected_count": 14,
-  "dropped_count": 7,
+  "selected_count": 13,
+  "dropped_count": 6,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -253,8 +280,8 @@
       "source": "chuoichien",
       "source_label": "Chuối Chiên",
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-      "match_key": "belgrano cordoba vs huracan|chuoi chao",
-      "display_name": "[05:00 05/09] Belgrano Cordoba vs Huracan - VĐQG Argentina [BLV Chuối Chao] [FHD M3U8]",
+      "match_key": "belgrano cordoba vs huracan|truc tiep chuoi chao tran au belgrano",
+      "display_name": "[05:00 05/09] Belgrano Cordoba vs Huracan - VĐQG Argentina [BLV trực tiếp: Chuối Chao Trận đấu Belgrano] [FHD M3U8]",
       "group": "Chuối Chiên",
       "sport_group": "Bóng đá",
       "quality": "FHD",
@@ -268,12 +295,12 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-09-05T05:00:00+07:00",
-      "minutes_to_kickoff": -95.56,
+      "minutes_to_kickoff": -124.65,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
       "stream_key_tokens": null,
-      "logo": "https://media.chuoichientv.net/media/uploads/20250623_132719_cb10e107.png",
+      "logo": "https://media.chuoichientv.net/media/uploads/20250623_132721_d2eaa045.png",
       "logo_source": null,
       "logo_enriched_from": null,
       "logo_is_fallback": null,
@@ -281,7 +308,7 @@
       "page_url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Chuối Chao",
+      "blv": "trực tiếp: Chuối Chao Trận đấu Belgrano",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -308,7 +335,7 @@
       "pending_reason": null,
       "score": 405,
       "kickoff_iso": "2026-09-05T05:00:00+07:00",
-      "minutes_to_kickoff": -95.56,
+      "minutes_to_kickoff": -124.65,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -327,7 +354,7 @@
       "metadata_link_fallback": false,
       "metadata_link_reason": null,
       "last_good_probe": "HTTP 206; m3u8=True",
-      "prior_generated_at": "2026-09-05T06:05:52.548168+07:00"
+      "prior_generated_at": "2026-09-05T06:35:33.642475+07:00"
     },
     {
       "source": "chuoichien",
@@ -348,7 +375,7 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-09-05T06:30:00+07:00",
-      "minutes_to_kickoff": -5.56,
+      "minutes_to_kickoff": -34.65,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -372,52 +399,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001788564854-0-0-6cb8e358d6ed20e18e36b77ffa9d1e9a",
-      "match_key": "crown legacy fc vs chicago flame b|hd felix",
-      "display_name": "[04:30 05/09/2026] Crown Legacy Fc vs Chicago Flame B [BLV HD FELIX] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "MLS Next Pro",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 456,
-      "kickoff_iso": "2026-09-05T04:30:00+07:00",
-      "minutes_to_kickoff": -125.56,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhzeyoryk0/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001788564854-0-0-6cb8e358d6ed20e18e36b77ffa9d1e9a",
-      "home_logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlhzeyoryk0/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh8v63moep/image/small",
-      "blv": null,
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001788564796-0-0-68cdaf2d1c3646635dde8b42528cf7f4",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001788566559-0-0-a1c88e519cddebe266f7d06cc3be08a8",
       "match_key": "belgrano vs ca huracan|hd bee",
       "display_name": "[05:00 05/09/2026] Belgrano vs Ca Huracan [BLV HD BEE] [FLV]",
       "group": "Xôi Lạc",
@@ -438,7 +420,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-05T05:00:00+07:00",
-      "minutes_to_kickoff": -95.56,
+      "minutes_to_kickoff": -124.65,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -448,7 +430,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001788564796-0-0-68cdaf2d1c3646635dde8b42528cf7f4",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001788566559-0-0-a1c88e519cddebe266f7d06cc3be08a8",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/vl7oqdehzxxr510/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkh3995qg8n/image/small",
       "blv": null,
@@ -462,7 +444,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001788564802-0-0-db257e0819c0eb4bc4deea9723ebda61",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001788566594-0-0-8896bd7aa238d30270efb5f4f48939eb",
       "match_key": "ca platense vs deportivo riestra|hd rio",
       "display_name": "[05:00 05/09/2026] Ca Platense vs Deportivo Riestra [BLV HD RIO] [FLV]",
       "group": "Xôi Lạc",
@@ -483,7 +465,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-05T05:00:00+07:00",
-      "minutes_to_kickoff": -95.56,
+      "minutes_to_kickoff": -124.65,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -493,7 +475,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001788564802-0-0-db257e0819c0eb4bc4deea9723ebda61",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001788566594-0-0-8896bd7aa238d30270efb5f4f48939eb",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/318q66howpvqo9j/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1ghe83zmoep/image/small",
       "blv": null,
@@ -507,7 +489,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788564703-0-0-1694d07ea122e396de33f86427932e35",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788566577-0-0-08f1fb4b25122c3b3fd50e2983bb9829",
       "match_key": "inter miami b vs orlando city b|hd polo",
       "display_name": "[06:00 05/09/2026] Inter Miami B vs Orlando City B [BLV HD POLO] [FLV]",
       "group": "Xôi Lạc",
@@ -528,7 +510,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-05T06:00:00+07:00",
-      "minutes_to_kickoff": -35.56,
+      "minutes_to_kickoff": -64.65,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -538,7 +520,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788564703-0-0-1694d07ea122e396de33f86427932e35",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788566577-0-0-08f1fb4b25122c3b3fd50e2983bb9829",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4hvzgvq86p/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/318q66hjzlvqo9j/image/small",
       "blv": null,
@@ -552,7 +534,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788564671-0-0-b19c4df6695488cc6a0b9b6d1f443437",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788566506-0-0-29d4bb8a4901ed73c62d0b3db4a32cfd",
       "match_key": "new york city vs nashville sc|hd logan",
       "display_name": "[06:30 05/09/2026] New York City vs Nashville Sc [BLV HD LOGAN] [FLV]",
       "group": "Xôi Lạc",
@@ -573,7 +555,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-05T06:30:00+07:00",
-      "minutes_to_kickoff": -5.56,
+      "minutes_to_kickoff": -34.65,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -583,7 +565,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788564671-0-0-b19c4df6695488cc6a0b9b6d1f443437",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788566506-0-0-29d4bb8a4901ed73c62d0b3db4a32cfd",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlhoo2ryk0/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/jw2r09hlo87rz84/image/small",
       "blv": null,
@@ -597,7 +579,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788564875-0-0-b17d625c17f4f84eeda6709644c84858",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788566633-0-0-cc4ee4ea137aa1f12017de8a64e0ab1b",
       "match_key": "elina svitolina vs anna kalinskaya|hd vic",
       "display_name": "[07:40 05/09/2026] Elina Svitolina vs Anna Kalinskaya [BLV HD VIC] [FLV]",
       "group": "Xôi Lạc",
@@ -618,7 +600,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-05T07:40:00+07:00",
-      "minutes_to_kickoff": 64.44,
+      "minutes_to_kickoff": 35.35,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -628,7 +610,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788564875-0-0-b17d625c17f4f84eeda6709644c84858",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788566633-0-0-cc4ee4ea137aa1f12017de8a64e0ab1b",
       "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/pxwrxjf99k6myk0/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/1l4rjwfe5l9m7vx/image/small",
       "blv": null,
@@ -642,7 +624,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788564882-0-0-8259ae5a1f2e8e03b89d0d37c75cf9a9",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788566633-0-0-f8bcb7f76187aca903d381a2c953b77a",
       "match_key": "australia vs bahrain|hd tyson",
       "display_name": "[08:00 05/09/2026] Australia vs Bahrain [BLV HD TYSON] [FLV]",
       "group": "Xôi Lạc",
@@ -663,7 +645,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-05T08:00:00+07:00",
-      "minutes_to_kickoff": 84.44,
+      "minutes_to_kickoff": 55.35,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -673,7 +655,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788564882-0-0-8259ae5a1f2e8e03b89d0d37c75cf9a9",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788566633-0-0-f8bcb7f76187aca903d381a2c953b77a",
       "home_logo": "https://imgts.sportpulseapiz.com/volleyball/team/9vjxm8lhzpnq6od/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/volleyball/team/x7lm75hxyn6q2wd/image/small",
       "blv": null,
@@ -688,8 +670,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/16226575.m3u8",
-      "match_key": "criciuma vs clb cuiaba|lich thi au cuoc vsbet tai app ta",
-      "display_name": "[05:30 05/09] Criciuma vs Clb Cuiaba [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "criciuma vs cuiaba|fanta ang xem",
+      "display_name": "[05:30 05/09] Criciuma vs Cuiaba [BLV FANTAĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -703,7 +685,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-09-05T05:30:00+07:00",
-      "minutes_to_kickoff": -65.56,
+      "minutes_to_kickoff": -94.65,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -716,7 +698,7 @@
       "page_url": "https://live05.meung.app/live/16226575.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
+      "blv": "FANTAĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -743,7 +725,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-09-05T06:00:00+07:00",
-      "minutes_to_kickoff": -35.56,
+      "minutes_to_kickoff": -64.65,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -768,8 +750,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/75748097.m3u8",
-      "match_key": "new york city vs clb nashville|lich thi au cuoc vsbet tai app ta",
-      "display_name": "[06:30 05/09] New York City Football Club vs Nashville SC [BLV SPRITEĐang xem] [M3U8]",
+      "match_key": "new york city football club vs nashville sc|sprite ang xem",
+      "display_name": "[06:40 05/09] New York City Football Club vs Nashville SC [BLV SPRITEĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -782,8 +764,8 @@
       "derived_pending": false,
       "pending_reason": null,
       "score": 439,
-      "kickoff_iso": "2026-09-05T06:30:00+07:00",
-      "minutes_to_kickoff": -5.56,
+      "kickoff_iso": "2026-09-05T06:40:00+07:00",
+      "minutes_to_kickoff": -24.65,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -796,7 +778,7 @@
       "page_url": "https://live05.meung.app/live/75748097.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
+      "blv": "SPRITEĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -808,7 +790,7 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
-      "match_key": "clb puebla vs toluca|fanta ang xem",
+      "match_key": "giai hang hai mexico 05 09 alacranes de durango vs clb tlaxcala blv fanta|lich thi au cuoc vsbet tai app ta",
       "display_name": "[08:00 05/09] Alacranes de Durango vs CLB Tlaxcala [BLV FANTAĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
@@ -823,7 +805,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-09-05T08:00:00+07:00",
-      "minutes_to_kickoff": 84.44,
+      "minutes_to_kickoff": 55.35,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -836,7 +818,7 @@
       "page_url": "https://colatv88xi.cc/video2/output.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "FANTAĐang xem",
+      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -849,8 +831,8 @@
     {
       "source": "chuoichien",
       "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-      "display_name": "[05:00 05/09] Belgrano Cordoba vs Huracan - VĐQG Argentina [BLV Chuối Chao] [FHD M3U8]",
-      "match_key": "belgrano cordoba vs huracan|chuoi chao",
+      "display_name": "[05:00 05/09] Belgrano Cordoba vs Huracan - VĐQG Argentina [BLV trực tiếp: Chuối Chao Trận đấu Belgrano] [FHD M3U8]",
+      "match_key": "belgrano cordoba vs huracan|truc tiep chuoi chao tran au belgrano",
       "quality": "FHD",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -872,7 +854,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788564671-0-0-b19c4df6695488cc6a0b9b6d1f443437",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788566506-0-0-29d4bb8a4901ed73c62d0b3db4a32cfd",
       "display_name": "[06:30 05/09/2026] New York City vs Nashville Sc [BLV HD LOGAN] [FLV]",
       "match_key": "new york city vs nashville sc|hd logan",
       "quality": "HD",
@@ -884,19 +866,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788564703-0-0-1694d07ea122e396de33f86427932e35",
-      "display_name": "[06:00 05/09/2026] Inter Miami B vs Orlando City B [BLV HD POLO] [FLV]",
-      "match_key": "inter miami b vs orlando city b|hd polo",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001788564796-0-0-68cdaf2d1c3646635dde8b42528cf7f4",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001788566559-0-0-a1c88e519cddebe266f7d06cc3be08a8",
       "display_name": "[05:00 05/09/2026] Belgrano vs Ca Huracan [BLV HD BEE] [FLV]",
       "match_key": "belgrano vs ca huracan|hd bee",
       "quality": "HD",
@@ -908,7 +878,19 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001788564802-0-0-db257e0819c0eb4bc4deea9723ebda61",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788566577-0-0-08f1fb4b25122c3b3fd50e2983bb9829",
+      "display_name": "[06:00 05/09/2026] Inter Miami B vs Orlando City B [BLV HD POLO] [FLV]",
+      "match_key": "inter miami b vs orlando city b|hd polo",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
+      "source": "xoilac",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001788566594-0-0-8896bd7aa238d30270efb5f4f48939eb",
       "display_name": "[05:00 05/09/2026] Ca Platense vs Deportivo Riestra [BLV HD RIO] [FLV]",
       "match_key": "ca platense vs deportivo riestra|hd rio",
       "quality": "HD",
@@ -920,19 +902,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001788564854-0-0-6cb8e358d6ed20e18e36b77ffa9d1e9a",
-      "display_name": "[04:30 05/09/2026] Crown Legacy Fc vs Chicago Flame B [BLV HD FELIX] [FLV]",
-      "match_key": "crown legacy fc vs chicago flame b|hd felix",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788564875-0-0-b17d625c17f4f84eeda6709644c84858",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788566633-0-0-cc4ee4ea137aa1f12017de8a64e0ab1b",
       "display_name": "[07:40 05/09/2026] Elina Svitolina vs Anna Kalinskaya [BLV HD VIC] [FLV]",
       "match_key": "elina svitolina vs anna kalinskaya|hd vic",
       "quality": "HD",
@@ -944,7 +914,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788564882-0-0-8259ae5a1f2e8e03b89d0d37c75cf9a9",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788566633-0-0-f8bcb7f76187aca903d381a2c953b77a",
       "display_name": "[08:00 05/09/2026] Australia vs Bahrain [BLV HD TYSON] [FLV]",
       "match_key": "australia vs bahrain|hd tyson",
       "quality": "HD",
@@ -957,8 +927,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/16226575.m3u8",
-      "display_name": "[05:30 05/09] Criciuma vs Clb Cuiaba [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
-      "match_key": "criciuma vs clb cuiaba|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[05:30 05/09] Criciuma vs Cuiaba [BLV FANTAĐang xem] [M3U8]",
+      "match_key": "criciuma vs cuiaba|fanta ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -981,8 +951,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/75748097.m3u8",
-      "display_name": "[06:30 05/09] New York City Football Club vs Nashville SC [BLV SPRITEĐang xem] [M3U8]",
-      "match_key": "new york city vs clb nashville|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[06:40 05/09] New York City Football Club vs Nashville SC [BLV SPRITEĐang xem] [M3U8]",
+      "match_key": "new york city football club vs nashville sc|sprite ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -994,7 +964,7 @@
       "source": "colatv",
       "url": "https://colatv88xi.cc/video2/output.m3u8",
       "display_name": "[08:00 05/09] Alacranes de Durango vs CLB Tlaxcala [BLV FANTAĐang xem] [M3U8]",
-      "match_key": "clb puebla vs toluca|fanta ang xem",
+      "match_key": "giai hang hai mexico 05 09 alacranes de durango vs clb tlaxcala blv fanta|lich thi au cuoc vsbet tai app ta",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1006,43 +976,37 @@
   "fresh_preservation_ok": true,
   "dropped": [
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788563102-0-0-6ad0c0b06082a9245c92624fb617849b",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788564671-0-0-b19c4df6695488cc6a0b9b6d1f443437",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "new york city vs nashville sc|hd logan"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788562924-0-0-006f2a722e7d7ba3a33c512c96a0d74c",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "inter miami b vs orlando city b|hd polo"
-    },
-    {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001788563032-0-0-1dd4b51a126437e4bcb9963f30097e38",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001788564796-0-0-68cdaf2d1c3646635dde8b42528cf7f4",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "belgrano vs ca huracan|hd bee"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001788563041-0-0-912c0d4001af6aca2e034911c89d0430",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788564703-0-0-1694d07ea122e396de33f86427932e35",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "inter miami b vs orlando city b|hd polo"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001788564802-0-0-db257e0819c0eb4bc4deea9723ebda61",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "ca platense vs deportivo riestra|hd rio"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001788563003-0-0-7e515c394939b7b2ba6f6ff9f840e473",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "crown legacy fc vs chicago flame b|hd felix"
-    },
-    {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788563111-0-0-48587a749b6045aaf92985d97ac913ed",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788564875-0-0-b17d625c17f4f84eeda6709644c84858",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "elina svitolina vs anna kalinskaya|hd vic"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788563119-0-0-972568557c911cd785179511b56aa026",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788564882-0-0-8259ae5a1f2e8e03b89d0d37c75cf9a9",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "australia vs bahrain|hd tyson"
