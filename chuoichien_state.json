@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-05T23:02:16.912147+07:00",
+  "updated_at": "2026-09-05T23:31:39.270668+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -2012,39 +2012,43 @@
       "url": "https://live05.chuoichientv.me/live/1550113/inter-vs-napoli",
       "match_name": "Inter vs Napoli - Serie A",
       "kickoff_iso": "2026-09-05T23:00:00+07:00",
-      "minutes_to_kickoff": -2,
-      "last_scan_at": "2026-09-05T23:02:16.911982+07:00",
-      "next_scan_at": "2026-09-05T23:07:16.911982+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-09-05T23:31:39.270502+07:00",
+      "next_scan_at": "2026-09-05T23:36:39.270502+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1557392": {
       "url": "https://live05.chuoichientv.me/live/1557392/hull-city-vs-aston-villa",
-      "match_name": "hull city vs aston villa",
+      "match_name": "Hull City vs Aston Villa - Ngoại Hạng Anh",
       "kickoff_iso": "2026-09-05T23:30:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-09-05T23:02:16.911982+07:00",
-      "next_scan_at": "2026-09-05T23:12:16.911982+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-05T23:31:39.270502+07:00",
+      "next_scan_at": "2026-09-05T23:36:39.270502+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1575156": {
       "url": "https://live05.chuoichientv.me/live/1575156/fc-schalke-04-vs-bayern-mnchen",
-      "match_name": "fc schalke 04 vs bayern mnchen",
+      "match_name": "FC Schalke 04 vs Bayern München - Bundesliga",
       "kickoff_iso": "2026-09-05T23:30:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-09-05T23:02:16.911982+07:00",
-      "next_scan_at": "2026-09-05T23:12:16.911982+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-05T23:31:39.270502+07:00",
+      "next_scan_at": "2026-09-05T23:36:39.270502+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1603016": {
@@ -2052,8 +2056,8 @@
       "match_name": "al ittihad fc vs al nassr",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-05T23:02:16.911982+07:00",
-      "next_scan_at": "2026-09-05T23:12:16.911982+07:00",
+      "last_scan_at": "2026-09-05T23:31:39.270502+07:00",
+      "next_scan_at": "2026-09-05T23:41:39.270502+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2064,8 +2068,8 @@
       "match_name": "villarreal vs deportivo la coruna",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-05T23:02:16.911982+07:00",
-      "next_scan_at": "2026-09-05T23:12:16.911982+07:00",
+      "last_scan_at": "2026-09-05T23:31:39.270502+07:00",
+      "next_scan_at": "2026-09-05T23:41:39.270502+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2076,8 +2080,32 @@
       "match_name": "inter miami vs atlanta united fc",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-05T23:02:16.911982+07:00",
-      "next_scan_at": "2026-09-05T23:12:16.911982+07:00",
+      "last_scan_at": "2026-09-05T23:31:39.270502+07:00",
+      "next_scan_at": "2026-09-05T23:41:39.270502+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "995019": {
+      "url": "https://live05.chuoichientv.me/live/995019/iran-vs-india",
+      "match_name": "iran vs india",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-05T23:31:39.270502+07:00",
+      "next_scan_at": "2026-09-05T23:41:39.270502+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "992738": {
+      "url": "https://live05.chuoichientv.me/live/992738/qatar-vs-chinese-taipei",
+      "match_name": "qatar vs chinese taipei",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-05T23:31:39.270502+07:00",
+      "next_scan_at": "2026-09-05T23:41:39.270502+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
