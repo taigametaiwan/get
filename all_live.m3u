@@ -5,19 +5,6 @@
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8
-#EXTINF:-1 tvg-id="chuoichien-1570372-2" tvg-name="[02:00 06/09] Villarreal vs Deportivo La Coruna - La Liga [BLV Chuối To]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125623_b5012a41.png",[02:00 06/09] Villarreal vs Deportivo La Coruna - La Liga [BLV Chuối To] [HD M3U8]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-dynamo-dresden-vs-vfl-bochum-luc-0130-ngay-06-09-2026-s1-5" tvg-name="[01:30 06/09/2026] Dynamo Dresden vs Vfl Bochum [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zh9w9ql07/image/small",[01:30 06/09/2026] Dynamo Dresden vs Vfl Bochum [BLV HD TONI] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788638521-0-0-58fff5c6377a372cea6edfb50546f1b8
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-as-roma-vs-atalanta-luc-0145-ngay-06-09-2026-s1-5" tvg-name="[01:45 06/09/2026] As Roma vs Atalanta [BLV HD MAX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7phel7m2wd/image/small",[01:45 06/09/2026] As Roma vs Atalanta [BLV HD MAX] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-6/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
@@ -46,13 +33,13 @@ https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788638488-0-0-
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-18/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
 https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001788640397-0-0-af77f4de890b3f933f5ad84e8d7dae2b
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-st-mirren-f-c-vs-celtic-fc-luc-0200-ngay-06-09-2026-s1-1" tvg-name="[02:00 06/09/2026] St Mirren F C vs Celtic Fc [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7ph4pvm2wd/image/small",[02:00 06/09/2026] St Mirren F C vs Celtic Fc [BLV HD LOGAN] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-st-mirren-f-c-vs-celtic-fc-luc-0200-ngay-06-09-2026-s1-3" tvg-name="[02:00 06/09/2026] St Mirren F C vs Celtic Fc [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7ph4pvm2wd/image/small",[02:00 06/09/2026] St Mirren F C vs Celtic Fc [BLV HD LOGAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-23/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-23/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788640362-0-0-a0488ffc72419252156be1d7b6db174c
+https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788642186-0-0-82c35e7343fd8910a43cb68093f04824
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-swansea-city-vs-wrexham-luc-0200-ngay-06-09-2026-s1-2" tvg-name="[02:00 06/09/2026] Swansea City vs Wrexham [BLV HD NEMO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7ph6jzm2wd/image/small",[02:00 06/09/2026] Swansea City vs Wrexham [BLV HD NEMO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-17/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
@@ -60,13 +47,13 @@ https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788640362-0-0-
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-17/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
 https://live2.domaincdn.cc/livecdn/channel-17.flv?auth_key=3000001788640364-0-0-6c74e1bee9723fe432787767e2933ff2
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-villarreal-vs-dep-la-coruna-luc-0200-ngay-06-09-2026-s1-3" tvg-name="[02:00 06/09/2026] Villarreal vs Dep La Coruna [BLV HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kjw2r09hvwwrz84/image/small",[02:00 06/09/2026] Villarreal vs Dep La Coruna [BLV HD BRADY] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-villarreal-vs-dep-la-coruna-luc-0200-ngay-06-09-2026-s1-4" tvg-name="[02:00 06/09/2026] Villarreal vs Dep La Coruna [BLV HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kjw2r09hvwwrz84/image/small",[02:00 06/09/2026] Villarreal vs Dep La Coruna [BLV HD BRADY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-15/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-15/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001788640379-0-0-fcef5918c1d0cb53160b3b5424668b6a
+https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001788642186-0-0-78122aa98080835282ca075b1cbfec0b
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-willem-ii-vs-excelsior-sbv-luc-0200-ngay-06-09-2026-s1-4" tvg-name="[02:00 06/09/2026] Willem Ii vs Excelsior Sbv [BLV HD POLO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zhy3xql07/image/small",[02:00 06/09/2026] Willem Ii vs Excelsior Sbv [BLV HD POLO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-10/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
@@ -74,76 +61,55 @@ https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001788640379-0-0-
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-10/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
 https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788640380-0-0-359a96612a6b4186dd1606b7c9c0d33d
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-sporting-cp-vs-cd-nacional-luc-0230-ngay-06-09-2026-s1-8" tvg-name="[02:30 06/09/2026] Sporting Cp vs Cd Nacional [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kn54qllhyydqvy9/image/small",[02:30 06/09/2026] Sporting Cp vs Cd Nacional [BLV HD BEE] [FLV]
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-sporting-cp-vs-cd-nacional-luc-0230-ngay-06-09-2026-s1-2" tvg-name="[02:30 06/09/2026] Sporting Cp vs Cd Nacional [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kn54qllhyydqvy9/image/small",[02:30 06/09/2026] Sporting Cp vs Cd Nacional [BLV HD BEE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-8/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-8/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001788640420-0-0-34f8cca480adf744d54f3f6e4f69f231
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-iva-jovic-vs-alexandra-eala-luc-0600-ngay-06-09-2026-s1-9" tvg-name="[06:00 06/09/2026] Iva Jovic vs Alexandra Eala [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/3glrw2f5ovzrdyj/image/small",[06:00 06/09/2026] Iva Jovic vs Alexandra Eala [BLV HD VIC] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001788642140-0-0-7e28b736c2880f23cc2db53edeb9f55f
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-boyaca-chico-vs-once-caldas-luc-0400-ngay-06-09-2026-s1-1" tvg-name="[04:00 06/09/2026] Boyaca Chico vs Once Caldas [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kdj2ryoh825q1zp/image/small",[04:00 06/09/2026] Boyaca Chico vs Once Caldas [BLV HD TONI] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
+https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788642081-0-0-59dc318d51ce3a57a61e44147e78e79e
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-sao-paulo-vs-atletico-mineiro-luc-0430-ngay-06-09-2026-s1-5" tvg-name="[04:30 06/09/2026] Sao Paulo vs Atletico Mineiro [BLV HD FELIX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhjj6qg8n/image/small",[04:30 06/09/2026] Sao Paulo vs Atletico Mineiro [BLV HD FELIX] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-24/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-24/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
+https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001788642205-0-0-3a90c7ab00ba9e7fb3b1e38f65521212
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-iva-jovic-vs-alexandra-eala-luc-0600-ngay-06-09-2026-s1-6" tvg-name="[06:00 06/09/2026] Iva Jovic vs Alexandra Eala [BLV HD VIC] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/3glrw2f5ovzrdyj/image/small",[06:00 06/09/2026] Iva Jovic vs Alexandra Eala [BLV HD VIC] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.hexvaridstreamnode.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.hexvaridstreamnode.com/ajax/chanel/type/5/link/channel-32/off-tvc?is_off_add=false","Origin":"https://xlz.hexvaridstreamnode.com"}
-https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788640435-0-0-cf14d09f214b724f95dd20fa3c20cee5
-#EXTINF:-1 tvg-id="colatv-0134c620f5af-1" tvg-name="[01:45 06/09] A.S. Roma vs Atalanta B.C. [BLV SAMURAIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/7a192686d30c1ad031d2fb605eaf2f2a.png!w80",[01:45 06/09] A.S. Roma vs Atalanta B.C. [BLV SAMURAIĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/07808742.m3u8
-#EXTINF:-1 tvg-id="colatv-a38812b29a58-1" tvg-name="[01:45 06/09] Havre Athletic Club vs Stade Brestois 29 [BLV MONSTERĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/8fd50a53dad5ea4fd2d32bd3ce727f58.png!w80",[01:45 06/09] Havre Athletic Club vs Stade Brestois 29 [BLV MONSTERĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/75915087.m3u8
-#EXTINF:-1 tvg-id="colatv-c676e07513dd-1" tvg-name="[01:45 06/09] Ogc Nice vs Le Mans [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/ff8991853f7aabce7cb66f09cda0c58e.png!w80",[01:45 06/09] Ogc Nice vs Le Mans [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/16226575.m3u8
-#EXTINF:-1 tvg-id="colatv-90a255412ec8-1" tvg-name="[02:00 06/09] Villarreal vs Dep. La Coruna [BLV SODAĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/aee62af96a956756cc29fe4831286357.png!w80",[02:00 06/09] Villarreal vs Dep. La Coruna [BLV SODAĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/02456966.m3u8
-#EXTINF:-1 tvg-id="colatv-15d9662d1e78-1" tvg-name="[02:30 06/09] Sporting vs Clb Nacional [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/6a5153c73922a32013b9bc6cfbc20b26.png!w80",[02:30 06/09] Sporting vs Clb Nacional [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
+https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788642205-0-0-bd280881ceabe6121ac9281400b3be8e
+#EXTINF:-1 tvg-id="colatv-ccabaa327c28-1" tvg-name="[02:30 06/09] Sporting vs CLB Nacional [BLV BÍ ĐAOĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/6a5153c73922a32013b9bc6cfbc20b26.png!w80",[02:30 06/09] Sporting vs CLB Nacional [BLV BÍ ĐAOĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/99121525.m3u8
-#EXTINF:-1 tvg-id="colatv-eb2a0ac48589-1" tvg-name="[04:30 06/09] São Paulo - SP vs Atlético Mineiro - MG [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/31f5171de0e1404fdebcef19cd7cd409.png!w80",[04:30 06/09] São Paulo - SP vs Atlético Mineiro - MG [BLV MOUNTAIN DEWĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-cf0ebeba8edb-1" tvg-name="[04:30 06/09] São Paulo - SP vs Atlético Mineiro - MG [BLV MOUNTAIN DEWĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/31f5171de0e1404fdebcef19cd7cd409.png!w80",[04:30 06/09] São Paulo - SP vs Atlético Mineiro - MG [BLV MOUNTAIN DEWĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/87547578.m3u8
+#EXTINF:-1 tvg-id="colatv-6e647f6e6dc6-1" tvg-name="[05:00 06/09] CA San Lorenzo vs Talleres Cordoba [BLV PEPSIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/65d05eaf7edc601ae236107417b01cbf.png!w80",[05:00 06/09] CA San Lorenzo vs Talleres Cordoba [BLV PEPSIĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://colatv88xi.cc/video2/output.m3u8
-#EXTINF:-1 tvg-id="phaohoa-807876-1" tvg-name="[01:45 06/09] As Roma vs Atalanta" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/as-roma-vs-atalanta-06-09-2026-807876" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_139.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_139.jpg" phaohoa-away-logo="https://phaohoa1.live/media/tournaments/icons/tournament_207.png",[01:45 06/09] As Roma vs Atalanta [FHD M3U8]
-#EXTVLCOPT:http-referrer=https://phaohoa1.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://phaohoa1.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://phaohoa1.live/","Origin":"https://phaohoa1.live"}
-https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-#EXTINF:-1 tvg-id="phaohoa-809930-1" tvg-name="[01:45 06/09] Nice vs Le Mans" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/nice-vs-le-mans-06-09-2026-809930" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_145.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_145.jpg" phaohoa-away-logo="https://phaohoa1.live/media/tournaments/icons/tournament_168.png",[01:45 06/09] Nice vs Le Mans [FHD M3U8]
-#EXTVLCOPT:http-referrer=https://phaohoa1.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://phaohoa1.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://phaohoa1.live/","Origin":"https://phaohoa1.live"}
-https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
 #EXTINF:-1 tvg-id="phaohoa-803683-1" tvg-name="[02:30 06/09] Sporting Cp vs Nacional" group-title="Pháo Hoa TV" phaohoa-entry="stream" phaohoa-page-url="https://phaohoa1.live/truc-tiep/sporting-cp-vs-nacional-05-09-2026-803683" tvg-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_177.jpg" phaohoa-home-logo="https://phaohoa1.live/media-thumb/team/teams/logos/team_177.jpg" phaohoa-away-logo="https://phaohoa1.live/media/tournaments/icons/tournament_266.png",[02:30 06/09] Sporting Cp vs Nacional [FHD M3U8]
 #EXTVLCOPT:http-referrer=https://phaohoa1.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
