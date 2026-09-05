@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-06T00:33:55.542202+07:00",
+  "updated_at": "2026-09-06T01:04:05.233877+07:00",
   "matches": {
     "715526": {
       "url": "https://phaohoa1.live/truc-tiep/mjallby-vs-djurgarden-04-09-2026-715526",
@@ -14,34 +14,6 @@
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "http-only-far-upcoming"
-    },
-    "779574": {
-      "url": "https://phaohoa1.live/truc-tiep/fc-copenhagen-vs-nordsjaelland-04-09-2026-779574",
-      "match_name": "FC Copenhagen vs Nordsjaelland",
-      "kickoff_iso": "2026-09-04T01:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-09-04T02:33:31.643207+07:00",
-      "next_scan_at": "2026-09-04T02:38:31.643207+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "825136": {
-      "url": "https://phaohoa1.live/truc-tiep/al-diriyah-vs-al-qadsiah-04-09-2026-825136",
-      "match_name": "Al Diriyah vs Al Qadsiah",
-      "kickoff_iso": "2026-09-04T01:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-09-04T02:33:31.643207+07:00",
-      "next_scan_at": "2026-09-04T02:38:31.643207+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262"
-      ],
-      "scan_decision": "browser-fallback"
     },
     "809932": {
       "url": "https://phaohoa1.live/truc-tiep/toulouse-vs-lille-04-09-2026-809932",
@@ -445,23 +417,21 @@
       "url": "https://phaohoa1.live/truc-tiep/ba-lan-vs-italy",
       "match_name": "Ba Lan vs Italy",
       "kickoff_iso": "2026-09-05T23:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-09-06T00:33:55.541965+07:00",
-      "next_scan_at": "2026-09-06T00:38:55.541965+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9"
-      ],
+      "minutes_to_kickoff": -122,
+      "last_scan_at": "2026-09-06T01:04:05.233483+07:00",
+      "next_scan_at": "2026-09-06T01:09:05.233483+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
       "scan_decision": "browser-fallback"
     },
     "807875": {
       "url": "https://phaohoa1.live/truc-tiep/inter-vs-napoli-05-09-2026-807875",
       "match_name": "Inter vs Napoli",
       "kickoff_iso": "2026-09-05T23:00:00+07:00",
-      "minutes_to_kickoff": -92,
-      "last_scan_at": "2026-09-06T00:33:55.541965+07:00",
-      "next_scan_at": "2026-09-06T00:38:55.541965+07:00",
+      "minutes_to_kickoff": -122,
+      "last_scan_at": "2026-09-06T01:04:05.233483+07:00",
+      "next_scan_at": "2026-09-06T01:09:05.233483+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -473,9 +443,9 @@
       "url": "https://phaohoa1.live/truc-tiep/hull-city-vs-aston-villa-05-09-2026-812677",
       "match_name": "06-09 Serie A AS Roma VS Atalanta Lưu Bị",
       "kickoff_iso": "2026-09-05T23:30:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-09-06T00:33:55.541965+07:00",
-      "next_scan_at": "2026-09-06T00:38:55.541965+07:00",
+      "minutes_to_kickoff": -94,
+      "last_scan_at": "2026-09-06T01:04:05.233483+07:00",
+      "next_scan_at": "2026-09-06T01:09:05.233483+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -487,9 +457,9 @@
       "url": "https://phaohoa1.live/truc-tiep/fenerbahce-vs-besiktas-06-09-2026-795662",
       "match_name": "Fenerbahce vs Besiktas",
       "kickoff_iso": "2026-09-06T00:00:00+07:00",
-      "minutes_to_kickoff": -33,
-      "last_scan_at": "2026-09-06T00:33:55.541965+07:00",
-      "next_scan_at": "2026-09-06T00:38:55.541965+07:00",
+      "minutes_to_kickoff": -63,
+      "last_scan_at": "2026-09-06T01:04:05.233483+07:00",
+      "next_scan_at": "2026-09-06T01:09:05.233483+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -501,9 +471,9 @@
       "url": "https://phaohoa1.live/truc-tiep/rayo-vallecano-vs-racing-santander-05-09-2026-798843",
       "match_name": "Rayo Vallecano vs Racing Santander",
       "kickoff_iso": "2026-09-05T23:30:00+07:00",
-      "minutes_to_kickoff": -63,
-      "last_scan_at": "2026-09-06T00:33:55.541965+07:00",
-      "next_scan_at": "2026-09-06T00:38:55.541965+07:00",
+      "minutes_to_kickoff": -93,
+      "last_scan_at": "2026-09-06T01:04:05.233483+07:00",
+      "next_scan_at": "2026-09-06T01:09:05.233483+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -515,9 +485,9 @@
       "url": "https://phaohoa1.live/truc-tiep/schalke-vs-bayern-munich-05-09-2026-809278",
       "match_name": "Schalke vs Bayern Munich",
       "kickoff_iso": "2026-09-05T23:30:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-09-06T00:33:55.541965+07:00",
-      "next_scan_at": "2026-09-06T00:38:55.541965+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-09-06T01:04:05.233483+07:00",
+      "next_scan_at": "2026-09-06T01:09:05.233483+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -529,9 +499,9 @@
       "url": "https://phaohoa1.live/truc-tiep/al-ittihad-vs-al-nassr-06-09-2026-825142",
       "match_name": "06-09 Saudi Pro League Al Ittihad VS Al Nassr Tày",
       "kickoff_iso": "2026-09-06T01:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-09-06T00:33:55.541965+07:00",
-      "next_scan_at": "2026-09-06T00:43:55.541965+07:00",
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-09-06T01:04:05.233483+07:00",
+      "next_scan_at": "2026-09-06T01:09:05.233483+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
