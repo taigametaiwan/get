@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-06T07:31:31.592765+07:00",
+  "updated_at": "2026-09-06T08:01:55.373152+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1539,21 +1539,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1549751": {
-      "url": "https://live05.chuoichientv.me/live/1549751/deportivo-pereira-vs-independiente-medellin",
-      "match_name": "Deportivo Pereira vs Independiente Medellin - VĐQG Colombia",
-      "kickoff_iso": "2026-09-04T08:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-09-04T09:31:53.131467+07:00",
-      "next_scan_at": "2026-09-04T09:36:53.131467+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "995477": {
       "url": "https://live05.chuoichientv.me/live/995477/iran-vs-new-zealand",
       "match_name": "Iran vs New Zealand - Bóng chuyền Nam Châu Á 2026",
@@ -2010,9 +1995,9 @@
       "url": "https://live05.chuoichientv.me/live/1490437/inter-miami-vs-atlanta-united-fc",
       "match_name": "Inter Miami vs Atlanta United FC - Major League Soccer",
       "kickoff_iso": "2026-09-06T06:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-09-06T07:31:31.592667+07:00",
-      "next_scan_at": "2026-09-06T07:36:31.592667+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-09-06T08:01:55.373084+07:00",
+      "next_scan_at": "2026-09-06T08:06:55.373084+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -2025,12 +2010,14 @@
       "url": "https://live05.chuoichientv.me/live/995019/iran-vs-india",
       "match_name": "Iran vs India - Bóng chuyền Nam Châu Á 2026",
       "kickoff_iso": "2026-09-06T08:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-09-06T07:31:31.592667+07:00",
-      "next_scan_at": "2026-09-06T07:41:31.592667+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-06T08:01:55.373084+07:00",
+      "next_scan_at": "2026-09-06T08:06:55.373084+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "992738": {
@@ -2038,8 +2025,8 @@
       "match_name": "qatar vs chinese taipei",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-06T07:31:31.592667+07:00",
-      "next_scan_at": "2026-09-06T07:41:31.592667+07:00",
+      "last_scan_at": "2026-09-06T08:01:55.373084+07:00",
+      "next_scan_at": "2026-09-06T08:11:55.373084+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
