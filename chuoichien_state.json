@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-06T18:31:59.800850+07:00",
+  "updated_at": "2026-09-06T19:02:09.315228+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1551,18 +1551,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1621305": {
-      "url": "https://live05.chuoichientv.me/live/1621305/bali-united-vs-pss-sleman",
-      "match_name": "Bali United vs PSS Sleman - VĐQG Indonesia",
-      "kickoff_iso": "2026-09-04T19:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-09-04T21:01:43.743560+07:00",
-      "next_scan_at": "2026-09-04T21:06:43.743560+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "995035": {
       "url": "https://live05.chuoichientv.me/live/995035/japan-vs-oman",
       "match_name": "japan vs oman",
@@ -1973,15 +1961,16 @@
     },
     "1619916": {
       "url": "https://live05.chuoichientv.me/live/1619916/thanh-ha-vs-da-nang",
-      "match_name": "Thanh Hóa vs Da Nang - V.League 1",
+      "match_name": "thanh ha vs da nang",
       "kickoff_iso": "2026-09-06T17:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-09-06T18:31:59.800614+07:00",
-      "next_scan_at": "2026-09-06T18:36:59.800614+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-09-06T19:02:09.314995+07:00",
+      "next_scan_at": "2026-09-06T19:07:09.314995+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1989,9 +1978,9 @@
       "url": "https://live05.chuoichientv.me/live/993140/japan-vs-bahrain",
       "match_name": "Japan vs Bahrain - Bóng chuyền Nam Châu Á 2026",
       "kickoff_iso": "2026-09-06T17:30:00+07:00",
-      "minutes_to_kickoff": -61,
-      "last_scan_at": "2026-09-06T18:31:59.800614+07:00",
-      "next_scan_at": "2026-09-06T18:36:59.800614+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-09-06T19:02:09.314995+07:00",
+      "next_scan_at": "2026-09-06T19:07:09.314995+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -2003,36 +1992,38 @@
       "url": "https://live05.chuoichientv.me/live/1619915/song-lam-nghe-an-vs-bc-ninh",
       "match_name": "Song Lam Nghe An vs Bắc Ninh - V.League 1",
       "kickoff_iso": "2026-09-06T18:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-09-06T18:31:59.800614+07:00",
-      "next_scan_at": "2026-09-06T18:36:59.800614+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-09-06T19:02:09.314995+07:00",
+      "next_scan_at": "2026-09-06T19:07:09.314995+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1636895": {
       "url": "https://live05.chuoichientv.me/live/1636895/iran-u20-vs-vietnam-u20",
-      "match_name": "iran u20 vs vietnam u20",
+      "match_name": "Iran U20 vs Vietnam U20 - AFC U20 Asian Cup",
       "kickoff_iso": "2026-09-06T19:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-09-06T18:31:59.800614+07:00",
-      "next_scan_at": "2026-09-06T18:41:59.800614+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-09-06T19:02:09.314995+07:00",
+      "next_scan_at": "2026-09-06T19:07:09.314995+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1557390": {
       "url": "https://live05.chuoichientv.me/live/1557390/everton-vs-manchester-united",
       "match_name": "everton vs manchester united",
       "kickoff_iso": "2026-09-06T20:00:00+07:00",
-      "minutes_to_kickoff": 88,
-      "last_scan_at": "2026-09-06T18:31:59.800614+07:00",
-      "next_scan_at": "2026-09-06T18:51:59.800614+07:00",
+      "minutes_to_kickoff": 58,
+      "last_scan_at": "2026-09-06T19:02:09.314995+07:00",
+      "next_scan_at": "2026-09-06T19:22:09.314995+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2041,22 +2032,22 @@
     "1570371": {
       "url": "https://live05.chuoichientv.me/live/1570371/valencia-vs-barcelona",
       "match_name": "valencia vs barcelona",
-      "kickoff_iso": "2026-09-06T21:15:00+07:00",
-      "minutes_to_kickoff": 164,
-      "last_scan_at": "2026-09-06T18:31:59.800614+07:00",
-      "next_scan_at": "2026-09-06T19:16:59.800614+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-06T19:02:09.314995+07:00",
+      "next_scan_at": "2026-09-06T19:12:09.314995+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1557387": {
       "url": "https://live05.chuoichientv.me/live/1557387/arsenal-vs-chelsea",
       "match_name": "arsenal vs chelsea",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-06T18:31:59.800614+07:00",
-      "next_scan_at": "2026-09-06T18:41:59.800614+07:00",
+      "last_scan_at": "2026-09-06T19:02:09.314995+07:00",
+      "next_scan_at": "2026-09-06T19:12:09.314995+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2067,8 +2058,8 @@
       "match_name": "italy w vs turkey w",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-06T18:31:59.800614+07:00",
-      "next_scan_at": "2026-09-06T18:41:59.800614+07:00",
+      "last_scan_at": "2026-09-06T19:02:09.314995+07:00",
+      "next_scan_at": "2026-09-06T19:12:09.314995+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2079,8 +2070,8 @@
       "match_name": "alaves vs osasuna",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-06T18:31:59.800614+07:00",
-      "next_scan_at": "2026-09-06T18:41:59.800614+07:00",
+      "last_scan_at": "2026-09-06T19:02:09.314995+07:00",
+      "next_scan_at": "2026-09-06T19:12:09.314995+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
