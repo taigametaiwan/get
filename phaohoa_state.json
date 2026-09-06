@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-06T12:32:29.073053+07:00",
+  "updated_at": "2026-09-06T13:02:11.000303+07:00",
   "matches": {
     "65d4bdc91f28": {
       "url": "https://phaohoa1.live/truc-tiep/han-quoc-vs-dai-loan",
@@ -533,15 +533,27 @@
       "url": "https://phaohoa1.live/truc-tiep/qatar-vs-dai-loan",
       "match_name": "Qatar vs Đài Loan",
       "kickoff_iso": "2026-09-06T11:30:00+07:00",
-      "minutes_to_kickoff": -62,
-      "last_scan_at": "2026-09-06T12:32:29.072978+07:00",
-      "next_scan_at": "2026-09-06T12:37:29.072978+07:00",
+      "minutes_to_kickoff": -92,
+      "last_scan_at": "2026-09-06T13:02:11.000161+07:00",
+      "next_scan_at": "2026-09-06T13:07:11.000161+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "854282": {
+      "url": "https://phaohoa1.live/truc-tiep/japan-u20-vs-yemen-u20-06-09-2026-854282",
+      "match_name": "06-09 AFC U20 Asian Cup Japan U20 VS Yemen U20 Tiểu Mây",
+      "kickoff_iso": "2026-09-06T16:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-09-06T13:02:11.000161+07:00",
+      "next_scan_at": "2026-09-06T13:47:11.000161+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
