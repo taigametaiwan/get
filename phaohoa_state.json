@@ -1,20 +1,8 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-06T13:31:23.920957+07:00",
+  "updated_at": "2026-09-06T14:01:28.055834+07:00",
   "matches": {
-    "65d4bdc91f28": {
-      "url": "https://phaohoa1.live/truc-tiep/han-quoc-vs-dai-loan",
-      "match_name": "Hàn Quốc vs Đài Loan",
-      "kickoff_iso": "2026-09-04T14:00:00+07:00",
-      "minutes_to_kickoff": -123,
-      "last_scan_at": "2026-09-04T16:03:01.495813+07:00",
-      "next_scan_at": "2026-09-04T16:08:01.495813+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
     "795424": {
       "url": "https://phaohoa1.live/truc-tiep/ch-odesa-vs-livyi-bereg-04-09-2026-795424",
       "match_name": "Ch. Odesa vs Livyi Bereg",
@@ -547,9 +535,21 @@
       "url": "https://phaohoa1.live/truc-tiep/japan-u20-vs-yemen-u20-06-09-2026-854282",
       "match_name": "06-09 AFC U20 Asian Cup Japan U20 VS Yemen U20 Tiểu Mây",
       "kickoff_iso": "2026-09-06T16:00:00+07:00",
-      "minutes_to_kickoff": 178,
-      "last_scan_at": "2026-09-06T13:02:11.000161+07:00",
-      "next_scan_at": "2026-09-06T13:47:11.000161+07:00",
+      "minutes_to_kickoff": 119,
+      "last_scan_at": "2026-09-06T14:01:28.055735+07:00",
+      "next_scan_at": "2026-09-06T14:21:28.055735+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "807531": {
+      "url": "https://phaohoa1.live/truc-tiep/vissel-kobe-vs-v-varen-nagasaki-06-09-2026-807531",
+      "match_name": "06-09 J1 League Vissel Kobe VS V-Varen Nagasaki Văn Minh",
+      "kickoff_iso": "2026-09-06T17:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-09-06T14:01:28.055735+07:00",
+      "next_scan_at": "2026-09-06T14:46:28.055735+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
