@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "phaohoa",
-  "updated_at": "2026-09-06T16:33:18.106597+07:00",
+  "updated_at": "2026-09-06T17:03:22.231009+07:00",
   "matches": {
     "795424": {
       "url": "https://phaohoa1.live/truc-tiep/ch-odesa-vs-livyi-bereg-04-09-2026-795424",
@@ -535,9 +535,9 @@
       "url": "https://phaohoa1.live/truc-tiep/japan-u20-vs-yemen-u20-06-09-2026-854282",
       "match_name": "Japan U20 vs Yemen U20",
       "kickoff_iso": "2026-09-06T16:00:00+07:00",
-      "minutes_to_kickoff": -32,
-      "last_scan_at": "2026-09-06T16:33:18.106346+07:00",
-      "next_scan_at": "2026-09-06T16:38:18.106346+07:00",
+      "minutes_to_kickoff": -62,
+      "last_scan_at": "2026-09-06T17:03:22.230741+07:00",
+      "next_scan_at": "2026-09-06T17:08:22.230741+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -547,11 +547,11 @@
     },
     "807531": {
       "url": "https://phaohoa1.live/truc-tiep/vissel-kobe-vs-v-varen-nagasaki-06-09-2026-807531",
-      "match_name": "06-09 J1 League Vissel Kobe VS V-Varen Nagasaki Văn Minh",
+      "match_name": "06-09 V.League 1 Nam Định VS Hoàng Anh Gia Lai Lưu Bị",
       "kickoff_iso": "2026-09-06T17:00:00+07:00",
-      "minutes_to_kickoff": 28,
-      "last_scan_at": "2026-09-06T16:33:18.106346+07:00",
-      "next_scan_at": "2026-09-06T16:43:18.106346+07:00",
+      "minutes_to_kickoff": -3,
+      "last_scan_at": "2026-09-06T17:03:22.230741+07:00",
+      "next_scan_at": "2026-09-06T17:08:22.230741+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -561,9 +561,9 @@
       "url": "https://phaohoa1.live/truc-tiep/nhat-ban-vs-bahrain",
       "match_name": "06-09 Vô Địch Châu Á Nhật Bản VS Bahrain KaKa",
       "kickoff_iso": "2026-09-06T17:30:00+07:00",
-      "minutes_to_kickoff": 58,
-      "last_scan_at": "2026-09-06T16:33:18.106346+07:00",
-      "next_scan_at": "2026-09-06T16:53:18.106346+07:00",
+      "minutes_to_kickoff": 28,
+      "last_scan_at": "2026-09-06T17:03:22.230741+07:00",
+      "next_scan_at": "2026-09-06T17:13:22.230741+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -571,11 +571,11 @@
     },
     "838462": {
       "url": "https://phaohoa1.live/truc-tiep/thanh-hoa-vs-da-nang-06-09-2026-838462",
-      "match_name": "06-09 V.League 1 Nam Định VS Hoàng Anh Gia Lai Lưu Bị",
+      "match_name": "Thanh Hoá vs Đà Nẵng",
       "kickoff_iso": "2026-09-06T17:00:00+07:00",
-      "minutes_to_kickoff": 27,
-      "last_scan_at": "2026-09-06T16:33:18.106346+07:00",
-      "next_scan_at": "2026-09-06T16:38:18.106346+07:00",
+      "minutes_to_kickoff": -2,
+      "last_scan_at": "2026-09-06T17:03:22.230741+07:00",
+      "next_scan_at": "2026-09-06T17:08:22.230741+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -587,13 +587,37 @@
       "url": "https://phaohoa1.live/truc-tiep/song-lam-nghe-an-vs-bac-ninh-06-09-2026-838461",
       "match_name": "06-09 V.League 1 Sông Lam Nghệ An VS Bắc Ninh Tày",
       "kickoff_iso": "2026-09-06T18:00:00+07:00",
-      "minutes_to_kickoff": 87,
-      "last_scan_at": "2026-09-06T16:33:18.106346+07:00",
-      "next_scan_at": "2026-09-06T16:53:18.106346+07:00",
+      "minutes_to_kickoff": 57,
+      "last_scan_at": "2026-09-06T17:03:22.230741+07:00",
+      "next_scan_at": "2026-09-06T17:23:22.230741+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
       "scan_decision": "browser-fallback"
+    },
+    "807878": {
+      "url": "https://phaohoa1.live/truc-tiep/parma-vs-monza-06-09-2026-807878",
+      "match_name": "06-09 Serie A Parma VS Monza Tiểu Mây",
+      "kickoff_iso": "2026-09-06T20:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-09-06T17:03:22.230741+07:00",
+      "next_scan_at": "2026-09-06T17:48:22.230741+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
+    },
+    "838460": {
+      "url": "https://phaohoa1.live/truc-tiep/nam-dinh-vs-hoang-anh-gia-lai-06-09-2026-838460",
+      "match_name": "06-09 Ligue 1 Troyes VS Strasbourg Pháo Thủ",
+      "kickoff_iso": "2026-09-06T20:00:00+07:00",
+      "minutes_to_kickoff": 178,
+      "last_scan_at": "2026-09-06T17:03:22.230741+07:00",
+      "next_scan_at": "2026-09-06T17:48:22.230741+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "http-only-far-upcoming"
     }
   }
 }
