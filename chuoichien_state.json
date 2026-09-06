@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-07T01:31:31.325023+07:00",
+  "updated_at": "2026-09-07T03:31:36.994089+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1563,51 +1563,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1557393": {
-      "url": "https://live05.chuoichientv.me/live/1557393/ipswich-vs-liverpool",
-      "match_name": "Ipswich vs Liverpool - Ngoại Hạng Anh",
-      "kickoff_iso": "2026-09-05T02:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-09-05T04:02:08.184206+07:00",
-      "next_scan_at": "2026-09-05T04:07:08.184206+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1570365": {
-      "url": "https://live05.chuoichientv.me/live/1570365/real-betis-vs-real-madrid",
-      "match_name": "Real Betis vs Real Madrid - La Liga",
-      "kickoff_iso": "2026-09-05T02:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-09-05T04:02:08.184206+07:00",
-      "next_scan_at": "2026-09-05T04:07:08.184206+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
-    "1552753": {
-      "url": "https://live05.chuoichientv.me/live/1552753/paris-saint-germain-vs-monaco",
-      "match_name": "Paris Saint Germain vs Monaco - Ligue 1",
-      "kickoff_iso": "2026-09-05T02:05:00+07:00",
-      "minutes_to_kickoff": -116,
-      "last_scan_at": "2026-09-05T04:02:08.184206+07:00",
-      "next_scan_at": "2026-09-05T04:07:08.184206+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1618997": {
       "url": "https://live05.chuoichientv.me/live/1618997/abb-vs-universitario-de-vinto",
       "match_name": "abb vs universitario de vinto",
@@ -2038,59 +1993,66 @@
     },
     "1550114": {
       "url": "https://live05.chuoichientv.me/live/1550114/juventus-vs-ac-milan",
-      "match_name": "juventus vs ac milan",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-07T01:31:31.324824+07:00",
-      "next_scan_at": "2026-09-07T01:41:31.324824+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Juventus vs AC Milan - Serie A",
+      "kickoff_iso": "2026-09-07T01:45:00+07:00",
+      "minutes_to_kickoff": -106,
+      "last_scan_at": "2026-09-07T03:31:36.993897+07:00",
+      "next_scan_at": "2026-09-07T03:36:36.993897+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1552751": {
       "url": "https://live05.chuoichientv.me/live/1552751/marseille-vs-paris-fc",
-      "match_name": "marseille vs paris fc",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-07T01:31:31.324824+07:00",
-      "next_scan_at": "2026-09-07T01:41:31.324824+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Marseille vs Paris FC - Ligue 1",
+      "kickoff_iso": "2026-09-07T01:45:00+07:00",
+      "minutes_to_kickoff": -106,
+      "last_scan_at": "2026-09-07T03:31:36.993897+07:00",
+      "next_scan_at": "2026-09-07T03:36:36.993897+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1570367": {
       "url": "https://live05.chuoichientv.me/live/1570367/espanyol-vs-sevilla",
-      "match_name": "espanyol vs sevilla",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-07T01:31:31.324824+07:00",
-      "next_scan_at": "2026-09-07T01:41:31.324824+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
-      "scan_decision": "scanned"
+      "match_name": "Espanyol vs Sevilla - La Liga",
+      "kickoff_iso": "2026-09-07T02:00:00+07:00",
+      "minutes_to_kickoff": -91,
+      "last_scan_at": "2026-09-07T03:31:36.993897+07:00",
+      "next_scan_at": "2026-09-07T03:36:36.993897+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
     },
     "1549771": {
       "url": "https://live05.chuoichientv.me/live/1549771/deportivo-pereira-vs-millonarios",
       "match_name": "deportivo pereira vs millonarios",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-07T01:31:31.324824+07:00",
-      "next_scan_at": "2026-09-07T01:41:31.324824+07:00",
+      "kickoff_iso": "2026-09-07T06:10:00+07:00",
+      "minutes_to_kickoff": 159,
+      "last_scan_at": "2026-09-07T03:31:36.993897+07:00",
+      "next_scan_at": "2026-09-07T04:16:36.993897+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "995184": {
       "url": "https://live05.chuoichientv.me/live/995184/oman-vs-australia",
       "match_name": "oman vs australia",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-07T01:31:31.324824+07:00",
-      "next_scan_at": "2026-09-07T01:41:31.324824+07:00",
+      "last_scan_at": "2026-09-07T03:31:36.993897+07:00",
+      "next_scan_at": "2026-09-07T03:41:36.993897+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2101,8 +2063,8 @@
       "match_name": "new zealand vs china",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-07T01:31:31.324824+07:00",
-      "next_scan_at": "2026-09-07T01:41:31.324824+07:00",
+      "last_scan_at": "2026-09-07T03:31:36.993897+07:00",
+      "next_scan_at": "2026-09-07T03:41:36.993897+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2113,8 +2075,32 @@
       "match_name": "thailand vs south korea",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-07T01:31:31.324824+07:00",
-      "next_scan_at": "2026-09-07T01:41:31.324824+07:00",
+      "last_scan_at": "2026-09-07T03:31:36.993897+07:00",
+      "next_scan_at": "2026-09-07T03:41:36.993897+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1530995": {
+      "url": "https://live05.chuoichientv.me/live/1530995/fardu-vs-aral",
+      "match_name": "fardu vs aral",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-07T03:31:36.993897+07:00",
+      "next_scan_at": "2026-09-07T03:41:36.993897+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1637280": {
+      "url": "https://live05.chuoichientv.me/live/1637280/korea-dpr-u20-vs-portugal-u20-w",
+      "match_name": "korea dpr u20 vs portugal u20 w",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-07T03:31:36.993897+07:00",
+      "next_scan_at": "2026-09-07T03:41:36.993897+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
