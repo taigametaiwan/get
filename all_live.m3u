@@ -1,8 +1,14 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="chuoichien-999889-1" tvg-name="[11:30 07/09] New Zealand vs China - Bóng chuyền Nam Châu Á 2026 [BLV Chuối Kem]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134204_ca5486e7.png",[11:30 07/09] New Zealand vs China - Bóng chuyền Nam Châu Á 2026 [BLV Chuối Kem] [FHD M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-new-zealand-vs-trung-quoc-luc-1130-ngay-07-09-2026-s1-1" tvg-name="[11:30 07/09/2026] New Zealand vs Trung Quoc [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/k82redh2pdjqepz/image/small",[11:30 07/09/2026] New Zealand vs Trung Quoc [BLV HD TYSON] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788753699-0-0-d7c31727265f82606bef2cbecf8612eb
+https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788755467-0-0-013400559966e805bd17d242f1c2352f
