@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-08T02:31:42.558008+07:00",
+  "updated_at": "2026-09-08T03:01:52.624754+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1939,13 +1939,14 @@
       "url": "https://live05.chuoichientv.me/live/1550116/udinese-vs-lazio",
       "match_name": "Udinese vs Lazio - Serie A",
       "kickoff_iso": "2026-09-08T01:45:00+07:00",
-      "minutes_to_kickoff": -46,
-      "last_scan_at": "2026-09-08T02:31:42.557722+07:00",
-      "next_scan_at": "2026-09-08T02:36:42.557722+07:00",
+      "minutes_to_kickoff": -76,
+      "last_scan_at": "2026-09-08T03:01:52.624638+07:00",
+      "next_scan_at": "2026-09-08T03:06:52.624638+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
@@ -1953,9 +1954,9 @@
       "url": "https://live05.chuoichientv.me/live/1570366/elche-vs-real-sociedad",
       "match_name": "Elche vs Real Sociedad - La Liga",
       "kickoff_iso": "2026-09-08T02:30:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-09-08T02:31:42.557722+07:00",
-      "next_scan_at": "2026-09-08T02:36:42.557722+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-09-08T03:01:52.624638+07:00",
+      "next_scan_at": "2026-09-08T03:06:52.624638+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -1966,26 +1967,26 @@
     "1603352": {
       "url": "https://live05.chuoichientv.me/live/1603352/atlante-w-vs-jurez-w",
       "match_name": "atlante w vs jurez w",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-08T02:31:42.557722+07:00",
-      "next_scan_at": "2026-09-08T02:41:42.557722+07:00",
+      "kickoff_iso": "2026-09-08T04:45:00+07:00",
+      "minutes_to_kickoff": 104,
+      "last_scan_at": "2026-09-08T03:01:52.624638+07:00",
+      "next_scan_at": "2026-09-08T03:21:52.624638+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1492369": {
       "url": "https://live05.chuoichientv.me/live/1492369/vitoria-vs-gremio",
       "match_name": "vitoria vs gremio",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-08T02:31:42.557722+07:00",
-      "next_scan_at": "2026-09-08T02:41:42.557722+07:00",
+      "kickoff_iso": "2026-09-08T06:00:00+07:00",
+      "minutes_to_kickoff": 179,
+      "last_scan_at": "2026-09-08T03:01:52.624638+07:00",
+      "next_scan_at": "2026-09-08T03:46:52.624638+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1585742": {
       "url": "https://live05.chuoichientv.me/live/1585742/erokspor-vs-kayserispor",
@@ -2006,8 +2007,8 @@
       "match_name": "india vs new zealand",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-08T02:31:42.557722+07:00",
-      "next_scan_at": "2026-09-08T02:41:42.557722+07:00",
+      "last_scan_at": "2026-09-08T03:01:52.624638+07:00",
+      "next_scan_at": "2026-09-08T03:11:52.624638+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2018,8 +2019,8 @@
       "match_name": "qatar vs south korea",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-08T02:31:42.557722+07:00",
-      "next_scan_at": "2026-09-08T02:41:42.557722+07:00",
+      "last_scan_at": "2026-09-08T03:01:52.624638+07:00",
+      "next_scan_at": "2026-09-08T03:11:52.624638+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
