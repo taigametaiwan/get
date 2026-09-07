@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-09-07T12:02:47.781224+07:00",
+  "generated_at": "2026-09-07T12:32:51.318535+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -134,9 +134,9 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 5,
+  "input_candidates": 7,
   "metadata_reference_count": 98,
-  "last_good_recovered_count": 1,
+  "last_good_recovered_count": 3,
   "last_good_suppressed_by_fresh_count": 1,
   "last_good_audit": [
     {
@@ -146,9 +146,21 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788755467-0-0-013400559966e805bd17d242f1c2352f",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788757361-0-0-d22f2fb65812dc12b1e0d1e7069598ec",
       "kept": true,
       "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788757280-0-0-01d2242021340f8e2c1649428c36ec9e",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001788757360-0-0-d999db70c7a25b36cbeac878d0015542",
+      "kept": true,
+      "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     },
     {
@@ -159,7 +171,7 @@
     }
   ],
   "selected_count": 4,
-  "dropped_count": 1,
+  "dropped_count": 3,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -190,7 +202,7 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-09-07T11:30:00+07:00",
-      "minutes_to_kickoff": -32.8,
+      "minutes_to_kickoff": -62.86,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -214,7 +226,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788757280-0-0-01d2242021340f8e2c1649428c36ec9e",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788759070-0-0-d539b745116d1a524d370fb0be700d24",
       "match_key": "new zealand vs trung quoc|hd tyson",
       "display_name": "[11:30 07/09/2026] New Zealand vs Trung Quoc [BLV HD TYSON] [FLV]",
       "group": "Xôi Lạc",
@@ -235,7 +247,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-07T11:30:00+07:00",
-      "minutes_to_kickoff": -32.8,
+      "minutes_to_kickoff": -62.86,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -245,7 +257,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788757280-0-0-01d2242021340f8e2c1649428c36ec9e",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788759070-0-0-d539b745116d1a524d370fb0be700d24",
       "home_logo": "https://imgts.sportpulseapiz.com/volleyball/team/k82redh2pdjqepz/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/volleyball/team/d23xmvzhnxoqg8n/image/small",
       "blv": null,
@@ -259,7 +271,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001788757360-0-0-d999db70c7a25b36cbeac878d0015542",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001788759154-0-0-6193d2cb8a31388fecb38929f4cd9581",
       "match_key": "shaanxi union u20 vs beijing guoan u20|hd oler",
       "display_name": "[15:00 07/09/2026] Shaanxi Union U20 vs Beijing Guoan U20 [BLV HD OLER] [FLV]",
       "group": "Xôi Lạc",
@@ -280,7 +292,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-07T15:00:00+07:00",
-      "minutes_to_kickoff": 177.2,
+      "minutes_to_kickoff": 147.14,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -290,7 +302,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001788757360-0-0-d999db70c7a25b36cbeac878d0015542",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001788759154-0-0-6193d2cb8a31388fecb38929f4cd9581",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/l5ergphp600r8k0/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkh4xllqg8n/image/small",
       "blv": null,
@@ -304,7 +316,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788757361-0-0-d22f2fb65812dc12b1e0d1e7069598ec",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788759155-0-0-7bf2cac8b0bcc75d11dad7f1e6b73567",
       "match_key": "thai lan vs han quoc|hd tyson",
       "display_name": "[15:00 07/09/2026] Thai Lan vs Han Quoc [BLV HD TYSON] [FLV]",
       "group": "Xôi Lạc",
@@ -325,7 +337,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-07T15:00:00+07:00",
-      "minutes_to_kickoff": 177.2,
+      "minutes_to_kickoff": 147.14,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -335,7 +347,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788757361-0-0-d22f2fb65812dc12b1e0d1e7069598ec",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788759155-0-0-7bf2cac8b0bcc75d11dad7f1e6b73567",
       "home_logo": "https://imgts.sportpulseapiz.com/volleyball/team/8y39mpwh29pqojx/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/volleyball/team/gx7lm75h194q2wd/image/small",
       "blv": null,
@@ -362,7 +374,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788757280-0-0-01d2242021340f8e2c1649428c36ec9e",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788759070-0-0-d539b745116d1a524d370fb0be700d24",
       "display_name": "[11:30 07/09/2026] New Zealand vs Trung Quoc [BLV HD TYSON] [FLV]",
       "match_key": "new zealand vs trung quoc|hd tyson",
       "quality": "HD",
@@ -374,7 +386,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001788757360-0-0-d999db70c7a25b36cbeac878d0015542",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001788759154-0-0-6193d2cb8a31388fecb38929f4cd9581",
       "display_name": "[15:00 07/09/2026] Shaanxi Union U20 vs Beijing Guoan U20 [BLV HD OLER] [FLV]",
       "match_key": "shaanxi union u20 vs beijing guoan u20|hd oler",
       "quality": "HD",
@@ -386,7 +398,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788757361-0-0-d22f2fb65812dc12b1e0d1e7069598ec",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788759155-0-0-7bf2cac8b0bcc75d11dad7f1e6b73567",
       "display_name": "[15:00 07/09/2026] Thai Lan vs Han Quoc [BLV HD TYSON] [FLV]",
       "match_key": "thai lan vs han quoc|hd tyson",
       "quality": "HD",
@@ -400,10 +412,22 @@
   "fresh_preservation_ok": true,
   "dropped": [
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788755467-0-0-013400559966e805bd17d242f1c2352f",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788757280-0-0-01d2242021340f8e2c1649428c36ec9e",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "new zealand vs trung quoc|hd tyson"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001788757360-0-0-d999db70c7a25b36cbeac878d0015542",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "shaanxi union u20 vs beijing guoan u20|hd oler"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788757361-0-0-d22f2fb65812dc12b1e0d1e7069598ec",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "thai lan vs han quoc|hd tyson"
     }
   ],
   "outputs_written": true
