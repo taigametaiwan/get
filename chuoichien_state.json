@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-09T06:01:41.758085+07:00",
+  "updated_at": "2026-09-09T06:31:44.432906+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1611,21 +1611,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1549771": {
-      "url": "https://live05.chuoichientv.me/live/1549771/deportivo-pereira-vs-millonarios",
-      "match_name": "Deportivo Pereira vs Millonarios - VĐQG Colombia",
-      "kickoff_iso": "2026-09-07T06:10:00+07:00",
-      "minutes_to_kickoff": -111,
-      "last_scan_at": "2026-09-07T08:01:38.860137+07:00",
-      "next_scan_at": "2026-09-07T08:06:38.860137+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "995184": {
       "url": "https://live05.chuoichientv.me/live/995184/oman-vs-australia",
       "match_name": "oman vs australia",
@@ -2036,9 +2021,9 @@
       "url": "https://live05.chuoichientv.me/live/1627593/hartford-athletic-vs-colorado-springs",
       "match_name": "Hartford Athletic vs Colorado Springs - USL League One Cup",
       "kickoff_iso": "2026-09-09T06:00:00+07:00",
-      "minutes_to_kickoff": -1,
-      "last_scan_at": "2026-09-09T06:01:41.758007+07:00",
-      "next_scan_at": "2026-09-09T06:06:41.758007+07:00",
+      "minutes_to_kickoff": -31,
+      "last_scan_at": "2026-09-09T06:31:44.432804+07:00",
+      "next_scan_at": "2026-09-09T06:36:44.432804+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -2048,23 +2033,23 @@
     },
     "996838": {
       "url": "https://live05.chuoichientv.me/live/996838/bahrain-vs-oman",
-      "match_name": "bahrain vs oman",
+      "match_name": "Bahrain vs Oman - Bóng chuyền Nam Châu Á 2026",
       "kickoff_iso": "2026-09-09T08:00:00+07:00",
-      "minutes_to_kickoff": 119,
-      "last_scan_at": "2026-09-09T06:01:41.758007+07:00",
-      "next_scan_at": "2026-09-09T06:21:41.758007+07:00",
+      "minutes_to_kickoff": 89,
+      "last_scan_at": "2026-09-09T06:31:44.432804+07:00",
+      "next_scan_at": "2026-09-09T06:51:44.432804+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "browser-fallback"
     },
     "995176": {
       "url": "https://live05.chuoichientv.me/live/995176/chinese-taipei-vs-thailand",
       "match_name": "chinese taipei vs thailand",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-09T06:01:41.758007+07:00",
-      "next_scan_at": "2026-09-09T06:11:41.758007+07:00",
+      "last_scan_at": "2026-09-09T06:31:44.432804+07:00",
+      "next_scan_at": "2026-09-09T06:41:44.432804+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],

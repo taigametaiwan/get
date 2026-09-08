@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-09-09T06:04:49.552420+07:00",
+  "generated_at": "2026-09-09T06:34:56.984961+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -78,14 +78,14 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 110,
-      "playlist_blocks": 11,
+      "debug_rows": 107,
+      "playlist_blocks": 10,
       "catalog_placeholders": 0,
-      "metadata_references": 110,
+      "metadata_references": 107,
       "included": true,
-      "fresh_stream_blocks": 11,
-      "fresh_verified_blocks": 11,
-      "fresh_selected": 11,
+      "fresh_stream_blocks": 10,
+      "fresh_verified_blocks": 10,
+      "fresh_selected": 10,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -135,49 +135,64 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 28,
-  "metadata_reference_count": 211,
-  "last_good_recovered_count": 11,
-  "last_good_suppressed_by_fresh_count": 3,
+  "input_candidates": 26,
+  "metadata_reference_count": 208,
+  "last_good_recovered_count": 10,
+  "last_good_suppressed_by_fresh_count": 5,
   "last_good_audit": [
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001788906748-0-0-3f9a1c754c79a80567390dd5eef5b93c",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001788908561-0-0-253b85c118da4b75b9de59379d03b615",
+      "kept": false,
+      "reason": "outside-source-window",
+      "source": "xoilac",
+      "kickoff_iso": "2026-09-09T04:00:00+07:00",
+      "minutes_to_kickoff": -154.95,
+      "filtered_before_probe": true
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788908574-0-0-5b37902456f54e372f9d55895bef5c79",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001788906698-0-0-9377f1299d4227f9cd6d96738dfedcfe",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001788908565-0-0-85a13d44b04fede3dae131838755dc67",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788906697-0-0-877726afad969fb4c00ad096dbecbdfd",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788908502-0-0-0fea57b6f0dab6efe3bf42fec87cf1ff",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788906769-0-0-9324993a482c56d5df42ebdfea5604f4",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788908492-0-0-624d6456a786ac317ec2b256f6bf0230",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788906807-0-0-bdf20d6c604a50be673533b553480833",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788908625-0-0-92d2b97fa6525347e79adc88e1b1a6a7",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788906769-0-0-cba2303c5e395f58f7759da507cac472",
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "chuoichien"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788908476-0-0-ab7538977e390c02f3165f8c71068d6e",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788906756-0-0-af34c864613789a1d3a5c8bad082f98f",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788908633-0-0-7bdf5cd53da837c6f1fb81c9aa66a3c0",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
@@ -190,6 +205,12 @@
     },
     {
       "url": "https://live05.meung.app/live/87547578.m3u8",
+      "kept": true,
+      "reason": "HTTP 200; m3u8=True",
+      "source": "colatv"
+    },
+    {
+      "url": "https://live05.meung.app/live/82054853.m3u8",
       "kept": true,
       "reason": "HTTP 200; m3u8=True",
       "source": "colatv"
@@ -201,28 +222,28 @@
       "source": "colatv"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788905001-0-0-03c716b3d45d65a8a8d453d3d6a74162",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788908637-0-0-8f395a0cdb7298038bcb51b2cc9fe48b",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788906810-0-0-5011d6310f9c0d6692988e6bdc1a6305",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788908629-0-0-545d8d350032391af54cd153110088ff",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788906816-0-0-c37be3fc33fcc191f9b1934a12905eec",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788908642-0-0-c84091e616d7815d0f1ecfe7bbdc44da",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788906809-0-0-061f97a68bec5b13a5d4676660fbb7c7",
-      "kept": true,
-      "reason": "HTTP 200; streaming body (TimeoutError)",
-      "source": "xoilac"
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "chuoichien"
     },
     {
       "url": "https://live05.meung.app/live/75748097.m3u8",
@@ -237,14 +258,20 @@
       "source": "colatv"
     },
     {
+      "url": "https://live05.meung.app/live/82054853.m3u8",
+      "kept": false,
+      "reason": "fresh-source-replaces-last-good",
+      "source": "colatv"
+    },
+    {
       "url": "https://colatv88xi.cc/video2/output.m3u8",
       "kept": false,
       "reason": "fresh-source-replaces-last-good",
       "source": "colatv"
     }
   ],
-  "selected_count": 16,
-  "dropped_count": 12,
+  "selected_count": 15,
+  "dropped_count": 11,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -275,7 +302,7 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-09-09T06:00:00+07:00",
-      "minutes_to_kickoff": -4.83,
+      "minutes_to_kickoff": -34.95,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -299,52 +326,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001788908561-0-0-253b85c118da4b75b9de59379d03b615",
-      "match_key": "new york city b vs ny red bulls b|hd xmen",
-      "display_name": "[04:00 09/09/2026] New York City B vs Ny Red Bulls B [BLV HD XMEN] [FLV]",
-      "group": "Xôi Lạc",
-      "sport_group": "MLS Next Pro",
-      "quality": "HD",
-      "kind": "flv",
-      "playability": "verified",
-      "classification": "verified_unsigned",
-      "classification_reason": "Luồng không token nhưng HTTP 200 và đúng định dạng media.",
-      "has_secret": false,
-      "expiry": {
-        "timestamp": null,
-        "utc": "",
-        "vietnam": "",
-        "seconds_left": null
-      },
-      "derived_pending": false,
-      "pending_reason": null,
-      "score": 456,
-      "kickoff_iso": "2026-09-09T04:00:00+07:00",
-      "minutes_to_kickoff": -124.83,
-      "metadata_audit": null,
-      "metadata_enriched_from": null,
-      "metadata_warning": null,
-      "stream_key_tokens": null,
-      "logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7ph9g41m2wd/image/small",
-      "logo_source": null,
-      "logo_enriched_from": null,
-      "logo_is_fallback": null,
-      "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001788908561-0-0-253b85c118da4b75b9de59379d03b615",
-      "home_logo": "https://imgts.sportpulseapiz.com/football/team/x7lm7ph9g41m2wd/image/small",
-      "away_logo": "https://imgts.sportpulseapiz.com/football/team/23xmvkh35nyqg8n/image/small",
-      "blv": null,
-      "recovered_last_good": false,
-      "verified_by_source_playlist": false,
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "last_good_probe": null,
-      "prior_generated_at": null
-    },
-    {
-      "source": "xoilac",
-      "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001788908565-0-0-85a13d44b04fede3dae131838755dc67",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001788910347-0-0-d6d44c483a27f2900f98379280ec9760",
       "match_key": "fluminense rj vs ca platense|hd tom",
       "display_name": "[05:00 09/09/2026] Fluminense Rj vs Ca Platense [BLV HD TOM] [FLV]",
       "group": "Xôi Lạc",
@@ -365,7 +347,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-09T05:00:00+07:00",
-      "minutes_to_kickoff": -64.83,
+      "minutes_to_kickoff": -94.95,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -375,7 +357,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001788908565-0-0-85a13d44b04fede3dae131838755dc67",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001788910347-0-0-d6d44c483a27f2900f98379280ec9760",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/p3glrw7he4vqdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/318q66howpvqo9j/image/small",
       "blv": null,
@@ -389,7 +371,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788908574-0-0-5b37902456f54e372f9d55895bef5c79",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788910364-0-0-9992b64e506aa052cfc9e3aaba711e99",
       "match_key": "ind santa fe vs vasco da gama|hd hiro",
       "display_name": "[05:00 09/09/2026] Ind Santa Fe vs Vasco Da Gama [BLV HD HIRO] [FLV]",
       "group": "Xôi Lạc",
@@ -410,7 +392,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-09T05:00:00+07:00",
-      "minutes_to_kickoff": -64.83,
+      "minutes_to_kickoff": -94.95,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -420,7 +402,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788908574-0-0-5b37902456f54e372f9d55895bef5c79",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788910364-0-0-9992b64e506aa052cfc9e3aaba711e99",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/jednm9wh30nryox/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/jednm9whll2ryox/image/small",
       "blv": null,
@@ -434,7 +416,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788908476-0-0-ab7538977e390c02f3165f8c71068d6e",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788910310-0-0-42239149cfe8da85a6f6da1c8498dbaa",
       "match_key": "club sando moruga vs delfines del este|hd zane",
       "display_name": "[06:00 09/09/2026] Club Sando Moruga vs Delfines Del Este [BLV HD ZANE] [FLV]",
       "group": "Xôi Lạc",
@@ -455,7 +437,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-09T06:00:00+07:00",
-      "minutes_to_kickoff": -4.83,
+      "minutes_to_kickoff": -34.95,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -465,7 +447,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788908476-0-0-ab7538977e390c02f3165f8c71068d6e",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788910310-0-0-42239149cfe8da85a6f6da1c8498dbaa",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4henvvq86p/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/4wyrn4he6pzq86p/image/small",
       "blv": null,
@@ -479,7 +461,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788908492-0-0-624d6456a786ac317ec2b256f6bf0230",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788910329-0-0-cf8af144407fef5af7ad9b9332a5be2e",
       "match_key": "hartford athletic vs colorado springs|hd toni",
       "display_name": "[06:00 09/09/2026] Hartford Athletic vs Colorado Springs [BLV HD TONI] [FLV]",
       "group": "Xôi Lạc",
@@ -500,7 +482,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-09T06:00:00+07:00",
-      "minutes_to_kickoff": -4.83,
+      "minutes_to_kickoff": -34.95,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -510,7 +492,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788908492-0-0-624d6456a786ac317ec2b256f6bf0230",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788910329-0-0-cf8af144407fef5af7ad9b9332a5be2e",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/l5ergphvd69r8k0/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/zp5rzghjkloq82w/image/small",
       "blv": null,
@@ -524,7 +506,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788908502-0-0-0fea57b6f0dab6efe3bf42fec87cf1ff",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788910336-0-0-225d922935dfbe060673f9fc67393350",
       "match_key": "jessica pegula vs emma navarro|hd vic",
       "display_name": "[06:00 09/09/2026] Jessica Pegula vs Emma Navarro [BLV HD VIC] [FLV]",
       "group": "Xôi Lạc",
@@ -545,7 +527,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-09T06:00:00+07:00",
-      "minutes_to_kickoff": -4.83,
+      "minutes_to_kickoff": -34.95,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -555,7 +537,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788908502-0-0-0fea57b6f0dab6efe3bf42fec87cf1ff",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788910336-0-0-225d922935dfbe060673f9fc67393350",
       "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/4wyrnjfegdgq86p/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/n54ql4fkxlkrvy9/image/small",
       "blv": null,
@@ -569,7 +551,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788908625-0-0-92d2b97fa6525347e79adc88e1b1a6a7",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788910398-0-0-983520af15ba4848cc53863272d757eb",
       "match_key": "ben shelton vs carlos alcaraz garfia|hd vic",
       "display_name": "[07:10 09/09/2026] Ben Shelton vs Carlos Alcaraz Garfia [BLV HD VIC] [FLV]",
       "group": "Xôi Lạc",
@@ -590,7 +572,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-09T07:10:00+07:00",
-      "minutes_to_kickoff": 65.17,
+      "minutes_to_kickoff": 35.05,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -600,7 +582,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788908625-0-0-92d2b97fa6525347e79adc88e1b1a6a7",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788910398-0-0-983520af15ba4848cc53863272d757eb",
       "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/k82re9f2wyzmepz/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/y0or5ofgwx8mwzv/image/small",
       "blv": null,
@@ -614,7 +596,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788908629-0-0-545d8d350032391af54cd153110088ff",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788910400-0-0-fa841c11cb291ed403e11fa2a39e51e8",
       "match_key": "boca juniors vs sao paulo|hd logan",
       "display_name": "[07:30 09/09/2026] Boca Juniors vs Sao Paulo [BLV HD LOGAN] [FLV]",
       "group": "Xôi Lạc",
@@ -635,7 +617,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-09T07:30:00+07:00",
-      "minutes_to_kickoff": 85.17,
+      "minutes_to_kickoff": 55.05,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -645,7 +627,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788908629-0-0-545d8d350032391af54cd153110088ff",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788910400-0-0-fa841c11cb291ed403e11fa2a39e51e8",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hj31q0j6/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkhjj6qg8n/image/small",
       "blv": null,
@@ -659,7 +641,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788908633-0-0-7bdf5cd53da837c6f1fb81c9aa66a3c0",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788910407-0-0-70af04a2f727f09938f315e518fd1c27",
       "match_key": "criciuma vs esporte clube juventude|hd jean",
       "display_name": "[07:30 09/09/2026] Criciuma vs Esporte Clube Juventude [BLV HD JEAN] [FLV]",
       "group": "Xôi Lạc",
@@ -680,7 +662,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-09T07:30:00+07:00",
-      "minutes_to_kickoff": 85.17,
+      "minutes_to_kickoff": 55.05,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -690,7 +672,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788908633-0-0-7bdf5cd53da837c6f1fb81c9aa66a3c0",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788910407-0-0-70af04a2f727f09938f315e518fd1c27",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/gy0or5jhkw1qwzv/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlhoe0ryk0/image/small",
       "blv": null,
@@ -704,7 +686,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788908637-0-0-8f395a0cdb7298038bcb51b2cc9fe48b",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788910420-0-0-683bd6e91c9cfc1507e958a40e2caab7",
       "match_key": "san antonio vs louisville city|hd alan",
       "display_name": "[07:30 09/09/2026] San Antonio vs Louisville City [BLV HD ALAN] [FLV]",
       "group": "Xôi Lạc",
@@ -725,7 +707,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-09T07:30:00+07:00",
-      "minutes_to_kickoff": 85.17,
+      "minutes_to_kickoff": 55.05,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -735,7 +717,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788908637-0-0-8f395a0cdb7298038bcb51b2cc9fe48b",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788910420-0-0-683bd6e91c9cfc1507e958a40e2caab7",
       "home_logo": "https://imgts.sportpulseapiz.com/football/team/3glrw7h134gqdyj/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/football/team/965mkyh76kor1ge/image/small",
       "blv": null,
@@ -749,7 +731,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788908642-0-0-c84091e616d7815d0f1ecfe7bbdc44da",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788910421-0-0-b6fb5bcc566384becf8ff02028baeebe",
       "match_key": "bahrain vs oman|hd tyson",
       "display_name": "[08:00 09/09/2026] Bahrain vs Oman [BLV HD TYSON] [FLV]",
       "group": "Xôi Lạc",
@@ -770,7 +752,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-09T08:00:00+07:00",
-      "minutes_to_kickoff": 115.17,
+      "minutes_to_kickoff": 85.05,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -780,7 +762,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788908642-0-0-c84091e616d7815d0f1ecfe7bbdc44da",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788910421-0-0-b6fb5bcc566384becf8ff02028baeebe",
       "home_logo": "https://imgts.sportpulseapiz.com/volleyball/team/x7lm75hxyn6q2wd/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/volleyball/team/z318q67h5kgro9j/image/small",
       "blv": null,
@@ -795,8 +777,8 @@
       "source": "colatv",
       "source_label": "ColaTV",
       "url": "https://live05.meung.app/live/75748097.m3u8",
-      "match_key": "clb santa fe vs vasco|lich thi au cuoc vsbet tai app ta",
-      "display_name": "[05:00 09/09] Clb Santa Fe vs Vasco [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
+      "match_key": "clb santa fe vs vasco|sprite ang xem",
+      "display_name": "[05:00 09/09] CLB Santa Fe vs Vasco [BLV SPRITEĐang xem] [M3U8]",
       "group": "ColaTV",
       "sport_group": "Bóng đá",
       "quality": "UNKNOWN",
@@ -810,7 +792,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-09-09T05:00:00+07:00",
-      "minutes_to_kickoff": -64.83,
+      "minutes_to_kickoff": -94.95,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -823,7 +805,7 @@
       "page_url": "https://live05.meung.app/live/75748097.m3u8",
       "home_logo": null,
       "away_logo": null,
-      "blv": "Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả",
+      "blv": "SPRITEĐang xem",
       "recovered_last_good": false,
       "verified_by_source_playlist": false,
       "metadata_link_fallback": false,
@@ -850,7 +832,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-09-09T05:00:00+07:00",
-      "minutes_to_kickoff": -64.83,
+      "minutes_to_kickoff": -94.95,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -890,7 +872,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-09-09T06:30:00+07:00",
-      "minutes_to_kickoff": 25.17,
+      "minutes_to_kickoff": -4.95,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -930,7 +912,7 @@
       "pending_reason": null,
       "score": 439,
       "kickoff_iso": "2026-09-09T07:30:00+07:00",
-      "minutes_to_kickoff": 85.17,
+      "minutes_to_kickoff": 55.05,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -967,7 +949,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788908476-0-0-ab7538977e390c02f3165f8c71068d6e",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788910310-0-0-42239149cfe8da85a6f6da1c8498dbaa",
       "display_name": "[06:00 09/09/2026] Club Sando Moruga vs Delfines Del Este [BLV HD ZANE] [FLV]",
       "match_key": "club sando moruga vs delfines del este|hd zane",
       "quality": "HD",
@@ -979,7 +961,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788908492-0-0-624d6456a786ac317ec2b256f6bf0230",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788910329-0-0-cf8af144407fef5af7ad9b9332a5be2e",
       "display_name": "[06:00 09/09/2026] Hartford Athletic vs Colorado Springs [BLV HD TONI] [FLV]",
       "match_key": "hartford athletic vs colorado springs|hd toni",
       "quality": "HD",
@@ -991,7 +973,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788908502-0-0-0fea57b6f0dab6efe3bf42fec87cf1ff",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788910336-0-0-225d922935dfbe060673f9fc67393350",
       "display_name": "[06:00 09/09/2026] Jessica Pegula vs Emma Navarro [BLV HD VIC] [FLV]",
       "match_key": "jessica pegula vs emma navarro|hd vic",
       "quality": "HD",
@@ -1003,19 +985,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001788908561-0-0-253b85c118da4b75b9de59379d03b615",
-      "display_name": "[04:00 09/09/2026] New York City B vs Ny Red Bulls B [BLV HD XMEN] [FLV]",
-      "match_key": "new york city b vs ny red bulls b|hd xmen",
-      "quality": "HD",
-      "playability": "verified",
-      "metadata_link_fallback": false,
-      "metadata_link_reason": null,
-      "decision": "selected-fresh",
-      "reason": "selected"
-    },
-    {
-      "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001788908565-0-0-85a13d44b04fede3dae131838755dc67",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001788910347-0-0-d6d44c483a27f2900f98379280ec9760",
       "display_name": "[05:00 09/09/2026] Fluminense Rj vs Ca Platense [BLV HD TOM] [FLV]",
       "match_key": "fluminense rj vs ca platense|hd tom",
       "quality": "HD",
@@ -1027,7 +997,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788908574-0-0-5b37902456f54e372f9d55895bef5c79",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788910364-0-0-9992b64e506aa052cfc9e3aaba711e99",
       "display_name": "[05:00 09/09/2026] Ind Santa Fe vs Vasco Da Gama [BLV HD HIRO] [FLV]",
       "match_key": "ind santa fe vs vasco da gama|hd hiro",
       "quality": "HD",
@@ -1039,7 +1009,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788908625-0-0-92d2b97fa6525347e79adc88e1b1a6a7",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788910398-0-0-983520af15ba4848cc53863272d757eb",
       "display_name": "[07:10 09/09/2026] Ben Shelton vs Carlos Alcaraz Garfia [BLV HD VIC] [FLV]",
       "match_key": "ben shelton vs carlos alcaraz garfia|hd vic",
       "quality": "HD",
@@ -1051,7 +1021,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788908629-0-0-545d8d350032391af54cd153110088ff",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788910400-0-0-fa841c11cb291ed403e11fa2a39e51e8",
       "display_name": "[07:30 09/09/2026] Boca Juniors vs Sao Paulo [BLV HD LOGAN] [FLV]",
       "match_key": "boca juniors vs sao paulo|hd logan",
       "quality": "HD",
@@ -1063,7 +1033,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788908633-0-0-7bdf5cd53da837c6f1fb81c9aa66a3c0",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788910407-0-0-70af04a2f727f09938f315e518fd1c27",
       "display_name": "[07:30 09/09/2026] Criciuma vs Esporte Clube Juventude [BLV HD JEAN] [FLV]",
       "match_key": "criciuma vs esporte clube juventude|hd jean",
       "quality": "HD",
@@ -1075,7 +1045,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788908637-0-0-8f395a0cdb7298038bcb51b2cc9fe48b",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788910420-0-0-683bd6e91c9cfc1507e958a40e2caab7",
       "display_name": "[07:30 09/09/2026] San Antonio vs Louisville City [BLV HD ALAN] [FLV]",
       "match_key": "san antonio vs louisville city|hd alan",
       "quality": "HD",
@@ -1087,7 +1057,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788908642-0-0-c84091e616d7815d0f1ecfe7bbdc44da",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788910421-0-0-b6fb5bcc566384becf8ff02028baeebe",
       "display_name": "[08:00 09/09/2026] Bahrain vs Oman [BLV HD TYSON] [FLV]",
       "match_key": "bahrain vs oman|hd tyson",
       "quality": "HD",
@@ -1100,8 +1070,8 @@
     {
       "source": "colatv",
       "url": "https://live05.meung.app/live/75748097.m3u8",
-      "display_name": "[05:00 09/09] Clb Santa Fe vs Vasco [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]",
-      "match_key": "clb santa fe vs vasco|lich thi au cuoc vsbet tai app ta",
+      "display_name": "[05:00 09/09] CLB Santa Fe vs Vasco [BLV SPRITEĐang xem] [M3U8]",
+      "match_key": "clb santa fe vs vasco|sprite ang xem",
       "quality": "UNKNOWN",
       "playability": "verified",
       "metadata_link_fallback": false,
@@ -1147,9 +1117,9 @@
     },
     {
       "source": "colatv",
-      "url": "https://live05.meung.app/live/07428422.m3u8",
-      "display_name": "[07:30 09/09] Boca Juniors vs CLB Sao Paulo [BLV HỔ VẰNĐang xem] [M3U8]",
-      "match_key": "boca juniors vs clb sao paulo|ho van ang xem",
+      "url": "https://live05.meung.app/live/18812304.m3u8",
+      "display_name": "[07:30 09/09] San Antonio vs Louisville City FC [BLV AQUAĐang xem] [M3U8]",
+      "match_key": "san antonio vs louisville city fc|aqua ang xem",
       "quality": "UNKNOWN",
       "playability": "upcoming-pending",
       "metadata_link_fallback": false,
@@ -1161,72 +1131,66 @@
   "fresh_preservation_ok": true,
   "dropped": [
     {
-      "url": "https://live05.meung.app/live/07428422.m3u8",
+      "url": "https://live05.meung.app/live/18812304.m3u8",
       "reason": "not-verified-or-not-upcoming",
       "source": "colatv"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788906756-0-0-af34c864613789a1d3a5c8bad082f98f",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788908476-0-0-ab7538977e390c02f3165f8c71068d6e",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "club sando moruga vs delfines del este|hd zane"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788906769-0-0-cba2303c5e395f58f7759da507cac472",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788908492-0-0-624d6456a786ac317ec2b256f6bf0230",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "hartford athletic vs colorado springs|hd toni"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788906769-0-0-9324993a482c56d5df42ebdfea5604f4",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788908502-0-0-0fea57b6f0dab6efe3bf42fec87cf1ff",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "jessica pegula vs emma navarro|hd vic"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001788906748-0-0-3f9a1c754c79a80567390dd5eef5b93c",
-      "reason": "duplicate-quality-HD",
-      "source": "xoilac",
-      "match_key": "new york city b vs ny red bulls b|hd xmen"
-    },
-    {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001788906698-0-0-9377f1299d4227f9cd6d96738dfedcfe",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001788908565-0-0-85a13d44b04fede3dae131838755dc67",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "fluminense rj vs ca platense|hd tom"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788906697-0-0-877726afad969fb4c00ad096dbecbdfd",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788908574-0-0-5b37902456f54e372f9d55895bef5c79",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "ind santa fe vs vasco da gama|hd hiro"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788906807-0-0-bdf20d6c604a50be673533b553480833",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001788908625-0-0-92d2b97fa6525347e79adc88e1b1a6a7",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "ben shelton vs carlos alcaraz garfia|hd vic"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788906809-0-0-061f97a68bec5b13a5d4676660fbb7c7",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788908629-0-0-545d8d350032391af54cd153110088ff",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "boca juniors vs sao paulo|hd logan"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788906810-0-0-5011d6310f9c0d6692988e6bdc1a6305",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001788908633-0-0-7bdf5cd53da837c6f1fb81c9aa66a3c0",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "criciuma vs esporte clube juventude|hd jean"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788905001-0-0-03c716b3d45d65a8a8d453d3d6a74162",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001788908637-0-0-8f395a0cdb7298038bcb51b2cc9fe48b",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "san antonio vs louisville city|hd alan"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788906816-0-0-c37be3fc33fcc191f9b1934a12905eec",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788908642-0-0-c84091e616d7815d0f1ecfe7bbdc44da",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "bahrain vs oman|hd tyson"
