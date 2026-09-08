@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-08T19:31:38.203106+07:00",
+  "updated_at": "2026-09-08T20:01:48.286278+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1599,21 +1599,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1557390": {
-      "url": "https://live05.chuoichientv.me/live/1557390/everton-vs-manchester-united",
-      "match_name": "Everton vs Manchester United - Ngoại Hạng Anh",
-      "kickoff_iso": "2026-09-06T20:00:00+07:00",
-      "minutes_to_kickoff": -121,
-      "last_scan_at": "2026-09-06T22:01:58.835911+07:00",
-      "next_scan_at": "2026-09-06T22:06:58.835911+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
-        "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1570371": {
       "url": "https://live05.chuoichientv.me/live/1570371/valencia-vs-barcelona",
       "match_name": "Valencia vs Barcelona - La Liga",
@@ -2000,11 +1985,11 @@
     },
     "1637312": {
       "url": "https://live05.chuoichientv.me/live/1637312/real-madrid-u19-vs-internazionale-u19",
-      "match_name": "real madrid u19 vs internazionale u19",
+      "match_name": "Real Madrid U19 vs Internazionale U19 - UEFA Youth League",
       "kickoff_iso": "2026-09-08T21:00:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-09-08T19:31:38.202949+07:00",
-      "next_scan_at": "2026-09-08T19:51:38.202949+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-09-08T20:01:48.286082+07:00",
+      "next_scan_at": "2026-09-08T20:21:48.286082+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2013,22 +1998,22 @@
     "1603019": {
       "url": "https://live05.chuoichientv.me/live/1603019/al-ettifaq-vs-al-faisaly-fc",
       "match_name": "al ettifaq vs al faisaly fc",
-      "kickoff_iso": "2026-09-08T22:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-09-08T19:31:38.202949+07:00",
-      "next_scan_at": "2026-09-08T20:16:38.202949+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-08T20:01:48.286082+07:00",
+      "next_scan_at": "2026-09-08T20:11:48.286082+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     },
     "1635609": {
       "url": "https://live05.chuoichientv.me/live/1635609/aek-athens-fc-vs-lask-linz",
       "match_name": "aek athens fc vs lask linz",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-08T19:31:38.202949+07:00",
-      "next_scan_at": "2026-09-08T19:41:38.202949+07:00",
+      "last_scan_at": "2026-09-08T20:01:48.286082+07:00",
+      "next_scan_at": "2026-09-08T20:11:48.286082+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2039,8 +2024,8 @@
       "match_name": "club brugge kv vs aston villa",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-08T19:31:38.202949+07:00",
-      "next_scan_at": "2026-09-08T19:41:38.202949+07:00",
+      "last_scan_at": "2026-09-08T20:01:48.286082+07:00",
+      "next_scan_at": "2026-09-08T20:11:48.286082+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2051,8 +2036,8 @@
       "match_name": "borussia dortmund vs villarreal",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-08T19:31:38.202949+07:00",
-      "next_scan_at": "2026-09-08T19:41:38.202949+07:00",
+      "last_scan_at": "2026-09-08T20:01:48.286082+07:00",
+      "next_scan_at": "2026-09-08T20:11:48.286082+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2063,8 +2048,8 @@
       "match_name": "fc porto vs manchester city",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-08T19:31:38.202949+07:00",
-      "next_scan_at": "2026-09-08T19:41:38.202949+07:00",
+      "last_scan_at": "2026-09-08T20:01:48.286082+07:00",
+      "next_scan_at": "2026-09-08T20:11:48.286082+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2074,15 +2059,41 @@
       "url": "https://live05.chuoichientv.me/live/1635853/kuching-fa-vs-kelantan-red-warrior-fc",
       "match_name": "Kuching FA vs Kelantan Red Warrior FC - FA Cup Malaysia",
       "kickoff_iso": "2026-09-08T19:15:00+07:00",
-      "minutes_to_kickoff": -16,
-      "last_scan_at": "2026-09-08T19:31:38.202949+07:00",
-      "next_scan_at": "2026-09-08T19:36:38.202949+07:00",
+      "minutes_to_kickoff": -46,
+      "last_scan_at": "2026-09-08T20:01:48.286082+07:00",
+      "next_scan_at": "2026-09-08T20:06:48.286082+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
         "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
+    },
+    "1637284": {
+      "url": "https://live05.chuoichientv.me/live/1637284/brazil-u20-w-vs-canada-u20-w",
+      "match_name": "Brazil U20 W vs Canada U20 W - World Cup - U20 - Women",
+      "kickoff_iso": "2026-09-08T20:00:00+07:00",
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-08T20:01:48.286082+07:00",
+      "next_scan_at": "2026-09-08T20:06:48.286082+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
+      ],
+      "scan_decision": "browser-fallback"
+    },
+    "1635683": {
+      "url": "https://live05.chuoichientv.me/live/1635683/lille-vs-real-betis",
+      "match_name": "lille vs real betis",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-08T20:01:48.286082+07:00",
+      "next_scan_at": "2026-09-08T20:11:48.286082+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
     }
   }
 }
