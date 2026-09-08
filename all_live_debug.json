@@ -1,6 +1,6 @@
 {
   "version": "4.4.29-HOTFIX2-LASTGOOD-AUDIT",
-  "generated_at": "2026-09-08T12:03:30.657058+07:00",
+  "generated_at": "2026-09-08T12:32:59.582870+07:00",
   "policy": {
     "max_streams_per_match_blv": 2,
     "upcoming_keep_hours": 4,
@@ -19,13 +19,13 @@
       "returncode": 0,
       "fresh": true,
       "debug_rows": 5,
-      "playlist_blocks": 1,
+      "playlist_blocks": 2,
       "catalog_placeholders": 0,
       "metadata_references": 5,
       "included": true,
-      "fresh_stream_blocks": 1,
-      "fresh_verified_blocks": 1,
-      "fresh_selected": 1,
+      "fresh_stream_blocks": 2,
+      "fresh_verified_blocks": 2,
+      "fresh_selected": 2,
       "fresh_explicitly_dropped": 0,
       "fresh_selected_from_other_source": 0,
       "metadata_link_fallbacks": 0,
@@ -78,10 +78,10 @@
       "label": "Xôi Lạc",
       "returncode": 0,
       "fresh": true,
-      "debug_rows": 74,
+      "debug_rows": 67,
       "playlist_blocks": 4,
       "catalog_placeholders": 0,
-      "metadata_references": 74,
+      "metadata_references": 67,
       "included": true,
       "fresh_stream_blocks": 4,
       "fresh_verified_blocks": 4,
@@ -134,9 +134,9 @@
       "fresh_unverified_blocks": 0
     }
   ],
-  "input_candidates": 8,
-  "metadata_reference_count": 79,
-  "last_good_recovered_count": 3,
+  "input_candidates": 10,
+  "metadata_reference_count": 72,
+  "last_good_recovered_count": 4,
   "last_good_suppressed_by_fresh_count": 1,
   "last_good_audit": [
     {
@@ -146,19 +146,25 @@
       "source": "chuoichien"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788841899-0-0-6ba5a977888e2f888b77d1fc56b6d820",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788843793-0-0-dfb04b8eed1b34ff4525b2bc9cc8de1f",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788841975-0-0-f1f8361795ad58fb5163c523a96154d7",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788843676-0-0-b95643af6ed904ab45a29b7834174e1b",
       "kept": true,
       "reason": "HTTP 200; flv=True",
       "source": "xoilac"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788842029-0-0-7c615e8c063a6aa99f88525512a613b4",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788843693-0-0-e4a06bffe36e5d82cacbaedba7010f63",
+      "kept": true,
+      "reason": "HTTP 200; flv=True",
+      "source": "xoilac"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788843786-0-0-ead94e634de0a0777ed25f59221bc51a",
       "kept": true,
       "reason": "HTTP 200; streaming body (TimeoutError)",
       "source": "xoilac"
@@ -170,8 +176,8 @@
       "source": "chuoichien"
     }
   ],
-  "selected_count": 5,
-  "dropped_count": 3,
+  "selected_count": 6,
+  "dropped_count": 4,
   "gavang_metadata": {
     "enriched": 0,
     "warn_only": 0,
@@ -202,7 +208,7 @@
       "pending_reason": null,
       "score": 469,
       "kickoff_iso": "2026-09-08T11:30:00+07:00",
-      "minutes_to_kickoff": -33.51,
+      "minutes_to_kickoff": -62.99,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -224,9 +230,49 @@
       "prior_generated_at": null
     },
     {
+      "source": "chuoichien",
+      "source_label": "Chuối Chiên",
+      "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
+      "match_key": "qatar vs south korea|chuoi kem",
+      "display_name": "[11:30 08/09] Qatar vs South Korea - Bóng chuyền Nam Châu Á 2026 [BLV Chuối Kem] [HD M3U8]",
+      "group": "Chuối Chiên",
+      "sport_group": "Bóng đá",
+      "quality": "HD",
+      "kind": "m3u8",
+      "playability": "verified",
+      "classification": null,
+      "classification_reason": null,
+      "has_secret": false,
+      "expiry": null,
+      "derived_pending": false,
+      "pending_reason": null,
+      "score": 459,
+      "kickoff_iso": "2026-09-08T11:30:00+07:00",
+      "minutes_to_kickoff": -62.99,
+      "metadata_audit": null,
+      "metadata_enriched_from": null,
+      "metadata_warning": null,
+      "stream_key_tokens": null,
+      "logo": "https://media.chuoichientv.net/media/uploads/20250623_133416_04ec5812.png",
+      "logo_source": null,
+      "logo_enriched_from": null,
+      "logo_is_fallback": null,
+      "entry_mode": "stream",
+      "page_url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
+      "home_logo": null,
+      "away_logo": null,
+      "blv": "Chuối Kem",
+      "recovered_last_good": false,
+      "verified_by_source_playlist": false,
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "last_good_probe": null,
+      "prior_generated_at": null
+    },
+    {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788843693-0-0-e4a06bffe36e5d82cacbaedba7010f63",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788845499-0-0-1e868a3b21da6ab0a15f80816f524ff1",
       "match_key": "qatar vs han quoc|hd tyson",
       "display_name": "[11:30 08/09/2026] Qatar vs Han Quoc [BLV HD TYSON] [FLV]",
       "group": "Xôi Lạc",
@@ -247,7 +293,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-08T11:30:00+07:00",
-      "minutes_to_kickoff": -33.51,
+      "minutes_to_kickoff": -62.99,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -257,7 +303,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788843693-0-0-e4a06bffe36e5d82cacbaedba7010f63",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788845499-0-0-1e868a3b21da6ab0a15f80816f524ff1",
       "home_logo": "https://imgts.sportpulseapiz.com/volleyball/team/p4jwq23h317r0ve/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/volleyball/team/gx7lm75h194q2wd/image/small",
       "blv": null,
@@ -271,7 +317,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788843676-0-0-b95643af6ed904ab45a29b7834174e1b",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788845490-0-0-b16033e429bb8f6d9479a1009c4e51f2",
       "match_key": "t1 esports academy vs kt rolster challengers|hd marty",
       "display_name": "[12:00 08/09/2026] T1 Esports Academy vs Kt Rolster Challengers [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -292,7 +338,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-08T12:00:00+07:00",
-      "minutes_to_kickoff": -3.51,
+      "minutes_to_kickoff": -32.99,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -302,7 +348,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788843676-0-0-b95643af6ed904ab45a29b7834174e1b",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788845490-0-0-b16033e429bb8f6d9479a1009c4e51f2",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/y0or59wbl2zemwz/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/y0or59wbl2edmwz/image/small",
       "blv": null,
@@ -316,7 +362,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788843786-0-0-ead94e634de0a0777ed25f59221bc51a",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788845557-0-0-ee181501c9a730f8fc48d575c0cd2e6f",
       "match_key": "quezon huskers vs negros muscovados|hd tommy",
       "display_name": "[14:00 08/09/2026] Quezon Huskers vs Negros Muscovados [BLV HD TOMMY] [FLV]",
       "group": "Xôi Lạc",
@@ -337,7 +383,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-08T14:00:00+07:00",
-      "minutes_to_kickoff": 116.49,
+      "minutes_to_kickoff": 87.01,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -347,7 +393,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788843786-0-0-ead94e634de0a0777ed25f59221bc51a",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788845557-0-0-ee181501c9a730f8fc48d575c0cd2e6f",
       "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/1l4rjzt177vm7vx/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/3glrwyt188gqdyj/image/small",
       "blv": null,
@@ -361,7 +407,7 @@
     {
       "source": "xoilac",
       "source_label": "Xôi Lạc",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788843793-0-0-dfb04b8eed1b34ff4525b2bc9cc8de1f",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788845565-0-0-2bfffea25fe8b870b7f014001b8564f1",
       "match_key": "dplus challengers vs nongshim esports academy|hd marty",
       "display_name": "[15:00 08/09/2026] Dplus Challengers vs Nongshim Esports Academy [BLV HD MARTY] [FLV]",
       "group": "Xôi Lạc",
@@ -382,7 +428,7 @@
       "pending_reason": null,
       "score": 456,
       "kickoff_iso": "2026-09-08T15:00:00+07:00",
-      "minutes_to_kickoff": 176.49,
+      "minutes_to_kickoff": 147.01,
       "metadata_audit": null,
       "metadata_enriched_from": null,
       "metadata_warning": null,
@@ -392,7 +438,7 @@
       "logo_enriched_from": null,
       "logo_is_fallback": null,
       "entry_mode": "stream",
-      "page_url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788843793-0-0-dfb04b8eed1b34ff4525b2bc9cc8de1f",
+      "page_url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788845565-0-0-2bfffea25fe8b870b7f014001b8564f1",
       "home_logo": "https://imgts.sportpulseapiz.com/lol/team/jw2r08kuloyxqz8/image/small",
       "away_logo": "https://imgts.sportpulseapiz.com/lol/team/jw2r08kuloxpqz8/image/small",
       "blv": null,
@@ -418,8 +464,20 @@
       "reason": "selected"
     },
     {
+      "source": "chuoichien",
+      "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
+      "display_name": "[11:30 08/09] Qatar vs South Korea - Bóng chuyền Nam Châu Á 2026 [BLV Chuối Kem] [HD M3U8]",
+      "match_key": "qatar vs south korea|chuoi kem",
+      "quality": "HD",
+      "playability": "verified",
+      "metadata_link_fallback": false,
+      "metadata_link_reason": null,
+      "decision": "selected-fresh",
+      "reason": "selected"
+    },
+    {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788843676-0-0-b95643af6ed904ab45a29b7834174e1b",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788845490-0-0-b16033e429bb8f6d9479a1009c4e51f2",
       "display_name": "[12:00 08/09/2026] T1 Esports Academy vs Kt Rolster Challengers [BLV HD MARTY] [FLV]",
       "match_key": "t1 esports academy vs kt rolster challengers|hd marty",
       "quality": "HD",
@@ -431,7 +489,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788843693-0-0-e4a06bffe36e5d82cacbaedba7010f63",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788845499-0-0-1e868a3b21da6ab0a15f80816f524ff1",
       "display_name": "[11:30 08/09/2026] Qatar vs Han Quoc [BLV HD TYSON] [FLV]",
       "match_key": "qatar vs han quoc|hd tyson",
       "quality": "HD",
@@ -443,7 +501,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788843786-0-0-ead94e634de0a0777ed25f59221bc51a",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788845557-0-0-ee181501c9a730f8fc48d575c0cd2e6f",
       "display_name": "[14:00 08/09/2026] Quezon Huskers vs Negros Muscovados [BLV HD TOMMY] [FLV]",
       "match_key": "quezon huskers vs negros muscovados|hd tommy",
       "quality": "HD",
@@ -455,7 +513,7 @@
     },
     {
       "source": "xoilac",
-      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788843793-0-0-dfb04b8eed1b34ff4525b2bc9cc8de1f",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788845565-0-0-2bfffea25fe8b870b7f014001b8564f1",
       "display_name": "[15:00 08/09/2026] Dplus Challengers vs Nongshim Esports Academy [BLV HD MARTY] [FLV]",
       "match_key": "dplus challengers vs nongshim esports academy|hd marty",
       "quality": "HD",
@@ -469,22 +527,28 @@
   "fresh_preservation_ok": true,
   "dropped": [
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788841975-0-0-f1f8361795ad58fb5163c523a96154d7",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788843676-0-0-b95643af6ed904ab45a29b7834174e1b",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "t1 esports academy vs kt rolster challengers|hd marty"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788841899-0-0-6ba5a977888e2f888b77d1fc56b6d820",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788843693-0-0-e4a06bffe36e5d82cacbaedba7010f63",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "qatar vs han quoc|hd tyson"
     },
     {
-      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788842029-0-0-7c615e8c063a6aa99f88525512a613b4",
+      "url": "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788843786-0-0-ead94e634de0a0777ed25f59221bc51a",
       "reason": "duplicate-quality-HD",
       "source": "xoilac",
       "match_key": "quezon huskers vs negros muscovados|hd tommy"
+    },
+    {
+      "url": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001788843793-0-0-dfb04b8eed1b34ff4525b2bc9cc8de1f",
+      "reason": "duplicate-quality-HD",
+      "source": "xoilac",
+      "match_key": "dplus challengers vs nongshim esports academy|hd marty"
     }
   ],
   "outputs_written": true
