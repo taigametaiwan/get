@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-08T08:31:29.541837+07:00",
+  "updated_at": "2026-09-08T09:01:44.602076+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1994,9 +1994,9 @@
       "url": "https://live05.chuoichientv.me/live/999900/india-vs-new-zealand",
       "match_name": "India vs New Zealand - Bóng chuyền Nam Châu Á 2026",
       "kickoff_iso": "2026-09-08T08:00:00+07:00",
-      "minutes_to_kickoff": -31,
-      "last_scan_at": "2026-09-08T08:31:29.541775+07:00",
-      "next_scan_at": "2026-09-08T08:36:29.541775+07:00",
+      "minutes_to_kickoff": -61,
+      "last_scan_at": "2026-09-08T09:01:44.602018+07:00",
+      "next_scan_at": "2026-09-08T09:06:44.602018+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -2008,14 +2008,14 @@
     "991270": {
       "url": "https://live05.chuoichientv.me/live/991270/qatar-vs-south-korea",
       "match_name": "qatar vs south korea",
-      "kickoff_iso": "2026-09-08T11:30:00+07:00",
-      "minutes_to_kickoff": 179,
-      "last_scan_at": "2026-09-08T08:31:29.541775+07:00",
-      "next_scan_at": "2026-09-08T09:16:29.541775+07:00",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-08T09:01:44.602018+07:00",
+      "next_scan_at": "2026-09-08T09:11:44.602018+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "http-only-far-upcoming"
+      "scan_decision": "scanned"
     }
   }
 }
