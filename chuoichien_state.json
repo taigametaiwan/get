@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-09T07:31:34.897602+07:00",
+  "updated_at": "2026-09-09T08:01:47.890873+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -2021,9 +2021,9 @@
       "url": "https://live05.chuoichientv.me/live/1627593/hartford-athletic-vs-colorado-springs",
       "match_name": "Hartford Athletic vs Colorado Springs - USL League One Cup",
       "kickoff_iso": "2026-09-09T06:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-09-09T07:31:34.897516+07:00",
-      "next_scan_at": "2026-09-09T07:36:34.897516+07:00",
+      "minutes_to_kickoff": -121,
+      "last_scan_at": "2026-09-09T08:01:47.890755+07:00",
+      "next_scan_at": "2026-09-09T08:06:47.890755+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
@@ -2035,12 +2035,14 @@
       "url": "https://live05.chuoichientv.me/live/996838/bahrain-vs-oman",
       "match_name": "Bahrain vs Oman - Bóng chuyền Nam Châu Á 2026",
       "kickoff_iso": "2026-09-09T08:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-09-09T07:31:34.897516+07:00",
-      "next_scan_at": "2026-09-09T07:41:34.897516+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-09T08:01:47.890755+07:00",
+      "next_scan_at": "2026-09-09T08:06:47.890755+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "995176": {
@@ -2048,8 +2050,32 @@
       "match_name": "chinese taipei vs thailand",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-09T07:31:34.897516+07:00",
-      "next_scan_at": "2026-09-09T07:41:34.897516+07:00",
+      "last_scan_at": "2026-09-09T08:01:47.890755+07:00",
+      "next_scan_at": "2026-09-09T08:11:47.890755+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "995717": {
+      "url": "https://live05.chuoichientv.me/live/995717/iran-vs-china",
+      "match_name": "iran vs china",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-09T08:01:47.890755+07:00",
+      "next_scan_at": "2026-09-09T08:11:47.890755+07:00",
+      "has_stream": false,
+      "has_verified": false,
+      "verified_urls": [],
+      "scan_decision": "scanned"
+    },
+    "1630344": {
+      "url": "https://live05.chuoichientv.me/live/1630344/sydney-vs-melbourne-victory",
+      "match_name": "sydney vs melbourne victory",
+      "kickoff_iso": "",
+      "minutes_to_kickoff": null,
+      "last_scan_at": "2026-09-09T08:01:47.890755+07:00",
+      "next_scan_at": "2026-09-09T08:11:47.890755+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
