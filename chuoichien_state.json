@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "chuoichien",
-  "updated_at": "2026-09-09T20:31:46.259913+07:00",
+  "updated_at": "2026-09-09T21:01:44.180758+07:00",
   "matches": {
     "991281": {
       "url": "https://live04.chuoichientv.me/live/991281/vit-nam-vs-thailand",
@@ -1647,20 +1647,6 @@
       "verified_urls": [],
       "scan_decision": "scanned"
     },
-    "1585743": {
-      "url": "https://live05.chuoichientv.me/live/1585743/istanbulspor-vs-76-idr-belediyespor",
-      "match_name": "İstanbulspor vs 76 Iğdır Belediyespor - Hạng Nhất Thổ Nhĩ Kỳ",
-      "kickoff_iso": "2026-09-07T21:00:00+07:00",
-      "minutes_to_kickoff": -74,
-      "last_scan_at": "2026-09-07T22:14:57.433771+07:00",
-      "next_scan_at": "2026-09-07T22:19:57.433771+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
-      ],
-      "scan_decision": "browser-fallback"
-    },
     "1603017": {
       "url": "https://live05.chuoichientv.me/live/1603017/al-khaleej-saihat-vs-al-riyadh",
       "match_name": "Al Khaleej Saihat vs Al Riyadh - Saudi Pro League",
@@ -1750,20 +1736,6 @@
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "browser-fallback"
-    },
-    "1585742": {
-      "url": "https://live05.chuoichientv.me/live/1585742/erokspor-vs-kayserispor",
-      "match_name": "Erokspor vs Kayserispor - Hạng Nhất Thổ Nhĩ Kỳ",
-      "kickoff_iso": "2026-09-07T21:00:00+07:00",
-      "minutes_to_kickoff": -91,
-      "last_scan_at": "2026-09-07T22:31:37.336187+07:00",
-      "next_scan_at": "2026-09-07T22:36:37.336187+07:00",
-      "has_stream": true,
-      "has_verified": true,
-      "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8"
-      ],
       "scan_decision": "browser-fallback"
     },
     "999900": {
@@ -2067,37 +2039,41 @@
     },
     "1635857": {
       "url": "https://live05.chuoichientv.me/live/1635857/kuala-lumpur-fa-vs-perak",
-      "match_name": "Kuala Lumpur FA vs Perak - FA Cup Malaysia",
+      "match_name": "kuala lumpur fa vs perak",
       "kickoff_iso": "2026-09-09T19:15:00+07:00",
-      "minutes_to_kickoff": -76,
-      "last_scan_at": "2026-09-09T20:31:46.259698+07:00",
-      "next_scan_at": "2026-09-09T20:36:46.259698+07:00",
+      "minutes_to_kickoff": -106,
+      "last_scan_at": "2026-09-09T21:01:44.180596+07:00",
+      "next_scan_at": "2026-09-09T21:06:44.180596+07:00",
       "has_stream": true,
       "has_verified": true,
       "verified_urls": [
-        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8"
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8"
       ],
       "scan_decision": "browser-fallback"
     },
     "1637314": {
       "url": "https://live05.chuoichientv.me/live/1637314/liverpool-u19-vs-atltico-madrid-u19",
-      "match_name": "liverpool u19 vs atltico madrid u19",
+      "match_name": "Liverpool U19 vs Atlético Madrid U19 - UEFA Youth League",
       "kickoff_iso": "2026-09-09T21:00:00+07:00",
-      "minutes_to_kickoff": 29,
-      "last_scan_at": "2026-09-09T20:31:46.259698+07:00",
-      "next_scan_at": "2026-09-09T20:41:46.259698+07:00",
-      "has_stream": false,
-      "has_verified": false,
-      "verified_urls": [],
+      "minutes_to_kickoff": -1,
+      "last_scan_at": "2026-09-09T21:01:44.180596+07:00",
+      "next_scan_at": "2026-09-09T21:06:44.180596+07:00",
+      "has_stream": true,
+      "has_verified": true,
+      "verified_urls": [
+        "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
+        "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8"
+      ],
       "scan_decision": "browser-fallback"
     },
     "1635574": {
       "url": "https://live05.chuoichientv.me/live/1635574/volgar-astrakhan-vs-volga-ulyanovsk",
-      "match_name": "Volgar Astrakhan vs Volga Ulyanovsk - Cúp Nga",
+      "match_name": "volgar astrakhan vs volga ulyanovsk",
       "kickoff_iso": "2026-09-09T22:00:00+07:00",
-      "minutes_to_kickoff": 89,
-      "last_scan_at": "2026-09-09T20:31:46.259698+07:00",
-      "next_scan_at": "2026-09-09T20:51:46.259698+07:00",
+      "minutes_to_kickoff": 59,
+      "last_scan_at": "2026-09-09T21:01:44.180596+07:00",
+      "next_scan_at": "2026-09-09T21:21:44.180596+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2106,34 +2082,34 @@
     "1635628": {
       "url": "https://live05.chuoichientv.me/live/1635628/barcelona-vs-feyenoord",
       "match_name": "barcelona vs feyenoord",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-09T20:31:46.259698+07:00",
-      "next_scan_at": "2026-09-09T20:41:46.259698+07:00",
+      "kickoff_iso": "2026-09-09T23:45:00+07:00",
+      "minutes_to_kickoff": 164,
+      "last_scan_at": "2026-09-09T21:01:44.180596+07:00",
+      "next_scan_at": "2026-09-09T21:46:44.180596+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1635741": {
       "url": "https://live05.chuoichientv.me/live/1635741/vfb-stuttgart-vs-viking",
       "match_name": "vfb stuttgart vs viking",
-      "kickoff_iso": "",
-      "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-09T20:31:46.259698+07:00",
-      "next_scan_at": "2026-09-09T20:41:46.259698+07:00",
+      "kickoff_iso": "2026-09-09T23:45:00+07:00",
+      "minutes_to_kickoff": 164,
+      "last_scan_at": "2026-09-09T21:01:44.180596+07:00",
+      "next_scan_at": "2026-09-09T21:46:44.180596+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
-      "scan_decision": "scanned"
+      "scan_decision": "http-only-far-upcoming"
     },
     "1603025": {
       "url": "https://live05.chuoichientv.me/live/1603025/al-nassr-vs-abha",
       "match_name": "al nassr vs abha",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-09T20:31:46.259698+07:00",
-      "next_scan_at": "2026-09-09T20:41:46.259698+07:00",
+      "last_scan_at": "2026-09-09T21:01:44.180596+07:00",
+      "next_scan_at": "2026-09-09T21:11:44.180596+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2144,8 +2120,8 @@
       "match_name": "liverpool vs atletico madrid",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-09T20:31:46.259698+07:00",
-      "next_scan_at": "2026-09-09T20:41:46.259698+07:00",
+      "last_scan_at": "2026-09-09T21:01:44.180596+07:00",
+      "next_scan_at": "2026-09-09T21:11:44.180596+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2156,8 +2132,8 @@
       "match_name": "napoli vs arsenal",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-09T20:31:46.259698+07:00",
-      "next_scan_at": "2026-09-09T20:41:46.259698+07:00",
+      "last_scan_at": "2026-09-09T21:01:44.180596+07:00",
+      "next_scan_at": "2026-09-09T21:11:44.180596+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
@@ -2168,8 +2144,8 @@
       "match_name": "paris saint germain vs slovan bratislava",
       "kickoff_iso": "",
       "minutes_to_kickoff": null,
-      "last_scan_at": "2026-09-09T20:31:46.259698+07:00",
-      "next_scan_at": "2026-09-09T20:41:46.259698+07:00",
+      "last_scan_at": "2026-09-09T21:01:44.180596+07:00",
+      "next_scan_at": "2026-09-09T21:11:44.180596+07:00",
       "has_stream": false,
       "has_verified": false,
       "verified_urls": [],
