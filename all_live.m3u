@@ -1,22 +1,34 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="xoilac-atu-united-fc-vs-central-coast-mariners-luc-1100-ngay-09-09-2026-s1-1" tvg-name="[11:00 09/09/2026] Vanuatu United Fc vs Central Coast Mariners [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4hz8wwq0j6/image/small",[11:00 09/09/2026] Vanuatu United Fc vs Central Coast Mariners [BLV HD SILVA] [FLV]
+#EXTINF:-1 tvg-id="chuoichien-995176-1" tvg-name="[11:30 09/09] Chinese Taipei vs Thailand - Bóng chuyền Nam Châu Á 2026 [BLV Chuối Kem]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png",[11:30 09/09] Chinese Taipei vs Thailand - Bóng chuyền Nam Châu Á 2026 [BLV Chuối Kem] [FHD M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
+#EXTINF:-1 tvg-id="chuoichien-995176-2" tvg-name="[11:30 09/09] Chinese Taipei vs Thailand - Bóng chuyền Nam Châu Á 2026 [BLV Chuối Kem]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png",[11:30 09/09] Chinese Taipei vs Thailand - Bóng chuyền Nam Châu Á 2026 [BLV Chuối Kem] [HD M3U8]
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
+https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
+#EXTINF:-1 tvg-id="xoilac-atu-united-fc-vs-central-coast-mariners-luc-1100-ngay-09-09-2026-s1-2" tvg-name="[11:00 09/09/2026] Vanuatu United Fc vs Central Coast Mariners [BLV HD SILVA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4hz8wwq0j6/image/small",[11:00 09/09/2026] Vanuatu United Fc vs Central Coast Mariners [BLV HD SILVA] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-20/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-20/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001788926479-0-0-f2f5cbb22d893a025d742a72824d5053
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-dai-loan-vs-thai-lan-luc-1130-ngay-09-09-2026-s1-2" tvg-name="[11:30 09/09/2026] Dai Loan vs Thai Lan [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/kn54qldhod2rvy9/image/small",[11:30 09/09/2026] Dai Loan vs Thai Lan [BLV HD TYSON] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001788928299-0-0-f5a1111d1fe68c5dd9f879dfd8906faa
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-dai-loan-vs-thai-lan-luc-1130-ngay-09-09-2026-s1-1" tvg-name="[11:30 09/09/2026] Dai Loan vs Thai Lan [BLV HD TYSON] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/kn54qldhod2rvy9/image/small",[11:30 09/09/2026] Dai Loan vs Thai Lan [BLV HD TYSON] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-33/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788926578-0-0-cbee0937c15c30ada86f3dd1180ad56e
+https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001788928279-0-0-9a7ec0a85d0252fbf110d0b01961e6e4
 #EXTINF:-1 tvg-id="xoilac--paranaque-patriots-vs-san-juan-knights-luc-1400-ngay-09-09-2026-s1-3" tvg-name="[14:00 09/09/2026] Paranaque Patriots vs San Juan Knights [BLV HD STEP] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/23xmv1t3z4kmg8n/image/small",[14:00 09/09/2026] Paranaque Patriots vs San Juan Knights [BLV HD STEP] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-26/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-26/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788926631-0-0-18213ac887f21bdc00030772db084dbd
+https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001788928433-0-0-2363b6ab7b2608bb7cf26509208a82c6
