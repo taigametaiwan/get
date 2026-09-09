@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="chuoichien-1630344-1" tvg-name="[16:30 09/09] Sydney vs Melbourne Victory - Australia Cup" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130440_bcff7572.png",[16:30 09/09] Sydney vs Melbourne Victory - Australia Cup [FHD M3U8]
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8
 #EXTINF:-1 tvg-id="chuoichien-1507063-1" tvg-name="[17:30 09/09] Pohang Steelers vs Gimcheon Sangmu FC - K League 1 [BLV A Ngáo]" group-title="Chuối Chiên" tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133412_55a77d69.png",[17:30 09/09] Pohang Steelers vs Gimcheon Sangmu FC - K League 1 [BLV A Ngáo] [FHD M3U8]
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -17,20 +11,6 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://live.chuoichien.tv/"}
 https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8
-#EXTINF:-1 tvg-id="xoilac-ruc-tiep-reilac-shiga-fc-vs-tokyo-verdy-luc-1630-ngay-09-09-2026-s1-13" tvg-name="[16:30 09/09/2026] Reilac Shiga Fc vs Tokyo Verdy [BLV HD KEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l7oqdeh66xwr510/image/small",[16:30 09/09/2026] Reilac Shiga Fc vs Tokyo Verdy [BLV HD KEN] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-18/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-18/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001788953620-0-0-1ef52d73194c6666f3684c25a4a1323c
-#EXTINF:-1 tvg-id="xoilac-ruc-tiep-sydney-fc-vs-melbourne-victory-luc-1630-ngay-09-09-2026-s1-14" tvg-name="[16:30 09/09/2026] Sydney Fc vs Melbourne Victory [BLV HD HIRO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlh650ryk0/image/small",[16:30 09/09/2026] Sydney Fc vs Melbourne Victory [BLV HD HIRO] [FLV]
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-14/off-tvc?is_off_add=false
-#EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-14/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001788953621-0-0-72945797034651a440cf59b8a4b1af74
 #EXTINF:-1 tvg-id="xoilac-ruc-tiep-fukushima-fc-vs-vegalta-sendai-luc-1700-ngay-09-09-2026-s1-2" tvg-name="[17:00 09/09/2026] Fukushima Fc vs Vegalta Sendai [BLV HD BEE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkh310zqg8n/image/small",[17:00 09/09/2026] Fukushima Fc vs Vegalta Sendai [BLV HD BEE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-8/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
@@ -52,20 +32,20 @@ https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001788953555-0-0-
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-10/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
 https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001788953563-0-0-5fa6c7042854d009ba9d4941c250b06f
-#EXTINF:-1 tvg-id="xoilac-uc-tiep-matsumoto-fc-vs-shonan-bellmare-luc-1700-ngay-09-09-2026-s1-5" tvg-name="[17:00 09/09/2026] Matsumoto Fc vs Shonan Bellmare [BLV HD ASTRA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kjw2r09hv90rz84/image/small",[17:00 09/09/2026] Matsumoto Fc vs Shonan Bellmare [BLV HD ASTRA] [FLV]
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-matsumoto-fc-vs-shonan-bellmare-luc-1700-ngay-09-09-2026-s1-9" tvg-name="[17:00 09/09/2026] Matsumoto Fc vs Shonan Bellmare [BLV HD ASTRA] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/kjw2r09hv90rz84/image/small",[17:00 09/09/2026] Matsumoto Fc vs Shonan Bellmare [BLV HD ASTRA] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001788953566-0-0-b3d0302f07c739536692263144dd456f
-#EXTINF:-1 tvg-id="xoilac--tiep-nagano-parceiro-vs-mito-hollyhock-luc-1700-ngay-09-09-2026-s1-6" tvg-name="[17:00 09/09/2026] Nagano Parceiro vs Mito Hollyhock [BLV HD RIO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7h10oeqdyj/image/small",[17:00 09/09/2026] Nagano Parceiro vs Mito Hollyhock [BLV HD RIO] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001788955480-0-0-43aea60b660d752113d5a0dd3f312224
+#EXTINF:-1 tvg-id="xoilac--tiep-nagano-parceiro-vs-mito-hollyhock-luc-1700-ngay-09-09-2026-s1-10" tvg-name="[17:00 09/09/2026] Nagano Parceiro vs Mito Hollyhock [BLV HD RIO] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7h10oeqdyj/image/small",[17:00 09/09/2026] Nagano Parceiro vs Mito Hollyhock [BLV HD RIO] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-16/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-16/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001788953573-0-0-fb973828b1ff00b7c8e7a0a2a5abf2bc
+https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001788955482-0-0-39d33de55a621a00057aa77fd0f82e89
 #EXTINF:-1 tvg-id="xoilac-truc-tiep-tochigi-sc-vs-m-yamagata-luc-1700-ngay-09-09-2026-s1-7" tvg-name="[17:00 09/09/2026] Tochigi Sc vs M Yamagata [BLV HD LOGAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zh3n80ql07/image/small",[17:00 09/09/2026] Tochigi Sc vs M Yamagata [BLV HD LOGAN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-23/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
@@ -73,76 +53,83 @@ https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001788953573-0-0-
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-23/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
 https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001788953586-0-0-c33358dbe611293b84408211ee864361
-#EXTINF:-1 tvg-id="xoilac--tiep-daejeon-hana-citizen-vs-fc-anyang-luc-1730-ngay-09-09-2026-s1-8" tvg-name="[17:30 09/09/2026] Daejeon Hana Citizen vs Fc Anyang [BLV HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyhx4jr1ge/image/small",[17:30 09/09/2026] Daejeon Hana Citizen vs Fc Anyang [BLV HD BRADY] [FLV]
+#EXTINF:-1 tvg-id="xoilac--tiep-daejeon-hana-citizen-vs-fc-anyang-luc-1730-ngay-09-09-2026-s1-3" tvg-name="[17:30 09/09/2026] Daejeon Hana Citizen vs Fc Anyang [BLV HD BRADY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyhx4jr1ge/image/small",[17:30 09/09/2026] Daejeon Hana Citizen vs Fc Anyang [BLV HD BRADY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-15/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-15/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001788953596-0-0-91d3b8d5ee72c2511c62b8a4f54c2bab
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-gangwon-fc-vs-jeonbuk-hyundai-luc-1730-ngay-09-09-2026-s1-9" tvg-name="[17:30 09/09/2026] Gangwon Fc vs Jeonbuk Hyundai [BLV HD NICK] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h78n0q0j6/image/small",[17:30 09/09/2026] Gangwon Fc vs Jeonbuk Hyundai [BLV HD NICK] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001788955398-0-0-ce9783d1d7263825bb1f647e4f6a0ba6
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-gangwon-fc-vs-jeonbuk-hyundai-luc-1730-ngay-09-09-2026-s1-4" tvg-name="[17:30 09/09/2026] Gangwon Fc vs Jeonbuk Hyundai [BLV HD NICK] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h78n0q0j6/image/small",[17:30 09/09/2026] Gangwon Fc vs Jeonbuk Hyundai [BLV HD NICK] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-5/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-5/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788953603-0-0-9f5522130de4b1168720c1531728e424
-#EXTINF:-1 tvg-id="xoilac-truc-tiep-gwangju-fc-vs-jeju-sk-fc-luc-1730-ngay-09-09-2026-s1-10" tvg-name="[17:30 09/09/2026] Gwangju Fc vs Jeju Sk Fc [BLV HD ROY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1hn37mojx/image/small",[17:30 09/09/2026] Gwangju Fc vs Jeju Sk Fc [BLV HD ROY] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788955413-0-0-adf9b262656e80ca4822354b4da2d92e
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-gwangju-fc-vs-jeju-sk-fc-luc-1730-ngay-09-09-2026-s1-5" tvg-name="[17:30 09/09/2026] Gwangju Fc vs Jeju Sk Fc [BLV HD ROY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1hn37mojx/image/small",[17:30 09/09/2026] Gwangju Fc vs Jeju Sk Fc [BLV HD ROY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-1/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-1/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001788953610-0-0-cb4954f83479a6df93f6b11a0c545f28
-#EXTINF:-1 tvg-id="xoilac-tiep-pohang-steelers-vs-gimcheon-sangmu-luc-1730-ngay-09-09-2026-s1-11" tvg-name="[17:30 09/09/2026] Pohang Steelers vs Gimcheon Sangmu [BLV HD MAX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hp0oqo9j/image/small",[17:30 09/09/2026] Pohang Steelers vs Gimcheon Sangmu [BLV HD MAX] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001788955414-0-0-9007bc252baaa1ffc4e87eb70b59038f
+#EXTINF:-1 tvg-id="xoilac-tiep-pohang-steelers-vs-gimcheon-sangmu-luc-1730-ngay-09-09-2026-s1-6" tvg-name="[17:30 09/09/2026] Pohang Steelers vs Gimcheon Sangmu [BLV HD MAX] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hp0oqo9j/image/small",[17:30 09/09/2026] Pohang Steelers vs Gimcheon Sangmu [BLV HD MAX] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-6/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-6/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001788953609-0-0-01e937e2a48031a7f1d10038fa0a9888
-#EXTINF:-1 tvg-id="xoilac-uc-tiep-vfb-stuttgart-u19-vs-viking-u19-luc-1730-ngay-09-09-2026-s1-12" tvg-name="[17:30 09/09/2026] Vfb Stuttgart U19 vs Viking U19 [BLV HD XMEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphoeg3r8k0/image/small",[17:30 09/09/2026] Vfb Stuttgart U19 vs Viking U19 [BLV HD XMEN] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001788955414-0-0-d076542445d1293f6c15b24ffee65eb3
+#EXTINF:-1 tvg-id="xoilac-uc-tiep-vfb-stuttgart-u19-vs-viking-u19-luc-1730-ngay-09-09-2026-s1-7" tvg-name="[17:30 09/09/2026] Vfb Stuttgart U19 vs Viking U19 [BLV HD XMEN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphoeg3r8k0/image/small",[17:30 09/09/2026] Vfb Stuttgart U19 vs Viking U19 [BLV HD XMEN] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-13/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-13/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001788953615-0-0-81ed26275ee2da951a7f24eb7fec285e
-#EXTINF:-1 tvg-id="xoilac-olna-nizhegorodskaya-vs-rotor-volgograd-luc-1800-ngay-09-09-2026-s1-1" tvg-name="[18:00 09/09/2026] Volna Nizhegorodskaya vs Rotor Volgograd [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkhkdj1qg8n/image/small",[18:00 09/09/2026] Volna Nizhegorodskaya vs Rotor Volgograd [BLV HD ZANE] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001788955427-0-0-6247dd1f4c1d8376715b842c35648d7d
+#EXTINF:-1 tvg-id="xoilac-olna-nizhegorodskaya-vs-rotor-volgograd-luc-1800-ngay-09-09-2026-s1-8" tvg-name="[18:00 09/09/2026] Volna Nizhegorodskaya vs Rotor Volgograd [BLV HD ZANE] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkhkdj1qg8n/image/small",[18:00 09/09/2026] Volna Nizhegorodskaya vs Rotor Volgograd [BLV HD ZANE] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-22/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-22/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788953525-0-0-47eb95f5e83b0a07a17ed04075a91f98
-#EXTINF:-1 tvg-id="xoilac-iep-ho-chi-minh-wings-vs-ha-noi-buffalo-luc-1930-ngay-09-09-2026-s1-15" tvg-name="[19:30 09/09/2026] Ho Chi Minh Wings vs Ha Noi Buffalo [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/z8yomovtw11q0j6/image/small",[19:30 09/09/2026] Ho Chi Minh Wings vs Ha Noi Buffalo [BLV HD TOMMY] [FLV]
+https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001788955471-0-0-26e763cc68226e7fecc2ecf80b676119
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-napoli-u19-vs-arsenal-u19-luc-1900-ngay-09-09-2026-s1-1" tvg-name="[19:00 09/09/2026] Napoli U19 vs Arsenal U19 [BLV HD JOHAN] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkhowdeqg8n/image/small",[19:00 09/09/2026] Napoli U19 vs Arsenal U19 [BLV HD JOHAN] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-12/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-12/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
+https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001788955283-0-0-1ef8942fecc9f94dcc2ea853d61d568f
+#EXTINF:-1 tvg-id="xoilac-truc-tiep-sadarakpat-vs-fc-pyunik-luc-1900-ngay-09-09-2026-s1-2" tvg-name="[19:00 09/09/2026] Sadarakpat vs Fc Pyunik [BLV HD TONI] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphpl39r8k0/image/small",[19:00 09/09/2026] Sadarakpat vs Fc Pyunik [BLV HD TONI] [FLV]
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false
+#EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-9/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
+https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001788955308-0-0-4160f901a6273b22952f10fbad1df418
+#EXTINF:-1 tvg-id="xoilac-iep-ho-chi-minh-wings-vs-ha-noi-buffalo-luc-1930-ngay-09-09-2026-s1-11" tvg-name="[19:30 09/09/2026] Ho Chi Minh Wings vs Ha Noi Buffalo [BLV HD TOMMY] [FLV]" group-title="Xôi Lạc" tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/z8yomovtw11q0j6/image/small",[19:30 09/09/2026] Ho Chi Minh Wings vs Ha Noi Buffalo [BLV HD TOMMY] [FLV]
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false
 #EXTVLCOPT:http-origin=https://xlz.domainkqt.cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","Referer":"https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-29/off-tvc?is_off_add=false","Origin":"https://xlz.domainkqt.cc"}
-https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788953650-0-0-75ce3c023d0108579fcedda4a76b3460
-#EXTINF:-1 tvg-id="colatv-699e6357abd8-1" tvg-name="[17:00 09/09] AC Nagano Parceiro vs Mito Hollyhock [BLV BÍ ĐAOĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/1eaad94a9f7a2d7000407ad8a2b324b5.png!w80",[17:00 09/09] AC Nagano Parceiro vs Mito Hollyhock [BLV BÍ ĐAOĐang xem] [M3U8]
+https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001788955482-0-0-459dfce4a5bbedf93bc64ab1310a46ec
+#EXTINF:-1 tvg-id="colatv-9ceeb6bfe872-1" tvg-name="[17:00 09/09] AC Nagano Parceiro vs Mito Hollyhock [BLV BÍ ĐAOĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/1eaad94a9f7a2d7000407ad8a2b324b5.png!w80",[17:00 09/09] AC Nagano Parceiro vs Mito Hollyhock [BLV BÍ ĐAOĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/99121525.m3u8
-#EXTINF:-1 tvg-id="colatv-ae3d35977a86-1" tvg-name="[17:00 09/09] Kamatamare Sanuki vs JEF United Ichihara Chiba [BLV FANTAĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/939efe234ca3f91c42df88abb1dfa395.png!w80",[17:00 09/09] Kamatamare Sanuki vs JEF United Ichihara Chiba [BLV FANTAĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-6f97e46f53f2-1" tvg-name="[17:30 09/09] Clb Pohang Steelers vs Gimcheon Sangmu FC [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/4a3e50e90ab721c1782568a287bd5358.png!w80",[17:30 09/09] Clb Pohang Steelers vs Gimcheon Sangmu FC [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/16226575.m3u8
-#EXTINF:-1 tvg-id="colatv-1fa77ede805d-1" tvg-name="[17:00 09/09] Kochi United vs V-Varen Nagasaki [BLV SPRITEĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/db8541bd99eb4da4a59c36d86b20bdcd.png!w80",[17:00 09/09] Kochi United vs V-Varen Nagasaki [BLV SPRITEĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/75748097.m3u8
+https://live05.meung.app/live/59444581.m3u8
 #EXTINF:-1 tvg-id="colatv-883e9043eea2-1" tvg-name="[17:30 09/09] Gangwon FC vs Jeonbuk Hyundai Motors [BLV SAMURAIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png!w80",[17:30 09/09] Gangwon FC vs Jeonbuk Hyundai Motors [BLV SAMURAIĐang xem] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -150,28 +137,42 @@ https://live05.meung.app/live/75748097.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/07808742.m3u8
-#EXTINF:-1 tvg-id="colatv-fecb4f90542f-1" tvg-name="[17:30 09/09] Gwangju Football Club vs Jeju SK FC [BLV MONSTERĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2e8e1e2a893d37e3f7260e97c807c28a.png!w80",[17:30 09/09] Gwangju Football Club vs Jeju SK FC [BLV MONSTERĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-fecb4f90542f-1" tvg-name="[17:30 09/09] Gwangju FC vs Jeju Utd [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2d2abe914435bb9b7140cf2154c50de9.png!w80",[17:30 09/09] Gwangju FC vs Jeju Utd [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/75915087.m3u8
-#EXTINF:-1 tvg-id="colatv-6f97e46f53f2-1" tvg-name="[17:30 09/09] Pohang Steelers vs Gimcheon Sangmu Football Club [BLV PEPSIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/6f05c460789939ac83282bd0686446f1.png!w80",[17:30 09/09] Pohang Steelers vs Gimcheon Sangmu Football Club [BLV PEPSIĐang xem] [M3U8]
-#EXTVLCOPT:http-referrer=https://colatv77.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://colatv77.live
-#EXTVLCOPT:http-reconnect=true
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
-https://live05.meung.app/live/59444581.m3u8
-#EXTINF:-1 tvg-id="colatv-26a655d3ca10-1" tvg-name="[17:30 09/09] VfB Stuttgart U19 vs Viking U19 [BLV HỔ VẰNĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/19d0efe1735f1ca322ac35d86deb63a1.png!w80",[17:30 09/09] VfB Stuttgart U19 vs Viking U19 [BLV HỔ VẰNĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-26a655d3ca10-1" tvg-name="[17:30 09/09] Stuttgart U19 vs Viking U19 [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/23654f1579e0f35249ae08aefbbece18.png!w80",[17:30 09/09] Stuttgart U19 vs Viking U19 [BLV Lịch thi đấu Cược VSBET 📲 Tải App 📲 Tả] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
 #EXTVLCOPT:http-reconnect=true
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
 https://live05.meung.app/live/07428422.m3u8
-#EXTINF:-1 tvg-id="colatv-6b82fa9dc850-1" tvg-name="[19:00 09/09] Napoli U19 vs Arsenal U19 [BLV FANTAĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/bf63cb867c789fa18d636914187c278c.png!w80",[19:00 09/09] Napoli U19 vs Arsenal U19 [BLV FANTAĐang xem] [M3U8]
+#EXTINF:-1 tvg-id="colatv-e470dc14caa3-1" tvg-name="[19:00 09/09] Sadarakpat vs FC Pyunik [BLV 247Đang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/03491477df0be4052e5d93e4b0295a0a.png!w80",[19:00 09/09] Sadarakpat vs FC Pyunik [BLV 247Đang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/90865415.m3u8
+#EXTINF:-1 tvg-id="colatv-7f0f3d3b4c79-1" tvg-name="[19:15 09/09] Kuala Lumpur City FC vs Perak FC [BLV ROCKSTARĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/football/team/2bf4316056c6dfba58002657790731a9.png!w80",[19:15 09/09] Kuala Lumpur City FC vs Perak FC [BLV ROCKSTARĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/82054853.m3u8
+#EXTINF:-1 tvg-id="colatv-38792ca5ada1-1" tvg-name="[19:30 09/09] Hochiminh City Wings vs Hanoi buffalo [BLV POCARIĐang xem]" group-title="ColaTV" tvg-logo="https://img.gvapi.cc/basketball/team/a431de8af67ea988c837ff726cdb30ca.png!w80",[19:30 09/09] Hochiminh City Wings vs Hanoi buffalo [BLV POCARIĐang xem] [M3U8]
+#EXTVLCOPT:http-referrer=https://colatv77.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://colatv77.live
+#EXTVLCOPT:http-reconnect=true
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://colatv77.live/","Origin":"https://colatv77.live"}
+https://live05.meung.app/live/19919577.m3u8
+#EXTINF:-1 tvg-id="colatv-8bc72ef194df-1" tvg-name="[20:00 09/09] Clb Terengganu vs Dpmm [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k]" group-title="ColaTV",[20:00 09/09] Clb Terengganu vs Dpmm [BLV Lịch thi đấu Cược VSBET Nhận KM Hỗ trợ k] [M3U8]
 #EXTVLCOPT:http-referrer=https://colatv77.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://colatv77.live
